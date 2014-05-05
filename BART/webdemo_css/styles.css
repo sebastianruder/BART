@@ -1,0 +1,53 @@
+/* 
+    Document   : styles
+    Created on : 18.04.2008, 10:57:12
+    Author     : versley
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.minidisc {
+    background: #eeeeee;    
+    margin: 4px;
+    font-size: 16px;
+}
+sub.postag { color: #666666; }
+sub.chunk { color: #0033ff; }
+.mention { 
+    background-color: #ccccdd;
+    decoration: none;
+}
+.mention-sel {
+    background-color: #99ff99;
+    font-weight: bold;
+}
+
+.coref-active {
+  background-color:#ff9999;
+}
+.coref-inactive {
+  background-color:#cceedd;
+}
+
+.waitingmsg {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+body {
+ background-color:#dddddd;
+}
+#leftpanel {
+ width: 800px;
+ padding:4px 2px 2px 2px;
+ border-color:#999999;
+ border-width: 2px;
+ background-color:#ffffff;
+}
+#rightpanel {
+ float: right;
+ width: 20em;
+ margin: 4px;
+}

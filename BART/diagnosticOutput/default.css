@@ -1,0 +1,55 @@
+.tokenbox {
+background-color: #eeeeee;
+border-width: 1px;
+border-color: #666666;
+border-style: solid;
+font-size:11px;
+font-family: serif;
+padding:2px;
+position: absolute;
+}
+
+.red {
+background-color: #ffaaaa;
+}
+.blue {
+background-color: #aaaaff;
+}
+.green {
+background-color: #aaffaa;
+}
+
+.grey {
+background-color: #dddddd;
+}
+
+.default-color {
+background-color: #aaeeee;
+}
+
+.markable {
+font-size:10px;
+border-width: 1px;
+border-color: #666666;
+border-style: solid;
+padding:2px;
+position: absolute;
+}
+
+.markable_ext {
+opacity:0.8;
+background-color:#eeeeee;
+border-width: 1px;
+border-style: dashed;
+padding:2px;
+position: absolute;
+z-index:-1;
+}
+
+.display {
+position: relative;
+}
+
+#barrier {
+background-color:#66ffff;
+}

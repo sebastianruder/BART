@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : xml-experiment.xsd
+    Created on : July 21, 2007, 5:27 PM
+    Author     : yannick
+    Description:
+        Purpose of XML Schema document follows.
+-->
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="coref-experiment" type="Experiment"/>
+<xsd:complexType name="Experiment">
+    <xsd:sequence>
+        <xsd:element name="system" type="System"/>
+    </xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="System">
+    <xsd:sequence>
+        <xsd:element name="classifiers" type="Classifiers"/>
+        <xsd:element name="extractors" type="Extractors"
+            maxOccurs="unbounded"/>
+        <xsd:element name="tuning-parameters" type="TuningParameters"
+            minOccurs="0"/>
+    </xsd:sequence>
+    <xsd:attribute name="type" type="xsd:string"/>
+</xsd:complexType>
+<xsd:complexType name="Classifiers">
+    <xsd:sequence>
+        <xsd:element name="classifier" type="Classifier"
+            maxOccurs="unbounded"/>
+        <xsd:element name="ranker" type="Ranker"
+            minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="Classifier">
+    <xsd:attribute name="type" type="xsd:string" use="required"/>
+    <xsd:attribute name="model" type="xsd:string"/>
+    <xsd:attribute name="learner" type="xsd:string"/>
+    <xsd:attribute name="options" type="xsd:string"/>
+</xsd:complexType>
+<xsd:complexType name="Ranker">
+    <xsd:sequence>
+    <xsd:element name="classifier" type="Classifier"
+        minOccurs="0"/>
+    </xsd:sequence>
+    <xsd:attribute name="type" type="xsd:string" use="required"/>
+    <xsd:attribute name="model" type="xsd:string"/>
+    <xsd:attribute name="learner" type="xsd:string"/>
+    <xsd:attribute name="options" type="xsd:string"/>
+</xsd:complexType>
+<xsd:complexType name="Extractors">
+    <xsd:sequence>
+        <xsd:element name="extractor" type="Extractor"
+            maxOccurs="unbounded"/>
+    </xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="Extractor">
+    <xsd:attribute name="name" type="xsd:string"/>
+</xsd:complexType>
+<xsd:complexType name="TuningParameters">
+    <xsd:sequence>
+        <xsd:element name="parameter" type="TuningParameter"
+            maxOccurs="unbounded"/>
+    </xsd:sequence>
+</xsd:complexType>
+<xsd:complexType name="TuningParameter">
+    <xsd:attribute name="type" type="xsd:string" use="required"/>
+    <xsd:attribute name="name" type="xsd:string" use="required"/>
+    <xsd:attribute name="value" type="xsd:string"/>
+</xsd:complexType>
+</xsd:schema>

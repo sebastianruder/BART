@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : idc0_system.xml
+    Created on : July 20, 2007, 10:09 AM
+    Author     : yannick
+    Description:
+        describes the IDC0 system as we are testing it
+-->
+
+<coref-experiment>
+<system type="soon">
+    <classifiers>
+        <classifier type="maxent" model="idc0"
+            options="** **"/>
+    </classifiers>
+    <extractors>
+        <!-- general info about antecedent -->
+        <extractor name="FE_MentionType_Buggy"/>
+        <!-- agreement features -->
+        <extractor name="FE_Gender"/>
+        <extractor name="FE_Number"/>
+        <!-- specialized features for aliases / appositive constructions -->
+        <extractor name="FE_Alias"/>
+        <extractor name="FE_Appositive"/>
+        <!-- string matching features -->
+        <extractor name="FE_StringMatch"/>
+        <!-- semantic class agreement -->
+        <extractor name="FE_SemanticClass"/>
+        <extractor name="FE_DistDiscrete"/>
+    </extractors>
+</system>
+</coref-experiment>
