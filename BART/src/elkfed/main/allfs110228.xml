@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : idc0_system.xml
+    Created on : July 20, 2007, 10:09 AM
+    Author     : yannick
+    Description:
+        describes the IDC0 system as we are testing it
+-->
+
+<coref-experiment>
+<system type="soon">
+    <classifiers>
+        <classifier type="maxent" model="idc0"
+            options="** **"/>
+         <!-- classifier type="weka" model="idc0" learner="weka.classifiers.trees.J48"  options=""/ -->
+    </classifiers>
+    <extractors>
+        <!-- general info about antecedent -->
+        <extractor name="FE_MentionType_Coarse"/>
+        <extractor name="FE_MentionType_Fine_Ana"/>
+        <!-- extractor name="FE_MentionType_Fine_Ante"/ -->
+        <!--agreement features -->
+        <extractor name="FE_Gender"/>
+        <extractor name="FE_Number"/>
+        <!--specialized features for aliases / appositive constructions -->
+        <extractor name="FE_Alias"/>
+        <extractor name="FE_AppositiveParse"/>
+        <!-- string matching features -->
+        <extractor name="FE_StringMatch" />
+        <!--semantic class agreement -->
+        <extractor name="FE_AnimacyAgree"/>
+        <extractor name="FE_SemClassAgree"/>
+        <extractor name="FE_DistDiscrete"/>
+        <!--random other stuff -->
+        <extractor name="FE_SemClassValue"/>
+        <extractor name="FE_BetterNames"/>
+<extractor name="FE_Appositive_iCab"/>
+        <extractor name="FE_First_Mention"/>
+        <extractor name="FE_Coordination"/>
+
+
+
+<!-- those are ok -->
+
+
+<extractor name="FE_BothLocation"/>
+<extractor name="FE_CorefChain"/>
+<extractor name="FE_DistanceMarkable"/>
+<extractor name="FE_DistanceSentence"/>
+<!-- extractor name="FE_DistanceWord"/ -->
+<extractor name="FE_FirstSecondPerson"/>
+<extractor name="FE_HeadMatch"/>
+<extractor name="FE_HeadPartOfSpeech"/>
+<extractor name="FE_LeftRightMatch"/>
+<extractor name="FE_MinSame"/>
+
+<extractor name="FE_NonProSalience"/>
+<extractor name="FE_NonPron_StrMatch"/>
+<extractor name="FE_Pronominal_StrMatch"/>
+<extractor name="FE_PronounLeftRight"/>
+<extractor name="FE_PronounWordForm"/>
+<extractor name="FE_PrprName_StrMatch"/>
+<extractor name="FE_Speech"/>
+<extractor name="FE_StringKernel"/>
+<extractor name="FE_SynPos"/>
+<extractor name="FE_WebPatterns"/>
+<extractor name="FE_Wiki"/>
+<extractor name="FE_Yago"/>
+ 
+<!-- recent additions -->
+<extractor name="FE_Compatible"/>
+<extractor name="FE_CCommand"/>
+<extractor name="FE_Span"/>
+<extractor name="FE_SameMaxNP"/>
+<extractor name="FE_Copula"/>
+        <extractor name="FE_DE_ShallowAttributeIncompatibility"/>
+        <extractor name="FE_DE_ShallowRelationIncompatibility"/>
+        <extractor name="FE_StringMatchExtra"/>
+
+
+    </extractors>
+</system>
+</coref-experiment>

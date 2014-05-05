@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : idc0_system_1.xml
+    Created on : July 20, 2007, 10:09 AM
+    Author     : yannick
+    Description:
+        describes the IDC0 system as we are testing it
+-->
+
+<coref-experiment>
+    <system type="soon">
+        <classifiers>
+            <classifier type="weka" model="idc0"
+                        learner="weka.classifiers.trees.J48"
+                        options=""/>
+        </classifiers>
+        <extractors>
+            <!-- general info about antecedent -->
+            <extractor name="FE_MentionType_Buggy"/>
+           <!--   <extractor name="FE_MentionType_Salience"/>  -->
+            <!-- agreement features -->
+            <extractor name="FE_Gender"/>
+            <extractor name="FE_Number"/>
+          <!--   <extractor name="FE_Expletive_Cheat"/>   -->
+            <!-- specialized features for aliases / appositive constructions -->
+            <extractor name="FE_Alias"/>
+            <extractor name="FE_Appositive"/>
+            <!--  string matching features -->
+            <extractor name="FE_StringMatch"/>
+            <!--  <extractor name="FE_HeadMatch"/> -->
+            <!--   <extractor name="FE_Pronominal_StrMatch"/> -->
+            <!--     <extractor name="FE_PrprName_StrMatch"/>  -->
+            <!-- semantic class agreement -->
+            <extractor name="FE_SemanticClass_fine"/>
+            <!--  <extractor name="FE_HeadStrudelSimilarity"/>-->
+             <!-- <extractor name="FE_StrudelNoRelatedness"/>-->
+            <!--<extractor name="FE_Hypernym"/> -->
+            <!--         <extractor name="FE_TreeFeature"/> -->
+             <!-- <extractor name="FE_SentenceDistance"/> -->
+            <!-- coref chain properties -->
+            <!--  <extractor name="FE_CorefChain"/> --> 
+             <!--  <extractor name="FE_CorefChainMS"/> -->
+               <extractor name="FE_CorefChainLengthMoreThan1"/>
+            <!--       <extractor name="FE_SemanticTreeFeature"/>  -->
+            <!--   <extractor name="FE_DE_ModificatorMatch"/>  -->
+            <!--   <extractor name="FE_DE_ModificatorSetSubsumed"/> -->
+            <!--      <extractor name="FE_DE_ModificatorSetSubsumedVP"/>  -->
+            <!--   <extractor name="FE_DE_NameStructureIncompatibility"/>  -->
+            <!--  <extractor name="FE_DE_SemanticTreeIncompatibility"/> --> 
+            <!--    <extractor name="FE_DE_SemanticTreeIncompatibilityWNSyn"/> -->
+              <!--    <extractor name="FE_DE_SemanticTreeIncompatibilityWNHyp"/>-->
+               <!--   <extractor name="FE_DE_StringIncompatibility"/> -->
+               <!--  <extractor name="FE_DE_ShallowTreeDirectionIncomp"/>-->
+             <!-- <extractor name="FE_DE_ShallowAttributeIncompatibility"/> -->
+            <!--  <extractor name="FE_DE_ShallowTypeIncompatibility"/>-->
+               <extractor name="FE_DE_Strudel_1"/>
+             <!--   <extractor name="FE_DE_IntegratedShallowSemanticTreeIncompatibility"/>  -->
+        </extractors>
+    </system>
+</coref-experiment>
+
+<!--  <extractor name="FE_DE_IntegratedShallowSemanticTreeIncompatibility"/>-->

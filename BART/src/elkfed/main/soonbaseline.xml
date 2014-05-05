@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : soonbaseline.xml
+    Created on : July 20, 2007, 10:09 AM
+    Author     : olga
+    Description:
+        configuration for Soon et al features
+-->
+
+<coref-experiment>
+<system type="soon">
+    <classifiers>
+        <classifier type="svmlight" model="idc0"
+            options=""/>
+        <!-- classifier type="maxent" model="idc0" options="** **"/ -->
+         <!-- classifier type="weka" model="idc0" learner="weka.classifiers.trees.J48"  options=""/ -->
+    </classifiers>
+    <extractors>
+
+        <extractor name="FE_Gender"/>
+        <extractor name="FE_Number"/>
+        <extractor name="FE_Alias"/>
+        <extractor name="FE_StringMatch" />
+        <extractor name="FE_SemClassAgree"/>
+        <extractor name="FE_SoonMisc"/>
+<!-- appositives in Soon et al are regexps, not parse-based -->
+        <extractor name="FE_AppositiveParse"/>
+<!-- distance in Soon et al is abs, not log -->
+        <extractor name="FE_DistanceSentence"/>
+
+
+
+    </extractors>
+</system>
+</coref-experiment>

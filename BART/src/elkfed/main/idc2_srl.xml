@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : idc2_srl.xml
+    Created on : July 20, 2007, 10:09 AM
+    Author     : ponzo
+    Description:
+        describes the IDC2 SRL system as we are testing it
+-->
+
+<coref-experiment>
+<system type="soon">
+    <classifiers>
+<!--        <classifier type="weka" model="idc2"
+            learner="weka.classifiers.trees.J48"
+            options=""/> -->
+<!--        <classifier type="maxent" model="idc2"
+            options="** **"/> -->
+        <classifier type="mallet" model="idc2"
+            learner="edu.umass.cs.mallet.base.classify.MaxEntTrainer"
+            options=""/>
+    </classifiers>
+    <extractors>
+        <!-- general info about antecedent -->
+        <extractor name="FE_MentionType_Buggy"/>
+        <!-- agreement features -->
+        <extractor name="FE_Gender"/>
+        <extractor name="FE_Number"/>
+        <!-- specialized features for aliases / appositive constructions -->
+        <extractor name="FE_Alias"/>
+        <extractor name="FE_Appositive"/>
+        <!-- string matching features -->
+        <extractor name="FE_StringMatch"/>
+        <!-- semantic class agreement -->
+        <extractor name="FE_SemanticClass"/>
+        <extractor name="FE_SentenceDistance"/>
+        <!-- srl information -->
+        <extractor name="FE_SemRole"/>
+    </extractors>
+</system>
+</coref-experiment>

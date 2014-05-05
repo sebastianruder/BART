@@ -1,0 +1,146 @@
+/*
+ * SoonDecoder.java
+ *
+ * Created on July 12, 2007, 5:37 PM
+ *
+ * To change this template, choose Tools | Template Manager
+ * and open the template in the editor.
+ */
+
+/*
+* Uses a single binary feature (to be specified within this file) + 
+* the soon-style decoder to build chains 
+* (needed only for evaluating various features, baselines, etc)
+*
+* by olga
+*/
+
+
+package elkfed.coref.algorithms.soon;
+
+import elkfed.coref.CorefResolver;
+import elkfed.coref.eval.LinkScorer;
+import elkfed.coref.eval.SplitLinkScorer;
+import elkfed.coref.mentions.Mention;
+import elkfed.coref.PairFeatureExtractor;
+import elkfed.coref.PairInstance;
+import elkfed.coref.discourse_entities.DiscourseEntity;
+import elkfed.ml.FeatureDescription;
+import elkfed.ml.OfflineClassifier;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import net.cscott.jutil.DisjointSet;
+import elkfed.coref.features.pairs.FE_CoRef;
+import elkfed.coref.features.pairs.FE_Alias;
+import elkfed.coref.features.pairs.FE_StringMatch;
+import elkfed.coref.features.pairs.FE_Appositive;
+
+
+public class SoonDummyDecoder extends LocalDecoder {
+
+    protected static final Logger _logger = Logger.getAnonymousLogger();
+    private static final int CHUNK_SIZE = 10;
+    List<PairFeatureExtractor> _fes;
+    OfflineClassifier _model;
+
+    public SoonDummyDecoder(List<PairFeatureExtractor> fes,
+            OfflineClassifier model) {
+        _fes=fes;
+        _model=model;
+        ArrayList<FeatureDescription> fds = new ArrayList<FeatureDescription>();
+        for (PairFeatureExtractor fe : _fes) {
+            fe.describeFeatures(fds);
+        }
+        fds.add(PairInstance.FD_POSITIVE);
+        _model.setHeader(fds);
+    }
+
+    public DisjointSet<Mention> decodeDocument(List<Mention> mentions) {
+        DisjointSet<Mention> clusters=new DisjointSet<Mention>();
+        List<PairInstance> candLinks=new ArrayList<PairInstance>();
+        List<Boolean> result=new ArrayList<Boolean>();
+        int numLinks=0;
+        _logger.log(Level.INFO,
+                String.format("SoonDecoder: decode document with %d mentions\n",
+                mentions.size()));
+        for (int i=1; i<mentions.size(); i++) {
+            boolean antecedent_found=false;
+            Mention m_i=mentions.get(i);
+            base_j_loop:
+                for (int base_j=i-1; base_j>=0; base_j -= CHUNK_SIZE)
+            {
+                candLinks.clear();
+                result.clear();
+                final int low_j;
+                if (base_j<CHUNK_SIZE)
+                    low_j=0;
+                else
+                    low_j=base_j-CHUNK_SIZE+1;
+                for (int j=base_j; j>=low_j; j--) {
+                    Mention m_j=mentions.get(j);
+                    if (m_i.overlapsWith(m_j) || m_i.embeds(m_j))
+                        continue;
+                    PairInstance inst=new PairInstance(m_i, m_j);
+                    for (PairFeatureExtractor fe: _fes) {
+                        fe.extractFeatures(inst);
+                    }
+                    // for debugging purposes, add the isCoreferent value to
+                    // the learning instances
+                    inst.setFeature(PairInstance.FD_POSITIVE,
+                            inst.getAnaphor().isCoreferent(inst.getAntecedent()));
+                    candLinks.add(inst);
+                }
+                _model.classify(candLinks,result);
+                for (int j=0; j<candLinks.size(); j++) {
+                    if (result.get(j)) {
+                        PairInstance lnk=candLinks.get(j);
+                        numLinks++;
+                        if (_logger.isLoggable(Level.FINE)) {
+                            Object[] args={lnk.getAnaphor(),lnk.getAntecedent()};
+                            _logger.log(Level.FINE,
+                                    "joining %s and %s\n",
+                                    args);
+                            _logger.log(Level.FINE,lnk.getDebugInfo());
+                        }
+                        clusters.union(lnk.getAnaphor(), lnk.getAntecedent());
+                        DiscourseEntity de_ante = lnk.getAntecedent().getDiscourseEntity();
+
+
+                        //Merging of antecedent and anaphora
+                        lnk.getAnaphor().linkToAntecedent(lnk.getAntecedent());
+
+                        _scorer.scoreLink(mentions,
+                                mentions.indexOf(lnk.getAntecedent()),i);
+                        antecedent_found=true;
+                        break base_j_loop;
+                    }
+                }
+            }
+            if (!antecedent_found) _scorer.scoreNonlink(mentions,i);
+        }
+        _logger.log(Level.INFO,String.format("joined %d pairs in %d mentions",
+                numLinks,mentions.size()));
+        _scorer.displayResults();
+        return clusters;
+    }
+
+    public int resolveSingle(List<Mention> mentions, int ana) {
+        Mention m_i=mentions.get(ana);
+        for (int j=ana-1; j>=0; j--) {
+           Mention m_j=mentions.get(j);
+           PairInstance inst=new PairInstance(m_i, m_j);
+           for (PairFeatureExtractor fe: _fes) {
+              fe.extractFeatures(inst);
+           }
+//           if (inst.getFeature(FE_CoRef.FD_IS_COREF)) {
+//           if (inst.getFeature(FE_Alias.FD_IS_ALIAS)) {
+//           if (inst.getFeature(FE_StringMatch.FD_IS_STRINGMATCH)) {
+           if (inst.getFeature(FE_Appositive.FD_IS_APPOSITIVE)) {
+             return j;
+           }
+        }
+        return -1;
+    }
+}
