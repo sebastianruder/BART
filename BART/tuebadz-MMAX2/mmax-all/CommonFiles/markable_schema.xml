@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotationscheme>
+
+<attribute id="markable_type" name="markable_type" type="nominal_button">
+<value id="v1_1" name="np"/>
+<value id="v1_1" name="np.coord"/>
+<value id="v1_2" name="v.clitic"/>
+<value id="v1_3" name="v.clitic2"/>
+<value id="v1_4" name="v.zero"/>
+<value id="v1_5" name="poss"/>
+</attribute>
+
+<attribute id="mention_type" name="mention_type" type="nominal_button">
+<value id="v2_1" name="pro.per1"/>
+<value id="v2_2" name="pro.per2"/>
+<value id="v2_3" name="pro.per3"/>
+<value id="v2_4" name="pro.refl"/>
+<value id="v2_5" name="nom.def"/>
+<value id="v2_6" name="nom.indef"/>
+<value id="v2_7" name="nam"/>
+</attribute>
+
+<attribute id="gend" name="gend" type="nominal_button">
+<value id="v3_1" name="any"/> 
+<value id="v3_2" name="fem"/>
+<value id="v3_3" name="masc"/>
+<value id="v3_4" name="neut"/>
+</attribute>
+
+<attribute id="num" name="num" type="nominal_button">
+<value id="v4_1" name="any"/> 
+<value id="v4_2" name="sing"/>
+<value id="v4_3" name="plur"/>
+</attribute>
+
+<attribute id="sem_type" name="sem_type" type="freetext">
+<value id="v5_1" name="sem_type"/>
+</attribute>
+
+<attribute id="head_pos" name="head_pos" type="freetext">
+<value id="v6_1" name="head_pos"/>
+</attribute>
+
+<attribute id="sentenceid" name="sentenceid" type="freetext">
+<value id="v7_1" name="sentenceid"/>
+</attribute>
+
+</annotationscheme>
