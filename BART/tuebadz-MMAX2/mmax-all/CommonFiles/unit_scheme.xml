@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotationscheme>
+
+<attribute id="finite" name="Finite" type="nominal_list">
+<value id="no_mark" name="unmarked"/> 
+<value id="finite-no" name="finite-no"/>
+<value id="finite-yes" name="finite-yes"/>
+<value id="no-finite" name="no-finite"/>
+<value id="unsure-finite" name="unsure-finite"/>
+</attribute>
+
+<attribute id="subject" name="Subject" type="nominal_list">
+<value id="no_mark" name="unmarked"/> 
+<value id="empty-subject" name="empty-subject"/>
+<value id="full-subject" name="full-subject"/>
+<value id="no-subject" name="no-subject"/>
+<value id="relpro" name="relpro"/>
+<value id="unsure-subject" name="unsure-subject"/>
+</attribute>
+
+<attribute id="utype" name="Utype" type="nominal_list">
+<value id="no_mark" name="unmarked"/> 
+<value id="adjunct" name="adjunct"/>
+<value id="appositive" name="appositive"/>
+<value id="captionitem" name="captionitem"/>
+<value id="complement" name="complement"/>
+<value id="coord-vp" name="coord-vp"/>
+<value id="disc-marker" name="disc-marker"/>
+<value id="listitem" name="listitem"/>
+<value id="main" name="main"/>
+<value id="paren-app" name="paren-app"/>
+<value id="paren-main" name="paren-main"/>
+<value id="paren-rel" name="paren-rel"/>
+<value id="parenthetical" name="parenthetical"/>
+<value id="preposed-adjunct" name="preposed-adjunct"/>
+<value id="preposed-pp" name="preposed-pp"/>
+<value id="relative" name="relative"/>
+<value id="subject" name="subject"/>
+<value id="such-as" name="such-as"/>
+<value id="title" name="title"/>
+<value id="unsure-utype" name="unsure-utype"/>
+</attribute>
+
+<attribute id="verbed" name="Verbed" type="nominal_list">
+<value id="no_mark" name="unmarked"/> 
+<value id="unsure-verbed" name="unsure-verbed"/>
+<value id="verbed-no" name="verbed-no"/>
+<value id="verbed-yes" name="verbed-yes"/>
+</attribute>
+
+</annotationscheme>

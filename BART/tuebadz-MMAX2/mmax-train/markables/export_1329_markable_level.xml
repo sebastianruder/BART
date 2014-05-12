@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_11" span="word_1" mmax_level="markable" gend="neut" head_pos="0" markable_type="np" min_ids="word_1" num="sing" sem_type="LOC" sentenceid="1"/>
+<markable id="markable_21" span="word_5" mmax_level="markable" gend="neut" head_pos="4" markable_type="np" min_ids="word_5" num="sing" sem_type="LOC" sentenceid="2"/>
+<markable id="markable_101" span="word_11..word_12" mmax_level="markable" gend="fem" head_pos="11" markable_type="np" min_ids="word_11..word_12" num="plur" sem_type="EVT" sentenceid="3"/>
+<markable id="markable_102" span="word_16..word_17" mmax_level="markable" gend="neut" head_pos="15" markable_type="np" min_ids="word_16" num="sing" sem_type="ORG" sentenceid="3"/>
+<markable id="markable_103" span="word_21" mmax_level="markable" head_pos="20" markable_type="np" mention_type="pro.refl" min_ids="word_21" sentenceid="3"/>
+<markable id="markable_104" span="word_22" mmax_level="markable" head_pos="21" markable_type="poss" mention_type="pro.per3" min_ids="word_22" sentenceid="3"/>
+<markable id="markable_105" span="word_22..word_24" mmax_level="markable" gend="any" head_pos="23" markable_type="np" min_ids="word_22..word_24" num="plur" sem_type="TMP" sentenceid="3"/>
+<markable id="markable_106" span="word_26..word_30" mmax_level="markable" gend="masc" head_pos="26" markable_type="np" min_ids="word_26..word_27" num="sing" sem_type="None" sentenceid="3"/>
+<markable id="markable_107" span="word_29..word_30" mmax_level="markable" gend="neut" head_pos="29" markable_type="np" min_ids="word_29..word_30" num="sing" sem_type="PER" sentenceid="3"/>
+<markable id="markable_108" span="word_34" mmax_level="markable" gend="neut" head_pos="33" markable_type="np" mention_type="pro.per3" min_ids="word_34" num="sing" sentenceid="3"/>
+<markable id="markable_109" span="word_39" mmax_level="markable" gend="any" head_pos="38" markable_type="np" min_ids="word_39" num="plur" sem_type="None" sentenceid="3"/>
+<markable id="markable_110" span="word_43" mmax_level="markable" gend="masc" head_pos="42" markable_type="np" min_ids="word_43" num="sing" sem_type="None" sentenceid="3"/>
+<markable id="markable_161" span="word_47..word_54" mmax_level="markable" gend="masc" head_pos="47" markable_type="np" min_ids="word_47..word_48" num="sing" sem_type="ORG" sentenceid="4"/>
+<markable id="markable_162" span="word_57" mmax_level="markable" head_pos="56" markable_type="np" mention_type="pro.refl" min_ids="word_57" sentenceid="4"/>
+<markable id="markable_163" span="word_59..word_60" mmax_level="markable" gend="neut" head_pos="59" markable_type="np" min_ids="word_59..word_60" num="sing" sem_type="ORG" sentenceid="4"/>
+<markable id="markable_164" span="word_65..word_67" mmax_level="markable" gend="masc" head_pos="64" markable_type="np" min_ids="word_65" num="sing" sem_type="None" sentenceid="4"/>
+<markable id="markable_188" span="word_71..word_75" mmax_level="markable" gend="masc" head_pos="70" markable_type="np" min_ids="word_71..word_72" num="sing" sem_type="None" sentenceid="5"/>
+<markable id="markable_189" span="word_79..word_80" mmax_level="markable" gend="fem" head_pos="79" markable_type="np" min_ids="word_79..word_80" num="plur" sem_type="None" sentenceid="5"/>
+<markable id="markable_218" span="word_82..word_87" mmax_level="markable" gend="neut" head_pos="83" markable_type="np" min_ids="word_82..word_84" num="sing" sem_type="ORG" sentenceid="6"/>
+<markable id="markable_219" span="word_86..word_87" mmax_level="markable" gend="neut" head_pos="86" markable_type="np" min_ids="word_86..word_87" num="sing" sem_type="LOC" sentenceid="6"/>
+<markable id="markable_220" span="word_90" mmax_level="markable" gend="masc" head_pos="89" markable_type="np" min_ids="word_90" num="sing" sem_type="TMP" sentenceid="6"/>
+<markable id="markable_221" span="word_92" mmax_level="markable" gend="neut" head_pos="91" markable_type="np" min_ids="word_92" num="sing" sem_type="None" sentenceid="6"/>
+</markables>
