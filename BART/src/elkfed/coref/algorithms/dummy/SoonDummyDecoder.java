@@ -50,7 +50,9 @@ public class SoonDummyDecoder extends LocalDecoder {
 
 
     public int resolveSingle(List<Mention> mentions, int ana) {
+    	// ana: current index
         Mention m_i=mentions.get(ana);
+        // m_i: current mention
 
         for (int j=ana-1; j>=0; j--) {
            Mention m_j=mentions.get(j);
@@ -60,6 +62,8 @@ public class SoonDummyDecoder extends LocalDecoder {
            for (PairFeatureExtractor fe: _fes) {
               fe.extractFeatures(inst);
            }
+           // checks if anaphor and antecedent are coreferent
+           // uses setID --> unclear
            inst.setFeature(PairInstance.FD_POSITIVE,
                inst.getAnaphor().isCoreferent(inst.getAntecedent()));
 //           if (inst.getFeature(FE_Yago.FD_YAGO_TYPEOF) || inst.getFeature(FE_Yago.FD_YAGO_MEANS)) {
