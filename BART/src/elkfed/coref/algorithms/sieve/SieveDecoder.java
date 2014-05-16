@@ -39,6 +39,8 @@ public class SieveDecoder implements CorefResolver {
         
         for (int walk_through = 1; walk_through < 11; walk_through++) {
 		    
+        	// is this loop even necessary or do we rather just iterate 10 times
+        	// and each sieve goes through the mentions / entities on its own?
 		    for (int i = 0; i < mentions.size(); i++) {
 		    	
 		    	/* Instead of the switch statement, it would be better just being
@@ -50,12 +52,15 @@ public class SieveDecoder implements CorefResolver {
 		    	 */
 		    	
 		    	switch(walk_through) {
-		    	case 1: SpeakerIdentificatonSieve;
+		    	case 1:
+		    		Sieve sieve = new SpeakerIdentificatonSieve();
 		    	// puts singletons in a single disjoint set
 				// --> confirm with Yannick
 		    	if (ConfigProperties.getInstance().getOutputSingletons()) 
 		            clusters.union(mentions.get(i), mentions.get(i));
 		    	case 2: StringMatchSieve;
+		    		Sieve sieve = new StringMatchSieve(mentions);
+		    		sieve.compareEntities();
 		    	case 3: RelaxedStringMatchSieve;
 		    	case 4: PreciseConstructSieve;
 		    	case 5: StrictHeadMatchASieve;
