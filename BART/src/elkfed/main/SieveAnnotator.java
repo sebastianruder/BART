@@ -35,13 +35,13 @@ public class SieveAnnotator {
     {
         try {
         	CorefResolver resolv = new SieveDecoder();
-            AnnotationProcessor cap = new AnnotationProcessor(
+            AnnotationProcessor processor = new AnnotationProcessor(
                     resolv,
                     ConfigProperties.getInstance().getTestData(),
                     ConfigProperties.getInstance().getTestDataId(),
                     ConfigProperties.getInstance().getMentionFactory()
             );
-            cap.processCorpus();
+            processor.processCorpus();
             AnnotationProcessor.scoreMUC(ConfigProperties.getInstance().getTestData());
         }
         catch (Exception e)
