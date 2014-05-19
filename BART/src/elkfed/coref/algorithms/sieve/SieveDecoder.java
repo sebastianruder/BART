@@ -22,12 +22,15 @@ public class SieveDecoder implements CorefResolver {
 	protected static final Logger _logger = Logger.getAnonymousLogger();
 	protected LinkScorer _scorer = new SplitLinkScorer();
 	
+	
+	
 	public DisjointSet<Mention> decodeDocument(List<Mention> mentions,
 			Map<Mention, Mention> antecedents) {
 		
 		// creates data structure where disjoint sets of mentions are
 		// going to be stored
-		DisjointSet<Mention> clusters = new DisjointSet<Mention>();
+		DisjointSet<Mention> mention_clusters = new DisjointSet<Mention>();
+		Set<DiscourseEntity> entities;
 		// counts number of links
 		int numLinks = 0;		
         _logger.log(Level.INFO,
@@ -39,6 +42,8 @@ public class SieveDecoder implements CorefResolver {
         
         for (int walk_through = 1; walk_through < 11; walk_through++) {
 		    
+        	
+        	
         	// is this loop even necessary or do we rather just iterate 10 times
         	// and each sieve goes through the mentions / entities on its own?
 		    for (int i = 0; i < mentions.size(); i++) {
@@ -83,7 +88,7 @@ public class SieveDecoder implements CorefResolver {
 		        else
 		        {
 		            numLinks++;
-		            clusters.union(mentions.get(i),mentions.get(ante_idx));
+		            mention_clusters.union(mentions.get(i),mentions.get(ante_idx));
 		            antecedents.put(mentions.get(i), mentions.get(ante_idx));
 		            mentions.get(i).linkToAntecedent(mentions.get(ante_idx));
 		            _scorer.scoreLink(mentions, ante_idx, i);
@@ -99,7 +104,7 @@ public class SieveDecoder implements CorefResolver {
         _logger.log(Level.INFO,String.format("joined %d pairs in %d mentions",
                 numLinks,mentions.size()));
 	    //_scorer.displayResults();
-	    return clusters;
+	    return mention_clusters;
 	}
 
     public void printStatistics() {
