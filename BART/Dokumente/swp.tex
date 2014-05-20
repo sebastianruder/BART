@@ -1,0 +1,68 @@
+\documentclass{scrartcl}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+%\setkomafont{disposition}{\normalfont\bfseries}
+\author{Julian Baumann, Xenia K\"uhling, Sebastian Ruder}
+\date{13. Mai 2014}
+\title{Regelbasierte Koreferenz mit BART}
+\subtitle{Forschungsplan zum Softwareprojekt im Sommersemester 2014}
+
+
+\begin{document}
+\maketitle
+
+\section{Projektbeschreibung}
+BART, das "Beautiful Anaphora Resolution Toolkit", wurde beim Projekt "Exploiting Lexical and Encyclopedic Resources For Entity Disambiguation" am Johns Hopkins Summer Workshop 2007 erstellt. BART unternimmt automatische Koreferenzresolution mithilfe einer modularen Pipeline, die aus einer Vorverarbeitungsphase (Daten von MMAX2-Annotationsebenen werden aggregiert), der Extraktion der NP-Kandidaten, der Extraktion der NP-Merkmale und der Kandidatenpaare sowie aus einem Resolutionsmodell besteht. BART verwendet momentan einen auf einem Ansatz von Soon basierenden Resolutionsalgorithmus, der Kandidaten-NPs hinsichtlich ihrer Merkmale paarweise vergleicht. Statt diesem soll nun das Resolutionssystem der Stanford-NLP-Gruppe (im Folgenden Stanford-System) implementiert werden, das sich durch seine Sieb-Architektur auszeichnet. Obwohl es haupts\"achlich auf Regeln basiert, konnte es dennoch das beste Ergebnis beim CoNLL-2011 shared task erzielen. Im Rahmen der Sieb-Architektur werden nacheinander - absteigend nach ihrer Pr\"azision geordnet - eine Reihe von deterministischen Koreferenzmodellen angewendet, wobei jedes Modell auf den Output seines Vorg\"angers aufbaut. Besonders das Entit\"at-zentrische Modell, in bei dem Merkmale \"uber alle Vorkommen einer Entit\"at geteilt werden, bietet einen deutlichen Wissensgewinn, der von Nutzen f\"ur BARTs Performanz sein wird.
+
+
+
+
+
+\section{Ziel} 
+Das Ziel besteht darin, die deterministischen Koreferenzmodelle des Stanford-Systems in BART zu implementieren. Falls nach Erreichen dieses Ziels noch Zeit bleibt, w\"are die Implementierung weiterer Regeln vorstellbar. Idealerweise soll ein (wie BART) grunds\"atzlich sprachunabh\"angiges System entwickelt werden, das durch sprachspezifische Spezifikationen modifiziert wird. 
+
+
+\section{L\"osungsansatz}
+Der L\"osungsansatz basiert auf den Koreferenzmodellen (Sieben) des Stanford-Systems.\\
+\begin{itemize}
+
+
+\item \textbf{Speaker Identification:} Es werden Sprecher identifiziert und mit m\"oglichen koreferenten Pronomen verbunden. 
+\item \textbf{String Match:} Zwei Entit\"aten werden als koreferent angesehen, wenn sie denselben Text(umfang) haben, einschlie{\ss}lich ihrer Attribute und Artikel. 
+\item \textbf{Relaxed String Match:} Zwei nominale Entit\"aten sind koreferent, wenn ihre K\"opfe gleich sind.
+\item \textbf{Precise Constructs:} Zwei Entit\"aten sind koreferent, wenn sie gemeinsam in einer Appositions- oder Subjekt-Objekt-Konstruktion stehen. Wenn die Entit\"at ein zum Kopf des Antezedens geh\"origes Relativpronomen ist, ein Akronym oder ein Demonym ist. 
+\item \textbf{Strict Head Match A, Strict Head Match B, Strict Head Match C, Proper Head Noun Match, Relaxed Head Match:} Diese Regeln bezeichnen Entit\"aten als koreferent, wenn sie denselben Kopf haben und bestimmte Bedingungen erf\"ullen. 
+\item \textbf{Pronoun Match:} Pronominale Koreferenz besteht, wenn bestimmte Agreement-Bedingungen erf\"ullt sind. Z.B.: Numerus, Genus, Person, Belebtheit, Satzentfernung zwischen Pronomen und Antezedens ${\leq}$ 3
+\end{itemize}
+
+Vorerst sollen String Match und Pronoun Match implementiert werden. (?!)
+
+
+
+\section{Tools}
+Das Projekt baut auf dem bestehenden in Java programmierten Quellcode von BART auf. 
+
+
+\section{Daten}
+F\"ur das Deutsche wird die T\"uBA-D/Z Baumbank genutzt. 
+F\"ur das Englische wird die Penn Treebank genutzt. 
+F\"ur das Italienische wird ACE-style coreference auf dem iCab Korpus genutzt. \\
+Es ist vorgesehen auf dem Deutschen basierend zu entwickeln und das System sp\"ater f\"ur Englisch und Italienisch zu testen. 
+
+
+
+\nocite{*}
+\bibliographystyle{abbrv}
+\bibliography{lit}
+
+
+
+\end{document}
+
+
+
+
+
+
