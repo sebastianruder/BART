@@ -5,6 +5,11 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
+
+% Notwendig für Gantt-Diagramme (Zeitstrahl)
+\usepackage{tikz}
+\usepackage{gantt}
+
 \usetheme{Berlin}
 \author{Julian Baumann, Xenia Kühling, Sebastian Ruder}
 \title{Koreferenz mit BART}
@@ -66,6 +71,36 @@ efregrgoiu
 
 \section{Aufgaben und Module}
 \section{Zeitplan}
+    \begin{gantt}{10}{9}
+    \begin{ganttitle}
+      \titleelement{Mai}{1}
+      \titleelement{Juni}{4}
+      \titleelement{Juli}{5}
+    \end{ganttitle}
+    \begin{ganttitle}
+      \titleelement{27.05.}{1}
+      \titleelement{03.06.}{1}
+      \titleelement{10.06.}{1}
+      \titleelement{17.06.}{1}
+      \titleelement{24.06.}{1}      
+      \titleelement{01.07.}{1}
+      \titleelement{08.07.}{1}
+      \titleelement{15.07.}{1}
+      \titleelement{22.07.}{1}
+    \end{ganttitle}
+    \ganttbar{Pipeline läuft}{0}{2}
+    \ganttmilestone[color=cyan]{1. \textit{Sieve} läuft}{2}
+    \ganttbar{\textit{Sieves} einfügen}{2}{3}
+    \ganttmilestone[color=cyan]{\textit{Sieves} laufen}{5}
+    \ganttbar{Evaluation}{5}{2}
+    \ganttbar[color=cyan]{Bugfixes}{2}{5}
+    \ganttbar{Präsentation}{7}{1}
+    \ganttbar[color=cyan]{Dokumentation}{5}{4}
+  \end{gantt}
+  
+
+
+
 \section{Softwarespezifikation}
 \section{Quellen}
 
