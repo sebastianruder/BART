@@ -1,0 +1,138 @@
+\documentclass[12pt]{article}
+
+\usepackage{url}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{lingmacros}
+\usepackage{tree-dvips}
+%\usepackage{avm}
+%\bibpunct{(}{)}{,}{a}{,}{,}
+\addtolength{\textwidth}{3cm}
+\addtolength{\textheight}{5cm}
+\addtolength{\oddsidemargin}{-2cm}
+\addtolength{\topmargin}{-1cm}
+
+\parindent=0cm
+
+\usepackage[german]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc} 
+
+\usepackage{tikz-dependency}
+\usepackage{qtree}
+\usepackage{pgf}
+
+\newcommand{\bit}{\begin{itemize}}
+\newcommand{\eit}{\end{itemize}}
+\newcommand{\bt}{\begin{tabular}}
+\newcommand{\et}{\end{tabular}}
+\newcommand{\mc}{\multicolumn}
+\newcommand{\absatz}{\vspace*{3mm}}
+\newcommand{\ul}{\underline}
+\newcommand{\dn}{\downarrow}
+\newcommand{\up}{\uparrow}
+
+
+\begin{document}
+\noindent
+{\sc
+\begin{tabular}{@{}l@{\hspace*{94mm}}r@{}}
+\hline\\[-2mm]
+{\bf Formale Syntax}&3.5.2012 \\
+Prof. Dr. Anette Frank&\\
+SoSe 2012 & \\[1mm]
+\hline
+\end{tabular}
+}
+
+\subsection*{Aufgabenblatt (Abgabe bis 13.5.2012)}
+
+\subsubsection*{Aufgabe 1 \hfill (5 Punkte)}
+
+Zeichnen sie zwei m\"ogliche F-Strukturen f\"ur den folgenden Satz.
+Beschreiben Sie verschiedene Situationen, auf die Sie mit den entsprechenden
+syntaktischen Lesarten Bezug nehmen k\"onnen.
+
+\enumsentence{{\em Peter parkte das Auto auf der Wiese neben der Autobahn.}}
+
+\subsubsection*{Aufgabe 2}
+
+Erkunden Sie mit Hilfe der online-LFG Grammatiken im XLE Web Interface
+\url{http://iness.uib.no/iness/xle-web}, wie computationelle
+LFG-Grammatiken folgende zentralen Ph\"anomene der Syntax analysieren.
+
+{\small
+\begin{enumerate}
+
+\item Passiv: {\em Die Gesellschaft wurde durch einen Schauer aufgescheucht.}
+\item Verbstellung:
+
+ {\em Fritz vermutet, dass Maria einen Liebhaber hat.}\\
+			   {\em Peter kam um 5 Uhr in Heidelberg an.}
+\item Reflexiv: 
+
+{\em Fritz rasiert sich nicht.}\\
+{\em Maria \"angstigt sich.}
+\item Komplement/Adjunkt: 
+
+{\em Fritz liest den ganzen Spiegel.\\
+ Fritz liest den ganzen Tag. \\
+\# Der ganze Tag wurde gelesen. \\
+Den ganzen Tag wurde gelesen.}
+\item Raising/Kontrolle
+
+{\em Fritz droht die Beziehung zu beenden.\\
+Maria verspricht Hans sich zu bessern.}
+\item Satzeinbettung
+
+{\em Fritz l\"ugt, ohne rot zu werden. \\Wenn Maria ein Fahrrad h\"atte, w\"are sie oft in der Stadt.}
+\item Lange Abh\"angigkeiten
+
+{\em Wen hat Fritz geglaubt, im Kino gesehen zu haben?}
+\item Koordination
+
+{\em Fritz und Maria gehen gern ins Kino. \\
+Peter kommt nach Hause und stellt das Radio an.}
+\end{enumerate}
+}
+\subsubsection*{Aufgabe 3 \hfill (15 Punkte)}
+
+
+Erstellen Sie auf Papier eine kleine Grammatik und Lexikoneintr\"age,
+die es erlauben, die folgenden S\"atze zu analysieren:
+
+\eenumsentence{ 
+\item {\em  Gestern traf Maria einen Hochstapler.}
+\item {\em Maria gab ihm Geld.}}
+				
+Zeichnen Sie die C- und F-Strukturen f\"ur beide S\"atze und geben Sie die notwendigen annotierten C-Strukturregeln an.                 
+Wenden Sie den Resolutionsalgorithmus auf Satz (1.b) an, um Ihre
+vorgeschlagene F-Struktur formal zu verifizieren.
+
+\paragraph{Hinweise:}
+
+\begin{itemize}
+\item Adverbien wie {\em gestern} werden als Element einer Adjunktmenge
+repr\"asentiert. 
+\item Funktionale Annotationen f\"ur die Einbettung einer
+F-Struktur als Element einer Menge werden wie folgt kodiert:
+
+$\downarrow \in$ ($\uparrow$ {\sc ADJ}): die
+F-Struktur, auf die $\uparrow$ abgebildet wird, enth\"alt ein Attribut {\sc ADJ},
+dessen Wert eine Menge ist. Element dieser Menge ist eine F-Struktur, auf
+die $\downarrow$ abgebildet wird.
+
+\item F\"ur Personalpronomina verwenden Sie die C-Struktur-Kategorie PRON. 
+
+\item F\"ur Artikel verwenden Sie die Kategorie DET.
+
+ In der F-Struktur verwenden Sie f\"ur die Art des Artikels das
+ Merkmal {\sc SPEC}, als Werte: def, indef, poss, etc.
+\item 
+F\"ur die Verbalphrase verwenden Sie eine flache Struktur (mit fakultativem Verb):
+
+\Tree  [.VP  XP \dots (V) ]
+
+\end{itemize}
+
+\end{document}
