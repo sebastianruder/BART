@@ -5,10 +5,12 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
+\usepackage[normalem]{ulem}
 
 % Notwendig für Gantt-Diagramme (Zeitstrahl)
 \usepackage{tikz}
 \usepackage{gantt}
+\usepackage{pgf-umlcd}
 
 \usetheme{Berlin}
 \author{Julian Baumann, Xenia Kühling, Sebastian Ruder}
@@ -119,6 +121,67 @@ im John Hopkins Summer Workshop 2007
 \section{Module und Aufgaben}
 
 \subsection{Module}
+
+\begin{frame}
+\frametitle{Generelle Architektur}
+
+\begin{tikzpicture}
+  \begin{interface}[text width = 3cm]{corefResolver}{-1,5}  	
+    \operation{decodeDocument (List<Mention> mentions, Map<Mention,Mention> antecedents : DisjointSet<Mention>}
+  \end{interface}
+  
+  \begin{class}[text width = 3cm]{SieveDecoder}{-1,0}    
+    \implement{corefResolver}
+    \attribute{sieves : List<Sieve>}
+  \end{class}
+  
+   \begin{abstractclass}{Sieve}{5,5}
+    \operation{runSieve(Mention mention, Mention potAnt) : int}
+  \end{abstractclass}
+  
+   \begin{class}[text width = 2.5cm]{concreteSieve1}{2,0}
+    \inherit{Sieve}
+  \end{class}
+  
+   \begin{class}[text width = 2.5cm]{concreteSieve2}{5,0}
+    \inherit{Sieve}
+  \end{class}
+  
+  \begin{class}[text width = 2.5cm]{concreteSieveN}{8,0}
+    \inherit{Sieve}
+  \end{class}
+  
+
+  
+  
+
+ 
+  
+\end{tikzpicture}
+\end{frame}
+
+\begin{frame}
+\frametitle{Discourse Entity}
+
+\begin{tikzpicture}
+  \begin{class}[text width =10cm] {DiscourseEntity}{0,0}
+  	\attribute{mentions : set<Mention>}
+  	\attribute{\uline{nextID} : int}
+  	\attribute{discourseID : ID}
+    \attribute{genders : set<Gender>}
+    \attribute{numbers : set<G}
+	\attribute{words : set<String>}
+	\attribute{heads : set<String>}
+	\attribute{firstMention : Mention}
+	\attribute{representativeMention : Mention}
+    \operation{DiscourseEntity(Mention m)}
+    
+    \operation{mergeEntities(Mention m) : void}
+    \operation{getMostRepresentativeMention() : void}
+  \end{class}
+\end{tikzpicture}
+
+\end{frame}
 
 \subsection{Aufgaben}
 
