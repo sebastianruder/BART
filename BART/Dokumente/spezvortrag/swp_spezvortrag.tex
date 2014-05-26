@@ -24,10 +24,40 @@
 \tableofcontents
 \end{frame}
 
-\begin{frame}{evtl Koreferenz}
+\begin{frame}{Problematik: Koreferenz}
+\begin{quote}
+
+\textbf{John Simon}, \textbf{Chief Financial Officer of Prime Corp since 1986} saw \textbf{his} pay jump 20 percent, to 1.3 million dollar, as \textbf{the 37-year-old} also became \textbf{the financial service company’s president}.\footnote{Beispiele von Yannick Versley}
+\end{quote}
+\bigskip
 \begin{itemize}
-\item Erklärung Koreferenz
+\item Unterschiedliche Beschreibungen beziehen sich auf gleiche Entitäten
+\begin{itemize}
+\item John Simon
+\item he
+\item the 37-year-old
 \end{itemize}
+\end{itemize}
+\end{frame} 
+
+\begin{frame}{Anwendungen: Information Extraction}
+\begin{quote}
+
+
+Towards the end of the war, under extreme pressure from the Nazi
+Party, \textbf{Furtwängler} fled to Switzerland. [...]\\
+\textbf{He} died in 1954 in Ebersteinburg close to Baden-Baden.
+\end{quote}
+\bigskip
+
+\textbf{Q: Wann starb Furtwängler?}
+\bigskip
+
+$\rightarrow$ Wie kann man Koreferenz auflösen?
+
+
+
+
 \end{frame}
 
 \section{BART}
@@ -37,11 +67,11 @@
 \item Entstanden im Projekt\\ \textit{Exploiting Lexical and Encyclopedic Resources For Entity Disambiguation} 
 im John Hopkins Summer Workshop 2007
 \item System für automatische Koreferenzresolution
-\item Weiterentwicklungen im Rahmen von shared tasks, für verschiedene Sprachen
+\item Weiterentwicklungen im Rahmen von shared tasks, für verschiedene Sprachen (Italienisch, Chinesisch)
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Wie funktioniert BART}
+\begin{frame}{Wie funktioniert BART?}
 \begin{itemize}
 \item Modularer Aufbau: 
 \item Vorverarbeitungsphase
@@ -49,7 +79,7 @@ im John Hopkins Summer Workshop 2007
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Wie funktioniert BART}
+\begin{frame}{Wie funktioniert BART?}
 \begin{itemize}
 \item Resolution mit Soon Algorithmus 
 \item Kandidatenpaare werden paarweise anhand ihrer Merkmale verglichen
@@ -59,15 +89,32 @@ im John Hopkins Summer Workshop 2007
 
 \begin{frame}{Aufgabe}
 \begin{itemize}
-\item Resolution in BART mit System der Stanford-NLP-Gruppe
-\item Bestes Ergebnis bei CoNLL-2011 shared task, obwohl hauptsächlich regelbasiert
+\item Koreferenzresolution in BART mit neuem Ansatz: 
+\begin{itemize}
+\item Vorwiegend regelbasiertes System der Stanford-NLP-Gruppe
+\item Bestes Ergebnis bei CoNLL-2011 shared task
+\end{itemize}
 \end{itemize}
 \end{frame}
 
 \section{Stanford Sieves}
-\begin{frame}
-efregrgoiu
+\begin{frame}{Aufbau des Stanford Systems}
+\includegraphics[scale=0.29]{stanford.png}
 \end{frame}
+
+\begin{frame}{StringMatch Sieve}
+\includegraphics[scale=0.2]{sieve2.png}
+
+\textbf{[John]$^{1}_{1}$} is [a musician]$^{2}_{2}$. [He]$^{3}_{3}$ played [a new song]$^{4}_{4}$.
+
+[A girl]$^{5}_{5}$ was listening to [the song]$^{6}_{6}$.
+
+“[It]$^{7}_{7}$ is [[my]$^{1}_{9}$ favorite]$^{8}_{8}$,” \textbf{[John]$^{1}_{10}$} said to [her]$^{11}_{11}$.
+
+\end{frame}
+
+
+
 
 \section{Module und Aufgaben}
 
