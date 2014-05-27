@@ -7,14 +7,13 @@
 \usepackage{amssymb}
 \usepackage[normalem]{ulem}
 
-% Notwendig für Gantt-Diagramme (Zeitstrahl)
 \usepackage{tikz}
 \usepackage{gantt}
 \usepackage{pgf-umlcd}
 
 \usetheme{Berlin}
 \author{Julian Baumann, Xenia Kühling, Sebastian Ruder}
-\title{Koreferenz mit BART}
+\title{Koreferenzresolution mit BART}
 \subtitle{Spezifikationsvortrag zum Softwareprojekt im Sommersemester 2014}
 \date{27. Mai 2014}
 
@@ -89,7 +88,7 @@ im John Hopkins Summer Workshop 2007
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Aufgabe}
+\begin{frame}{Problemstellung}
 \begin{itemize}
 \item Koreferenzresolution in BART mit neuem Ansatz: 
 \begin{itemize}
@@ -116,11 +115,7 @@ im John Hopkins Summer Workshop 2007
 \end{frame}
 
 
-
-
-\section{Module und Aufgaben}
-
-\subsection{Module}
+\section{Module}
 
 \begin{frame}
 \frametitle{Generelle Architektur}
@@ -149,13 +144,7 @@ im John Hopkins Summer Workshop 2007
   
   \begin{class}[text width = 2.5cm]{concreteSieveN}{8,0}
     \inherit{Sieve}
-  \end{class}
-  
-
-  
-  
-
- 
+  \end{class} 
   
 \end{tikzpicture}
 \end{frame}
@@ -183,7 +172,7 @@ im John Hopkins Summer Workshop 2007
 
 \end{frame}
 
-\subsection{Aufgaben}
+\section{Aufgaben}
 
 \begin{frame}
 \frametitle{Aufgabenverteilung}
@@ -245,15 +234,19 @@ ab 10.06.: Aufteilung der \textit{Sieves}
 \begin{itemize}
 
 	\item Datenformate
-	\item Interfaces
-	\item Datenstrukturen
-	\item Ressourcen
+		\begin{itemize}
+		\item MMAX2, Java, .config
+	\end{itemize}
+	\item BART-Version: Klon von Yannicks bitbucket \textit{repository} (\url{https://bitbucket.org/yannick/bart}); Stand 05.05.14 
+	\item Korpora
 	\begin{itemize}
-		\item Korpus
+		\item TüBA-D/Z 2008 MMAX2 (Deutsch)
+		\item Penn Treebank (Englisch)
+		\item Turin University Treebank/ISST (Italienisch)
 	\end{itemize}
 	\item Programmierumgebung
 	\begin{itemize}
-		\item Eclipse 4.3.2 mit IvyDE (\textit{dependency management} und EGit und GitHub zur Versionskontrolle
+		\item Eclipse 4.3.2 mit IvyDE (\textit{dependency management}) sowie EGit und GitHub zur Versionskontrolle
 	\end{itemize}
 
 \end{itemize}
@@ -261,7 +254,5 @@ ab 10.06.: Aufteilung der \textit{Sieves}
 \end{frame}
 
 \section{Quellen}
-
-GitHub, ivyde egit
 
 \end{document}
