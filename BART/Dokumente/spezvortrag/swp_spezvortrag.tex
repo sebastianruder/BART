@@ -74,18 +74,33 @@ im John Hopkins Summer Workshop 2007
 
 \begin{frame}{Wie funktioniert BART?}
 \begin{itemize}
-\item Modularer Aufbau: 
-\item Vorverarbeitungsphase
-\item Extraktion NP- Kandidaten, NP- Merkmale, Kandidatenpaare
+\item Vorverarbeitung: 
+	\begin{itemize}
+		\item Extraktion NP- Kandidaten und NP- Merkmale
+		\item Speicherung in \bf{MMAX}
+	\end{itemize}
+\item Soon Algorithmus
+\item Kandidatenpaare werden paarweise miteinander verglichen
+\newline $\Rightarrow$ Koreferenzketten
+\end{itemize}
+\end{frame}
+
+\begin{frame}{MMAX: \uline{M}ulti\uline{M}odal \uline{A}nnotation in \uline{X}ML} 
+\begin{itemize}
+
+
+\item XML basiert
+\item Stand-Off Annotation
+\item jede Annotationsebene hat eigene Datei
+
 \end{itemize}
 \end{frame}
 
 \begin{frame}{Wie funktioniert BART?}
-\begin{itemize}
-\item Resolution mit Soon Algorithmus 
-\item Kandidatenpaare werden paarweise anhand ihrer Merkmale verglichen
-\item Ergebnisse
-\end{itemize}
+\begin{figure}
+\includegraphics[scale=0.35]{bart.PNG}
+\caption{BART: A coreference Framework, DGfS fall school Folien}
+\end{figure}
 \end{frame}
 
 \begin{frame}{Problemstellung}
@@ -100,6 +115,7 @@ im John Hopkins Summer Workshop 2007
 \end{frame}
 
 \section{Stanford Sieves}
+
 \begin{frame}{Aufbau des Stanford Systems}
 \includegraphics[scale=0.29]{stanford.png}
 \end{frame}
@@ -266,7 +282,7 @@ John is a musician. He played a new song. A girl was listening to the song. “I
 
 \begin{tikzpicture}
   \begin{interface}[text width = 3cm]{corefResolver}{-1,5}  	
-    \operation{decodeDocument (List<Mention> mentions, Map<Mention,Mention> antecedents : DisjointSet<Mention>}
+    \operation{decodeDocument (List<Mention> mentions, Map<Mention,Mention> antecedents : DisjointSet<Mention>)}
   \end{interface}
   
   \begin{class}[text width = 3cm]{SieveDecoder}{-1,0}    
@@ -278,18 +294,15 @@ John is a musician. He played a new song. A girl was listening to the song. “I
     \operation{runSieve(Mention mention, Mention potAnt) : int}
   \end{abstractclass}
   
-   \begin{class}[text width = 2.5cm]{concreteSieve1}{2,0}
+   \begin{class}[text width = 2.5cm]{concreteSieve1}{3,0}
     \inherit{Sieve}
   \end{class}
   
-   \begin{class}[text width = 2.5cm]{concreteSieve2}{5,0}
+   \begin{class}[text width = 2.5cm]{concreteSieve2}{7,0}
     \inherit{Sieve}
   \end{class}
   
-  \begin{class}[text width = 2.5cm]{concreteSieveN}{8,0}
-    \inherit{Sieve}
-  \end{class} 
-  
+
 \end{tikzpicture}
 \end{frame}
 
