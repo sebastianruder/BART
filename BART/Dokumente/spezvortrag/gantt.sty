@@ -219,12 +219,12 @@
 
 % Declaring layers to abvoid superposition when you connect a \ganttmileston with a task
 
-% Uncommented the three following lines to display ganttmilestone because of conflict with
+% Uncomment the three following lines to display ganttmilestone because of conflict with
 % package pgf-umlcd
 
-%\pgfdeclarelayer{background}
-%\pgfdeclarelayer{foreground}
-%\pgfsetlayers{background,main,foreground}
+\pgfdeclarelayer{background}
+\pgfdeclarelayer{foreground}
+\pgfsetlayers{background,main,foreground}
 
 \newcommand{\ganttmilestone}[3][]{
   \setlength{\gantttmpa}{#3\ganttunitlength}
