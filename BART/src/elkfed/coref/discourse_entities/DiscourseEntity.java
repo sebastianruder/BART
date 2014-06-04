@@ -26,8 +26,8 @@ import edu.stanford.nlp.trees.Tree;
 import elkfed.config.ConfigProperties;
 import elkfed.lang.LanguagePlugin;
 import elkfed.lang.NodeCategory;
+
 import java.util.*;
-import java.util.List;
 import java.util.logging.Logger;
 
 import elkfed.knowledge.SemanticClass;
@@ -38,9 +38,37 @@ import elkfed.lang.MentionType.Features;
  * @author Julian Baumann
  */
 
-
+   /*
+    * minimal DiscourseEntity, should work for StringMatch by iterating over mentions
+    */
 
 public class DiscourseEntity {
-
+	
+	private static int nextID = 0;
+	private int ID;
+	
+	private List<Mention> mentions;
    
+   
+	public DiscourseEntity(Mention m) {
+		ID = nextID;
+		nextID++;
+		mentions = new ArrayList<Mention>();
+		mentions.add(m);
+	}
+	
+	public List<Mention> getMentions() {
+		return mentions;
+	}
+	
+	
+	
+	public void merge(Mention ante) {
+		
+		DiscourseEntity deAnte = ante.getDiscourseEntity();
+		for (Mention m : deAnte.getMentions()) {
+			mentions.add(m);
+			m.setDiscourseEntity(this);
+		}
+	}
 }

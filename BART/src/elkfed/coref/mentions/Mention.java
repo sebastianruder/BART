@@ -226,7 +226,9 @@ public class Mention implements Comparable<Mention> {
 
         if (getProperName()) {
             _nameStructure = calcNameStructure();
+        
         }
+        createDiscourseEntity();
    }
 
     public MentionType mentionType() {
@@ -959,7 +961,9 @@ public class Mention implements Comparable<Mention> {
             return null;
         }
     }
-
+    public void setDiscourseEntity(DiscourseEntity de) {
+    	_discourseEntity = de;
+    }
     public void linkToAntecedent(Mention ante) {
         ante.getDiscourseEntity().merge(this);
         _discourseEntity = ante.getDiscourseEntity();
