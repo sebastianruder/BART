@@ -2,12 +2,14 @@ package elkfed.coref.algorithms.sieve;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import net.cscott.jutil.DisjointSet;
 import elkfed.config.ConfigProperties;
 import elkfed.coref.CorefResolver;
+import elkfed.coref.discourse_entities.DiscourseEntity;
 import elkfed.coref.eval.LinkScorer;
 import elkfed.coref.eval.SplitLinkScorer;
 import elkfed.coref.mentions.Mention;
@@ -57,15 +59,19 @@ public class SieveDecoder implements CorefResolver {
 		    	 */
 		    	
 		    	switch(walk_through) {
-		    	case 1:
+		    	/**case 1:
 		    		Sieve sieve = new SpeakerIdentificatonSieve();
 		    	// puts singletons in a single disjoint set
 				// --> confirm with Yannick
 		    	if (ConfigProperties.getInstance().getOutputSingletons()) 
 		            clusters.union(mentions.get(i), mentions.get(i));
-		    	case 2: StringMatchSieve;
+		            **/
+		    	case 2: 
 		    		Sieve sieve = new StringMatchSieve(mentions);
-		    		sieve.compareEntities();
+		    		int ante_idx = sieve.runSieve(mentions.get(i));
+		    		System.out.println(ante_idx);
+		    	
+		    		/**
 		    	case 3: RelaxedStringMatchSieve;
 		    	case 4: PreciseConstructSieve;
 		    	case 5: StrictHeadMatchASieve;
@@ -74,10 +80,11 @@ public class SieveDecoder implements CorefResolver {
 		    	case 8: ProperHeadNounMatchSieve;
 		    	case 9: RelaxedHeadMatchSieve;
 		    	case 10: PronounMatchSieve;
-		    	}
+		    	**/
+		    	
 		    	
 		    	// return of resolveSingle method is either -1 or index of coreferent
-		    	int ante_idx = -1; 
+		    	//int ante_idx = -1; 
 		    	
 		        //int ante_idx=resolveSingle(mentions,i);
 		        
@@ -100,7 +107,7 @@ public class SieveDecoder implements CorefResolver {
 		            }
 		        }
 		    }
-        }
+        }}
         _logger.log(Level.INFO,String.format("joined %d pairs in %d mentions",
                 numLinks,mentions.size()));
 	    //_scorer.displayResults();

@@ -47,6 +47,8 @@ public class DiscourseEntity {
 	private static int nextID = 0;
 	private int ID;
 	
+	private boolean firstMention_isFirstMention;
+	
 	private List<Mention> mentions;
    
    
@@ -71,4 +73,8 @@ public class DiscourseEntity {
 			m.setDiscourseEntity(this);
 		}
 	}
+	
+	 public void set_firstMention_isFirstMention(boolean isFirstMention) {
+	        firstMention_isFirstMention = isFirstMention;
+	    }
 }
