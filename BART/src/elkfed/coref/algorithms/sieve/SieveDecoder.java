@@ -9,6 +9,8 @@ import java.util.logging.Logger;
 import net.cscott.jutil.DisjointSet;
 import elkfed.config.ConfigProperties;
 import elkfed.coref.CorefResolver;
+import elkfed.coref.PairFeatureExtractor;
+import elkfed.coref.PairInstance;
 import elkfed.coref.discourse_entities.DiscourseEntity;
 import elkfed.coref.eval.LinkScorer;
 import elkfed.coref.eval.SplitLinkScorer;
@@ -76,7 +78,17 @@ public class SieveDecoder implements CorefResolver {
 		    		else {
 		    			System.out.println(String.format("Antecedent of '%s': '%s'",
 			    				mentions.get(i).toString(), mentions.get(ante_idx).toString()));
+		    			/*
+		    			PairInstance instance = new PairInstance(mentions.get(i), mentions.get(ante_idx));
+		    			if (instance.getFeature(PairInstance.FD_POSITIVE) == true) {
+	                        System.out.println("True positive!");
+			            }
+			            */
 		    		}
+		    				    		
+		            
+
+		            
 		    		
 		    		/**
 		    	case 3: RelaxedStringMatchSieve;
