@@ -69,8 +69,15 @@ public class SieveDecoder implements CorefResolver {
 		    	case 2: 
 		    		Sieve sieve = new StringMatchSieve(mentions);
 		    		int ante_idx = sieve.runSieve(mentions.get(i));
-		    		System.out.println(ante_idx);
-		    	
+		    		
+		    		if (ante_idx == -1) {
+		    			System.out.println("No match found.");
+		    		}
+		    		else {
+		    			System.out.println(String.format("Antecedent of '%s': '%s'",
+			    				mentions.get(i).toString(), mentions.get(ante_idx).toString()));
+		    		}
+		    		
 		    		/**
 		    	case 3: RelaxedStringMatchSieve;
 		    	case 4: PreciseConstructSieve;
