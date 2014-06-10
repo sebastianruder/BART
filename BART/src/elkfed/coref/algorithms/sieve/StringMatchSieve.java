@@ -27,7 +27,6 @@ public class StringMatchSieve extends Sieve {
 		int ante_idx = -1;
 		// sentences should be displayed somehow
 		// Markable[] array = mention.getSentenceMarkables("sentence");
-		System.out.println(mention_idx);
 		for (int idx = 0; idx < mention_idx; idx++){
 
 			if (mention.toString().equals(potentialAntecedents.get(idx).toString())){
