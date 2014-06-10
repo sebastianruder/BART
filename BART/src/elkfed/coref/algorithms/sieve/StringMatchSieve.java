@@ -27,8 +27,11 @@ public class StringMatchSieve extends Sieve {
 		int ante_idx = potentialAntecedents.size();
 		for (int idx = 0; idx < potentialAntecedents.size(); idx++){
 			if (mention.toString().equals(potentialAntecedents.get(idx).toString()) && mention_idx < idx && idx < ante_idx){
-				ante_idx = idx;
-				}		
+				// articles are still matched; needs to be fixed
+				if (!(mention.getPronoun())) {
+					ante_idx = idx;
+				}
+			}
 		}
 		if (ante_idx == potentialAntecedents.size()){
 			return -1;
