@@ -27,9 +27,10 @@ public class StringMatchSieve extends Sieve {
 		int ante_idx = -1;
 		// sentences should be displayed somehow
 		// Markable[] array = mention.getSentenceMarkables("sentence");
+		System.out.println(mention_idx);
 		for (int idx = 0; idx < mention_idx; idx++){
 
-			if (mention.toString().equals(potentialAntecedents.get(idx).toString()) && mention_idx < idx && idx < ante_idx){
+			if (mention.toString().equals(potentialAntecedents.get(idx).toString())){
 				// articles are still matched; needs to be fixed
 				if (!(mention.getPronoun())) {
 					ante_idx = idx;
