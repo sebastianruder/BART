@@ -4,6 +4,7 @@ import java.util.List;
 
 import elkfed.coref.discourse_entities.DiscourseEntity;
 import elkfed.coref.mentions.Mention;
+import elkfed.mmax.minidisc.Markable;
 
 /**
 *
@@ -15,8 +16,7 @@ public class StringMatchSieve extends Sieve {
 	
 	private List<Mention> potentialAntecedents;
 	
-	
-	
+		
 	StringMatchSieve(List<Mention> potentialAntecedents){
 		this.potentialAntecedents = potentialAntecedents;			
 	}
@@ -24,8 +24,11 @@ public class StringMatchSieve extends Sieve {
 	
 	public int runSieve(Mention mention){
 		int mention_idx = potentialAntecedents.indexOf(mention);
-		int ante_idx = potentialAntecedents.size();
-		for (int idx = 0; idx < potentialAntecedents.size(); idx++){
+		int ante_idx = -1;
+		// sentences should be displayed somehow
+		// Markable[] array = mention.getSentenceMarkables("sentence");
+		for (int idx = 0; idx < mention_idx; idx++){
+
 			if (mention.toString().equals(potentialAntecedents.get(idx).toString()) && mention_idx < idx && idx < ante_idx){
 				// articles are still matched; needs to be fixed
 				if (!(mention.getPronoun())) {
@@ -33,14 +36,8 @@ public class StringMatchSieve extends Sieve {
 				}
 			}
 		}
-		if (ante_idx == potentialAntecedents.size()){
-			return -1;
-			}
-		else {		
-			//System.out.println(potentialAntecedents.get(ante_idx));
-			return ante_idx;
-		}
-
+		//System.out.println(potentialAntecedents.get(ante_idx));
+		return ante_idx;
 	}
 	
 	public void compareEntities(Mention mention, Mention potAnt){
