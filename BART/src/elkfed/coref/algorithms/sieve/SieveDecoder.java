@@ -25,8 +25,7 @@ import elkfed.coref.mentions.Mention;
 public class SieveDecoder implements CorefResolver {
 	protected static final Logger _logger = Logger.getAnonymousLogger();
 	protected LinkScorer _scorer = new SplitLinkScorer();
-	
-	
+	protected SieveFactory _factory = new SieveFactory();
 	
 	public DisjointSet<Mention> decodeDocument(List<Mention> mentions,
 			Map<Mention, Mention> antecedents) {
@@ -35,6 +34,7 @@ public class SieveDecoder implements CorefResolver {
 		// going to be stored
 		DisjointSet<Mention> mention_clusters = new DisjointSet<Mention>();
 		Set<DiscourseEntity> entities;
+		Sieve sieve;
 		// counts number of links
 		int numLinks = 0;		
         _logger.log(Level.INFO,
@@ -43,70 +43,37 @@ public class SieveDecoder implements CorefResolver {
                 mentions.size()));        
         
         // counts number of walk_throughs
-        
         for (int walk_through = 1; walk_through < 11; walk_through++) {
-		    
         	
+        	if (walk_through != 2) {
+        		continue;
+        	}
         	
-        	// is this loop even necessary or do we rather just iterate 10 times
-        	// and each sieve goes through the mentions / entities on its own?
+        	// iterates over mentions
 		    for (int i = 0; i < mentions.size(); i++) {
 		    	
-		    	/* Instead of the switch statement, it would be better just being
-		    	 * able to pass the number of the walk_through and get an instance
-		    	 * of the appropriate sieve pack
-		    	 * Maybe implement a SieveFactory
-		    	 * with method createSieve(int walkthrough);
-		    	 * 
-		    	 */
+		    	/* puts singletons in a single disjoint set
+		    	   --> confirm with Yannick
+		    	  if (ConfigProperties.getInstance().getOutputSingletons()) {
+		    	  		clusters.union(mentions.get(i), mentions.get(i)); } */
 		    	
-		    	switch(walk_through) {
-		    	/**case 1:
-		    		Sieve sieve = new SpeakerIdentificatonSieve();
-		    	// puts singletons in a single disjoint set
-				// --> confirm with Yannick
-		    	if (ConfigProperties.getInstance().getOutputSingletons()) 
-		            clusters.union(mentions.get(i), mentions.get(i));
-		            **/
-		    	case 2: 
-		    		Sieve sieve = new StringMatchSieve(mentions);
-		    		int ante_idx = sieve.runSieve(mentions.get(i));
-		    		
-		    		if (ante_idx == -1) {
-		    			System.out.println("No match found.");
-		    		}
-		    		else {
-		    			System.out.println(String.format("Antecedent of '%s': '%s'",
-			    				mentions.get(i).toString(), mentions.get(ante_idx).toString()));
-		    			/*
-		    			PairInstance instance = new PairInstance(mentions.get(i), mentions.get(ante_idx));
-		    			if (instance.getFeature(PairInstance.FD_POSITIVE) == true) {
-	                        System.out.println("True positive!");
-			            }
-			            */
-		    		}
-		    				    		
-		            
-
-		            
-		    		
-		    		/**
-		    	case 3: RelaxedStringMatchSieve;
-		    	case 4: PreciseConstructSieve;
-		    	case 5: StrictHeadMatchASieve;
-		    	case 6: StrictHeadMatchBSieve;
-		    	case 7: StrictHeadMatchCSieve;
-		    	case 8: ProperHeadNounMatchSieve;
-		    	case 9: RelaxedHeadMatchSieve;
-		    	case 10: PronounMatchSieve;
-		    	**/
-		    	
-		    	
-		    	// return of resolveSingle method is either -1 or index of coreferent
-		    	//int ante_idx = -1; 
-		    	
-		        //int ante_idx=resolveSingle(mentions,i);
-		        
+		    	sieve = _factory.createSieve(walk_through, mentions);		    	
+	    		int ante_idx = sieve.runSieve(mentions.get(i));
+	    		
+	    		if (ante_idx == -1) {
+	    			System.out.println(String.format("#%d: No match found.", i));
+	    		}
+	    		else {
+	    			System.out.println(String.format("#%d: Antecedent of '%s': '%s'",
+		    				i, mentions.get(i).toString(), mentions.get(ante_idx).toString()));
+	    			/*
+	    			PairInstance instance = new PairInstance(mentions.get(i), mentions.get(ante_idx));
+	    			if (instance.getFeature(PairInstance.FD_POSITIVE) == true) {
+                        System.out.println("True positive!");
+		            }
+		            */
+	    		}
+	    		
 		    	if (ante_idx==-1)
 		        {
 		           _scorer.scoreNonlink(mentions,i); 
@@ -116,6 +83,7 @@ public class SieveDecoder implements CorefResolver {
 		            numLinks++;
 		            mention_clusters.union(mentions.get(i),mentions.get(ante_idx));
 		            antecedents.put(mentions.get(i), mentions.get(ante_idx));
+		            // merges entities
 		            mentions.get(i).linkToAntecedent(mentions.get(ante_idx));
 		            _scorer.scoreLink(mentions, ante_idx, i);
 		            if (_logger.isLoggable(Level.FINE)) {
@@ -126,7 +94,7 @@ public class SieveDecoder implements CorefResolver {
 		            }
 		        }
 		    }
-        }}
+        }
         _logger.log(Level.INFO,String.format("joined %d pairs in %d mentions",
                 numLinks,mentions.size()));
 	    //_scorer.displayResults();
@@ -137,6 +105,4 @@ public class SieveDecoder implements CorefResolver {
         _scorer.displayResultsShort();
     }
 	
-	
-
 }
