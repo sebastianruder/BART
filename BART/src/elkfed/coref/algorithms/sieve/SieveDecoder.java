@@ -45,6 +45,7 @@ public class SieveDecoder implements CorefResolver {
         // counts number of walk_throughs
         for (int walk_through = 1; walk_through < 11; walk_through++) {
         	
+        	// skips other sieves; should be changed when new sieves are implemented
         	if (walk_through != 2) {
         		continue;
         	}
