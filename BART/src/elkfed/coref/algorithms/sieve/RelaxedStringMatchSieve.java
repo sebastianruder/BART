@@ -19,12 +19,11 @@ import elkfed.coref.mentions.Mention;
  * would make it equal to Strict Head Match.
  * Possibilities:
  * 	- omit sieve
- * 	- ???
+ * 	- print _postmodifiers of mention here just to be safe
  * 
  * @author Sebastian
  *
  */
-
 
 public class RelaxedStringMatchSieve extends Sieve {
 
