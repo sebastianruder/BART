@@ -14,6 +14,7 @@ import elkfed.coref.PairInstance;
 import elkfed.coref.discourse_entities.DiscourseEntity;
 import elkfed.coref.eval.LinkScorer;
 import elkfed.coref.eval.SplitLinkScorer;
+import elkfed.coref.features.pairs.FE_StringMatch;
 import elkfed.coref.mentions.Mention;
 
 /**
@@ -62,7 +63,7 @@ public class SieveDecoder implements CorefResolver {
 	    		int ante_idx = sieve.runSieve(mentions.get(i));
 	    		
 	    		if (ante_idx == -1) {
-	    			System.out.println(String.format("#%d: No match found.", i));
+	    			System.out.println(String.format("#%d: No match found: %s", i, mentions.get(i).toString()));
 	    		}
 	    		else {
 	    			System.out.println(String.format("#%d: Antecedent of '%s': '%s'",
