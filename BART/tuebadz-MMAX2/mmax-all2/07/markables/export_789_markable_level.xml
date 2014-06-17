@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_13" span="word_1..word_2" mmax_level="markable" gend="masc" head_pos="0" markable_type="np" mention_type="nam" min_ids="word_1..word_2" num="sing" sem_type="nil" sentenceid="1"/>
+<markable id="markable_14" span="word_4..word_6" mmax_level="markable" gend="fem" head_pos="3" markable_type="np" mention_type="nom.indef" min_ids="word_4" num="sing" sem_type="nil" sentenceid="1"/>
+<markable id="markable_15" span="word_6" mmax_level="markable" gend="masc" head_pos="5" markable_type="np" mention_type="nom.indef" min_ids="word_6" num="sing" sem_type="nil" sentenceid="1"/>
+<markable id="markable_97" span="word_7" mmax_level="markable" gend="neut" head_pos="6" markable_type="np" mention_type="nam" min_ids="word_7" num="sing" sem_type="loc" sentenceid="2"/>
+<markable id="markable_98" span="word_9" mmax_level="markable" gend="neut" head_pos="8" markable_type="np" mention_type="nam" min_ids="word_9" num="sing" sem_type="loc" sentenceid="2"/>
+<markable id="markable_99" span="word_11" mmax_level="markable" gend="fem" head_pos="10" markable_type="np" mention_type="nam" min_ids="word_11" num="sing" sem_type="org" sentenceid="2"/>
+<markable id="markable_100" span="word_15" mmax_level="markable" gend="masc" head_pos="14" markable_type="np" mention_type="nom.indef" min_ids="word_15" num="plur" sem_type="evt" sentenceid="2"/>
+<markable id="markable_101" span="word_17..word_20" mmax_level="markable" gend="fem" head_pos="17" markable_type="np" mention_type="nam" min_ids="word_17..word_18" num="sing" sem_type="nil" sentenceid="2"/>
+<markable id="markable_102" span="word_21..word_26" mmax_level="markable" gend="fem" head_pos="21" markable_type="np" mention_type="nom.indef" min_ids="word_21..word_22" num="sing" sem_type="evt" sentenceid="2"/>
+<markable id="markable_103" span="word_24..word_26" mmax_level="markable" gend="neut" head_pos="25" markable_type="np" mention_type="nom.indef" min_ids="word_24..word_26" num="sing" sem_type="evt" sentenceid="2"/>
+<markable id="markable_104" span="word_29" mmax_level="markable" head_pos="28" markable_type="poss" mention_type="pro.rel" min_ids="word_29" sentenceid="2"/>
+<markable id="markable_105" span="word_29..word_34" mmax_level="markable" gend="masc" head_pos="29" markable_type="np" mention_type="nom.def" min_ids="word_29..word_30" num="sing" sem_type="nil" sentenceid="2"/>
+<markable id="markable_106" span="word_33..word_34" mmax_level="markable" gend="neut" head_pos="33" markable_type="np" mention_type="nom.def" min_ids="word_33..word_34" num="sing" sem_type="loc" sentenceid="2"/>
+<markable id="markable_107" span="word_38..word_43" mmax_level="markable" gend="fem" head_pos="38" markable_type="np" mention_type="nom.def" min_ids="word_38..word_39" num="sing" sem_type="nil" sentenceid="2"/>
+<markable id="markable_108" span="word_40..word_43" mmax_level="markable" gend="neut" head_pos="41" markable_type="np" mention_type="nam" min_ids="word_40..word_42" num="sing" sem_type="loc" sentenceid="2"/>
+<markable id="markable_156" span="word_47..word_50" mmax_level="markable" gend="masc" head_pos="47" markable_type="np" mention_type="nom.indef" min_ids="word_47..word_48" num="sing" sem_type="per" sentenceid="3"/>
+<markable id="markable_157" span="word_49..word_50" mmax_level="markable" gend="neut" head_pos="49" markable_type="np" mention_type="nom.def" min_ids="word_49..word_50" num="sing" sem_type="org" sentenceid="3"/>
+<markable id="markable_158" span="word_54..word_56" mmax_level="markable" gend="neut" head_pos="55" markable_type="np" mention_type="nom.indef" min_ids="word_54..word_56" num="plur" sem_type="nil" sentenceid="3"/>
+<markable id="markable_159" span="word_60" mmax_level="markable" head_pos="59" markable_type="np" mention_type="pro.rel" min_ids="word_60" sentenceid="3"/>
+<markable id="markable_160" span="word_62..word_63" mmax_level="markable" gend="masc" head_pos="62" markable_type="np" mention_type="nom.def" min_ids="word_62..word_63" num="sing" sem_type="nil" sentenceid="3"/>
+</markables>

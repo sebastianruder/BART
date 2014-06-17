@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (NX (NE Irak)) (\$-LRB- \/) (NX (NN Atom)))"/>
+<markable id="markable_20" span="word_4..word_6" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NN Bomben)) (PX (APPR für) (NX (NE Kuweit)))))"/>
+<markable id="markable_84" span="word_7..word_33" mmax_level="parse" orderid="3" tag="(Start (NX (NE Bagdad)) (\$-LRB- -LRB-) (NX (NE AFP)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (ART Die) (ADJX (ADJA irakische)) (NN Regierung))) (VXAF (VAFIN hat)) (VXVP (VVPP eingestanden)) (\$\, \,) (NF (SIMPX (MF (PX (APPRART zur) (NX (NX (NN Zeit)) (NX (NX (ART der) (NN Kuwait-Invasion)) (NX (CARD 1990))))) (PX (APPR an) (NX (NX (ART einem) (NN Programm)) (PX (APPRART zur) (NX (NX (NN Entwicklung)) (PX (APPR von) (NX (NN Atombomben)))))))) (VXVZ (VXVP (VVPP gearbeitet)) (VXAZ (PTKZU zu) (VAINF haben)))))) (\$\. \.))"/>
+<markable id="markable_111" span="word_34..word_44" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (SIMPX (VF (NX (ART Das) (NN Projekt))) (VXAF (VAFIN sei)) (MF (ADVX (ADV aber))) (VXVP (VXVP (VVPP eingestellt)) (VXAP (VAPP worden))))) (\$\, \,) (VXVF (VVFIN erklärte)) (MF (NX (NX (NN Erdölminister)) (NX (NE Raschid))))) (\$\. \.))"/>
+<markable id="markable_150" span="word_45..word_59" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (ADVX (ADV Nunmehr))) (VXVF (VVFIN gäbe)) (MF (NX (PPER es)) (PX (APPRART im) (NX (NE Irak))) (NX (NX (PIAT keine) (NN Waffen)) (ADVX (ADV mehr)))) (\$\, \,) (NF (R-SIMPX (C (NX (PRELS die))) (MF (PX (APPR per) (NX (NN UN-Beschluß)))) (VXVP (VVPP verboten)) (VXAF (VAFIN seien))))) (\$\. \.))"/>
+</markables>

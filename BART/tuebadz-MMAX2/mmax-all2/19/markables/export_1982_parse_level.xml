@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NE Stones)) (ADJX (ADJD satt))))"/>
+<markable id="markable_68" span="word_3..word_28" mmax_level="parse" orderid="2" tag='(Start (NX (NE Santiago)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (ART Ein) (ADJX (ADJA chilenischer)) (NN Radiosender))) (VXMF (VMFIN will)) (MF (ADVX (ADV heute)) (ADJX (NX (ADJX (CARD 24)) (NN Stunden)) (ADJD lang)) (NX (NX (NX (ART den) (NN Song)) (\$-LRB- \") (FX (FM Like) (FM a) (FM Rolling) (FM Stone))) (\$-LRB- \") (NX (ART der) (ADJX (ADJA britischen)) (NN Rockband)))) (VXVI (VVINF spielen))) (\$\. \.))'/>
+<markable id="markable_138" span="word_29..word_55" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NX (NX (ART Der) (NN Manager)) (PX (APPR von) (NX (NX (NX (NN Radio)) (NX (NE Zero))) (PX (APPR in) (NX (NE Santiago)))))) (\$\, \,) (NX (NE Jorge) (NE Mackenna)))) (\$\, \,) (VXVF (VVFIN begründete)) (MF (NX (PDAT diese) (NN Aktion)) (PX (PROP damit))) (\$\, \,) (NF (SIMPX (VF (NX (PPER er))) (VXMF (VMFIN wolle)) (MF (NX (PPOSAT seinen) (NN Sender)) (PX (PROP damit)) (PX (APPRART ins) (NX (NX (NN Guinness-Buch)) (NX (ART der) (NN Rekorde))))) (VXVI (VVINF einbringen))))) (\$\. \.))"/>
+<markable id="markable_157" span="word_56..word_63" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Die) (NN CD))) (VXMF (VMFIN muß)) (MF (ADVX (ADVX (ADV rund)) (ADV 360mal))) (VXVI (VXVP (VVPP aufgelegt)) (VXAI (VAINF werden)))) (\$\. \.))"/>
+</markables>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_14" span="word_1..word_5" mmax_level="parse" orderid="1" tag="(Start (SIMPX (MF (NX (NX (NN Anklage)) (PX (APPR gegen) (NX (ADJX (CARD 61)) (NN Kurden))))) (VXVP (VVPP erhoben))))"/>
+<markable id="markable_77" span="word_6..word_30" mmax_level="parse" orderid="2" tag="(Start (NX (NE Leipzig)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (PX (APPR Wegen) (NX (NX (NX (NX (ART der) (NN Besetzung)) (NX (ART des) (ADJX (ADJA griechischen)) (NN Konsulats))) (PX (APPR in) (NX (NE Leipzig)))) (PX (APPRART am) (NX (ADJX (ADJA 16\.)) (NN Februar)))))) (VXAF (VAFIN hat)) (MF (NX (ART die) (NN Staatsanwaltschaft)) (PX (APPR gegen) (NX (ADJX (CARD 61)) (NN Kurden))) (NX (NN Anklage))) (VXVP (VVPP erhoben))) (\$\. \.))"/>
+<markable id="markable_104" span="word_31..word_41" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (PPER Ihnen))) (VXAF (VAFIN werden)) (MF (NX (NX (ADJX (ADJA gemeinschaftliche)) (NN Freiheitsberaubung)) (\$\, \,) (NX (ADJX (ADJA schwerer)) (NX (NX (TRUNC Haus-)) (KON und) (NX (NN Landfriedensbruch)))))) (VXVP (VVPP vorgeworfen))) (\$\. \.))"/>
+<markable id="markable_129" span="word_42..word_51" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ADJX (ADJA Weitere)) (ADJX (CARD zwölf)) (NN Kurden))) (VXMF (VMFIN müßten)) (MF (NX (PRF sich)) (PX (PROP zudem)) (PX (APPR wegen) (NX (NN Geiselnahme)))) (VXVI (VVINF verantworten))) (\$\. \.))"/>
+</markables>

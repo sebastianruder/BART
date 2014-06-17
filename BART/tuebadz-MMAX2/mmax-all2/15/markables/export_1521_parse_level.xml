@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_14" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (SIMPX (VF (NX (NE KUBA))) (VXVF (VVFIN FRISIERT)) (MF (NX (PPOSAT SEINE) (NN VERFASSUNG)))))"/>
+<markable id="markable_21" span="word_5..word_6" mmax_level="parse" orderid="2" tag="(Start (NX (NE Marx)) (\$\. \?))"/>
+<markable id="markable_28" span="word_7..word_8" mmax_level="parse" orderid="3" tag="(Start (NX (NN Markt)) (\$\. \?))"/>
+<markable id="markable_35" span="word_9..word_10" mmax_level="parse" orderid="4" tag="(Start (NX (NE Marti)) (\$\. \!))"/>
+<markable id="markable_97" span="word_11..word_35" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (ADVX (ADVX (PTKNEG Nicht)) (ADVX (ADV mehr))) (NX (NX (NE Marx)) (\$\, \,) (NX (NE Engels)) (KON und) (NX (NE Lenin))))) (VXVF (VVFIN stehen)) (MF (ADJX (ADJD künftig)) (PX (APPR an) (NX (NX (ADJX (ADJA erster)) (NN Stelle)) (PX (APPR in) (NX (NX (ART der) (NN Verfassung)) (NX (ART der) (NN Karibikinsel))))))) (\$\, \,) (NF (NX (KON sondern) (NX (NX (ART der) (ADJX (ADJA historische)) (NN Freiheitsheld)) (NX (NE Jose) (NE Marti)))))) (\$\. \.))"/>
+<markable id="markable_160" span="word_36..word_61" mmax_level="parse" orderid="6" tag="(Start (SIMPX (C (NX (PWS Was))) (MF (ADVX (PTKNEG nicht))) (VXVF (VVFIN bedeutet)) (\$\, \,) (NF (SIMPX (C (KOUS daß)) (MF (NX (NE Fidel) (NE Castro)) (ADVX (ADV etwa)) (NX (NN Abschied))) (VXVP (VVPP genommen)) (VXAF (VAFIN hätte)) (NF (PX (APPRART vom) (NX (NX (NN Anspruch)) (NX (NX (ART der) (NN Alleinherrschaft)) (NX (ART der) (NN Partei))))))))) (\$-LRB- -) (SIMPX (VF (NX (PDS die))) (VXMF (VMFIN wollte)) (MF (ADVX (ADV schon)) (NX (NE Marti)))) (\$\, \,) (NX (ADVX (ADV so)) (NX (NE Castro))) (\$\. \.))"/>
+<markable id="markable_171" span="word_62..word_65" mmax_level="parse" orderid="7" tag="(Start (NX (NX (NN SEITEN)) (NX (NX (CARD 3)) (KON UND) (NX (CARD 10)))))"/>
+</markables>

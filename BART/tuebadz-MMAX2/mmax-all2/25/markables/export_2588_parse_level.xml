@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_4" span="word_1" mmax_level="parse" orderid="1" tag="(Start (VXINF (VVINF Abschieben)))"/>
+<markable id="markable_49" span="word_2..word_20" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (ADJX (CARD Drei))) (NX (NX (ART der) (ADJX (PX (APPRART am) (NX (ADJX (ADJA elftägigen)) (NN Hungerstreik))) (ADJA beteiligten)) (NN Kurden)) (PX (APPRART im) (NX (NX (NN Abschiebegefängnis)) (PX (APPR in) (NX (NE Glasmoor)))))))) (VXMF (VMFIN sollen)) (MF (ADVX (ADV heute)) (PX (APPR in) (NX (ART die) (NE Türkei)))) (VXVI (VXVP (VVPP abgeschoben)) (VXAI (VAINF werden)))) (\$\. \.))"/>
+<markable id="markable_80" span="word_21..word_33" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (ADVX (ADV Nur)) (APPRART im) (NX (NX (NN Fall)) (NX (NE Mehmed) (NE D\.))))) (VXAF (VAFIN wird)) (MF (ADVX (ADV noch)) (NX (NX (ART die) (NN Entscheidung)) (NX (ART des) (NN Verwaltungsgerichts)))) (VXVP (VVPP abgewartet))) (\$\. \.))"/>
+<markable id="markable_109" span="word_34..word_45" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (PROP Damit))) (VXVF (VVFIN setzen)) (MF (NX (ART die) (ADJX (ADJA Hamburger)) (NN Behörden)) (NX (NX (ART das) (ADJX (ADJA massive)) (NN Vorgehen)) (PX (APPR gegen) (NX (NN Kurden))))) (PTKVZ fort)) (\$\. \.))"/>
+<markable id="markable_153" span="word_46..word_63" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (PX (APPR In) (NX (ART den) (ADJX (ADJA vergangenen)) (NN Wochen)))) (VXAF (VAFIN wurden)) (MF (ADJX (ADJD verstärkt)) (NX (NN Razzien))) (VXVP (VVPP durchgeführt)) (\$\, \,) (NF (R-SIMPX (C (PX (APPR bei) (NX (PRELS denen)))) (MF (NX (NN Polizisten)) (ADVX (ADV auch)) (PX (APPR vor) (NX (NN Moscheen))) (ADVX (PTKNEG nicht))) (VXVF (VVFIN haltmachten))))) (\$\. \.))"/>
+</markables>

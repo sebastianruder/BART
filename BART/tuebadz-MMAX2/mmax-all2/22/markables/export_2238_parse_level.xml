@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Dolgenbrodt)))"/>
+<markable id="markable_14" span="word_2..word_4" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NN Prozeß))) (VXVF (VVFIN geht)) (PTKVZ weiter)))"/>
+<markable id="markable_68" span="word_5..word_26" mmax_level="parse" orderid="3" tag="(Start (NX (NX (NE Frankfurt)) (\$-LRB- -LRB-) (NX (NE Oder))) (\$-LRB- -RRB-) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (ART Das) (NN Verfahren)) (PX (APPR um) (NX (NX (ART den) (NN Brandanschlag)) (PX (APPR auf) (NX (NX (ART ein) (NN Asylbewerberheim)) (PX (APPR in) (NX (NE Dolgenbrodt))))))))) (VXAF (VAFIN wird)) (MF (ADVX (PTKNEG nicht))) (VXVP (VVPP ausgesetzt))) (\$\. \.))"/>
+<markable id="markable_103" span="word_27..word_41" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (NX (ART Das) (NN Landgericht)) (NX (NX (NE Frankfurt)) (\$-LRB- -LRB-) (NX (NE Oder))))) (\$-LRB- -RRB-) (VXVF (VVFIN wies)) (MF (ADVX (ADV gestern)) (NX (NX (ART einen) (ADJX (ADJA entsprechenden)) (NN Antrag)) (NX (ART der) (NN Verteidigung)))) (PTKVZ zurück)) (\$\. \.))"/>
+<markable id="markable_154" span="word_42..word_62" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (PPER Sie))) (VXAF (VAFIN hatte)) (MF (NX (ART die) (NN Aussetzung))) (VXVP (VVPP beantragt)) (\$\, \,) (NF (SIMPX (C (KOUS da)) (MF (NX (NX (NN Staatsanwältin)) (NX (NE Marx))) (ADVX (ADV zweimal)) (PX (APPR mit) (NX (ART einem) (ADJX (ADJA inhaftierten)) (NN Zeugen))) (PX (APPR vor) (NX (PDAT dessen) (ADJX (ADJA gerichtlicher)) (NN Vernehmung)))) (VXVP (VVPP gesprochen)) (VXAF (VAFIN hatte))))) (\$\. \.))"/>
+</markables>

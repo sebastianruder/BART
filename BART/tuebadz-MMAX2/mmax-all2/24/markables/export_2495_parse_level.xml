@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_14" span="word_1..word_5" mmax_level="parse" orderid="1" tag="(Start (SIMPX (VF (NX (ADJX (ADJA Erster)) (NN Staatsminister))) (VXVF (VVFIN zieht)) (MF (PX (APPR nach) (NX (NE Berlin))))))"/>
+<markable id="markable_75" span="word_6..word_30" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (KomX (KOKOM Als) (NX (NX (ADJX (ADJA erster)) (NN Vertreter)) (NX (ART der) (NN Bundesregierung))))) (VXVF (VVFIN verlegt)) (MF (NX (NX (NX (NX (ART der) (NN Staatsminister)) (PX (APPRART im) (NX (ADJX (ADJA Auswärtigen)) (NN Amt)))) (\$\, \,) (NX (NE Helmut) (NE Schäfer))) (\$-LRB- -LRB-) (NX (NE FDP))) (\$-LRB- -RRB-) (\$\, \,) (NX (PPOSAT seinen) (NN Wohnsitz)) (NX (NX (NN Anfang)) (NX (NN November))) (PX (APPR nach) (NX (NE Berlin))))) (\$\. \.))"/>
+<markable id="markable_109" span="word_31..word_43" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (ADJX (ADJD Gleichzeitig))) (VXAF (VAFIN werde)) (MF (NX (NE Schäfer)) (NX (NX (ART ein) (NN Büro)) (PX (APPR in) (NX (NX (ART der) (NN Außenstelle)) (NX (ART des) (ADJX (ADJA Auswärtigen)) (NN Amtes)))))) (VXVI (VVINF beziehen))) (\$\. \.))"/>
+<markable id="markable_114" span="word_44" mmax_level="parse" orderid="4" tag="(Start (NX (NE ADN)))"/>
+</markables>

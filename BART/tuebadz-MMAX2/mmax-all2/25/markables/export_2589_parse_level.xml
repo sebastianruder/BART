@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Wasserleiche)))"/>
+<markable id="markable_38" span="word_2..word_14" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (NN Taucher)) (NX (ART der) (ADJX (ADJA Hamburger)) (NN Polizei)))) (VXAF (VAFIN haben)) (MF (ADVX (ADV gestern)) (NX (ART eine) (NN Wasserleiche)) (PX (APPR aus) (NX (ART der) (NE Binnenalster)))) (VXVP (VVPP geborgen))) (\$\. \.))"/>
+<markable id="markable_116" span="word_15..word_45" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (APPR Bei) (NX (ART dem) (NN Toten)))) (VXVF (VVFIN handelt)) (MF (NX (PPER es)) (NX (PRF sich)) (ADVX (ADV offenbar)) (PX (APPR um) (NX (NX (ART einen) (NN Mann)) (\$\, \,) (R-SIMPX (C (NX (PRELS der))) (MF (PX (APPRART am) (NX (NN Sonntag))) (PX (APPR von) (NX (NN Passanten))) (PX (PROP dabei))) (VXVP (VXVP (VVPP beobachtet)) (VXAP (VAPP worden))) (VXAF (VAFIN war)) (\$\, \,) (NF (SIMPX (C (KOUS wie)) (FKOORD (FKONJ (MF (NX (PPER er)) (NX (PRF sich))) (VXVF (VVFIN auszog))) (KON und) (FKONJ (MF (PX (APPR zu) (NX (ART der) (NN Wasserfontäne)))) (VXVF (VVFIN schwamm))))))))))) (\$\. \.))"/>
+<markable id="markable_140" span="word_46..word_54" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (APPR Auf) (NX (NX (ART der) (NN Hälfte)) (NX (ART der) (NN Strecke))))) (VXAF (VAFIN war)) (MF (NX (PPER er))) (VXVP (VVPP untergegangen))) (\$\. \.))"/>
+<markable id="markable_157" span="word_55..word_61" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (ART Eine) (ADJX (ADJA erste)) (NN Suche))) (VXAF (VAFIN war)) (MF (ADJX (ADJD erfolglos))) (VXVP (VVPP geblieben))) (\$\. \.))"/>
+</markables>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_12" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (SIMPX (VF (NX (NN Rechts))) (VXVF (VVFIN kommt)) (MF (PX (APPR in) (NX (NN Mode))))))"/>
+<markable id="markable_68" span="word_5..word_27" mmax_level="parse" orderid="2" tag="(Start (NX (NN Infas-Umfrage)) (\$\. \:) (SIMPX (VF (NX (NX (ADJX (CARD 16)) (NN Prozent)) (NX (ART der) (NN Hamburger)))) (VXVF (VVFIN liebäugeln)) (MF (PX (APPR mit) (NX (NX (NN Reps)) (KON und) (NX (NE DVU)))))) (\$-LRB- \/) (SIMPX (SIMPX (VF (NX (NE SPD))) (VXVF (VVFIN legt)) (PTKVZ zu)) (\$\, \,) (SIMPX (VF (NX (NE CDU))) (MF (ADJX (ADJD chancenlos)))) (\$\, \,) (SIMPX (VF (NX (NE GAL))) (MF (PX (APPR bei) (NX (ADJX (CARD 10)) (NN Prozent)))))))"/>
+</markables>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_12" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NN Rad-Paddeltour)) (PX (APPR auf) (NX (ART der) (NE Wümme)))))"/>
+<markable id="markable_46" span="word_5..word_17" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (ART Der) (NE ADFC))) (VXVF (VVFIN bietet)) (MF (PX (APPRART am) (NX (ADJX (ADJA 13\.)) (NN Mai))) (NX (NX (ART eine) (NN Fahrrad-Paddeltour)) (PX (APPR auf) (NX (ART der) (NE Wümme))))) (PTKVZ an)) (\$\. \.))"/>
+<markable id="markable_72" span="word_18..word_27" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (APPR Von) (NX (NE Bremen)))) (VXVF (VVFIN geht)) (MF (NX (PPER es)) (ADVX (ADV zunächst)) (PX (APPR per) (NX (NN Rad))) (PX (APPR nach) (NX (NE Ottersberg))))) (\$\. \.))"/>
+<markable id="markable_97" span="word_28..word_37" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (ADVX (ADV Dann))) (VXAF (VAFIN wird)) (MF (NX (ART die) (NN Tour)) (ADVX (ADV flußabwärts)) (PX (APPR auf) (NX (ART dem) (NN Wümme-Mittelarm)))) (VXVP (VVPP fortgesetzt))) (\$\. \.))"/>
+<markable id="markable_132" span="word_38..word_51" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (PX (APPR In) (NX (ART den) (ADJX (ADJA Borgfelder)) (NN Wiesen)))) (VXVF (VVFIN stehen)) (MF (NX (ART die) (NN Räder)) (ADVX (ADV dann)) (PX (APPRART zur) (NX (NX (NN Rückfahrt)) (PX (APPR nach) (NX (NE Bremen)))))) (PTKVZ bereit)) (\$\. \.))"/>
+<markable id="markable_159" span="word_52..word_62" mmax_level="parse" orderid="6" tag="(Start (NX (NX (NN Anmeldung)) (PX (APPR bis) (NX (ADJX (ADJA 10\.)) (NN Mai))) (PX (APPR unter) (NX (NX (NN Tel\.)) (\$\. \:) (NX (CARD 50) (CARD 37) (CARD 04))))) (\$\. \.))"/>
+<markable id="markable_164" span="word_63" mmax_level="parse" orderid="7" tag="(Start (NX (NE taz)))"/>
+</markables>

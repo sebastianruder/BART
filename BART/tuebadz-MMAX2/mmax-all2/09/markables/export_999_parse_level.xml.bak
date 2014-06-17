@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (SIMPX (VF (NX (NE Crocodiles))) (MF (ADJX (ADJD sauer)))))"/>
+<markable id="markable_74" span="word_3..word_29" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (NN Eishockey-Bundesliga-Absteiger)) (NX (NE Crocodiles) (NE Hamburg)))) (VXAF (VAFIN hat)) (FKOORD (FKONJ (MF (PX (APPRART am) (NX (NN Montag))) (NX (NX (PPOSAT seinen) (NN Marketingleiter)) (NX (NE Hartmuth) (NE Steenken)))) (VXVP (VVPP entlassen))) (KON und) (FKONJ (MF (ADJX (NX (ART einen) (NN Tag)) (ADJD später)) (NX (NN Strafanzeige)) (PX (APPR gegen) (NX (PPER ihn))) (PX (APPR wegen) (NX (NX (NN Betrugs)) (\$\, \,) (NX (NN Urkundenfälschung)) (KON und) (NX (ADJX (ADJA ähnlicher)) (NN Delikte))))) (VXVP (VVPP erstattet))))) (\$\. \.))"/>
+<markable id="markable_112" span="word_30..word_45" mmax_level="parse" orderid="3" tag='(Start (SIMPX (VF (SIMPX (VF (NX (PIS Man))) (VXAF (VAFIN habe)) (\$-LRB- \") (MF (ADVX (ADV kistenweise)) (NX (NX (NN Belege)) (PX (APPR für) (NX (NN Betrügereien))))) (\$-LRB- \") (VXVP (VVPP gefunden)))) (\$\, \,) (VXVF (VVFIN hieß)) (MF (NX (PPER es)) (PX (APPR in) (NX (ART einer) (NN Mitteilung))))) (\$\. \.))'/>
+<markable id="markable_129" span="word_46..word_51" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (NE Steenken))) (VXMF (VMFIN soll)) (MF (NX (NN Schuldbekenntnisse))) (VXVI (VXVP (VVPP unterzeichnet)) (VXAI (VAINF haben)))) (\$\. \.))"/>
+</markables>

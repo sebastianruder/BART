@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Karriereknick)))"/>
+<markable id="markable_56" span="word_2..word_23" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (ART Die) (NN Grünen)) (PX (APPR in) (NX (ART der) (NN Bürgerschaft))))) (VXVF (VVFIN fordern)) (MF (NX (NX (ART einen) (NN Beförderungsstopp)) (PX (PX (APPR für) (NX (NX (ART die) (ADJX (ADJA oberen)) (NN Etagen)) (PX (APPRART im) (NX (ADJX (ADJA Öffentlichen)) (NN Dienst))))) (\$\, \,) (PX (ADJX (ADJD konkret)) (\$\. \:) (APPR ab) (NX (NX (XY A)) (NX (CARD 12)))))))) (\$\. \.))"/>
+<markable id="markable_73" span="word_24..word_30" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (ART Die) (ADJX (ADJA unteren)) (NN Einkommensstufen))) (VXMF (VMFIN sollen)) (VXVI (VXVP (VVPP ausgenommen)) (VXVI (VVINF bleiben)))) (\$\. \.))"/>
+<markable id="markable_105" span="word_31..word_44" mmax_level="parse" orderid="4" tag='(Start (\$-LRB- \") (SIMPX (VF (PX (APPR Trotz) (NX (NX (NN Haushaltsnotlage)) (KON und) (NX (ADJX (ADJX (ADJD ständig)) (ADJA neuer)) (NN Sparbeschlüsse))))) (VXAF (VAFIN wird)) (MF (PX (APPRART im) (NX (ADJX (ADJA Öffentlichen)) (NN Dienst))) (ADJX (ADJD fleißig))) (VXVP (VVPP befördert))) (\$\. \;))'/>
+<markable id="markable_141" span="word_45..word_60" mmax_level="parse" orderid="5" tag='(Start (SIMPX (VF (SIMPX (VF (NX (PDS dem))) (VXMF (VMFIN muß)) (MF (ADVX (ADV endlich)) (NX (ART ein) (NN Riegel))) (VXVI (VXVP (VVPP vorgeschoben)) (VXAI (VAINF werden))))) (\$-LRB- \") (\$\, \,) (VXVF (VVFIN sagt)) (MF (NX (NX (ART die) (ADJX (ADJA grüne)) (NN Abgeordnete)) (NX (NE Lisa) (NE Wargalla))))) (\$\. \.))'/>
+<markable id="markable_161" span="word_61..word_68" mmax_level="parse" orderid="6" tag="(Start (SIMPX (VF (NX (NX (NN Gesamtpersonalrats-Vorsitzender)) (NX (NE Tilsner)))) (VXMF (VMFIN solle)) (MF (PX (APPR mit) (NX (ADJX (ADJA gutem)) (NN Beispiel)))) (VXVI (VVINF vorangehen))) (\$\. \.))"/>
+<markable id="markable_183" span="word_69..word_76" mmax_level="parse" orderid="7" tag='(Start (SIMPX (VF (NX (PPOSAT Seinen) (NN Beförderungswunsch))) (VXVF (VVFIN nennt)) (MF (NX (NE Wargalla)) (\$-LRB- \") (ADJX (ADJD dreist)))) (\$-LRB- \") (\$\. \.))'/>
+<markable id="markable_188" span="word_77" mmax_level="parse" orderid="8" tag="(Start (NX (NE taz)))"/>
+</markables>

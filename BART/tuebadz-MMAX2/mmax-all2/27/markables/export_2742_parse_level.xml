@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Zivildienst)))"/>
+<markable id="markable_99" span="word_2..word_41" mmax_level="parse" orderid="2" tag='(Start (SIMPX (VF (PX (APPRART Am) (NX (NX (NN Dienstag)) (\$\, \,) (NX (ADJX (ADJA 24\.)) (ADJX (ADJA 10\.)))))) (\$\, \,) (VXVF (VVFIN treffen)) (MF (NX (PRF sich)) (PX (APPR um) (NX (ADJX (CARD 19)) (NN Uhr))) (NX (NN Zivis)) (PX (APPR bei) (NX (NX (ART der) (NE DGF-VK)) (NX (PX (APPRART Am) (NX (NN Wall))) (NX (CARD 164)))))) (\$\, \,) (NF (SIMPX (C (KOUI um)) (MF (NX (ART ein) (ADJX (ADJA regelmäßiges)) (\$-LRB- \") (NN Zivilforum))) (\$-LRB- \") (VXVZ (PTKZU zu) (VVINF gründen)) (\$\, \,) (NF (R-SIMPX (C (NX (PRELS das))) (MF (NX (PRF sich)) (PX (APPR mit) (NX (NX (PIDAT allen) (NN Fragen)) (PX (ADVX (ADV rund)) (APPR um) (NX (ART den) (NN Zivildienst)))))) (VXVI (VVINF beschäftigen)) (VXMF (VMFIN soll))))))) (\$\. \.))'/>
+<markable id="markable_104" span="word_42" mmax_level="parse" orderid="3" tag="(Start (NX (NE taz)))"/>
+</markables>

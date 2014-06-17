@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_9" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (SIMPX (MF (PX (APPR Gegen) (NX (NN Baum)))) (VXVP (VVPP gelaufen))))"/>
+<markable id="markable_51" span="word_4..word_20" mmax_level="parse" orderid="2" tag="(Start (NX (NE Seoul)) (\$-LRB- -LRB-) (NX (NE AFP)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (ART Die) (NN Benutzung)) (NX (ART eines) (NN Mobiltelefons)))) (VXAF (VAFIN ist)) (MF (NX (ART einem) (ADJX (ADJA 36jährigen)) (NN Südkoreaner)) (PX (APPRART zum) (NX (NN Verhängnis)))) (VXAP (VAPP geworden))) (\$\. \.))"/>
+<markable id="markable_97" span="word_21..word_39" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NE Koh) (NE Il) (NE Dong))) (VXAF (VAFIN war)) (MF (PX (APPR mit) (NX (ART dem) (NN Telefonieren))) (ADVX (ADV so))) (VXVP (VXVP (VVPP beschäftigt)) (VXAP (VAPP gewesen))) (\$\, \,) (NF (SIMPX (C (KOUS daß)) (MF (NX (PPER er)) (ADJX (ADJD ungebremst)) (PX (APPR gegen) (NX (ART einen) (NN Baum)))) (VXVF (VVFIN lief))))) (\$\. \.))"/>
+<markable id="markable_153" span="word_40..word_62" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (PROP Dabei))) (VXVF (VVFIN zog)) (MF (NX (PRF sich)) (NX (ART der) (NN Mann)) (PX (APPR in) (NX (NX (ART der) (ADJX (ADJA südkoreanischen)) (NN Hafenstadt)) (NX (NE Pusan)))) (NX (ADJX (ADVX (ADV so)) (ADJA schwere)) (NN Gehirnverletzungen))) (PTKVZ zu) (\$\, \,) (NF (SIMPX (C (KOUS daß)) (MF (NX (PPER er)) (ADJX (NX (ADJX (CARD fünf)) (NN Tage)) (ADJD später)) (PX (PROP daran))) (VXVF (VVFIN starb))))) (\$\. \.))"/>
+</markables>

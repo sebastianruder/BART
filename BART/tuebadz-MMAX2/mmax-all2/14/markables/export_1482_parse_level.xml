@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (NX (NE Sloman) (NE Neptun)))"/>
+<markable id="markable_43" span="word_3..word_17" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (SIMPX (C (KOUI Um)) (MF (NX (ART die) (NN Schiffsbetriebskosten))) (VXVZ (VVIZU einzudämmen)))) (\$\, \,) (VXAF (VAFIN hat)) (MF (NX (NX (ART die) (ADJX (ADJA Bremer)) (NN Reederei)) (NX (NE Sloman) (NE Neptun))) (NX (ADJX (ADJA weitere)) (NN Ausflaggungen))) (VXVP (VVPP vorgenommen))) (\$\. \.))"/>
+<markable id="markable_94" span="word_18..word_38" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (SIMPX (C (KOUS Wie)) (MF (PX (APPR aus) (NX (ART dem) (ADJX (PX (APPRART am) (NX (NN Sonntag))) (ADJA veröffentlichten)) (NN Geschäftsbericht)))) (VXVF (VVFIN hervorgeht)))) (\$\, \,) (VXMF (VMFIN konnte)) (MF (NX (ART die) (NN Reederei)) (PX (APPRART im) (NX (NX (NN Geschätsjahr)) (NX (CARD 1991)))) (NX (PPOSAT ihren) (NN Konzernumsatz)) (ADVX (ADV erneut)) (ADJX (ADJD leicht))) (VXVI (VVINF steigern))) (\$\. \.))"/>
+<markable id="markable_128" span="word_39..word_52" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (PDS Der))) (VXVF (VVFIN belief)) (MF (NX (PRF sich)) (PX (APPR auf) (NX (NX (NX (ADJX (CARD 127\,4)) (NN Millionen)) (NX (NN DM))) (PX (APPR gegenüber) (NX (NX (NX (ADJX (CARD 124)) (NN Millionen)) (NX (NN DM))) (PX (APPRART im) (NX (NN Vorjahr))))))))) (\$\. \.))"/>
+<markable id="markable_163" span="word_53..word_66" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (SIMPX (C (KOUS Während)) (MF (NX (ART das) (NN Schiffahrtsergebnis)) (ADJX (ADJX (ADJD leicht)) (ADJD rückläufig))) (VXAF (VAFIN war)))) (\$\, \,) (VXMF (VMFIN konnten)) (MF (NX (ART die) (NN Tochtergesellschaften)) (NX (PPOSAT ihre) (NN Erträge))) (VXVI (VVINF steigern))) (\$\. \.))"/>
+<markable id="markable_168" span="word_67" mmax_level="parse" orderid="6" tag="(Start (NX (NE dpa)))"/>
+</markables>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (NX (ADJX (ADJA Blinder)) (NN Alarm)))"/>
+<markable id="markable_43" span="word_3..word_17" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (ART Das) (ADJX (ADJA mysteriöse)) (NN Verhalten)) (NX (ART eines) (ADJX (ADJA unbekannten)) (NN Mannes)))) (VXAF (VAFIN hat)) (MF (ADVX (ADV gestern)) (NX (NN Bombenalarm)) (PX (APPR in) (NX (ART der) (ADJX (ADJA Hamburger)) (NN Innenstadt)))) (VXVP (VVPP ausgelöst))) (\$\. \.))"/>
+<markable id="markable_91" span="word_18..word_37" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (PPER Er))) (FKOORD (FKONJ (VXAF (VAFIN hatte)) (FKOORD (FKONJ (MF (NX (ART einen) (NN Gegenstand)) (PX (APPR in) (NX (NX (ART einen) (NN Papierkorb)) (PX (APPR vor) (NX (ART dem) (NN Alsterhaus)))))) (VXVP (VVPP gelegt))) (\$\, \,) (FKONJ (MF (NX (PRF sich)) (ADJX (ADJD hektisch))) (VXVP (VVPP umgedreht))))) (KON und) (FKONJ (VXAF (VAFIN ist)) (MF (ADVX (ADV schließlich))) (VXVP (VVPP weggelaufen))))) (\$\. \.))"/>
+<markable id="markable_142" span="word_38..word_58" mmax_level="parse" orderid="4" tag="(Start (SIMPX (SIMPX (VF (NX (ART Die) (ADJX (PX (APPR von) (NX (ART einem) (NN Taxifahrer))) (ADJA benachrichtigte)) (NN Polizei))) (VXVF (VVFIN sperrte)) (MF (NX (ART den) (NN Jungfernstieg)))) (\$\, \,) (SIMPX (VF (NX (NX (ART ein) (NN Entschärfer)) (NX (ART des) (NN Landeskriminalamtes)))) (VXVF (VVFIN jagte)) (MF (NX (ART den) (NN Mülleimer)) (PX (APPR in) (NX (ART die) (NN Luft)))))) (\$\. \.))"/>
+<markable id="markable_155" span="word_59..word_63" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (PTKVZ Übrig)) (VXVF (VVFIN blieb)) (MF (NX (ART eine) (NN Parfumflasche)))) (\$\. \.))"/>
+</markables>

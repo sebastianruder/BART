@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Golf)))"/>
+<markable id="markable_12" span="word_2..word_3" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NE Langer))) (MF (ADJX (ADJD müde)))))"/>
+<markable id="markable_95" span="word_4..word_37" mmax_level="parse" orderid="3" tag='(Start (\$-LRB- \") (SIMPX (SIMPX (VF (SIMPX (VF (ADJX (ADVX (ADV Sehr)) (ADJD müde))) (\$-LRB- \") (VXAF (VAFIN sei)) (MF (NX (PPER er))) (VXAP (VAPP gewesen)) (NF (PX (APPR bei) (NX (NX (ART der) (NN Match-Play-WM)) (PX (APPR in) (NX (NE Wentworth)))))))) (\$\, \,) (VXVF (VVFIN meinte)) (MF (NX (NE Bernhard) (NE Langer)))) (KON und) (SIMPX (VXVF (VVFIN verschaffte)) (MF (NX (PRF sich)) (NX (ART eine) (ADJX (ADJA kleine)) (NN Ruhepause))) (\$\, \,) (NF (SIMPX (C (KOUS indem)) (MF (NX (PPER er)) (PX (APPRART im) (NX (NX (NN Halbfinale)) (PX (APPR gegen) (NX (NX (ART den) (NN Südafrikaner)) (NX (NE Ernie) (NE Els))))))) (VXVF (VVFIN ausschied)))))) (\$\. \.))'/>
+<markable id="markable_118" span="word_38..word_46" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ADVX (ADV Ebenfalls)) (ART das) (NN Endspiel))) (VXVF (VVFIN erreichte)) (MF (NX (NX (NE Steve) (NE Elkington)) (PX (APPR aus) (NX (NE Australien)))))) (\$\. \.))"/>
+</markables>

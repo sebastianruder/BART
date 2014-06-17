@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NN Tod)) (PX (APPRART im) (NX (NN Gitterbett)))))"/>
+<markable id="markable_40" span="word_4..word_15" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (ADVX (ADVX (ADV Gestern)) (ADVX (ADV vormittag)))) (VXVF (VVFIN starb)) (MF (NX (ART ein) (ADJX (NX (ADJX (CARD 16)) (NN Monate)) (ADJA alter)) (NN Säugling)) (PX (APPR in) (NX (PPOSAT seinem) (NN Gitterbett))))) (\$\. \.))"/>
+<markable id="markable_72" span="word_16..word_28" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (ART Das) (NN Mädchen))) (VXAF (VAFIN war)) (MF (PX (APPR von) (NX (ART der) (NN Mutter))) (ADVX (ADV allein)) (PX (APPR in) (NX (ART der) (NN Wohnung)))) (VXVP (VXVP (VVPP gelassen)) (VXAP (VAPP worden)))) (\$\. \.))"/>
+<markable id="markable_117" span="word_29..word_47" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Der) (NN Säugling))) (FKOORD (FKONJ (VXVF (VVFIN versuchte)) (\$\, \,) (NF (SIMPX (MF (PX (APPR aus) (NX (ART dem) (NN Bett)))) (VXVZ (PTKZU zu) (VVINF krabbeln))))) (\$\, \,) (FKONJ (VXVF (VVFIN steckte)) (MF (NX (ART den) (NN Kopf)) (PX (APPR zwischen) (NX (ART die) (NN Querstreben))))) (KON und) (VXVF (VVFIN erstickte)))) (\$\. \.))"/>
+<markable id="markable_122" span="word_48" mmax_level="parse" orderid="5" tag="(Start (NX (NE taz)))"/>
+</markables>

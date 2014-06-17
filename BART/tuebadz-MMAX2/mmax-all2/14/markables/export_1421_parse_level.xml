@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE SPANIEN)))"/>
+<markable id="markable_17" span="word_2..word_5" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NE ETA))) (VXVF (VVFIN bietet)) (MF (NX (NN Waffenruhe))) (PTKVZ an)))"/>
+<markable id="markable_107" span="word_6..word_42" mmax_level="parse" orderid="3" tag="(Start (NX (NE Bilbao)) (\$-LRB- -LRB-) (NX (NE afp)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (PX (NX (ADJX (CARD Zwei)) (NN Wochen)) (APPR vor) (NX (NX (NN Eröffnung)) (NX (NX (ART der) (NN Sommerolympiade)) (PX (APPR in) (NX (NE Barcelona))))))) (VXAF (VAFIN hat)) (FKOORD (FKONJ (MF (NX (NX (ART die) (ADJX (ADJA baskische)) (NN Untergrundbewegung)) (NX (NE ETA))) (NX (ART der) (NN Regierung)) (NX (NX (ART eine) (NN Waffenruhe)) (PX (APPR von) (NX (ADJX (CARD zwei)) (NN Monaten))))) (VXVP (VVPP angeboten))) (KON und) (FKONJ (MF (ADVX (ADV zugleich)) (NX (NX (ADJX (ADJA politische)) (NN Verhandlungen)) (PX (APPR über) (NX (NX (ART die) (NN Zukunft)) (NX (ART des) (NN Baskenlandes)))))) (VXVP (VVPP gefordert))))) (\$\. \.))"/>
+</markables>

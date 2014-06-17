@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE SÜDAFRIKA)))"/>
+<markable id="markable_16" span="word_2..word_5" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NE ANC))) (VXMF (VMFIN will)) (MF (ADVX (PTKNEG nicht))) (VXVI (VVINF verhandeln))))"/>
+<markable id="markable_91" span="word_6..word_36" mmax_level="parse" orderid="3" tag="(Start (NX (NE Johannesburg)) (\$-LRB- -LRB-) (NX (NE ap)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (ART Der) (ADJX (ADJA Afrikanische)) (NN Nationalkongreß)) (\$-LRB- -LRB-) (NX (NE ANC)))) (\$-LRB- -RRB-) (VXAF (VAFIN hat)) (MF (PX (APPRART am) (NX (NN Donnerstag))) (NX (NX (NX (ART den) (NN Aufruf)) (PX (APPR von) (NX (NX (NN Präsident)) (NX (NE Frederik) (NE de) (NE Klerk))))) (PX (APPR zu) (NX (NX (NN Gesprächen)) (PX (APPR über) (NX (NX (ART die) (ADJX (ADJA politische)) (NN Krise)) (NX (ART des) (NN Landes)))))))) (VXVP (VVPP zurückgewiesen))) (\$\. \.))"/>
+<markable id="markable_142" span="word_37..word_57" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Der) (NE ANC))) (VXVF (VVFIN macht)) (MF (NX (ART die) (NN Regierung)) (PX (PROP dafür)) (ADJX (ADJD verantwortlich))) (\$\, \,) (NF (SIMPX (C (KOUS daß)) (MF (PX (APPRART am) (NX (ADJX (ADJA 17\.)) (NN Juni))) (PX (APPR in) (NX (NE Boipatong))) (NX (ADJX (CARD 42)) (NN Menschen)) (PX (APPR von) (NX (NN Unbekannten)))) (VXVP (VVPP getötet)) (VXAF (VAFIN wurden))))) (\$\. \.))"/>
+</markables>

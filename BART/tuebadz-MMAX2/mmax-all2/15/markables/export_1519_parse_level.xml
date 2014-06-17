@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NN MEINUNGSFREIHEIT)) (PX (APPR IN) (NX (NE DEUTSCHLAND)))))"/>
+<markable id="markable_19" span="word_4..word_6" mmax_level="parse" orderid="2" tag="(Start (SIMPX (MF (NX (NE Stefan) (NE Heym))) (VXVP (VVPP zusammengeschlagen))))"/>
+<markable id="markable_71" span="word_7..word_28" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NX (ART Der) (NN Schriftsteller)) (NX (NE Stefan) (NE Heym)))) (VXAF (VAFIN wurde)) (FKOORD (FKONJ (MF (PX (APPRART am) (NX (NX (NN Sonntag)) (ADVX (ADV abend)))) (PX (APPRART im) (NX (NX (NN Restaurant)) (NX (ART eines) (ADJX (ADJA Kölner)) (NN Hotels)))) (PX (APPR von) (NX (ART einem) (NN Unbekannten))) (ADVX (ADV erst))) (VXVP (VVPP beschimpft))) (KON und) (FKONJ (MF (ADVX (ADV dann))) (VXVP (VVPP zusammengeschlagen))))) (\$\. \.))"/>
+<markable id="markable_107" span="word_29..word_42" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Der) (NN Angriff))) (VXVF (VVFIN stand)) (MF (ADVX (ADV offenbar)) (PX (APPRART im) (NX (NX (NN Zusammenhang)) (PX (APPR mit) (NX (NX (NX (NE Heyms)) (NN Engagement)) (PX (APPR für) (NX (ART eine) (ADJX (ADJA ostdeutsche)) (NN Sammlungsbewegung))))))))) (\$\. \.))"/>
+<markable id="markable_114" span="word_43..word_44" mmax_level="parse" orderid="5" tag="(Start (NX (NX (NN SEITE)) (NX (CARD 2))))"/>
+</markables>

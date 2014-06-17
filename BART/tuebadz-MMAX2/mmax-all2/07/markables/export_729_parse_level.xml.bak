@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_17" span="word_1..word_6" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NE Hochtief)) (PX (APPRART zum) (NX (NX (ADJX (ADJA elften)) (NN Mal)) (PX (APPR mit) (NX (NN Gewinn)))))))"/>
+<markable id="markable_74" span="word_7..word_29" mmax_level="parse" orderid="2" tag="(Start (NX (NE Essen)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (ART Der) (ADJX (ADJA Essener)) (NN Baukonzern)) (NX (NX (NE Hochtief)) (NN AG)))) (VXAF (VAFIN hat)) (MF (PX (APPRART im) (NX (NX (NN Geschäftsjahr)) (NX (CARD 1998)))) (NX (PPOSAT seinen) (NN Jahresüberschuß)) (PX (APPRART zum) (NX (NX (ADJX (ADJA elften)) (NN Mal)) (PX (APPR in) (NX (NN Folge)))))) (VXVP (VVPP erhöht))) (\$\. \.))"/>
+<markable id="markable_111" span="word_30..word_44" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (SIMPX (VF (NX (PPER Er))) (VXVF (VVFIN stieg)) (MF (PX (APPR um) (NX (ADJX (CARD 9\,1)) (NN Prozent))) (PX (APPR auf) (NX (NX (ADJX (CARD 172\,2)) (NN Millionen)) (NX (NN Mark))))))) (\$\, \,) (VXVF (VVFIN teilte)) (MF (NX (ART der) (NN Marktführer))) (PTKVZ mit)) (\$\. \.))"/>
+</markables>

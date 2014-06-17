@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_9" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (SIMPX (VF (NX (NN Abwasser))) (MF (ADVX (PTKNEG nicht)) (ADJX (ADJD teurer)))))"/>
+<markable id="markable_44" span="word_4..word_18" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (ART Die) (ADJX (ADJA Bremer)) (NN Entsporgungsbetrieb)) (\$-LRB- -LRB-) (NX (ADVX (ADV früher)) (NE ASA)))) (\$-LRB- -RRB-) (VXAF (VAFIN haben)) (MF (PX (APPR in) (NX (ART den) (ADJX (ADJA vergangenen)) (NN Jahren))) (NX (NN Gebührenüberschüsse))) (VXVP (VVPP erwirtschaftet))) (\$\. \.))"/>
+<markable id="markable_75" span="word_19..word_31" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (PROP Darauf))) (VXAF (VAFIN hat)) (MF (ADVX (ADV gestern)) (NX (NX (NX (ART der) (NN Betriebleiter)) (NX (ART des) (NE BEB))) (\$\, \,) (NX (NE Dieter) (NE Voigt)))) (\$\, \,) (VXVP (VVPP hingewiesen))) (\$\. \.))"/>
+<markable id="markable_115" span="word_32..word_48" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (APPR Aus) (NX (PDAT diesem) (NN Grunde)))) (VXAF (VAFIN werden)) (MF (NX (ART die) (NN Gebühren)) (NX (PDAT dieses) (NN Jahr)) (ADVX (PTKNEG nicht))) (VXVP (VVPP erhöht)) (\$\, \,) (NF (SIMPX (C (KOUS obwohl)) (MF (NX (ADJX (ADJA zahlreiche)) (NN Kostensteigerungen))) (VXVZ (VVIZU aufzufangen)) (VXAF (VAFIN sind))))) (\$\. \.))"/>
+<markable id="markable_123" span="word_49..word_50" mmax_level="parse" orderid="5" tag="(Start (NX (NE Voigt)) (\$\. \:))"/>
+<markable id="markable_158" span="word_51..word_65" mmax_level="parse" orderid="6" tag='(Start (\$-LRB- \") (SIMPX (VF (NX (NX (ART Die) (NN Verselbständigung)) (NX (NX (ART der) (NN Stadtentwässerung)) (KomX (KOKOM als) (NX (NN Eigenbetrieb)))))) (VXVF (VVFIN führt)) (MF (ADVX (ADV mithin)) (PX (APPR zu) (NX (ART der) (ADJX (ADJA gewünschten)) (NN Gebührenklarheit))))) (\$\. \.) (\$-LRB- \"))'/>
+<markable id="markable_163" span="word_66" mmax_level="parse" orderid="7" tag="(Start (NX (NE taz)))"/>
+</markables>

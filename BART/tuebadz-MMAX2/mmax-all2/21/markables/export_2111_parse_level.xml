@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_12" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (NX (NN Betr\.)) (\$\. \:) (NX (NE Gero) (NE Lenhardt)))"/>
+<markable id="markable_52" span="word_5..word_20" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NX (NE Gero) (NE Lenhardt)) (\$\, \,) (NX (CARD 54))) (\$\, \,) (NX (NX (NN Soziologe)) (\$\, \,) (NX (NX (ADJX (ADJA wissenschaftl\.)) (NN Mitarbeiter)) (PX (APPRART am) (NX (NX (NX (NN Max-Planck-Institut)) (PX (APPR für) (NX (NN Bildungsforschung)))) (PX (APPR in) (NX (NE Berlin)))))))) (\$\. \.))"/>
+<markable id="markable_82" span="word_21..word_32" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (PPER Er))) (VXAF (VAFIN hat)) (MF (PX (PX (APPR in) (NX (ART den) (NE USA))) (KON sowie) (PX (APPR in) (NX (NE Israel))))) (VXVP (VXVP (VVPP gelehrt)) (KON und) (VXVP (VVPP geforscht)))) (\$\. \.))"/>
+<markable id="markable_127" span="word_33..word_51" mmax_level="parse" orderid="4" tag='(Start (SIMPX (VF (NX (PPER Er))) (VXAF (VAFIN ist)) (MF (NX (NX (NN Autor)) (NX (PIAT mehrerer) (NN Bücher))))) (\$\, \,) (NX (PX (APPR u\.) (NX (PIS a\.))) (\$-LRB- \") (NX (NX (NN Schule)) (KON und) (NX (ADJX (ADJA bürokratische)) (NN Rationalität)))) (\$-LRB- \") (\$\, \,) (NX (NE Suhrkamp)) (\$\, \,) (NX (CARD 1984)) (\$\. \.))'/>
+</markables>

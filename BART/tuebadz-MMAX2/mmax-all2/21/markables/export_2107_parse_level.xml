@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Nordatlantik)))"/>
+<markable id="markable_12" span="word_2..word_3" mmax_level="parse" orderid="2" tag="(Start (SIMPX (MF (NX (NN U-Boote))) (VXVI (VVINF bergen))))"/>
+<markable id="markable_74" span="word_4..word_30" mmax_level="parse" orderid="3" tag="(Start (NX (NE London)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (KomX (ADVX (ADV Mehr)) (KOKOM als) (NX (ADJX (CARD hundert)) (ADJX (ADJA deutsche)) (NN U-Boote))) (\$\, \,) (R-SIMPX (C (NX (PRELS die))) (MF (PX (APPR nach) (NX (ART dem) (ADJX (ADJA Zweiten)) (NN Weltkrieg))) (PX (APPR vor) (NX (NE Nordirland)))) (VXVP (VXVP (VVPP versenkt)) (VXAP (VAPP worden))) (VXAF (VAFIN waren))))) (\$\, \,) (VXMF (VMFIN sollen)) (MF (ADVX (ADV jetzt))) (VXVI (VXVP (VVPP geborgen)) (VXAI (VAINF werden)))) (\$\. \.))"/>
+<markable id="markable_152" span="word_31..word_62" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (SIMPX (VF (NX (ART Das) (ADJX (ADJA britische)) (NN Verteidigungsministerium))) (VXVF (VVFIN erteilte)) (MF (NX (ART die) (NN Genehmigung))) (\$\, \,) (NF (SIMPX (MF (NX (NX (ART die) (NN U-Boote)) (\$\, \,) (R-SIMPX (C (NX (PRELS die))) (MF (NX (NX (ART einen) (NN Altmetallwert)) (PX (APPR von) (NX (ADVX (ADV bis)) (ADVX (ADV zu)) (ADJX (CARD 240\.000)) (NN Mark))))) (VXAI (VAINF haben)) (VXMF (VMFIN sollen))))) (\$\, \,) (VXVZ (PTKZU zu) (VVINF bergen)))))) (\$\, \,) (VXVF (VVFIN bestätigte)) (MF (NX (ART ein) (NN Sprecher)) (PX (APPRART am) (NX (NN Sonntag))) (PX (APPR in) (NX (NE London))))) (\$\. \.))"/>
+</markables>

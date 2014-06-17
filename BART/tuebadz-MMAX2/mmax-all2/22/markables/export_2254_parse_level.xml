@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Tschernobyl)))"/>
+<markable id="markable_17" span="word_2..word_5" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (NN Block)) (NX (CARD 1)))) (MF (PX (APPR in) (NX (NN Betrieb))))))"/>
+<markable id="markable_79" span="word_6..word_30" mmax_level="parse" orderid="3" tag="(Start (NX (NE Kiew)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (NX (ART Das) (NN Staatskomittee)) (PX (APPR für) (NX (NN Kernenergie)))) (PX (APPR in) (NX (NE Kiew))))) (VXAF (VAFIN hat)) (MF (NX (NX (ART den) (ADJX (ADJA ersten)) (NN Block)) (NX (NX (ART des) (NN AKW)) (NX (NE Tschernobyl)))) (ADVX (ADV gestern)) (ADVX (ADV wieder)) (PX (APPR in) (NX (NN Betrieb)))) (VXVI (VXVI (VVINF nehmen)) (VXVI (VVINF lassen)))) (\$\. \.))"/>
+<markable id="markable_137" span="word_31..word_55" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Die) (NN Regierung))) (VXAF (VAFIN hatte)) (MF (PX (APPR in) (NX (ART den) (ADJX (ADJA vergangenen)) (ADJX (CARD zwei)) (NN Monaten))) (NX (NX (ART einen) (NN Teil)) (NX (ART des) (NN Kühlsystems)))) (VXVI (VXVI (VVINF auswechseln)) (VXVI (VVINF lassen))) (\$\, \,) (NF (SIMPX (C (KOUI um)) (MF (NX (ART den) (NN Reaktor)) (ADVX (ADV noch)) (PX (APPR bis) (NX (CARD 2011)))) (VXVZ (VXVI (VVINF betreiben)) (VXMZ (PTKZU zu) (VMINF können)))))) (\$\. \.))"/>
+</markables>

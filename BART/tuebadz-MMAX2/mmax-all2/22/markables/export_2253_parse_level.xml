@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (NX (ADJX (ADJA Deutsche)) (NN Bahn)))"/>
+<markable id="markable_13" span="word_3" mmax_level="parse" orderid="2" tag="(Start (NX (NN Kartellsünder)))"/>
+<markable id="markable_96" span="word_4..word_38" mmax_level="parse" orderid="3" tag="(Start (NX (NE Berlin)) (\$-LRB- -LRB-) (NX (NE rtr)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (ART Das) (NN Bundeskartellamt))) (VXAF (VAFIN hat)) (MF (NX (ART die) (NX (NX (ADJX (ADJA Deutsche)) (NN Bahn)) (NN AG)))) (VXVP (VVPP abgemahnt)) (\$\, \,) (NF (SIMPX (C (KOUS weil)) (MF (NX (PPER sie)) (NX (NX (NX (ART dem) (NN Computerbuchungssystem)) (NX (NE SABRE))) (NX (NX (ART der) (ADJX (ADJA amerikanischen)) (NN Fluglinie)) (NX (NE American) (NE Airlines)))) (NX (NX (ART den) (NN Zugang)) (PX (APPR zu) (NX (ADJX (ADJA eigenen)) (NX (NX (NN Reiseinformationen)) (\$\, \,) (NX (NX (TRUNC Buchungs-)) (KON und) (NX (NN Reservierungsmöglichkeiten)))))))) (VXVF (VVFIN verweigert))))) (\$\. \.))"/>
+<markable id="markable_143" span="word_39..word_58" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Die) (NN Bahn))) (VXVF (VVFIN betreibt)) (MF (NX (NX (ART ein) (ADJX (ADJA eigenes)) (ADJX (ADJA deutsches)) (NN System)) (NX (NE START))) (PX (APPR mit) (NX (NX (NX (ART dem) (NN Reisekonzern)) (NX (NE TUI))) (KON und) (NX (ART der) (NE Lufthansa)))))) (\$-LRB- -) (NX (NX (NN Marktanteil)) (NX (ADJX (CARD 90)) (NN Prozent))) (\$\. \.))"/>
+</markables>

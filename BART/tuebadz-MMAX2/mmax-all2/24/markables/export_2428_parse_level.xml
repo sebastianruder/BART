@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_15" span="word_1..word_5" mmax_level="parse" orderid="1" tag="(Start (NX (NN Betr\.)) (\$\. \:) (NX (NX (NN Kinder)) (PX (APPR in) (NX (NE Sarajevo)))))"/>
+<markable id="markable_56" span="word_6..word_22" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (ART Der) (ADJX (ADJA dreizehnjährige)) (NX (NE Kenen) (NE Herenda)))) (VXVF (VVFIN sammelt)) (MF (KomX (KOKOM wie) (NX (NX (PIAT manche) (ADJX (ADJA anderen)) (NN Kinder)) (PX (APPR in) (NX (NE Sarajevo))))) (NX (NX (NN Granatsplitter)) (\$\, \,) (NX (NN Blindgänger)) (KON und) (NX (NN Projektile))))) (\$\. \.))"/>
+<markable id="markable_82" span="word_23..word_32" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (ART Der) (NN Junge))) (VXVF (VVFIN lebt)) (MF (PX (APPRART im) (NX (NX (NN Vorort)) (NX (NX (NE Dobrinja)) (PX (APPR nahe) (NX (ART der) (NN Frontlinie)))))))) (\$\. \.))"/>
+<markable id="markable_99" span="word_33..word_38" mmax_level="parse" orderid="4" tag="(Start (NX (NN Foto)) (\$\. \:) (NX (NE Thomas) (NE Kern)) (\$-LRB- \/) (NX (NE Lookat)))"/>
+</markables>

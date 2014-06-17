@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_12" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (DM (NX (NN FRAUEN))) (SIMPX (VXVM (VVIMP WEHRT)) (MF (NX (PRF EUCH)))) (\$\. \!))"/>
+<markable id="markable_22" span="word_5..word_7" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NN Aufruf)) (NX (ART der) (NN Ministerin))))"/>
+<markable id="markable_68" span="word_8..word_26" mmax_level="parse" orderid="3" tag="(Start (NX (NE Magdeburg)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (ART Die) (NN Frauen)) (PX (APPR in) (NX (ART den) (ADJX (ADJA neuen)) (NN Ländern))))) (VXMF (VMFIN sollen)) (MF (NX (PRF sich)) (ADVX (ADV unbedingt)) (PX (APPR gegen) (NX (ADJX (ADJA gesellschaftliche)) (NN Benachteiligungen)))) (VXVI (VVINF wehren))) (\$\. \.))"/>
+<markable id="markable_111" span="word_27..word_43" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (PROP Dazu))) (VXVF (VVFIN rief)) (MF (NX (NX (NX (NX (NE Brandenburgs)) (NN Sozialministerin)) (NX (NE Regine) (NE Hildebrandt))) (\$-LRB- -LRB-) (NX (NE SPD))) (\$-LRB- -RRB-) (NX (NX (NN Mittwoch)) (ADVX (ADV abend))) (PX (APPRART beim) (NX (NN Frauen-Theater-Festival))) (PX (APPR in) (NX (NE Magdeburg)))) (PTKVZ auf)) (\$\. \:))"/>
+<markable id="markable_134" span="word_44..word_53" mmax_level="parse" orderid="5" tag='(Start (\$-LRB- \") (SIMPX (VF (NX (ART Die) (ADJX (ADJA neue)) (NN Anpassung))) (VXAF (VAFIN hat)) (MF (NX (ART die) (ADJX (ADJA alte)))) (VXVP (VVPP abgelöst))) (\$\. \.) (\$-LRB- \"))'/>
+<markable id="markable_167" span="word_54..word_67" mmax_level="parse" orderid="6" tag="(Start (SIMPX (VF (ADVX (ADV Heute))) (VXMF (VMFIN müßten)) (MF (NX (PRF sich)) (NX (ART die) (NN Menschen)) (ADVX (ADV jedoch))) (\$\, \,) (ADVX (ADVX (ADV anders)) (KomX (KOKOM als) (PX (APPR zu) (NX (NN DDR-Zeiten))))) (\$\, \,) (VXVI (VVINF wehren))) (\$\. \.))"/>
+</markables>

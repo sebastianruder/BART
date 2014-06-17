@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (NX (ADJX (ADJA Hysterisch-bayerische)) (NN Volkspolizei)))"/>
+<markable id="markable_22" span="word_3..word_8" mmax_level="parse" orderid="2" tag="(Start (ADJX (ADJD betr\.)) (\$\. \:) (NX (NX (NN Speisenfolge)) (NX (NX (ADJX (ADJA 6\.)) (ADJX (ADJA 7\.))) (NX (CARD 92)))))"/>
+<markable id="markable_43" span="word_9..word_16" mmax_level="parse" orderid="3" tag="(Start (NX (NX (NN Speisenfolge)) (NX (NX (ADJX (ADJA 6\.)) (ADJX (ADJA 7\.))) (NX (CARD 92)))) (\$-LRB- -LRB-) (NX (NN Auszug)) (\$-LRB- -RRB-) (\$\. \:))"/>
+<markable id="markable_50" span="word_17..word_18" mmax_level="parse" orderid="4" tag="(Start (NX (ADJX (ADJA Münchener)) (NN Kesselfleisch)))"/>
+<markable id="markable_68" span="word_19..word_25" mmax_level="parse" orderid="5" tag="(Start (NX (NX (NN Toast)) (NX (NX (ART des) (NN Staatsratsvorsitzenden)) (NX (NX (NN Genosse)) (NX (NE Max) (NE Streibl))))) (\$\. \:))"/>
+<markable id="markable_91" span="word_26..word_35" mmax_level="parse" orderid="6" tag="(Start (\$-LRB- \&quot;) (SIMPX (VF (ADVX (ADV Dann))) (VXVM (VVIMP haut)) (MF (ADVX (ADV mal)) (ADJX (ADJD ordentlich))) (PTKVZ rein)) (\$\, \,) (DM (NX (NN Bub\'n))) (\$\. \!) (\$-LRB- \&quot;))"/>
+<markable id="markable_101" span="word_36..word_38" mmax_level="parse" orderid="7" tag="(Start (NX (NN Diagnose)) (\$\. \:) (NX (NN Alpen-Koller)))"/>
+<markable id="markable_111" span="word_39..word_41" mmax_level="parse" orderid="8" tag="(Start (NX (NN Therapie)) (\$\. \:) (NX (NN Ampustoibern)))"/>
+<markable id="markable_123" span="word_42..word_45" mmax_level="parse" orderid="9" tag="(Start (NX (NE Werner) (NE Bußmann)) (\$\, \,) (NX (NE Geeste)))"/>
+</markables>

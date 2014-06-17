@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Vorlauf)))"/>
+<markable id="markable_42" span="word_2..word_17" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (PX (APPR Ohne) (NX (NN Krimi)))) (\$-LRB- \.\.\.) (\$-LRB- \.\.\.) (VXVF (VVFIN geht)) (MF (NX (PIS man)) (PX (APPRART beim) (NX (NE ZDF))) (ADVX (ADV wohl)) (ADVX (ADV bald)) (ADVX (ADV wirklich)) (ADVX (ADVX (PTKNEG nicht)) (ADVX (ADV mehr))) (PX (APPRART ins) (NX (NN Bett))))) (\$\. \.))"/>
+<markable id="markable_125" span="word_18..word_53" mmax_level="parse" orderid="3" tag='(Start (SIMPX (VF (ADVX (ADV Nun))) (VXMF (VMFIN will)) (MF (NX (PIS man)) (NX (PPER uns)) (PX (APPR in) (NX (NX (ART der) (ADJX (ADJA neuen)) (NN Krimireihe)) (\$-LRB- \") (PX (PX (APPR Von) (NX (NN Fall))) (PX (APPR zu) (NX (NN Fall)))))) (\$-LRB- \") (\$-LRB- -LRB-) (NX (NX (NN Samstag)) (\$\, \,) (NX (ADJX (CARD 20\.15)) (NN Uhr))) (\$-LRB- -RRB-) (ADVX (ADV auch)) (ADVX (ADV noch)) (PX (APPR mit) (\$-LRB- \") (NX (NX (ADJX (ADJA turbulenten)) (NN Familiengeschichten)) (\$-LRB- \") (PX (ADVX (ADV rund)) (APPR um) (NX (ART einen) (NN Kriminalkommissar))))) (NX (ART das) (ADJX (ADJA vorzeitige)) (NN Zubettgehen))) (VXVI (VVINF versüßen))) (\$\. \.))'/>
+</markables>
