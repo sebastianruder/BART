@@ -50,20 +50,27 @@ public class DiscourseEntity {
 	private boolean firstMention_isFirstMention;
 	
 	private List<Mention> mentions;
-   
+    private Set<String> words;
    
 	public DiscourseEntity(Mention m) {
 		ID = nextID;
 		nextID++;
 		mentions = new ArrayList<Mention>();
 		mentions.add(m);
+		words = new HashSet<String>();
+		addWords(m);
 	}
 	
 	public List<Mention> getMentions() {
 		return mentions;
 	}
 	
-	
+	public void addWords(Mention m) {
+		
+		for (String token : m.getMarkable().getDiscourseElements()) {
+			words.add(token);
+		}
+	}
 	
 	public void merge(Mention ante) {
 		
@@ -71,6 +78,7 @@ public class DiscourseEntity {
 		for (Mention m : deAnte.getMentions()) {
 			mentions.add(m);
 			m.setDiscourseEntity(this);
+			addWords(m);
 		}
 	}
 	
