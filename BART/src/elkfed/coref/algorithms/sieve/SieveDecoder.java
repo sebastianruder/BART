@@ -44,10 +44,10 @@ public class SieveDecoder implements CorefResolver {
                 mentions.size()));        
         
         // counts number of walk_throughs
-        for (int walk_through = 1; walk_through < 11; walk_through++) {
+        for (int walk_through = 0; walk_through < 11; walk_through++) {
         	
         	// skips other sieves; should be changed when new sieves are implemented
-        	if (walk_through != 2) {
+        	if (walk_through != 5 && walk_through != 2) {
         		continue;
         	}
         	
@@ -66,8 +66,8 @@ public class SieveDecoder implements CorefResolver {
 	    			System.out.println(String.format("#%d: No match found: %s", i, mentions.get(i).toString()));
 	    		}
 	    		else {
-	    			System.out.println(String.format("#%d: Antecedent of '%s': '%s'",
-		    				i, mentions.get(i).toString(), mentions.get(ante_idx).toString()));
+	    			System.out.println(String.format("#%d: Antecedent of '%s': '%s' with sieve nr %d",
+		    				i, mentions.get(i).toString(), mentions.get(ante_idx).toString(), walk_through));
 	    			/*
 	    			PairInstance instance = new PairInstance(mentions.get(i), mentions.get(ante_idx));
 	    			if (instance.getFeature(PairInstance.FD_POSITIVE) == true) {
@@ -85,8 +85,22 @@ public class SieveDecoder implements CorefResolver {
 		            numLinks++;
 		            mention_clusters.union(mentions.get(i),mentions.get(ante_idx));
 		            antecedents.put(mentions.get(i), mentions.get(ante_idx));
-		            // merges entities
-		            mentions.get(i).linkToAntecedent(mentions.get(ante_idx));
+		            
+		            if (!(mentions.get(i).getDiscourseEntity() == mentions.get(ante_idx).getDiscourseEntity())){
+		            	//need better solution to stop merging of already merged entities
+		            	mentions.get(i).linkToAntecedent(mentions.get(ante_idx));
+		            }
+		           // mentions.get(i).linkToAntecedent(mentions.get(ante_idx));
+		            //Kontrollausgabe
+		            DiscourseEntity d = mentions.get(i).getDiscourseEntity();
+		            DiscourseEntity dAnte = mentions.get(ante_idx).getDiscourseEntity();
+		            if (!(d == dAnte)) {
+		            	System.out.println("error: not merged");
+		            }
+		            System.out.println(String.format("Discourse ID: %d\nHeads: %s\nWords: %s", 
+		            								 d.getID(), d.getHeadsString(), d.getWordsString()));
+		            
+		            
 		            _scorer.scoreLink(mentions, ante_idx, i);
 		            if (_logger.isLoggable(Level.FINE)) {
 		                Object[] args={mentions.get(i),mentions.get(ante_idx)};
