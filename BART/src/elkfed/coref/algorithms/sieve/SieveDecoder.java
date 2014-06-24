@@ -61,6 +61,9 @@ public class SieveDecoder implements CorefResolver {
 		    	
 		    	sieve = _factory.createSieve(walk_through, mentions);		    	
 	    		int ante_idx = sieve.runSieve(mentions.get(i));
+	    		System.out.println(mentions.get(i)._highestProjection);
+	    		System.out.println(mentions.get(i)._premodifiers);
+    			System.out.println(mentions.get(i)._postmodifiers);
 	    		
 	    		if (ante_idx == -1) {
 	    			System.out.println(String.format("#%d: No match found: %s", i, mentions.get(i).toString()));
@@ -68,6 +71,8 @@ public class SieveDecoder implements CorefResolver {
 	    		else {
 	    			System.out.println(String.format("#%d: Antecedent of '%s': '%s' with sieve nr %d",
 		    				i, mentions.get(i).toString(), mentions.get(ante_idx).toString(), walk_through));
+	    			System.out.println(mentions.get(i)._premodifiers);
+	    			System.out.println(mentions.get(i)._postmodifiers);
 	    			/*
 	    			PairInstance instance = new PairInstance(mentions.get(i), mentions.get(ante_idx));
 	    			if (instance.getFeature(PairInstance.FD_POSITIVE) == true) {
@@ -90,12 +95,12 @@ public class SieveDecoder implements CorefResolver {
 		            	//need better solution to stop merging of already merged entities
 		            	mentions.get(i).linkToAntecedent(mentions.get(ante_idx));
 		            }
-		           // mentions.get(i).linkToAntecedent(mentions.get(ante_idx));
+		           //mentions.get(i).linkToAntecedent(mentions.get(ante_idx));
 		            //Kontrollausgabe
 		            DiscourseEntity d = mentions.get(i).getDiscourseEntity();
 		            DiscourseEntity dAnte = mentions.get(ante_idx).getDiscourseEntity();
 		            if (!(d == dAnte)) {
-		            	System.out.println("error: not merged");
+		            	System.err.println("error: not merged");
 		            }
 		            System.out.println(String.format("Discourse ID: %d\nHeads: %s\nWords: %s", 
 		            								 d.getID(), d.getHeadsString(), d.getWordsString()));
