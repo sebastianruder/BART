@@ -35,7 +35,7 @@ import elkfed.lang.EnglishLanguagePlugin;
 import elkfed.lang.MentionType.Features;
 
 /**
- * @author Julian Baumann
+ * @author julianbaumann
  */
 
    /*
@@ -51,6 +51,7 @@ public class DiscourseEntity {
 	
 	private List<Mention> mentions;
     private Set<String> words;
+    private Set<String> heads;
    
 	public DiscourseEntity(Mention m) {
 		ID = nextID;
@@ -59,6 +60,9 @@ public class DiscourseEntity {
 		mentions.add(m);
 		words = new HashSet<String>();
 		addWords(m);
+		heads = new HashSet<String>();
+		heads.add(m.getHeadString());
+		
 	}
 	
 	public List<Mention> getMentions() {
@@ -66,11 +70,12 @@ public class DiscourseEntity {
 	}
 	
 	public void addWords(Mention m) {
-		
+		//todo: remove stopwords
 		for (String token : m.getMarkable().getDiscourseElements()) {
 			words.add(token);
 		}
 	}
+
 	
 	public void merge(Mention ante) {
 		
@@ -80,9 +85,44 @@ public class DiscourseEntity {
 			m.setDiscourseEntity(this);
 			addWords(m);
 		}
+		for (String head: deAnte.getHeads() ) {
+			heads.add(head);
+		}
+		
 	}
 	
-	 public void set_firstMention_isFirstMention(boolean isFirstMention) {
+	public String getWordsString() {
+		StringBuilder w = new StringBuilder();
+	    for (String word : words) {
+	    	w.append(word);
+	    	w.append(" ");
+	    
+	    }
+	    return w.toString();
+	}
+	public Set<String> getHeads() {
+		return heads;
+	}
+	
+	public int getID() {
+		return ID;
+	}
+	
+	public Set<String> getWords() {
+		return words;
+	}
+	
+	public String getHeadsString() {
+		StringBuilder w = new StringBuilder();
+	    for (String head : heads) {
+	    	w.append(head);
+	    	w.append(" ");	    
+	    }
+	    
+	    return w.toString();
+	}
+	
+	public void set_firstMention_isFirstMention(boolean isFirstMention) {
 	        firstMention_isFirstMention = isFirstMention;
 	    }
 }
