@@ -117,6 +117,7 @@ public abstract class AbstractMentionFactory implements MentionFactory {
                 // find the parse tree that this markable is in
                 int startPos = m_markable.getLeftmostDiscoursePosition();
                 int endPos = m_markable.getRightmostDiscoursePosition();
+                int endPosP = m_markable.getRightmostDiscoursePosition();
                 mention.setStartWord(startPos);
                 mention.setEndWord(endPos);
                 if (m_markable.getAttributeValue("min_ids") != null) {
@@ -137,7 +138,7 @@ public abstract class AbstractMentionFactory implements MentionFactory {
                     if (startPos >= sentStart && startPos <= sentEnd) {
                         found=true;
                         int startOff = startPos - sentStart;
-                        int endOff = endPos - sentStart;
+                        int endOff = endPosP - sentStart;
                         Utterance utt = utterances.get(i);
                         mention.setSentenceStart(sentStart);
                         mention.setSentenceEnd(sentEnd);

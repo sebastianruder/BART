@@ -35,6 +35,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import edu.stanford.nlp.trees.ModCollinsHeadFinder;
+import edu.stanford.nlp.trees.international.tuebadz.*;
 import edu.stanford.nlp.trees.Tree;
 import elkfed.config.ConfigProperties;
 import elkfed.coref.discourse_entities.DiscourseEntity;
@@ -84,14 +85,14 @@ public class Mention implements Comparable<Mention> {
     private Tree _sentenceTree;
     private Tree _sentenceTreeDiscIds;
     private Tree _lowestProjection;  //the smallest np containing the mention, modulo embedding (looks like)
-    private Tree _highestProjection; // the largest np containing the mention, modulo embedding
+    public Tree _highestProjection; // the largest np containing the mention, modulo embedding
 
     private Tree _minparsespan; //minimal parse subtree that represents the mention 
     private Tree _minnpparsespan; //minimal parse np-subtree that represents the mention 
     private Tree _maxnpparsespan; // maximal parse np-subtree that represents the mention
 
-    private List<Tree> _premodifiers;
-    private List<Tree> _postmodifiers;
+    public List<Tree> _premodifiers;
+    public List<Tree> _postmodifiers;
     private int _startWord;
     private int _endWord;
     private HashMap<String, String> _nameStructure;
@@ -105,10 +106,11 @@ public class Mention implements Comparable<Mention> {
         
 /* for parse heads */
      private Tree _ParseHead;
-     private ModCollinsHeadFinder _headFinder;
-     public ModCollinsHeadFinder getStHeadFinder() {
+     private TueBaDZHeadFinder _headFinder;
+     
+     public TueBaDZHeadFinder getStHeadFinder() {
          if (_headFinder==null)
-           _headFinder= new ModCollinsHeadFinder();
+           _headFinder= new TueBaDZHeadFinder();
          return _headFinder;
      }
 
@@ -447,6 +449,7 @@ public class Mention implements Comparable<Mention> {
         if (found==false) _ParseHead=null;
 
         Tree[] parseExtra=lang_plugin.calcParseExtra(sentTree, start, end, _ParseHead,getStHeadFinder());
+        
         _minparsespan=parseExtra[0];
         _minnpparsespan=parseExtra[1];
         _maxnpparsespan=parseExtra[2];
@@ -835,7 +838,7 @@ public class Mention implements Comparable<Mention> {
      * @author samuel
      * @return discourse elements in this mentions sentence
      */
-    public String[] getSentenceDiscourseElementIDs() {
+    public String[] getSentenceDiscourseEleme1ntIDs() {
         return _document.getDiscourseElementIDs(getSentenceStart(), getSentenceEnd());
     }
 

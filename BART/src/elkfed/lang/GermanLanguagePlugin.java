@@ -20,6 +20,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.regex.Pattern;
 
+import edu.stanford.nlp.trees.HeadFinder;
 import edu.stanford.nlp.trees.Tree;
 import elkfed.knowledge.SemanticClass;
 import elkfed.mmax.MarkableLevels;
@@ -344,5 +345,12 @@ public class GermanLanguagePlugin extends AbstractLanguagePlugin {
     @Override
     public boolean isExpletiveWordForm(String string) {
         return string.equalsIgnoreCase("es");
+    }
+    public Tree[] calcParseExtra(Tree sentenceTree,
+            int startWord, int endWord, Tree prsHead,
+            HeadFinder StHeadFinder) {
+    	return new Tree[3];
+    	
+    
     }
 }
