@@ -6,12 +6,16 @@ import static elkfed.mmax.MarkableLevels.DEFAULT_POS_LEVEL;
 
 import java.util.List;
 
+import elkfed.config.ConfigProperties;
 import elkfed.coref.PairFeatureExtractor;
 import elkfed.coref.PairInstance;
 import elkfed.coref.features.pairs.FE_Appositive;
 import elkfed.coref.features.pairs.FE_AppositiveParse;
 import elkfed.coref.features.pairs.FE_Copula;
 import elkfed.coref.mentions.Mention;
+import elkfed.knowledge.SemanticClass;
+import elkfed.lang.GermanLanguagePlugin;
+import elkfed.lang.LanguagePlugin.TableName;
 import static elkfed.lang.EnglishLinguisticConstants.*;
 
 /**
@@ -56,7 +60,6 @@ public class PreciseConstructSieve extends Sieve {
 	// list of antecedents/potential coreferents
 	private List<Mention> mentions;
 	
-	
 	public PreciseConstructSieve(List<Mention> mentions) {
 		this.mentions = mentions;
 	}
@@ -85,7 +88,11 @@ public class PreciseConstructSieve extends Sieve {
 		/*
 		 * there is FE_AppositiveParse.getAppositivePrs(pair) as well
 		 * might have to investigate how they differ
+		 * 
+		 * appositive constructions as one NP in TüBa-D/Z
+		 * switch on and off
 		 */
+		FE_AppositiveParse.getAppositivePrs(pair); // use this one
 		if (FE_Appositive.getAppositive(pair)) {
 			return true;
 		}
@@ -124,24 +131,58 @@ public class PreciseConstructSieve extends Sieve {
 		String[] tokens = mention.getMarkable().getDiscourseElements();
 		for (int i = 0; i < tokens.length; i++) {
 			String t = tokens[i].toLowerCase();
-			if (t.matches(SINGULAR_PRONOUN_ADJ) || t.matches(PLURAL_PRONOUN_ADJ)) {
+			if (t.matches(MALE_PRONOUN_ADJ) || t.matches(FEMALE_PRONOUN_ADJ) ||
+					t.matches(FIRST_PERSON_SG_PRO) || t.matches(FIRST_PERSON_PL_PRO) ||
+					t.matches(SECOND_PERSON_PRO)) {
 				return true;
 			}
 		}
 		// (b) check with NER labels
-		
+		if (SemanticClass.isaPerson(mention.getSemanticClass())) {
+			return true;
+		}
+		else if (SemanticClass.isaObject(mention.getSemanticClass()) ||
+				SemanticClass.isaNumeric(mention.getSemanticClass())) {
+			return false;
+		}
 		// (c) check with bootstrapped dictionary
+		// get dictionary from Stanford GitHub repo
 		
 		return false;
 	}
 	
 	private boolean isNeutral(Mention mention) {
+		
+		if (SemanticClass.isaPerson(mention.getSemanticClass())) {
+			return false;
+		}
 		String[] tokens = mention.getMarkable().getDiscourseElements();
+				
 		for (int i = 0; i < tokens.length; i++) {
-			String t = tokens[i].toLowerCase();
+			String t = tokens[i];
+			
+			if(ConfigProperties.getInstance().getLanguagePlugin() instanceof GermanLanguagePlugin) {
+				
+			}
+			
+			/*
+			 * check with language plugin; check rules for when a noun
+			 * has a different gender in different languages
+			 */
+			
+			/* if (t.isCapital() && t.endsWith("in")) {
+				
+			}
+			
+			Genus of markable
+			
+			for German: nouns ending on "in" are female;
+			for English: enumerate list of female/male nouns 
+			
 			/* 
 			 * check if a (modified) noun, e.g., the marvelous actress
 			 * is neutral
+			 * create list with male / female / neutral nouns (in English/German)
 			 */
 		}
 		return false;
@@ -177,10 +218,27 @@ public class PreciseConstructSieve extends Sieve {
 
 	private boolean isDemonym(PairInstance pair) {
 		/**
-		 * Check if one expression is a demonym of the other using:
-		 * (a) a static list of countries and their gentilic forms from
-		 * 		Wikipedia
-		 */ 		
+		 * Check if one expression is a demonym of the other using
+		 * a static list of countries and their gentilic forms from
+		 * Wikipedia
+		 */
+		
+		/*
+		 * extract demonym list from Wikpedia
+		 * localize in different languages
+		 * http://en.wikipedia.org/wiki/Demonym
+		 * http://de.wikipedia.org/wiki/Volksbezeichnung
+		 * http://it.wikipedia.org/wiki/Etnico_(onomastica)
+		 * how to check for language plugin?
+		 */
+		
+	    public EnglishLanguagePlugin() {
+	        readMapping(TableName.AdjMap, "adj_map_en.txt");
+	    }
+		
+		if(ConfigProperties.getInstance().getLanguagePlugin() instanceof GermanLanguagePlugin) {
+			
+		}
 		
 		return false;
 	}	
