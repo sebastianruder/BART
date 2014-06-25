@@ -19,7 +19,10 @@ import elkfed.coref.mentions.Mention;
  * would make it equal to Strict Head Match.
  * Possibilities:
  * 	- omit sieve
- * 	- print _postmodifiers of mention here just to be safe
+ * 	
+ * Mention has parameter _postmodifiers; is always empty, though.
+ * 
+ * Ask Yannick about this.
  * 
  * @author Sebastian
  *
