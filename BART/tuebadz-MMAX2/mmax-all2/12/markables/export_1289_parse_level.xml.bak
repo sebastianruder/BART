@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN ALTLASTEN)))"/>
-<markable id="markable_15" span="word_2..word_4" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NE Dreilinden)) (PX (APPR unter) (NX (NN Denkmalschutz)))))"/>
-<markable id="markable_22" span="word_5..word_6" mmax_level="parse" orderid="3" tag="(Start (NX (NE Wannsee)) (\$\. \.))"/>
-<markable id="markable_57" span="word_7..word_20" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (NX (NX (ART Der) (ADJX (ADJA ehemalige)) (NN Kontrollpunkt)) (NX (ART der) (NN Alliierten))) (PX (APPR in) (NX (NE Dreilinden))))) (VXAF (VAFIN ist)) (MF (ADVX (ADV jetzt)) (PX (APPR unter) (NX (NN Denkmalschutz)))) (VXVP (VXVP (VVPP gestellt)) (VXAP (VAPP worden)))) (\$\. \.))"/>
-<markable id="markable_106" span="word_21..word_40" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (PPER Er))) (VXAF (VAFIN war)) (MF (PX (APPR für) (NX (NE West-Berlin))) (PX (PX (APPR nach) (NX (NX (NX (ART dem) (NN Bau)) (NX (ART der) (NN Mauer))) (NX (CARD 1961)))) (PX (APPR bis) (PX (APPRART zur) (NX (NX (ADJX (ADJA deutschen)) (NN Vereinigung)) (NX (CARD 1990)))))) (NX (NX (ADJX (ADJA wichtiger)) (NN Abfertigungspunkt)) (PX (APPR für) (NX (NN Lkws)))))) (\$\. \.))"/>
-</markables>

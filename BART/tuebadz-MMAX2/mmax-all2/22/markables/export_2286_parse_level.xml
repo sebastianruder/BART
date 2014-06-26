@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Basketball)))"/>
-<markable id="markable_16" span="word_2..word_5" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NE Harnisch))) (VXVF (VVFIN sagt)) (MF (ADVX (PTKANT ja)))) (\$\. \!))"/>
-<markable id="markable_27" span="word_6..word_9" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NN Titanic-Leser))) (VXMF (VMFIN können)) (VXVI (VVINF aufatmen))) (\$\. \.))"/>
-<markable id="markable_92" span="word_10..word_37" mmax_level="parse" orderid="4" tag='(Start (SIMPX (VF (NX (NX (ART Die) (ADJX (ADJA monatelange)) (\$-LRB- \") (NX (NX (NX (NN Briefe)) (PX (APPR an) (NX (ART einen) (NN Leser)))) (\$-LRB- \") (\$-LRB- -) (NN Kampagne))) (PX (APPRART zur) (NX (NX (NX (NN Zusammenführung)) (NX (NX (ART des) (NN Basketballers)) (NX (NE Henning) (NE Harnisch)))) (PX (APPR mit) (NX (NX (ART der) (ADJX (NX (PDS diesem)) (ADJX (ADJD angeblich)) (ADJX (ADJD rettungslos)) (ADJA verfallenen)) (NN Redakteurin)) (NX (NE Simone) (NE Borowiak)))))))) (VXVF (VVFIN zeigt)) (MF (NX (NN Wirkung)))) (\$\. \.))'/>
-<markable id="markable_152" span="word_38..word_61" mmax_level="parse" orderid="5" tag='(Start (\$-LRB- \") (SIMPX (VF (SIMPX (VF (NX (PPER Ich))) (VXAF (VAFIN werde)) (MF (NX (PRF mich)) (PX (APPR mit) (NX (PPER ihr)))) (VXVI (VVINF treffen)))) (\$-LRB- \") (\$\, \,) (VXVF (VVFIN versprach)) (MF (NX (NE Harnisch)) (PX (APPR in) (NX (NX (ART der) (NN Oktober-Ausgabe)) (PX (APPR von) (NX (NX (NE FIBA-Basketball)) (\$\, \,) (NX (NX (ART dem) (ADJX (ADJA offiziellen)) (NN Magazin)) (NX (ART des) (ADJX (ADJA Internationalen)) (NN Basketball-Verbandes))))))))) (\$\. \.))'/>
-</markables>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Körperverletzung)))"/>
-<markable id="markable_63" span="word_2..word_25" mmax_level="parse" orderid="2" tag='(Start (SIMPX (VF (NX (NX (ART Die) (NN Staatsanwaltschaft)) (PX (APPRART beim) (NX (NX (NN Landgericht)) (NX (NE Hamburg)))))) (VXAF (VAFIN hat)) (MF (PX (APPR gegen) (NX (ADJX (CARD drei)) (NN Polizisten))) (NX (NX (NN Anklage)) (PX (APPR wegen) (NX (NX (NX (NN Körperverletzung)) (PX (APPRART im) (NX (NN Amt)))) (\$-LRB- \") (PX (APPRART zum) (NX (NX (NN Nachteil)) (NX (NX (ART des) (NN Journalisten)) (NX (NE Oliver) (NE Neß))))))))) (\$-LRB- \") (VXVP (VVPP erhoben))) (\$\. \.))'/>
-<markable id="markable_90" span="word_26..word_36" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NX (ADJX (CARD Zwei))) (NX (ART der) (NN Angeklagten)))) (VXAF (VAFIN werden)) (MF (PX (PX (PROP darüber)) (ADVX (ADV hinaus))) (NX (NX (NN Nötigung)) (KON und) (NX (NN Freiheitsberaubung)))) (VXVP (VVPP vorgeworfen))) (\$\. \.))"/>
-<markable id="markable_127" span="word_37..word_51" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (NE Neß))) (VXAF (VAFIN war)) (MF (PX (APPRART im) (NX (NX (NN Mai)) (NX (CARD 1994)))) (PX (APPR anläßlich) (NX (NX (ART der) (NN Haider-Demonstration)) (PX (APPR auf) (NX (ART dem) (NN Gänsemarkt))))) (ADJX (ADJD schwer))) (VXVP (VXVP (VVPP mißhandelt)) (VXAP (VAPP worden)))) (\$\. \.))"/>
-</markables>

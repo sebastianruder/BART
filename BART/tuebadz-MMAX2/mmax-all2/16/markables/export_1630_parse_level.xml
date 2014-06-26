@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Bergwandern)))"/>
-<markable id="markable_53" span="word_2..word_21" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (ART Der) (NN LBSV)) (NX (NE Bremen)))) (VXVF (VVFIN veranstaltet)) (MF (PX (APPR für) (NX (NX (PIS alle)) (\$\, \,) (R-SIMPX (C (NX (PRELS die))) (MF (NX (ART das) (NN Bergwandern))) (VXVI (VVINF kennenlernen)) (VXMF (VMFIN möchten))))) (\$\, \,) (NX (NX (ART eine) (NN Wanderfahrt)) (PX (APPR in) (NX (ART das) (ADJX (ADJA Salzburger)) (NN Land)))))) (\$\. \.))"/>
-<markable id="markable_87" span="word_22..word_35" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (APPR Für) (NX (PDAT dieses) (NN Vorhaben)))) (VXMF (VMFIN konnte)) (MF (NX (NX (ART ein) (NN Kenner)) (NX (ART der) (NN Region)))) (VXVI (VXVP (VVPP gewonnen)) (VXAI (VAINF werden))) (\$\. \:) (NF (NX (NE Charly) (NE Beese)))) (\$\. \.))"/>
-<markable id="markable_113" span="word_36..word_46" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Die) (NN Reise))) (VXAF (VAFIN ist)) (MF (PX (APPRART vom) (NX (NX (ADJX (ADJX (ADJA 13\.)) (KON -) (ADJX (ADJA 27\.))) (ADJX (ADJA 8\.))) (NX (CARD 92))))) (VXVP (VVPP vorgesehen))) (\$\. \.))"/>
-<markable id="markable_157" span="word_47..word_64" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (SIMPX (C (NX (PWS Wer))) (MF (NX (PRF sich)) (ADJX (ADJD generell)) (PX (APPR für) (NX (ART eine) (NN Teilnahme)))) (VXVF (VVFIN interessiert)))) (\$\, \,) (VXMF (VMFIN kann)) (MF (NX (PRF sich)) (PX (APPR unter) (NX (NX (NN Telefon)) (NX (CARD 585555)))) (PX (APPR bei) (NX (NE Charly) (NE Beese)))) (VXVI (VVINF melden))) (\$\. \.))"/>
-</markables>

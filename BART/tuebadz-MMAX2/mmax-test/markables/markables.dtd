@@ -1,6 +1,0 @@
-<!ELEMENT markables (markable*)>
-<!ELEMENT markable EMPTY>
-<!ATTLIST markable id ID #REQUIRED>
-<!ATTLIST markable span CDATA #REQUIRED>
-<!ATTLIST markable member CDATA #IMPLIED>
-<!ATTLIST markable pointer IDREF #IMPLIED>

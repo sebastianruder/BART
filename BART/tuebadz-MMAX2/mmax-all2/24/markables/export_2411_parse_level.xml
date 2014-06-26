@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Wissenstransfer)))"/>
-<markable id="markable_15" span="word_2..word_4" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NE Schalck)) (PX (APPRART im) (NX (NN Nacken)))))"/>
-<markable id="markable_84" span="word_5..word_31" mmax_level="parse" orderid="3" tag="(Start (NX (NE Berlin)) (\$-LRB- -LRB-) (NX (NE AP)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NE Alexander) (NE Schalck-Golodkowski))) (VXVF (VVFIN nutzt)) (MF (NX (NX (PPOSAT seine) (NN Zeit)) (\$\, \,) (R-SIMPX (C (NX (PRELS die))) (MF (NX (PPER er)) (ADVX (ADV gerade)) (ADVX (PTKNEG nicht)) (PX (APPR wegen) (NX (ADJX (ADJA illegaler)) (NN Waffengeschäfte))) (PX (APPR vor) (NX (NN Gericht)))) (VXVF (VVFIN verbringt)))) (\$\, \,) (KomX (KOKOM als) (NX (NN Unternehmensberater))) (PX (APPR in) (NX (NE China))))) (\$\. \.))"/>
-<markable id="markable_123" span="word_32..word_47" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Der) (NN Ex-DDR-Devisenbeschaffer))) (VXAF (VAFIN ist)) (MF (ADVX (ADV dort)) (KomX (KOKOM als) (NX (NX (NN Leiter)) (NX (NX (ART einer) (NN Delegation)) (PX (APPR von) (NX (NX (NN Investoren)) (PX (APPR aus) (NX (NX (NE Deutschland)) (KON und) (NX (NE Hongkong))))))))) (ADJX (ADJD unterwegs)))) (\$\. \.))"/>
-<markable id="markable_147" span="word_48..word_56" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (ART Das) (ADJX (ADJA Berliner)) (NN Landgericht))) (VXAF (VAFIN hat)) (MF (NX (PPER ihm)) (NX (ART einen) (NN Tag))) (VXVP (VVPP freigegeben))) (\$\. \.))"/>
-</markables>

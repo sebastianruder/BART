@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Ost-Timor)))"/>
-<markable id="markable_10" span="word_2" mmax_level="parse" orderid="2" tag="(Start (NX (NN Festnahmen)))"/>
-<markable id="markable_88" span="word_3..word_33" mmax_level="parse" orderid="3" tag="(Start (NX (NX (NE Jakarta)) (\$-LRB- \/) (NX (NE Dili))) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (PX (APPR Nach) (NX (NX (NX (ART den) (ADJX (ADJA jüngsten)) (NN Unruhen)) (PX (APPR auf) (NX (NE Ost-Timor)))) (\$\, \,) (R-SIMPX (C (PX (APPR bei) (NX (PRELS denen)))) (MF (NX (ADJX (CARD zwei)) (NN Menschen))) (VXVP (VVPP getötet)) (VXAF (VAFIN wurden)))))) (\$\, \,) (VXAF (VAFIN haben)) (MF (NX (ADJX (ADJA indonesische)) (NN Polizeikräfte)) (NX (PPOSAT ihre) (NN Festnahmen)) (PX (APPR mit) (NX (ADJX (ADJA ungewöhnlicher)) (NN Härte)))) (VXVP (VVPP fortgesetzt))) (\$\. \.))"/>
-<markable id="markable_138" span="word_34..word_53" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (APPR Nach) (NX (NX (NN Angaben)) (PX (APPR von) (NX (NN Augenzeugen)))))) (VXAF (VAFIN wurden)) (MF (PX (APPR in) (NX (NX (ART der) (NN Nacht)) (PX (APPRART zum) (NX (NN Sonntag))))) (PX (APPR in) (NX (NX (ART einer) (ADJX (ADJA katholischen)) (NN Schwesternschule)) (PX (APPR in) (NX (NE Dili))))) (NX (ADJX (CARD 69)) (NN Jugendliche))) (VXVP (VVPP festgenommen))) (\$\. \.))"/>
-<markable id="markable_165" span="word_54..word_64" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (ART Den) (ADJX (ADJA jungen)) (NN Leuten))) (VXAF (VAFIN wird)) (VXVP (VVPP geworfen)) (\$\, \,) (NF (SIMPX (MF (NX (ART die) (NN Unabhängigkeitsbewegung))) (VXVZ (PTKZU zu) (VVINF unterstützen))))) (\$\. \.))"/>
-</markables>

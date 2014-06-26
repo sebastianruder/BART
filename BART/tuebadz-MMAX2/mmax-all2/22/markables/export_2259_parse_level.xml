@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Irak)))"/>
-<markable id="markable_12" span="word_2..word_3" mmax_level="parse" orderid="2" tag="(Start (SIMPX (MF (NX (NN Wahlen))) (VXVP (VVPP angekündigt))))"/>
-<markable id="markable_65" span="word_4..word_25" mmax_level="parse" orderid="3" tag="(Start (NX (NE Bagdad)) (\$-LRB- -LRB-) (NX (NE AP)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (PX (APPRART Im) (NX (NE Irak)))) (VXMF (VMFIN sollen)) (MF (NX (NX (NN Anfang)) (NX (CARD 1996))) (NX (NN Parlamentswahlen))) (VXVI (VVINF stattfinden)) (\$\, \,) (NF (SIMPX (C (KOUS wie)) (MF (NX (NX (ART der) (ADJX (ADJA stellvertretende)) (NN Ministerpräsident)) (NX (NE Tarik) (NE Asis))) (ADVX (ADV gestern))) (VXVF (VVFIN ankündigte))))) (\$\. \.))"/>
-<markable id="markable_122" span="word_26..word_49" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (SIMPX (VF (NX (NX (NX (ART Die) (NN Volksabstimmung)) (PX (APPRART vom) (NX (NN Sonntag)))) (PX (APPR über) (NX (NX (ART die) (NN Amtszeit)) (PX (APPR von) (NX (NX (NN Präsident)) (NX (NE Saddam) (NE Hussein)))))))) (VXAF (VAFIN sei)) (MF (ADVX (ADV nur)) (NX (NX (ART der) (ADJX (ADJA erste)) (NN Schritt)) (PX (APPRART zur) (NX (ADJX (ADJA demokratischen)) (NN Legitimität))))) (VXAP (VAPP gewesen)))) (\$\, \,) (VXVF (VVFIN sagte)) (MF (NX (NE Asis)))) (\$\. \.))"/>
-</markables>

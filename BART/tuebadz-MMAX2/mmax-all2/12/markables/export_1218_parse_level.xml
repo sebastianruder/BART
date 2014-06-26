@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN BEHINDERTE)))"/>
-<markable id="markable_10" span="word_2" mmax_level="parse" orderid="2" tag="(Start (NX (NN Beschäftigungsquote)))"/>
-<markable id="markable_65" span="word_3..word_25" mmax_level="parse" orderid="3" tag='(Start (NX (NE Mainz)) (\$-LRB- -LRB-) (NX (NE epd)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (KomX (KOKOM Als) (\$-LRB- \") (ADJX (ADJD blamabel)))) (\$-LRB- \") (VXVF (VVFIN bezeichnete)) (MF (NX (NX (NE Gabriele) (NE Kokott-Weidenfeld)) (\$\, \,) (NX (ADJX (ADJA rheinland-pfälzische)) (NN CDU-Landtagsabgeordnete))) (\$\, \,) (NX (NX (NX (ART die) (NN Beschäftigungsquote)) (PX (APPR von) (NX (NN Behinderten)))) (PX (APPRART im) (NX (NN Landesdienst)))))) (\$\. \.))'/>
-<markable id="markable_102" span="word_26..word_41" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (SIMPX (C (KOUS Wie)) (MF (NX (ART das) (NN Sozialministerium))) (VXVF (VVFIN mitteilte)))) (\$\, \,) (VXAF (VAFIN ist)) (MF (NX (NX (ART die) (NN Pflichtquote)) (PX (APPR von) (NX (ADJX (CARD sechs)) (NN Prozent)))) (ADVX (ADVX (ADVX (ADV noch)) (ADV immer)) (PTKNEG nicht))) (VXVP (VVPP erfüllt))) (\$\. \.))"/>
-<markable id="markable_127" span="word_42..word_51" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (NX (NN Ende)) (NX (CARD 1991)))) (VXVF (VVFIN betrug)) (MF (NX (ART die) (ADJX (ADJA durchschnittliche)) (NN Beschäftigungsquote)) (ADVX (ADV nur)) (NX (ADJX (CARD 4\,95)) (NN Prozent)))) (\$\. \.))"/>
-</markables>

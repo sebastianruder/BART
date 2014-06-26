@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (NX (ADJX (ADJA Tödlicher)) (NN Strom)))"/>
-<markable id="markable_47" span="word_3..word_19" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (ART Ein) (ADJX (ADJA 20jähriger)) (NN Mann))) (VXAF (VAFIN ist)) (MF (PX (APPRART am) (NX (NX (NN Donnerstag)) (ADVX (ADV abend)))) (PX (APPR in) (NX (NX (ART der) (NN S-Bahnstation)) (NX (NN Reeperbahn)))) (PX (APPR durch) (NX (ART einen) (NN Stromschlag)))) (VXVP (VXVP (VVPP getötet)) (VXAP (VAPP worden)))) (\$\. \.))"/>
-<markable id="markable_106" span="word_20..word_44" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (SIMPX (C (KOUS Wie)) (MF (NX (NX (NN Polizei)) (KON und) (NX (NN Feuerwehr)))) (VXVF (VVFIN berichteten)))) (\$\, \,) (FKOORD (FKONJ (VXAF (VAFIN war)) (MF (NX (ART der) (NN Mann)) (ADJX (ADJD betrunken)) (PX (APPR auf) (NX (NX (ART die) (NN Gleise)) (NX (ART der) (NN S-Bahn))))) (VXVP (VVPP gefallen))) (KON und) (FKONJ (VXAF (VAFIN hatte)) (MF (PX (APPR mit) (NX (ART der) (NN Hand))) (NX (ART die) (NN Stromschiene))) (VXVP (VVPP berührt))))) (\$\. \.))"/>
-</markables>

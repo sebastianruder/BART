@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_9" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (PX (ADVX (ADV Einmal)) (PX (APPRART ins) (NX (NE Ritz)))))"/>
-<markable id="markable_94" span="word_4..word_39" mmax_level="parse" orderid="2" tag='(Start (NX (NE Paris)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (ART Einer) (ADJX (ADJA amerikanischen)) (NN Touristin))) (VXAF (VAFIN sind)) (MF (PX (APPRART im) (NX (NX (NX (ADJX (ADJA berühmten)) (NN Hotel)) (\$-LRB- \") (NX (NE Ritz))) (\$-LRB- \") (PX (APPR an) (NX (ART der) (NX (NE Place) (NE Vendome)))))) (PX (APPR in) (NX (NE Paris))) (NX (NX (NN Schmuckstücke)) (PX (APPRART im) (NX (NX (NN Schätzwert)) (PX (APPR von) (NX (NX (NX (ADJX (CARD 2\,5)) (NN Millionen)) (NX (NN Franc))) (\$-LRB- -LRB-) (NX (ADVX (ADV knapp)) (ADJX (CARD 750\.000)) (NN Mark)))))))) (\$-LRB- -RRB-) (VXVP (VXVP (VVPP gestohlen)) (VXAP (VAPP worden)))) (\$\. \.))'/>
-<markable id="markable_117" span="word_40..word_48" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (PPER Es))) (VXMF (VMFIN soll)) (MF (NX (PRF sich)) (PX (APPR um) (NX (ADJX (CARD drei)) (NN Diebe)))) (VXVI (VXVP (VVPP gehandelt)) (VXAI (VAINF haben)))) (\$\. \.))"/>
-<markable id="markable_140" span="word_49..word_57" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (PPER Sie))) (VXAF (VAFIN hätten)) (MF (PX (PROP außerdem)) (NX (NX (ADJX (CARD 4\.000)) (NN Dollar)) (KON sowie) (NX (NN Reiseschecks)))) (VXVP (VVPP gestohlen))) (\$\. \.))"/>
-</markables>

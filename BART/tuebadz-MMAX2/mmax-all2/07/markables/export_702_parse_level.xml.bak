@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_12" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (SIMPX (MF (NX (NX (NN Tarifrunde)) (PX (APPR für) (NX (NN Einzelhandel))))) (VXVP (VVPP vertagt))))"/>
-<markable id="markable_46" span="word_5..word_18" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (ART Die) (ADJX (ADJA erste)) (NN Tarifrunde)) (PX (APPR für) (NX (ART den) (ADJX (ADJA Bremer)) (NN Einzelhandel))))) (VXAF (VAFIN ist)) (MF (ADVX (ADV gestern)) (PX (APPR ohne) (NX (ADJX (ADJA konkrete)) (NN Ergebnisse)))) (VXVP (VVPP verlaufen))) (\$\. \.))"/>
-<markable id="markable_97" span="word_19..word_40" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (APPR Zu) (NX (NX (ART der) (ADJX (ADJA gewerkschaftlichen)) (NN Forderung)) (PX (APPR nach) (NX (NX (NX (ADJX (CARD sechs)) (NN Prozent)) (NX (PIAT mehr) (NX (NX (NN Lohn)) (KON und) (NX (NN Gehalt))))) (PX (APPR für) (NX (ART die) (ADVX (ADV rund)) (ADJX (CARD 30\.000)) (NN Beschäftigten)))))))) (VXAF (VAFIN hatten)) (MF (NX (ART die) (NN Arbeitgeber)) (NX (NN Gegenforderungen))) (VXVP (VVPP gestellt))) (\$\. \.))"/>
-<markable id="markable_147" span="word_41..word_62" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (SIMPX (VF (PX (PROP Dadurch))) (VXAF (VAFIN würden)) (MF (NX (PRF sich)) (ADVX (ADV allerdings)) (NX (NX (ART die) (ADJX (ADJA finanziellen)) (NN Bedingungen)) (NX (NX (ART der) (NN Auszubildenden)) (KON und) (NX (ART der) (NX (ADVX (ADV soeben)) (NN Ausgelernten)))))) (VXVI (VVINF verschlechtern)))) (\$\, \,) (VXVF (VVFIN berichteten)) (MF (NX (NX (ART die) (NN Gewerkschaften)) (NX (NX (NE hbv)) (KON und) (NX (NE DAG)))))) (\$\. \.))"/>
-<markable id="markable_152" span="word_63" mmax_level="parse" orderid="5" tag="(Start (NX (NE dpa)))"/>
-</markables>
