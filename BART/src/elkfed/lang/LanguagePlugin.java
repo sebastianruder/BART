@@ -104,9 +104,20 @@ public interface LanguagePlugin {
     public boolean isExpletiveRB(Mention m);
 
     static enum TableName {
-        AdjMap,
-        RoleMap;
+        DemonymMap,
+        RoleMap,
     }
 
-    String lookupAlias(String original, TableName table);
+    public String lookupAlias(String original, TableName table);
+    
+    public boolean isInAnimateList(String string);
+    
+    public boolean isInInanimateList(String string);
+    
+    public boolean isInNeutralList(String string);
+    
+    public boolean isInMaleList(String string);
+    
+    public boolean isInFemaleList(String string);
+    
 }

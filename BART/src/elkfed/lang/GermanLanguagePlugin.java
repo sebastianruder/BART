@@ -23,6 +23,7 @@ import java.util.regex.Pattern;
 import edu.stanford.nlp.trees.HeadFinder;
 import edu.stanford.nlp.trees.Tree;
 import elkfed.knowledge.SemanticClass;
+import elkfed.lang.LanguagePlugin.TableName;
 import elkfed.mmax.MarkableLevels;
 import elkfed.mmax.minidisc.Markable;
 import elkfed.mmax.minidisc.MarkableHelper;
@@ -82,6 +83,18 @@ public class GermanLanguagePlugin extends AbstractLanguagePlugin {
     private final static Pattern pat_CC =
             Pattern.compile("KON", Pattern.CASE_INSENSITIVE);
 
+    public GermanLanguagePlugin() {
+        readMapping(TableName.DemonymMap, "demonyms_de.txt");
+        /* DISCLAIMER: All German lists are produced by running the
+         * English ones through Google translate.
+         */
+        readList(animate_list, "animate_unigrams_de.txt");
+        readList(inanimate_list, "inanimate_unigrams_de.txt");
+        readList(neutral_list, "neutral_unigrams_de.txt");
+        readList(male_list, "male_unigrams_de.txt");
+        readList(female_list, "female_unigrams_de.txt");
+    }
+    
     public boolean unwanted_left(String tok) {
         return left_unwanted.matcher(tok).matches();
     }
@@ -353,4 +366,5 @@ public class GermanLanguagePlugin extends AbstractLanguagePlugin {
     	
     
     }
+
 }

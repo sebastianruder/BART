@@ -21,6 +21,7 @@ import elkfed.config.ConfigProperties;
 import elkfed.knowledge.NameDataBase;
 import elkfed.knowledge.SemanticClass;
 import elkfed.knowledge.WNInterface;
+import elkfed.lang.LanguagePlugin.TableName;
 import elkfed.mmax.MarkableLevels;
 import elkfed.mmax.util.NPHeadFinder;
 import elkfed.nlp.util.Gender;
@@ -30,6 +31,7 @@ import static elkfed.mmax.pipeline.MarkableCreator.LABEL_ATTRIBUTE;
 import elkfed.mmax.minidisc.MiniDiscourse;
 import elkfed.mmax.minidisc.Markable;
 import elkfed.mmax.minidisc.MarkableLevel;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -40,13 +42,14 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.regex.Pattern;
+
 import elkfed.coref.mentions.Mention;
 
 /**
  *
  * @author versley
  */
-public class EnglishLanguagePlugin implements LanguagePlugin {
+public class EnglishLanguagePlugin extends AbstractLanguagePlugin {
 
     private static final String IRRELEVANT_TOKEN_POS = "(cc|in)";
 
@@ -54,7 +57,15 @@ public class EnglishLanguagePlugin implements LanguagePlugin {
             new EnumMap(LanguagePlugin.TableName.class);
 
     public EnglishLanguagePlugin() {
-        readMapping(TableName.AdjMap, "adj_map_en.txt");
+        readMapping(TableName.DemonymMap, "demonyms_en.txt");
+        /* lists are taken from 
+         * https://github.com/castiron/didh/tree/master/lib/vendor/snlp/dcoref
+         */
+        readList(animate_list, "animate_unigrams_en.txt");
+        readList(inanimate_list, "inanimate_unigrams_en.txt");
+        readList(neutral_list, "neutral_unigrams_en.txt");
+        readList(male_list, "male_unigrams_en.txt");
+        readList(female_list, "female_unigrams_en.txt");
     }
 
      /** Gets whether the markable is a proper name or not
@@ -595,7 +606,7 @@ public class EnglishLanguagePlugin implements LanguagePlugin {
      *  (ii) everyone (including Xiaofeng) profits from eventual bugfixes
      *  that are applied to this central place.
      */
-    private Tree calcLowestProjection(Tree sentenceTree,
+    protected Tree calcLowestProjection(Tree sentenceTree,
             int startWord, int endWord) {
         List<Tree> Leaves = sentenceTree.getLeaves();
         Tree startNode = Leaves.get(startWord);
@@ -950,8 +961,6 @@ leaves.get(i).value().equalsIgnoreCase("impossible"))
          return true;
 
     return false;
-}
-
-
+    }
 
 }

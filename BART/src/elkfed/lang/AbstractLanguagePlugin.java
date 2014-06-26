@@ -26,6 +26,7 @@ import elkfed.mmax.minidisc.MarkableHelper;
 import elkfed.mmax.minidisc.MarkableLevel;
 import elkfed.mmax.minidisc.MiniDiscourse;
 import elkfed.nlp.util.Gender;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -37,6 +38,7 @@ import java.util.List;
 
 
 import java.util.Map;
+
 import static elkfed.mmax.MarkableLevels.DEFAULT_POS_LEVEL;
 
 /**
@@ -54,6 +56,11 @@ public abstract class AbstractLanguagePlugin implements LanguagePlugin {
     public static final String MIN_IDS = "min_ids";
     public static final String HEAD_WORD = "head_word";
     public static final String SEM_TYPE = "sem_type";
+    protected List<String> animate_list = new ArrayList<String>();
+    protected List<String> inanimate_list = new ArrayList<String>();
+    protected List<String> neutral_list = new ArrayList<String>();
+    protected List<String> male_list = new ArrayList<String>();
+    protected List<String> female_list = new ArrayList<String>();
 
     protected final Map<LanguagePlugin.TableName,Map<String,String>> aliasTables =
             new EnumMap(LanguagePlugin.TableName.class);
@@ -77,6 +84,22 @@ public abstract class AbstractLanguagePlugin implements LanguagePlugin {
             br.close();
             aliasTables.put(table, map);
         } catch (IOException ex) {
+            ex.printStackTrace();
+            throw new RuntimeException(ex);
+        }
+    }
+    
+    public void readList(List<String> list, String fname) {
+    	try {
+            File names_dir = new File(ConfigProperties.getInstance().getRoot(),"names");
+            BufferedReader br = new BufferedReader(new FileReader(new File(names_dir,fname)));
+            String line;
+            while ((line = br.readLine()) != null) {
+                list.add(line);
+            }
+            br.close();
+        }
+    	catch (IOException ex) {
             ex.printStackTrace();
             throw new RuntimeException(ex);
         }
@@ -355,8 +378,53 @@ public abstract class AbstractLanguagePlugin implements LanguagePlugin {
             return map.get(original);
         }
     }
-
-        public boolean isExpletiveRB(Mention m) {
+    
+    public boolean isInAnimateList(String string) {
+    	for (String item : animate_list) {
+    		if (item.equals(string)) {
+    			return true;
+    		}
+    	}
+    	return false;
+    }
+    
+    public boolean isInInanimateList(String string) {
+    	for (String item : inanimate_list) {
+    		if (item.equals(string)) {
+    			return true;
+    		}
+    	}
+    	return false;
+    }
+    
+    public boolean isInNeutralList(String string) {
+    	for (String item : neutral_list) {
+    		if (item.equals(string)) {
+    			return true;
+    		}
+    	}
+    	return false;
+    }
+    
+    public boolean isInMaleList(String string) {
+    	for (String item : male_list) {
+    		if (item.equals(string)) {
+    			return true;
+    		}
+    	}
+    	return false;
+    }
+    
+    public boolean isInFemaleList(String string) {
+    	for (String item : female_list) {
+    		if (item.equals(string)) {
+    			return true;
+    		}
+    	}
+    	return false;
+    }
+    
+    public boolean isExpletiveRB(Mention m) {
         if (ConfigProperties.getInstance().getDbgPrint())
         System.out.println(getClass().getCanonicalName()+".isExpletiveRB is not supported yet.");
         return false;
