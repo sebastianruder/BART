@@ -4,7 +4,13 @@ import static elkfed.lang.EnglishLinguisticConstants.ARTICLE;
 import static elkfed.lang.EnglishLinguisticConstants.DEMONSTRATIVE;
 import static elkfed.mmax.MarkableLevels.DEFAULT_POS_LEVEL;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import elkfed.config.ConfigProperties;
 import elkfed.coref.PairFeatureExtractor;
@@ -14,7 +20,10 @@ import elkfed.coref.features.pairs.FE_AppositiveParse;
 import elkfed.coref.features.pairs.FE_Copula;
 import elkfed.coref.mentions.Mention;
 import elkfed.knowledge.SemanticClass;
+import elkfed.lang.AbstractLanguagePlugin;
+import elkfed.lang.EnglishLanguagePlugin;
 import elkfed.lang.GermanLanguagePlugin;
+import elkfed.lang.LanguagePlugin;
 import elkfed.lang.LanguagePlugin.TableName;
 import static elkfed.lang.EnglishLinguisticConstants.*;
 
@@ -59,6 +68,7 @@ public class PreciseConstructSieve extends Sieve {
 	
 	// list of antecedents/potential coreferents
 	private List<Mention> mentions;
+	private static final LanguagePlugin langPlugin = ConfigProperties.getInstance().getLanguagePlugin();
 	
 	public PreciseConstructSieve(List<Mention> mentions) {
 		this.mentions = mentions;
@@ -91,9 +101,10 @@ public class PreciseConstructSieve extends Sieve {
 		 * 
 		 * appositive constructions as one NP in TüBa-D/Z
 		 * switch on and off
+		 * 
+		 * there is also FE_Appositive.getAppositive(pair)
 		 */
-		FE_AppositiveParse.getAppositivePrs(pair); // use this one
-		if (FE_Appositive.getAppositive(pair)) {
+		if (FE_AppositiveParse.getAppositivePrs(pair)) {
 			return true;
 		}
 		return false;
@@ -146,8 +157,17 @@ public class PreciseConstructSieve extends Sieve {
 			return false;
 		}
 		// (c) check with bootstrapped dictionary
-		// get dictionary from Stanford GitHub repo
-		
+		for (int i = 0; i < tokens.length; i++) {
+			/* at the moment, one token suffices to be animate or inanimate to
+			 * arrive at a decision; maybe only consider the head word? 
+			 */
+			if (langPlugin.isInAnimateList(tokens[i])) {
+				return true;
+			}
+			else if (langPlugin.isInInanimateList(tokens[i])) {
+				return false;
+			}
+		}		
 		return false;
 	}
 	
@@ -157,33 +177,16 @@ public class PreciseConstructSieve extends Sieve {
 			return false;
 		}
 		String[] tokens = mention.getMarkable().getDiscourseElements();
-				
+			
 		for (int i = 0; i < tokens.length; i++) {
 			String t = tokens[i];
-			
-			if(ConfigProperties.getInstance().getLanguagePlugin() instanceof GermanLanguagePlugin) {
-				
+			// same comment as loop above
+			if (langPlugin.isInNeutralList(t)) {
+				return true;
 			}
-			
-			/*
-			 * check with language plugin; check rules for when a noun
-			 * has a different gender in different languages
-			 */
-			
-			/* if (t.isCapital() && t.endsWith("in")) {
-				
+			else if (langPlugin.isInMaleList(t) || langPlugin.isInFemaleList(t)) {
+				return false;
 			}
-			
-			Genus of markable
-			
-			for German: nouns ending on "in" are female;
-			for English: enumerate list of female/male nouns 
-			
-			/* 
-			 * check if a (modified) noun, e.g., the marvelous actress
-			 * is neutral
-			 * create list with male / female / neutral nouns (in English/German)
-			 */
 		}
 		return false;
 	}
@@ -193,26 +196,34 @@ public class PreciseConstructSieve extends Sieve {
 		String[] tokens = pair.getAnaphor().getMarkable().getDiscourseElements();
 		if (tokens.length == 1 && tokens[0].matches(RELATIVE_PRONOUN)) {
 			// check if modifies head of antecedent NP
+			EnglishLanguagePlugin.getHead(null)
 		}
 		return false;
 	}
 	
 	private boolean isAcronym(PairInstance pair) {
+		/**
+		 * Checks if one mention is an acronym of the other mention
+		 * and vice versa.
+		 */
 		String mention = pair.getAnaphor().toString();
 		String antecedent = pair.getAntecedent().toString();
-		// check if mention or antecedent only contain upper letters
-		
-		
-		String mention_initials = "";
-		String antecedent_initials = "";
-		for (String word : mention.split(" ")) {
-			mention_initials += word.substring(0,1).toUpperCase();
+		return checkOneWayAcronym(mention, antecedent) || checkOneWayAcronym(antecedent, mention);
+	}
+	
+	private boolean checkOneWayAcronym(String acronym, String expression) {
+		/**
+		 * Checks if one string is an acronym of the other string
+		 */
+		if (acronym.toUpperCase().equals(acronym)) {
+			String initials = "";
+			for (String word : expression.split(" ")) {
+				initials += word.substring(0,1).toUpperCase();
+			}
+			if (acronym.equals(initials)) {
+				return true;
+			}
 		}
-		for (String word : antecedent.split(" ")) {
-			antecedent_initials += word.substring(0,1).toUpperCase();
-		}
-		
-		
 		return false;
 	}
 
@@ -222,25 +233,15 @@ public class PreciseConstructSieve extends Sieve {
 		 * a static list of countries and their gentilic forms from
 		 * Wikipedia
 		 */
+		String mention = pair.getAnaphor().toString();
+		String antecedent = pair.getAntecedent().toString();
+		String mention_lookup = langPlugin.lookupAlias(mention, TableName.DemonymMap);
+		String antecedent_lookup = langPlugin.lookupAlias(antecedent, TableName.DemonymMap);
 		
-		/*
-		 * extract demonym list from Wikpedia
-		 * localize in different languages
-		 * http://en.wikipedia.org/wiki/Demonym
-		 * http://de.wikipedia.org/wiki/Volksbezeichnung
-		 * http://it.wikipedia.org/wiki/Etnico_(onomastica)
-		 * how to check for language plugin?
-		 */
-		
-	    public EnglishLanguagePlugin() {
-	        readMapping(TableName.AdjMap, "adj_map_en.txt");
-	    }
-		
-		if(ConfigProperties.getInstance().getLanguagePlugin() instanceof GermanLanguagePlugin) {
-			
+		if ((mention_lookup != null && mention_lookup.equals(antecedent)) ||
+				(antecedent_lookup != null && antecedent_lookup.equals(mention))) {
+			return true;
 		}
-		
-		return false;
-	}	
-
+		return false;		
+	}		
 }
