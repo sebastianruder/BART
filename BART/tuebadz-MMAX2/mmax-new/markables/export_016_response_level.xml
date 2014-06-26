@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="Cp1252"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/response">
+<markable id="markable_1" span="word_6..word_8" coref_set="set_0" min_ids="word_6" mmax_level="response" />
+<markable id="markable_0" span="word_7..word_8" coref_set="set_0" dir_antecedent="markable_1" min_ids="word_7..word_8" mmax_level="response" />
+<markable id="markable_2" span="word_46..word_47" coref_set="set_0" dir_antecedent="markable_0" min_ids="word_46..word_47" mmax_level="response" />
+</markables>

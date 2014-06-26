@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Hessen)))"/>
+<markable id="markable_14" span="word_2..word_4" mmax_level="parse" orderid="2" tag="(Start (SIMPX (MF (NX (NE Eichel)) (ADVX (ADV erneut))) (VXVP (VVPP gewählt))))"/>
+<markable id="markable_69" span="word_5..word_27" mmax_level="parse" orderid="3" tag="(Start (NX (NE Kassel)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (ART Der) (ADJX (ADJA hessische)) (NN SPD-Vorsitzende)) (\$\, \,) (NX (NX (NN Ministerpräsident)) (NX (NE Hans) (NE Eichel))))) (\$\, \,) (VXAF (VAFIN ist)) (MF (PX (APPR für) (NX (ADJX (CARD zwei)) (NN Jahre))) (PX (APPR in) (NX (PPOSAT seinem) (NN Amt)))) (VXVP (VXVP (VVPP bestätigt)) (VXAP (VAPP worden)))) (\$\. \.))"/>
+<markable id="markable_113" span="word_28..word_44" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (APPR Bei) (NX (NX (ART einem) (NN Landesparteitag)) (PX (APPR in) (NX (NE Kassel)))))) (VXAF (VAFIN wurde)) (MF (NX (PPER er)) (PX (APPRART am) (NX (NN Wochenende))) (PX (APPR mit) (NX (NX (ADVX (ADV knapp)) (ADJX (CARD 90\,7)) (NN Prozent)) (NX (ART der) (NN Delegiertenstimmen))))) (VXVP (VVPP wiedergewählt))) (\$\. \.))"/>
+<markable id="markable_145" span="word_45..word_56" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (NE Eichel))) (VXVF (VVFIN stellte)) (MF (NX (PRF sich)) (PX (APPR vor) (NX (NX (ART den) (ADJX (PX (APPRART ins) (NX (NN Wanken))) (ADJA geratenen)) (NN SPD-Vorsitzenden)) (NX (NE Rudolf) (NE Scharping)))))) (\$\. \.))"/>
+<markable id="markable_188" span="word_57..word_74" mmax_level="parse" orderid="6" tag='(Start (\$-LRB- \") (SIMPX (LV (SIMPX (MF (NX (NX (ART Einen) (NN Abnutzungskrieg)) (PX (APPR gegen) (NX (ART den) (ADJX (ADJA gewählten)) (NN Vorsitzenden))))) (VXVZ (PTKZU zu) (VVINF führen)))) (\$\, \,) (VF (NX (PDS das))) (VXVF (VVFIN geht)) (MF (PX (APPR in) (NX (PPOSAT unserer) (NN Partei))) (ADVX (PTKNEG nicht)))) (\$\. \.) (\$-LRB- \"))'/>
+</markables>

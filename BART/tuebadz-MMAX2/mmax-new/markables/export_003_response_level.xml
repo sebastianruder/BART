@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="Cp1252"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/response">
+<markable id="markable_3" span="word_2..word_4" coref_set="set_2" min_ids="word_2" mmax_level="response" />
+<markable id="markable_18" span="word_4" coref_set="set_1" min_ids="word_4" mmax_level="response" />
+<markable id="markable_14" span="word_6..word_7" coref_set="set_3" min_ids="word_6..word_7" mmax_level="response" />
+<markable id="markable_12" span="word_9" coref_set="set_0" min_ids="word_9" mmax_level="response" />
+<markable id="markable_6" span="word_11" coref_set="set_5" min_ids="word_11" mmax_level="response" />
+<markable id="markable_10" span="word_12..word_13" coref_set="set_7" min_ids="word_12..word_13" mmax_level="response" />
+<markable id="markable_17" span="word_29" coref_set="set_8" min_ids="word_29" mmax_level="response" />
+<markable id="markable_15" span="word_33..word_37" coref_set="set_9" min_ids="word_33..word_34" mmax_level="response" />
+<markable id="markable_16" span="word_35..word_37" coref_set="set_9" dir_antecedent="markable_15" min_ids="word_35..word_37" mmax_level="response" />
+<markable id="markable_5" span="word_42..word_45" coref_set="set_5" dir_antecedent="markable_6" min_ids="word_42..word_45" mmax_level="response" />
+<markable id="markable_2" span="word_50..word_53" coref_set="set_3" dir_antecedent="markable_14" min_ids="word_50..word_53" mmax_level="response" />
+<markable id="markable_0" span="word_62..word_66" coref_set="set_0" dir_antecedent="markable_12" min_ids="word_62..word_64" mmax_level="response" />
+<markable id="markable_7" span="word_70..word_72" coref_set="set_2" dir_antecedent="markable_3" min_ids="word_70" mmax_level="response" />
+<markable id="markable_1" span="word_72" coref_set="set_1" dir_antecedent="markable_18" min_ids="word_72" mmax_level="response" />
+<markable id="markable_13" span="word_78" coref_set="set_8" dir_antecedent="markable_17" min_ids="word_78" mmax_level="response" />
+<markable id="markable_20" span="word_127..word_129" coref_set="set_7" dir_antecedent="markable_10" min_ids="word_127..word_129" mmax_level="response" />
+<markable id="markable_11" span="word_154" coref_set="set_5" dir_antecedent="markable_5" min_ids="word_154" mmax_level="response" />
+<markable id="markable_19" span="word_167..word_174" coref_set="set_6" min_ids="word_167..word_168" mmax_level="response" />
+<markable id="markable_9" span="word_169..word_170" coref_set="set_6" dir_antecedent="markable_19" min_ids="word_169..word_170" mmax_level="response" />
+<markable id="markable_8" span="word_172..word_174" coref_set="set_4" min_ids="word_172..word_174" mmax_level="response" />
+<markable id="markable_4" span="word_205" coref_set="set_4" dir_antecedent="markable_8" min_ids="word_205" mmax_level="response" />
+</markables>

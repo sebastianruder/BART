@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_12" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (SIMPX (VF (NX (NE FU))) (VXVF (VVFIN klagt)) (MF (PX (APPR gegen) (NX (NE Berlin))))))"/>
+<markable id="markable_58" span="word_5..word_23" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (PX (APPR Mit) (NX (NX (ART einer) (NN Klage)) (PX (APPR vor) (NX (ART dem) (NN Verwaltungsgericht)))))) (VXMF (VMFIN will)) (MF (NX (ART die) (NE FU)) (PX (APPR gegen) (NX (NX (NX (TRUNC Haushalts-)) (KON und) (NX (NN Stellenkürzungen))) (PX (APPRART im) (NX (NX (NN Bereich)) (NX (ART der) (NN Zahnmedizin))))))) (VXVI (VVINF vorgehen))) (\$\. \.))"/>
+<markable id="markable_94" span="word_24..word_38" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (SIMPX (VF (ADVX (ADV Bisher))) (VXAF (VAFIN hat)) (MF (ADVX (ADV noch)) (NX (PIAT keine) (NN Uni)) (NX (ART eine) (ADJX (ADJA ähnliche)) (NN Klage))) (VXVP (VVPP angestrengt)))) (\$\, \,) (VXVF (VVFIN teilte)) (MF (NX (ART die) (NE FU))) (PTKVZ mit)) (\$\. \.))"/>
+<markable id="markable_150" span="word_39..word_60" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (APPR Bei) (NX (NX (ART einem) (NN Erfolg)) (NX (ART der) (NN Klage))))) (VXAF (VAFIN würde)) (MF (NX (ART das) (NN Land)) (ADVX (ADV erstmals)) (PX (APPR für) (NX (ART das) (ADJX (PX (APPR nach) (NX (NX (NN Auffassung)) (NX (ART der) (NE FU)))) (ADVX (ADV ohnehin)) (ADJA unzulängliche)) (NN Zahnmedizin-Gesetz))) (PX (APPR in) (NX (NN Haftung)))) (VXVP (VVPP genommen))) (\$\. \.))"/>
+<markable id="markable_155" span="word_61" mmax_level="parse" orderid="5" tag="(Start (NX (NE ADN)))"/>
+</markables>

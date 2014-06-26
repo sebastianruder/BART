@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_12" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (SIMPX (VF (NX (ADJX (CARD Sieben)) (NN Ärzten))) (VXVF (VVFIN droht)) (MF (NX (NN Disziplinarverfahren)))))"/>
+<markable id="markable_36" span="word_5..word_13" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (ADJX (CARD Sieben)) (NN Vertragsärzten))) (VXVF (VVFIN droht)) (MF (PX (APPR wegen) (NX (ADJX (ADJA falscher)) (NN Honorarabrechnungen))) (NX (ART ein) (NN Disziplinarverfahren)))) (\$\. \.))"/>
+<markable id="markable_86" span="word_14..word_34" mmax_level="parse" orderid="3" tag='(Start (SIMPX (VF (SIMPX (VF (NX (ART Die) (NN Ärzte))) (VXAF (VAFIN waren)) (MF (PX (APPR bei) (NX (NX (ART der) (NN Überprüfung)) (NX (NX (ART der) (NN Abrechnungen)) (PX (APPR für) (NX (NX (ART das) (ADJX (ADJA dritte)) (NN Quartal)) (NX (CARD 1996)))))))) (VXVP (VVPP aufgefallen)))) (\$\, \,) (VXVF (VVFIN berichtet)) (MF (NX (ART das) (\$-LRB- \") (NN KV-Blatt)))) (\$-LRB- \") (\$\. \.))'/>
+<markable id="markable_110" span="word_35..word_44" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (PROP Außerdem))) (VXMF (VMFIN müßten)) (MF (NX (ADJX (CARD zwölf)) (NN Ärzte)) (PX (APPR mit) (NX (ART einer) (ADJX (ADJA nachträglichen)) (NN Honorarreduzierung)))) (VXVI (VVINF rechnen))) (\$\. \.))"/>
+<markable id="markable_141" span="word_45..word_57" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (PX (PROP Dabei))) (VXVF (VVFIN drohe)) (MF (NX (ADJX (CARD zwei)) (NN Medizinern)) (NX (KON sowohl) (NX (ART eine) (ADJX (ADJA finanzielle)) (NN Kürzung)) (KON als) (ADVX (ADV auch)) (NX (ART ein) (NN Disziplinarverfahren))))) (\$\. \.))"/>
+<markable id="markable_146" span="word_58" mmax_level="parse" orderid="6" tag="(Start (NX (NE ADN)))"/>
+</markables>

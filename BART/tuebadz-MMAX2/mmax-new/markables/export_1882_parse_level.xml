@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE CDU)))"/>
+<markable id="markable_12" span="word_2..word_3" mmax_level="parse" orderid="2" tag="(Start (NX (NE Schäuble)) (\$\. \:))"/>
+<markable id="markable_21" span="word_4..word_6" mmax_level="parse" orderid="3" tag='(Start (\$-LRB- \") (NX (NN Blödsinn)) (\$-LRB- \"))'/>
+<markable id="markable_71" span="word_7..word_26" mmax_level="parse" orderid="4" tag="(Start (NX (NE Hamburg)) (\$-LRB- -LRB-) (NX (NE AP)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (PX (ADJX (ADJD Kurz)) (APPR vor) (NX (NX (NN Beginn)) (NX (ART des) (NN CDU-Parteitags))))) (VXAF (VAFIN hat)) (MF (NX (NX (NN Fraktionschef)) (NX (NE Wolfgang) (NE Schäuble))) (NX (NX (NN Kritik)) (PX (APPR an) (NX (ART der) (NN Parteireform))))) (VXVP (VVPP geübt))) (\$\. \.))"/>
+<markable id="markable_109" span="word_27..word_41" mmax_level="parse" orderid="5" tag='(Start (SIMPX (VF (NX (PPER Er))) (VXVF (VVFIN kündigte)) (PTKVZ an) (\$\, \,) (NF (SIMPX (VF (NX (PPER er))) (VXAF (VAFIN werde)) (MF (PX (APPR gegen) (NX (NX (ART den) (\$-LRB- \") (NN Blödsinn)) (\$-LRB- \") (NX (ART einer) (NN Mitgliederbefragung))))) (VXVI (VVINF stimmen))))) (\$\. \.))'/>
+</markables>

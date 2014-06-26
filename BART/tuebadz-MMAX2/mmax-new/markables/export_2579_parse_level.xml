@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Quertöner)))"/>
+<markable id="markable_13" span="word_2..word_4" mmax_level="parse" orderid="2" tag="(Start (NX (ADVX (ADV Auch)) (NX (PDS das)) (ADVX (ADV noch))))"/>
+<markable id="markable_44" span="word_5..word_17" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (APPRART Am) (NX (ADJX (ADJA 19\.)) (ADJX (ADJA 10\.))))) (VXVF (VVFIN bringen)) (MF (NX (NE Misty) (NE in) (NE Roots)) (NX (ADJX (ADJA britischen)) (NN Reggae)) (PX (APPR in) (NX (ART die) (NN Markthalle))))) (\$\. \.))"/>
+<markable id="markable_79" span="word_18..word_32" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (APPRART Am) (NX (ADJX (ADJA 22\.)) (ADJX (ADJA 10\.))))) (VXVF (VVFIN tragen)) (MF (NX (NE Hermine) (NE Karo) (NE feat\.) (NE her) (NE band)) (NX (NN Jazz)) (PX (APPRART im) (NX (ADJX (ADJA Treujanischen)) (NN Schiff)))) (PTKVZ vor)) (\$\. \.))"/>
+<markable id="markable_130" span="word_33..word_54" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (NX (ART Die) (NE Pogues)) (\$\, \,) (R-SIMPX (C (NX (PRELS die))) (MF (PX (APPRART am) (NX (ADJX (ADJA 22\.)) (ADJX (ADJA 10\.)))) (PX (APPR in) (NX (ART die) (ADJX (ADJA Große)) (NN Freiheit)))) (VXVF (VVFIN kommen))))) (\$\, \,) (VXVF (VVFIN klingen)) (MF (ADVX (ADV auch)) (PX (APPR ohne) (NX (NE Shane) (NE McGowan))) (ADVX (ADV fast)) (KomX (KOKOM wie) (ADVX (ADV immer))))) (\$\. \.))"/>
+<markable id="markable_178" span="word_55..word_74" mmax_level="parse" orderid="6" tag="(Start (SIMPX (VF (SIMPX (C (KOUS Wenn)) (MF (NX (NE Howe) (NE Gelb)) (PX (APPRART am) (NX (ADJX (ADJA 23\.)) (ADJX (ADJA 10\.)))) (PX (APPRART ins) (NX (NE Logo)))) (VXVF (VVFIN kommt)))) (\$\, \,) (VXVF (VVFIN freuen)) (MF (NX (PRF sich)) (NX (PIS alle))) (\$\, \,) (NF (R-SIMPX (C (NX (PRELS die))) (MF (NX (NX (NN Putzigkeit)) (KON und) (NX (NN Wüste)))) (VXMF (VMFIN mögen))))) (\$\. \.))"/>
+<markable id="markable_214" span="word_75..word_89" mmax_level="parse" orderid="7" tag="(Start (SIMPX (VF (NX (NE African) (NE Headcharge))) (VXVF (VVFIN beenden)) (MF (PX (APPRART am) (NX (ADJX (ADJA 24\.)) (ADJX (ADJA 10\.)))) (PX (APPR in) (NX (ART der) (NN Markthalle))) (NX (ART die) (NN Woche)) (PX (APPR mit) (NX (ADJX (ADJA prima)) (NN Dub-Späßen))))) (\$\. \.))"/>
+<markable id="markable_219" span="word_90" mmax_level="parse" orderid="8" tag="(Start (NX (NE vom)))"/>
+</markables>

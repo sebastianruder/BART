@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (NX (ADJX (ADJA Gefährliche)) (NN Objekte)))"/>
+<markable id="markable_29" span="word_3..word_11" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (ART Die) (NN Benutzung)) (NX (PDAT dieses) (NN Objekts)))) (VXAF (VAFIN ist)) (MF (ADVX (ADV noch)) (ADJX (ADVX (ADV ziemlich)) (ADJD ungefährlich)))) (\$\. \.))"/>
+<markable id="markable_82" span="word_12..word_33" mmax_level="parse" orderid="3" tag="(Start (SIMPX (KOORD (KON Doch)) (VF (PX (APPR in) (NX (PPOSAT ihren) (ADJX (ADJA anderen)) (NN Kunstgebilden)))) (VXVF (VVFIN verarbeiten)) (MF (NX (NX (NE Petra) (NE Heitkötter)) (KON und) (NX (NE Werner) (NE Henkel))) (ADVX (ADV auch)) (NX (NX (NN Insektenflügel)) (\$\, \,) (NX (NN Kunstrosen)) (\$\, \,) (NX (NN Pigmente)) (\$\, \,) (NX (NN Rasierklingen)) (KON und) (NX (NN Stacheldraht))))) (\$\. \.))"/>
+<markable id="markable_124" span="word_34..word_51" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (VXVZ (VXVZ (PTKZU Zu) (VVINF sehen)) (KON und) (VXVZ (PTKZU zu) (VVINF erleben)))) (VXAF (VAFIN ist)) (MF (NX (ART die) (NN Doppelausstellung)) (PX (APPR in) (NX (NX (NX (NE Petra) (NE Heitkötters)) (NN Kunstsalon)) (\$-LRB- -LRB-) (NX (NX (ADJX (ADJA Horner)) (NN Straße)) (NX (CARD 43))))))) (\$-LRB- -RRB-) (\$\. \.))"/>
+<markable id="markable_144" span="word_52..word_59" mmax_level="parse" orderid="5" tag="(Start (NX (NN Eröffnung)) (\$\. \:) (NX (NX (ADJX (ADJA 9\.)) (NN Mai)) (\$\, \,) (NX (ADJX (CARD 15)) (NN Uhr))) (\$\. \.))"/>
+<markable id="markable_169" span="word_60..word_69" mmax_level="parse" orderid="6" tag="(Start (NX (NX (NN Öffnungszeiten)) (PX (APPR bis) (NX (ADJX (ADJA 6\.)) (NN Juni))) (ADJX (ADJX (ADJD täglich)) (NX (ADJX (ADJX (CARD 18)) (KON bis) (ADJX (CARD 20))) (NN Uhr)))) (\$\. \.))"/>
+</markables>

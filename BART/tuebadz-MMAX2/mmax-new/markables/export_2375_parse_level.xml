@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Wohnungswechsel)))"/>
+<markable id="markable_96" span="word_2..word_39" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (NX (ART Der) (ADJX (ADJA verlegerische)) (NN Geschäftsführer)) (NX (NX (ART der) (NX (NX (NE Rowohlt)) (NN Verlage))) (PX (APPR in) (NX (NX (NE Reinbek)) (KON und) (NX (NE Berlin)))))) (\$\, \,) (NX (NE Michael) (NE Naumann)))) (\$\, \,) (FKOORD (FKONJ (VXVF (VVFIN scheidet)) (MF (PX (APPR nach) (NX (ADJX (ADJA zehnjähriger)) (NN Tätigkeit))) (PX (APPR aus) (NX (PPOSAT seinen) (NN Funktionen)))) (PTKVZ aus)) (KON und) (FKONJ (VXVF (VVFIN übernimmt)) (MF (PX (APPRART zum) (NX (NX (ADJX (ADJA 1\.)) (NN Januar)) (NX (CARD 1996)))) (NX (NX (ART den) (ADJX (PX (APPR von) (NX (PPER ihm))) (ADJA gegründeten)) (ADJX (NE New) (ADJA Yorker)) (NN Literaturverlag)) (NX (NE Metropolitan) (NE Books))))))) (\$\. \.))"/>
+<markable id="markable_139" span="word_40..word_57" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (PPOSAT Sein) (NN Nachfolger))) (VXAF (VAFIN wird)) (MF (NX (NE Nikolaus) (NE Hansen))) (\$\, \,) (NF (R-SIMPX (C (NX (PRELS der))) (MF (PX (APPR seit) (NX (CARD 1988))) (NX (NX (ADJX (ADJA geschäftsführender)) (NN Gesellschafter)) (NX (NX (ART des) (NN Verlages)) (NX (NX (NE Rogner)) (KON \&amp;) (NX (NE Bernhard)))))) (VXAF (VAFIN ist))))) (\$\. \.))"/>
+</markables>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (PX (APPR Gegen) (NX (NN Atomtests))))"/>
+<markable id="markable_38" span="word_3..word_15" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (PX (APPR Zu) (NX (NX (ART einer) (NN Demonstration)) (PX (APPR gegen) (NX (NN Atomtests)))))) (VXAF (VAFIN hat)) (MF (NX (NX (ART die) (NX (NX (NN Jugend)) (NX (NN Umwelt)) (NN Projektwerkstatt))) (NX (NE JUMP)))) (VXVP (VVPP aufgerufen))) (\$\. \.))"/>
+<markable id="markable_98" span="word_16..word_40" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (ART Der) (NN Zug))) (FKOORD (FKONJ (VXVF (VVFIN setzt)) (MF (NX (PRF sich)) (PX (PX (APPRART am) (NX (ADJX (ADJA morgigen)) (NN Samstag))) (PX (APPR um) (NX (ADJX (CARD 11)) (NN Uhr)))) (PX (APPRART vom) (NX (NN Gerhart-Hauptmann-Platz)) (APZR aus)) (PX (APPR in) (NX (NN Bewegung))))) (KON und) (FKONJ (VXVF (VVFIN führt)) (MF (PX (PX (APPR über) (NX (NX (NN Rathausmarkt)) (KON und) (NX (NN Moorweide)))) (PX (APPRART zum) (NX (ADJX (ADJA französischen)) (NN Konsulat)))))))) (\$\. \.))"/>
+</markables>

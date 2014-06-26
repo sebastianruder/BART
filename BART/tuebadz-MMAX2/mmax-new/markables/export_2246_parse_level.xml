@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Polizei)))"/>
+<markable id="markable_15" span="word_2..word_4" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NN Todesschuß)) (PX (APPR in) (NX (NE NRW)))))"/>
+<markable id="markable_61" span="word_5..word_23" mmax_level="parse" orderid="3" tag="(Start (NX (NE Wesel)) (\$-LRB- -LRB-) (NX (NE AP)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (PX (APPR Bei) (NX (ART einem) (NN Schußwechsel)))) (VXAF (VAFIN hat)) (MF (NX (ART die) (NN Polizei)) (ADVX (ADV gestern)) (PX (APPR in) (NX (NE Kamp-Lintfort))) (NX (ART einen) (ADJX (ADJA unbekannten)) (NN Angreifer))) (VXVP (VVPP getötet))) (\$\. \.))"/>
+<markable id="markable_131" span="word_24..word_52" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (APPR Nach) (NX (NX (NN Angaben)) (NX (ART der) (NN Polizei))))) (VXAF (VAFIN hatte)) (MF (NX (ART der) (ADJX (ADVX (ADVX (ADV noch)) (PTKNEG nicht)) (ADJA identifizierte)) (NN Mann)) (ADVX (ADV sofort)) (NX (NX (ART das) (NN Feuer)) (PX (APPR auf) (NX (NX (ART eine) (NN Funkstreife)) (R-SIMPX (C (NX (PRELS die))) (MF (PX (APPR durch) (NX (ART einen) (NN Notruf))) (PX (APPR in) (NX (ART die) (NN Innenstadt)))) (VXVP (VXVP (VVPP gerufen)) (VXAP (VAPP worden))) (VXAF (VAFIN war))))))) (VXVP (VVPP eröffnet)) (\$\, \,)) (\$\. \.))"/>
+</markables>

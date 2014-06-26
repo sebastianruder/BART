@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_14" span="word_1..word_5" mmax_level="parse" orderid="1" tag="(Start (SIMPX (MF (NX (NN Radfahrer)) (PX (APPR nach) (NX (NN Sturz))) (ADJX (ADJD tödlich))) (VXVP (VVPP verunglückt))))"/>
+<markable id="markable_58" span="word_6..word_23" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (ART Ein) (ADJX (NX (ADJX (CARD 19)) (NN Jahre)) (ADJA alter)) (NN Radfahrer))) (VXAF (VAFIN ist)) (MF (PX (APPR nach) (NX (NX (ART einem) (NN Unfall)) (PX (APPRART im) (NX (NX (NN S-Bahnhof)) (NX (ADJX (ADJA Greifswalder)) (NN Straße)))))) (PX (APPR in) (NX (ADJX (ADJA Prenzlauer)) (NN Berg)))) (VXVP (VVPP gestorben))) (\$\. \.))"/>
+<markable id="markable_117" span="word_24..word_48" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (ART Der) (ADJX (ADJA junge)) (NN Mann))) (VXAF (VAFIN war)) (FKOORD (FKONJ (MF (ADVX (ADVX (ADV gestern)) (ADVX (ADV mittag))) (PX (APPR mit) (NX (PPOSAT seinem) (NN Fahrrad))) (PX (APPR in) (NX (ART die) (NN Bahnhofsvorhalle)))) (VXVP (VVPP gefahren))) (KON und) (FKONJ (MF (ADVX (ADV dort)) (PX (APPR gegen) (NX (ART eine) (NN Wand)))) (VXVP (VVPP geprallt)))) (\$\, \,) (NF (SIMPX (C (KOUS wie)) (MF (NX (ART ein) (NN Polizeisprecher))) (VXVF (VVFIN mitteilte))))) (\$\. \.))"/>
+<markable id="markable_160" span="word_49..word_65" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (PPER Er))) (VXVF (VVFIN kam)) (MF (PX (APPR mit) (NX (ART einem) (NN Notarztwagen))) (PX (APPR in) (NX (NX (ART ein) (NN Krankenhaus)) (\$\, \,) (R-SIMPX (C (ADVX (PWAV wo))) (MF (NX (PPER er)) (ADVX (ADV zunächst)) (PX (APPRART ins) (NX (NN Koma)))) (VXVP (VVPP gefallen)) (VXAF (VAFIN war))))))) (\$\. \.))"/>
+<markable id="markable_165" span="word_66" mmax_level="parse" orderid="5" tag="(Start (NX (NE ADN)))"/>
+</markables>

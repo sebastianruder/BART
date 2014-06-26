@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Österreich)))"/>
+<markable id="markable_17" span="word_2..word_5" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NE Haider)) (PX (APPR auf) (NX (NX (NN Platz)) (NX (CARD zwei))))))"/>
+<markable id="markable_72" span="word_6..word_27" mmax_level="parse" orderid="3" tag="(Start (NX (NE Wien)) (\$-LRB- -LRB-) (NX (NE AFP)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (ART Die) (ADJX (ADJA rechten)) (NN Freiheitlichen)) (PX (APPR von) (NX (NE Jörg) (NE Haider))))) (VXMF (VMFIN könnten)) (MF (PX (APPR bei) (NX (ART den) (NN Neuwahlen))) (PX (APPR in) (NX (NE Österreich))) (PX (APPRART zur) (NX (ADJX (ADJA zweitstärksten)) (NN Partei)))) (VXAI (VAINF werden))) (\$\. \.))"/>
+<markable id="markable_92" span="word_28..word_35" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (PDS Dies))) (VXVF (VVFIN ergab)) (MF (NX (NX (ART eine) (NN Umfrage)) (PX (APPR für) (NX (ART den) (NN Kurier)))))) (\$\. \.))"/>
+<markable id="markable_142" span="word_36..word_56" mmax_level="parse" orderid="5" tag="(Start (SIMPX (SIMPX (VF (PX (PROP Danach))) (VXVF (VVFIN erreichen)) (MF (NX (ART die) (NN Freiheitlichen)) (NX (NX (ADJX (CARD 27)) (NN Prozent)) (NX (ART der) (NN Stimmen))))) (\$\, \,) (SIMPX (SIMPX (VF (NX (ART die) (NE SPÖ))) (VXVF (VVFIN käme)) (MF (PX (APPR auf) (NX (ADJX (CARD 30)))))) (KON und) (SIMPX (VF (NX (ART die) (NE ÖVP))) (MF (PX (APPR auf) (NX (ADJX (CARD 26)) (NN Prozent))))))) (\$\. \.))"/>
+</markables>

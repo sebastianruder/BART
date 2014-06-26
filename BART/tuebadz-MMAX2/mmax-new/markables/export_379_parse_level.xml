@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_21" span="word_1..word_8" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NN 1\.-Mai-Demo)) (PX (ADVX (ADV auch)) (APPR gegen) (NX (NX (NX (NN Krieg)) (KON und) (NX (NN Terror))) (PX (APPRART im) (NX (NE Kosovo)))))))"/>
+<markable id="markable_84" span="word_9..word_35" mmax_level="parse" orderid="2" tag='(Start (SIMPX (VF (PX (APPR Neben) (NX (NX (NX (ART dem) (\$-LRB- \") (NN Tag)) (NX (ART der) (NN Arbeit))) (\$-LRB- \") (KON und) (NX (NX (ART der) (NN Gegendemonstration)) (PX (APPR gegen) (NX (ART die) (ADJX (ADJA neofaschistische)) (NE NPD))))))) (VXAF (VAFIN war)) (MF (NX (NX (ART ein) (ADJX (ADJA drittes)) (ADJX (ADJA zentrales)) (NN Thema)) (NX (ART der) (ADJX (ADJA Bremer)) (NN 1\.-Mai-Demonstration))) (NX (NX (ART der) (NN Krieg)) (PX (APPRART im) (NX (NE Kosovo)))))) (\$\. \.))'/>
+<markable id="markable_122" span="word_36..word_51" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (PIDAT Viele) (NN Plakate))) (VXVF (VVFIN forderten)) (MF (NX (NX (NX (ART den) (ADJX (ADJA sofortigen)) (NN Stopp)) (NX (ART der) (NN NATO-Angriffe))) (KON und) (NX (NX (ADJX (ADJA verstärkte)) (ADJX (ADJA diplomatische)) (NN Verhandlungen)) (PX (APPR mit) (NX (ART dem) (NN Milosevic-Regime))))))) (\$\. \.))"/>
+<markable id="markable_139" span="word_52..word_57" mmax_level="parse" orderid="4" tag="(Start (NX (NE taz)) (\$-LRB- \/) (NX (NN Foto)) (\$\. \:) (NX (NE Laura) (NE Marina)))"/>
+</markables>

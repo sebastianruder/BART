@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_4" span="word_1" mmax_level="parse" orderid="1" tag="(Start (ADVX (ADV beiseite)))"/>
+<markable id="markable_9" span="word_2" mmax_level="parse" orderid="2" tag="(Start (NX (NN Performance)))"/>
+<markable id="markable_79" span="word_3..word_32" mmax_level="parse" orderid="3" tag="(Start (SIMPX (LV (NX (NX (NN Papierbruderschaft)) (NN AG))) (\$\, \,) (VF (NX (PDS das))) (VXAF (VAFIN sind)) (\$\. \:) (MF (NX (NX (NE Desi) (NE Baumeister)) (\$\, \,) (NX (NE Weiner) (NE Zein)) (\$\, \,) (NX (NE Sergej) (NE Woronzov)) (\$\, \,) (NX (NE Ilia) (NE Kitup)) (\$\, \,) (NX (NE Andrea) (NE Sunder-Plassmann)) (\$\, \,) (NX (NE Schalwa) (NE Chachanaschwili)) (\$\, \,) (NX (NE Devid) (NE Maas)) (KON und) (NX (NE Irina) (NE Doubrowskaja))))) (\$\. \.))"/>
+<markable id="markable_130" span="word_33..word_54" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (APPRART Zur) (NX (NX (NN Ausstellungseröffnung)) (PX (APPR in) (NX (NX (ART der) (NN Galerie)) (NX (ADJX (ADJA Neue)) (NN Räume))))))) (\$-LRB- -LRB-) (NX (NX (NX (NN Lindenstraße)) (NX (CARD 39))) (\$\, \,) (NX (NE Kreuzberg))) (\$-LRB- -RRB-) (VXVF (VVFIN findet)) (MF (ADVX (ADVX (ADV morgen)) (PX (APPR um) (NX (ADJX (CARD 20)) (NN Uhr)))) (NX (ART eine) (NN Performance))) (PTKVZ statt)) (\$\. \.))"/>
+<markable id="markable_138" span="word_55..word_57" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VXVM (VVIMP Kommt))) (DM (NX (PIS alle))) (\$\. \.))"/>
+</markables>

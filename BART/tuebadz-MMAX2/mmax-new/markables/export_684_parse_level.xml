@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_6" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (ADJX (ADJD Energisch)) (NX (CARD I)))"/>
+<markable id="markable_35" span="word_3..word_14" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (ART Das) (NN Atomkraftwerk)) (NX (NE Brunsbüttel)))) (VXAF (VAFIN wurde)) (MF (ADVX (ADV gestern)) (ADJX (ADJD planmäßig)) (PX (APPRART zur) (NX (NN Jahresrevision))) (PX (APPRART vom) (NX (NN Netz)))) (VXVP (VVPP genommen))) (\$\. \.))"/>
+<markable id="markable_74" span="word_15..word_31" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (APPR Während) (NX (ART des) (ADJX (ADJA dreiwöchigen)) (NN Stillstandes)))) (VXAF (VAFIN werden)) (FKOORD (FKONJ (MF (NX (NX (ADJX (CARD 93))) (NX (ART der) (ADJX (CARD 532)) (NN Brennelemente)))) (VXVP (VVPP ausgetauscht))) (KON und) (FKONJ (MF (NX (ADJX (ADJA zahlreiche)) (NX (NX (NN Inspektionen)) (KON und) (NX (NN Wartungsarbeiten))))) (VXVP (VVPP durchgeführt))))) (\$\. \.))"/>
+</markables>

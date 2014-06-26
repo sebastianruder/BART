@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_3" span="word_1" mmax_level="markable" gend="fem" head_pos="word_1" markable_type="np" mention_type="nom.indef" min_ids="word_1" num="sing" sem_type="nil" sentenceid="1"/>
+<markable id="markable_10" span="word_2" mmax_level="markable" gend="masc" head_pos="word_2" markable_type="np" mention_type="nom.indef" min_ids="word_2" num="sing" sem_type="per" sentenceid="2"/>
+<markable id="markable_17" span="word_4" mmax_level="markable" gend="neut" head_pos="word_4" markable_type="np" mention_type="nam" min_ids="word_4" num="sing" sem_type="loc" sentenceid="3"/>
+<markable id="markable_81" span="word_7" mmax_level="markable" gend="fem" head_pos="word_7" markable_type="np" mention_type="nom.indef" min_ids="word_7" num="sing" sem_type="nil" sentenceid="4"/>
+<markable id="markable_82" span="word_11..word_14" mmax_level="markable" gend="masc" head_pos="word_11" markable_type="np" mention_type="nom.def" min_ids="word_11" num="sing" sem_type="evt" sentenceid="4"/>
+<markable id="markable_83" span="word_13..word_14" mmax_level="markable" gend="neut" head_pos="word_14" markable_type="np" mention_type="nom.def" min_ids="word_13..word_14" num="sing" sem_type="nil" sentenceid="4"/>
+<markable id="markable_84" span="word_16..word_18" mmax_level="markable" gend="masc" head_pos="word_18" markable_type="np" mention_type="nom.indef" min_ids="word_16..word_18" num="sing" sem_type="per" sentenceid="4"/>
+<markable id="markable_85" span="word_21..word_23" mmax_level="markable" gend="neut" head_pos="word_22" markable_type="np" mention_type="nam" min_ids="word_21..word_22" num="sing" sem_type="org" sentenceid="4"/>
+<markable id="markable_86" span="word_25..word_29" mmax_level="markable" gend="neut" head_pos="word_26" markable_type="np" mention_type="nom.indef" min_ids="word_25..word_26" num="sing" sem_type="tmp" sentenceid="4"/>
+<markable id="markable_87" span="word_29" mmax_level="markable" gend="fem" head_pos="word_29" markable_type="np" mention_type="nom.indef" min_ids="word_29" num="sing" sem_type="evt" sentenceid="4"/>
+<markable id="markable_160" span="word_36..word_37" mmax_level="markable" gend="neut" head_pos="word_37" markable_type="np" mention_type="nom.def" min_ids="word_36..word_37" num="sing" sem_type="org" sentenceid="5"/>
+<markable id="markable_161" span="word_45..word_46" mmax_level="markable" gend="masc" head_pos="word_46" markable_type="np" mention_type="nom.def" min_ids="word_45..word_46" num="sing" sem_type="per" sentenceid="5"/>
+<markable id="markable_162" span="word_48" mmax_level="markable" head_pos="word_48" markable_type="poss" mention_type="pro.per3" min_ids="word_48" sentenceid="5"/>
+<markable id="markable_163" span="word_48..word_53" mmax_level="markable" gend="fem" head_pos="word_49" markable_type="np" mention_type="nom.def" min_ids="word_48..word_49" num="sing" sem_type="tmp" sentenceid="5"/>
+<markable id="markable_164" span="word_51..word_53" mmax_level="markable" gend="masc" head_pos="word_52" markable_type="np" mention_type="nam" min_ids="word_51..word_52" num="sing" sem_type="loc" sentenceid="5"/>
+<markable id="markable_165" span="word_55..word_56" mmax_level="markable" gend="fem" head_pos="word_56" markable_type="np" mention_type="nom.def" min_ids="word_55..word_56" num="sing" sem_type="nil" sentenceid="5"/>
+<markable id="markable_166" span="word_57..word_60" mmax_level="markable" gend="masc" head_pos="word_58" markable_type="np" mention_type="nom.indef" min_ids="word_57..word_58" num="plur" sem_type="per" sentenceid="5"/>
+<markable id="markable_167" span="word_60" mmax_level="markable" gend="neut" head_pos="word_60" markable_type="np" mention_type="nom.indef" min_ids="word_60" num="sing" sem_type="nil" sentenceid="5"/>
+<markable id="markable_168" span="word_64..word_66" mmax_level="markable" gend="fem" head_pos="word_66" markable_type="np" mention_type="nom.indef" min_ids="word_64..word_66" num="plur" sem_type="nil" sentenceid="5"/>
+</markables>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (SIMPX (MF (NX (NN Mädchen))) (VXVP (VVPP geschnappt))))"/>
+<markable id="markable_50" span="word_3..word_20" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (NX (NX (ART Der) (ADJX (ADJA brutale)) (NN Überfall)) (PX (APPR auf) (NX (ART eine) (ADJX (NX (ADJX (CARD 83)) (NN Jahre)) (ADJA alte)) (NN Rentnerin)))) (PX (APPRART vom) (NX (ADJX (ADJA vergangenen)) (NN Sonntag)))) (PX (APPR in) (NX (NE St\.) (NE Georg))))) (VXAF (VAFIN ist)) (VXVP (VVPP aufgeklärt))) (\$\. \.))"/>
+<markable id="markable_90" span="word_21..word_37" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (SIMPX (C (KOUS Wie)) (MF (NX (ART die) (NN Polizei)) (ADVX (ADV gestern))) (VXVF (VVFIN mitteilte)))) (\$\, \,) (VXAF (VAFIN wurden)) (MF (NX (ADJX (CARD zwei)) (ADJX (NX (ADJX (ADJX (CARD 17)) (KON und) (ADJX (CARD 18))) (NN Jahre)) (ADJA alte)) (NN Mädchen)) (ADJX (ADJD vorläufig))) (VXVP (VVPP festgenommen))) (\$\. \.))"/>
+<markable id="markable_100" span="word_38..word_41" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (PIS Beide))) (VXAF (VAFIN seien)) (MF (ADJX (ADJD drogenabhängig)))) (\$\. \.))"/>
+<markable id="markable_120" span="word_42..word_48" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (ART Den) (NN Handtaschenraub))) (VXAF (VAFIN haben)) (MF (NX (PPER sie)) (ADVX (ADV bereits))) (VXVP (VVPP gestanden))) (\$\. \.))"/>
+</markables>

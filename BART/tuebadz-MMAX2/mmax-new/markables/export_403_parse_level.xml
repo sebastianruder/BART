@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_12" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NN Andrang)) (PX (APPR bei) (NX (ART der) (NN Bundeswehr)))))"/>
+<markable id="markable_72" span="word_5..word_28" mmax_level="parse" orderid="2" tag="(Start (NX (NE Strausberg)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (PX (APPR Aus) (NX (NX (ART den) (ADJX (ADJA neuen)) (NN Ländern)) (KON und) (NX (NE Berlin))))) (VXVF (VVFIN treten)) (MF (PX (APPRART zum) (NX (ADJX (ADJA 3\.)) (NN Mai))) (NX (ADJX (CARD 7\.950)) (NN Rekruten)) (NX (PPOSAT ihren) (NN Wehrdienst)) (PX (APPR bei) (NX (ART der) (NN Bundeswehr)))) (PTKVZ an)) (\$\. \.))"/>
+<markable id="markable_119" span="word_29..word_48" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (SIMPX (VF (NX (NX (ADJX (CARD 1\.900))) (PX (APPR von) (NX (PPER ihnen))))) (FKOORD (FKONJ (VXAF (VAFIN sind)) (MF (ADJX (ADJD arbeitslos)))) (KON und) (FKONJ (VXAF (VAFIN haben)) (MF (ADJX (ADJD ausdrücklich)) (PX (APPR um) (NX (PPOSAT ihre) (NN Einberufung)))) (VXVP (VVPP gebeten)))))) (\$\, \,) (VXVF (VVFIN teilte)) (MF (NX (NX (ART die) (ADJX (ADJA zuständige)) (NN Wehrbereichsverwaltung)) (NX (NE Märkisch-Oderland)))) (PTKVZ mit)) (\$\. \.))"/>
+</markables>

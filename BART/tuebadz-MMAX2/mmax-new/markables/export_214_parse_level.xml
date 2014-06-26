@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Berichtigung)))"/>
+<markable id="markable_26" span="word_2..word_10" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (ART Das) (ADJX (ADJA neue)) (NN Betriebssystem))) (VXAF (VAFIN ist)) (MF (ADVX (ADVX (ADV noch)) (PTKNEG nicht)) (ADJX (ADVX (ADV ganz)) (ADJD ausgelotet)))) (\$\. \.))"/>
+<markable id="markable_65" span="word_11..word_26" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (ADVX (ADV So))) (VXVF (VVFIN blieb)) (MF (NX (NX (ART der) (NN Name)) (PX (APPR von) (NX (NE Petra) (NE Kohse)))) (PX (APPRART am) (NX (NX (NN Ende)) (NX (NX (ART des) (NN Interviews)) (PX (APPR mit) (NX (NE Carl) (NE Hegemann)))))) (ADJX (ADJD ungefettet)))) (\$\. \.))"/>
+<markable id="markable_125" span="word_27..word_54" mmax_level="parse" orderid="4" tag="(Start (SIMPX (SIMPX (VF (SIMPX (C (KOUS Daß)) (MF (FX (FM Forces) (FM of) (FM Nature)) (ADVX (ADV durchweg))) (VXVP (VVPP gefettet)) (VXAF (VAFIN war)))) (\$\, \,) (VXAF (VAFIN ist)) (MF (ADVX (ADV zwar)) (ADVX (ADV okeh)))) (\$\, \,) (KON aber) (SIMPX (VF (SIMPX (FKOORD (MF (ADVX (ADV mal)) (PX (APPR mit))) (\$\, \,) (MF (ADVX (ADV mal)) (PX (APPR ohne) (NX (NN Anführungszeichen))))) (VXVP (VVPP geschrieben)))) (\$\, \,) (VXVF (VVFIN sah)) (MF (NX (PPER es)) (ADVX (ADV auch)) (ADJX (ADVX (ADV irgendwie)) (ADJD komisch))) (PTKVZ aus))) (\$\. \.))"/>
+</markables>

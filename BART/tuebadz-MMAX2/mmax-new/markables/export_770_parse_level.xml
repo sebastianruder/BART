@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_15" span="word_1..word_5" mmax_level="parse" orderid="1" tag="(Start (SIMPX (VF (NX (NN Internet-Messe))) (VXAF (VAFIN hat)) (MF (NX (NN Mittelstand)) (PX (APPRART im) (NX (NN Visier))))))"/>
+<markable id="markable_64" span="word_6..word_25" mmax_level="parse" orderid="2" tag='(Start (SIMPX (VF (KomX (KOKOM Als) (NX (NX (NN Internet-Messe)) (PX (APPR für) (NX (ADJX (ADJA mittelständische)) (NN Unternehmen)))))) (VXVF (VVFIN öffnet)) (MF (NX (ART die) (\$-LRB- \") (NX (NE Internet) (NE World))) (\$-LRB- \") (PX (APPRART am) (NX (ADJX (ADJA 18\.)) (NN Mai))) (PX (APPR auf) (NX (ART dem) (NN Messegelände))) (NX (PPOSAT ihre) (NN Tore)))) (\$\. \.))'/>
+<markable id="markable_111" span="word_26..word_46" mmax_level="parse" orderid="3" tag='(Start (SIMPX (VF (NX (ART Das) (ADJX (ADJA weltumspannende)) (NN Computernetz))) (VXAF (VAFIN wird)) (MF (PX (PROP dabei)) (\$\, \,) (PX (APPR laut) (NX (NN Veranstalter))) (\$\, \,) (\$-LRB- \") (NX (KomX (KOKOM als) (NX (TRUNC Business-))) (\$\, \,) (KomX (ADVX (PTKNEG nicht)) (KOKOM als) (NX (NN Technologieplattform)))) (\$-LRB- \") (PX (APPRART im) (NX (NN Mittelpunkt)))) (VXVI (VVINF stehen))) (\$\. \.))'/>
+<markable id="markable_116" span="word_47" mmax_level="parse" orderid="4" tag="(Start (NX (NE AP)))"/>
+</markables>

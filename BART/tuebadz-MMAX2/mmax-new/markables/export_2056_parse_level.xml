@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Fallobst)))"/>
+<markable id="markable_20" span="word_2..word_7" mmax_level="parse" orderid="2" tag='(Start (\$-LRB- \") (NX (NX (ADJX (ADJA Junge)) (NN Welt)) (\$-LRB- \") (\$-LRB- -) (NN LeserInnenReise)))'/>
+<markable id="markable_48" span="word_8..word_18" mmax_level="parse" orderid="3" tag="(Start (NX (ADJX (ADJA 23\.)) (NN Dezember)) (\$\. \:) (NX (PX (APPR Ab) (NX (ADJX (CARD 18)) (NN Uhr))) (NX (NX (NN Drei-Gänge-Menü)) (PX (APPR bei) (NX (ADJX (ADJA weihnachtlicher)) (NN Musik))))) (\$\. \.))"/>
+<markable id="markable_121" span="word_19..word_49" mmax_level="parse" orderid="4" tag="(Start (NX (ADJX (ADJA 24\.)) (NN Dezember)) (\$\. \:) (NX (ADJX (ADJA Weihnachtlicher)) (NN Kaffeenachmittag)) (\$\, \,) (SIMPX (VF (PX (APPR um) (NX (ADJX (CARD 15)) (NN Uhr)))) (VXVF (VVFIN kommt)) (MF (NX (ART der) (NN Weihnachtsmann)))) (\$-LRB- -LRB-) (SIMPX (VF (NX (NX (ADJX (ADJA kleine)) (NN Geschenke)) (\$\, \,) (R-SIMPX (C (NX (PRELS die))) (VXVI (VXVP (VVPP überreicht)) (VXAI (VAINF werden))) (VXMF (VMFIN sollen))))) (\$\, \,) (VXMF (VMFIN können)) (MF (PX (APPRART am) (NX (NN Vortag))) (PX (APPR an) (NX (ART der) (NN Rezeption)))) (VXVI (VXVP (VVPP abgegeben)) (VXAI (VAINF werden)))) (\$-LRB- -RRB-) (\$\. \.))"/>
+<markable id="markable_138" span="word_50..word_56" mmax_level="parse" orderid="5" tag='(Start (NX (NX (ADJX (CARD 19)) (NN Uhr)) (\$-LRB- \") (NX (ADJX (ADJA Mecklenburger)) (NN Weihnachtsbuffet))) (\$-LRB- \") (\$\. \.))'/>
+<markable id="markable_152" span="word_57..word_61" mmax_level="parse" orderid="6" tag="(Start (NX (ADJX (ADJA 25\.)) (NN Dezember)) (\$\. \:) (NX (NN Weihnachtsabend)) (\$\. \.))"/>
+<markable id="markable_172" span="word_62..word_69" mmax_level="parse" orderid="7" tag='(Start (NX (NX (NX (NN Fünf-Gänge-Menü)) (KON und) (\$-LRB- \") (NX (NN Tanz))) (PX (APPRART unterm) (NX (NN Weihnachtsbaum)))) (\$-LRB- \") (\$\. \.))'/>
+<markable id="markable_194" span="word_70..word_78" mmax_level="parse" orderid="8" tag="(Start (NX (ADJX (ADJA 26\.)) (NN Dezember)) (\$\. \:) (NX (ADVX (ADV Vormittags)) (NX (NX (NN Kegelturnier)) (KON oder) (NX (ADJX (ADJA weihnachtlicher)) (NN Frühschoppen)))) (\$\. \.))"/>
+<markable id="markable_223" span="word_79..word_90" mmax_level="parse" orderid="9" tag='(Start (PX (APPR Aus) (NX (NX (ART einer) (NN Anzeige)) (PX (APPR für) (NX (NX (ART eine) (NN LeserInnen-Reise)) (NX (ART der) (ADJX (ADJA links-radikalen)) (\$-LRB- \") (ADJX (ADJA Jungen)) (NN Welt)))))) (\$-LRB- \"))'/>
+</markables>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NN Massenkundgebung)) (PX (APPR gegen) (NX (NN Waffenlobby)))))"/>
+<markable id="markable_90" span="word_4..word_36" mmax_level="parse" orderid="2" tag="(Start (NX (NE Denver)) (\$-LRB- -LRB-) (NX (NE AP)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (PX (APPR Unter) (NX (NX (ART dem) (NN Eindruck)) (NX (NX (ART des) (NN Schul-Massakers)) (PX (APPR von) (NX (NE Littleton))))))) (VXAF (VAFIN haben)) (MF (PX (APPRART am) (NX (NN Samstag))) (NX (ADVX (ADV rund)) (ADJX (CARD 8\.000)) (NN Menschen)) (PX (APPR in) (NX (NE Denver))) (PX (APPR gegen) (NX (NX (ART die) (NN Jahrestagung)) (NX (NX (ART der) (NN US-Waffenlobby)) (NX (NX (NE National) (NE Rifle) (NE Association)) (\$-LRB- -LRB-) (NX (NE NRA))))))) (\$-LRB- -RRB-) (VXVP (VVPP demonstriert))) (\$\. \.))"/>
+<markable id="markable_143" span="word_37..word_57" mmax_level="parse" orderid="3" tag="(Start (SIMPX (SIMPX (VF (NX (NX (ART Das) (NN Programm)) (NX (NX (ART des) (ADJX (PX (APPR seit) (NX (NN langem))) (ADJA geplanten)) (NN Treffens)) (NX (ART der) (NN Vereinigung))))) (VXAF (VAFIN wurde)) (MF (PX (APPR angesichts) (NX (ART des) (NN Blutbads)))) (VXVP (VVPP reduziert))) (\$\, \,) (SIMPX (VF (NX (ART eine) (NN Verkaufsschau))) (VXAF (VAFIN wurde)) (MF (ADVX (ADV ganz))) (VXVP (VVPP abgesagt)))) (\$\. \.))"/>
+</markables>

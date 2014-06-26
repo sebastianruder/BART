@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_21" span="word_1..word_8" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NN Thema)) (ADVX (ADV heute))) (\$\. \:) (NX (NX (ADJX (ADJA Literarische)) (NN Einwanderung)) (PX (APPR nach) (NX (NE Deutschland)))) (\$\. \.))"/>
+<markable id="markable_48" span="word_9..word_19" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (PX (APPR Nach) (NX (NX (ART den) (NN Trubeln)) (NX (ART der) (NN Buchmesse))))) (VXAF (VAFIN ist)) (MF (NX (ADJX (ADJA ganz)) (NE Deutschland)) (ADJX (ADJD literarisch))) (VXVP (VVPP besetzt))) (\$\. \.))"/>
+<markable id="markable_54" span="word_20..word_21" mmax_level="parse" orderid="3" tag="(Start (ADVX (ADV Ganz)) (\$\. \?))"/>
+<markable id="markable_60" span="word_22..word_23" mmax_level="parse" orderid="4" tag="(Start (DM (PTKANT Nein)) (\$\. \!))"/>
+<markable id="markable_85" span="word_24..word_33" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (NX (ART Ein) (ADJX (ADJA kleiner)) (ADJX (ADJA literarischer)) (NN Ort)) (PX (APPR namens) (NX (NN Migrationsliteratur))))) (VXVF (VVFIN leistet)) (MF (ADJX (ADJD erbittert)) (NX (NN Widerstand)))) (\$\. \.))"/>
+<markable id="markable_96" span="word_34..word_37" mmax_level="parse" orderid="6" tag="(Start (SIMPX (VXVP (VVPP Zusammengestellt)) (NF (PX (APPR von) (NX (NE Zafer) (NE Senocak))))))"/>
+</markables>

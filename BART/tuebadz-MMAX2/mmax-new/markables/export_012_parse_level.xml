@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_12" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NN Brand)) (PX (APPR in) (NX (ADJX (ADJA Bremer)) (NN Wohnhaus)))))"/>
+<markable id="markable_61" span="word_5..word_24" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (PX (APPR Bei) (NX (NX (NX (ART einem) (NN Feuer)) (PX (APPR in) (NX (ART einem) (NN Wohnhaus)))) (PX (APPR in) (NX (NE Bremen)))))) (VXAF (VAFIN hat)) (MF (PX (APPR in) (NX (NX (ART der) (NN Nacht)) (PX (APPRART zum) (NX (NN Donnerstag))))) (NX (ART ein) (NN Mensch)) (NX (ART eine) (NN Rauchvergiftung))) (VXVP (VVPP erlitten))) (\$\. \.))"/>
+<markable id="markable_89" span="word_25..word_35" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (ART Der) (NN Schaden))) (VXVF (VVFIN beträgt)) (MF (PX (APPR nach) (NX (NX (NN Angaben)) (NX (ART der) (NN Feuerwehr)))) (NX (ADVX (ADV etwa)) (ADJX (CARD 300\.000)) (NN Mark)))) (\$\. \.))"/>
+<markable id="markable_128" span="word_36..word_50" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Das) (NN Feuer))) (VXAF (VAFIN hatte)) (MF (NX (PRF sich)) (PX (APPR gegen) (NX (ADJX (CARD 0\.40)) (NN Uhr))) (PX (APPRART im) (NX (NX (ADJX (ADJA dritten)) (NN Stock)) (NX (ART des) (ADJX (ADJA viergeschossigen)) (NN Hauses))))) (VXVP (VVPP entzündet))) (\$\. \.))"/>
+<markable id="markable_156" span="word_51..word_62" mmax_level="parse" orderid="5" tag="(Start (SIMPX (SIMPX (VF (NX (ART Die) (ADJX (ADJA gesamte)) (NN Wohnung))) (VXVF (VVFIN brannte)) (PTKVZ aus)) (\$\, \,) (SIMPX (VF (NX (ADJX (ADJA benachbarte)) (NN Wohnungen))) (VXAF (VAFIN wurden)) (MF (ADJX (ADJD erheblich))) (VXVP (VVPP beschädigt)))) (\$\. \.))"/>
+<markable id="markable_179" span="word_63..word_71" mmax_level="parse" orderid="6" tag="(Start (SIMPX (VF (NX (NX (ART Die) (NN Ursache)) (NX (ART des) (NN Feuers)))) (VXAF (VAFIN war)) (MF (ADVX (ADV zunächst)) (ADVX (ADV noch)) (ADJX (ADJD unklar)))) (\$\. \.))"/>
+<markable id="markable_184" span="word_72" mmax_level="parse" orderid="7" tag="(Start (NX (NE dpa)))"/>
+</markables>

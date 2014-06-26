@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (NX (PIAT Kein) (NN SPD-Fest)))"/>
+<markable id="markable_47" span="word_3..word_18" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (ART Die) (ADJX (ADJA Hamburger)) (NE SPD))) (VXVF (VVFIN beginnt)) (MF (NX (NX (NX (PPOSAT ihren) (NN Wahlkampf)) (PX (APPRART zur) (NX (NN Europa-Wahl)))) (\$-LRB- -LRB-) (NX (ADJX (ADJA 13\.)) (NN Juni))) (\$-LRB- -RRB-) (PX (APPR mit) (NX (ART einem) (NN Verzicht))))) (\$\. \.))"/>
+<markable id="markable_97" span="word_19..word_39" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (SIMPX (VF (PX (APPR Wegen) (NX (NX (ART des) (NN Krieges)) (PX (APPR auf) (NX (ART dem) (NE Balkan)))))) (VXAF (VAFIN werde)) (MF (NX (PPER es)) (NX (ART das) (ADJX (ADJA traditionelle)) (NN Fest)) (PX (APPR in) (NX (NE Altona))) (ADVX (PTKNEG nicht))) (VXVI (VVINF geben)))) (\$\, \,) (VXVF (VVFIN sagte)) (MF (NX (NX (NN Landeschef)) (NX (NE Jörg) (NE Kuhbier))))) (\$\. \.))"/>
+<markable id="markable_132" span="word_40..word_53" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (VXVP (VVPP Verzichtet))) (VXAF (VAFIN wird)) (MF (ADVX (ADV auch)) (PX (APPR auf) (NX (NX (NX (ART den) (NN Spendenaufruf)) (PX (APPR an) (NX (ART die) (NN Mitglieder)))) (PX (APPRART zur) (NX (NX (NN Finanzierung)) (NX (ART des) (NN Wahlkampfes)))))))) (\$\. \.))"/>
+<markable id="markable_169" span="word_54..word_68" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (PX (PROP Stattdessen))) (VXAF (VAFIN werden)) (MF (NX (ART die) (NN SPDler))) (VXVP (VVPP gebeten)) (\$\, \,) (NF (SIMPX (MF (PX (APPR für) (NX (NX (ART die) (NN Flüchtlingshilfe)) (NX (ART des) (NX (NX (NN Arbeiter)) (NN Samariter-Bundes)))))) (VXVZ (PTKZU zu) (VVINF spenden))))) (\$\. \.))"/>
+</markables>

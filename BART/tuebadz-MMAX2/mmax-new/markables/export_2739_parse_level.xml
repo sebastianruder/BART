@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Freimarktumzug)))"/>
+<markable id="markable_64" span="word_2..word_26" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (ADVX (ADV Morgen))) (FKOORD (FKONJ (VXVF (VVFIN zieht)) (MF (PX (APPR ab) (NX (CARD 11\.30))) (NX (ART der) (NN Freimarktsumzug)) (PX (APPR über) (NX (ART die) (NN Bürgermeister-Smidt-Brücke))) (PX (APPRART zum) (NX (NN Brill))))) (\$\, \,) (FKONJ (VXVF (VVFIN trifft)) (MF (ADVX (ADV dort)) (NX (NX (ART den) (NN Zug)) (PX (APPR aus) (NX (ART der) (NN Faulenstraße)))))) (KON und) (FKONJ (VXVF (VVFIN endet)) (MF (PX (APPR auf) (NX (ART der) (NN Bürgerweide))))))) (\$\. \.))"/>
+<markable id="markable_86" span="word_27..word_35" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (SIMPX (VF (NX (NN Autos))) (VXMF (VMFIN möchten)) (MF (ADVX (ADV woanders))) (VXVI (VVINF fahren)))) (\$\, \,) (VXVF (VVFIN bittet)) (MF (NX (ART die) (NN Polizei)))) (\$\. \.))"/>
+<markable id="markable_91" span="word_36" mmax_level="parse" orderid="4" tag="(Start (NX (NE taz)))"/>
+</markables>

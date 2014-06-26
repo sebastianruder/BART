@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Algerien)))"/>
+<markable id="markable_12" span="word_2..word_3" mmax_level="parse" orderid="2" tag="(Start (SIMPX (MF (NX (NN Journalistin))) (VXVP (VVPP ermordet))))"/>
+<markable id="markable_58" span="word_4..word_21" mmax_level="parse" orderid="3" tag="(Start (NX (NX (NE Algier)) (\$-LRB- \/) (NX (NE London))) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (PX (APPR In) (NX (NE Algier)))) (VXAF (VAFIN ist)) (MF (PX (APPRART am) (NX (NN Montag))) (ADVX (ADV erneut)) (NX (ART eine) (NN Journalistin))) (VXVP (VXVP (VVPP ermordet)) (VXAP (VAPP worden)))) (\$\. \.))"/>
+<markable id="markable_103" span="word_22..word_40" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (NX (NX (ART Die) (ADJX (ADJA 27jährige)) (NN Zeitungsredakteurin)) (NX (NE Saida) (NE Djebaili))) (KON und) (NX (PPOSAT ihr) (NN Chauffeur)))) (VXAF (VAFIN wurden)) (MF (PX (APPR bei) (NX (NX (ART einer) (NN Fahrt)) (PX (APPR durch) (NX (NX (ART den) (NN Stadtteil)) (NX (NE Cite) (NE Skassini))))))) (VXVP (VVPP erschossen))) (\$\. \.))"/>
+</markables>

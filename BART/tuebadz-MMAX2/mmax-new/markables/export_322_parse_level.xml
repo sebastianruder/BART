@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (NX (ART Ein) (NN Geldproblem)))"/>
+<markable id="markable_52" span="word_3..word_21" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (PX (APPRART Am) (NX (NX (ADJX (ADJA zweiten)) (NN Tag)) (NX (NX (ART des) (NN Tennis-Turniers)) (PX (APPRART am) (NX (NE Rothenbaum))))))) (VXVF (VVFIN sorgte)) (MF (NX (NX (NE Rainer) (NE Schüttler)) (\$-LRB- -LRB-) (NX (NE Bad) (NE Homburg))) (\$-LRB- -RRB-) (ADVX (ADV gestern)) (PX (APPR für) (NX (ART eine) (NN Überraschung))))) (\$\. \.))"/>
+<markable id="markable_83" span="word_22..word_34" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (ART Der) (NN Weltranglisten-59te))) (VXVF (VVFIN besiegte)) (MF (NX (NX (ART den) (ADJX (ADJA favorisierten)) (NN Kroaten)) (NX (NE Goran) (NE Ivanisevic))) (PX (APPR mit) (NX (NX (CARD 6\:1)) (KON und) (NX (CARD 6\:3)))))) (\$\. \.))"/>
+<markable id="markable_119" span="word_35..word_48" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (VXVP (VVPP Ausgeschieden))) (VXAF (VAFIN ist)) (MF (NX (NX (NE Lars) (NE Burgsmüller)) (PX (APPR aus) (NX (NE Essen))))) (\$\, \,) (NF (R-SIMPX (C (NX (PRELS der))) (MF (NX (NX (NE Nicolas) (NE Lapentti)) (PX (APPR aus) (NX (NE Ecuador))))) (VXVF (VVFIN unterlag))))) (\$\. \.))"/>
+<markable id="markable_152" span="word_49..word_62" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (NE Tommy) (NE Haas))) (VXVF (VVFIN forderte)) (MF (ADVX (ADV unterdessen))) (\$\, \,) (NF (SIMPX (VF (NX (NX (NN Spiele)) (PX (APPR für) (NX (ART das) (NN Daviscup-Team))))) (VXMF (VMFIN müßten)) (MF (ADJX (ADJD besser))) (VXVI (VXVP (VVPP entlohnt)) (VXAI (VAINF werden)))))) (\$\. \:))"/>
+<markable id="markable_170" span="word_63..word_69" mmax_level="parse" orderid="6" tag='(Start (\$-LRB- \") (SIMPX (VF (ADVX (ADV Sonst))) (VXVF (VVFIN gibt)) (MF (NX (PPER es)) (NX (NN Probleme)))) (\$-LRB- \") (\$\. \.))'/>
+</markables>

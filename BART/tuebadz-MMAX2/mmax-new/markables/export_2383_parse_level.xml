@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (NX (NE Europa)) (\$-LRB- \/) (NX (NN Atom)))"/>
+<markable id="markable_19" span="word_4..word_6" mmax_level="parse" orderid="2" tag="(Start (SIMPX (MF (ADJX (ADJD Fähig)) (PX (APPRART zum) (NX (NN Beschluß))))))"/>
+<markable id="markable_70" span="word_7..word_27" mmax_level="parse" orderid="3" tag="(Start (NX (NE Brüssel)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (ART Die) (ADJX (ADJA Europäische)) (NN Kommission))) (VXAF (VAFIN wird)) (MF (PX (APPRART am) (NX (NN Montag))) (PX (APPR zu) (NX (NX (ART den) (ADJX (ADJA französischen)) (NN Atomtests)) (PX (APPRART im) (NX (NN Südpazifik))))) (ADJX (ADJD offiziell)) (NX (NN Stellung))) (VXVI (VVINF nehmen))) (\$\. \.))"/>
+<markable id="markable_106" span="word_28..word_42" mmax_level="parse" orderid="4" tag='(Start (\$-LRB- \") (SIMPX (VF (NX (PPER Wir))) (VXAF (VAFIN haben)) (MF (ADVX (ADV gestern)) (NX (ADJX (ADJA weitere)) (NN Informationen)) (PX (APPR aus) (NX (NE Paris)))) (VXVP (VVPP bekommen))) (\$-LRB- \") (\$\, \,) (NX (ADVX (ADV so)) (NX (ART ein) (NN Sprecher))) (\$\. \.))'/>
+<markable id="markable_144" span="word_43..word_58" mmax_level="parse" orderid="5" tag='(Start (\$-LRB- \") (SIMPX (VF (NX (ART Die) (NN Kommission))) (VXAF (VAFIN ist)) (MF (ADVX (ADV nun)) (PX (APPR in) (NX (ART der) (NN Lage)))) (\$\, \,) (NF (SIMPX (MF (NX (ART einen) (ADJX (ADJA endgültigen)) (NN Beschluß))) (VXVZ (PTKZU zu) (VVINF fassen))))) (\$\. \.) (\$-LRB- \"))'/>
+<markable id="markable_159" span="word_59..word_63" mmax_level="parse" orderid="6" tag="(Start (SIMPX (VF (NX (NN Einzelheiten))) (VXVF (VVFIN nannte)) (MF (NX (PPER er)) (ADVX (PTKNEG nicht)))) (\$\. \.))"/>
+</markables>

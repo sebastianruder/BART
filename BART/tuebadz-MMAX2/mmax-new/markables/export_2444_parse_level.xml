@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_12" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (NX (NN Betr\.)) (\$\. \:) (NX (ADJX (ADJA Berliner)) (NN Bauboom)))"/>
+<markable id="markable_57" span="word_5..word_24" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (ART Die) (ADJX (ADJA gesamte)) (ADJX (ADJA Berliner)) (NE Mitte))) (VXAF (VAFIN ist)) (MF (NX (ART eine) (NN Baugrube)))) (\$\. \:) (SIMPX (VF (PX (PROP Dorthin))) (VXVF (VVFIN fließen)) (MF (PX (APPR in) (NX (ART den) (ADJX (ADJA kommenden)) (ADJX (CARD zehn)) (NN Jahren))) (NX (NX (ADVX (ADV rund)) (ADJX (CARD 20)) (NN Milliarden)) (NX (NN Mark))))) (\$\. \.))"/>
+<markable id="markable_100" span="word_25..word_42" mmax_level="parse" orderid="3" tag="(Start (SIMPX (SIMPX (VF (NX (ART Die) (NN Friedrichstraße))) (VXAF (VAFIN wird)) (MF (PX (APPR mit) (NX (ADJX (CARD 25)) (NN Bürokästen)))) (VXVP (VVPP zugebaut))) (\$\, \,) (SIMPX (VF (PX (APPRART am) (NX (NN Alexanderplatz)))) (VXMF (VMFIN sollen)) (MF (NX (ADJX (CARD 12)) (NN Hochhäuser)) (PX (APPR in) (NX (ART den) (NN Himmel)))) (VXVI (VVINF schießen)))) (\$\. \.))"/>
+<markable id="markable_119" span="word_43..word_50" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Die) (ADJX (ADJA größte)) (NN Baustelle))) (VXAF (VAFIN ist)) (MF (NX (ART der) (ADJX (ADJA Potsdamer)) (NN Platz)))) (\$\. \.))"/>
+<markable id="markable_139" span="word_51..word_58" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (ADVX (ADV Dort))) (VXVF (VVFIN betonieren)) (MF (NX (NX (NE Daimler-Benz)) (\$\, \,) (NX (NE Sony)) (KON und) (NX (NE ABB))))) (\$\. \.))"/>
+</markables>

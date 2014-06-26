@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NN Städte)) (PX (APPRART im) (NX (NN Gebührenvergleich)))))"/>
+<markable id="markable_17" span="word_4..word_5" mmax_level="parse" orderid="2" tag="(Start (NX (NE München)) (\$\. \:))"/>
+<markable id="markable_31" span="word_6..word_10" mmax_level="parse" orderid="3" tag="(Start (NX (NN Strom)) (\$\. \:) (NX (ADVX (ADV -)) (ADJX (CARD 10)) (NN \%)))"/>
+<markable id="markable_45" span="word_11..word_15" mmax_level="parse" orderid="4" tag="(Start (NX (NN Gas)) (\$\. \:) (NX (ADVX (ADV -)) (ADJX (CARD 4)) (NN \%)))"/>
+<markable id="markable_59" span="word_16..word_20" mmax_level="parse" orderid="5" tag="(Start (NX (NN Abwasser)) (\$\. \:) (NX (ADVX (ADV -)) (ADJX (CARD 10)) (NN \%)))"/>
+<markable id="markable_73" span="word_21..word_25" mmax_level="parse" orderid="6" tag="(Start (NX (NN Müll)) (\$\. \:) (NX (ADVX (ADV -)) (ADJX (CARD 10)) (NN \%)))"/>
+<markable id="markable_169" span="word_26..word_68" mmax_level="parse" orderid="7" tag="(Start (NX (CARD 1)) (\$-LRB- -RRB-) (\$\. \:) (SIMPX (MF (NX (NX (NN Rückgabe)) (NX (ART des) (NN Kohlepfennigs))) (ADVX (ADVX (ADV noch)) (PTKNEG nicht))) (VXVP (VVPP berücksichtigt))) (\$-LRB- \/) (NX (CARD 2)) (\$-LRB- -RRB-) (\$\. \:) (PX (APPR ab) (NX (NX (ADJX (ADJA 1\.)) (ADJX (ADJA 10\.))) (NX (CARD 95)))) (\$-LRB- \/) (NX (CARD 3)) (\$-LRB- -RRB-) (\$\. \:) (SIMPX (VF (NX (NN Senat))) (VXMF (VMFIN muß)) (MF (ADVX (ADV noch))) (VXVI (VVINF zustimmen))) (\$-LRB- \/) (NX (CARD 4)) (\$-LRB- -RRB-) (\$\. \:) (SIMPX (VF (NX (ADJX (CARD 870\.000)) (NN Haushalte))) (VXMF (VMFIN müssen)) (MF (NX (NX (ADVX (ADV je)) (ADJX (CARD zwei)) (NN Mark)) (PX (APPRART im) (NX (NN Monat)))) (PX (APPRART zur) (NX (NX (NN Sanierung)) (PX (APPR von) (NX (NN Altdeponien)))))) (VXVI (VVINF bezahlen))) (\$\. \.))"/>
+</markables>

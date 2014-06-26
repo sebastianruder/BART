@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Algerien)))"/>
+<markable id="markable_10" span="word_2" mmax_level="parse" orderid="2" tag="(Start (NX (NN Todesstatistik)))"/>
+<markable id="markable_60" span="word_3..word_22" mmax_level="parse" orderid="3" tag="(Start (NX (NE Algier)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (PX (NX (ART Einen) (NN Monat)) (APPR vor) (NX (NX (ART den) (ADJX (ADJA geplanten)) (NN Präsidentenwahlen)) (PX (APPR in) (NX (NE Algerien)))))) (VXVF (VVFIN gehen)) (MF (NX (NN Polizeieinheiten)) (ADJX (ADJD verstärkt)) (PX (APPR gegen) (NX (NN Fundamentalisten)))) (PTKVZ vor)) (\$\. \.))"/>
+<markable id="markable_102" span="word_23..word_40" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (SIMPX (VF (NX (ADJX (CARD 60)) (ADJX (ADJA mutmaßliche)) (NN Terroristen))) (VXAF (VAFIN seien)) (MF (PX (APPR in) (NX (ART der) (ADJX (ADJA vergangenen)) (NN Woche)))) (VXVP (VXVP (VVPP getötet)) (VXAP (VAPP worden))))) (\$\, \,) (VXVF (VVFIN meldete)) (MF (NX (NX (NN Radio)) (NX (NE Algier))) (PX (APPRART am) (NX (NX (NN Sonntag)) (ADVX (ADV abend)))))) (\$\. \.))"/>
+</markables>

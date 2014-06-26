@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN WISSENSCHAFT)))"/>
+<markable id="markable_17" span="word_2..word_5" mmax_level="parse" orderid="2" tag="(Start (NX (NX (ADJX (ADJA Neue)) (NN Studie)) (PX (APPRART zum) (NX (NN Rauchen)))))"/>
+<markable id="markable_73" span="word_6..word_29" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (SIMPX (C (NX (PWS Was))) (MF (NX (NE Columbus)) (PX (APPR vor) (NX (ADJX (CARD 500)) (NN Jahren))) (PX (APPR von) (NX (ART den) (NN Indianern))) (KomX (KOKOM als) (NX (NN Genußmittel))) (PX (APPR nach) (NX (NE Europa)))) (VXVF (VVFIN brachte)))) (\$\, \,) (VXAF (VAFIN ist)) (MF (ADVX (ADV längst)) (PX (APPRART zum) (NX (ADJX (ADJA schädlichen)) (NN Laster)))) (VXVP (VVPP degradiert)) (\$\. \:) (NF (NX (ART der) (NN Tabak)))) (\$\. \.))"/>
+<markable id="markable_108" span="word_30..word_44" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (NX (ART Eine) (ADJX (ADJA neue)) (NN Studie)) (NX (NX (ART des) (ADJX (ADJA britischen)) (NN Epidemiologen)) (NX (NE Richard) (NE Peto))))) (VXAF (VAFIN hat)) (MF (NX (PDAT dieses) (NN Risiko)) (ADVX (ADV jetzt)) (ADJX (ADJD exakt))) (VXVP (VVPP quantifiziert))) (\$\. \.))"/>
+<markable id="markable_144" span="word_45..word_59" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (PX (ADVX (ADV Noch)) (APPR in) (NX (PDAT diesem) (NN Jahrzehnt)))) (VXAF (VAFIN werden)) (MF (PX (APPR in) (NX (ART den) (NN Industrienationen))) (NX (NX (ADJX (CARD 21)) (NN Millionen)) (NX (NN Menschen))) (PX (APPRART am) (NX (NN Nikotinkonsum)))) (VXVI (VVINF sterben))) (\$\. \.))"/>
+<markable id="markable_151" span="word_60..word_61" mmax_level="parse" orderid="6" tag="(Start (NX (NX (NN SEITE)) (NX (CARD 11))))"/>
+</markables>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="Cp1252"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/response">
+<markable id="markable_41" span="word_1..word_5" coref_set="set_8" min_ids="word_1" mmax_level="response" />
+<markable id="markable_14" span="word_3..word_5" coref_set="set_10" min_ids="word_3..word_5" mmax_level="response" />
+<markable id="markable_29" span="word_8" coref_set="set_9" min_ids="word_8" mmax_level="response" />
+<markable id="markable_57" span="word_11" coref_set="set_17" min_ids="word_11" mmax_level="response" />
+<markable id="markable_34" span="word_11..word_17" coref_set="set_17" dir_antecedent="markable_57" min_ids="word_11..word_13" mmax_level="response" />
+<markable id="markable_18" span="word_16..word_17" coref_set="set_3" min_ids="word_16..word_17" mmax_level="response" />
+<markable id="markable_24" span="word_22..word_25" coref_set="set_13" min_ids="word_22..word_23" mmax_level="response" />
+<markable id="markable_60" span="word_24..word_25" coref_set="set_13" dir_antecedent="markable_24" min_ids="word_24..word_25" mmax_level="response" />
+<markable id="markable_5" span="word_26" coref_set="set_0" min_ids="word_26" mmax_level="response" />
+<markable id="markable_61" span="word_30" coref_set="set_10" dir_antecedent="markable_14" min_ids="word_30" mmax_level="response" />
+<markable id="markable_10" span="word_32..word_36" coref_set="set_4" min_ids="word_32..word_36" mmax_level="response" />
+<markable id="markable_33" span="word_44" coref_set="set_7" min_ids="word_44" mmax_level="response" />
+<markable id="markable_32" span="word_67" coref_set="set_7" dir_antecedent="markable_33" min_ids="word_67" mmax_level="response" />
+<markable id="markable_56" span="word_68" coref_set="set_19" min_ids="word_68" mmax_level="response" />
+<markable id="markable_22" span="word_70..word_77" coref_set="set_10" dir_antecedent="markable_61" min_ids="word_70..word_71" mmax_level="response" />
+<markable id="markable_13" span="word_89..word_90" coref_set="set_9" dir_antecedent="markable_29" min_ids="word_89..word_90" mmax_level="response" />
+<markable id="markable_46" span="word_93" coref_set="set_0" dir_antecedent="markable_5" min_ids="word_93" mmax_level="response" />
+<markable id="markable_58" span="word_97..word_98" coref_set="set_16" min_ids="word_97..word_98" mmax_level="response" />
+<markable id="markable_6" span="word_99" coref_set="set_1" min_ids="word_99" mmax_level="response" />
+<markable id="markable_2" span="word_106..word_107" coref_set="set_2" min_ids="word_106..word_107" mmax_level="response" />
+<markable id="markable_25" span="word_106..word_108" coref_set="set_2" dir_antecedent="markable_2" min_ids="word_106..word_108" mmax_level="response" />
+<markable id="markable_49" span="word_110" coref_set="set_19" dir_antecedent="markable_56" min_ids="word_110" mmax_level="response" />
+<markable id="markable_19" span="word_118" coref_set="set_7" dir_antecedent="markable_32" min_ids="word_118" mmax_level="response" />
+<markable id="markable_26" span="word_125..word_127" coref_set="set_10" dir_antecedent="markable_22" min_ids="word_125..word_127" mmax_level="response" />
+<markable id="markable_62" span="word_130" coref_set="set_20" min_ids="word_130" mmax_level="response" />
+<markable id="markable_31" span="word_136..word_137" coref_set="set_16" dir_antecedent="markable_58" min_ids="word_136..word_137" mmax_level="response" />
+<markable id="markable_11" span="word_142" coref_set="set_7" dir_antecedent="markable_19" min_ids="word_142" mmax_level="response" />
+<markable id="markable_52" span="word_149" coref_set="set_7" dir_antecedent="markable_11" min_ids="word_149" mmax_level="response" />
+<markable id="markable_47" span="word_154" coref_set="set_12" min_ids="word_154" mmax_level="response" />
+<markable id="markable_30" span="word_158..word_159" coref_set="set_10" dir_antecedent="markable_26" min_ids="word_158..word_159" mmax_level="response" />
+<markable id="markable_23" span="word_174" coref_set="set_0" dir_antecedent="markable_46" min_ids="word_174" mmax_level="response" />
+<markable id="markable_48" span="word_183..word_186" coref_set="set_10" dir_antecedent="markable_30" min_ids="word_183..word_186" mmax_level="response" />
+<markable id="markable_39" span="word_202" coref_set="set_0" dir_antecedent="markable_23" min_ids="word_202" mmax_level="response" />
+<markable id="markable_4" span="word_218..word_220" coref_set="set_4" dir_antecedent="markable_10" min_ids="word_218..word_220" mmax_level="response" />
+<markable id="markable_9" span="word_244" coref_set="set_7" dir_antecedent="markable_52" min_ids="word_244" mmax_level="response" />
+<markable id="markable_36" span="word_252" coref_set="set_7" dir_antecedent="markable_9" min_ids="word_252" mmax_level="response" />
+<markable id="markable_38" span="word_253..word_254" coref_set="set_10" dir_antecedent="markable_48" min_ids="word_253..word_254" mmax_level="response" />
+<markable id="markable_37" span="word_259" coref_set="set_7" dir_antecedent="markable_36" min_ids="word_259" mmax_level="response" />
+<markable id="markable_51" span="word_261" coref_set="set_19" dir_antecedent="markable_49" min_ids="word_261" mmax_level="response" />
+<markable id="markable_12" span="word_264..word_270" coref_set="set_8" dir_antecedent="markable_41" min_ids="word_264..word_265" mmax_level="response" />
+<markable id="markable_3" span="word_272..word_274" coref_set="set_3" dir_antecedent="markable_18" min_ids="word_272" mmax_level="response" />
+<markable id="markable_54" span="word_296" coref_set="set_12" dir_antecedent="markable_47" min_ids="word_296" mmax_level="response" />
+<markable id="markable_44" span="word_308" coref_set="set_18" min_ids="word_308" mmax_level="response" />
+<markable id="markable_50" span="word_342" coref_set="set_14" min_ids="word_342" mmax_level="response" />
+<markable id="markable_1" span="word_364" coref_set="set_0" dir_antecedent="markable_39" min_ids="word_364" mmax_level="response" />
+<markable id="markable_0" span="word_365" coref_set="set_1" dir_antecedent="markable_6" min_ids="word_365" mmax_level="response" />
+<markable id="markable_59" span="word_369" coref_set="set_20" dir_antecedent="markable_62" min_ids="word_369" mmax_level="response" />
+<markable id="markable_55" span="word_402" coref_set="set_3" dir_antecedent="markable_3" min_ids="word_402" mmax_level="response" />
+<markable id="markable_27" span="word_423" coref_set="set_14" dir_antecedent="markable_50" min_ids="word_423" mmax_level="response" />
+<markable id="markable_21" span="word_436" coref_set="set_3" dir_antecedent="markable_55" min_ids="word_436" mmax_level="response" />
+<markable id="markable_35" span="word_467" coref_set="set_18" dir_antecedent="markable_44" min_ids="word_467" mmax_level="response" />
+<markable id="markable_8" span="word_472" coref_set="set_6" min_ids="word_472" mmax_level="response" />
+<markable id="markable_20" span="word_473..word_475" coref_set="set_4" dir_antecedent="markable_4" min_ids="word_473..word_475" mmax_level="response" />
+<markable id="markable_40" span="word_477..word_479" coref_set="set_5" min_ids="word_477" mmax_level="response" />
+<markable id="markable_7" span="word_478..word_479" coref_set="set_5" dir_antecedent="markable_40" min_ids="word_478..word_479" mmax_level="response" />
+<markable id="markable_53" span="word_503" coref_set="set_6" dir_antecedent="markable_8" min_ids="word_503" mmax_level="response" />
+<markable id="markable_17" span="word_535" coref_set="set_12" dir_antecedent="markable_54" min_ids="word_535" mmax_level="response" />
+<markable id="markable_45" span="word_538" coref_set="set_15" min_ids="word_538" mmax_level="response" />
+<markable id="markable_28" span="word_538..word_539" coref_set="set_15" dir_antecedent="markable_45" min_ids="word_538..word_539" mmax_level="response" />
+<markable id="markable_42" span="word_542" coref_set="set_12" dir_antecedent="markable_17" min_ids="word_542" mmax_level="response" />
+<markable id="markable_15" span="word_560..word_561" coref_set="set_11" min_ids="word_560..word_561" mmax_level="response" />
+<markable id="markable_43" span="word_566..word_567" coref_set="set_11" dir_antecedent="markable_15" min_ids="word_566..word_567" mmax_level="response" />
+<markable id="markable_16" span="word_569..word_570" coref_set="set_9" dir_antecedent="markable_13" min_ids="word_569" mmax_level="response" />
+</markables>

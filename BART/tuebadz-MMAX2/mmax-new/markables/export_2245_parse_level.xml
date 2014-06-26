@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Rotlicht)))"/>
+<markable id="markable_15" span="word_2..word_4" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NE Beker)) (PX (APPR vor) (NX (NN Gericht)))))"/>
+<markable id="markable_80" span="word_5..word_32" mmax_level="parse" orderid="3" tag="(Start (NX (NX (NE Frankfurt)) (\$-LRB- \/) (NX (NE Main))) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (ART Der) (ADJX (ADJA einstige)) (ADJX (ADJA Frankfurter)) (NN Bordellkönig)) (\$\, \,) (NX (NE Hersch) (NE Beker)))) (\$\, \,) (VXVF (VVFIN steht)) (MF (PX (APPR wegen) (NX (NX (NN Steuerhinterziehung)) (\$\, \,) (NX (ADJX (ADJA illegalen)) (NN Glücksspiels)) (KON und) (NX (ADJX (ADJA versuchten)) (NN Betruges)))) (PX (APPR vor) (NX (ART dem) (NN Landgericht))))) (\$\. \.))"/>
+<markable id="markable_119" span="word_33..word_48" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Die) (NN Anklage))) (VXVF (VVFIN wirft)) (MF (NX (PPER ihm))) (PTKVZ vor) (\$\, \,) (NF (SIMPX (MF (PX (APPRART im) (NX (ADJX (ADJA Frankfurter)) (NN Bahnhofsviertel))) (NX (ADJX (CARD fünf)) (ADJX (ADJA illegale)) (NN Spielcasinos))) (VXVZ (VXVP (VVPP betrieben)) (VXAZ (PTKZU zu) (VAINF haben)))))) (\$\. \.))"/>
+<markable id="markable_152" span="word_49..word_61" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (ART Die) (NN Anklage))) (VXVF (VVFIN nimmt)) (MF (NX (NX (NN Steuerhinterziehung)) (PX (APPR in) (NX (NX (NN Höhe)) (PX (APPR von) (NX (NX (ADVX (ADV insgesamt)) (ADJX (CARD fünf)) (NN Millionen)) (NX (NN Mark)))))))) (PTKVZ an)) (\$\. \.))"/>
+</markables>

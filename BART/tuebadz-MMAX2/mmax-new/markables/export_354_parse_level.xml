@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN QUERTÖNER)))"/>
+<markable id="markable_10" span="word_2" mmax_level="parse" orderid="2" tag="(Start (NX (NN Zirpen)))"/>
+<markable id="markable_34" span="word_3..word_12" mmax_level="parse" orderid="3" tag="(Start (SIMPX (MF (ADJX (ADJD Fein))) (\$\, \,) (NF (SIMPX (C (KOUS daß)) (MF (NX (PRF sich)) (NX (NX (ART die) (NN Achse)) (NX (NE Hamburg-Köln))) (ADJX (ADJD langsam))) (VXVF (VVFIN festigt))))) (\$\. \.))"/>
+<markable id="markable_93" span="word_13..word_37" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (APPR Nach) (NX (NX (ART dem) (NN Auftritt)) (PX (APPR von) (NX (NE A) (NE Musik)))))) (VXVF (VVFIN kommt)) (MF (ADVX (ADV nun)) (PX (APPR mit) (NX (NE Michael) (NE Mayer))) (NX (NX (ART der) (NN Mitinhaber)) (NX (NX (ART des) (ADJX (ADJA Kölner)) (NX (NX (NN Plattenladen-)) (KON und) (NX (NN Label)))) (ADJX (ADJD Kompakt)))) (PX (APPR an) (NX (NX (ART die) (NN Decks)) (PX (APPRART im) (NX (NN Hafenklang))))))) (\$\. \.))"/>
+<markable id="markable_146" span="word_38..word_59" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (ADVX (ADV Zuletzt))) (VXVF (VVFIN machte)) (MF (NX (NX (NX (ART der) (NN Resident)) (NX (NX (ART des) (NN Studio)) (NX (CARD 672)))) (\$\, \,) (R-SIMPX (C (NX (PRELS der))) (MF (PX (APPR zwischen) (NX (NX (NN House)) (KON und) (NX (NN Techno))))) (VXVF (VVFIN changiert)))) (\$\, \,) (PX (APPR mit) (FX (FM Forever) (FM Sweet))) (PX (APPR von) (NX (PRF sich)))) (VXVI (VVINF reden))) (\$\. \.))"/>
+<markable id="markable_169" span="word_60..word_68" mmax_level="parse" orderid="6" tag="(Start (NX (NX (NX (NN Mi)) (\$\, \,) (NX (ADJX (ADJA 12\.)) (NN Mai))) (\$\, \,) (NX (ADJX (CARD 22)) (NN Uhr))) (\$\, \,) (NX (NN Hafenklang)))"/>
+</markables>

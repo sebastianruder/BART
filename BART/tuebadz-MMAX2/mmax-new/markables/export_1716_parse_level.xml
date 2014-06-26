@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_12" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (NX (NN Betr\.)) (\$\. \:) (NX (NE Istvan) (NE Eörsi)))"/>
+<markable id="markable_75" span="word_5..word_30" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (NE Istvan) (NE Eörsi)) (\$\, \,) (NX (ADJX (ADJA ungarischer)) (NX (NX (NN Dramatiker)) (KON und) (NX (NN Dichter)))))) (\$\, \,) (VXVF (VVFIN gehört)) (MF (PX (APPRART zum) (NX (NX (ADJX (ADJA linken)) (NN Flügel)) (NX (ART der) (ADJX (ADJA Freien)) (NN Demokraten))))) (\$\, \,) (NF (R-SIMPX (C (NX (PRELS die))) (MF (PX (APPRART im) (NX (NN Moment))) (PX (APPR mit) (NX (ART den) (NN Sozialisten))) (NX (ART die) (NN Regierung))) (VXVF (VVFIN bilden))))) (\$\. \.))"/>
+<markable id="markable_116" span="word_31..word_47" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NE Eörsi))) (FKOORD (FKONJ (VXAF (VAFIN war)) (MF (NX (NX (NN Assistent)) (PX (APPR von) (NX (NE Georg) (NE Lukacs)))))) (\$\, \,) (KON und) (FKONJ (VXAF (VAFIN war)) (MF (PX (APPR nach) (NX (NX (ART der) (NN Revolution)) (NX (CARD 1956)))) (ADJX (ADJD jahrelang)) (PX (APPRART im) (NX (NN Gefängnis))))))) (\$\. \.))"/>
+</markables>

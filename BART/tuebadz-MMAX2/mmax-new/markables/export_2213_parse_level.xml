@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (SIMPX (VF (NX (NE Kanada))) (MF (ADJX (ADJD präsent)))))"/>
+<markable id="markable_33" span="word_3..word_12" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NE Kanada))) (VXAF (VAFIN hat)) (MF (ADVX (ADV gestern)) (ADJX (ADJD offiziell)) (NX (ART ein) (NN Konsulat)) (PX (APPR in) (NX (NE Hamburg)))) (VXVP (VVPP eröffnet))) (\$\. \.))"/>
+<markable id="markable_63" span="word_13..word_24" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (PROP Damit))) (VXAF (VAFIN hat)) (MF (NX (ART die) (NN Hansestadt)) (NX (NX (PPOSAT ihre) (NN Stellung)) (KomX (KOKOM als) (NX (ADJX (ADJA weltgrößte)) (NN Konsulatsstadt)))) (ADVX (ADV weiter))) (VXVP (VVPP ausgebaut))) (\$\. \.))"/>
+<markable id="markable_98" span="word_25..word_39" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (SIMPX (VF (ADVX (ADV Insgesamt))) (VXAF (VAFIN sind)) (MF (ADVX (ADV nun)) (NX (ADJX (CARD 96)) (NN Ländervertretungen)) (PX (APPR an) (NX (ART der) (NE Elbe))) (ADJX (ADJD ansässig))))) (\$\, \,) (VXVF (VVFIN erklärte)) (MF (NX (ART die) (NN Senatsspressestelle)) (ADJX (ADJD stolz)))) (\$\. \.))"/>
+</markables>

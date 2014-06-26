@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (SIMPX (MF (NX (NN Arznei))) (VXVP (VVPP ausgestellt))))"/>
+<markable id="markable_57" span="word_3..word_24" mmax_level="parse" orderid="2" tag='(Start (SIMPX (VF (NX (NX (NX (ART Die) (ADJX (ADJA 1\.)) (NN Fachmesse)) (PX (APPR für) (NX (NX (NN Gesund-erhaltung)) (PX (APPR durch) (NX (NX (NN Nahrungsergänzung)) (KON und) (NX (NN Selbstmedikation))))))) (\$-LRB- \") (NX (NE OTC) (NE expo)))) (\$-LRB- \") (VXAF (VAFIN ist)) (MF (ADVX (ADV gestern)) (PX (APPR auf) (NX (ART dem) (ADJX (ADJA Hamburger)) (NN Messegelände)))) (VXVP (VXVP (VVPP eröffnet)) (VXAP (VAPP worden)))) (\$\. \.))'/>
+<markable id="markable_120" span="word_25..word_49" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (ADJX (CARD 48)) (NN Unternehmen))) (VXVF (VVFIN zeigen)) (MF (PX (APPR bis) (NX (NN Sonntag))) (NX (NX (PPOSAT ihre) (NN Angebote)) (PX (APPRART im) (NX (NX (NN Bereich)) (NX (NX (NX (NN Prophylaxe)) (KON und) (NX (NN Selbstmedikation))) (\$\, \,) (NX (NX (NN Nahrungsergänzung)) (\$\, \,) (NX (NN Kosmetik)) (\$\, \,) (NX (NN Körperpflege)) (\$\, \,) (NX (NN Diagnostika)) (\$\, \,) (NX (NN Rohstoffe)) (KON und) (NX (NN Literatur))))))))) (\$\. \.))"/>
+<markable id="markable_151" span="word_50..word_62" mmax_level="parse" orderid="4" tag='(Start (SIMPX (VF (NX (ART Eine) (NN Ausstellung))) (VXVF (VVFIN zeigt)) (\$-LRB- \") (MF (NX (NX (NN Phytopharmaka)) (\$-LRB- -) (NX (NX (ADJX (ADJA Heilende)) (NN Kräuter)) (PX (APPR in) (NX (ADJX (ADJA modernen)) (NN Arzneimitteln))))))) (\$-LRB- \") (\$\. \.))'/>
+</markables>

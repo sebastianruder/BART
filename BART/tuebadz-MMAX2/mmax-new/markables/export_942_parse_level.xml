@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_12" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (NX (NN Betr\.)) (\$\. \:) (NX (NE Jürgen) (NE Gottschlich)))"/>
+<markable id="markable_40" span="word_5..word_15" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NE Jürgen) (NE Gottschlich))) (VXVF (VVFIN lebt)) (MF (ADVX (ADV derzeit)) (KomX (KOKOM als) (NX (NX (NN Korrespondent)) (NX (ART der) (NE taz)))) (PX (APPR in) (NX (NE Istanbul))))) (\$\. \.))"/>
+<markable id="markable_78" span="word_16..word_30" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (PPER Er))) (FKOORD (FKONJ (VXVF (VVFIN gehörte)) (MF (NX (CARD 1979)) (PX (APPR zu) (NX (NX (ART den) (NN Gründern)) (NX (ART der) (NE taz)))))) (KON und) (FKONJ (VXAF (VAFIN war)) (MF (PX (APPR in) (NX (ART den) (NN 90ern))) (NX (NN Chefredakteur)))))) (\$\. \.))"/>
+<markable id="markable_118" span="word_31..word_48" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (APPRART Zur) (NX (NE Nato)))) (VXVF (VVFIN schrieben)) (MF (ADVX (ADV bisher)) (NX (NX (NE Wolfgang) (NE Bruckmann)) (\$-LRB- -LRB-) (NX (ADJX (ADJA 29\.)) (ADJX (ADJA 4\.))) (\$-LRB- -RRB-) (KON und) (NX (NE Reinhard) (NE Mutz))))) (\$-LRB- -LRB-) (NX (ADJX (ADJA 23\.)) (ADJX (ADJA 4\.))) (\$-LRB- -RRB-) (\$\. \.))"/>
+</markables>

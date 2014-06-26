@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_4" span="word_1" mmax_level="parse" orderid="1" tag="(Start (ADVX (ADV QUERBEET)))"/>
+<markable id="markable_9" span="word_2" mmax_level="parse" orderid="2" tag="(Start (NX (NN Solo)))"/>
+<markable id="markable_32" span="word_3..word_11" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (PWS Wer))) (VXVF (VVFIN zahlt)) (MF (ADVX (ADV eigentlich)) (NX (NX (PPOSAT meinen) (ADJX (ADJA wohlverdienten)) (NN Lebensabend)) (PX (APPR auf) (NX (NE Mallorca)))))) (\$\. \?))"/>
+<markable id="markable_54" span="word_12..word_19" mmax_level="parse" orderid="4" tag="(Start (NX (NX (ART Eine) (NN Frage)) (\$\, \,) (R-SIMPX (C (NX (PRELS die))) (MF (NX (NX (PPER uns)) (NX (PIS alle)))) (VXVF (VVFIN interessiert)))) (\$\. \.))"/>
+<markable id="markable_95" span="word_20..word_36" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (PIDAT Solchen) (ADJX (ADJA essentiellen)) (NN Wahrheiten))) (VXAF (VAFIN ist)) (MF (ADVX (ADV auch)) (NX (NX (ART der) (NN Kabarettist)) (NX (NE Achim) (NE Konejung))) (PX (APPR in) (NX (NX (NN Feuer)) (PX (APPRART unterm) (NX (NN Arsch))))) (PX (APPR auf) (NX (ART der) (NN Spur))))) (\$\. \.))"/>
+<markable id="markable_128" span="word_37..word_50" mmax_level="parse" orderid="6" tag="(Start (NX (NX (NX (NN Di)) (\$\, \,) (NX (ADJX (ADJA 11\.)) (NN Mai))) (\$\, \,) (NX (ADJX (CARD 20)) (NN Uhr))) (\$\, \,) (NX (NX (NX (NE Alma) (NE Hoppes)) (NN Lustspielhaus)) (\$\, \,) (NX (NX (NN Ludolfstraße)) (NX (CARD 53)))))"/>
+</markables>

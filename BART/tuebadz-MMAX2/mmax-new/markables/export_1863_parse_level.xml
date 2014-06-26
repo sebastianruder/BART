@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_4" span="word_1" mmax_level="parse" orderid="1" tag="(Start (VXINF (VVPP Gestorben)))"/>
+<markable id="markable_46" span="word_2..word_19" mmax_level="parse" orderid="2" tag='(Start (SIMPX (VF (NX (NE Sture) (\$-LRB- \") (NE Jan) (\$-LRB- \") (NE Salomon))) (VXAF (VAFIN ist)) (MF (PX (APPRART am) (NX (ADJX (ADJA vergangenen)) (NN Montag))) (PX (APPR in) (NX (NX (ART einem) (NN Hotel)) (PX (APPR in) (NX (NE Florida))))) (ADJX (ADJD tot))) (VXVP (VXVP (VVPP aufgefunden)) (VXAP (VAPP worden)))) (\$\. \.))'/>
+<markable id="markable_72" span="word_20..word_29" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NX (ART Der) (ADJX (ADJA langjährige)) (NN Geschäftsführer)) (NX (ART des) (NN Schmidt-Theaters)))) (VXVF (VVFIN erlag)) (MF (ADVX (ADV vermutlich)) (NX (ART einem) (NN Herzinfarkt)))) (\$\. \.))"/>
+<markable id="markable_122" span="word_30..word_50" mmax_level="parse" orderid="4" tag="(Start (SIMPX (SIMPX (VF (NX (NX (PPOSAT Sein) (ADJX (PX (APPRART am) (NX (ADJX (ADJA 8\.)) (NN September))) (ADJA eröffnetes)) (NN Erlebnislokal)) (NX (NE Luna)))) (VXAF (VAFIN war)) (MF (PX (APPR nach) (NX (ADVX (ADV nur)) (ADJX (CARD vier)) (NN Wochen))) (ADVX (ADV wieder))) (VXVP (VXVP (VVPP geschlossen)) (VXAP (VAPP worden)))) (\$\, \,) (SIMPX (VF (NX (NE Salomon))) (VXAF (VAFIN war)) (MF (PX (PROP seitdem))) (VXVP (VVPP verschwunden)))) (\$\. \.))"/>
+</markables>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE MediaBazaar)))"/>
+<markable id="markable_12" span="word_2..word_3" mmax_level="parse" orderid="2" tag="(Start (NX (ADJX (ADJA Weise)) (NN Entscheidung)))"/>
+<markable id="markable_100" span="word_4..word_40" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NX (NN Topmodel)) (NX (NE Claudia) (NE Schiffer)))) (VXAF (VAFIN wird)) (MF (PX (APPR bei) (NX (NE RTL2))) (KomX (KOKOM als) (NX (NN Talkmasterin))) (ADVX (ADV vorerst)) (ADVX (ADV doch)) (ADVX (ADV nur)) (NX (ART ein) (ADJX (ADJA einziges)) (NN Mal))) (VXVI (VXVZ (PTKZU zu) (VVINF sehen)) (VXAI (VAINF sein)))) (\$\. \:) (SIMPX (SIMPX (VF (ADJX (ADJD Ursprünglich))) (VXMF (VMFIN sollte)) (MF (NX (ART die) (NN Schiffer)) (NX (ADJX (CARD zwölf)) (NN Prominente)) (PX (APPR für) (NX (PPOSAT ihre) (NN TV-Talkshow)))) (VXVI (VVINF interviewen))) (\$\, \,) (SIMPX (VF (ADVX (ADV jetzt))) (VXVF (VVFIN läßt)) (MF (NX (PPER sie)) (NX (PPER es)) (PX (APPR bei) (NX (CARD dreien)))) (VXVI (VVINF bewenden)))) (\$\. \.))"/>
+<markable id="markable_114" span="word_41..word_46" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VXAF (VAFIN Ist)) (MF (ADVX (ADV wohl)) (ADVX (ADV auch)) (ADJX (ADJD besser))) (NF (ADVX (ADV so)))) (\$\. \!))"/>
+</markables>

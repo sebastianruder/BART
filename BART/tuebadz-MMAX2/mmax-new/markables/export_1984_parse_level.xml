@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_4" span="word_1" mmax_level="parse" orderid="1" tag="(Start (ADVX (ADV Morgen)))"/>
+<markable id="markable_64" span="word_2..word_26" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NN Endspurt)) (PX (APPRART beim) (NX (NX (NN Wahlkampf)) (PX (APPR um) (NX (NX (ART die) (NN Präsidentschaft)) (PX (APPR in) (NX (NE Polen)))))))) (\$\. \:) (SIMPX (VF (PX (APPR Außer) (NX (NX (NE Aleksander) (NE Kwasniewski)) (\$\, \,) (NX (NX (ART dem) (ADJX (ADJA schärfsten)) (NN Konkurrenten)) (NX (NE Walesas)))))) (\$\, \,) (VXVF (VVFIN kommen)) (MF (NX (NX (ART eine) (NN Reihe)) (NX (ADJX (ADJA skurriler)) (NN Kandidaten)))) (PTKVZ daher)) (\$\. \.))"/>
+</markables>
