@@ -61,9 +61,9 @@ public class SieveDecoder implements CorefResolver {
 		    	
 		    	sieve = _factory.createSieve(walk_through, mentions);		    	
 	    		int ante_idx = sieve.runSieve(mentions.get(i));
-	    		System.out.println(mentions.get(i)._highestProjection);
-	    		System.out.println(mentions.get(i)._premodifiers);
-    			System.out.println(mentions.get(i)._postmodifiers);
+	    		System.out.println("Highest Projection: " + mentions.get(i)._highestProjection);
+	    		System.out.println("Premods: " + mentions.get(i)._premodifiers);
+    			System.out.println("Postmods: " + mentions.get(i)._postmodifiers);
 	    		
 	    		if (ante_idx == -1) {
 	    			System.out.println(String.format("#%d: No match found: %s", i, mentions.get(i).toString()));
@@ -71,8 +71,6 @@ public class SieveDecoder implements CorefResolver {
 	    		else {
 	    			System.out.println(String.format("#%d: Antecedent of '%s': '%s' with sieve nr %d",
 		    				i, mentions.get(i).toString(), mentions.get(ante_idx).toString(), walk_through));
-	    			System.out.println(mentions.get(i)._premodifiers);
-	    			System.out.println(mentions.get(i)._postmodifiers);
 	    			/*
 	    			PairInstance instance = new PairInstance(mentions.get(i), mentions.get(ante_idx));
 	    			if (instance.getFeature(PairInstance.FD_POSITIVE) == true) {
@@ -125,5 +123,5 @@ public class SieveDecoder implements CorefResolver {
     public void printStatistics() {
         _scorer.displayResultsShort();
     }
-	
+    
 }
