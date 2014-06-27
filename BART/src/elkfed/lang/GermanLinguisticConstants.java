@@ -28,6 +28,9 @@ public class GermanLinguisticConstants extends LinguisticConstants
     /** A leading article */
     public static final String LEADING_ARTICLE =
         new StringBuffer().append("^").append(ARTICLE).toString();
+    
+    /** Relative pronoun regexp */
+    public static final String RELATIVE_PRONOUN = "(der|die|das|dessen|deren|dessen|dem|den|denen|welcher|welche|welches)";
  
     /** The STTS labels for common noun */
     public static final String COMMON_NOUN_POS = "NN"; 
