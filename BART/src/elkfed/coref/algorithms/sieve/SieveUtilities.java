@@ -6,14 +6,20 @@ import static elkfed.lang.EnglishLinguisticConstants.FIRST_PERSON_SG_PRO;
 import static elkfed.lang.EnglishLinguisticConstants.MALE_PRONOUN_ADJ;
 import static elkfed.lang.EnglishLinguisticConstants.RELATIVE_PRONOUN;
 import static elkfed.lang.EnglishLinguisticConstants.SECOND_PERSON_PRO;
+import static elkfed.mmax.MarkableLevels.DEFAULT_MARKABLE_LEVEL;
+
+import java.util.List;
+
 import elkfed.config.ConfigProperties;
 import elkfed.coref.PairInstance;
 import elkfed.coref.features.pairs.FE_AppositiveParse;
 import elkfed.coref.features.pairs.FE_Copula;
+import elkfed.coref.features.pairs.FE_DistanceWord;
 import elkfed.coref.mentions.Mention;
 import elkfed.knowledge.SemanticClass;
 import elkfed.lang.LanguagePlugin;
 import elkfed.lang.LanguagePlugin.TableName;
+import elkfed.mmax.minidisc.Markable;
 
 /**
  * Utilitiy class for sieves
@@ -39,6 +45,7 @@ public class SieveUtilities {
 		 * there is also FE_Appositive.getAppositive(pair)
 		 */
 		if (FE_AppositiveParse.getAppositivePrs(pair)) {
+			System.out.println("APPOSITIVE");
 			return true;
 		}
 		return false;
@@ -46,6 +53,7 @@ public class SieveUtilities {
 
 	boolean isPredicateNominative(PairInstance pair) {
 		if (FE_Copula.getCopula(pair)){
+			System.out.println("PREDICATE NOMINATIVE");
 			return true;
 		}
 		return false;
@@ -59,6 +67,7 @@ public class SieveUtilities {
 		if (pair.getAnaphor().getProperName() && // check if person
 				isAnimate(pair.getAntecedent()) && // check if animate 
 				!isNeutral(pair.getAntecedent())) { // check if neutral
+			System.out.println("ROLE APPOSITIVE");
 			return true;
 		}
 		return false;
@@ -79,26 +88,31 @@ public class SieveUtilities {
 			if (t.matches(MALE_PRONOUN_ADJ) || t.matches(FEMALE_PRONOUN_ADJ) ||
 					t.matches(FIRST_PERSON_SG_PRO) || t.matches(FIRST_PERSON_PL_PRO) ||
 					t.matches(SECOND_PERSON_PRO)) {
+				System.out.println("MENTION IS ANIMATE (PRONOUN)");
 				return true;
 			}
 		}
 		// (b) check with NER labels
 		if (SemanticClass.isaPerson(mention.getSemanticClass())) {
+			System.out.println("MENTION IS ANIMATE (NER)");
 			return true;
 		}
 		else if (SemanticClass.isaObject(mention.getSemanticClass()) ||
 				SemanticClass.isaNumeric(mention.getSemanticClass())) {
+			System.out.println("MENTION IS INANIMATE (NER)");
 			return false;
 		}
-		// (c) check with bootstrapped dictionary
+		// (c) check with animate and inanimate lists
 		for (int i = 0; i < tokens.length; i++) {
 			/* at the moment, one token suffices to be animate or inanimate to
 			 * arrive at a decision; maybe only consider the head word? 
 			 */
 			if (langPlugin.isInAnimateList(tokens[i])) {
+				System.out.println("MENTION IS ANIMATE (LIST)");
 				return true;
 			}
 			else if (langPlugin.isInInanimateList(tokens[i])) {
+				System.out.println("MENTION IS INANIMATE (LIST)");
 				return false;
 			}
 		}		
@@ -116,9 +130,11 @@ public class SieveUtilities {
 			String t = tokens[i];
 			// same comment as loop above
 			if (langPlugin.isInNeutralList(t)) {
+				System.out.println("MENTION IS NEUTRAL (LIST)");
 				return true;
 			}
 			else if (langPlugin.isInMaleList(t) || langPlugin.isInFemaleList(t)) {
+				System.out.println("MENTION IS NOT NEUTRAL (LIST)");
 				return false;
 			}
 		}
@@ -127,10 +143,14 @@ public class SieveUtilities {
 
 	boolean isRelativePronoun(PairInstance pair) {
 		
+		FE_DistanceWord dw = new FE_DistanceWord();
+		
 		String[] tokens = pair.getAnaphor().getMarkable().getDiscourseElements();
 		if (tokens.length == 1 && tokens[0].matches(RELATIVE_PRONOUN)) {
-			// check if modifies head of antecedent NP
-			// still needs to be implemented
+			if (dw.getWordDist(pair) < 2) {
+				System.out.println("RELATIVE PRONOUN");
+				return true;	
+			}
 		}
 		return false;
 	}
@@ -174,6 +194,7 @@ public class SieveUtilities {
 		
 		if ((mention_lookup != null && mention_lookup.equals(antecedent)) ||
 				(antecedent_lookup != null && antecedent_lookup.equals(mention))) {
+			System.out.println("DEMONYM");
 			return true;
 		}
 		return false;		
