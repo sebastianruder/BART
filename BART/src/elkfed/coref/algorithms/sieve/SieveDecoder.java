@@ -44,10 +44,10 @@ public class SieveDecoder implements CorefResolver {
                 mentions.size()));        
         
         // counts number of walk_throughs
-        for (int walk_through = 0; walk_through < 11; walk_through++) {
+        for (int walk_through = 1; walk_through < 11; walk_through++) {
         	
-        	// skips other sieves; should be changed when new sieves are implemented
-        	if (walk_through != 5 && walk_through != 2) {
+        	// PronounMatchSieve doesn't work yet
+        	if (walk_through == 10) {
         		continue;
         	}
         	
@@ -61,17 +61,19 @@ public class SieveDecoder implements CorefResolver {
 		    	
 		    	sieve = _factory.createSieve(walk_through, mentions);		    	
 	    		int ante_idx = sieve.runSieve(mentions.get(i));
-	    		System.out.println("Highest Projection: " + mentions.get(i)._highestProjection);
 	    		System.out.println("Premods: " + mentions.get(i)._premodifiers);
     			System.out.println("Postmods: " + mentions.get(i)._postmodifiers);
+	    		System.out.println("Highest Projection Mention: " + mentions.get(i)._highestProjection);
 	    		
 	    		if (ante_idx == -1) {
 	    			System.out.println(String.format("#%d: No match found: %s", i, mentions.get(i).toString()));
 	    		}
 	    		else {
-	    			System.out.println(String.format("#%d: Antecedent of '%s': '%s' with sieve nr %d",
+	    			System.out.println("Highest Projection Antecedent: " + mentions.get(ante_idx)._highestProjection);
+	    			System.out.println(String.format("#%d: Antecedent of '%s': '%s' with Sieve #%d",
 		    				i, mentions.get(i).toString(), mentions.get(ante_idx).toString(), walk_through));
 	    			/*
+	    			 * For evaluation: figure out how validation works (maybe ask Yannick)
 	    			PairInstance instance = new PairInstance(mentions.get(i), mentions.get(ante_idx));
 	    			if (instance.getFeature(PairInstance.FD_POSITIVE) == true) {
                         System.out.println("True positive!");
@@ -79,17 +81,15 @@ public class SieveDecoder implements CorefResolver {
 		            */
 	    		}
 	    		
-		    	if (ante_idx==-1)
-		        {
+		    	if (ante_idx==-1) {
 		           _scorer.scoreNonlink(mentions,i); 
 		        }
-		        else
-		        {
+		    	else {
 		            numLinks++;
 		            mention_clusters.union(mentions.get(i),mentions.get(ante_idx));
 		            antecedents.put(mentions.get(i), mentions.get(ante_idx));
 		            
-		            if (!(mentions.get(i).getDiscourseEntity() == mentions.get(ante_idx).getDiscourseEntity())){
+		            if (!(mentions.get(i).getDiscourseEntity() == mentions.get(ante_idx).getDiscourseEntity())) {
 		            	//need better solution to stop merging of already merged entities
 		            	mentions.get(i).linkToAntecedent(mentions.get(ante_idx));
 		            }
@@ -102,7 +102,6 @@ public class SieveDecoder implements CorefResolver {
 		            }
 		            System.out.println(String.format("Discourse ID: %d\nHeads: %s\nWords: %s", 
 		            								 d.getID(), d.getHeadsString(), d.getWordsString()));
-		            
 		            
 		            _scorer.scoreLink(mentions, ante_idx, i);
 		            if (_logger.isLoggable(Level.FINE)) {
