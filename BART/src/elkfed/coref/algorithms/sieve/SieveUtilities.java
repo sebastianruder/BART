@@ -64,9 +64,13 @@ public class SieveUtilities {
 		 * there is FE_AnimacyAgree
 		 * FE_AnimacyAgree() doesn't seem to be implemented, though
 		 */
+		FE_DistanceWord dw = new FE_DistanceWord();
+		
 		if (pair.getAnaphor().getProperName() && // check if person
 				isAnimate(pair.getAntecedent()) && // check if animate 
-				!isNeutral(pair.getAntecedent())) { // check if neutral
+				!isNeutral(pair.getAntecedent()) && // check if neutral
+				dw.getWordDist(pair) < 2) { // checks word distance
+			// how to check that one is modifying the other?
 			System.out.println("ROLE APPOSITIVE");
 			return true;
 		}
@@ -88,18 +92,15 @@ public class SieveUtilities {
 			if (t.matches(MALE_PRONOUN_ADJ) || t.matches(FEMALE_PRONOUN_ADJ) ||
 					t.matches(FIRST_PERSON_SG_PRO) || t.matches(FIRST_PERSON_PL_PRO) ||
 					t.matches(SECOND_PERSON_PRO)) {
-				System.out.println("MENTION IS ANIMATE (PRONOUN)");
 				return true;
 			}
 		}
 		// (b) check with NER labels
 		if (SemanticClass.isaPerson(mention.getSemanticClass())) {
-			System.out.println("MENTION IS ANIMATE (NER)");
 			return true;
 		}
 		else if (SemanticClass.isaObject(mention.getSemanticClass()) ||
 				SemanticClass.isaNumeric(mention.getSemanticClass())) {
-			System.out.println("MENTION IS INANIMATE (NER)");
 			return false;
 		}
 		// (c) check with animate and inanimate lists
@@ -108,11 +109,9 @@ public class SieveUtilities {
 			 * arrive at a decision; maybe only consider the head word? 
 			 */
 			if (langPlugin.isInAnimateList(tokens[i])) {
-				System.out.println("MENTION IS ANIMATE (LIST)");
 				return true;
 			}
 			else if (langPlugin.isInInanimateList(tokens[i])) {
-				System.out.println("MENTION IS INANIMATE (LIST)");
 				return false;
 			}
 		}		
@@ -130,11 +129,9 @@ public class SieveUtilities {
 			String t = tokens[i];
 			// same comment as loop above
 			if (langPlugin.isInNeutralList(t)) {
-				System.out.println("MENTION IS NEUTRAL (LIST)");
 				return true;
 			}
 			else if (langPlugin.isInMaleList(t) || langPlugin.isInFemaleList(t)) {
-				System.out.println("MENTION IS NOT NEUTRAL (LIST)");
 				return false;
 			}
 		}
@@ -175,6 +172,7 @@ public class SieveUtilities {
 				initials += word.substring(0,1).toUpperCase();
 			}
 			if (acronym.equals(initials)) {
+				System.out.println("ACRONYM");
 				return true;
 			}
 		}
