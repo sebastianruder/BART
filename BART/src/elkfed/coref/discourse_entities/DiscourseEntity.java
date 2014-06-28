@@ -52,6 +52,7 @@ public class DiscourseEntity {
 	private List<Mention> mentions;
     private Set<String> words;
     private Set<String> heads;
+    private Set<Tree> modifiers;
    
 	public DiscourseEntity(Mention m) {
 		ID = nextID;
@@ -62,8 +63,15 @@ public class DiscourseEntity {
 		addWords(m);
 		heads = new HashSet<String>();
 		heads.add(m.getHeadString());
+		modifiers = new HashSet<Tree>();
+				
+		modifiers.addAll(m._premodifiers);		
+		modifiers.addAll(m._postmodifiers);
 		
-	}
+			
+		
+	}	
+
 	
 	public List<Mention> getMentions() {
 		return mentions;
@@ -85,10 +93,13 @@ public class DiscourseEntity {
 			m.setDiscourseEntity(this);
 			addWords(m);
 		}
-		for (String head: deAnte.getHeads() ) {
-			heads.add(head);
-		}
+		words.addAll(deAnte.getWords());		
+		modifiers.addAll(deAnte.getModifiers());
 		
+	}
+	
+	public Set<Tree> getModifiers() {
+		return modifiers;
 	}
 	
 	public String getWordsString() {
