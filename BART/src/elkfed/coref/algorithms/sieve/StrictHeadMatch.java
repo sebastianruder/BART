@@ -7,6 +7,8 @@ import java.util.Set;
  */
 
 
+
+import edu.stanford.nlp.trees.Tree;
 /*
  * ToDo:  Proper WordInclusion with removed StopWords, modificator match,  i within i
  */
@@ -23,22 +25,30 @@ public abstract class StrictHeadMatch extends Sieve {
 			if (entityHeads.contains(headAnte)) {
 				return true;
 			}
-		}
+		}		
 		return false;		
 	}
 	public boolean wordInclusion(Mention m, Mention ante) {
 		//wordInclusion
-		DiscourseEntity d = m.getDiscourseEntity();
-		DiscourseEntity dAnte = ante.getDiscourseEntity();
-		Set<String> anteWords = dAnte.getWords();
-		for ( String word : d.getWords()) {
-			if (!(anteWords.contains(word))) {
-				return false;
-			}
+		Set<String> dWords = m.getDiscourseEntity().getWords();
+		Set<String> dAnteWords = ante.getDiscourseEntity().getWords();
+		
+		if (dAnteWords.containsAll(dWords)) {			
+			return true;
 		}
 		
-		return true;
+		return false;
 		
+	}
+	
+	public boolean compatibleModifiers(Mention m, Mention ante) {
+		Set<Tree> dMod = m.getDiscourseEntity().getModifiers();
+		Set<Tree> dAnteMod = ante.getDiscourseEntity().getModifiers();
+		
+		if (dAnteMod.containsAll(dAnteMod)) {
+			return true;
+		}
+		return false;
 	}
 	
 	

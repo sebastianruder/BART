@@ -31,11 +31,13 @@ public int runSieve(Mention mention){
 			
 			if (entityHeadMatch(mention, potAnte)) {
 				//wordInclusion doesn't work as it should
-				//if(wordInclusion(mention, potAnte)) {
-				//	ante_idx = idx;					
-				//}
-				//missing: i within i, modificator macth
-				ante_idx = idx;
+				if(wordInclusion(mention, potAnte)) {
+					if (compatibleModifiers(mention, potAnte)) {
+						ante_idx = idx;
+					}
+				}
+				
+				
 			}
 		}
 		//System.out.println(potentialAntecedents.get(ante_idx));
