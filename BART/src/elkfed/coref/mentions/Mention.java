@@ -230,7 +230,7 @@ public class Mention implements Comparable<Mention> {
             _nameStructure = calcNameStructure();
         
         }
-        createDiscourseEntity();
+      
    }
 
     public MentionType mentionType() {
