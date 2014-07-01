@@ -6,6 +6,9 @@ import static elkfed.lang.EnglishLinguisticConstants.FIRST_PERSON_SG_PRO;
 import static elkfed.lang.EnglishLinguisticConstants.MALE_PRONOUN_ADJ;
 import static elkfed.lang.EnglishLinguisticConstants.RELATIVE_PRONOUN;
 import static elkfed.lang.EnglishLinguisticConstants.SECOND_PERSON_PRO;
+import static elkfed.lang.GermanLinguisticConstants.ANAPHORIC_PRONOUN;
+
+
 import static elkfed.mmax.MarkableLevels.DEFAULT_MARKABLE_LEVEL;
 
 import java.util.List;
@@ -15,10 +18,14 @@ import elkfed.coref.PairInstance;
 import elkfed.coref.features.pairs.FE_AppositiveParse;
 import elkfed.coref.features.pairs.FE_Copula;
 import elkfed.coref.features.pairs.FE_DistanceWord;
+import elkfed.coref.features.pairs.FE_Gender;
+import elkfed.coref.features.pairs.FE_Number;
+import elkfed.coref.features.pairs.FE_SentenceDistance;
 import elkfed.coref.mentions.Mention;
 import elkfed.knowledge.SemanticClass;
 import elkfed.lang.LanguagePlugin;
 import elkfed.lang.LanguagePlugin.TableName;
+import elkfed.ml.TriValued;
 import elkfed.mmax.minidisc.Markable;
 
 /**
@@ -39,7 +46,7 @@ public class SieveUtilities {
 		 * there is FE_AppositiveParse.getAppositivePrs(pair) as well
 		 * might have to investigate how they differ
 		 * 
-		 * appositive constructions as one NP in T�Ba-D/Z
+		 * appositive constructions as one NP in T�Ba-D/Z
 		 * switch on and off
 		 * 
 		 * there is also FE_Appositive.getAppositive(pair)
@@ -198,4 +205,74 @@ public class SieveUtilities {
 		return false;		
 	}		
 
+	
+	boolean sentenceDistance(PairInstance pair){
+		if(FE_SentenceDistance.getSentDist(pair) < 4){
+			return true;
+		}
+		
+		return false;
+
+	}
+	
+	boolean animacyAgreement(PairInstance pair){
+		if (isAnimate(pair.getAnaphor()) == isAnimate(pair.getAntecedent())){
+			return true;
+		}
+		return false;
+		
+	}
+	
+	boolean genderAgreement(PairInstance pair){
+		
+		if (FE_Gender.getGender(pair).equals(TriValued.TRUE)){
+			return true;
+		}
+		return false;
+		
+	}
+	
+	boolean numberAgreement(PairInstance pair){
+		if (FE_Number.getNumber(pair)){
+			return true;
+		}
+		return false;
+		
+	}
+	
+	
+	/**
+	 * 
+	 * Person – we assign person attributes only to pronouns. We do not enforce
+		this constraint when linking two pronouns, however, if one appears within
+		quotes. This is a simple heuristic for speaker detection (e.g., I and she point
+		to the same person in “[I] voted my conscience,” [she] said).
+	 */
+	
+	public void personAgreement(PairInstance pair){
+		// missing
+			
+		}
+	
+	boolean NERAgreement(PairInstance pair){
+		if (	(pair.getAnaphor().getSemanticClass().equals(pair.getAntecedent().getSemanticClass())) || 
+				(pair.getAnaphor().equals(SemanticClass.UNKNOWN)) ||
+				(pair.getAntecedent().equals(SemanticClass.UNKNOWN))){
+			return true;
+		}
+		
+		return false;
+			
+	}
+	
+boolean isAnaphoricPronoun(PairInstance pair) {
+		
+		String[] tokens = pair.getAnaphor().getMarkable().getDiscourseElements();
+		if (tokens.length == 1 && tokens[0].matches(ANAPHORIC_PRONOUN)) {
+				System.out.println("ANAPHORIC PRONOUN");
+				return true;	
+		}
+		return false;
+	}
+	
 }
