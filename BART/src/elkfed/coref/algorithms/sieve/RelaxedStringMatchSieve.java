@@ -31,9 +31,12 @@ import elkfed.coref.mentions.Mention;
 public class RelaxedStringMatchSieve extends Sieve {
 
 	private List<Mention> potentialAntecedents;
+	private String name;
 	
 	public RelaxedStringMatchSieve(List<Mention> mentions) {
-		this.potentialAntecedents = mentions;			
+		this.potentialAntecedents = mentions;
+		this.name = "RelaxedDtringMatchSieve";
+		
 	}
 		
 	public int runSieve(Mention mention){
@@ -52,6 +55,11 @@ public class RelaxedStringMatchSieve extends Sieve {
 		}
 		//System.out.println(potentialAntecedents.get(ante_idx));
 		return ante_idx;
+	}
+
+	@Override
+	public String getName() {
+		return this.name;
 	}
 	
 

@@ -7,6 +7,8 @@ import java.util.List;
  */
 
 
+
+
 /*
  * ToDo:  Proper WordInclusion with removed StopWords, modificator match,  i within i
  */
@@ -16,9 +18,11 @@ import elkfed.coref.mentions.Mention;
 public class StrictHeadMatchASieve extends StrictHeadMatch {
 	
 	private List<Mention> potentialAntecedents;
+	private String name;
 	
 	public StrictHeadMatchASieve(List<Mention> potentialAntecedents) {
 		this.potentialAntecedents = potentialAntecedents;
+		this.name = "StrictHeadMatchASieve";
 	}
 
 public int runSieve(Mention mention){		
@@ -30,7 +34,7 @@ public int runSieve(Mention mention){
 			Mention potAnte = potentialAntecedents.get(idx);
 			
 			if (entityHeadMatch(mention, potAnte)) {
-				//wordInclusion doesn't work as it should
+				
 				if(wordInclusion(mention, potAnte)) {
 					if (compatibleModifiers(mention, potAnte)) {
 						ante_idx = idx;
@@ -40,7 +44,12 @@ public int runSieve(Mention mention){
 				
 			}
 		}
-		//System.out.println(potentialAntecedents.get(ante_idx));
+		
 		return ante_idx;
 	}
+
+@Override
+public String getName() {
+	return this.name;
+}
 }

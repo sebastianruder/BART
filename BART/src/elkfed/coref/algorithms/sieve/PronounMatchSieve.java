@@ -16,13 +16,14 @@ import elkfed.ml.TriValued;
 public class PronounMatchSieve extends Sieve {
 	
 	private static final SieveUtilities s = new SieveUtilities();
-	
+	private String name;
 	private List<Mention> mentions;
 	
 	
 
 	public PronounMatchSieve(List<Mention> mentions) {
 		this.mentions = mentions;
+		this.name = "PronounMatchSieve";
 	}
 		
 		
@@ -52,6 +53,12 @@ public class PronounMatchSieve extends Sieve {
 			
 		}
 		return ante_idx;
-		}	
+		}
+
+
+	@Override
+	String getName() {
+		return this.name;
+	}	
 
 }
