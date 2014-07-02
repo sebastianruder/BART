@@ -38,7 +38,7 @@ public class Evaluation {
 			
 			if (antecedents.containsKey(m)) {
 				
-				System.out.println(String.format("Antecedent of %s: %s with %s", 
+				System.out.println(String.format("Antecedent of %s: %s with %s\n", 
 												 m.toString(),
 												 antecedents.get(m).toString(),
 												 sieves.get(m)));
@@ -47,7 +47,7 @@ public class Evaluation {
 				
 				
 			} else {				
-				System.out.println(String.format("No Antecedent for %s",
+				System.out.println(String.format("No Antecedent for %s\n",
 												 m.toString()));				
 				printMention(m);
 				
