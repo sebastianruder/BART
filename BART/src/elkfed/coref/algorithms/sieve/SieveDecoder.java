@@ -22,7 +22,7 @@ import elkfed.coref.mentions.Mention;
 * @author sebastianruder
 * 
 */
-
+//isCoreferent
 public class SieveDecoder implements CorefResolver {
 	protected static final Logger _logger = Logger.getAnonymousLogger();
 	protected LinkScorer _scorer = new SplitLinkScorer();
@@ -35,6 +35,7 @@ public class SieveDecoder implements CorefResolver {
 		// going to be stored
 		DisjointSet<Mention> mention_clusters = new DisjointSet<Mention>();
 		Set<DiscourseEntity> entities;
+		Evaluation eval = new Evaluation(mentions);
 		Sieve sieve;
 		// counts number of links
 		int numLinks = 0;		
@@ -47,7 +48,7 @@ public class SieveDecoder implements CorefResolver {
         for (int walk_through = 1; walk_through < 11; walk_through++) {
         	
         	// PronounMatchSieve doesn't work yet
-        	if (walk_through == 10) {
+        	if (walk_through == 10  || walk_through == 4) {
         		continue;
         	}
         	
@@ -59,32 +60,19 @@ public class SieveDecoder implements CorefResolver {
 		    	  if (ConfigProperties.getInstance().getOutputSingletons()) {
 		    	  		clusters.union(mentions.get(i), mentions.get(i)); } */
 		    	
-		    	sieve = _factory.createSieve(walk_through, mentions);		    	
-	    		int ante_idx = sieve.runSieve(mentions.get(i));
-	    		System.out.println("Premods: " + mentions.get(i)._premodifiers);
-    			System.out.println("Postmods: " + mentions.get(i)._postmodifiers);
-	    		System.out.println("Highest Projection Mention: " + mentions.get(i)._highestProjection);
+		    	sieve = _factory.createSieve(walk_through, mentions);
+		    	String sieveName = sieve.getName();
+		    	
+	    		int ante_idx = sieve.runSieve(mentions.get(i));		    		
 	    		
-	    		if (ante_idx == -1) {
-	    			System.out.println(String.format("#%d: No match found: %s", i, mentions.get(i).toString()));
-	    		}
-	    		else {
-	    			System.out.println("Highest Projection Antecedent: " + mentions.get(ante_idx)._highestProjection);
-	    			System.out.println(String.format("#%d: Antecedent of '%s': '%s' with Sieve #%d",
-		    				i, mentions.get(i).toString(), mentions.get(ante_idx).toString(), walk_through));
-	    			/*
-	    			 * For evaluation: figure out how validation works (maybe ask Yannick)
-	    			PairInstance instance = new PairInstance(mentions.get(i), mentions.get(ante_idx));
-	    			if (instance.getFeature(PairInstance.FD_POSITIVE) == true) {
-                        System.out.println("True positive!");
-		            }
-		            */
-	    		}
+	    		
+	    		
 	    		
 		    	if (ante_idx==-1) {
 		           _scorer.scoreNonlink(mentions,i); 
 		        }
 		    	else {
+		    		eval.setLink(mentions.get(i), mentions.get(ante_idx), sieveName);
 		            numLinks++;
 		            mention_clusters.union(mentions.get(i),mentions.get(ante_idx));
 		            antecedents.put(mentions.get(i), mentions.get(ante_idx));
@@ -100,8 +88,7 @@ public class SieveDecoder implements CorefResolver {
 		            if (!(d == dAnte)) {
 		            	System.err.println("error: not merged");
 		            }
-		            System.out.println(String.format("Discourse ID: %d\nHeads: %s\nWords: %s", 
-		            								 d.getID(), d.getHeadsString(), d.getWordsString()));
+
 		            
 		            _scorer.scoreLink(mentions, ante_idx, i);
 		            if (_logger.isLoggable(Level.FINE)) {
@@ -115,6 +102,8 @@ public class SieveDecoder implements CorefResolver {
         }
         _logger.log(Level.INFO,String.format("joined %d pairs in %d mentions",
                 numLinks,mentions.size()));
+        
+        eval.printEvaluation();
 	    //_scorer.displayResults();
 	    return mention_clusters;
 	}
