@@ -46,7 +46,7 @@ public class SieveUtilities {
 		 * there is FE_AppositiveParse.getAppositivePrs(pair) as well
 		 * might have to investigate how they differ
 		 * 
-		 * appositive constructions as one NP in T�Ba-D/Z
+		 * appositive constructions as one NP in Tï¿½Ba-D/Z
 		 * switch on and off
 		 * 
 		 * there is also FE_Appositive.getAppositive(pair)
@@ -147,10 +147,15 @@ public class SieveUtilities {
 
 	boolean isRelativePronoun(PairInstance pair) {
 		
+		// probably not relevant because TüBaD/Z doesn't use this information
+		
 		FE_DistanceWord dw = new FE_DistanceWord();
 		
 		String[] tokens = pair.getAnaphor().getMarkable().getDiscourseElements();
 		if (tokens.length == 1 && tokens[0].matches(RELATIVE_PRONOUN)) {
+			// use Xenia's class that one is contained in the other
+			// mention.embeds(mention)
+			
 			if (dw.getWordDist(pair) < 2) {
 				System.out.println("RELATIVE PRONOUN");
 				return true;	
@@ -243,10 +248,10 @@ public class SieveUtilities {
 	
 	/**
 	 * 
-	 * Person – we assign person attributes only to pronouns. We do not enforce
+	 * Person â€“ we assign person attributes only to pronouns. We do not enforce
 		this constraint when linking two pronouns, however, if one appears within
 		quotes. This is a simple heuristic for speaker detection (e.g., I and she point
-		to the same person in “[I] voted my conscience,” [she] said).
+		to the same person in â€œ[I] voted my conscience,â€� [she] said).
 	 */
 	
 	public void personAgreement(PairInstance pair){
