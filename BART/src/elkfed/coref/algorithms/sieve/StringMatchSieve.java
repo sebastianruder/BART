@@ -25,9 +25,11 @@ import elkfed.coref.features.pairs.FE_Pronominal_StrMatch;
 public class StringMatchSieve extends Sieve {
 	
 	private List<Mention> potentialAntecedents;
-		
+	private String name;
+	
 	StringMatchSieve(List<Mention> potentialAntecedents){
-		this.potentialAntecedents = potentialAntecedents;			
+		this.potentialAntecedents = potentialAntecedents;	
+		this.name = "StrringMatchSieve";
 	}
 	
 	public int runSieve(Mention mention){
@@ -55,6 +57,14 @@ public class StringMatchSieve extends Sieve {
 	
 	public void compareEntities(Mention mention, Mention potAnt){
 		
+	}
+	public String toString(){
+		return "StringMatchSieve";
+	}
+
+	@Override
+	public String getName() {
+		return this.name;
 	}
 
 }

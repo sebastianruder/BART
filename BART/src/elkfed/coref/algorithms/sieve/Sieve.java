@@ -12,13 +12,17 @@ import elkfed.coref.mentions.Mention;
 
 public abstract class Sieve {
 	
+	
+	
 	int runSieve(Mention mention){
 		return -1;
 	}
+	
+	
 
 	void compareEntities() {	
 	}
-	
+	abstract String getName();
 	
 
 }

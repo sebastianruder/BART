@@ -7,9 +7,11 @@ import elkfed.coref.mentions.Mention;
 public class StrictHeadMatchCSieve extends StrictHeadMatch {
 
 	private List<Mention> potentialAntecedents;
-
+	private String name;
+	
 	public StrictHeadMatchCSieve(List<Mention> potentialAntecedents) {
 		this.potentialAntecedents = potentialAntecedents;
+		this.name = "StrictHeadMatchCSieve";
 	}
 	
 	@Override
@@ -27,6 +29,11 @@ public class StrictHeadMatchCSieve extends StrictHeadMatch {
 		}
 		//System.out.println(potentialAntecedents.get(ante_idx));
 		return ante_idx;
+	}
+
+	@Override
+	public String getName() {
+		return this.name;
 	}
 
 }
