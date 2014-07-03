@@ -11,8 +11,11 @@ import static elkfed.lang.GermanLinguisticConstants.ANAPHORIC_PRONOUN;
 
 import static elkfed.mmax.MarkableLevels.DEFAULT_MARKABLE_LEVEL;
 
+import java.util.Arrays;
 import java.util.List;
+import java.util.Set;
 
+import edu.stanford.nlp.util.Generics;
 import elkfed.config.ConfigProperties;
 import elkfed.coref.PairInstance;
 import elkfed.coref.features.pairs.FE_AppositiveParse;
@@ -265,14 +268,28 @@ public class SieveUtilities {
 			
 	}
 	
-boolean isAnaphoricPronoun(PairInstance pair) {
-		
-		String[] tokens = pair.getAnaphor().getMarkable().getDiscourseElements();
-		if (tokens.length == 1 && tokens[0].matches(ANAPHORIC_PRONOUN)) {
-				System.out.println("ANAPHORIC PRONOUN");
-				return true;	
+
+	
+	boolean IWithinI(PairInstance pair){
+		if (!isAppositive(pair) && !isRelativePronoun(pair) && !isRoleAppositive(pair)){
+			if (pair.getAnaphor().embeds(pair.getAntecedent()) || pair.getAntecedent().embeds(pair.getAnaphor())){
+				return true;
+			}
 		}
 		return false;
+	}
+		
+	
+	
+	boolean noNumericMismatch(PairInstance pair){
+		Set<String> Numbers = Generics.newHashSet(Arrays.asList(new String[]{"eins", "zwei", "drei", "vier", "fünf", "sechs", "sieben", "acht", "neun", "zehn", "elf", "zwölf", "hundert", "tausend", "million", "milliarde"}));
+		for (String s: Numbers){
+			if ((pair.getAnaphor().toString().contains(s) && !pair.getAntecedent().toString().contains(s)) || (pair.getAntecedent().toString().contains(s) && !pair.getAnaphor().toString().contains(s))){
+				return false;
+			}
+		}
+		
+		return true;
 	}
 	
 }
