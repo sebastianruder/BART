@@ -27,5 +27,5 @@ System befindet, bspw. auf einem Windows-System:
 testData=D:/BART/BART/tuebadz-MMAX2/mmax-mini
 ```
 
-Die main-Methode des [SieveAnnotator](src/de/elkfed/main/SieveAnnotator.java) muss nun gestartet
+Die main-Methode des [SieveAnnotator](src/elkfed/main/SieveAnnotator.java) muss nun gestartet
 werden.
