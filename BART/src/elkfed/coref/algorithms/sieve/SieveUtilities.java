@@ -70,17 +70,13 @@ public class SieveUtilities {
 	}		
 	
 	boolean isRoleAppositive(PairInstance pair) {
-		/*
-		 * there is FE_AnimacyAgree
-		 * FE_AnimacyAgree() doesn't seem to be implemented, though
-		 */
-		FE_DistanceWord dw = new FE_DistanceWord();
+		Mention mention = pair.getAnaphor();
+		Mention antecedent = pair.getAntecedent();
 		
-		if (pair.getAnaphor().getProperName() && // check if person
-				isAnimate(pair.getAntecedent()) && // check if animate 
-				!isNeutral(pair.getAntecedent()) && // check if neutral
-				dw.getWordDist(pair) < 2) { // checks word distance
-			// how to check that one is modifying the other?
+		if (mention.getProperName() && // check if person
+				isAnimate(antecedent) && // check if animate 
+				!isNeutral(antecedent) && // check if neutral
+				mention.embeds(antecedent)) { // check if antecedent is contained in mention
 			System.out.println("ROLE APPOSITIVE");
 			return true;
 		}
@@ -149,17 +145,13 @@ public class SieveUtilities {
 	}
 
 	boolean isRelativePronoun(PairInstance pair) {
+		Mention mention = pair.getAnaphor();
+		Mention antecedent = pair.getAntecedent();
 		
-		// probably not relevant because TüBaD/Z doesn't use this information
-		
-		FE_DistanceWord dw = new FE_DistanceWord();
-		
-		String[] tokens = pair.getAnaphor().getMarkable().getDiscourseElements();
+		String[] tokens = antecedent.getMarkable().getDiscourseElements();
 		if (tokens.length == 1 && tokens[0].matches(RELATIVE_PRONOUN)) {
-			// use Xenia's class that one is contained in the other
-			// mention.embeds(mention)
-			
-			if (dw.getWordDist(pair) < 2) {
+			// mention is contained in antecedent
+			if (antecedent.embeds(mention)) {
 				System.out.println("RELATIVE PRONOUN");
 				return true;	
 			}
@@ -215,12 +207,11 @@ public class SieveUtilities {
 
 	
 	boolean sentenceDistance(PairInstance pair){
-		if(FE_SentenceDistance.getSentDist(pair) < 4){
+		FE_SentenceDistance sd = new FE_SentenceDistance();
+		if(sd.getSentDist(pair) < 4){
 			return true;
 		}
-		
 		return false;
-
 	}
 	
 	boolean animacyAgreement(PairInstance pair){
@@ -245,7 +236,6 @@ public class SieveUtilities {
 			return true;
 		}
 		return false;
-		
 	}
 	
 	

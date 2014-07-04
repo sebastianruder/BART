@@ -43,30 +43,22 @@ public class SieveDecoder implements CorefResolver {
                 String.format("%s: decode document with %d mentions\n",
                 getClass().getSimpleName(),
                 mentions.size()));        
-        
         // counts number of walk_throughs
         for (int walk_through = 1; walk_through < 11; walk_through++) {
-        	
         	// PronounMatchSieve doesn't work yet
         	if (walk_through == 10  || walk_through == 4) {
         		continue;
         	}
-        	
         	// iterates over mentions
 		    for (int i = 0; i < mentions.size(); i++) {
-		    	
 		    	/* puts singletons in a single disjoint set
 		    	   --> confirm with Yannick
 		    	  if (ConfigProperties.getInstance().getOutputSingletons()) {
 		    	  		clusters.union(mentions.get(i), mentions.get(i)); } */
-		    	
 		    	sieve = _factory.createSieve(walk_through, mentions);
 		    	String sieveName = sieve.getName();
 		    	
 	    		int ante_idx = sieve.runSieve(mentions.get(i));		    		
-	    		
-	    		
-	    		
 	    		
 		    	if (ante_idx==-1) {
 		           _scorer.scoreNonlink(mentions,i); 
@@ -88,8 +80,6 @@ public class SieveDecoder implements CorefResolver {
 		            if (!(d == dAnte)) {
 		            	System.err.println("error: not merged");
 		            }
-
-		            
 		            _scorer.scoreLink(mentions, ante_idx, i);
 		            if (_logger.isLoggable(Level.FINE)) {
 		                Object[] args={mentions.get(i),mentions.get(ante_idx)};
