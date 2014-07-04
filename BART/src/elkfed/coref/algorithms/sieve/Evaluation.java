@@ -13,7 +13,6 @@ public class Evaluation {
 	public Map<Mention, Mention>  antecedents;
 	private Map<Mention, String> sieves;
 	
-	
 	public Evaluation(List<Mention> mentions) {
 		this.mentions = mentions;
 		this.antecedents = new HashMap<>();
@@ -21,7 +20,7 @@ public class Evaluation {
 	}
 	public void setLink(Mention m, Mention ante, String sieve) {
 		antecedents.put(m, ante);
-		sieves.put(m,  sieve);
+		sieves.put(m, sieve);
 	}
 	
 	public void printMention(Mention m) {
@@ -36,14 +35,19 @@ public class Evaluation {
 		for(Mention m: mentions) {
 			
 			if (antecedents.containsKey(m)) {
-				
-				System.out.println(String.format("Antecedent of %s: %s with %s", 
+				if (m.isCoreferent(antecedents.get(m))) {
+					System.out.print("TRUE! ");
+				}
+				else {
+					System.err.print("FALSE! ");
+				}
+				System.out.println(String.format("Antecedent of '%s': '%s' with %s", 
 												 m.toString(),
 												 antecedents.get(m).toString(),
 												 sieves.get(m)));
+				
 				printMention(m);
 				printMention(antecedents.get(m));
-				
 				
 			} else {				
 				System.out.println(String.format("No Antecedent for %s",
