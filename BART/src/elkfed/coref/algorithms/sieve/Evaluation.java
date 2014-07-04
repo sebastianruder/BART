@@ -22,7 +22,6 @@ public class Evaluation {
 	public void setLink(Mention m, Mention ante, String sieve) {
 		antecedents.put(m, ante);
 		sieves.put(m,  sieve);
-		
 	}
 	
 	public void printMention(Mention m) {
@@ -38,7 +37,7 @@ public class Evaluation {
 			
 			if (antecedents.containsKey(m)) {
 				
-				System.out.println(String.format("Antecedent of %s: %s with %s\n", 
+				System.out.println(String.format("Antecedent of %s: %s with %s", 
 												 m.toString(),
 												 antecedents.get(m).toString(),
 												 sieves.get(m)));
@@ -47,7 +46,7 @@ public class Evaluation {
 				
 				
 			} else {				
-				System.out.println(String.format("No Antecedent for %s\n",
+				System.out.println(String.format("No Antecedent for %s",
 												 m.toString()));				
 				printMention(m);
 				
