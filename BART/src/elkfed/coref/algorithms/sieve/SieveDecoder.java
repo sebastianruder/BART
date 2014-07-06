@@ -46,7 +46,7 @@ public class SieveDecoder implements CorefResolver {
         // counts number of walk_throughs
         for (int walk_through = 1; walk_through < 11; walk_through++) {
         	// PronounMatchSieve doesn't work yet
-        	if (walk_through == 10  || walk_through == 4) {
+        	if (!(walk_through == 7)) {
         		continue;
         	}
         	// iterates over mentions
@@ -64,7 +64,7 @@ public class SieveDecoder implements CorefResolver {
 		           _scorer.scoreNonlink(mentions,i); 
 		        }
 		    	else {
-		    		eval.setLink(mentions.get(i), mentions.get(ante_idx), sieveName);
+		    		
 		            numLinks++;
 		            mention_clusters.union(mentions.get(i),mentions.get(ante_idx));
 		            antecedents.put(mentions.get(i), mentions.get(ante_idx));
@@ -72,6 +72,7 @@ public class SieveDecoder implements CorefResolver {
 		            if (!(mentions.get(i).getDiscourseEntity() == mentions.get(ante_idx).getDiscourseEntity())) {
 		            	//need better solution to stop merging of already merged entities
 		            	mentions.get(i).linkToAntecedent(mentions.get(ante_idx));
+		            	eval.setLink(mentions.get(i), mentions.get(ante_idx), sieveName);
 		            }
 		           //mentions.get(i).linkToAntecedent(mentions.get(ante_idx));
 		            //Kontrollausgabe
