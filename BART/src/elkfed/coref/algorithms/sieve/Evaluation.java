@@ -53,7 +53,7 @@ public class Evaluation {
 				
 				
 			} else {				
-				System.out.println(String.format("No Antecedent for %s",
+				System.out.println(String.format("No Antecedent for '%s'",
 												 m.toString()));				
 				printMention(m);
 				
