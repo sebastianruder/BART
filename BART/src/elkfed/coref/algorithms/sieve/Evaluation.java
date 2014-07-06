@@ -48,10 +48,11 @@ public class Evaluation {
 					System.err.print("FALSE! ");
 				}
 				System.out.println(String.format("Antecedent of '%s': '%s'(%s) with %s", 
-												 m.getMarkable().toString(),												 
-												 sieves.get(m), 
+												 m.getMarkable().toString(),	
+												 antecedents.get(m).getMarkable().toString(),
 												 antecedents.get(m).getMarkable().getID(),
-												 antecedents.get(m).getMarkable().toString()));
+												 sieves.get(m)												
+												 ));
 				
 				printMention(m);
 				printMention(antecedents.get(m));
