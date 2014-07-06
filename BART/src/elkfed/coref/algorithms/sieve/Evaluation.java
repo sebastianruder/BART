@@ -24,6 +24,11 @@ public class Evaluation {
 	}
 	
 	public void printMention(Mention m) {
+		
+		System.out.println("Heads: " + m.getHeadString());
+		System.out.println("Words: " + m.getDiscourseEntity().getWordsString());
+		System.out.println(m.getSetID());
+		System.out.println("\n");
 	}
 	
 	public void printDiscourseEntity(DiscourseEntity de) {
@@ -37,15 +42,16 @@ public class Evaluation {
 			
 			if (antecedents.containsKey(m)) {
 				if (m.isCoreferent(antecedents.get(m))) {
-					System.out.print("TRUE! ");
+					System.err.print("TRUE! ");
 				}
 				else {
 					System.err.print("FALSE! ");
 				}
-				System.out.println(String.format("Antecedent of '%s': '%s' with %s", 
-												 m.toString(),
-												 antecedents.get(m).toString(),
-												 sieves.get(m)));
+				System.out.println(String.format("Antecedent of '%s': '%s'(%s) with %s", 
+												 m.getMarkable().toString(),												 
+												 sieves.get(m), 
+												 antecedents.get(m).getMarkable().getID(),
+												 antecedents.get(m).getMarkable().toString()));
 				
 				printMention(m);
 				printMention(antecedents.get(m));
@@ -54,7 +60,7 @@ public class Evaluation {
 				
 			} else {				
 				System.out.println(String.format("No Antecedent for '%s'",
-												 m.toString()));				
+												 m.getMarkable().toString()));				
 				printMention(m);
 				
 			}
