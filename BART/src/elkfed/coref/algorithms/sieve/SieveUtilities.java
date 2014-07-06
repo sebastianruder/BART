@@ -15,9 +15,11 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Set;
 
+import edu.stanford.nlp.trees.Tree;
 import edu.stanford.nlp.util.Generics;
 import elkfed.config.ConfigProperties;
 import elkfed.coref.PairInstance;
+import elkfed.coref.discourse_entities.DiscourseEntity;
 import elkfed.coref.features.pairs.FE_AppositiveParse;
 import elkfed.coref.features.pairs.FE_Copula;
 import elkfed.coref.features.pairs.FE_DistanceWord;
@@ -265,7 +267,8 @@ public class SieveUtilities {
 	
 
 	
-	boolean IWithinI(PairInstance pair){
+	boolean IWithinI(Mention m, Mention ante){
+		PairInstance pair = new PairInstance(m, ante);
 		if (!isAppositive(pair) && !isRelativePronoun(pair) && !isRoleAppositive(pair)){
 			if (pair.getAnaphor().embeds(pair.getAntecedent()) || pair.getAntecedent().embeds(pair.getAnaphor())){
 				return true;
@@ -285,6 +288,41 @@ public class SieveUtilities {
 		}
 		
 		return true;
+	}
+	
+	
+	public boolean entityHeadMatch(Mention m ,Mention ante) {
+		DiscourseEntity d = m.getDiscourseEntity();
+		DiscourseEntity dAnte = ante.getDiscourseEntity();
+		Set<String> entityHeads = d.getHeads();
+		for (String headAnte : dAnte.getHeads()) {
+			if (entityHeads.contains(headAnte)) {
+				return true;
+			}
+		}		
+		return false;		
+	}
+	public boolean wordInclusion(Mention m, Mention ante) {
+		
+		Set<String> dWords = m.getDiscourseEntity().getWords();
+		Set<String> dAnteWords = ante.getDiscourseEntity().getWords();
+		
+		if (dAnteWords.containsAll(dWords)) {			
+			return true;
+		}
+		
+		return false;
+		
+	}
+	
+	public boolean compatibleModifiers(Mention m, Mention ante) {
+		Set<Tree> dMod = m.getDiscourseEntity().getModifiers();
+		Set<Tree> dAnteMod = ante.getDiscourseEntity().getModifiers();
+		
+		if (dAnteMod.containsAll(dAnteMod)) {
+			return true;
+		}
+		return false;
 	}
 	
 }

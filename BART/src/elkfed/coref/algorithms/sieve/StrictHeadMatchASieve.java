@@ -9,13 +9,16 @@ import java.util.List;
 
 
 
+
 /*
  * ToDo:  Proper WordInclusion with removed StopWords, modificator match,  i within i
  */
 import elkfed.coref.features.pairs.FE_StringMatch;
 import elkfed.coref.mentions.Mention;
 
-public class StrictHeadMatchASieve extends StrictHeadMatch {
+public class StrictHeadMatchASieve extends Sieve {
+	
+	private static final SieveUtilities s = new SieveUtilities();
 	
 	private List<Mention> potentialAntecedents;
 	private String name;
@@ -33,11 +36,13 @@ public int runSieve(Mention mention){
 		for (int idx = 0; idx < mention_idx; idx++){
 			Mention potAnte = potentialAntecedents.get(idx);
 			
-			if (entityHeadMatch(mention, potAnte)) {
+			if (s.entityHeadMatch(mention, potAnte)) {
 				
-				if(wordInclusion(mention, potAnte)) {
-					if (compatibleModifiers(mention, potAnte)) {
-						ante_idx = idx;
+				if(s.wordInclusion(mention, potAnte)) {
+					if (s.compatibleModifiers(mention, potAnte)) {
+						if (!(s.IWithinI(mention, potAnte))) {
+							ante_idx = idx;
+						}
 					}
 				}
 				
