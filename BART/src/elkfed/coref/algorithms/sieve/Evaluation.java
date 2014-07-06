@@ -24,7 +24,6 @@ public class Evaluation {
 	}
 	
 	public void printMention(Mention m) {
-		//hier könnt ihr Attribute ausgeben lassen
 	}
 	
 	public void printDiscourseEntity(DiscourseEntity de) {
@@ -33,6 +32,8 @@ public class Evaluation {
 	
 	public void printEvaluation() {
 		for(Mention m: mentions) {
+			
+			System.out.print(String.format("%s: ", m.getMarkable().getID()));
 			
 			if (antecedents.containsKey(m)) {
 				if (m.isCoreferent(antecedents.get(m))) {
@@ -48,6 +49,8 @@ public class Evaluation {
 				
 				printMention(m);
 				printMention(antecedents.get(m));
+				// print postmodifiers
+				
 				
 			} else {				
 				System.out.println(String.format("No Antecedent for %s",
