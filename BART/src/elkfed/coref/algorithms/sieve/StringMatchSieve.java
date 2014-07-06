@@ -29,7 +29,7 @@ public class StringMatchSieve extends Sieve {
 	
 	StringMatchSieve(List<Mention> potentialAntecedents){
 		this.potentialAntecedents = potentialAntecedents;	
-		this.name = "StrringMatchSieve";
+		this.name = "StringMatchSieve";
 	}
 	
 	public int runSieve(Mention mention){
@@ -45,11 +45,16 @@ public class StringMatchSieve extends Sieve {
 		int ante_idx = -1;
 			
 		for (int idx = 0; idx < mention_idx; idx++){
-			 if (fe_stringmatch.getStringMatch(new PairInstance(mention, potentialAntecedents.get(idx)))){
-	
+			Mention ante = potentialAntecedents.get(idx);
+			if (mention.getMarkable().toString().equals(ante.getMarkable().toString())) {
 				if (!(mention.getPronoun())) {
 					ante_idx = idx;
 				}
+//			 if (fe_stringmatch.getStringMatch(new PairInstance(mention, potentialAntecedents.get(idx)))){
+//	
+//				if (!(mention.getPronoun())) {
+//					ante_idx = idx;
+//				}
 			}
 		}
 		return ante_idx;
@@ -57,9 +62,6 @@ public class StringMatchSieve extends Sieve {
 	
 	public void compareEntities(Mention mention, Mention potAnt){
 		
-	}
-	public String toString(){
-		return "StringMatchSieve";
 	}
 
 	@Override
