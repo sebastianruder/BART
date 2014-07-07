@@ -29,3 +29,6 @@ testData=D:/BART/BART/tuebadz-MMAX2/mmax-mini
 
 Die main-Methode des [SieveAnnotator](src/elkfed/main/SieveAnnotator.java) muss nun gestartet
 werden.
+
+Klicke hier, [um](http://htmlpreview.github.io/?https://github.com/sebastianruder/BART/blob/master/BART/index.html)
+zur Webseite zu gelangen.
