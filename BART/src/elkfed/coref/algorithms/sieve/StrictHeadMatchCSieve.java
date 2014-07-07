@@ -26,7 +26,9 @@ public class StrictHeadMatchCSieve extends Sieve {
 			
 			if (s.entityHeadMatch(mention, potAnte)) {				
 				if (!(s.IWithinI(mention, potAnte))) {
-					ante_idx = idx;
+					if (!potAnte.getPronoun()) {
+						ante_idx = idx;
+					}
 				}
 				
 			}

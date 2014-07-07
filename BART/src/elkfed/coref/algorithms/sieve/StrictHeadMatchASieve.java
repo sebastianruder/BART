@@ -41,7 +41,10 @@ public int runSieve(Mention mention){
 				if(s.wordInclusion(mention, potAnte)) {
 					if (s.compatibleModifiers(mention, potAnte)) {
 						if (!(s.IWithinI(mention, potAnte))) {
-							ante_idx = idx;
+							if (!potAnte.getPronoun()) {
+								ante_idx = idx;
+							}
+							
 						}
 					}
 				}
