@@ -34,6 +34,7 @@ werden.
 
 Relevante Dateien im _repository_:
 
+```
 src/
 	elkfed/
 		coref/
@@ -73,6 +74,7 @@ index.html
 index.xml
 INSTALL
 README.md
+```
 
 Klicke [hier](http://htmlpreview.github.io/?https://github.com/sebastianruder/BART/blob/master/BART/index.html), um
 zur Webseite zu gelangen.
