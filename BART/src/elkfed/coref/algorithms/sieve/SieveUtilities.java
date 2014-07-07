@@ -209,8 +209,8 @@ public class SieveUtilities {
 
 	
 	boolean sentenceDistance(PairInstance pair){
-		FE_SentenceDistance sd = new FE_SentenceDistance();
-		if(sd.getSentDist(pair) < 4){
+		//FE_SentenceDistance sd = new FE_SentenceDistance();
+		if(FE_SentenceDistance.getSentDist(pair) < 4){
 			return true;
 		}
 		return false;
@@ -323,6 +323,11 @@ public class SieveUtilities {
 			return true;
 		}
 		return false;
+	}
+	
+	
+	int getMarkableDistance(PairInstance pair){
+		return pair.getAnaphor().getMarkable().getIntID()-pair.getAntecedent().getMarkable().getIntID();
 	}
 	
 }
