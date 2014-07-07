@@ -4,15 +4,14 @@ import static elkfed.lang.EnglishLinguisticConstants.FEMALE_PRONOUN_ADJ;
 import static elkfed.lang.EnglishLinguisticConstants.FIRST_PERSON_PL_PRO;
 import static elkfed.lang.EnglishLinguisticConstants.FIRST_PERSON_SG_PRO;
 import static elkfed.lang.EnglishLinguisticConstants.MALE_PRONOUN_ADJ;
-import static elkfed.lang.EnglishLinguisticConstants.RELATIVE_PRONOUN;
 import static elkfed.lang.EnglishLinguisticConstants.SECOND_PERSON_PRO;
-import static elkfed.lang.GermanLinguisticConstants.ANAPHORIC_PRONOUN;
-
-
-import static elkfed.mmax.MarkableLevels.DEFAULT_MARKABLE_LEVEL;
+import elkfed.lang.EnglishLanguagePlugin;
+import elkfed.lang.EnglishLinguisticConstants;
+import elkfed.lang.GermanLanguagePlugin;
+import elkfed.lang.GermanLinguisticConstants;
+import elkfed.coref.features.pairs.FE_DistanceWord;
 
 import java.util.Arrays;
-import java.util.List;
 import java.util.Set;
 
 import edu.stanford.nlp.trees.Tree;
@@ -22,7 +21,6 @@ import elkfed.coref.PairInstance;
 import elkfed.coref.discourse_entities.DiscourseEntity;
 import elkfed.coref.features.pairs.FE_AppositiveParse;
 import elkfed.coref.features.pairs.FE_Copula;
-import elkfed.coref.features.pairs.FE_DistanceWord;
 import elkfed.coref.features.pairs.FE_Gender;
 import elkfed.coref.features.pairs.FE_Number;
 import elkfed.coref.features.pairs.FE_SentenceDistance;
@@ -32,6 +30,7 @@ import elkfed.lang.LanguagePlugin;
 import elkfed.lang.LanguagePlugin.TableName;
 import elkfed.ml.TriValued;
 import elkfed.mmax.minidisc.Markable;
+import elkfed.nlp.util.Gender;
 
 /**
  * Utilitiy class for sieves
@@ -104,11 +103,14 @@ public class SieveUtilities {
 			}
 		}
 		// (b) check with NER labels
-		if (SemanticClass.isaPerson(mention.getSemanticClass())) {
+		if (SemanticClass.isaPerson(mention.getSemanticClass()) ||
+				mention.getGender().equals(Gender.MALE) ||
+				mention.getGender().equals(Gender.FEMALE)) {
 			return true;
 		}
 		else if (SemanticClass.isaObject(mention.getSemanticClass()) ||
-				SemanticClass.isaNumeric(mention.getSemanticClass())) {
+				SemanticClass.isaNumeric(mention.getSemanticClass()) ||
+				mention.getGender().equals(Gender.NEUTRAL)) {
 			return false;
 		}
 		// (c) check with animate and inanimate lists
@@ -127,8 +129,12 @@ public class SieveUtilities {
 	}
 	
 	boolean isNeutral(Mention mention) {
-		
-		if (SemanticClass.isaPerson(mention.getSemanticClass())) {
+		/**
+		 * Checks if mention is neutral.
+		 */
+		if (SemanticClass.isaPerson(mention.getSemanticClass()) ||
+				mention.getGender().equals(Gender.MALE) ||
+				mention.getGender().equals(Gender.FEMALE)) {
 			return false;
 		}
 		String[] tokens = mention.getMarkable().getDiscourseElements();
@@ -147,15 +153,44 @@ public class SieveUtilities {
 	}
 
 	boolean isRelativePronoun(PairInstance pair) {
+		/**
+		 * Checks if the mention modifies the antecedent.
+		 */
 		Mention mention = pair.getAnaphor();
 		Mention antecedent = pair.getAntecedent();
+		Markable m1 = mention.getMarkable();
+		Markable m2 = antecedent.getMarkable();
+		String relative_pronouns = "";
+		String[] tokens = mention.getMarkable().getDiscourseElements();
+		// checks langPlugin to know which relative pronouns to use
+		if (langPlugin instanceof GermanLanguagePlugin) {
+			relative_pronouns = GermanLinguisticConstants.RELATIVE_PRONOUN;
+		}
+		else if (langPlugin instanceof EnglishLanguagePlugin) {
+			relative_pronouns = EnglishLinguisticConstants.RELATIVE_PRONOUN;
+		}
 		
-		String[] tokens = antecedent.getMarkable().getDiscourseElements();
-		if (tokens.length == 1 && tokens[0].matches(RELATIVE_PRONOUN)) {
-			// mention is contained in antecedent
-			if (antecedent.embeds(mention)) {
-				System.out.println("RELATIVE PRONOUN");
-				return true;	
+		if (tokens.length == 1 && tokens[0].matches(relative_pronouns)) {
+			String rp = tokens[0];
+			Gender gender = Gender.UNKNOWN;
+			if (rp.equals("die") || rp.equals("welche")) {
+				gender = Gender.FEMALE;
+			}
+			else if (rp.equals("der") || rp.equals("welcher")) {
+				gender = Gender.MALE;
+			}
+			else if (rp.equals("das") || rp.equals("welches")) {
+				gender = Gender.NEUTRAL;
+			}
+			else if (rp.equals("deren")) {
+				gender = Gender.PLURAL;
+			}
+			int word_distance = m1.getLeftmostDiscoursePosition() - m2.getRightmostDiscoursePosition();
+			// word distance = 3 means there is one word in between
+			if (word_distance <= 3 && gender.equals(antecedent.getGender())) {
+				System.out.println(String.format("RELATIVE PRONOUN! %s and %s (Distance: %d, Gender: %s)",
+						mention.getMarkable().getID(), antecedent.getMarkable().getID(), word_distance, antecedent.getGender()));
+				return true;
 			}
 		}
 		return false;
