@@ -27,8 +27,7 @@ public class Evaluation {
 		
 		System.out.println("Heads: " + m.getHeadString());
 		System.out.println("Words: " + m.getDiscourseEntity().getWordsString());
-		System.out.println(m.getSetID());
-		System.out.println("\n");
+		System.out.println("SetID: " + m.getSetID());
 	}
 	
 	public void printDiscourseEntity(DiscourseEntity de) {
@@ -53,8 +52,9 @@ public class Evaluation {
 												 antecedents.get(m).getMarkable().getID(),
 												 sieves.get(m)												
 												 ));
-				
+				System.out.print("MENTION: ");
 				printMention(m);
+				System.out.print("ANTECEDENT: ");
 				printMention(antecedents.get(m));
 				// print postmodifiers
 				
