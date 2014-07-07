@@ -30,5 +30,50 @@ testData=D:/BART/BART/tuebadz-MMAX2/mmax-mini
 Die main-Methode des [SieveAnnotator](src/elkfed/main/SieveAnnotator.java) muss nun gestartet
 werden.
 
-Klicke hier, [um](http://htmlpreview.github.io/?https://github.com/sebastianruder/BART/blob/master/BART/index.html)
+## Repository Struktur
+
+Relevante Dateien im _repository_:
+
+src/
+	elkfed/
+		coref/
+		Hier ist das Interface CorefResolver
+			algorithms/
+				sieve/
+				Hier sind alle Siebklassen und -methoden
+				soon/
+				Hier sind die verschiedenen Soon-Algorithmen von BART
+			discourse_entities/
+			Hier ist die neue sowie die alte Implementation der DiscourseEntity
+			eval/
+			Hier ist der MUCScorer, der zur Evaluation verwendet wird
+			features/
+				pairs/
+				Hier sind einige Feature-Extraktoren, die wir verwendeten
+			mentions/
+				Hier ist die Mention-Klasse sowie die MentionFactory
+			processors/
+				Hier ist der AnnotationProcessor
+		lang/
+		Hier sind die verschiedenen LanguagePlugins und LinguisticConstants
+		main/
+		Hier ist das Hauptprogramm, SieveAnnotator
+		nlp/
+			util/
+			Hier ist die Gender-Klasse
+config/
+Hier ist config.properties, in der die Dateipfade angegeben werden
+Dokumente/
+Hier liegen unsere Präsentationsfolien
+names/
+Hier befinden sich sprachspezifische Listen
+tuebadz-MMAX2/
+Hier befinden sich unsere Korpora sowie ein Skript zur Konversion in plain text
+index.html
+index.xml
+INSTALL
+README.md
+
+Klicke [hier](http://htmlpreview.github.io/?https://github.com/sebastianruder/BART/blob/master/BART/index.html), um
 zur Webseite zu gelangen.
+

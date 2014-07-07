@@ -1,7 +1,7 @@
 Das GitHub repository https://github.com/sebastianruder/BART muss geklont werden.
 
-Wird Eclipse verwendet, so müssen die Plugins egit (zur Versionskontrolle) und
-ivy (zum dependency management) installiert werden.
+Es sollte Eclipse mit den Plugins egit (zur Versionskontrolle) und ivy (zum dependency management)
+verwendet werden, da alle Dependenzen in ivy.xml gespeichert sind.
 
 Wie im README beschriben, muss in config/config.properties für den Paramter testdata
 das Verzeichnis angegeben werden, indem sich der zu verwendende MMAX2-Datensatz auf dem eigenen
