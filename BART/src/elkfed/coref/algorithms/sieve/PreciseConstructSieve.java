@@ -1,32 +1,9 @@
 package elkfed.coref.algorithms.sieve;
 
-import static elkfed.lang.EnglishLinguisticConstants.ARTICLE;
-import static elkfed.lang.EnglishLinguisticConstants.DEMONSTRATIVE;
-import static elkfed.mmax.MarkableLevels.DEFAULT_POS_LEVEL;
-
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
-import elkfed.config.ConfigProperties;
-import elkfed.coref.PairFeatureExtractor;
 import elkfed.coref.PairInstance;
-import elkfed.coref.features.pairs.FE_Appositive;
-import elkfed.coref.features.pairs.FE_AppositiveParse;
-import elkfed.coref.features.pairs.FE_Copula;
 import elkfed.coref.mentions.Mention;
-import elkfed.knowledge.SemanticClass;
-import elkfed.lang.AbstractLanguagePlugin;
-import elkfed.lang.EnglishLanguagePlugin;
-import elkfed.lang.GermanLanguagePlugin;
-import elkfed.lang.LanguagePlugin;
-import elkfed.lang.LanguagePlugin.TableName;
-import static elkfed.lang.EnglishLinguisticConstants.*;
-import elkfed.coref.algorithms.sieve.SieveUtilities.*;
 
 /**
  * This sieve links two mentions if any of the following
@@ -64,14 +41,9 @@ import elkfed.coref.algorithms.sieve.SieveUtilities.*;
  * @author Sebastian
  *
  */
-
 public class PreciseConstructSieve extends Sieve {
 	
-	private static final SieveUtilities s = new SieveUtilities();
-	
-	// list of antecedents/potential coreferents
-	private List<Mention> mentions;
-	
+	// constructor
 	public PreciseConstructSieve(List<Mention> mentions) {
 		this.mentions = mentions;
 		this.name = "PreciseConstructSieve";

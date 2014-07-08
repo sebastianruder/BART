@@ -7,9 +7,6 @@ import elkfed.coref.mentions.Mention;
 
 public class ProperHeadNounMatchSieve extends Sieve {
 
-	private static final SieveUtilities s = new SieveUtilities();
-	private List<Mention> mentions;
-
 	public ProperHeadNounMatchSieve(List<Mention> mentions) {
 		this.mentions = mentions;
 		this.name = "ProperHeadNounMatchSieve";

@@ -7,6 +7,7 @@ import elkfed.coref.mentions.Mention;
 public class RelaxedHeadMatchSieve extends Sieve {
 	
 	public RelaxedHeadMatchSieve(List<Mention> mentions) {
+		this.mentions = mentions;
 		this.name = "RelaxedHeadMatchSieve";
 	}
 }

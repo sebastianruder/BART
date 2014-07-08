@@ -6,22 +6,18 @@ import elkfed.coref.mentions.Mention;
 
 public class StrictHeadMatchBSieve extends Sieve {
 
-	private static final SieveUtilities s = new SieveUtilities();
-
-	private List<Mention> potentialAntecedents;
-
-	public StrictHeadMatchBSieve(List<Mention> potentialAntecedents) {
-		this.potentialAntecedents = potentialAntecedents;
+	public StrictHeadMatchBSieve(List<Mention> mentions) {
+		this.mentions = mentions;
 		this.name = "StrictHeadMatchBSieve";
 	}
 
 	@Override
 	int runSieve(Mention mention) {
-		int mention_idx = potentialAntecedents.indexOf(mention);
+		int mention_idx = mentions.indexOf(mention);
 		int ante_idx = -1;
 
 		for (int idx = 0; idx < mention_idx; idx++) {
-			Mention potAnte = potentialAntecedents.get(idx);
+			Mention potAnte = mentions.get(idx);
 
 			if (s.entityHeadMatch(mention, potAnte)) {
 				if (s.wordInclusion(mention, potAnte)) {

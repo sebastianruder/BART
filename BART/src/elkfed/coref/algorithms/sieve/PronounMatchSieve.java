@@ -8,9 +8,6 @@ import elkfed.coref.PairInstance;
 import elkfed.coref.mentions.Mention;
 
 public class PronounMatchSieve extends Sieve {
-	
-	private static final SieveUtilities s = new SieveUtilities();
-	private List<Mention> mentions;
 
 	public PronounMatchSieve(List<Mention> mentions) {
 		this.mentions = mentions;

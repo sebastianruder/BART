@@ -16,19 +16,17 @@ import elkfed.coref.mentions.Mention;
  */
 
 public class RelaxedStringMatchSieve extends Sieve {
-
-	private List<Mention> antecedents;
 	
 	public RelaxedStringMatchSieve(List<Mention> mentions) {
-		this.antecedents = mentions;
+		this.mentions = mentions;
 		this.name = "RelaxedStringMatchSieve";
 	}
 		
 	public int runSieve(Mention mention){
-		int mention_idx = antecedents.indexOf(mention);
+		int mention_idx = mentions.indexOf(mention);
 		int ante_idx = -1;
 		for (int idx = 0; idx < mention_idx; idx++){
-			if (mention.toString().equals(antecedents.get(idx).toString())){
+			if (mention.toString().equals(mentions.get(idx).toString())){
 				if (!(mention.getPronoun())) {
 					ante_idx = idx;
 				}

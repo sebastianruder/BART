@@ -7,6 +7,7 @@ import elkfed.coref.mentions.Mention;
 public class SpeakerIdentificationSieve extends Sieve {
 	
 	public SpeakerIdentificationSieve(List<Mention> mentions) {
+		this.mentions = mentions;
 		this.name = "SpeakerIdentificationSieve";
 	}
 }

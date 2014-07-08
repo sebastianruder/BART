@@ -5,23 +5,19 @@ import java.util.List;
 import elkfed.coref.mentions.Mention;
 
 public class StrictHeadMatchCSieve extends Sieve {
-	
-	private static final SieveUtilities s = new SieveUtilities();
-
-	private List<Mention> potentialAntecedents;
-	
-	public StrictHeadMatchCSieve(List<Mention> potentialAntecedents) {
-		this.potentialAntecedents = potentialAntecedents;
+		
+	public StrictHeadMatchCSieve(List<Mention> mentions) {
+		this.mentions = mentions;
 		this.name = "StrictHeadMatchCSieve";
 	}
 	
 	@Override
 	int runSieve(Mention mention) {
-		int mention_idx = potentialAntecedents.indexOf(mention);
+		int mention_idx = mentions.indexOf(mention);
 		int ante_idx = -1;
 		
 		for (int idx = 0; idx < mention_idx; idx++){
-			Mention potAnte = potentialAntecedents.get(idx);
+			Mention potAnte = mentions.get(idx);
 			
 			if (s.entityHeadMatch(mention, potAnte)) {				
 				if (!(s.IWithinI(mention, potAnte))) {
@@ -32,7 +28,6 @@ public class StrictHeadMatchCSieve extends Sieve {
 				
 			}
 		}
-		//System.out.println(potentialAntecedents.get(ante_idx));
 		return ante_idx;
 	}
 }
