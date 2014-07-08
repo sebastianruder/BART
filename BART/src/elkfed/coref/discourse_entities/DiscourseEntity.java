@@ -33,6 +33,7 @@ import java.util.logging.Logger;
 import elkfed.knowledge.SemanticClass;
 import elkfed.lang.EnglishLanguagePlugin;
 import elkfed.lang.MentionType.Features;
+import elkfed.nlp.util.Gender;
 
 /**
  * @author julianbaumann
@@ -49,15 +50,17 @@ public class DiscourseEntity {
 	
 	private boolean firstMention_isFirstMention;
 	
-	private List<Mention> mentions;
+	private TreeSet<Mention> mentions;
     private Set<String> words;
     private Set<String> heads;
     private Set<Tree> modifiers;
-   
+    private Set<Gender> genders;
+    private Set<Number> numbers; 
+    
 	public DiscourseEntity(Mention m) {
 		ID = nextID;
 		nextID++;
-		mentions = new ArrayList<Mention>();
+		mentions = new TreeSet<Mention>();
 		mentions.add(m);
 		words = new HashSet<String>();
 		addWords(m);
@@ -73,8 +76,12 @@ public class DiscourseEntity {
 	}	
 
 	
-	public List<Mention> getMentions() {
+	public TreeSet<Mention> getMentions() {
 		return mentions;
+	}
+	
+	public Mention getFirstMention() {
+		return mentions.first();
 	}
 	
 	public void addWords(Mention m) {
