@@ -34,34 +34,37 @@ import elkfed.nlp.util.Gender;
 
 /**
  * Utilitiy class for sieves
- * Sieves using these methods:
- * 	- PreciseConstructsSieve
  * 
  * @author Sebastian
- *
  */
-
 public class SieveUtilities {
 	
+	// language plugin is retrieved
 	private static final LanguagePlugin langPlugin = ConfigProperties.getInstance().getLanguagePlugin();
 	
+	/**
+	 * Checks if a mention and its antecedent are in
+	 * an appositive construction
+	 * <p>
+	 * Appositive constructions don't appear in TüBa-D/Z;
+	 * here they form one mention.
+	 * @param pair PairInstance of mention, antecedent
+	 * @return true or false
+	 */
 	boolean isAppositive(PairInstance pair) {
-		/*
-		 * there is FE_AppositiveParse.getAppositivePrs(pair) as well
-		 * might have to investigate how they differ
-		 * 
-		 * appositive constructions as one NP in Tï¿½Ba-D/Z
-		 * switch on and off
-		 * 
-		 * there is also FE_Appositive.getAppositive(pair)
-		 */
 		if (FE_AppositiveParse.getAppositivePrs(pair)) {
 			System.out.println("APPOSITIVE");
 			return true;
 		}
 		return false;
 	}
-
+	
+	/**
+	 * Checks if mention and antecedent are in a
+	 * copulative subject-object relation
+	 * @param pair PairInstance of mention, antecedent
+	 * @return true or false
+	 */
 	boolean isPredicateNominative(PairInstance pair) {
 		if (FE_Copula.getCopula(pair)){
 			System.out.println("PREDICATE NOMINATIVE");
@@ -70,6 +73,12 @@ public class SieveUtilities {
 		return false;
 	}		
 	
+	/**
+	 * Checks if mention and antecedent are in a role
+	 * appositive construction
+	 * @param pair PairInstance of mention, antecedent
+	 * @return true or false
+	 */
 	boolean isRoleAppositive(PairInstance pair) {
 		Mention mention = pair.getAnaphor();
 		Mention antecedent = pair.getAntecedent();
@@ -83,14 +92,20 @@ public class SieveUtilities {
 		}
 		return false;
 	}
-
+	
+	/**
+	 * Checks if mention is animate
+	 * <p>
+	 * Animacy is set using:
+	 * (a) a static list for pronouns;
+	 * (b) NER and Gender labels (e.g., PERSON and MALE are animate); and
+	 * (c) lists of animate and inanimate unigrams
+	 * 	   taken from https://github.com/castiron/didh/tree/master/lib/vendor/snlp/dcoref;
+	 * 	   German lists have been translated using Google Tranlate
+	 * @param mention mention
+	 * @return true or false
+	 */
 	boolean isAnimate(Mention mention) {
-		/**
-		 * Animacy is set using:
-		 * (a) a static list for pronouns;
-		 * (b) NER labels (e.g., PERSON is animate whereas LOCATION is not); and
-		 * (c) a dictionary bootstrapped from the Web (Ji and Lin 2009)
-		 */
 		// (a) check with pronoun list
 		// not necessary for isRoleAppositive, maybe for other applications
 		String[] tokens = mention.getMarkable().getDiscourseElements();
@@ -102,7 +117,7 @@ public class SieveUtilities {
 				return true;
 			}
 		}
-		// (b) check with NER labels
+		// (b) check with NER and Gender labels
 		if (SemanticClass.isaPerson(mention.getSemanticClass()) ||
 				mention.getGender().equals(Gender.MALE) ||
 				mention.getGender().equals(Gender.FEMALE)) {
@@ -128,10 +143,16 @@ public class SieveUtilities {
 		return false;
 	}
 	
+	/**
+	 * Checks if mention is neutral.
+	 * <p>
+	 * Uses NER and Gender labels, and male, female, and neutral lists
+	 * taken from https://github.com/castiron/didh/tree/master/lib/vendor/snlp/dcoref;
+	 * German lists have been translated using Google Tranlate
+	 * @param mention mention
+	 * @return true or false
+	 */
 	boolean isNeutral(Mention mention) {
-		/**
-		 * Checks if mention is neutral.
-		 */
 		if (SemanticClass.isaPerson(mention.getSemanticClass()) ||
 				mention.getGender().equals(Gender.MALE) ||
 				mention.getGender().equals(Gender.FEMALE)) {
@@ -151,11 +172,14 @@ public class SieveUtilities {
 		}
 		return false;
 	}
-
+	
+	/**
+	 * Checks if the mention is a relative pronoun and
+	 * modifies the antecedent.
+	 * @param pair PairInstance of mention, antecedent
+	 * @return true or false
+	 */
 	boolean isRelativePronoun(PairInstance pair) {
-		/**
-		 * Checks if the mention modifies the antecedent.
-		 */
 		Mention mention = pair.getAnaphor();
 		Mention antecedent = pair.getAntecedent();
 		Markable m1 = mention.getMarkable();
@@ -186,7 +210,7 @@ public class SieveUtilities {
 				gender = Gender.PLURAL;
 			}
 			int word_distance = m1.getLeftmostDiscoursePosition() - m2.getRightmostDiscoursePosition();
-			// word distance = 3 means there is one word in between
+			// word distance = 3 means there is one word between mention and antecedent
 			if (word_distance <= 3 && gender.equals(antecedent.getGender())) {
 				System.out.println(String.format("RELATIVE PRONOUN! %s and %s (Distance: %d, Gender: %s)",
 						mention.getMarkable().getID(), antecedent.getMarkable().getID(), word_distance, antecedent.getGender()));
@@ -195,21 +219,26 @@ public class SieveUtilities {
 		}
 		return false;
 	}
-	
+	/**
+	 * Checks if one mention is an acronym of the other mention
+	 * and vice versa.
+	 * @param pair PairInstance of mention, antecedent
+	 * @return true or false;
+	 */
 	boolean isAcronym(PairInstance pair) {
-		/**
-		 * Checks if one mention is an acronym of the other mention
-		 * and vice versa.
-		 */
 		String mention = pair.getAnaphor().toString();
 		String antecedent = pair.getAntecedent().toString();
 		return checkOneWayAcronym(mention, antecedent) || checkOneWayAcronym(antecedent, mention);
 	}
 	
+	/**
+	 * Checks if one string is an acronym of the other string
+	 * @param acronym String thought to be an acronym
+	 * @param expression String whose initials are thought
+	 * to form said acronym
+	 * @return true or false
+	 */
 	boolean checkOneWayAcronym(String acronym, String expression) {
-		/**
-		 * Checks if one string is an acronym of the other string
-		 */
 		if (acronym.toUpperCase().equals(acronym)) {
 			String initials = "";
 			for (String word : expression.split(" ")) {
@@ -222,13 +251,15 @@ public class SieveUtilities {
 		}
 		return false;
 	}
-
+	
+	/**
+	 * Check if one expression is a demonym of the other using
+	 * a static list of countries and their gentilic forms from
+	 * Wikipedia
+	 * @param pair PairInstance of mention, antecedent
+	 * @return true or false
+	 */
 	boolean isDemonym(PairInstance pair) {
-		/**
-		 * Check if one expression is a demonym of the other using
-		 * a static list of countries and their gentilic forms from
-		 * Wikipedia
-		 */
 		String mention = pair.getAnaphor().toString();
 		String antecedent = pair.getAntecedent().toString();
 		String mention_lookup = langPlugin.lookupAlias(mention, TableName.DemonymMap);
