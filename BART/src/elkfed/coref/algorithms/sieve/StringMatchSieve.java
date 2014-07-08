@@ -1,8 +1,5 @@
 package elkfed.coref.algorithms.sieve;
 
-
-
-
 import java.util.List;
 
 import elkfed.coref.PairInstance;
@@ -14,8 +11,6 @@ import elkfed.mmax.minidisc.Markable;
 import elkfed.coref.features.pairs.FE_DistanceSentence;
 import elkfed.coref.features.pairs.FE_Pronominal_StrMatch;
 
-
-
 /**
 *
 * @author xkuehling
@@ -25,7 +20,6 @@ import elkfed.coref.features.pairs.FE_Pronominal_StrMatch;
 public class StringMatchSieve extends Sieve {
 	
 	private List<Mention> potentialAntecedents;
-	private String name;
 	
 	StringMatchSieve(List<Mention> potentialAntecedents){
 		this.potentialAntecedents = potentialAntecedents;	
@@ -59,14 +53,4 @@ public class StringMatchSieve extends Sieve {
 		}
 		return ante_idx;
 	}
-	
-	public void compareEntities(Mention mention, Mention potAnt){
-		
-	}
-
-	@Override
-	public String getName() {
-		return this.name;
-	}
-
 }

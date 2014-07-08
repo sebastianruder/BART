@@ -1,18 +1,14 @@
 package elkfed.coref.algorithms.sieve;
 
 import java.util.List;
-import java.util.Set;
 
 import elkfed.coref.PairInstance;
-import elkfed.coref.discourse_entities.DiscourseEntity;
 import elkfed.coref.mentions.Mention;
 
 public class ProperHeadNounMatchSieve extends Sieve {
 
 	private static final SieveUtilities s = new SieveUtilities();
-	private String name;
 	private List<Mention> mentions;
-	
 
 	public ProperHeadNounMatchSieve(List<Mention> mentions) {
 		this.mentions = mentions;
@@ -33,13 +29,6 @@ public class ProperHeadNounMatchSieve extends Sieve {
 				}
 			}
 		}	
-			return ante_idx;
-		
-		}	
-
-	@Override
-	public String getName() {
-		return this.name;
+		return ante_idx;
 	}
-
 }

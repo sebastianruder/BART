@@ -9,12 +9,10 @@ public class StrictHeadMatchBSieve extends Sieve {
 	private static final SieveUtilities s = new SieveUtilities();
 
 	private List<Mention> potentialAntecedents;
-	private String name;
 
 	public StrictHeadMatchBSieve(List<Mention> potentialAntecedents) {
 		this.potentialAntecedents = potentialAntecedents;
 		this.name = "StrictHeadMatchBSieve";
-
 	}
 
 	@Override
@@ -38,10 +36,4 @@ public class StrictHeadMatchBSieve extends Sieve {
 		
 		return ante_idx;
 	}
-
-	@Override
-	public String getName() {
-		return this.name;
-	}
-
 }

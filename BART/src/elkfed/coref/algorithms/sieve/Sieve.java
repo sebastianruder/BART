@@ -1,7 +1,5 @@
 package elkfed.coref.algorithms.sieve;
 
-import java.util.List;
-
 import elkfed.coref.mentions.Mention;
 
 /**
@@ -12,17 +10,16 @@ import elkfed.coref.mentions.Mention;
 
 public abstract class Sieve {
 	
-	
+	String name;
 	
 	int runSieve(Mention mention){
 		return -1;
 	}
 	
-	
-
 	void compareEntities() {	
 	}
-	abstract String getName();
 	
-
+	String getName() {
+		return this.name; 
+	}
 }

@@ -18,7 +18,6 @@ import elkfed.coref.mentions.Mention;
 public class RelaxedStringMatchSieve extends Sieve {
 
 	private List<Mention> antecedents;
-	private String name;
 	
 	public RelaxedStringMatchSieve(List<Mention> mentions) {
 		this.antecedents = mentions;
@@ -36,10 +35,5 @@ public class RelaxedStringMatchSieve extends Sieve {
 			}
 		}
 		return ante_idx;
-	}
-
-	@Override
-	public String getName() {
-		return this.name;
 	}
 }

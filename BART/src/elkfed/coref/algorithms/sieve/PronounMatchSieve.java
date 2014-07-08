@@ -1,37 +1,22 @@
 package elkfed.coref.algorithms.sieve;
 
-
-
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
-import java.util.NavigableMap;
-import java.util.TreeMap;
 
-import elkfed.coref.features.pairs.FE_DistanceMarkable;
-import elkfed.coref.features.pairs.FE_PronounLeftRight;
 import elkfed.coref.features.pairs.FE_SentenceDistance;
-import elkfed.coref.features.pairs.FE_Number;
-import elkfed.coref.features.pairs.FE_Gender;
 import elkfed.coref.PairInstance;
 import elkfed.coref.mentions.Mention;
-import elkfed.knowledge.SemanticClass;
-import elkfed.ml.TriValued;
 
 public class PronounMatchSieve extends Sieve {
 	
 	private static final SieveUtilities s = new SieveUtilities();
-	private String name;
 	private List<Mention> mentions;
-	
-	
 
 	public PronounMatchSieve(List<Mention> mentions) {
 		this.mentions = mentions;
 		this.name = "PronounMatchSieve";
 	}
 		
-	
 	// sieve still misses pronoun-pronoun-linking ( = one pronoun in speech)
 		
 	public int runSieve(Mention mention){
@@ -84,16 +69,8 @@ public class PronounMatchSieve extends Sieve {
 					}
 				}
 			}	
-		}	
-				
+		}		
 		
 		return ante_idx;
-		}
-
-
-	@Override
-	String getName() {
-		return this.name;
-	}	
-
+	}
 }

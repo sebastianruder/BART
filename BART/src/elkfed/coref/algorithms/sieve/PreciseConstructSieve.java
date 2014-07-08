@@ -71,7 +71,6 @@ public class PreciseConstructSieve extends Sieve {
 	
 	// list of antecedents/potential coreferents
 	private List<Mention> mentions;
-	private String name;
 	
 	public PreciseConstructSieve(List<Mention> mentions) {
 		this.mentions = mentions;
@@ -88,17 +87,9 @@ public class PreciseConstructSieve extends Sieve {
 			pair = new PairInstance(mention, mentions.get(idx));
 			if (s.isAppositive(pair) || s.isPredicateNominative(pair) || s.isRoleAppositive(pair) || s.isRelativePronoun(pair)
 					|| s.isAcronym(pair) || s.isDemonym(pair)){
-				// articles are still matched; needs to be fixed
-				if (!(mention.getPronoun())) {
-					ante_idx = idx;
-				}
+				ante_idx = idx;
 			}
 		}
 		return ante_idx;
-	}
-
-	@Override
-	public String getName() {		
-		return this.name;
 	}
 }

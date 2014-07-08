@@ -9,7 +9,6 @@ public class StrictHeadMatchCSieve extends Sieve {
 	private static final SieveUtilities s = new SieveUtilities();
 
 	private List<Mention> potentialAntecedents;
-	private String name;
 	
 	public StrictHeadMatchCSieve(List<Mention> potentialAntecedents) {
 		this.potentialAntecedents = potentialAntecedents;
@@ -36,10 +35,4 @@ public class StrictHeadMatchCSieve extends Sieve {
 		//System.out.println(potentialAntecedents.get(ante_idx));
 		return ante_idx;
 	}
-
-	@Override
-	public String getName() {
-		return this.name;
-	}
-
 }

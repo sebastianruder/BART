@@ -6,14 +6,9 @@ import java.util.List;
  * @author julianbaumann
  */
 
-
-
-
-
 /*
  * ToDo:  Proper WordInclusion with removed StopWords, modificator match,  i within i
  */
-import elkfed.coref.features.pairs.FE_StringMatch;
 import elkfed.coref.mentions.Mention;
 
 public class StrictHeadMatchASieve extends Sieve {
@@ -21,7 +16,6 @@ public class StrictHeadMatchASieve extends Sieve {
 	private static final SieveUtilities s = new SieveUtilities();
 	
 	private List<Mention> potentialAntecedents;
-	private String name;
 	
 	public StrictHeadMatchASieve(List<Mention> potentialAntecedents) {
 		this.potentialAntecedents = potentialAntecedents;
@@ -52,12 +46,6 @@ public int runSieve(Mention mention){
 				
 			}
 		}
-		
 		return ante_idx;
 	}
-
-@Override
-public String getName() {
-	return this.name;
-}
 }
