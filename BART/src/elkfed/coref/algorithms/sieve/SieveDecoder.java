@@ -1,8 +1,12 @@
 package elkfed.coref.algorithms.sieve;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.TreeSet;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -46,10 +50,33 @@ public class SieveDecoder implements CorefResolver {
         // counts number of walk_throughs
         for (int walk_through = 1; walk_through < 11; walk_through++) {
         	// PronounMatchSieve doesn't work yet
+        	/*
         	if (!(walk_through == 7)) {
         		continue;
         	}
+        	*/
         	// iterates over mentions
+        	
+        	/*
+        	
+        	Set<DiscourseEntity> de_set = new HashSet<DiscourseEntity>();
+        	
+        	for (int i = 0; i < mentions.size(); i++) {
+        		DiscourseEntity de = mentions.get(i).getDiscourseEntity();
+        		de_set.add(de);
+        	}
+        	
+        	Set<Mention> first_mention_set = new TreeSet<Mention>();
+        	
+        	for (DiscourseEntity de : de_set) {
+        		Mention first_mention = de.getFirstMention();  
+        		first_mention_set.add(first_mention);
+        	}     	
+        	
+        	for (Mention mention : first_mention_set)
+        	
+        	*/
+        	
 		    for (int i = 0; i < mentions.size(); i++) {
 		    	/* puts singletons in a single disjoint set
 		    	   --> confirm with Yannick
