@@ -10,4 +10,9 @@ public class SpeakerIdentificationSieve extends Sieve {
 		this.mentions = mentions;
 		this.name = "SpeakerIdentificationSieve";
 	}
+
+	@Override
+	int runSieve(Mention mention) {
+		return -1;
+	}
 }

@@ -10,4 +10,9 @@ public class RelaxedHeadMatchSieve extends Sieve {
 		this.mentions = mentions;
 		this.name = "RelaxedHeadMatchSieve";
 	}
+
+	@Override
+	int runSieve(Mention mention) {
+		return -1;
+	}
 }

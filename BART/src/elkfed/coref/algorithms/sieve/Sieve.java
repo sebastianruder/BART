@@ -19,14 +19,18 @@ public abstract class Sieve {
 	protected List<Mention> mentions;
 	
 	/**
-	 * Looks 
-	 * @param mention
-	 * @return
+	 * Abstract method that uses the particular rules of a sieve
+	 * to look for an antecedent for mention in the list of mentions
+	 * that was provided to the sieve. 
+	 * @param mention the mention whose antecedent is sought
+	 * @return index of antecedent; -1 if no antecedent is found
 	 */
-	int runSieve(Mention mention){
-		return -1;
-	}
+	abstract int runSieve(Mention mention);
 	
+	/**
+	 * Returns name of sieve
+	 * @return name of the sieve
+	 */
 	String getName() {
 		return this.name; 
 	}
