@@ -43,7 +43,7 @@ public class TueBaDZHeadFinder extends AbstractCollinsHeadFinder {
     nonTerminalInfo.put("TOP", new String[][]{{left, "SIMPX"},{left,"NX"},{left,"P"},{left,"PX","ADVX"},{left,"EN","EN_ADD","ENADD"},{left}}); // we'll arbitrarily choose the leftmost.  Using TOP now for ROOT
 
     nonTerminalInfo.put("PX", new String[][]{{left, "APPR", "APPRART","PX"}});
-    nonTerminalInfo.put("NX", new String[][]{{right, "NX"},{right,"NE","NN"},{right,"EN","EN_ADD","ENADD","FX"},{right,"ADJX","PIS","ADVX"},{right,"CARD","TRUNC"},{right}});
+    nonTerminalInfo.put("NX", new String[][]{{left, "NX"},{right,"NE","NN"},{right,"EN","EN_ADD","ENADD","FX"},{right,"ADJX","PIS","ADVX"},{right,"CARD","TRUNC"},{right}});
     nonTerminalInfo.put("FX", new String[][]{{right, "FM","FX"}}); // junk rule for junk category :)
     nonTerminalInfo.put("ADJX", new String[][]{{right, "ADJX","ADJA","ADJD"},{right}});
     nonTerminalInfo.put("ADVX", new String[][]{{right, "ADVX", "ADV"}}); // what a nice category!
