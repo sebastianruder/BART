@@ -46,7 +46,9 @@ import elkfed.nlp.util.Gender;
 public class DiscourseEntity {
 	
 	private static int nextID = 0;
-	private int ID;	
+	private int ID;
+	
+	private boolean firstMention_isFirstMention;
 	
 	private TreeSet<Mention> mentions;
     private Set<String> words;
@@ -138,5 +140,7 @@ public class DiscourseEntity {
 	    return w.toString();
 	}
 	
-
+	public void set_firstMention_isFirstMention(boolean isFirstMention) {
+	        firstMention_isFirstMention = isFirstMention;
+	    }
 }
