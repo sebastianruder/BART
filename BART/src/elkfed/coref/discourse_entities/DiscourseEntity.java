@@ -138,7 +138,5 @@ public class DiscourseEntity {
 	    return w.toString();
 	}
 	
-	public void set_firstMention_isFirstMention(boolean isFirstMention) {
-	        firstMention_isFirstMention = isFirstMention;
-	    }
+
 }
