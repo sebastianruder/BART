@@ -49,33 +49,30 @@ public class SieveDecoder implements CorefResolver {
                 mentions.size()));        
         // counts number of walk_throughs
         for (int walk_through = 1; walk_through < 11; walk_through++) {
-        	// PronounMatchSieve doesn't work yet
         	/*
+        	condition to exclude/include specific sieve
         	if (!(walk_through == 7)) {
         		continue;
         	}
         	*/
-        	sieve = _factory.createSieve(walk_through, mentions);
-	    	String sieveName = sieve.getName();      
         	/*
-        	
         	Set<DiscourseEntity> de_set = new HashSet<DiscourseEntity>();
-        	
         	for (int i = 0; i < mentions.size(); i++) {
         		DiscourseEntity de = mentions.get(i).getDiscourseEntity();
         		de_set.add(de);
         	}
-        	
-        	Set<Mention> first_mention_set = new TreeSet<Mention>();
-        	
+        	// needs to be list because sieve requires a list of mentions
+        	List<Mention> first_mention_list = new ArrayList<Mention>();
         	for (DiscourseEntity de : de_set) {
         		Mention first_mention = de.getFirstMention();  
-        		first_mention_set.add(first_mention);
+        		first_mention_list.add(first_mention);
         	}     	
-        	
+        	Collections.sort(first_mention_list)
         	for (Mention mention : first_mention_set)
-        	
         	*/
+        	sieve = _factory.createSieve(walk_through, mentions);
+	    	String sieveName = sieve.getName();  
+        	
 		    for (int i = 0; i < mentions.size(); i++) {
 		    	/* puts singletons in a single disjoint set
 		    	   not relevant for MUC scorer, maybe for others
@@ -83,7 +80,7 @@ public class SieveDecoder implements CorefResolver {
 		    	  		clusters.union(mentions.get(i), mentions.get(i)); } */
 	    		int ante_idx = sieve.runSieve(mentions.get(i));
 		    	if (ante_idx==-1) {
-		           _scorer.scoreNonlink(mentions,i); 
+		           _scorer.scoreNonlink(mentions,i);
 		        }
 		    	else {
 		    		
