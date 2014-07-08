@@ -55,7 +55,8 @@ public class SieveDecoder implements CorefResolver {
         		continue;
         	}
         	*/
-        	/*
+        	
+        	/* List of first mentions is used instead of all mentions
         	Set<DiscourseEntity> de_set = new HashSet<DiscourseEntity>();
         	for (int i = 0; i < mentions.size(); i++) {
         		DiscourseEntity de = mentions.get(i).getDiscourseEntity();
@@ -67,9 +68,11 @@ public class SieveDecoder implements CorefResolver {
         		Mention first_mention = de.getFirstMention();  
         		first_mention_list.add(first_mention);
         	}     	
-        	Collections.sort(first_mention_list)
-        	for (Mention mention : first_mention_set)
+        	Collections.sort(first_mention_list);
+        	
+        	mentions = first_mention_list;
         	*/
+        	
         	sieve = _factory.createSieve(walk_through, mentions);
 	    	String sieveName = sieve.getName();  
         	
