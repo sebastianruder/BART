@@ -55,8 +55,8 @@ public class SieveDecoder implements CorefResolver {
         		continue;
         	}
         	*/
-        	// iterates over mentions
-        	
+        	sieve = _factory.createSieve(walk_through, mentions);
+	    	String sieveName = sieve.getName();      
         	/*
         	
         	Set<DiscourseEntity> de_set = new HashSet<DiscourseEntity>();
@@ -76,17 +76,12 @@ public class SieveDecoder implements CorefResolver {
         	for (Mention mention : first_mention_set)
         	
         	*/
-        	
 		    for (int i = 0; i < mentions.size(); i++) {
 		    	/* puts singletons in a single disjoint set
-		    	   --> confirm with Yannick
+		    	   not relevant for MUC scorer, maybe for others
 		    	  if (ConfigProperties.getInstance().getOutputSingletons()) {
 		    	  		clusters.union(mentions.get(i), mentions.get(i)); } */
-		    	sieve = _factory.createSieve(walk_through, mentions);
-		    	String sieveName = sieve.getName();
-		    	
-	    		int ante_idx = sieve.runSieve(mentions.get(i));		    		
-	    		
+	    		int ante_idx = sieve.runSieve(mentions.get(i));
 		    	if (ante_idx==-1) {
 		           _scorer.scoreNonlink(mentions,i); 
 		        }
