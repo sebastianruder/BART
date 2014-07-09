@@ -42,11 +42,11 @@ werden.
 Relevante Dateien im _repository_:
 
 * [src/elkfed/coref](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref)
-⋅⋅⋅Hier befindet sich das Interface [CorefResolver](src/elkfed/coref)
+  Hier befindet sich das Interface [CorefResolver](src/elkfed/coref)
 * [src/elkfed/coref/algorithms/sieve](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/algorithms/sieve)
-⋅⋅⋅Hier befinden sich alle Siebklassen und -methoden
+  Hier befinden sich alle Siebklassen und -methoden
 * [src/elkfed/coref/algorithms/soon](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/algorithms/soon)
-⋅⋅⋅Hier befinden sich die verschiedenen Soon-Algorithmen von BART
+  Hier befinden sich die verschiedenen Soon-Algorithmen von BART
 * 
 		coref/
 		Hier ist das Interface CorefResolver
