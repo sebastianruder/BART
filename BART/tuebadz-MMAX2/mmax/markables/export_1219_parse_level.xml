@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN RANDALE)))"/>
+<markable id="markable_16" span="word_2..word_4" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NN Angriffe)) (PX (APPR auf) (NX (NN Asylheim)))))"/>
+<markable id="markable_79" span="word_5..word_30" mmax_level="parse" orderid="3" tag="(Start (NX (NE Calau)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (ART Das) (NN AsylbewerberInnenheim)) (PX (APPR in) (NX (NX (NE Vetschau)) (\$-LRB- -LRB-) (NX (NX (NN Kreis)) (NX (NE Calau))))))) (\$-LRB- -RRB-) (LK (VXFIN (VAFIN wurde))) (MF (PX (APPR in) (NX (NX (ART der) (NN Nacht)) (PX (PX (APPR von) (NX (NN Mittwoch))) (PX (APPR auf) (NX (NN Donnerstag)))))) (ADVX (ADV zweimal)) (PX (APPR von) (NX (NN Jugendlichen)))) (VC (VXINF (VVPP angegriffen)))) (\$\. \.))"/>
+<markable id="markable_102" span="word_31..word_39" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (APPR Nach) (NX (NN Polizeiangaben)))) (LK (VXFIN (VVFIN gingen))) (MF (PX (PROP dabei)) (NX (PIAT mehrere) (NN Fensterscheiben)) (PX (APPR zu) (NX (NN Bruch))))) (\$\. \.))"/>
+<markable id="markable_122" span="word_40..word_47" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (ART Einen) (ADJX (ADJA erneuten)) (NN Angriff))) (LK (VXFIN (VMFIN konnten))) (MF (NX (ART die) (NN AusländerInnen))) (VC (VXINF (VVINF verhindern)))) (\$\. \.))"/>
+</markables>

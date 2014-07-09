@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN ReiseNotizen)))"/>
+<markable id="markable_10" span="word_2" mmax_level="parse" orderid="2" tag="(Start (NX (NN Sammeln)))"/>
+<markable id="markable_61" span="word_3..word_23" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NX (NX (NN Briefmarken)) (KON und) (NX (NN Postkarten))) (PX (APPRART zum) (NX (NX (NN Thema)) (NX (NX (NN Tourismus)) (\$\, \,) (NX (NN Sehenswürdigkeiten)) (KON und) (NX (NN Souvenirs))))))) (LK (VXFIN (VVFIN bilden))) (MF (NX (NX (NX (ART eine) (NN Sonderausstellung)) (NX (ART des) (NX (NE National) (NE Philatelic) (NE Centre)))) (PX (APPRART im) (NX (ADJX (ADJA australischen)) (NE Melbourne)))))) (\$\. \.))"/>
+<markable id="markable_128" span="word_24..word_51" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (NX (ART Die) (NN Schau)) (\$\, \,) (R-SIMPX (C (NX (PRELS die))) (MF (PX (APPR bis) (PX (APPRART zum) (NX (ADJX (ADJA 26\.)) (NN November))))) (VC (VXINF (PTKZU zu) (VVINF sehen)) (VXFIN (VAFIN ist)))))) (\$\, \,) (LK (VXFIN (VMFIN soll))) (MF (ADVX (ADV auch)) (NX (NX (NX (ART das) (NN Zusammentreffen)) (NX (ADJX (ADJA fremder)) (NN Kulturen))) (KON und) (NX (NX (NX (ART die) (NN Auswirkungen)) (NX (ART des) (NN Tourimsus))) (PX (APPR auf) (NX (ADJX (ADJA fremde)) (NN Länder)))))) (VC (VXINF (VVINF zeigen)))) (\$\. \.))"/>
+<markable id="markable_133" span="word_52" mmax_level="parse" orderid="5" tag="(Start (NX (NE tdt)))"/>
+</markables>

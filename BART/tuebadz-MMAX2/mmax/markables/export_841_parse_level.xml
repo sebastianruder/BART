@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Haschisch-Handel)))"/>
+<markable id="markable_59" span="word_2..word_23" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (PX (APPR Wegen) (NX (NX (NN Handels)) (PX (APPR mit) (NX (NX (ADVX (ADV insgesamt)) (ADJX (CARD 116)) (NN Kilogramm)) (NX (NN Haschisch))))))) (LK (VXFIN (VAFIN hat))) (MF (NX (ART das) (ADJX (ADJA Kieler)) (NN Landgericht)) (ADVX (ADV gestern)) (NX (NX (ART einen) (NN 38jährigen)) (PX (APPR aus) (NX (NE Neumünster)))) (PX (APPR zu) (NX (NX (ADJX (CARD sieben)) (NN Jahren)) (NX (NN Haft))))) (VC (VXINF (VVPP verurteilt)))) (\$\. \.))"/>
+<markable id="markable_122" span="word_24..word_50" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (ART Der) (NX (NX (ADJX (ADJA gelernte)) (NN Maschinenbauer)) (KON und) (NX (ADJX (ADJA frühere)) (NN Seemann))))) (LK (VXFIN (VAFIN hatte))) (VC (VXINF (VVPP gestanden))) (\$\, \,) (NF (SIMPX (MF (NX (ART das) (NN Rauschgift)) (PX (APPR zwischen) (NX (NX (NX (NN Sommer)) (NX (CARD 1995))) (KON und) (NX (NX (NN Winter)) (NX (CARD 1996))))) (PX (APPR aus) (NX (NE Holland))) (PX (APPR mit) (NX (NX (NN Hilfe)) (PX (APPR von) (NX (NN Kurieren)))))) (VC (VXINF (VVPP eingeschmuggelt)) (VXINF (PTKZU zu) (VAINF haben)))))) (\$\. \.))"/>
+</markables>

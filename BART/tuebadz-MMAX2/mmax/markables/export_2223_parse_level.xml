@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Korea)))"/>
+<markable id="markable_17" span="word_2..word_5" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NN Tod)) (PX (APPR an) (NX (ART der) (NN Grenze)))))"/>
+<markable id="markable_61" span="word_6..word_23" mmax_level="parse" orderid="3" tag="(Start (NX (NE Seoul)) (\$-LRB- -LRB-) (NX (NE AFP)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (ADJX (ADJA Südkoreanische)) (NN Grenzsoldaten))) (LK (VXFIN (VAFIN haben))) (MF (ADVX (ADV gestern)) (PX (APPR nahe) (NX (ART der) (NN Waffenstillstandslinie))) (NX (NX (ART einen) (ADJX (ADJA mutmaßlichen)) (NN Agenten)) (NX (NE Nordkoreas)))) (VC (VXINF (VVPP erschossen)))) (\$\. \.))"/>
+<markable id="markable_84" span="word_24..word_32" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (NX (NX (NN Polizei)) (KON und) (NX (NN Grenztruppen))) (NX (NE Südkoreas)))) (LK (VXFIN (VAFIN wurden))) (MF (PX (APPR in) (NX (NN Alarmbereitschaft)))) (VC (VXINF (VVPP versetzt)))) (\$\. \.))"/>
+</markables>

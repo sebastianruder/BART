@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_12" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (SIMPX (MF (PX (APPR Von) (NX (ART der) (NN Tram)))) (VC (VXINF (VVPP erfaßt)))))"/>
+<markable id="markable_49" span="word_5..word_19" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (ART Ein) (ADJX (ADJA 34jähriger)) (NN Mann))) (LK (VXFIN (VAFIN wurde))) (FKOORD (FKONJ (MF (ADVX (ADVX (ADV gestern)) (ADVX (ADV vormittag))) (PX (APPR von) (NX (ART der) (NN Straßenbahn)))) (VC (VXINF (VVPP erfaßt)))) (KON und) (FKONJ (MF (NX (PIAT mehrere) (NN Meter))) (VC (VXINF (VVPP mitgeschleift)))))) (\$\. \.))"/>
+<markable id="markable_86" span="word_20..word_34" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (PPER Er))) (LK (VXFIN (VAFIN war))) (MF (PX (APPR an) (NX (NX (NX (ART der) (NN Haltestelle)) (NX (NN Meyerstraße))) (\$-LRB- -LRB-) (NX (NE Neustadt)))) (\$-LRB- -RRB-) (PX (APPRART beim) (NX (NX (NN Überqueren)) (NX (ART der) (NN Straße))))) (VC (VXINF (VVPP gestolpert)))) (\$\. \.))"/>
+<markable id="markable_112" span="word_35..word_44" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (APPR Mit) (NX (ADJX (ADJA lebensgefährlichen)) (NN Kopfverletzungen)))) (LK (VXFIN (VAFIN wurde))) (MF (NX (ART der) (NN Mann)) (PX (APPRART ins) (NX (NN Krankenhaus)))) (VC (VXINF (VVPP eingeliefert)))) (\$\. \.))"/>
+<markable id="markable_117" span="word_45" mmax_level="parse" orderid="5" tag="(Start (NX (NE taz)))"/>
+</markables>

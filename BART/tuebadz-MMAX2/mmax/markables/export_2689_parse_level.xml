@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (SIMPX (MF (NX (NN Holocaust-Denkmal)) (ADVX (ADV erneut))) (VC (VXINF (VVPP geschändet)))))"/>
+<markable id="markable_73" span="word_4..word_29" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (PX (ADVX (ADV Bereits)) (APPRART zum) (NX (NX (ADJX (ADJA vierten)) (NN Mal)) (PX (APPR binnen) (NX (ADJX (CARD drei)) (NN Wochen)))))) (LK (VXFIN (VAFIN haben))) (MF (NX (NN Unbekannte)) (NX (NX (NX (ART das) (NN Holocaust-Mahnmal)) (NX (NX (ART des) (ADJX (PX (APPR aus) (NX (NE England))) (ADJA stammenden)) (NN Künstlers)) (NX (NE Stuart) (NE Wolfe)))) (PX (APPR vor) (NX (NX (ART der) (NN Ruine)) (NX (ART des) (ADJX (ADJA Anhalter)) (NN Bahnhofs)))))) (VC (VXINF (VVPP geschändet)))) (\$\. \.))"/>
+<markable id="markable_117" span="word_30..word_48" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (ADVX (ADV Erneut))) (LK (VXFIN (VAFIN wurden))) (MF (NX (NX (ADJX (CARD drei))) (NX (ART der) (ADVX (ADV insgesamt)) (ADJX (CARD sechzehn)) (ADJX (PX (APPR zu) (NX (ART dem) (NN Kunstwerk))) (ADJA gehörenden)) (NN Figuren)))) (VC (VXINF (VVPP umgestoßen))) (\$\, \,) (NF (SIMPX (C (KOUS wie)) (MF (NX (ART die) (NN Polizei)) (ADVX (ADV gestern))) (VC (VXFIN (VVFIN mitteilte)))))) (\$\. \.))"/>
+<markable id="markable_138" span="word_49..word_57" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (ADVX (ADV Bisher))) (LK (VXFIN (VAFIN waren))) (MF (NX (NX (ADJX (CARD acht))) (NX (ART der) (ADJX (ADJA mannshohen)) (NN Plastiken)))) (VC (VXINF (VVPP beschädigt)) (VXINF (VAPP worden)))) (\$\. \.))"/>
+<markable id="markable_143" span="word_58" mmax_level="parse" orderid="5" tag="(Start (NX (NE AP)))"/>
+</markables>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (NX (PIAT Kein) (NN Gefühl)))"/>
+<markable id="markable_39" span="word_3..word_15" mmax_level="parse" orderid="2" tag='(Start (SIMPX (VF (NX (NX (ART Dem) (NN Thema)) (\$-LRB- \") (NX (NN Gefühle)))) (\$-LRB- \") (LK (VXFIN (VMFIN will))) (MF (NX (ART das) (ADJX (ADJA umtriebige)) (NE Kito)) (NX (ADJX (ADJA neue)) (NN Aktualität))) (VC (VXINF (VVINF zufächeln)))) (\$\. \.))'/>
+<markable id="markable_109" span="word_16..word_46" mmax_level="parse" orderid="3" tag='(Start (SIMPX (SIMPX (VF (NX (ART Ein) (ADJX (ADJA entsprechendes)) (\$-LRB- \") (NN Kito-Kolleg))) (\$-LRB- \") (LK (VXFIN (VAFIN ist))) (VC (VXINF (VVPP angekündigt)))) (\$\, \,) (KON aber) (SIMPX (VF (NX (ART die) (ADJX (PX (APPR für) (ADVX (ADV heute))) (ADJA geplante)) (NN Auftaktveranstaltung))) (LK (VXFIN (VMFIN muß))) (MF (PX (APPR wegen) (NX (NX (NN Erkrankung)) (NX (ART des) (NN Referenten))))) (\$-LRB- -LRB-) (NX (NX (NN Thema)) (\$\. \:) (\$-LRB- \") (NX (NX (ART Die) (NN Austreibung)) (PX (APPR von) (NX (NN Leidenschaften))))) (\$-LRB- \") (\$-LRB- -RRB-) (VC (VXINF (VVINF ausfallen))))) (\$\. \.))'/>
+<markable id="markable_138" span="word_47..word_58" mmax_level="parse" orderid="4" tag="(Start (NX (ADJX (ADJA Nächster)) (NN Termin)) (\$\. \:) (NX (ART der) (ADJX (ADJA 2\.)) (ADJX (ADJA 11\.))) (\$\. \;) (SIMPX (VF (ADVX (ADV dann))) (LK (VXFIN (VVFIN fragt))) (MF (NX (ART das) (NE Kito)))) (\$\. \:))"/>
+<markable id="markable_156" span="word_59..word_65" mmax_level="parse" orderid="5" tag='(Start (\$-LRB- \") (SIMPX (MF (NX (NN Freude)) (PX (APPR aus) (NX (NN Verunsicherungen)))) (VC (VXINF (VVINF schöpfen)))) (\$\. \?) (\$-LRB- \"))'/>
+</markables>

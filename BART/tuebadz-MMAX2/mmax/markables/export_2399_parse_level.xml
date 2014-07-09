@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Prozeß)))"/>
+<markable id="markable_13" span="word_2..word_3" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NN Polizisten))) (LK (VXFIN (VVFIN schweigen)))))"/>
+<markable id="markable_75" span="word_4..word_28" mmax_level="parse" orderid="3" tag="(Start (NX (NX (NE Frankfurt)) (\$-LRB- \/) (NX (NE O\.))) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (ADJX (CARD Zwei)) (NN Polizisten))) (LK (VXFIN (VMFIN müssen))) (MF (NX (PRF sich)) (PX (APPR seit) (ADVX (ADV gestern))) (PX (APPR vor) (NX (NX (ART dem) (NN Landgericht)) (PX (APPR in) (NX (NX (NE Frankfurt)) (\$-LRB- \/) (NX (NE Oder)))))) (PX (APPR wegen) (NX (ADJX (ADJA gemeinschaftlichen)) (NN Totschlags)))) (VC (VXINF (VVINF verantworten)))) (\$\. \.))"/>
+<markable id="markable_121" span="word_29..word_47" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (PPER Sie))) (LK (VXFIN (VMFIN sollen))) (FKOORD (FKONJ (MF (PX (APPRART im) (NX (NX (NN Februar)) (NX (CARD 1994)))) (PX (APPR auf) (NX (NX (ART das) (NN Auto)) (PX (APPR von) (NX (ADJX (CARD drei)) (ADJX (ADJA flüchtenden)) (NN Rumänen)))))) (VC (VXINF (VVPP geschossen)))) (KON und) (FKONJ (MF (NX (ART einen) (NN Mann))) (VC (VXINF (VVPP getötet)) (VXINF (VAINF haben)))))) (\$\. \.))"/>
+<markable id="markable_137" span="word_48..word_53" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (PIS Beide))) (LK (VXFIN (VVFIN verweigerten))) (MF (NX (NX (NN Aussagen)) (PX (APPRART zum) (NX (NN Sachverhalt)))))) (\$\. \.))"/>
+</markables>

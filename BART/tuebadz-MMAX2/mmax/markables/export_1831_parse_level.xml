@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (SIMPX (MF (NX (NN Wiese))) (VC (VXINF (VVPP gesucht)))))"/>
+<markable id="markable_69" span="word_3..word_26" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (ART Die) (NN Bauwagen-Frauen)) (\$\, \,) (R-SIMPX (C (NX (PRELS die))) (MF (ADVX (ADV derzeit)) (PX (APPRART am) (NX (NN Hagenweg)))) (VC (VXFIN (VVFIN stehen)))))) (\$\, \,) (LK (VXFIN (VVFIN suchen))) (MF (ADJX (ADJD dringend)) (PX (APPR nach) (NX (ART einer) (NN Wiese)))) (\$\, \,) (NF (R-SIMPX (C (PX (APPR für) (NX (PRELS die)))) (MF (NX (PPER sie)) (ADVX (ADV natürlich)) (ADVX (ADV auch)) (NX (NN Pacht))) (VC (VXINF (VVINF zahlen)) (VXFIN (VAFIN würden)))))) (\$\. \.))"/>
+<markable id="markable_88" span="word_27..word_33" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (VC (VXINF (VVPP Unterstützt)))) (LK (VXFIN (VAFIN werden))) (MF (NX (PPER sie)) (PX (APPR von) (NX (ART den) (NN Grünen))))) (\$\. \:))"/>
+<markable id="markable_132" span="word_34..word_52" mmax_level="parse" orderid="4" tag='(Start (\$-LRB- \") (SIMPX (VF (SIMPX (VF (NX (ADVX (ADV Gerade)) (ADJX (ADJA junge)) (NN Mneschen))) (LK (VXFIN (VVFIN brauchen))) (MF (NX (ART die) (NN Chance))) (\$\, \,) (NF (SIMPX (MF (NX (NN Ungewöhnliches))) (VC (VXINF (VVIZU auszuprobieren))))))) (\$-LRB- \") (\$\, \,) (LK (VXFIN (VVFIN sagen))) (MF (NX (NX (NE Karoline) (NE Linnert)) (KON und) (NX (NE Maria) (NE Spieker))))) (\$\. \.))'/>
+<markable id="markable_152" span="word_53..word_60" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (NN Angebote))) (LK (VXFIN (VVFIN nimmt))) (MF (NX (NX (ART die) (NN Landesfrauenbeauftragte)) (NX (NE Ulrike) (NE Hauffe)))) (VC (PTKVZ entgegen))) (\$\. \.))"/>
+<markable id="markable_157" span="word_61" mmax_level="parse" orderid="6" tag="(Start (NX (NE taz)))"/>
+</markables>

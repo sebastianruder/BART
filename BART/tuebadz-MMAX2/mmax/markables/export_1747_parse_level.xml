@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (NX (ADJX (ADJA Wahres)) (NN Rätsel)))"/>
+<markable id="markable_23" span="word_3..word_8" mmax_level="parse" orderid="2" tag="(Start (NX (NN Lösungswort)) (NX (NX (ADJX (ADJA 7\.)) (ADJX (ADJA 10\.))) (NX (CARD 1995))) (\$\. \:) (NX (NN HAUFEN)))"/>
+<markable id="markable_63" span="word_9..word_25" mmax_level="parse" orderid="3" tag="(Start (NX (NN GewinnerInnen)) (\$\. \:) (NX (NX (NX (NE Bettina) (NE Lannert)) (\$\, \,) (NX (NE Darmstadt))) (\$\. \;) (NX (NX (NE Lutz) (NE Lesshaft)) (\$\, \,) (NX (NE Karlsruhe))) (\$\. \;) (NX (NX (NE Martin) (NE Tuczek)) (\$\, \,) (NX (NE Karlsruhe)))) (\$\. \.))"/>
+<markable id="markable_94" span="word_26..word_37" mmax_level="parse" orderid="4" tag="(Start (NX (NN Gewinne)) (\$\. \:) (NX (NX (ADJX (CARD Drei)) (NN Bücher)) (NX (NX (ART eines) (NN taz-Autors)) (KON oder) (NX (NX (PIS einer)) (NX (PPOSAT unserer) (ADJX (ADJA beliebten)) (NN AutorInnen))))) (\$\. \.))"/>
+<markable id="markable_132" span="word_38..word_51" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (ART Das) (NN Lösungswort))) (LK (VXFIN (VVFIN findet))) (MF (NX (PPER Ihr))) (\$\, \,) (NF (SIMPX (C (KOUS wenn)) (MF (NX (PPER Ihr)) (NX (NX (ART die) (NN Buchstaben)) (PX (APPR unter) (NX (ART den) (NN Ziffern))))) (VC (VXFIN (VVFIN notiert)))))) (\$\. \.))"/>
+<markable id="markable_183" span="word_52..word_73" mmax_level="parse" orderid="6" tag="(Start (SIMPX (LK (VXFIN (VVIMP Schickt))) (MF (NX (PPER es)) (PX (APPR bis) (PX (APPRART zum) (NX (NX (ADJX (ADJA 18\.)) (ADJX (ADJA 10\.))) (NX (CARD 95))))) (\$-LRB- -LRB-) (NX (NX (NN Datum)) (NX (ART des) (NN Poststempels))) (\$-LRB- -RRB-) (PX (APPR an) (NX (NX (NX (ART die) (NN taz-Wahrheit)) (\$\, \,) (NX (NX (NN Kochstr\.)) (NX (CARD 18)))) (\$\, \,) (NX (NX (CARD 10969)) (NE Berlin)))))) (\$\. \.))"/>
+<markable id="markable_192" span="word_74..word_76" mmax_level="parse" orderid="7" tag="(Start (SIMPX (MF (NX (NN Rechtsweg))) (VC (VXINF (VVPP ausgeschlossen)))) (\$\. \.))"/>
+</markables>

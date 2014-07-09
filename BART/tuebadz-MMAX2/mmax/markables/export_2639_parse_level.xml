@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Aserbaidschan)))"/>
+<markable id="markable_15" span="word_2..word_4" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NN Knast)) (PX (APPR für) (NX (NN Satire)))))"/>
+<markable id="markable_86" span="word_5..word_31" mmax_level="parse" orderid="3" tag="(Start (NX (NE Baku)) (\$-LRB- -LRB-) (NX (NE AP)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (PPOSAT Ihre) (ADJX (ADJA satirischen)) (NN Witze)) (PX (APPR über) (NX (NX (ART den) (ADJX (ADJA aserbaidschanischen)) (NN Präsidenten)) (NX (NE Gaidar) (NE Alijew)))))) (LK (VXFIN (VAFIN haben))) (MF (NX (ADJX (CARD fünf)) (NN Journalisten)) (PX (APPR in) (NX (NE Baku))) (NX (NX (NN Gefängnisstrafen)) (PX (APPR von) (NX (ADJX (ADJX (CARD zwei)) (KON bis) (ADJX (CARD fünf))) (NN Jahren))))) (VC (VXINF (VVPP eingebracht)))) (\$\. \.))"/>
+<markable id="markable_151" span="word_32..word_57" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Ein) (NN Gericht))) (LK (VXFIN (VVFIN entschied))) (MF (ADVX (ADV gestern)) (PX (APPR in) (NX (ART der) (ADJX (ADJA aserbaidschanischen)) (NN Hauptstadt)))) (\$\, \,) (NF (SIMPX (VF (NX (ART die) (ADJX (PX (APPR für) (NX (NX (ART das) (NN Satiremagazin)) (NX (NE Tscheschma)))) (ADJA arbeitenden)) (NN Journalisten))) (LK (VXFIN (VAFIN hätten))) (MF (PX (APPR mit) (NX (PPOSAT ihren) (NX (NX (NN Witzen)) (KON und) (NX (NN Cartoons))))) (NX (ART den) (NN Staatschef))) (VC (VXINF (VVPP beleidigt)))))) (\$\. \.))"/>
+</markables>

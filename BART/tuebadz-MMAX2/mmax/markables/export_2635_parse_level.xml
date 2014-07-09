@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_6" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Südafrika)))"/>
+<markable id="markable_13" span="word_2..word_3" mmax_level="parse" orderid="2" tag="(Start (NX (PIAT Keine) (NN Amnestie)))"/>
+<markable id="markable_68" span="word_4..word_24" mmax_level="parse" orderid="3" tag="(Start (NX (NE Pretoria)) (\$-LRB- -LRB-) (NX (NE AFP)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (NX (NE Südafrikas)) (NN Präsident)) (NX (NE Mandela)))) (LK (VXFIN (VAFIN hat))) (MF (NX (NX (PIAT keine) (NN Amnestie)) (PX (APPR für) (NX (NX (ADJX (ADJA politische)) (NN Straftaten)) (PX (APPR aus) (NX (NX (ART der) (NN Endphase)) (NX (ART des) (NN Apartheid-Regimes)))))))) (VC (VXINF (VVPP zugesagt)))) (\$\. \.))"/>
+<markable id="markable_102" span="word_25..word_38" mmax_level="parse" orderid="4" tag='(Start (SIMPX (VF (NX (ART Die) (ADJX (ADJA rechtsgerichtete)) (\$-LRB- \") (NN Freiheitsfront))) (\$-LRB- \") (LK (VXFIN (VAFIN hatte))) (MF (NX (PRF sich)) (ADJX (ADJD mehrfach)) (PX (APPR für) (NX (ART eine) (ADJX (PIDAT solche)) (NN Regelung)))) (VC (VXINF (VVPP eingesetzt)))) (\$\. \.))'/>
+<markable id="markable_133" span="word_39..word_49" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (NX (PDAT Deren) (NN Führer)) (NX (NE Viljoen)))) (LK (VXFIN (VVFIN traf))) (MF (NX (PRF sich)) (ADVX (ADV gestern)) (PX (APPR mit) (NX (NE Mandela))) (PX (APPR in) (NX (NE Pretoria))))) (\$\. \.))"/>
+<markable id="markable_189" span="word_50..word_71" mmax_level="parse" orderid="6" tag="(Start (SIMPX (VF (NX (NE Mandela))) (LK (VXFIN (VVFIN verwies))) (MF (NX (ART den) (ADJX (ADJA früheren)) (NN Armeechef)) (PX (APPR an) (NX (NX (NN Justizminister)) (NX (NE Omar))))) (\$\, \,) (NF (R-SIMPX (C (NX (PRELS der))) (MF (PX (APPRART am) (NX (NX (NX (ADJX (ADJA 5\.)) (NN Dezember)) (NX (CARD 1993))) (NX (KOKOM als) (NX (NN Stichtag)) (PX (APPR für) (NX (ART eine) (ADJX (ADJA mögliche)) (NN Amnestie))))))) (VC (VXFIN (VVFIN festhält)))))) (\$\. \.))"/>
+</markables>

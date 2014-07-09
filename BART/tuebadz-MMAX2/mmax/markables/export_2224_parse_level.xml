@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Serbien)))"/>
+<markable id="markable_10" span="word_2" mmax_level="parse" orderid="2" tag="(Start (NX (NN Hauskrach)))"/>
+<markable id="markable_59" span="word_3..word_23" mmax_level="parse" orderid="3" tag="(Start (NX (NE Belgrad)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (ART Der) (ADJX (ADJA serbische)) (NN Prasident)) (NX (NE Milosevic)))) (LK (VXFIN (VAFIN hat))) (MF (NX (NX (ART ein) (ADJX (PX (APPR für) (ADVX (ADV gestern))) (ADJA angekündigtes)) (NN Treffen)) (PX (APPR mit) (NX (ART den) (ADJX (ADJA bosnischen)) (NN Serben))))) (VC (VXINF (VVPP abgelehnt)))) (\$\. \.))"/>
+<markable id="markable_76" span="word_24..word_30" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (PDS Das))) (LK (VXFIN (VVFIN berichtete))) (MF (NX (NX (ART die) (ADJX (ADJA Belgrader)) (NN Agentur)) (NX (NE Beta))))) (\$\. \.))"/>
+<markable id="markable_98" span="word_31..word_39" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (ART Die) (NN Delegation))) (LK (VXFIN (VMFIN wollte))) (MF (PX (APPR über) (NX (ART die) (ADJX (ADJA serbisch-serbische)) (NN Zusammenarbeit)))) (VC (VXINF (VVINF verhandeln)))) (\$\. \.))"/>
+</markables>

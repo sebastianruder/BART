@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_6" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Sachsen)))"/>
+<markable id="markable_11" span="word_2" mmax_level="parse" orderid="2" tag="(Start (NX (NN Zugunglück)))"/>
+<markable id="markable_94" span="word_3..word_37" mmax_level="parse" orderid="3" tag="(Start (NX (NX (NE Chemnitz)) (\$-LRB- \/) (NX (NE Gera))) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (PX (APPRART Beim) (NX (NX (NX (NN Zusammenstoß)) (NX (ADJX (ADJA zweier)) (NN Züge))) (PX (APPR in) (NX (NX (ART der) (NN Nähe)) (PX (APPR von) (NX (NX (NE Werdau)) (\$-LRB- -LRB-) (NX (NE Sachsen))))))))) (\$-LRB- -RRB-) (LK (VXFIN (VAFIN sind))) (FKOORD (FKONJ (MF (PX (APPRART am) (NX (NN Montag))) (NX (ART eine) (ADJX (ADJA 55jährige)) (NN Frau))) (VC (VXINF (VVPP getötet)))) (KON und) (FKONJ (MF (NX (ADJX (CARD 16)) (NN Personen)) (PX (APPRART zum) (NX (NN Teil))) (ADJX (ADJD schwer))) (VC (VXINF (VVPP verletzt)) (VXINF (VAPP worden)))))) (\$\. \.))"/>
+</markables>

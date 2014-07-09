@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_14" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (SIMPX (VF (NX (NN Bundestag))) (LK (VXFIN (VVFIN berät))) (MF (PX (APPR über) (NX (NN Holocaust-Mahnmal))))))"/>
+<markable id="markable_76" span="word_5..word_29" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NE Berlin)) (\$-LRB- \/) (NX (NE Bonn))) (\$-LRB- -LRB-) (NX (NE AP)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (ART Der) (NN Bundestag))) (LK (VXFIN (VMFIN will))) (MF (NX (PRF sich)) (ADVX (ADV möglicherweise)) (PX (APPRART am) (NX (NX (ADJX (ADJA nächsten)) (NN Freitag)) (PX (APPR in) (NX (ADJX (ADJA erster)) (NN Lesung))))) (PX (APPR mit) (NX (ART dem) (ADJX (ADJA geplanten)) (ADJX (ADJA Berliner)) (NN Holocaust-Mahnmal)))) (VC (VXINF (VVINF befassen)))) (\$\. \.))"/>
+<markable id="markable_114" span="word_30..word_45" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (ADJX (ADJD Anschließend))) (LK (VXFIN (VMFIN sollen))) (MF (NX (NX (ART die) (ADJX (CARD drei)) (ADJX (ADJA vorliegenden)) (NN Modelle)) (PX (APPR für) (NX (ART das) (NN Denkmal)))) (PX (APPR in) (NX (ART den) (ADJX (ADJA zuständigen)) (NN Ausschüssen)))) (VC (VXINF (VVPP beraten)) (VXINF (VAINF werden)))) (\$\. \.))"/>
+</markables>

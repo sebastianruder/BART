@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_14" span="word_1..word_5" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NE La) (NE Strada)) (\$-LRB- -) (NX (ART das) (NN Straßenmusikerfest))))"/>
+<markable id="markable_107" span="word_6..word_45" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (PX (APPRART Zum) (NX (ADJX (ADJA dritten)) (NN Male)))) (LK (VXFIN (VVFIN findet))) (MF (PX (APPRART am) (NX (NX (NN Samstag)) (\$\, \,) (NX (ADJX (ADJA 11\.)) (ADJX (ADJA 7\.))))) (\$\, \,) (PX (PX (APPR von) (NX (ADJX (CARD 10)))) (PX (APPR bis) (NX (ADJX (CARD 20)) (NN Uhr)))) (PX (APPR auf) (NX (ART dem) (NN Wittenbergplatz))) (\$-LRB- ») (NX (NE La) (NE Strada))) (\$-LRB- «) (VC (PTKVZ statt)) (\$\, \,) (NF (NX (NX (ART ein) (NN Straßenmusikerfest)) (PX (APPR mit) (NX (NX (NN Künstlern)) (\$\, \,) (R-SIMPX (C (NX (PRELS die))) (MF (NX (PIS man)) (ADVX (ADV sonst)) (ADVX (PTKNEG nicht))) (VC (VXINF (VXINF (PTKZU zu) (VVINF sehen)) (KON und) (VXINF (PTKZU zu) (VVINF hören))) (VXFIN (VVFIN bekommt))))))))) (\$\. \.))"/>
+<markable id="markable_139" span="word_46..word_58" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NX (NN Künstler)) (PX (APPR aus) (NX (NX (PIDAT aller) (NN Herren)) (NN Länder))))) (LK (VXFIN (VAFIN werden))) (FKOORD (VC (VXINF (VVINF singen))) (\$\, \,) (VC (VXINF (VVINF tanzen))) (\$\, \,) (FKONJ (MF (NX (NN Pantomime))) (VC (VXINF (VVINF zeigen)))))) (\$\. \.))"/>
+</markables>

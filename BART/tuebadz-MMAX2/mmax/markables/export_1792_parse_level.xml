@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_4" span="word_1" mmax_level="parse" orderid="1" tag="(Start (ADVX (ADV beiseite)))"/>
+<markable id="markable_9" span="word_2" mmax_level="parse" orderid="2" tag="(Start (NX (NN Solidarität)))"/>
+<markable id="markable_27" span="word_3..word_9" mmax_level="parse" orderid="3" tag="(Start (DM (NX (NX (NN Musiktheater)) (NX (PDAT dieser) (NN Stadt)))) (\$\, \,) (SIMPX (LK (VXFIN (VVIMP haltet))) (VC (PTKVZ zusammen))) (\$\. \!))"/>
+<markable id="markable_126" span="word_10..word_52" mmax_level="parse" orderid="4" tag='(Start (SIMPX (VF (NX (NE Katja) (\$-LRB- \") (NE Kama) (\$-LRB- \") (NE Nottke))) (FKOORD (FKONJ (LK (VXFIN (VVFIN spielt))) (MF (PX (APPRART im) (NX (NX (NN Theater)) (NX (ART des) (NN Westens)))) (NX (KOKOM als) (NX (NN Zweitbesetzung)) (PX (APPR von) (NX (NE Angelika) (NE Milster)))) (ADVX (PTKNEG nicht)) (ADVX (ADV nur)) (NX (NX (ART die) (NN Titelrolle)) (PX (APPR von) (\$-LRB- \") (FX (FM Hello) (NX (NE Dolly))))))) (\$-LRB- \") (\$\, \,) (KON sondern) (FKONJ (LK (VXFIN (VVFIN veranstaltet))) (MF (PX (APPR in) (NX (ART der) (NN Kantstraße))) (PX (APPRART am) (NX (ADJX (ADJA 30\.)) (ADJX (ADJA 10\.)))) (ADVX (ADV auch)) (NX (NX (ART einen) (ADJX (ADJA zweiten)) (NN Benefizabend)) (PX (APPR für) (NX (PPOSAT ihr) (ADJX (ADJA verschuldetes)) (ADJX (ADJA Kreuzberger)) (NN Theaterchen)))))))) (\$\. \.))'/>
+<markable id="markable_146" span="word_53..word_60" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (ADVX (ADV Auch)) (NX (ART die) (NN Gründung)) (NX (ART eines) (NN Kama-Fördervereins)))) (LK (VXFIN (VVFIN steht))) (VC (PTKVZ bevor))) (\$\. \.))"/>
+</markables>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Quertöner)))"/>
+<markable id="markable_13" span="word_2..word_3" mmax_level="parse" orderid="2" tag="(Start (NX (NE Dee) (NE Dee)))"/>
+<markable id="markable_82" span="word_4..word_30" mmax_level="parse" orderid="3" tag='(Start (SIMPX (VF (PX (APPR Mit) (NX (NX (PPOSAT ihrem) (\$-LRB- \") (NN Horace-Silver-Tribute-Programm)) (\$-LRB- \") (\$\, \,) (R-SIMPX (C (PX (APPR mit) (NX (PRELS dem)))) (MF (NX (ART die) (ADJX (ADJA quirlige)) (NN Jazz-Chanteuse)) (PX (ADVX (ADV bereits)) (APPRART beim) (NX (NX (NN Jazzport)) (NX (CARD 1994)))) (PX (APPR für) (NX (PRF sich)))) (VC (VXFIN (VVFIN einnahm))))))) (\$\, \,) (LK (VXFIN (VVFIN kommt))) (MF (NX (NE Dee) (NE Dee) (NE Bridgewater)) (PX (APPR in) (NX (ART die) (NN Fabrik))))) (\$\. \.))'/>
+<markable id="markable_111" span="word_31..word_42" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (NX (ART Die) (NN Kompositionen)) (PX (APPR von) (NX (NE Silver))))) (LK (VXFIN (VVFIN schimmern))) (MF (PX (PROP dabei)) (PX (APPR in) (NX (ADJX (ADJX (ADJA neuem)) (\$\, \,) (ADJX (ADJA charmantem))) (NN Licht))))) (\$\. \.))"/>
+<markable id="markable_132" span="word_43..word_50" mmax_level="parse" orderid="5" tag="(Start (NX (NX (NN So)) (\$\, \,) (NX (ADJX (ADJA 22\.)) (ADJX (ADJA 10\.)))) (NX (NN Fabrik)) (\$\, \,) (NX (ADJX (CARD 21)) (NN Uhr)))"/>
+</markables>

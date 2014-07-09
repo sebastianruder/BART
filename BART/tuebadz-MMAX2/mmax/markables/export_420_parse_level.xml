@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Berichtigung)))"/>
+<markable id="markable_41" span="word_2..word_17" mmax_level="parse" orderid="2" tag="(Start (SIMPX (SIMPX (VF (PX (APPR Für) (NX (ART die) (PIS einen)))) (LK (VXFIN (VAFIN ist))) (MF (NX (PPER es)) (NX (ART der) (ADJX (ADJA schnöde)) (NN Service-Teil)))) (\$\, \,) (SIMPX (VF (NX (ART die) (PIS anderen))) (LK (VXFIN (VVFIN nennen))) (MF (NX (PPER \'s)) (ADJX (ADJD cool)) (FX (NN Credits))))) (\$\. \.))"/>
+<markable id="markable_110" span="word_18..word_48" mmax_level="parse" orderid="3" tag='(Start (SIMPX (VF (VC (VXINF (VVPP Gefehlt)))) (LK (VXFIN (VAFIN hat))) (MF (NX (PIS beides)) (PX (APPRART am) (NX (NN Freitag))))) (\$\. \:) (SIMPX (VF (NX (NX (ART Die) (NN Ausstellung)) (\$-LRB- \") (NX (NX (ART Der) (ADJX (ADJA neue)) (NN Mensch)) (\$-LRB- -) (NX (NX (NN Obsessionen)) (PX (APPRART im) (NX (ADJX (ADJA 20\.)) (NN Jahrhundert))))))) (\$-LRB- \") (LK (VXFIN (VVFIN findet))) (MF (ADVX (ADV noch)) (PX (APPR bis) (NX (ADJX (ADJA 8\.)) (NN August))) (PX (APPRART im) (NX (NX (ADJX (ADJA Deutschen)) (NN Hygiene-Museum)) (\$\, \,) (NX (NE Dresden))))) (\$\, \,) (VC (PTKVZ statt))) (\$\. \.))'/>
+<markable id="markable_145" span="word_49..word_63" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (NX (ART Der) (NN Katalog)) (\$\, \,) (NX (NX (ADJX (CARD 296)) (NN Seiten)) (\$\, \,) (SIMPX (MF (PX (APPRART im) (NX (NX (NE Cantz)) (NN Verlag)))) (VC (VXINF (VVPP erschienen))))))) (\$\, \,) (LK (VXFIN (VVFIN kostet))) (MF (NX (ADJX (CARD 78)) (NN Mark)))) (\$\. \.))"/>
+</markables>

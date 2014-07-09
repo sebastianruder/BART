@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_4" span="word_1" mmax_level="parse" orderid="1" tag="(Start (ADVX (ADV Morgen)))"/>
+<markable id="markable_43" span="word_2..word_18" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (ADVX (ADV Auch)) (ART die) (ADJX (ADJA US-amerikanische)) (NN Linke))) (LK (VXFIN (VVFIN diskutiert))) (MF (PX (APPR über) (NX (NX (ART eine) (NN Intervention)) (PX (APPR in) (NX (NE Bosnien)))))) (\$-LRB- -) (NF (ADJX (ADJX (ADJX (ADJD reichlich)) (ADJD verspätet)) (KON und) (ADJX (ADVX (ADV eher)) (ADJD sporadisch))))) (\$\. \.))"/>
+<markable id="markable_70" span="word_19..word_29" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (ART Die) (NN Debatte))) (LK (VXFIN (VVFIN findet))) (MF (PX (APPR in) (NX (NX (ART der) (NN Nische)) (NX (ADJX (ADJA kleiner)) (ADJX (ADJA progressiver)) (NN Zeitschriften))))) (VC (PTKVZ statt))) (\$\. \.))"/>
+</markables>

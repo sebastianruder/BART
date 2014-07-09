@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Afghanistan)))"/>
+<markable id="markable_16" span="word_2..word_4" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NN Kämpfe)) (PX (APPR bei) (NX (NE Kabul)))))"/>
+<markable id="markable_78" span="word_5..word_29" mmax_level="parse" orderid="3" tag="(Start (NX (NE Kabul)) (\$-LRB- -LRB-) (NX (NE AP)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (ART Eine) (NN Gegenoffensive)) (NX (ART der) (ADJX (ADJA afghanischen)) (NN Regierungstruppen)))) (LK (VXFIN (VAFIN ist))) (MF (ADVX (ADV gestern)) (PX (APPR in) (NX (NX (ADJX (ADJA unmittelbarer)) (NN Umgebung)) (PX (APPR von) (NX (NE Kabul))))) (PX (APPR auf) (NX (NX (ADJX (ADJA heftigen)) (NN Widerstand)) (NX (ART der) (ADJX (ADJA islamischen)) (NN Taliban-Miliz))))) (VC (VXINF (VVPP gestoßen)))) (\$\. \.))"/>
+<markable id="markable_115" span="word_30..word_43" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (NX (NN Mitarbeiter)) (PX (APPR von) (NX (NN Hilfsorganisationen))))) (LK (VXFIN (VVFIN erklärten))) (MF (PX (APPR in) (NX (NE Kabul)))) (\$\, \,) (NF (SIMPX (VF (NX (ADJX (ADJA zahlreiche)) (NN Familien))) (LK (VXFIN (VVFIN flüchteten))) (MF (PX (APPR aus) (NX (ART der) (NN Stadt))))))) (\$\. \.))"/>
+</markables>

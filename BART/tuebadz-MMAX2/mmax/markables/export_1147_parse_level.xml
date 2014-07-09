@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_13" span="word_1..word_5" mmax_level="parse" orderid="1" tag="(Start (NX (NN Schwule)) (\$\, \,) (DM (PTKANT nein) (PTKANT danke)) (\$\. \!))"/>
+<markable id="markable_58" span="word_6..word_24" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NN Vikare))) (LK (VXFIN (VMFIN müssen))) (MF (NX (PRF sich)) (PX (APPR nach) (NX (ART dem) (NN Kandidatengetz))) (ADVX (ADV so))) (VC (VXINF (VVINF verhalten))) (\$\, \,) (NF (SIMPX (C (KOUS wie)) (MF (NX (PPER es)) (PX (APPR von) (NX (ART einem) (ADJX (ADJA künftigen)) (NN Pfarrer)))) (VC (VXINF (VVPP erwartet)) (VXINF (VAINF werden)) (VXFIN (VMFIN kann)))))) (\$\. \.))"/>
+<markable id="markable_110" span="word_25..word_45" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (APPR Mit) (NX (PDAT dieser) (NN Begründung)))) (LK (VXFIN (VVFIN rechtfertigt))) (MF (NX (NX (ART die) (ADJX (ADJA evangelische)) (NN Kirche)) (NX (NE Hannover)))) (\$\, \,) (NF (SIMPX (C (KOUS daß)) (MF (NX (PPER sie)) (NX (ART einem) (ADJX (ADJA schwulen)) (NN Theologiestudenten)) (NX (NX (ART die) (NN Aufnahme)) (PX (APPRART ins) (NX (NN Vikariat))))) (VC (VXINF (VVPP verweigert)) (VXFIN (VAFIN hat)))))) (\$\. \.))"/>
+<markable id="markable_154" span="word_46..word_63" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (NX (ART Der) (NN Konvent)) (NX (ART der) (ADJX (ADJA hannoverischen)) (NN Theologiestudenten)))) (LK (VXFIN (VAFIN hat))) (MF (NX (ART der) (ADJX (ADJA evangelischen)) (NN Kirche))) (VC (VXINF (VVPP vorgeworfen))) (\$\, \,) (NF (SIMPX (MF (PX (APPR mit) (NX (PDAT dieser) (NN Entscheidung))) (NX (ART das) (NN Zöllibat))) (VC (VXINF (VVIZU einzuführen)))))) (\$\. \.))"/>
+<markable id="markable_159" span="word_64" mmax_level="parse" orderid="5" tag="(Start (NX (NE taz)))"/>
+</markables>

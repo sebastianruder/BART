@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Berichtigung)))"/>
+<markable id="markable_57" span="word_2..word_24" mmax_level="parse" orderid="2" tag='(Start (SIMPX (SIMPX (LK (VXFIN (VAFIN Ist))) (MF (NX (NE Raquel) (NE Tibol)) (ADVX (ADV tatsächlich)) (NX (NX (ART eine) (NN Art)) (\$-LRB- \") (NX (ADJX (ADJA mexikanische)) (NE Reich-Ranicki))))) (\$-LRB- \") (\$\, \,) (KON oder) (SIMPX (LK (VXFIN (VAFIN ist))) (MF (NX (PPER sie)) (ADVX (PTKNEG nicht)) (ADVX (ADV vielmehr)) (\$-LRB- \") (NX (NX (ART eine) (NN Art)) (NX (ADJX (ADJA mexikanischer)) (NE Reich-Ranicki)))))) (\$-LRB- \") (\$\. \.))'/>
+<markable id="markable_90" span="word_25..word_38" mmax_level="parse" orderid="3" tag='(Start (SIMPX (LK (VXFIN (VMFIN Darf))) (MF (NX (PIS man)) (\$-LRB- \") (NX (NX (NN Enkelinnen)) (NX (NE Fridas))) (\$-LRB- \") (ADJX (ADVX (ADV so)) (ADJD einfach)) (PX (APPRART im) (NX (ADJX (ADJX (ADJD harmlos)) (ADJA aussehenden)) (NN Vergleich)))) (VC (VXINF (VVINF maskulinisieren)))) (\$\. \?))'/>
+<markable id="markable_107" span="word_39..word_44" mmax_level="parse" orderid="4" tag="(Start (SIMPX (SIMPX (VF (NX (PPER Wir))) (LK (VXFIN (VVFIN fragen)))) (\$\, \,) (SIMPX (VF (NX (PPER Sie))) (LK (VXFIN (VVFIN antworten))))) (\$\. \.))"/>
+<markable id="markable_126" span="word_45..word_52" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (PPER Sie))) (LK (VXFIN (VMFIN können))) (MF (ADVX (ADV schließlich)) (ADVX (ADV auch)) (ADVX (ADV mal)) (NX (PIS was))) (VC (VXINF (VVINF machen)))) (\$\. \.))"/>
+<markable id="markable_171" span="word_53..word_69" mmax_level="parse" orderid="6" tag="(Start (SIMPX (LK (VXFIN (VVFIN Senden))) (MF (NX (PPER Sie)) (NX (PPER uns)) (NX (ART eine) (NN Postkarte))) (\$\, \,) (NF (R-SIMPX (C (PX (APPR auf) (NX (PRELS der)))) (MF (ADVX (ADV auch)) (NX (NX (NN Alter)) (\$\, \,) (NX (NN Wohnort)) (KON und) (NX (NN Lieblingsgeschlecht)))) (VC (VXINF (VVPP vermerkt)) (VXFIN (VAFIN sind)))))) (\$\. \.))"/>
+</markables>

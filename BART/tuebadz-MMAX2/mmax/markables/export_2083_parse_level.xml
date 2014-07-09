@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Amazonas)))"/>
+<markable id="markable_14" span="word_2..word_4" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NN Brände))) (LK (VXFIN (VVFIN nehmen))) (VC (PTKVZ zu))))"/>
+<markable id="markable_67" span="word_5..word_26" mmax_level="parse" orderid="3" tag="(Start (NX (NE Porto) (NE Velho)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (ART Die) (NN Brandrodungen)) (PX (APPR in) (NX (NX (ART der) (ADJX (ADJA brasilianischen)) (NN Amazonas-Provinz)) (NX (NE Rhodonia)))))) (LK (VXFIN (VVFIN nahmen))) (MF (PX (APPRART im) (NX (ADJX (ADJA letzten)) (NN Jahr))) (PX (APPR um) (NX (ADJX (CARD 50)) (NN Prozent)))) (VC (PTKVZ zu))) (\$\. \.))"/>
+<markable id="markable_111" span="word_27..word_44" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (NX (ART Der) (NN Flughafen)) (NX (NX (ART der) (NN Provinzhauptstadt)) (NX (NE Porto) (NE Velho))))) (LK (VXFIN (VMFIN mußte))) (MF (PX (APPR in) (NX (PDAT diesem) (NN Jahr))) (PX (APPR wegen) (NX (ART der) (NN Rauchschwaden))) (PX (APPR an) (NX (ADJX (CARD 150)) (NN Tagen)))) (VC (VXINF (VVINF schließen)))) (\$\. \.))"/>
+<markable id="markable_145" span="word_45..word_58" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (NX (ADVX (ADV Knapp)) (ADJX (CARD drei)) (NN Viertel)) (NX (ART der) (NN Brände)))) (LK (VXFIN (VAFIN werden))) (MF (PX (APPR laut) (NX (NX (ART dem) (NN Umweltinstitut)) (NX (NE IBAMA)))) (PX (APPR von) (NX (NN Großgrundbesitzern)))) (VC (VXINF (VVPP gelegt)))) (\$\. \.))"/>
+</markables>

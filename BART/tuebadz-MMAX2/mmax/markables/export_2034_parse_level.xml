@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NN Zukunft)) (PX (APPR statt) (NX (NN Sintflut)))))"/>
+<markable id="markable_70" span="word_4..word_29" mmax_level="parse" orderid="2" tag="(Start (SIMPX (C (KOUS Wenn)) (MF (NX (PPER \'s)) (ADVX (ADV denn)) (ADJX (ADVX (ADV so)) (ADJD einfach))) (VC (VXFIN (VAFIN wäre)))) (\$\. \:) (SIMPX (VF (PX (APPR Mit) (NX (NX (NX (NN Wünschen)) (\$\, \,) (NX (NN Ideen)) (KON und) (NX (NN Vorschlägen))) (\$\, \,) (SIMPX (MF (PX (APPR auf) (NX (NN Stoffstreifen)))) (VC (VXINF (VVPP gemalt))))))) (\$\, \,) (LK (VXFIN (VAFIN wurde))) (MF (PX (APPRART am) (NX (NN Sonnabend))) (NX (ART das) (NN Ozonloch)) (ADJX (ADJD symbolisch))) (VC (VXINF (VVPP gestopft)))) (\$\. \.))"/>
+<markable id="markable_124" span="word_30..word_52" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (PX (APPR In)) (KON und) (PX (APPR vor) (NX (ART der) (NN Fischauktionshalle))))) (LK (VXFIN (VVFIN feierten))) (MF (NX (NX (NX (ADVX (ADV fast)) (ADJX (CARD 1000)) (NN Greenteam-Kids)) (PX (APPR zwischen) (NX (ADJX (ADJX (CARD zehn)) (KON und) (ADJX (CARD 14))) (NN Jahren)))) (PX (APPR aus) (NX (ADJX (ADJA ganz)) (NE Deutschland)))) (NX (NX (ART den) (ADJX (ADJA 5\.)) (NN Geburtstag)) (NX (ART der) (NN Greenpeace-Jugendorganisationen))))) (\$\. \.))"/>
+<markable id="markable_163" span="word_53..word_68" mmax_level="parse" orderid="4" tag='(Start (NX (NX (NX (NN Motto)) (NX (ART der) (NN Riesenfete))) (\$\. \:) (\$-LRB- \") (NX (NX (PX (APPR Mit) (NX (PPER uns))) (ART die) (NN Zukunft)) (PX (APPR statt) (NX (PX (APPR nach) (NX (PPER Euch))) (ART die) (NN Sintflut))))) (\$-LRB- \") (\$\. \.))'/>
+<markable id="markable_172" span="word_69..word_71" mmax_level="parse" orderid="5" tag="(Start (NX (XY F)) (\$\. \:) (NX (NE smv)))"/>
+</markables>

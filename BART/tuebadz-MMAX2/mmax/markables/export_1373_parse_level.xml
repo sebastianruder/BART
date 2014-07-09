@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_11" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (PX (APPR Von) (NX (NX (NN Menschen)) (KON und) (NX (NN Mücken)))))"/>
+<markable id="markable_52" span="word_5..word_21" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (NN Mückenschutzmittel)) (PX (APPR mit) (NX (ADJX (ADJA chemischen)) (NN Wirkstoffen))))) (MF (ADVX (ADV besonders)) (PX (APPR für) (NX (NN Kinder))) (ADVX (PTKNEG nicht)) (ADJX (ADJD geeignet)))) (\$-LRB- \/) (NX (ADJX (ADJA Nervenschädigende)) (NN Wirkung)) (\$-LRB- \/) (SIMPX (VF (ADVX (ADV Oft))) (LK (VXFIN (VVFIN fehlen))) (MF (NX (ADJX (ADJA vorgeschriebene)) (NN Warnhinweise)))))"/>
+</markables>

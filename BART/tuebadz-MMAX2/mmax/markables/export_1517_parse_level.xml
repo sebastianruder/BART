@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (NX (NN Gerechtigkeit)) (\$\. \!))"/>
+<markable id="markable_16" span="word_3..word_5" mmax_level="parse" orderid="2" tag="(Start (ADVX (ADV HEUTE)) (PX (APPRART IM) (NX (NN LOKALTEIL))))"/>
+<markable id="markable_23" span="word_6..word_7" mmax_level="parse" orderid="3" tag="(Start (NX (NN Gerechtigkeit)) (\$\. \!))"/>
+<markable id="markable_83" span="word_8..word_31" mmax_level="parse" orderid="4" tag='(Start (SIMPX (VF (PX (NX (ADJX (CARD Zwei)) (NN Tage)) (APPR nach) (NX (NX (NX (ART der) (NN Gründung)) (NX (NX (ART des) (\$-LRB- \") (NN Komitees)) (PX (APPR für) (NX (NN Gerechtigkeit))))) (\$-LRB- \") (PX (APPR in) (NX (NE Ost-Berlin)))))) (LK (VXFIN (VMFIN kann))) (MF (NX (PRF sich)) (NX (ART das) (ADJX (ADJA Berliner)) (NN Büro)) (PX (APPR über) (NX (ADJX (ADJA mangelnden)) (NN Zuspruch))) (ADVX (PTKNEG nicht))) (VC (VXINF (VVINF beklagen)))) (\$\. \.))'/>
+<markable id="markable_111" span="word_32..word_43" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (PX (APPRART Beim) (NX (NX (ADJX (ADJA örtlichen)) (NN Büroleiter)) (NX (NE Erwin) (NE Hasselberg))))) (LK (VXFIN (VVFIN standen))) (MF (NX (ART die) (NN Telefone)) (ADVX (ADVX (PTKNEG nicht)) (ADVX (ADV mehr)))) (VC (PTKVZ still))) (\$\. \.))"/>
+<markable id="markable_155" span="word_44..word_61" mmax_level="parse" orderid="6" tag="(Start (SIMPX (SIMPX (VF (PX (APPR In) (NX (ART den) (ADJX (ADJA Ostberliner)) (NN Bezirken)))) (LK (VXFIN (VMFIN sollen))) (MF (ADVX (ADV nun)) (ADVX (ADV überall)) (NX (NN Anlaufstellen))) (VC (VXINF (VVPP gegründet)) (VXINF (VAINF werden)))) (\$\, \,) (SIMPX (VF (PX (APPR in) (NX (ADJX (CARD vier)) (NN Stadtteilen)))) (LK (VXFIN (VVFIN existieren))) (MF (NX (PPER sie)) (ADVX (ADV bereits))))) (\$\. \.))"/>
+<markable id="markable_182" span="word_62..word_72" mmax_level="parse" orderid="7" tag="(Start (SIMPX (VF (NX (NX (ART Die) (ADJX (ADJA Berliner)) (NN Parteien)) (ADVX (ADV hingegen)))) (LK (VXFIN (VVFIN reagierten))) (MF (ADJX (ADVX (ADV sehr)) (ADJD zurückhaltend)) (PX (APPR auf) (NX (ART die) (NN Komitee-Gründung))))) (\$\. \.))"/>
+<markable id="markable_207" span="word_73..word_82" mmax_level="parse" orderid="8" tag="(Start (SIMPX (VF (NX (ADVX (ADV Nur)) (NX (ART das) (NN Bündnis)) (NX (CARD 90)))) (LK (VXFIN (VMFIN will))) (MF (PX (APPR mit) (NX (ART der) (NN Sammelbewegung)))) (VC (VXINF (VVINF zusammenarbeiten)))) (\$\. \.))"/>
+<markable id="markable_214" span="word_83..word_84" mmax_level="parse" orderid="9" tag="(Start (NX (NX (NN SEITE)) (NX (CARD 17))))"/>
+</markables>

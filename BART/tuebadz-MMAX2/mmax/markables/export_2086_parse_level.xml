@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_4" span="word_1" mmax_level="parse" orderid="1" tag="(Start (VXINF (VVINF Telefonieren)))"/>
+<markable id="markable_12" span="word_2..word_4" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (ADJX (ADJD Regional))) (LK (VXFIN (VVFIN geht))) (MF (ADVX (ADV auch)))))"/>
+<markable id="markable_47" span="word_5..word_18" mmax_level="parse" orderid="3" tag="(Start (NX (NE Düsseldorf)) (\$-LRB- -LRB-) (NX (NE rtr)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (PPER Es))) (LK (VXFIN (VAFIN wird))) (MF (ADVX (ADV auch)) (NX (ADJX (ADJA regionale)) (NN Telefongesellschaften)) (PX (APPR in) (NX (NE Deutschland)))) (VC (VXINF (VVINF geben)))) (\$\. \.))"/>
+<markable id="markable_97" span="word_19..word_39" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (APPR In) (NX (PDAT diese) (NN Richtung)))) (LK (VXFIN (VAFIN wird))) (MF (PX (APPR laut) (NX (NX (NX (ART dem) (NN Wirtschaftsminister)) (PX (APPR von) (NX (NE Nordrhein-Westfalen)))) (\$\, \,) (NX (NE Wolfgang) (NE Clement)))) (\$\, \,) (NX (NX (ART der) (NN Kompromiß)) (PX (APPR zwischen) (NX (NX (NN Bundesrat)) (KON und) (NX (NN -regierung)))))) (VC (VXINF (VVINF gehen)))) (\$\. \.))"/>
+<markable id="markable_139" span="word_40..word_57" mmax_level="parse" orderid="5" tag='(Start (SIMPX (VF (PX (APPRART Im) (NX (NX (NN Gegensatz)) (PX (APPR zu) (ADVX (ADV früher)))))) (LK (VXFIN (VAFIN seien))) (MF (NX (ART die) (NN Länder)) (ADVX (ADV auch)) (ADJX (ADJD bereit))) (\$\, \,) (NF (SIMPX (MF (NX (NX (NN Lizenzen)) (PX (APPR für) (NX (ADJX (CARD sechs)) (\$-LRB- \") (NN Großregionen))))) (VC (VXINF (PTKZU zu) (VVINF vergeben)))))) (\$\. \.))'/>
+<markable id="markable_170" span="word_58..word_70" mmax_level="parse" orderid="6" tag="(Start (SIMPX (VF (NX (PDS Die))) (LK (VXFIN (VMFIN müßten))) (MF (ADVX (ADV jedoch)) (ADVX (ADV jeweils)) (NX (NX (NN Stadt)) (KON und) (NX (ADJX (ADJA ländliche)) (NN Gebiete)))) (VC (VXINF (VVINF umfassen)))) (\$\, \,) (NX (ADVX (ADV so)) (NX (NE Clement))) (\$\. \.))"/>
+</markables>

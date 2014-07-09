@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_5" span="word_1..word_2" mmax_level="markable" gend="fem" head_pos="word_2" markable_type="np" mention_type="nom.indef" min_ids="word_1..word_2" num="sing" sem_type="nil" sentenceid="1"/>
+<markable id="markable_30" span="word_4..word_8" mmax_level="markable" gend="masc" head_pos="word_7" markable_type="np" mention_type="nam" min_ids="word_7..word_8" num="sing" sem_type="per" sentenceid="2"/>
+<markable id="markable_31" span="word_10" mmax_level="markable" head_pos="word_10" markable_type="poss" mention_type="pro.per3" min_ids="word_10" sentenceid="2"/>
+<markable id="markable_32" span="word_10..word_11" mmax_level="markable" gend="neut" head_pos="word_11" markable_type="np" mention_type="nom.def" min_ids="word_10..word_11" num="sing" sem_type="evt" sentenceid="2"/>
+</markables>

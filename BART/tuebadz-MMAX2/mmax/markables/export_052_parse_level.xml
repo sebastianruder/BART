@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_6" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Kangoo-Robics)))"/>
+<markable id="markable_13" span="word_2..word_3" mmax_level="parse" orderid="2" tag="(Start (NX (PIAT Mehr) (NN Trends)))"/>
+<markable id="markable_37" span="word_4..word_13" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (APPRART Am) (NX (ADJX (ADJA 14\.)) (NN Mai)))) (LK (VXFIN (VVFIN findet))) (MF (NX (ART der) (ADJX (ADJA 3\.)) (ADJX (ADJA Hamburger)) (NN Trendsporttag))) (VC (PTKVZ statt))) (\$\. \.))"/>
+<markable id="markable_67" span="word_14..word_26" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (APPR Auf) (NX (ART dem) (NN Rathausmarkt)))) (LK (VXFIN (VVFIN stellen))) (MF (NX (NX (NN Vereine)) (KON und) (NX (NN Sportteams))) (NX (ADVX (ADV mehr)) (KOKOM als) (ADJX (CARD 30)) (NN Trendsportarten))) (VC (PTKVZ vor))) (\$\. \.))"/>
+<markable id="markable_93" span="word_27..word_36" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (PX (PX (APPRART Beim) (NX (NN Kangoo-Robics))) (ADVX (ADV etwa)) (ADVX (ADV beispielsweise)))) (LK (VXFIN (VAFIN werden))) (MF (NX (NN Luftsprünge)) (PX (APPR in) (NX (NN Känguruh-Manier)))) (VC (VXINF (VVPP ausgeführt)))) (\$\. \.))"/>
+<markable id="markable_127" span="word_37..word_50" mmax_level="parse" orderid="6" tag="(Start (SIMPX (VF (NX (ADVX (ADV Auch)) (NN Bike-Trial))) (LK (VXFIN (VVFIN feiert))) (MF (NX (NN Premiere)))) (\$\. \:) (SIMPX (VF (NX (ADJX (ADJA Geübte)) (NN Mountainbike-Sportler))) (LK (VXFIN (VVFIN demonstrieren))) (\$\, \,) (NF (SIMPX (C (KOUS wie)) (MF (NX (PIS man)) (NX (NN Paletten-Hindernisse))) (VC (VXFIN (VVFIN überwindet)))))) (\$\. \.))"/>
+</markables>

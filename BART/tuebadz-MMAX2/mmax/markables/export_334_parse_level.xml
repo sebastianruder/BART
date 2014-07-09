@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (SIMPX (VF (NX (NN Bücherhallen))) (LK (VXFIN (VVFIN bleiben)))))"/>
+<markable id="markable_32" span="word_3..word_12" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (PIAT Keine) (NN Bücherhalle))) (LK (VXFIN (VMFIN muß))) (MF (PX (APPR bis) (PX (APPRART zum) (NX (NX (NN Ende)) (NX (ART der) (NN Legislaturperiode)))))) (VC (VXINF (VVINF schließen)))) (\$\. \.))"/>
+<markable id="markable_72" span="word_13..word_28" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (PX (PROP Dafür)) (ADVX (ADV jedenfalls)))) (LK (VXFIN (VVFIN sprach))) (MF (NX (PRF sich)) (NX (NX (NN Kultursenatorin)) (NX (NE Christina) (NE Weiss))) (NX (NX (NN Dienstag)) (ADVX (ADV abend))) (PX (APPR in) (NX (NX (ART der) (NN Kulturausschußsitzung)) (NX (ART der) (NN Bürgerschaft))))) (VC (PTKVZ aus))) (\$\. \.))"/>
+<markable id="markable_121" span="word_29..word_47" mmax_level="parse" orderid="4" tag="(Start (SIMPX (SIMPX (VF (PX (APPRART Im) (NX (NN Juni)))) (LK (VXFIN (VAFIN wird))) (MF (NX (NX (ART die) (NN Debatte)) (PX (APPR über) (NX (ART den) (NN Haushalt))))) (VC (VXINF (VVPP geführt)))) (\$\, \,) (SIMPX (VF (ADVX (ADV dort))) (LK (VXFIN (VAFIN wird))) (MF (NX (PPER sie)) (NX (PRF sich)) (PX (APPR für) (NX (PPOSAT ihre) (NN Pläne)))) (VC (VXINF (VVINF einsetzen))))) (\$\. \.))"/>
+</markables>

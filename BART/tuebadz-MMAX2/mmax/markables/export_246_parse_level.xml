@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_9" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (SIMPX (VF (NX (ADJX (ADJA Berliner)) (NN Behinderte))) (LK (VXFIN (VVFIN protestieren)))))"/>
+<markable id="markable_56" span="word_4..word_23" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (NN Rollstuhlfahrer)) (\$\, \,) (NX (NX (TRUNC Seh-)) (KON und) (NX (NN Hörgeschädigte))))) (LK (VXFIN (VAFIN haben))) (MF (ADVX (ADV gestern)) (PX (APPR gegen) (NX (NX (NX (ART die) (NN Benachteiligung)) (NX (ADJX (ADJA behinderter)) (NN Menschen))) (PX (PX (APPRART im) (NX (NN Verkehr))) (KON und) (PX (APPR in) (NX (ADJX (ADJA öffentlichen)) (NN Gebäuden))))))) (VC (VXINF (VVPP protestiert)))) (\$\. \.))"/>
+<markable id="markable_113" span="word_24..word_48" mmax_level="parse" orderid="3" tag='(Start (SIMPX (VF (SIMPX (VF (NX (NX (NN Neubauten)) (KON und) (NX (NN Rekonstruktionen)))) (LK (VXFIN (VAFIN würden))) (MF (ADVX (ADV oft)) (ADVX (PTKNEG nicht)) (ADJX (ADJD behindertengerecht))) (VC (VXINF (VVPP ausgeführt))) (\$\, \,) (NF (SIMPX (C (KOUS obwohl)) (MF (NX (ART die) (NN Bauordnung)) (NX (PDS dies))) (VC (VXFIN (VVFIN vorsieht))))))) (\$\, \,) (LK (VXFIN (VVFIN sagte))) (MF (NX (NX (ART ein) (NN Sprecher)) (PX (APPR von) (\$-LRB- \") (NX (NX (NN Hilfe)) (PX (APPR für) (NX (NN Behinderte)))))))) (\$-LRB- \") (\$\. \.))'/>
+<markable id="markable_118" span="word_49" mmax_level="parse" orderid="4" tag="(Start (NX (NE ADN)))"/>
+</markables>

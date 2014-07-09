@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_16" span="word_1..word_5" mmax_level="parse" orderid="1" tag="(Start (NX (NN Totschlag)) (\$\. \:) (NX (NX (NN Gefängnis)) (PX (APPR für) (NX (NN Katzennarren)))))"/>
+<markable id="markable_76" span="word_6..word_28" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (PX (APPR Wegen) (NX (NX (NX (ART der) (NN Tötung)) (NX (ART eines) (NN Zufallsbekannten))) (PX (APPR aus) (NX (NX (NN Zuneigung)) (PX (APPR zu) (NX (PPOSAT seiner) (NN Hauskatze)))))))) (LK (VXFIN (VAFIN ist))) (MF (ADVX (ADV gestern)) (NX (ART ein) (NN Mann)) (PX (APPRART vom) (NX (NN Landgericht))) (PX (APPR zu) (NX (NX (ADJX (CARD neun)) (NN Jahren)) (NX (NN Gefängnis))))) (VC (VXINF (VVPP verurteilt)) (VXINF (VAPP worden)))) (\$\. \.))"/>
+<markable id="markable_125" span="word_29..word_47" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (ART Der) (NN Katzennarr))) (LK (VXFIN (VVFIN gestand))) (\$\, \,) (NF (SIMPX (MF (NX (ART das) (NN Opfer))) (VC (VXINF (VVPP erstochen)) (VXINF (PTKZU zu) (VAINF haben))) (\$\, \,) (NF (SIMPX (C (KOUS weil)) (MF (NX (PPER er)) (NX (NE Molly)) (PX (APPR in) (NX (ART einen) (NN U-Bahntunnel)))) (VC (VXINF (VVPP gescheucht)) (VXFIN (VAFIN habe)))))))) (\$\. \.))"/>
+<markable id="markable_130" span="word_48" mmax_level="parse" orderid="4" tag="(Start (NX (NE ADN)))"/>
+</markables>

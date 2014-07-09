@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Sicherheitsdienst)))"/>
+<markable id="markable_15" span="word_2..word_5" mmax_level="parse" orderid="2" tag="(Start (SIMPX (C (NX (NX (PWS Was)) (NX (PIS alles)))) (MF (ADVX (PTKNEG nicht))) (VC (VXFIN (VVFIN fehlt)))))"/>
+<markable id="markable_33" span="word_6..word_11" mmax_level="parse" orderid="3" tag="(Start (NX (NX (NX (NN Radprofi)) (NX (NE Tony) (NE Rominger))) (PPOSAT sein) (NN Stundenweltrekord)) (\$\. \.))"/>
+<markable id="markable_91" span="word_12..word_34" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (APPR In) (NX (NE Bogota)))) (LK (VXFIN (VVFIN brach))) (MF (NX (NX (ART der) (NN Spanier)) (NX (NE Miguel) (NE Indurain))) (NX (PPOSAT seinen) (NN Rekordversuch)) (PX (APPR nach) (NX (ART einer) (ADJX (ADJA halben)) (NN Stunde)))) (VC (PTKVZ ab)) (\$\, \,) (NF (SIMPX (C (KOUS als)) (MF (NX (PPER er)) (ADJX (ADJD deutlich)) (PX (APPR hinter) (NX (ART der) (NN Soll-Zeit)))) (VC (VXFIN (VVFIN zurücklag)))))) (\$\. \.))"/>
+<markable id="markable_121" span="word_35..word_46" mmax_level="parse" orderid="5" tag="(Start (NX (NX (ART Dem) (NX (NE AC) (NE Mailand))) (NX (NX (ART die) (NN Genugtuung)) (NX (NX (ART eines) (NN Sieges)) (PX (APPR über) (NX (NX (NN Meister)) (NX (NE Juventus) (NE Turin))))))) (\$\. \.))"/>
+<markable id="markable_133" span="word_47..word_50" mmax_level="parse" orderid="6" tag="(Start (SIMPX (VF (NX (NE Milan))) (LK (VXFIN (VVFIN gewann))) (MF (NX (CARD 2\:1)))) (\$\. \.))"/>
+<markable id="markable_167" span="word_51..word_64" mmax_level="parse" orderid="7" tag="(Start (NX (NX (ART Den) (NX (NE Atlanta) (NE Braves))) (NX (NX (ART der) (ADJX (ADJA vierte)) (NN Sieg)) (PX (APPRART im) (NX (NX (ADJX (ADJA vierten)) (NN Baseball-Spiel)) (PX (APPR gegen) (NX (ART die) (NX (NE Cincinnati) (NE Reds)))))))) (\$\. \.))"/>
+<markable id="markable_222" span="word_65..word_87" mmax_level="parse" orderid="8" tag='(Start (SIMPX (SIMPX (VF (NX (CARD 4\:0))) (LK (VXFIN (VVFIN gewannen))) (MF (NX (ART die) (NE Braves)) (NX (NX (ART die) (NN Finalserie)) (NX (ART der) (NX (NE National) (NE League)))))) (KON und) (SIMPX (LK (VXFIN (VVFIN qualifizierten))) (MF (NX (PRF sich)) (PX (APPR für) (NX (NX (ART die) (\$-LRB- \") (NX (NE World) (NE Series))) (\$-LRB- \") (PX (APPR gegen) (NX (NX (NE Seattle)) (KON oder) (NX (NE Cleveland))))))))) (\$\. \.))'/>
+</markables>

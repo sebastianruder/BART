@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Fußball)))"/>
+<markable id="markable_14" span="word_2..word_4" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NE Lübeck))) (MF (ADVX (ADV weiter)) (ADJX (ADJD mau)))))"/>
+<markable id="markable_37" span="word_5..word_13" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NX (ART Die) (ADJX (ADJA sportliche)) (NN Durststrecke)) (PX (APPRART beim) (NX (NX (NN VfB)) (NX (NE Lübeck)))))) (LK (VXFIN (VVFIN hält))) (VC (PTKVZ an))) (\$\. \.))"/>
+<markable id="markable_83" span="word_14..word_32" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Der) (NN Zweitliga-Aufsteiger))) (FKOORD (FKONJ (LK (VXFIN (VVFIN kam))) (MF (PX (APPR gegen) (NX (NE Nürnberg))) (ADVX (ADV nur)) (PX (APPR zu) (NX (ART einem) (CARD 0\:0))))) (KON und) (FKONJ (LK (VXFIN (VVFIN blieb))) (MF (PX (APPRART zum) (NX (NX (ADJX (ADJA fünften)) (NN Mal)) (PX (APPR in) (NX (NN Folge))))) (PX (APPR ohne) (NX (NN Sieg))))))) (\$\. \.))"/>
+<markable id="markable_113" span="word_33..word_43" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (PX (APPR Vor) (NX (ADJX (CARD 12\.000)) (NN Zuschauern)))) (LK (VXFIN (VVFIN erkämpften))) (MF (NX (PRF sich)) (NX (ART die) (NN Gastgeber)) (NX (PIAT keine) (ADJX (ADJA einzige)) (NN Torchance)))) (\$\. \.))"/>
+</markables>

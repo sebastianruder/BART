@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_9" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NE Urdrüs)) (NN Rückkehr)))"/>
+<markable id="markable_56" span="word_3..word_21" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (PPER Es))) (LK (VXFIN (VMFIN soll))) (MF (NX (NN Menschen))) (VC (VXINF (VVINF geben))) (\$\, \,) (NF (SIMPX (VF (NX (PDS die))) (LK (VXFIN (VAFIN haben))) (FKOORD (FKONJ (MF (ADVX (ADV schon)) (ADVX (ADV kilometerweise)) (NX (NN Urdrü-Kolumnen))) (VC (VXINF (VVPP gelesen)))) (KON und) (FKONJ (MF (NX (PPER ihn)) (ADVX (ADV nie)) (PX (APPR auf) (NX (ART der) (NN Bühne)))) (VC (VXINF (VVPP gesehen)))))))) (\$\. \.))"/>
+<markable id="markable_80" span="word_22..word_31" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (PDS Das))) (LK (VXFIN (VMFIN können))) (MF (NX (PDAT diese) (NN Leute)) (ADVX (ADVX (ADV heute)) (\$-LRB- -LRB-) (NX (NN Freitag)))) (\$-LRB- -RRB-) (VC (VXINF (VVINF nachholen)))) (\$\. \.))"/>
+<markable id="markable_156" span="word_32..word_63" mmax_level="parse" orderid="4" tag='(Start (SIMPX (VF (PX (APPR Unter) (NX (NX (ART dem) (NN Titel)) (\$-LRB- \") (NX (NX (NN Tofu)) (\$-LRB- -) (NX (NE NATO)) (\$-LRB- -) (NX (NN Herzeleid)))))) (\$-LRB- \") (LK (VXFIN (VVFIN macht))) (MF (NX (PRF sich)) (NX (PPOSAT unser) (NE UrDrü)) (PX (APPR ab) (NX (ADJX (CARD 20)) (NN Uhr))) (PX (APPR in) (NX (NX (ART der) (NE GaDeWe)) (\$-LRB- -LRB-) (NX (NX (NN Reuterstraße)) (NX (NX (CARD 9)) (KON -) (NX (CARD 17)))))) (\$-LRB- -RRB-) (ADVX (PTKNEG nicht)) (ADVX (ADV nur)) (PX (APPR über) (NX (NN ADAC-Mitglieder)))) (VC (PTKVZ her))) (\$\. \.))'/>
+</markables>

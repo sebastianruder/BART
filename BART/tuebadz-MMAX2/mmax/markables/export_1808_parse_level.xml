@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_13" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (NX (NN Betr\.)) (\$\. \:) (NX (NE Michael) (NE Daxner)))"/>
+<markable id="markable_51" span="word_5..word_20" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (NX (NN Prof\.)) (NX (NX (NN Dr\.)) (NX (NE Michael) (NE Daxner)))) (\$\, \,) (NX (NX (NN Jahrgang)) (NX (CARD 1947))))) (\$\, \,) (LK (VXFIN (VVFIN leitet))) (MF (NX (KOKOM als) (NN Präsident)) (NX (ART die) (NN Carl-von-Ossietzky-Universität)) (PX (APPR in) (NX (NE Oldenburg))))) (\$\. \.))"/>
+<markable id="markable_75" span="word_21..word_29" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (PPER Er))) (LK (VXFIN (VVFIN rät))) (MF (PX (APPRART zur) (NX (NX (NX (NN Öffnung)) (KON und) (NX (NN Demokratisierung))) (NX (ART der) (NN Hochschulen)))))) (\$\. \.))"/>
+<markable id="markable_85" span="word_30..word_32" mmax_level="parse" orderid="4" tag="(Start (NX (NN Foto)) (\$\. \:) (NX (NE taz)))"/>
+</markables>

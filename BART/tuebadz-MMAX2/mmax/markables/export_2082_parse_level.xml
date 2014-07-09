@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_4" span="word_1" mmax_level="parse" orderid="1" tag="(Start (ADJX (ADJD Witzig)))"/>
+<markable id="markable_13" span="word_2..word_3" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NE Rexrodts)) (NN Klimasteuer)))"/>
+<markable id="markable_77" span="word_4..word_30" mmax_level="parse" orderid="3" tag="(Start (NX (NE Bonn)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (NX (NN Wirtschaftsminister)) (NX (NE Günter) (NE Rexrodt))) (\$-LRB- -LRB-) (NX (NE FDP)))) (\$-LRB- -RRB-) (LK (VXFIN (VAFIN ist))) (MF (ADVX (ADVX (ADV nach)) (KON wie) (ADVX (ADV vor))) (PX (APPR für) (NX (NX (ART eine) (NN Klimaschutzsteuer)) (PX (APPR auf) (NX (NX (NN Strom)) (\$\, \,) (NX (NN Benzin)) (\$\, \,) (NX (NN Heizöl)) (KON und) (NX (NN Erdgas)))))))) (\$\. \.))"/>
+<markable id="markable_129" span="word_31..word_50" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Die) (ADJX (ADJA gesamte)) (ADJX (ADJA gewerbliche)) (NN Wirtschaft))) (LK (VXFIN (VAFIN werde))) (MF (PX (APPR auf) (NX (NX (NN Grund)) (NX (NX (PPOSAT ihrer) (NN Selbstverpflichtung)) (PX (APPRART zur) (NX (NN Kohlendioxid-Senkung)))))) (ADVX (ADV aber)) (PX (APPR von) (NX (ART der) (NN Steuer)))) (VC (VXINF (VVPP ausgenommen)))) (\$\, \,) (NX (ADVX (ADV so)) (NX (NE Rexrodt))) (\$\. \.))"/>
+<markable id="markable_138" span="word_51..word_53" mmax_level="parse" orderid="5" tag="(Start (NX (ADVX (ADV Ebenso)) (NX (NN Diesel))) (\$\. \.))"/>
+<markable id="markable_170" span="word_54..word_67" mmax_level="parse" orderid="6" tag="(Start (ADJX (ADJD Witzig)) (\$\. \:) (SIMPX (VF (NX (NX (NE Otto) (NE Graf) (NE Lambsdorff)) (KON und) (NX (ART der) (NE CSU)))) (LK (VXFIN (VVFIN geht))) (MF (NX (ART das) (NN Rexrodt-Konzept)) (ADJX (PTKA zu) (ADJD weit)))) (\$\. \.))"/>
+</markables>

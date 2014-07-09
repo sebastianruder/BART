@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_13" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (NX (NN Betr\.)) (\$\. \:) (NX (NE Barbara) (NE Dribbusch)))"/>
+<markable id="markable_48" span="word_5..word_18" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NE Barbara) (NE Dribbusch))) (LK (VXFIN (VVFIN bearbeitet))) (MF (PX (APPR für) (NX (NX (ART das) (NN Inlandsressort)) (NX (ART der) (NE taz)))) (NX (NX (ART die) (NN Bereiche)) (NX (NX (NN Arbeitsmarkt)) (KON und) (NX (NN Soziales)))))) (\$\. \.))"/>
+<markable id="markable_89" span="word_19..word_34" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (PPOSAT Ihr) (NN Interesse))) (LK (VXFIN (VVFIN gilt))) (MF (NX (NX (NX (NN Themen)) (PX (APPR aus) (NX (NX (ART der) (NN Schnittstelle)) (PX (APPR von) (NX (NX (NN Wirtschaft)) (KON und) (NX (NN Gesellschaft))))))) (KON sowie) (NX (NX (NN Fragen)) (NX (ART der) (NN Einkommensverteilung)))))) (\$\. \.))"/>
+</markables>

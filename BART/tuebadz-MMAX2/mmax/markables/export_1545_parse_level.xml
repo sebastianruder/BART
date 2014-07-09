@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN KOLUMBIEN-DROGEN)))"/>
+<markable id="markable_15" span="word_2..word_4" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NN Machtkampf)) (NX (ART der) (NN Mafia))))"/>
+<markable id="markable_61" span="word_5..word_23" mmax_level="parse" orderid="3" tag="(Start (NX (NE Bogota)) (\$-LRB- -LRB-) (NX (NE afp)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (PX (APPR Innerhalb) (NX (NX (ART des) (ADJX (ADJA berüchtigten)) (ADJX (ADJA kolumbianischen)) (NN Drogenkartells)) (PX (APPR von) (NX (NE Medellin)))))) (LK (VXFIN (VAFIN ist))) (MF (ADVX (ADV offenbar)) (NX (ART ein) (ADJX (ADJA blutiger)) (NN Machtkampf))) (VC (VXINF (VVPP ausgebrochen)))) (\$\. \.))"/>
+<markable id="markable_130" span="word_24..word_53" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (NX (NX (ART Der) (NN Direktor)) (NX (NX (ART der) (ADJX (ADJA kolumbianischen)) (NN Geheimpolizei)) (NX (NE DAS)))) (\$\, \,) (NX (NE Fernando) (NE Britto)))) (\$\, \,) (LK (VXFIN (VVFIN erklärte))) (\$\, \,) (NF (SIMPX (VF (NX (NN Hintergrund))) (LK (VXFIN (VAFIN seien))) (MF (ADVX (ADV wahrscheinlich)) (NX (NX (NN Differenzen)) (PX (APPR zwischen) (NX (NX (NX (ART dem) (ADJX (ADJA militärischen)) (NN Flügel)) (KON und) (NX (ART dem) (ADJX (PX (APPR für) (NX (ART die) (NN Finanzen))) (ADJA zuständigen)) (NN Sektor))) (NX (ART der) (NN Untergrundorganisation))))))))) (\$\. \.))"/>
+</markables>

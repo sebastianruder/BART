@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_8" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (SIMPX (MF (NX (NN Raben))) (VC (VXINF (VVINF jagen)))))"/>
+<markable id="markable_80" span="word_3..word_30" mmax_level="parse" orderid="2" tag="(Start (NX (NE Hannover)) (SIMPX (VF (PX (APPR Mit) (NX (ADVX (ADV knapp)) (ADJX (CARD 108\.000)) (NN Unterschriften)))) (LK (VXFIN (VAFIN haben))) (MF (NX (NX (ART die) (NN JägerInnen)) (PX (APPR in) (NX (NE Niedersachsen)))) (NX (PPOSAT ihrer) (NN Forderung)) (NX (NN Nachdruck))) (VC (VXINF (VVPP verliehen))) (\$\, \,) (NF (SIMPX (MF (NX (NN Rabenvögel))) (VC (VXINF (VVINF jagen)) (VXINF (PTKZU zu) (VMINF dürfen))) (\$\, \,) (NF (SIMPX (C (KOUS weil)) (MF (NX (PDS die)) (NX (NX (ART den) (NN Artenreichtumg)) (NX (ART der) (NN Natur)))) (VC (VXFIN (VVFIN bedrohten)))))))) (\$\. \.))"/>
+<markable id="markable_101" span="word_31..word_38" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (ART Das) (NN Umweltministerium))) (LK (VXFIN (VVFIN lehnte))) (MF (NX (ART die) (NN Forderung)) (ADVX (ADV erneut))) (VC (PTKVZ ab))) (\$\. \.))"/>
+<markable id="markable_143" span="word_39..word_56" mmax_level="parse" orderid="4" tag="(Start (SIMPX (SIMPX (VF (ADVX (ADV Zwar))) (LK (VXFIN (VAFIN sei))) (MF (NX (NX (ART eine) (NN Abnahme)) (NX (ART der) (NN Singvögel)))) (VC (VXINF (VVPP registriert)) (VXINF (VAPP worden)))) (\$\, \,) (SIMPX (VF (ADVX (ADV allerdings))) (LK (VXFIN (VVFIN hänge))) (MF (NX (PDS das)) (ADVX (PTKNEG nicht)) (PX (APPR mit) (NX (ART den) (NN Rabenvögeln)))) (VC (PTKVZ zusammen)))) (\$\. \.))"/>
+<markable id="markable_156" span="word_57..word_61" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (NN Ernteschäden))) (LK (VXFIN (VAFIN seien))) (MF (ADVX (PTKNEG nicht)) (ADJX (ADJD nachweisbar)))) (\$\. \.))"/>
+<markable id="markable_161" span="word_62" mmax_level="parse" orderid="6" tag="(Start (NX (NE dpa)))"/>
+</markables>

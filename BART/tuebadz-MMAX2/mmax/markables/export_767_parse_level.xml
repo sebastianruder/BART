@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_12" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NN Gedenktafel)) (PX (APPRART zur) (NX (NN Märzrevolution)))))"/>
+<markable id="markable_50" span="word_4..word_18" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (PX (APPRART Zur) (NX (NX (NN Würdigung)) (NX (NX (ART der) (NN Märzrevolution)) (PX (APPR von) (NX (CARD 1848))))))) (LK (VXFIN (VAFIN wird))) (MF (ADVX (ADV heute)) (PX (APPR auf) (NX (ART dem) (NN Alexanderplatz))) (NX (ART eine) (NN Gedenktafel))) (VC (VXINF (VVPP enthüllt)))) (\$\. \.))"/>
+<markable id="markable_80" span="word_19..word_30" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (PPER Sie))) (LK (VXFIN (VMFIN soll))) (MF (PX (APPR an) (NX (NX (PIS einen)) (NX (NX (ART der) (ADJX (ADJA ehemaligen)) (NN Barrikadestandorte)) (PX (APPR in) (NX (ART der) (NN Stadt))))))) (VC (VXINF (VVINF erinnern)))) (\$\. \.))"/>
+<markable id="markable_126" span="word_31..word_49" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Die) (NN Tafel))) (LK (VXFIN (VAFIN ist))) (MF (NX (NX (ART die) (ADJX (ADJA letzte))) (PX (APPR von) (NX (ADVX (ADV insgesamt)) (ADJX (CARD zwölf)))))) (\$\, \,) (NF (R-SIMPX (C (NX (PRELS die))) (MF (NX (NX (ART die) (NN Gedenktafelkommission)) (NX (NE Mitte))) (PX (APPRART im) (NX (NN Bezirk)))) (VCE (VXFIN (VAFIN hat))) (VC (VXINF (VVINF anbringen)) (VXINF (VVINF lassen)))))) (\$\. \.))"/>
+<markable id="markable_131" span="word_50" mmax_level="parse" orderid="5" tag="(Start (NX (NE ADN)))"/>
+</markables>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_6" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Geisterfahrer)))"/>
+<markable id="markable_68" span="word_2..word_27" mmax_level="parse" orderid="2" tag='(Start (SIMPX (VF (NX (ART Ein) (ADJX (ADVX (ADV vermutlich)) (ADJX (ADJD seelisch)) (ADJA kranker)) (\$-LRB- \") (NN Geisterfahrer))) (\$-LRB- \") (LK (VXFIN (VAFIN ist))) (MF (ADVX (ADVX (ADV gestern)) (ADVX (ADV morgen))) (PX (APPR mit) (NX (PPOSAT seinem) (NN Wagen))) (PX (APPR auf) (NX (NX (NX (NX (ART der) (NN Autobahn)) (NX (NX (XY A)) (NX (CARD 1)))) (NX (NE Bremen-Osnabrück))) (PX (APPR bei) (NX (NE Wildeshausen))))) (PX (APPR mit) (NX (ADJX (CARD zwei)) (NN Fahrzeugen)))) (VC (VXINF (VVPP zusammengeprallt)))) (\$\. \.))'/>
+<markable id="markable_106" span="word_28..word_43" mmax_level="parse" orderid="3" tag="(Start (SIMPX (SIMPX (VF (PX (PROP Dabei))) (LK (VXFIN (VVFIN kamen))) (MF (NX (ADJX (CARD drei)) (NN Männer)) (PX (APPRART ums) (NX (NN Leben)))) (\$\, \,) (NF (NX (PX (PROP darunter)) (ART der) (NN Geisterfahrer)))) (\$\, \,) (SIMPX (VF (NX (CARD zwei))) (LK (VXFIN (VAFIN wurden))) (MF (ADJX (ADJD schwer))) (VC (VXINF (VVPP verletzt))))) (\$\. \.))"/>
+<markable id="markable_138" span="word_44..word_55" mmax_level="parse" orderid="4" tag='(Start (SIMPX (VF (NX (ART Der) (\$-LRB- \") (NN Geisterfahrer))) (\$-LRB- \") (LK (VXFIN (VAFIN hatte))) (MF (NX (PRF sich)) (ADVX (ADV zuvor)) (PX (APPR mit) (NX (PPOSAT seinem) (NN Bruder)))) (VC (VXINF (VVPP gestritten)))) (\$\. \.))'/>
+<markable id="markable_143" span="word_56" mmax_level="parse" orderid="5" tag="(Start (NX (NE dpa)))"/>
+</markables>

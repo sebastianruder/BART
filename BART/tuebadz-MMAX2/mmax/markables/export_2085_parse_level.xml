@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Börsenbetrug)))"/>
+<markable id="markable_12" span="word_2..word_3" mmax_level="parse" orderid="2" tag="(Start (SIMPX (MF (NX (NN Makler))) (VC (VXINF (VVPP supendiert)))))"/>
+<markable id="markable_49" span="word_4..word_18" mmax_level="parse" orderid="3" tag="(Start (NX (NX (NE Frankfurt)) (\$-LRB- \/) (NX (NE Main))) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (ART Die) (ADJX (ADJA Frankfurter)) (NN Börse))) (LK (VXFIN (VAFIN hat))) (MF (NX (NX (ART einen) (NN Kursmakler)) (ADVX (ADV weniger))))) (\$\. \.))"/>
+<markable id="markable_111" span="word_19..word_44" mmax_level="parse" orderid="4" tag='(Start (SIMPX (VF (NX (PPER Er))) (LK (VXFIN (VAFIN wurde))) (VC (VXINF (VVPP suspendiert))) (\$\, \,) (NF (SIMPX (C (KOUS weil)) (MF (NX (PPER er)) (\$-LRB- \") (PX (APPR während) (NX (NX (ART der) (NN Börsenzeit)) (KON und) (PX (ADVX (ADV noch)) (APPR nach) (NX (NN Börsenschluß))))) (NX (NN Geschäfte))) (VC (VXINF (VVPP fingiert)) (VXINF (VAINF haben)) (VXFIN (VMFIN soll)))))) (\$-LRB- \") (\$\, \,) (NX (ADVX (ADV so)) (ART die) (NX (NX (ADJX (ADJA Deutsche)) (NN Börse)) (NN AG))) (\$\. \.))'/>
+<markable id="markable_140" span="word_45..word_56" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (SIMPX (C (NX (PWS Wer))) (MF (NX (ART die) (NN Kurse)) (ADVX (ADV selber))) (VC (VXFIN (VVFIN macht))))) (\$\, \,) (LK (VXFIN (VAFIN hat))) (MF (NX (PPER \'s)) (PX (APPRART beim) (NX (NN Spekulieren))) (ADJX (ADJD leichter)))) (\$\. \.))"/>
+</markables>

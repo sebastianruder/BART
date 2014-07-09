@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Fußball)))"/>
+<markable id="markable_16" span="word_2..word_4" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NN Jubel)) (PX (APPRART beim) (NX (NE HSV)))))"/>
+<markable id="markable_72" span="word_5..word_26" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (ART Der) (NE HSV))) (LK (VXFIN (VVFIN sicherte))) (MF (NX (PRF sich)) (PX (APPR mit) (NX (NX (ART einem) (NN 2\:0-Sieg)) (PX (APPR gegen) (NX (NX (ART den) (NN FC)) (NX (NE Kaiserslautern)))))) (PX (APPRART am) (NX (NN Sonnabend))) (PX (APPRART im) (NX (NN Volksparkstadion))) (NX (NX (ART eine) (ADJX (ADJA kleine)) (NN Chance)) (PX (APPR auf) (NX (ART den) (NN UEFA-Cup)))))) (\$\. \.))"/>
+<markable id="markable_148" span="word_27..word_56" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (ADVX (ADV Schon)) (APPR vor) (NX (ART dem) (NN Spiel)))) (LK (VXFIN (VAFIN hatte))) (MF (NX (PPER es)) (PX (APPRART beim) (NX (NN Verein))) (NX (ADJX (ADJA personelle)) (NN Entscheidungen))) (VC (VXINF (VVPP gegeben)))) (\$\. \:) (SIMPX (VF (NX (NE Thomas) (NE Doll))) (LK (VXFIN (VVFIN einigte))) (MF (NX (PRF sich)) (PX (APPR mit) (NX (NX (NN HSV-Chef)) (NX (NE Holger) (NE Hieronymus)))) (PX (APPR auf) (NX (NX (NX (ART eine) (NN Verlängerung)) (NX (PPOSAT seines) (NN Vertrages))) (PX (APPR um) (NX (ART ein) (ADJX (ADJA weiteres)) (NN Jahr))))))) (\$\. \.))"/>
+<markable id="markable_180" span="word_57..word_69" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (PX (APPR Bei) (NX (NX (NE Alexander) (NE Kurtijan)) (KON und) (NX (NE Martin) (NE Dahlin))))) (LK (VXFIN (VVFIN verzichtet))) (MF (NX (ART der) (NN Verein)) (ADVX (ADV hingegen)) (PX (APPR auf) (NX (NN Kaufoptionen))))) (\$\. \.))"/>
+<markable id="markable_192" span="word_70..word_73" mmax_level="parse" orderid="6" tag="(Start (SIMPX (VF (NX (NN Spielbericht))) (LK (VXFIN (VVIMP siehe))) (MF (NX (NX (NN Seite)) (NX (CARD 16))))))"/>
+</markables>

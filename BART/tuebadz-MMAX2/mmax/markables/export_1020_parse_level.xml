@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_8" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (NX (ADJX (ADJA Neuer)) (NN DLH-Chef)))"/>
+<markable id="markable_30" span="word_3..word_11" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (ART Der) (ADJX (ADJA Deutsche)) (NN Lehrerverband)) (NX (NE Hamburg)))) (LK (VXFIN (VAFIN hat))) (MF (NX (ART einen) (ADJX (ADJA neuen)) (NN Vorsitzenden)))) (\$\. \.))"/>
+<markable id="markable_71" span="word_12..word_28" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NX (NX (ART Der) (ADJX (ADJA bisherige)) (NN Chef)) (NX (ART der) (NN Gewerkschaft))) (\$\, \,) (NX (NE Peter) (NE Braasch)))) (\$\, \,) (LK (VXFIN (VAFIN hat))) (MF (NX (ART das) (NN Amt)) (PX (APPR nach) (NX (ADJX (CARD acht)) (NN Jahren)))) (VC (VXINF (VVPP weitergegeben)))) (\$\. \.))"/>
+<markable id="markable_94" span="word_29..word_36" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (APPR Zu) (NX (PPOSAT seinem) (NN Nachfolger)))) (LK (VXFIN (VAFIN wurde))) (MF (NX (NE Arno) (NE Becker))) (VC (VXINF (VVPP gewählt)))) (\$\. \.))"/>
+</markables>

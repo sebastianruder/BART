@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_5" span="word_1..word_2" mmax_level="markable" gend="neut" head_pos="word_2" markable_type="np" mention_type="nom.indef" min_ids="word_1..word_2" num="sing" sem_type="loc" sentenceid="1"/>
+<markable id="markable_14" span="word_3..word_4" mmax_level="markable" gend="masc" head_pos="word_4" markable_type="np" mention_type="nom.def" min_ids="word_3..word_4" num="sing" sem_type="per" sentenceid="2"/>
+<markable id="markable_59" span="word_6..word_7" mmax_level="markable" gend="masc" head_pos="word_6" markable_type="np" mention_type="nam" min_ids="word_6..word_7" num="sing" sem_type="per" sentenceid="3"/>
+<markable id="markable_60" span="word_14" mmax_level="markable" gend="masc" head_pos="word_14" markable_type="np" mention_type="pro.per3" min_ids="word_14" num="sing" sentenceid="3"/>
+<markable id="markable_61" span="word_15..word_16" mmax_level="markable" gend="fem" head_pos="word_16" markable_type="np" mention_type="nom.indef" min_ids="word_15..word_16" num="sing" sem_type="evt" sentenceid="3"/>
+<markable id="markable_62" span="word_18..word_23" mmax_level="markable" gend="fem" head_pos="word_19" markable_type="np" mention_type="nom.def" min_ids="word_18..word_19" num="sing" sem_type="nil" sentenceid="3"/>
+<markable id="markable_83" span="word_27..word_28" mmax_level="markable" gend="neut" head_pos="word_28" markable_type="np" mention_type="nom.def" min_ids="word_27..word_28" num="plur" sem_type="evt" sentenceid="4"/>
+<markable id="markable_84" span="word_32..word_33" mmax_level="markable" gend="neut" head_pos="word_33" markable_type="np" mention_type="nom.indef" min_ids="word_32..word_33" num="sing" sem_type="nil" sentenceid="4"/>
+<markable id="markable_145" span="word_36..word_39" mmax_level="markable" gend="neut" head_pos="word_37" markable_type="np" mention_type="nom.def" min_ids="word_36..word_37" num="sing" sem_type="nil" sentenceid="5"/>
+<markable id="markable_146" span="word_42..word_43" mmax_level="markable" gend="masc" head_pos="word_43" markable_type="np" mention_type="nom.def" min_ids="word_42..word_43" num="sing" sem_type="per" sentenceid="5"/>
+<markable id="markable_147" span="word_48" mmax_level="markable" gend="masc" head_pos="word_48" markable_type="np" mention_type="pro.per3" min_ids="word_48" num="sing" sentenceid="5"/>
+<markable id="markable_148" span="word_49..word_50" mmax_level="markable" gend="masc" head_pos="word_50" markable_type="np" mention_type="nom.indef" min_ids="word_49..word_50" num="plur" sem_type="evt" sentenceid="5"/>
+<markable id="markable_149" span="word_56" mmax_level="markable" gend="any" head_pos="word_56" markable_type="np" mention_type="pro.per3" min_ids="word_56" num="plur" sentenceid="5"/>
+<markable id="markable_202" span="word_67..word_74" mmax_level="markable" gend="fem" head_pos="word_68" markable_type="np" mention_type="nom.def" min_ids="word_67..word_68" num="sing" sem_type="evt" sentenceid="6"/>
+<markable id="markable_203" span="word_69..word_70" mmax_level="markable" gend="masc" head_pos="word_69" markable_type="np" mention_type="nam" min_ids="word_69..word_70" num="sing" sem_type="per" sentenceid="6"/>
+<markable id="markable_204" span="word_72" mmax_level="markable" gend="masc" head_pos="word_72" markable_type="np" mention_type="nam" min_ids="word_72" num="sing" sem_type="nil" sentenceid="6"/>
+<markable id="markable_205" span="word_74" mmax_level="markable" gend="neut" head_pos="word_74" markable_type="np" mention_type="nam" min_ids="word_74" num="sing" sem_type="loc" sentenceid="6"/>
+<markable id="markable_206" span="word_82" mmax_level="markable" gend="masc" head_pos="word_82" markable_type="np" mention_type="nam" min_ids="word_82" num="sing" sem_type="nil" sentenceid="6"/>
+<markable id="markable_207" span="word_83..word_85" mmax_level="markable" gend="any" head_pos="word_83" markable_type="np" mention_type="nam" min_ids="word_83..word_85" num="sing" sem_type="nil" sentenceid="6"/>
+</markables>

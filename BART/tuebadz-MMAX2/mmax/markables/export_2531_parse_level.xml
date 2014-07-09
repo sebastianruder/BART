@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (PX (APPRART Unterm) (NX (NN Hammer))))"/>
+<markable id="markable_71" span="word_3..word_31" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (ART Die) (NN Fundsachen)) (NX (ART der) (NE BSAG)))) (LK (VXFIN (VAFIN werden))) (MF (ADVX (PTKNEG nicht)) (\$-LRB- -) (SIMPX (C (KOUS wie)) (VC (VXINF (VVPP gemeldet)))) (\$-LRB- -) (ADVX (ADV heute)) (PX (APPRART im) (NX (NN Weserpark)))) (VC (VXINF (VVPP versteigert))) (\$\, \,) (NF (PX (KON sondern) (ADVX (ADV erst)) (PX (APPRART am) (NX (NX (NX (NN Donnerstag)) (\$\, \,) (NX (ADJX (ADJA 26\.)) (NN Oktober))) (\$-LRB- -LRB-) (NX (ADJX (ADJX (CARD 10)) (KON -) (ADJX (CARD 18))) (NN Uhr))))))) (\$-LRB- -RRB-) (\$\. \.))"/>
+<markable id="markable_78" span="word_32..word_33" mmax_level="parse" orderid="3" tag="(Start (NX (NN Entschuldigung)) (\$\. \!))"/>
+<markable id="markable_83" span="word_34" mmax_level="parse" orderid="4" tag="(Start (NX (NE taz)))"/>
+</markables>

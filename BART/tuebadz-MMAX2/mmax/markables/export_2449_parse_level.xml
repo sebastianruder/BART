@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Sicherheitsdienst)))"/>
+<markable id="markable_15" span="word_2..word_5" mmax_level="parse" orderid="2" tag="(Start (SIMPX (C (NX (NX (PWS Was)) (NX (PIS alles)))) (MF (ADVX (ADV so))) (VC (VXFIN (VVFIN fehlt)))))"/>
+<markable id="markable_30" span="word_6..word_10" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NE Wilson) (NE Perez))) (MF (NX (ART die) (NN Freiheit)))) (\$\. \.))"/>
+<markable id="markable_51" span="word_11..word_18" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Der) (ADJX (ADJA kolumbianische)) (NN Nationalkicker))) (LK (VXFIN (VAFIN wurde))) (MF (PX (APPR wegen) (NX (NN Kokainbesitzes)))) (VC (VXINF (VVPP verhaftet)))) (\$\. \.))"/>
+<markable id="markable_67" span="word_19..word_24" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (NE Steffi) (NE Graf))) (MF (NX (PIAT kein) (ADJX (ADJA weiterer)) (NN Sponsor)))) (\$\. \.))"/>
+<markable id="markable_87" span="word_25..word_32" mmax_level="parse" orderid="6" tag="(Start (SIMPX (VF (NX (NX (ART Der) (NN Schläger-Hersteller)) (NX (NE Wilson)))) (LK (VXFIN (VMFIN will))) (MF (PX (APPRART am) (NX (NN Vertrag)))) (VC (VXINF (VVINF festhalten)))) (\$\. \.))"/>
+<markable id="markable_108" span="word_33..word_40" mmax_level="parse" orderid="7" tag="(Start (SIMPX (VF (NX (NX (NE Manfred) (NE Bender)) (KON und) (NX (NE Sergej) (NE Kirjakow)))) (MF (NX (ART dem) (NE KSC)))) (\$\. \.))"/>
+<markable id="markable_131" span="word_41..word_49" mmax_level="parse" orderid="8" tag="(Start (SIMPX (VF (NX (PIS Beide))) (LK (VXFIN (VAFIN hatten))) (MF (PX (APPRART im) (NX (NX (NN Pokal)) (PX (APPR in) (NX (NE Unterhaching))))) (NX (NN Rot))) (VC (VXINF (VVPP gesehen)))) (\$\. \.))"/>
+<markable id="markable_156" span="word_50..word_58" mmax_level="parse" orderid="9" tag="(Start (SIMPX (FKOORD (FKONJ (VF (NX (NE Bender))) (LK (VXFIN (VMFIN muß))) (MF (NX (ADJX (CARD fünf)) (NN Wochen)))) (\$\, \,) (FKONJ (VF (NX (NE Kirjakow))) (MF (NX (ADJX (CARD zwei)))))) (VC (VXINF (VVINF aussetzen)))) (\$\. \.))"/>
+</markables>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Mexiko)))"/>
+<markable id="markable_16" span="word_2..word_4" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NN Demo)) (PX (APPR gegen) (NX (NN Regierung)))))"/>
+<markable id="markable_87" span="word_5..word_33" mmax_level="parse" orderid="3" tag="(Start (NX (NE San) (NE Cristobal) (NE de) (NE las) (NE Casas)) (\$-LRB- -LRB-) (NX (NE AFP)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (PIAT Mehrere) (ADJX (CARD tausend)) (NN Menschen))) (LK (VXFIN (VAFIN haben))) (MF (PX (APPRART am) (NX (NN Donnerstag))) (PX (APPR in) (NX (NX (NE San) (NE Cristobal) (NE de) (NE las) (NE Casas)) (PX (APPRART im) (NX (NX (NN Bundesstaat)) (NX (NE Chiapas)))))) (PX (APPR gegen) (NX (ART die) (NN Regierung)))) (VC (VXINF (VVPP demonstriert)))) (\$\. \.))"/>
+<markable id="markable_123" span="word_34..word_48" mmax_level="parse" orderid="4" tag='(Start (SIMPX (VF (PX (APPR Mit) (NX (NN Sprechchören)))) (LK (VXFIN (VVFIN protestierten))) (MF (NX (ART die) (NN Demonstranten)) (PX (APPR gegen) (NX (NX (ART die) (\$-LRB- \") (ADJX (ADJA tödliche)) (ADJX (ADJA neoliberale)) (NN Politik)) (\$-LRB- \") (NX (ART der) (NN Regierung)))))) (\$\. \.))'/>
+</markables>

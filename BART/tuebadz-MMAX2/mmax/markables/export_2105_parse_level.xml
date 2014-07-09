@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Italien)))"/>
+<markable id="markable_13" span="word_2..word_4" mmax_level="parse" orderid="2" tag="(Start (VXINF (VXINF (VVINF Beten)) (KON und) (VXINF (VVINF arbeiten))))"/>
+<markable id="markable_55" span="word_5..word_21" mmax_level="parse" orderid="3" tag="(Start (NX (NE Reggio) (NE Emilia)) (\$-LRB- -LRB-) (NX (NE epd)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (ART Die) (ADJX (ADJA erklärte)) (NN Mafiagegnerin)) (NX (NE Ines) (NE Talignani)))) (LK (VXFIN (VAFIN ist))) (MF (PX (APPR in) (NX (ART den) (NN Karmeliterinnen-Orden)))) (VC (VXINF (VVPP eingetreten)))) (\$\. \.))"/>
+<markable id="markable_103" span="word_22..word_40" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (SIMPX (C (KOUS Wie)) (MF (NX (ADJX (ADJA italienische)) (NN Zeitungen)) (ADVX (ADV gestern))) (VC (VXFIN (VVFIN berichteten))))) (\$\, \,) (LK (VXFIN (VVFIN legte))) (MF (NX (ART die) (ADJX (ADJA 34jährige)) (ADJX (ADJA ehemalige)) (NN Staatsanwältin)) (PX (APPRART im) (NX (ADJX (ADJA mittelitalienischen)) (NX (NE Reggio) (NE Emilia)))) (NX (PPOSAT ihr) (NN Gelübde))) (VC (PTKVZ ab))) (\$\. \.))"/>
+<markable id="markable_129" span="word_41..word_50" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (PX (APPR Bis) (NX (CARD 1992)))) (LK (VXFIN (VVFIN kämpfte))) (MF (NX (PPER sie)) (PX (APPR in) (NX (NE Sizilien))) (PX (APPR gegen) (NX (ART die) (NN Mafia))))) (\$\. \.))"/>
+<markable id="markable_151" span="word_51..word_58" mmax_level="parse" orderid="6" tag="(Start (SIMPX (VF (ADVX (ADV Nun))) (LK (VXFIN (VMFIN will))) (MF (NX (PPER sie)) (NX (PRF sich)) (NX (ART der) (NN Wohltätigkeitsarbeit))) (VC (VXINF (VVINF widmen)))) (\$\. \.))"/>
+</markables>

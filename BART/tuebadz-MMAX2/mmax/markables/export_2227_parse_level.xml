@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_6" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (SIMPX (C (NX (PWS Was))) (VC (VXFIN (VVFIN fehlt)))))"/>
+<markable id="markable_13" span="word_3..word_4" mmax_level="parse" orderid="2" tag="(Start (NX (NN Pessimismus)) (\$\. \.))"/>
+<markable id="markable_43" span="word_5..word_16" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NX (ADJX (ADJA Sagenhafte)) (ADJX (CARD 75)) (NN Prozent)) (NX (ART der) (NN Bundesbürger)))) (LK (VXFIN (VVFIN sehen))) (MF (PX (APPR mit) (NX (NN Optimismus))) (PX (APPR in) (NX (ART die) (NN Zukunft))))) (\$\. \.))"/>
+<markable id="markable_50" span="word_17..word_18" mmax_level="parse" orderid="4" tag="(Start (NX (NN Optimismus)) (\$\. \.))"/>
+<markable id="markable_99" span="word_19..word_39" mmax_level="parse" orderid="5" tag='(Start (SIMPX (VF (NX (NX (ADJX (CARD 74)) (NN Prozent)) (NX (PIDAT aller) (\$-LRB- \") (NX (NX (NN Meinungsführer)) (\$-LRB- \") (\$-LRB- -) (NX (NX (NN Politiker)) (\$\, \,) (NX (NN Gewerkschafter)) (KON und) (NX (NN Journalisten))))))) (\$-LRB- -) (LK (VXFIN (VVFIN sehen))) (MF (PX (APPR für) (NX (NX (NE Deutschlands)) (NN Zukunft))) (PX (PROP dagegen)) (ADVX (ADV eher)) (ADJX (ADJD schwarz)))) (\$\. \.))'/>
+<markable id="markable_106" span="word_40..word_41" mmax_level="parse" orderid="6" tag="(Start (NX (NN Geld)) (\$\. \.))"/>
+<markable id="markable_130" span="word_42..word_51" mmax_level="parse" orderid="7" tag="(Start (SIMPX (VF (NX (NX (ADJX (CARD 51)) (NN Prozent)) (NX (PIDAT aller) (ADJX (ADJA deutschen)) (NN Singles)))) (LK (VXFIN (VVFIN kommen))) (MF (PX (PROP damit)) (ADVX (PTKNEG nicht))) (VC (PTKVZ aus))) (\$\. \.))"/>
+<markable id="markable_139" span="word_52..word_54" mmax_level="parse" orderid="8" tag="(Start (NX (PIAT Kein) (NN Geld)) (\$\. \.))"/>
+<markable id="markable_162" span="word_55..word_63" mmax_level="parse" orderid="9" tag="(Start (SIMPX (VF (NX (NX (ADJX (CARD 63)) (NN Prozent)) (NX (PIDAT aller) (NN Familien)))) (LK (VXFIN (VAFIN haben))) (MF (NX (NX (PIAT keine) (NN Schwierigkeiten)) (PX (PROP damit))))) (\$\. \.))"/>
+</markables>

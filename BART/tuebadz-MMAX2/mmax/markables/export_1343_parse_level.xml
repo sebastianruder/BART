@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_9" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (SIMPX (MF (PX (APPRART Im) (NX (NN Förderband)))) (VC (VXINF (VVPP eingeklemmt)))))"/>
+<markable id="markable_47" span="word_4..word_18" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (ART Ein) (ADJX (ADJA 58jähriger)) (NN Mann))) (LK (VXFIN (VAFIN wurde))) (MF (PX (APPRART am) (NX (NX (NN Mittwoch)) (ADVX (ADV nachmittag)))) (PX (APPR bei) (NX (NX (NN Arbeiten)) (PX (APPR an) (NX (ART einem) (NN Förderband))))) (ADJX (ADJD schwer))) (VC (VXINF (VVPP verletzt)))) (\$\. \.))"/>
+<markable id="markable_95" span="word_19..word_37" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NX (ART Der) (NN Mann)) (\$\, \,) (R-SIMPX (C (NX (PRELS der))) (MF (PX (APPR in) (NX (ART einer) (NN Baustoffirma)))) (VC (VXINF (VVPP beschäftigt)) (VXFIN (VAFIN ist)))))) (\$\, \,) (LK (VXFIN (VAFIN hatte))) (VC (VXINF (VVPP versucht))) (NF (SIMPX (MF (NX (ART das) (NN Band)) (PX (APPR mit) (NX (ART den) (NN Händen)))) (VC (VXINF (VVIZU anzuziehen)))))) (\$\. \.))"/>
+<markable id="markable_134" span="word_38..word_53" mmax_level="parse" orderid="4" tag="(Start (SIMPX (SIMPX (VF (PX (PROP Dabei))) (LK (VXFIN (VVFIN verlor))) (MF (NX (PPER er)) (NX (ART das) (NN Gleichgewicht)))) (\$\, \,) (SIMPX (LK (VXFIN (VVFIN fiel))) (MF (PX (APPR auf) (NX (ART das) (NN Band))))) (\$\, \,) (SIMPX (LK (VXFIN (VAFIN wurde))) (VC (VXINF (VXINF (VVPP mitgezogen)) (KON und) (VXINF (VVPP eingeklemmt)))))) (\$\. \.))"/>
+<markable id="markable_162" span="word_54..word_64" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (ART Der) (NN Mann))) (LK (VXFIN (VAFIN wurde))) (MF (PX (APPR mit) (NX (ADJX (ADJA schweren)) (NN Prellungen))) (PX (APPR in) (NX (ART ein) (NN Krankenhaus)))) (VC (VXINF (VVPP eingeliefert)))) (\$\. \.))"/>
+<markable id="markable_175" span="word_65..word_69" mmax_level="parse" orderid="6" tag="(Start (SIMPX (VF (NX (ART Das) (NN Gewerbeaufsichtsamt))) (LK (VXFIN (VAFIN wurde))) (VC (VXINF (VVPP eingeschaltet)))) (\$\. \.))"/>
+<markable id="markable_180" span="word_70" mmax_level="parse" orderid="7" tag="(Start (NX (NN Pol\.Bericht)))"/>
+</markables>

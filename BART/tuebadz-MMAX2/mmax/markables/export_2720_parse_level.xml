@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_4" span="word_1" mmax_level="parse" orderid="1" tag="(Start (ADVX (ADV beiseite)))"/>
+<markable id="markable_9" span="word_2" mmax_level="parse" orderid="2" tag="(Start (NX (NN Anti-Gewalt-Woche)))"/>
+<markable id="markable_84" span="word_3..word_35" mmax_level="parse" orderid="3" tag='(Start (SIMPX (VF (PX (PX (APPR Von) (NX (NX (NN Sonntag)) (\$\, \,) (NX (ART den) (ADJX (ADJA 23\.))))) (PX (APPR bis) (NX (NX (NN Samstag)) (\$\, \,) (NX (ART den) (ADJX (ADJA 29\.)) (NN Oktober)))))) (LK (VXFIN (VVFIN findet))) (MF (PX (APPRART im) (NX (NX (NX (NX (NN Haus)) (NX (ART der) (NN Jugend))) (PX (APPR in) (NX (NE Charlottenburg)))) (\$-LRB- -LRB-) (NX (NX (NN Zillestraße)) (NX (NX (CARD 54)) (KON -) (NX (CARD 62)))))) (\$-LRB- -RRB-) (NX (NX (ART eine) (NN Veranstaltungsreihe)) (PX (APPRART zum) (NX (NX (NN Thema)) (\$-LRB- \") (ADJX (ADJD GewaltLOS)))))) (\$-LRB- \") (VC (PTKVZ statt))) (\$\. \.))'/>
+<markable id="markable_136" span="word_36..word_56" mmax_level="parse" orderid="4" tag='(Start (SIMPX (VF (PX (APPR Neben) (NX (NN Diskussionen)))) (LK (VXFIN (VVFIN gibt))) (MF (NX (PPER es)) (PX (APPR von) (NX (NN Jugendlichen))) (\$-LRB- \") (NX (NX (NX (NN Theater)) (PX (APPR gegen) (NX (NN Vorurteile)))) (\$-LRB- \") (\$\, \,) (NX (NX (NN Filme)) (PX (APPR gegen) (NX (NN Gewalt)))) (\$\, \,) (NX (NN Workshops)) (KON und) (NX (ADJX (ADJA sonstige)) (NN Aktionen))))) (\$\. \.))'/>
+<markable id="markable_156" span="word_57..word_64" mmax_level="parse" orderid="5" tag="(Start (NX (NX (NN Informationen)) (PX (APPR unter) (NX (NX (NN Telefon)) (\$\. \:) (NX (CARD 343) (CARD 02) (CARD 775))))) (\$\. \.))"/>
+</markables>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_6" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE China)))"/>
+<markable id="markable_17" span="word_2..word_5" mmax_level="parse" orderid="2" tag="(Start (DM (NX (NN Atomkraft)) (PTKANT ja) (PTKANT bitte)) (\$\. \!))"/>
+<markable id="markable_53" span="word_6..word_19" mmax_level="parse" orderid="3" tag="(Start (NX (NE Peking)) (\$-LRB- -LRB-) (NX (NE AP)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NE China))) (LK (VXFIN (VVFIN setzt))) (MF (PX (APPR bei) (NX (ART der) (NN Energieversorgung))) (ADVX (ADV weiterhin)) (PX (APPR auf) (NX (NN Atomkraft))))) (\$\. \.))"/>
+<markable id="markable_117" span="word_20..word_46" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (SIMPX (C (KOUS Wie)) (MF (NX (NX (ART die) (ADJX (ADJA englischsprachige)) (NN Tageszeitung)) (NX (NE China) (NE Daily))) (ADVX (ADV gestern))) (VC (VXFIN (VVFIN berichtete))))) (\$\, \,) (LK (VXFIN (VMFIN will))) (MF (NX (ART die) (NN Volksrepublik)) (PX (APPR bis) (PX (APPRART zum) (NX (NX (NN Jahr)) (NX (CARD 2000))))) (PX (APPR in) (NX (NX (NN Zusammenarbeit)) (PX (APPR mit) (NX (ADJX (ADJA ausländischen)) (NN Firmen))))) (NX (ADJX (CARD vier)) (NN Atomkraftwerke)) (PX (APPR in) (NX (NN Dienst)))) (VC (VXINF (VVINF stellen)))) (\$\. \.))"/>
+<markable id="markable_152" span="word_47..word_60" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (PX (APPR Bis) (PX (APPRART zum) (NX (NX (NN Jahre)) (NX (CARD 2\.020)))))) (LK (VXFIN (VAFIN werde))) (MF (NX (NX (ART die) (ADJX (PX (APPR auf) (NX (NN Atomkraft))) (ADJA basierende)) (NN Energieleistung)) (NX (NE Chinas))) (ADVX (ADV rund))) (VC (VXINF (VVPP verzehnfacht)))) (\$\. \.))"/>
+</markables>

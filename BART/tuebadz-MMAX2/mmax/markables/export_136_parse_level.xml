@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_16" span="word_1..word_5" mmax_level="parse" orderid="1" tag="(Start (SIMPX (MF (NX (ADJX (ADJA Ältester)) (NN Häftling)) (PX (APPR in) (NX (NE Texas)))) (VC (VXINF (VVPP hingerichtet)))))"/>
+<markable id="markable_89" span="word_6..word_35" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NE Huntsville)) (\$-LRB- \/) (NX (NE Florence))) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (KOKOM Als) (NX (ADJX (ADJA ältester)) (NN Häftling)) (PX (APPR seit) (NX (NX (NN Wiedereinführung)) (NX (ART der) (NN Todesstrafe)))))) (LK (VXFIN (VAFIN wurde))) (MF (PX (APPRART am) (NX (NX (NN Mittwoch)) (ADVX (ADV abend)))) (NX (NX (ART der) (ADJX (ADJA 62jährige)) (NN Mörder)) (NX (NE Clydell) (NE Coleman))) (PX (APPR in) (NX (NE Texas))) (PX (APPR mit) (NX (ART der) (NN Giftspritze)))) (VC (VXINF (VVPP hingerichtet)))) (\$\. \.))"/>
+<markable id="markable_129" span="word_36..word_50" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NE Coleman))) (LK (VXFIN (VAFIN hatte))) (MF (NX (CARD 1989)) (PX (APPRART im) (NX (ADJX (ADJA texanischen)) (NE Waco))) (NX (ART eine) (NN 87jährige)) (PX (APPR in) (NX (PPOSAT ihrer) (NN Wohnung)))) (VC (VXINF (VXINF (VVPP erdrosselt)) (KON und) (VXINF (VVPP ausgeraubt))))) (\$\. \.))"/>
+<markable id="markable_159" span="word_51..word_62" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Die) (NN Exekution))) (LK (VXFIN (VAFIN war))) (MF (ADVX (ADV bereits)) (NX (ART die) (ADJX (ADJA zwölfte)))) (NF (PX (APPR in) (NX (PDAT diesem) (NN Jahr))) (PX (APPR in) (NX (NE Texas))))) (\$\. \.))"/>
+</markables>

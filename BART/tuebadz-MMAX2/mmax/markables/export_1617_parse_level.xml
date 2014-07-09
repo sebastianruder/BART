@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN JUSTIZ)))"/>
+<markable id="markable_16" span="word_2..word_4" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NN Mielke-Anwalt)) (PX (APPR ohne) (NX (NN Anwaltszulassung)))))"/>
+<markable id="markable_24" span="word_5..word_6" mmax_level="parse" orderid="3" tag="(Start (NX (NE Berlin)) (\$\. \.))"/>
+<markable id="markable_54" span="word_7..word_18" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Die) (NN Justizverwaltung))) (LK (VXFIN (VAFIN hat))) (MF (NX (NX (ART dem) (ADJX (ADJA früheren)) (NN Mielke-Anwalt)) (NX (NE Jürgen) (NE Wetzenstein-Ollenschläger))) (NX (ART die) (NN Anwaltszulassung))) (VC (VXINF (VVPP entzogen)))) (\$\. \.))"/>
+<markable id="markable_83" span="word_19..word_28" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (ART Die) (NN Entscheidung))) (LK (VXFIN (VAFIN ist))) (MF (NX (NX (NE Wetzensteins)) (NN Ehefrau)) (PX (APPR in) (NX (NE Berlin)))) (VC (VXINF (VVPP übergeben)) (VXINF (VAPP worden)))) (\$\. \.))"/>
+<markable id="markable_103" span="word_29..word_36" mmax_level="parse" orderid="6" tag="(Start (SIMPX (VF (PX (PROP Damit))) (LK (VXFIN (VAFIN sei))) (MF (NX (NX (ART die) (NN Entziehung)) (NX (ART der) (NN Zulassung))) (ADJX (ADJD bestandskräftig)))) (\$\. \.))"/>
+<markable id="markable_133" span="word_37..word_48" mmax_level="parse" orderid="7" tag="(Start (SIMPX (VF (PX (APPR Gegen) (NX (ART die) (NN Entscheidung)))) (LK (VXFIN (VAFIN sei))) (MF (NX (PIAT kein) (NN Rechtsmittel)) (PX (APPR vor) (NX (ART dem) (NN Ehrengericht))) (ADVX (ADV mehr)) (ADJX (ADJD möglich)))) (\$\. \.))"/>
+<markable id="markable_202" span="word_49..word_74" mmax_level="parse" orderid="8" tag="(Start (SIMPX (VF (NX (NE Wetzenstein))) (LK (VXFIN (VAFIN hat))) (MF (PX (APPR nach) (NX (NX (NN Auffassung)) (NX (ART der) (NN Justiz)))) (NX (PPOSAT seine) (NN Residenzpflicht))) (VC (VXINF (VVPP verletzt))) (\$\, \,) (NF (R-SIMPX (C (PX (APPR nach) (NX (PRELS der)))) (MF (NX (PPER er)) (NX (PRF sich)) (NX (KOKOM als) (NN Anwalt)) (ADJX (ADJD dauernd)) (PX (APPR in) (NX (NX (ART dem) (NN Bezirk)) (NX (ART des) (ADJX (ADJA jeweiligen)) (NN Oberlandesgerichts))))) (VC (VXINF (VVINF aufhalten)) (VXFIN (VMFIN muß)))))) (\$\. \.))"/>
+<markable id="markable_221" span="word_75..word_81" mmax_level="parse" orderid="9" tag="(Start (SIMPX (VF (NX (NE Wetzenstein))) (LK (VXFIN (VAFIN ist))) (MF (PX (APPR seit) (NX (NX (NN Februar)) (NX (CARD 1992)))) (ADJX (ADJD flüchtig)))) (\$\. \.))"/>
+</markables>

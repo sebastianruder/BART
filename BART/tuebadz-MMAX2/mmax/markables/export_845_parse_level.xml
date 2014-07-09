@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Fallobst)))"/>
+<markable id="markable_54" span="word_2..word_20" mmax_level="parse" orderid="2" tag='(Start (SIMPX (VF (ADJX (ADJX (ADJD Schwarz)) (NX (KOKOM wie) (PPOSAT seine) (NN Haut)))) (LK (VXFIN (VVFIN fuhr))) (MF (NX (NE Correira) (NE C\.)) (PX (APPR mit) (NX (PPOSAT seiner) (\$-LRB- \") (NN Ente))) (\$-LRB- \") (PX (APPRART am) (NX (NX (ADJX (ADJA 7\.)) (NN Juni)) (NX (CARD 1996)))) (PX (APPR in) (NX (NE Hennigsdorf))))) (\$\. \.))'/>
+<markable id="markable_77" span="word_21..word_29" mmax_level="parse" orderid="3" tag="(Start (ADJX (ADJX (ADJD Schwarz)) (\$\, \,) (SIMPX (C (KOUS weil)) (MF (NX (PPER er)) (PX (APPR ohne) (NX (NN Fahrerlaubnis))) (ADVX (ADV unterwegs))) (VC (VXFIN (VAFIN war))))) (\$\. \.))"/>
+<markable id="markable_90" span="word_30..word_34" mmax_level="parse" orderid="4" tag="(Start (PX (APPR Aus) (NX (ART der) (ADJX (ADJA Märkischen)) (ADJX (ADJA Allgemeinen)) (NN Zeitung))))"/>
+</markables>

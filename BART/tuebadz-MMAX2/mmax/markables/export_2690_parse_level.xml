@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_17" span="word_1..word_6" mmax_level="parse" orderid="1" tag='(Start (\$-LRB- \") (NX (NX (ADJX (ADJA Wahrer)) (NN Geist)) (\$-LRB- \") (NX (ART der) (NE CDU))))'/>
+<markable id="markable_74" span="word_7..word_28" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (ART Die) (NN SPD-Spitzenkandidatin)) (\$\, \,) (NX (NE Ingrid) (NE Stahmer)))) (\$\, \,) (LK (VXFIN (VVFIN erhofft))) (MF (NX (PRF sich)) (PX (APPR von) (NX (NX (ART der) (NN Quoten-Schlappe)) (NX (ART der) (NE CDU)))) (NX (NX (NX (ART einen) (NN Zugewinn)) (PX (APPR für) (NX (PPOSAT ihre) (NN Partei)))) (PX (APPR bei) (NX (ART den) (NN Wahlen)))))) (\$\. \.))"/>
+<markable id="markable_93" span="word_29..word_35" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (APPR In) (NX (ART einem) (NN Interview)))) (LK (VXFIN (VVFIN sagte))) (MF (NX (PPER sie)) (ADVX (ADV gestern)))) (\$\. \:))"/>
+<markable id="markable_138" span="word_36..word_54" mmax_level="parse" orderid="4" tag='(Start (\$-LRB- \") (SIMPX (VF (NX (PPER Ich))) (LK (VXFIN (VVFIN hoffe))) (\$\, \,) (NF (SIMPX (C (KOUS daß)) (MF (NX (ART die) (NN Leute))) (VC (VXFIN (VVFIN merken))) (\$\, \,) (NF (SIMPX (C (KOUS daß)) (MF (NX (PDS das)) (NX (NX (ART der) (ADJX (ADJA wahre)) (NN Geist)) (NX (ART der) (NE CDU)))) (VC (VXFIN (VAFIN ist)))))))) (\$\. \.) (\$-LRB- \"))'/>
+<markable id="markable_143" span="word_55" mmax_level="parse" orderid="5" tag="(Start (NX (NE ADN)))"/>
+</markables>

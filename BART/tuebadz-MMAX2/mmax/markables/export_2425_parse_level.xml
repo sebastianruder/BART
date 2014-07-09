@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE USA)))"/>
+<markable id="markable_13" span="word_2..word_3" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NN Kuba-Gesetz))) (LK (VXFIN (VVFIN scheitert)))))"/>
+<markable id="markable_68" span="word_4..word_24" mmax_level="parse" orderid="3" tag="(Start (NX (NE Washington)) (\$-LRB- -LRB-) (NX (NE AP)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (NX (NX (ART Der) (NN Vorstoß)) (NX (ART der) (NN Republikaner))) (PX (APPRART im) (NX (NN US-Senat)))) (PX (APPRART zur) (NX (NX (NN Verschärfung)) (NX (NX (ART der) (NN Sanktionen)) (PX (APPR gegen) (NX (NE Kuba)))))))) (LK (VXFIN (VAFIN ist))) (MF (ADVX (ADV erneut))) (VC (VXINF (VVPP gescheitert)))) (\$\. \.))"/>
+<markable id="markable_104" span="word_25..word_38" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (NX (ART Die) (NN Unterstützer)) (NX (ART der) (ADJX (ADJA umstrittenen)) (NN Gesetzesvorlage)))) (LK (VXFIN (VVFIN unterlagen))) (MF (PX (APPRART am) (NX (NN Dienstag))) (ADVX (ADV allerdings)) (PX (APPR mit) (NX (ADVX (ADV nur)) (ART einer) (NN Stimme))))) (\$\. \.))"/>
+<markable id="markable_138" span="word_39..word_51" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (PX (APPR Mit) (NX (ART dem) (NN Gesetzesentwurf)))) (LK (VXFIN (VMFIN sollten))) (MF (NX (ADJX (ADJA ausländische)) (NN Unternehmer)) (PX (APPR von) (NX (NX (NN Investitionen)) (PX (APPR in) (NX (NE Kuba)))))) (VC (VXINF (VVPP abgehalten)) (VXINF (VAINF werden)))) (\$\. \.))"/>
+</markables>

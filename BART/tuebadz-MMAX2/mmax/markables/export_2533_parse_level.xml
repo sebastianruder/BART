@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_12" span="word_1..word_4" mmax_level="parse" orderid="1" tag='(Start (\$-LRB- \") (SIMPX (VF (NX (NE Cara))) (\$-LRB- \") (LK (VXFIN (VVFIN feiert)))))'/>
+<markable id="markable_48" span="word_5..word_19" mmax_level="parse" orderid="2" tag='(Start (\$-LRB- \") (SIMPX (VF (NX (NX (NE Cara)) (\$-LRB- \") (\$\, \,) (NX (NX (ART die) (NN Beratungsstelle)) (PX (APPRART zur) (NX (ADJX (ADJA vorgeburtlichen)) (NN Diagnostik)))))) (\$\, \,) (LK (VXFIN (VAFIN wird))) (MF (ADJX (NX (ADJX (CARD fünf)) (NN Jahre)) (ADJD alt)))) (\$\. \.))'/>
+<markable id="markable_113" span="word_20..word_46" mmax_level="parse" orderid="3" tag='(Start (SIMPX (VF (PX (APPRART Zum) (NX (NN Geburtstag)))) (LK (VXFIN (VVFIN liest))) (MF (ADVX (ADVX (ADV morgen)) (\$\, \,) (NX (ADJX (CARD 20)) (NN Uhr))) (\$\, \,) (NX (NE Eva) (NE Schindele)) (PX (APPR in) (NX (ART der) (NN Angestelltenkammer))) (PX (APPR aus) (NX (NX (PPOSAT ihrem) (NN Buch)) (\$-LRB- \") (NX (NX (NN Schwangerschaft)) (\$-LRB- -) (PX (APPR zwischen) (NX (NX (ADJX (ADJA guter)) (NN Hoffnung)) (KON und) (NX (ADJX (ADJA medizinischem)) (NN Risiko))))))))) (\$-LRB- \") (\$\. \.))'/>
+<markable id="markable_118" span="word_47" mmax_level="parse" orderid="4" tag="(Start (NX (NE taz)))"/>
+</markables>

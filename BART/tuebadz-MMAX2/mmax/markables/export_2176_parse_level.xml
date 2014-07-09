@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Wasserleiche)))"/>
+<markable id="markable_52" span="word_2..word_21" mmax_level="parse" orderid="2" tag='(Start (SIMPX (VF (NX (ART Ein) (NN Angler))) (LK (VXFIN (VAFIN hat))) (MF (ADVX (ADVX (ADV gestern)) (ADVX (ADV vormittag))) (PX (APPR an) (NX (NX (ART der) (NN Uferböschung)) (PX (APPR bei) (NX (NX (ART der) (NN Gaststätte)) (\$-LRB- \") (NX (NX (NE Weser)) (NN Utkiek)))))) (\$-LRB- \") (NX (ART einen) (ADJX (ADJA toten)) (NN Mann))) (VC (VXINF (VVPP entdeckt)))) (\$\. \.))'/>
+<markable id="markable_112" span="word_22..word_45" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (PPER Es))) (LK (VXFIN (VVFIN handelt))) (MF (NX (PRF sich)) (\$\, \,) (NX (ADVX (ADV so)) (NX (ART die) (NN Polizei))) (\$\, \,) (PX (APPR um) (NX (NX (ART einen) (NN 53jährigen)) (PX (APPR aus) (NX (NE Bremen-Nord)))))) (\$\, \,) (NF (R-SIMPX (C (NX (PRELS der))) (MF (ADVX (ADV bereits)) (NX (ADVX (ADV mindestens)) (ADJX (CARD zwei)) (NN Tage)) (PX (APPRART im) (NX (NN Wasser)))) (VC (VXINF (VVPP gelegen)) (VXFIN (VAFIN habe)))))) (\$\. \.))"/>
+<markable id="markable_140" span="word_46..word_57" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Die) (NN Polizei))) (FKOORD (FKONJ (LK (VXFIN (VVFIN schließt))) (MF (NX (ART einen) (NN Selbstmord)) (ADVX (PTKNEG nicht))) (VC (PTKVZ aus))) (\$\, \,) (FKONJ (LK (VXFIN (VVFIN ermittelt))) (MF (ADVX (ADV aber)) (ADVX (ADV noch)))))) (\$\. \.))"/>
+<markable id="markable_145" span="word_58" mmax_level="parse" orderid="5" tag="(Start (NX (NE tat)))"/>
+</markables>

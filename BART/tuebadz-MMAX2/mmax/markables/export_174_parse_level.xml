@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_9" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (SIMPX (VF (NX (NN Motoryacht))) (LK (VXFIN (VAFIN ist))) (VC (VXINF (VVPP gesunken)))))"/>
+<markable id="markable_16" span="word_4..word_5" mmax_level="parse" orderid="2" tag="(Start (NX (NE Bremerhaven)) (\$\. \.))"/>
+<markable id="markable_48" span="word_6..word_18" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (ART Eine) (ADJX (NX (ADJX (CARD 14)) (NN Meter)) (ADJA lange)) (NN Motoryacht))) (LK (VXFIN (VAFIN ist))) (MF (ADVX (ADVX (ADV gestern)) (ADVX (ADV morgen))) (PX (APPR in) (NX (ART der) (NE Außenweser)))) (VC (VXINF (VVPP gesunken)))) (\$\. \.))"/>
+<markable id="markable_101" span="word_19..word_41" mmax_level="parse" orderid="4" tag='(Start (SIMPX (VF (SIMPX (VF (NX (ART Die) (ADJX (PIDAT beiden)) (NN Besatzungsmitglieder))) (LK (VXFIN (VAFIN wurden))) (MF (PX (APPR in) (NX (NX (ART der) (NN Nähe)) (NX (NX (ART des) (NN Leuchtturms)) (\$-LRB- \") (NX (ADJX (ADJA Roter)) (NN Sand))))) (\$-LRB- \") (PX (APPR aus) (NX (ART dem) (NN Wasser)))) (VC (VXINF (VVPP geborgen))))) (\$\, \,) (LK (VXFIN (VVFIN teilte))) (MF (NX (ART die) (NN Wasserschutzpolizei))) (VC (PTKVZ mit))) (\$\. \.))'/>
+<markable id="markable_131" span="word_42..word_53" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (NX (ART Die) (NN Ursache)) (PX (APPR für) (NX (NX (ART das) (NN Sinken)) (NX (ART des) (NN Stahlschiffes)))))) (LK (VXFIN (VAFIN ist))) (MF (ADVX (ADVX (ADV noch)) (PTKNEG nicht))) (VC (VXINF (VVPP geklärt)))) (\$\. \.))"/>
+<markable id="markable_136" span="word_54" mmax_level="parse" orderid="6" tag="(Start (NX (NE dpa)))"/>
+</markables>

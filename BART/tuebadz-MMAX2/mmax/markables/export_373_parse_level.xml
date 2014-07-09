@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_12" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NN Job-Abbau)) (PX (APPR in) (NX (NN Krankenhäusern)))) (\$\. \?))"/>
+<markable id="markable_34" span="word_5..word_13" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (ADVX (ADV Rund)) (ADJX (CARD 200)) (NN Arbeitsplätze)) (PX (APPR in) (NX (ADJX (ADJA Bremer)) (NN Krankenhäusern))))) (LK (VXFIN (VAFIN werden))) (VC (VXINF (VVPP gestrichen)))) (\$\. \.))"/>
+<markable id="markable_61" span="word_14..word_24" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (PDS Das))) (LK (VXFIN (VVFIN befürchtet))) (MF (NX (NX (NX (ART die) (ADJX (ADJA gesundheitspolitische)) (NN Sprecherin)) (NX (ART der) (NN CDU-Fraktion))) (\$\, \,) (NX (NE Ulrike) (NE Schreiber))))) (\$\. \.))"/>
+<markable id="markable_94" span="word_25..word_37" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (KOKOM Als) (NX (NN Grund)) (PX (APPR für) (NX (PDAT diese) (NN Befürchtung))))) (LK (VXFIN (VVFIN nannte))) (MF (NX (NE Schreiber)) (NX (NX (ART die) (NN Gesundheitspolitik)) (NX (ART der) (ADJX (ADJA rot-grünen)) (NN Bundesregierung))))) (\$\. \.))"/>
+<markable id="markable_123" span="word_38..word_50" mmax_level="parse" orderid="5" tag='(Start (SIMPX (VF (NX (NX (ART Der) (ADJX (ADVX (ADV jetzt)) (ADJA vorliegende)) (NN Diskussionsentwurf)) (\$-LRB- \") (NX (NX (NN Gesundheitsreform)) (NX (CARD 2000))))) (\$-LRB- \") (LK (VXFIN (VMFIN müsse))) (MF (ADVX (ADV unbedingt))) (VC (VXINF (VVPP verhindert)) (VXINF (VAINF werden)))) (\$\. \.))'/>
+<markable id="markable_128" span="word_51" mmax_level="parse" orderid="6" tag="(Start (NX (NE taz)))"/>
+</markables>

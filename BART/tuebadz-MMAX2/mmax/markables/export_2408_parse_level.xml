@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_16" span="word_1..word_5" mmax_level="parse" orderid="1" tag="(Start (NX (NX (ADJX (ADJA Giftige)) (NN Schwellen)) (PX (APPR für) (NX (ART die) (NN Bahn)))))"/>
+<markable id="markable_58" span="word_6..word_22" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (PX (APPR In) (NX (PDAT diesem) (NN Kessel)))) (LK (VXFIN (VVFIN läßt))) (MF (NX (ART die) (NX (NX (ADJX (ADJA Deutsche)) (NN Bahn)) (NN AG))) (NX (NX (NN Eichenschwellen)) (PX (APPR für) (NX (NN Weichen)))) (PX (APPR mit) (NX (NX (NN Steinkohleteeröl)) (KON und) (NX (NN Holzschutzmitteln))))) (VC (VXINF (VVINF tränken)))) (\$\. \.))"/>
+<markable id="markable_101" span="word_23..word_39" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NX (ART Die) (NN Fabrik)) (PX (APPR in) (NX (NX (NE Zernsdorf)) (PX (APPR bei) (NX (NE Berlin))))))) (LK (VXFIN (VVFIN versaut))) (MF (PX (PROP dabei)) (NX (NX (NN Boden)) (\$\, \,) (NX (NN Grundwasser)) (KON und) (NX (ART einen) (ADJX (ADJX (ADJD nahe)) (ADJA gelegenen)) (NN See))))) (\$\. \.))"/>
+<markable id="markable_144" span="word_40..word_56" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Die) (ADJX (ADJA Brandenburger)) (NN Bündnisgrünen))) (LK (VXFIN (VVFIN forderten))) (MF (NX (ART die) (NN Bahn)) (ADVX (ADV gestern))) (VC (PTKVZ auf)) (\$\, \,) (NF (SIMPX (MF (NX (NX (ART das) (NN Schwellenimprägnierwerk)) (PX (APPR in) (NX (NE Zernsdorf)))) (ADVX (ADV sofort))) (VC (VXINF (PTKZU zu) (VVINF schließen)))))) (\$\. \.))"/>
+<markable id="markable_159" span="word_57..word_62" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (NN Umweltauflagen))) (LK (VXFIN (VMFIN könnten))) (MF (ADVX (PTKNEG nicht))) (VC (VXINF (VVPP eingehalten)) (VXINF (VAINF werden)))) (\$\. \.))"/>
+<markable id="markable_171" span="word_63..word_66" mmax_level="parse" orderid="6" tag="(Start (NX (NN Foto)) (\$\. \:) (NX (NE Rolf) (NE Schulten)))"/>
+</markables>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_15" span="word_1..word_5" mmax_level="parse" orderid="1" tag="(Start (SIMPX (VF (NX (NE Dieter) (NE Eilts))) (LK (VXFIN (VAFIN hat))) (MF (NX (ART einen) (NN Zehenbruch)))))"/>
+<markable id="markable_46" span="word_6..word_18" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (PX (APPR Bei) (NX (NX (NN Werder)) (NX (NE Bremen))))) (LK (VXFIN (VVFIN reißen))) (MF (NX (NX (ART die) (NN Personal-Sorgen)) (PX (APPR von) (NX (NX (NN Trainer)) (NX (NE Felix) (NE Magath))))) (ADVX (PTKNEG nicht))) (VC (PTKVZ ab))) (\$\. \.))"/>
+<markable id="markable_84" span="word_19..word_33" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NE Dieter) (NE Eilts))) (LK (VXFIN (VAFIN hat))) (MF (NX (PRF sich)) (PX (APPRART beim) (NX (CARD 0\:4))) (PX (APPR in) (NX (NE Kaiserslautern))) (NX (NX (ART einen) (NN Zehenbruch)) (PX (APPRART am) (NX (ADJX (ADJA linken)) (NN Fuß))))) (VC (VXINF (VVPP zugezogen)))) (\$\. \.))"/>
+<markable id="markable_114" span="word_34..word_45" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Der) (NN Werder-Kapitän))) (LK (VXFIN (VVFIN droht))) (MF (ADVX (ADV morgen)) (PX (APPRART im) (NX (NX (ADJX (ADJA wichtigen)) (NN Heimspiel)) (PX (APPR gegen) (NX (NX (NN Eintracht)) (NX (NE Frankfurt))))))) (VC (VXINF (VVIZU auszufallen)))) (\$\. \.))"/>
+<markable id="markable_119" span="word_46" mmax_level="parse" orderid="5" tag="(Start (NX (NE dpa)))"/>
+</markables>

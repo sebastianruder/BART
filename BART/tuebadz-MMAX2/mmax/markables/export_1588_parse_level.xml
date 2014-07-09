@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Tigerjagd)))"/>
+<markable id="markable_30" span="word_2..word_10" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (NE Indiens)) (ADJX (ADJA bengalische)) (NN Tiger))) (LK (VXFIN (VVFIN fallen))) (MF (ADJX (ADJD zunehmend)) (NX (NN Wilderern)) (PX (APPRART zum) (NX (NN Opfer))))) (\$\. \.))"/>
+<markable id="markable_80" span="word_11..word_32" mmax_level="parse" orderid="3" tag="(Start (SIMPX (SIMPX (VF (PX (APPRART Im) (NX (NX (NN Naturpark)) (NX (NE Ranthambhor))))) (LK (VXFIN (VAFIN wurden))) (MF (PX (APPR bei) (NX (ART der) (ADJX (ADJA letzten)) (NN Zählung))) (ADVX (ADV nur)) (ADVX (ADV noch)) (NX (ADJX (CARD 15)) (NN Tiger))) (VC (VXINF (VVPP gefunden)))) (\$-LRB- -) (SIMPX (VF (NX (ADJX (CARD 44)))) (LK (VXFIN (VAFIN waren))) (MF (NX (PPER es)) (ADVX (ADV noch)) (PX (APPR vor) (NX (ADJX (CARD drei)) (NN Jahren)))))) (\$\. \.))"/>
+<markable id="markable_135" span="word_33..word_54" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (APPR In) (NX (NX (NE China)) (\$\, \,) (NX (NE Taiwan)) (KON und) (NX (NE Südkorea))))) (LK (VXFIN (VAFIN wird))) (MF (PX (APPR aus) (NX (NX (ART dem) (NN Skelett)) (NX (ART der) (NN Tiere)))) (NX (ART ein) (NN Wein))) (VC (VXINF (VVPP hergestellt))) (\$\, \,) (NF (R-SIMPX (C (NX (PRELS der))) (MF (NX (KOKOM als) (NN Stärkungsmittel))) (VC (VXINF (VVPP getrunken)) (VXFIN (VAFIN wird)))))) (\$\. \.))"/>
+</markables>

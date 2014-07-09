@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN ReiseNotizen)))"/>
+<markable id="markable_11" span="word_2..word_3" mmax_level="parse" orderid="2" tag="(Start (SIMPX (MF (ADJX (ADJD Besser))) (VC (VXINF (VVINF essen)))))"/>
+<markable id="markable_66" span="word_4..word_25" mmax_level="parse" orderid="3" tag='(Start (SIMPX (VF (NX (NX (ART Die) (NN Stadtverwaltung)) (PX (APPR von) (NX (NE Rom))))) (FKOORD (FKONJ (LK (VXFIN (VVFIN prüft))) (MF (ADVX (ADV derzeit)) (NX (NX (ART die) (NN Speiselokale)) (NX (ART der) (NN Stadt))))) (KON und) (FKONJ (LK (VXFIN (VVFIN vergibt))) (MF (PX (APPR ab) (NX (NN November))) (NX (NX (ART das) (NN Diplom)) (\$-LRB- \") (FX (FM Ristorantori) (FM die) (FM qualita))))))) (\$-LRB- \") (\$\. \.))'/>
+<markable id="markable_139" span="word_26..word_54" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (APPR Nach) (NX (NX (ADJX (ADJA bestandener)) (NN Prüfung)) (NX (ART der) (NX (NX (NN Hygiene)) (\$\, \,) (NX (NN Sicherheit)) (\$\, \,) (NX (NN Geschäftsführung)) (KON und) (NX (NX (NN Qualität)) (PX (APPR von) (NX (NX (NN Küche)) (KON und) (NX (NN Keller)))))))))) (LK (VXFIN (VVFIN erhalten))) (MF (NX (ART die) (NN Restaurants)) (NX (ART ein) (NN Gütesiegel))) (\$\, \,) (NF (R-SIMPX (C (NX (PRELS das))) (MF (NX (ART einen) (NN Kellner)) (PX (APPR vor) (NX (ART der) (NN Peterskuppel)))) (VC (VXFIN (VVFIN zeigt)))))) (\$\. \.))"/>
+<markable id="markable_144" span="word_55" mmax_level="parse" orderid="5" tag="(Start (NX (NE faf)))"/>
+</markables>

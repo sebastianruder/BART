@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_6" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Modell-Prostituion)))"/>
+<markable id="markable_40" span="word_2..word_15" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (ART Die) (ADJX (ADJA Hamburger)) (NN Polizei))) (LK (VXFIN (VAFIN hat))) (MF (ADVX (ADV gestern)) (PX (APPR zu) (NX (NX (ART einem) (NN Schlag)) (PX (APPR gegen) (NX (ART die) (ADJX (ADJA sogenannte)) (NN Modell-Prostitution)))))) (VC (VXINF (VVPP ausgeholt)))) (\$\. \.))"/>
+<markable id="markable_68" span="word_16..word_26" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (ADJX (CARD 700)) (NN Beamte))) (LK (VXFIN (VVFIN durchsuchten))) (MF (PX (APPRART am) (NX (NN Abend))) (NX (ADJX (CARD 86)) (NN Wohnungen)) (PX (APPR in) (NX (ADJX (ADJA verschiedenen)) (NN Stadtteilen))))) (\$\. \.))"/>
+</markables>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Zeitgeist)))"/>
+<markable id="markable_15" span="word_2..word_4" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NN Sieg)) (NX (ART der) (NN Zwerge))))"/>
+<markable id="markable_133" span="word_5..word_51" mmax_level="parse" orderid="3" tag="(Start (NX (NE Recklinghausen)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (ART Das) (NN Amtsgericht)) (PX (APPR von) (NX (NE Recklinghausen))))) (LK (VXFIN (VAFIN hat))) (MF (NX (ART dem) (ADJX (ADJA klassischen)) (ADJX (ADJA deutschen)) (NN Gartenzwerg)) (PX (APPRART im) (NX (NX (NN Kampf)) (PX (APPR gegen) (NX (ART den) (NN Zeitgeist))))) (PX (APPR zu) (NX (ART einem) (NN Sieg)))) (VC (VXINF (VVPP verholfen)))) (\$\. \:) (SIMPX (VF (PX (ADVX (ADV Auch)) (APPR gegen) (NX (NX (ART einen) (NN Beschluß)) (NX (NX (ART der) (NN Eigentümerversammlung)) (NX (ART einer) (NN Wohnanlage)))))) (LK (VXFIN (VMFIN dürfen))) (MF (NX (NN Gartenzwerge)) (PX (APPR von) (NX (PPOSAT ihren) (NN Besitzern))) (PX (APPR in) (NX (ART einer) (ADJX (PX (APPR von) (NX (PPER ihnen))) (NX (KOKOM als) (NN Sondereigentum)) (ADJA genutzten)) (NN Fläche)))) (VC (VXINF (VVINF aufstellen)))) (\$\. \.))"/>
+<markable id="markable_162" span="word_52..word_63" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (NX (ART Eine) (NN Beeinträchtigung)) (NX (NX (ART des) (NN Wohnwerts)) (NX (ART der) (NN Miteigentümer))))) (LK (VXFIN (VAFIN sei))) (MF (PX (PROP dadurch)) (ADVX (PTKNEG nicht))) (VC (VXINF (PTKZU zu) (VVINF erkennen)))) (\$\. \.))"/>
+<markable id="markable_172" span="word_64..word_66" mmax_level="parse" orderid="5" tag="(Start (NX (NN Foto)) (\$\. \:) (NX (NN taz-Archiv)))"/>
+</markables>

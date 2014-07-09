@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Niederlande)))"/>
+<markable id="markable_10" span="word_2" mmax_level="parse" orderid="2" tag="(Start (NX (NN Brandanschlag)))"/>
+<markable id="markable_71" span="word_3..word_25" mmax_level="parse" orderid="3" tag="(Start (NX (NE Amsterdam)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NN Unbekannte))) (LK (VXFIN (VAFIN haben))) (MF (ADVX (ADVX (ADV gestern)) (ADJX (ADJD früh))) (PX (APPR in) (NX (NE Amsterdam))) (NX (NX (ART einen) (NN Brandanschlag)) (PX (APPR auf) (NX (ADJX (CARD zwei)) (NN Wohnungen))))) (VC (VXINF (VVPP verübt))) (\$\, \,) (NF (R-SIMPX (C (PX (APPR in) (NX (PRELS denen)))) (MF (NX (NN Marokkaner))) (VC (VXFIN (VVFIN leben)))))) (\$\. \.))"/>
+<markable id="markable_112" span="word_26..word_41" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (SIMPX (C (KOUS Bevor)) (MF (NX (ART die) (NN Täter))) (VC (VXFIN (VVFIN flüchteten))))) (\$\, \,) (LK (VXFIN (VVFIN schmierten))) (MF (NX (PPER sie)) (PX (APPR mit) (NX (ADJX (ADJA weißer)) (NN Kreide))) (NX (ADJX (ADJA ausländerfeindliche)) (NN Parolen)) (PX (APPR an) (NX (ART die) (NN Hauswand))))) (\$\. \.))"/>
+<markable id="markable_122" span="word_42..word_45" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (VC (VXINF (VVPP Verletzt)))) (LK (VXFIN (VAFIN wurde))) (MF (NX (PIS niemand)))) (\$\. \.))"/>
+</markables>

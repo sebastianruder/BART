@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_11" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (SIMPX (VF (NX (NN Polizei))) (LK (VXFIN (VVFIN zerschlägt))) (MF (NX (NN Skinhead-Kampftrupp)))))"/>
+<markable id="markable_78" span="word_4..word_32" mmax_level="parse" orderid="2" tag='(Start (\$-LRB- \") (SIMPX (VF (NX (ADJX (ADJA Sinstorfer)) (NN Skinheads))) (\$-LRB- \") (LK (VXFIN (VVFIN gestehen))) (\$\, \,) (NF (SIMPX (MF (NX (ADVX (ADV mindestens)) (ADJX (CARD drei)) (NN Anschläge))) (VC (VXINF (VVPP verübt)) (VXINF (PTKZU zu) (VAINF haben)))))) (\$-LRB- \/) (SIMPX (VF (NX (ADJX (ADJA Weitere)) (NN Überfälle))) (LK (VXFIN (VAFIN waren))) (VC (VXINF (VVPP geplant)))) (\$-LRB- \/) (SIMPX (VF (NX (NN Polizei))) (LK (VXFIN (VVFIN ermittelt))) (MF (PX (APPR gegen) (NX (ADJX (CARD zwölf)) (NN Personen))))) (\$-LRB- \/) (SIMPX (VF (NX (NX (NN Innensenator)) (NX (NE Hackmann)))) (LK (VXFIN (VVFIN kündigt))) (MF (NX (ADJX (ADJA weiteres))))) (\$-LRB- \.\.\.))'/>
+</markables>

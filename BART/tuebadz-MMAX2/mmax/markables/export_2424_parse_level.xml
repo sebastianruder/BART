@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE USA)))"/>
+<markable id="markable_16" span="word_2..word_4" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NN Streit)) (PX (APPR um) (NX (NE Farrakhan)))))"/>
+<markable id="markable_77" span="word_5..word_30" mmax_level="parse" orderid="3" tag='(Start (NX (NE Washington)) (\$-LRB- -LRB-) (NX (NE rtr)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (ADJX (ADJA Führende)) (ADJX (ADJA US-amerikanische)) (NN Juden))) (LK (VXFIN (VAFIN haben))) (MF (NX (NX (ART das) (NN Gesprächsangebot)) (NX (NX (NX (ART des) (NN Führers)) (NX (ART der) (ADJX (ADJA schwarzen)) (\$-LRB- \") (NX (NE Nation) (NE of) (NE Islam)))) (\$-LRB- \") (\$\, \,) (NX (NE Louis) (NE Farrakhan))))) (\$\, \,) (VC (VXINF (VVPP abgelehnt)))) (\$\. \.))'/>
+<markable id="markable_130" span="word_31..word_51" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Der) (ADJX (ADJA Jüdische)) (NN Weltkongreß))) (LK (VXFIN (VVFIN erklärte))) (MF (PX (APPRART am) (NX (NN Dienstag)))) (\$\, \,) (NF (SIMPX (VF (NX (PPER es))) (LK (VXFIN (VAFIN werde))) (MF (NX (PIAT kein) (NN Treffen))) (VC (VXINF (VVINF geben))) (\$\, \,) (NF (SIMPX (C (KOUS solange)) (MF (NX (NE Farrakhan)) (NX (PPOSAT seine) (ADJX (ADJA antisemitischen)) (NN Parolen)) (ADVX (PTKNEG nicht))) (VC (VXFIN (VVFIN widerrufe)))))))) (\$\. \.))"/>
+<markable id="markable_155" span="word_52..word_61" mmax_level="parse" orderid="5" tag='(Start (SIMPX (VF (NX (NE Farrakhan))) (LK (VXFIN (VAFIN hatte))) (MF (NX (NN Juden)) (ADJX (ADJD wiederholt)) (NX (KOKOM als) (\$-LRB- \") (NN Blutsauger))) (\$-LRB- \") (VC (VXINF (VVPP bezeichnet)))) (\$\. \.))'/>
+</markables>

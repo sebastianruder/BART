@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Ferienjob)))"/>
+<markable id="markable_33" span="word_2..word_12" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (ART Einen) (ADJX (ADJA einträglichen)) (NN Ferienjob))) (LK (VXFIN (VAFIN haben))) (MF (NX (ADJX (CARD zwei)) (NN Jugendliche)) (PX (APPRART im) (NX (ADJX (ADJA kanadischen)) (NE Winnipeg)))) (VC (VXINF (VVPP entdeckt)))) (\$\. \.))"/>
+<markable id="markable_85" span="word_13..word_33" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (PX (APPR Von) (NX (NX (ADJX (CARD sechs)) (NN Uhr)) (ADVX (ADV abends)))) (PX (APPR bis) (PX (APPRART zum) (NX (NN Morgengrauen)))))) (LK (VXFIN (VVFIN liefern))) (MF (NX (NX (ART der) (ADJX (ADJA 16jährige)) (NX (NE Tibi) (NE Fofor))) (KON und) (NX (NX (PPOSAT seine) (ADJX (ADJA 17jährige)) (NN Schwester)) (NX (NE Susan)))) (NX (NN Kondome)) (NX (ADJX (ADJD frei)) (NN Haus)))) (\$\. \.))"/>
+<markable id="markable_129" span="word_34..word_51" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Der) (NN Expreß-Service))) (LK (VXFIN (VVFIN verspricht))) (MF (NX (NN Erfolg))) (\$\, \,) (NF (SIMPX (C (KOUS weil)) (MF (NX (PRF sich)) (NX (PIDAT viele) (NN Leute)) (ADVX (PTKNEG nicht))) (VC (VXFIN (VVFIN trauen))) (\$\, \,) (NF (SIMPX (MF (NX (NN Kondome)) (PX (APPR in) (NX (NN Apotheken)))) (VC (VXINF (PTKZU zu) (VVINF kaufen)))))))) (\$\. \.))"/>
+</markables>

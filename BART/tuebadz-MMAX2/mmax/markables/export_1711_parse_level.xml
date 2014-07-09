@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_6" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Ungarn)))"/>
+<markable id="markable_15" span="word_2..word_4" mmax_level="parse" orderid="2" tag="(Start (ADVX (ADVX (PTKANT Ja)) (PX (APPR zu) (NX (NN Atomwaffen)))))"/>
+<markable id="markable_64" span="word_5..word_23" mmax_level="parse" orderid="3" tag="(Start (NX (NE Budapest)) (\$-LRB- -LRB-) (NX (NE AFP)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NE Ungarn))) (LK (VXFIN (VAFIN ist))) (MF (PX (APPRART im) (NX (NX (NN Fall)) (NX (ART eines) (NN Nato-Beitritts)))) (ADJX (ADJD bereit))) (\$\, \,) (NF (SIMPX (MF (NX (PIDAT alle) (PPOSAT seine) (NN Pflichten))) (VC (VXINF (PTKZU zu) (VVINF erfüllen)))))) (\$\. \.))"/>
+<markable id="markable_129" span="word_24..word_49" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (SIMPX (C (KOUS Wie)) (MF (NX (NX (NX (ART der) (NN Staatssekretär)) (PX (APPRART im) (NX (NN Außenministerium)))) (\$\, \,) (NX (NE Ferenc) (NE Somogyi))) (\$\, \,) (PX (APPRART am) (NX (NN Donnerstag)))) (VC (VXFIN (VVFIN sagte))))) (\$\, \,) (LK (VXFIN (VAFIN werde))) (MF (NX (PPOSAT sein) (NN Land)) (PX (APPR nach) (NX (ART einem) (NN Beitritt))) (ADVX (ADV auch)) (NX (NX (ART der) (NN Stationierung)) (PX (APPR von) (NX (NN Atomwaffen))))) (VC (VXINF (VVINF zustimmen)))) (\$\. \.))"/>
+</markables>

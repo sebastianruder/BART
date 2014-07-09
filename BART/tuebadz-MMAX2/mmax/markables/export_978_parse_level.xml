@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_15" span="word_1..word_5" mmax_level="parse" orderid="1" tag="(Start (NX (NN Grüne)) (\$\. \:) (NX (NX (NN Köllmann-Ausstieg)) (PX (APPR auf) (NX (NN Raten)))))"/>
+<markable id="markable_74" span="word_6..word_30" mmax_level="parse" orderid="2" tag='(Start (SIMPX (VF (NX (KOKOM Als) (\$-LRB- \") (NX (NN Ausstieg)) (PX (APPR auf) (NX (NN Raten))))) (\$-LRB- \") (LK (VXFIN (VVFIN bezeichnete))) (MF (ADVX (ADV gestern)) (NX (NX (ART der) (ADJX (ADJA grüne)) (NN Abgeordnete)) (NX (NE Manfred) (NE Schramm))) (NX (NX (NX (ART den) (NN Verkauf)) (NX (NX (ART der) (NN Köllmann-Anteile)) (PX (APPR an) (NX (ART der) (NX (NX (NE Ocean) (NE Park)) (NN Entwicklungsgesellschaft)))))) (PX (APPR an) (NX (NE Bremerhaven)))))) (\$\. \.))'/>
+<markable id="markable_117" span="word_31..word_48" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (SIMPX (SIMPX (VF (NX (ART Die) (NN Köllmann-Gruppe))) (LK (VXFIN (VAFIN habe))) (MF (ADVX (ADV bisher)) (NX (NX (PIS nichts)) (NX (KOKOM als) (NN Modelle)))) (VC (VXINF (VVPP präsentiert)))) (\$-LRB- -) (SIMPX (VF (NX (NN Großinvestoren))) (LK (VXFIN (VVFIN ließen))) (MF (PX (APPR auf) (NX (PRF sich)))) (VC (VXINF (VVINF warten)))))) (\$\, \,) (LK (VXFIN (VVFIN kritisierte))) (MF (NX (NE Schramm)))) (\$\. \.))"/>
+<markable id="markable_122" span="word_49" mmax_level="parse" orderid="4" tag="(Start (NX (NE taz)))"/>
+</markables>

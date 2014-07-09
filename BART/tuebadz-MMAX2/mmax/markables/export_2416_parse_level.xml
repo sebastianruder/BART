@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_6" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Transrapid)))"/>
+<markable id="markable_13" span="word_2..word_3" mmax_level="parse" orderid="2" tag="(Start (NX (ADJX (ADJA Magnetische)) (NN Audienz)))"/>
+<markable id="markable_64" span="word_4..word_24" mmax_level="parse" orderid="3" tag="(Start (NX (NE Schwerin)) (\$-LRB- -LRB-) (NX (NE AP)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (PX (ADJX (ADJD Unmittelbar)) (PX (PX (APPRART am) (NX (ADJX (ADJA Berliner)) (NN Regierungsviertel))) (KON und) (PX (APPRART am) (NX (ADJX (ADJA Hamburger)) (NN Hauptbahnhof)))))) (LK (VXFIN (VMFIN soll))) (MF (NX (NX (ART die) (NN Trasse)) (NX (NX (ART der) (NN Magnetschnellbahn)) (NX (NN Transrapid))))) (VC (VXINF (VVINF enden)))) (\$\. \.))"/>
+<markable id="markable_104" span="word_25..word_40" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (PDS Das))) (LK (VXFIN (VVFIN schwebt))) (MF (NX (ART der) (NN Planungsgesellschaft))) (VC (PTKVZ vor)) (\$\, \,) (NF (R-SIMPX (C (NX (PRELS die))) (MF (NX (NX (ART eine) (ADJX (ADJA eigene)) (NN Trassenführung)) (PX (APPR bis) (PX (APPR in) (NX (ART die) (NN Innenstädte)))))) (VC (VXFIN (VVFIN vorschlägt)))))) (\$\. \.))"/>
+<markable id="markable_139" span="word_41..word_55" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (ADJX (ADJD Jährlich)) (NX (ADJX (CARD 14\,5)) (NN Millionen)) (NX (NN Passagiere)))) (LK (VXFIN (VMFIN sollen))) (MF (PX (APPRART im) (NX (NX (NN Jahr)) (NX (CARD 2005)))) (PX (APPR zwischen) (NX (ART den) (ADJX (PIDAT beiden)) (NN Verkehrsknotenpunkten))) (ADJX (ADJD unterwegs))) (VC (VXINF (VAINF sein)))) (\$\. \.))"/>
+</markables>

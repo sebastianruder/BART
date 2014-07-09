@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (SIMPX (MF (NX (NN Baby))) (VC (VXINF (VVPP ausgesetzt)))))"/>
+<markable id="markable_33" span="word_3..word_12" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (PX (APPR Vor) (NX (ART der) (ADJX (ADJA Lübecker)) (NN Universitäts-Kinderklinik)))) (LK (VXFIN (VAFIN ist))) (MF (NX (ART ein) (NN Baby))) (VC (VXINF (VVPP ausgesetzt)) (VXINF (VAPP worden)))) (\$\. \.))"/>
+<markable id="markable_117" span="word_13..word_47" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (APPR Nach) (NX (NX (NX (NN Angaben)) (NX (ART der) (NN Polizei))) (PX (APPR von) (ADVX (ADV gestern)))))) (LK (VXFIN (VAFIN wurde))) (MF (NX (ART der) (ADJX (PX (APPR in) (NX (ART eine) (NN Decke))) (ADJA gehüllte)) (ADJX (NX (ADJX (ADJX (CARD fünf)) (KON bis) (ADJX (CARD sieben))) (NN Tage)) (ADJA alte)) (NN Junge)) (PX (APPRART am) (NX (NN Mittwoch))) (PX (ADJX (ADJD kurz)) (APPR vor) (NX (ADJX (CARD 23\.00)) (NN Uhr))) (PX (APPR vor) (NX (NX (ART der) (NN Tür)) (NX (NX (ART der) (NN Kindernotfallaufnahme)) (NX (NX (ART des) (ADJX (ADJA Städtischen)) (NN Krankenhauses)) (NX (NN Süd))))))) (VC (VXINF (VVPP entdeckt)))) (\$\. \.))"/>
+<markable id="markable_150" span="word_48..word_60" mmax_level="parse" orderid="4" tag="(Start (SIMPX (SIMPX (VF (NX (ART Dem) (NN Baby))) (LK (VXFIN (VVFIN geht))) (MF (NX (PPER es)) (ADJX (ADJD gut)))) (\$\, \,) (SIMPX (VF (PX (APPR von) (NX (ART den) (NN Eltern)))) (LK (VXFIN (VVFIN fehlt))) (MF (NX (PIDAT jede) (NN Spur))))) (\$\. \.))"/>
+</markables>

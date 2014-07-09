@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Fallobst)))"/>
+<markable id="markable_45" span="word_2..word_17" mmax_level="parse" orderid="2" tag='(Start (\$-LRB- \") (SIMPX (VF (NX (NX (NN Vater)) (\$\, \,) (NX (NN Mutter)) (\$\, \,) (NX (NN Tochter)) (\$\, \,) (NX (NN Sohn)))) (\$-LRB- \/) (LK (VXFIN (VVFIN machen))) (VC (PTKVZ mit)) (NF (PX (APPR in) (NX (ART der) (NE Union))))) (\$\. \.) (\$-LRB- \"))'/>
+<markable id="markable_53" span="word_18..word_19" mmax_level="parse" orderid="3" tag="(Start (PX (APPR Von) (NX (NN Frauenministerin))))"/>
+<markable id="markable_78" span="word_20..word_29" mmax_level="parse" orderid="4" tag="(Start (NX (NX (NE Claudia) (NE Nolte)) (NX (ADJX (ADVX (ADV gestern)) (PX (APPR auf) (NX (ART dem) (NN CDU-Parteitag))) (ADJA vorgeschlagener)) (ADJX (ADJA neuer)) (NN Parteislogan))) (\$\. \.))"/>
+<markable id="markable_145" span="word_30..word_56" mmax_level="parse" orderid="5" tag='(Start (SIMPX (VF (NX (PPER Sie))) (LK (VXFIN (VVFIN bezog))) (MF (NX (PRF sich)) (PX (PROP dabei)) (PX (APPR auf) (NX (NX (ART einen) (NN Wahlslogan)) (PX (APPR aus) (NX (ART den) (ADJX (ADJA fünfziger)) (NN Jahren))))))) (\$\. \:) (\$-LRB- \") (SIMPX (LV (NX (NX (NN Vater)) (\$\, \,) (NX (NN Mutter)) (\$\, \,) (NX (NN Tochter)) (\$\, \,) (NX (NN Sohn)))) (\$-LRB- \/) (VF (NX (PIS alle))) (LK (VXFIN (VVFIN wählen))) (MF (NX (ART die) (NE Union)))) (\$-LRB- \") (\$\. \.))'/>
+</markables>

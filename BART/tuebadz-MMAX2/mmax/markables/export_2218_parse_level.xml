@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_13" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (NX (NX (ART Ein) (NN Land)) (PX (APPRART im) (NX (NN Krieg)))))"/>
+<markable id="markable_30" span="word_5..word_10" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (PX (APPRART Im) (NX (NE Sudan)))) (LK (VXFIN (VVFIN prallen))) (MF (NX (ADJX (ADJA unversöhnliche)) (NN Kulturen))) (VC (PTKVZ aufeinander))))"/>
+<markable id="markable_102" span="word_11..word_38" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (PPER Sie))) (LK (VXFIN (VAFIN ist))) (MF (NX (NX (NN Mitglied)) (NX (ART der) (ADJX (ADJA sogenannten)) (NN Volksmilizen)))) (\$\, \,) (NF (R-SIMPX (C (NX (PRELS die))) (MF (ADVX (ADV größtenteils)) (PX (APPR aus) (NX (NN Frauen)))) (VC (VXFIN (VVFIN bestehen)))))) (\$-LRB- -) (NX (NX (ART eine) (ADJX (ADJA letzte)) (NN Reserve)) (NX (NX (NX (ART des) (NN Regimes)) (PX (APPRART im) (NX (NE Sudan)))) (\$\, \,) (R-SIMPX (C (NX (PRELS das))) (MF (PX (APPR von) (NX (ADJX (ADJA radikalen)) (NN Islamisten)))) (VC (VXINF (VVPP gestützt)) (VXFIN (VAFIN wird)))))) (\$\. \.))"/>
+<markable id="markable_152" span="word_39..word_57" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Die) (NN Milizen))) (LK (VXFIN (VAFIN werden))) (MF (PX (APPRART im) (NX (NX (NN Bürgerkrieg)) (PX (APPR gegen) (NX (ART den) (NN Süden)))))) (VC (VXINF (VVPP eingesetzt))) (\$\, \,) (NF (R-SIMPX (C (NX (PRELS der))) (MF (NX (PRF sich)) (PX (APPR gegen) (NX (NX (ART den) (NN Umbau)) (NX (ART der) (NN Gesellschaft))))) (VC (VXFIN (VVFIN wehrt)))))) (\$\. \.))"/>
+<markable id="markable_163" span="word_58..word_61" mmax_level="parse" orderid="5" tag="(Start (NX (NX (NN Seiten)) (NX (NX (CARD 16)) (KON und) (NX (CARD 17)))))"/>
+</markables>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_11" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NN Verlegung)) (NX (NX (NN Haltestelle)) (NX (NN August-Bebel-Allee)))))"/>
+<markable id="markable_86" span="word_4..word_35" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (PX (APPR Wegen) (NX (NN Straßenarbeiten)))) (LK (VXFIN (VAFIN wird))) (MF (PX (APPR laut) (NX (NE BSAG))) (PX (APPR ab) (ADVX (ADV sofort))) (NX (NX (NX (NX (ART die) (NN Haltestelle)) (PX (APPR an) (NX (ART der) (NN August-Bebel-Allee)))) (NX (NX (ART der) (NN Buslinien)) (NX (NX (CARD 24)) (KON und) (NX (NX (XY N)) (NX (CARD 1)))))) (PX (APPR in) (NX (NX (NN Fahrt-Richtung)) (NX (ADJX (ADJA Neue)) (NN Vahr-Nord))))) (PX (APPR für) (NX (ADVX (ADV etwa)) (ART eine) (NN Woche))) (ADVX (PX (APPR um) (NX (ADJX (CARD 50)) (NN Meter))) (ADV stadtauswärts))) (VC (VXINF (VVPP verlegt)))) (\$\. \.))"/>
+<markable id="markable_91" span="word_36" mmax_level="parse" orderid="3" tag="(Start (NX (NE taz)))"/>
+</markables>

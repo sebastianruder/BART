@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_4" span="word_1" mmax_level="parse" orderid="1" tag="(Start (ADVX (ADV beiseite)))"/>
+<markable id="markable_9" span="word_2" mmax_level="parse" orderid="2" tag="(Start (NX (NN Aktualität)))"/>
+<markable id="markable_31" span="word_3..word_11" mmax_level="parse" orderid="3" tag="(Start (DM (NX (NX (NN Musiktheater)) (NX (PDAT dieser) (NN Stadt)))) (\$\, \,) (SIMPX (LK (VXFIN (VAIMP seid))) (MF (ADJX (ADJX (ADJD wachsam)) (KON und) (ADJX (ADJD aktuell))))) (\$\. \!))"/>
+<markable id="markable_68" span="word_12..word_26" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (NX (ART Der) (NN Herzug)) (NX (ART der) (NN Bundesregierung)))) (LK (VXFIN (VAFIN ist))) (MF (NX (ART der) (ADJX (ADJA Neuköllner)) (NN Oper)) (PX (APPRART am) (NX (ADJX (ADJA 23\.)) (ADJX (ADJA 11\.)))) (NX (ART eine) (NN Uraufführung)) (ADJX (ADJD wert)))) (\$\. \.))"/>
+<markable id="markable_127" span="word_27..word_51" mmax_level="parse" orderid="5" tag='(Start (\$-LRB- \") (SIMPX (VF (DM (DM (ITJ Na) (ADVX (ADV also))) (\$\, \,) (SIMPX (LK (VXFIN (VAFIN wird))) (MF (ADVX (ADV doch)))))) (\$\. \!) (\$-LRB- \") (LK (VXFIN (VVFIN heißt))) (MF (NX (ART die) (NN Hauptstadt-Revue)))) (\$\, \,) (NX (NN Musik)) (\$\. \:) (NX (NE Winfried) (NE Radeke)) (\$\, \,) (NX (NN Buch)) (\$\. \:) (NX (NX (NE Peter) (NE Lund)) (\$-LRB- \/) (NX (NE Jakob) (NE Wurster))) (\$\. \.))'/>
+</markables>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_14" span="word_1..word_5" mmax_level="parse" orderid="1" tag="(Start (NX (NX (ADJX (ADJA Erster)) (NN Ausländer)) (PX (APPR bei) (NX (ART der) (NN Polizei)))))"/>
+<markable id="markable_48" span="word_6..word_19" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (ADVX (ADV Erstmals))) (LK (VXFIN (VAFIN ist))) (MF (ADVX (ADV gestern)) (PX (APPR bei) (NX (ART der) (ADJX (ADJA Berliner)) (NN Polizei))) (NX (ART ein) (NN Ausländer)) (PX (APPRART zum) (NX (NN Beamten)))) (VC (VXINF (VVPP ernannt)) (VXINF (VAPP worden)))) (\$\. \.))"/>
+<markable id="markable_102" span="word_20..word_40" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (PPER Es))) (LK (VXFIN (VVFIN handelt))) (MF (NX (PRF sich)) (PX (APPR um) (NX (ART einen) (ADJX (ADJA 23jährigen)) (NN Österreicher)))) (\$\, \,) (NF (R-SIMPX (C (NX (PRELS der))) (FKOORD (FKONJ (MF (PX (APPR seit) (NX (CARD 1984))) (PX (APPR in) (NX (NE Berlin)))) (VC (VXFIN (VVFIN lebt)))) (KON und) (FKONJ (MF (NX (NX (PPOSAT seinen) (NN Dienst)) (NX (KOKOM als) (NN Polizeikommissaranwärter)))) (VC (VXFIN (VVFIN aufnimmt)))))))) (\$\. \.))"/>
+<markable id="markable_152" span="word_41..word_61" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (APPR Mit) (NX (NX (ART der) (NN Ernennung)) (PX (APPRART zum) (NX (NX (NN Beamten)) (PX (APPR auf) (NX (NN Widerruf)))))))) (LK (VXFIN (VAFIN seien))) (MF (NX (ART die) (ADJX (PX (APPR vor) (NX (ADJX (CARD zwei)) (NN Wochen))) (PX (APPR in) (NX (NN Kraft))) (ADJA getretenen)) (ADJX (ADJA neuen)) (NN EU-Richtlinien)) (ADVX (ADV erstmals))) (VC (VXINF (VVPP umgesetzt)) (VXINF (VAPP worden)))) (\$\. \.))"/>
+<markable id="markable_157" span="word_62" mmax_level="parse" orderid="5" tag="(Start (NX (NE ADN)))"/>
+</markables>
