@@ -41,52 +41,34 @@ werden.
 
 Relevante Dateien im _repository_:
 
-* [src/elkfed/coref](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref)
-  Hier befindet sich das Interface [CorefResolver](src/elkfed/coref)
-* [src/elkfed/coref/algorithms/sieve](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/algorithms/sieve)
-  Hier befinden sich alle Siebklassen und -methoden
-* [src/elkfed/coref/algorithms/soon](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/algorithms/soon)
-  Hier befinden sich die verschiedenen Soon-Algorithmen von BART
-* 
-		coref/
-		Hier ist das Interface CorefResolver
-			algorithms/
-				sieve/
-				Hier sind alle Siebklassen und -methoden
-				soon/
-				Hier sind die verschiedenen Soon-Algorithmen von BART
-			discourse_entities/
-			Hier ist die neue sowie die alte Implementation der DiscourseEntity
-			eval/
-			Hier ist der MUCScorer, der zur Evaluation verwendet wird
-			features/
-				pairs/
-				Hier sind einige Feature-Extraktoren, die wir verwendeten
-			mentions/
-				Hier ist die Mention-Klasse sowie die MentionFactory
-			processors/
-				Hier ist der AnnotationProcessor
-		lang/
-		Hier sind die verschiedenen LanguagePlugins und LinguisticConstants
-		main/
-		Hier ist das Hauptprogramm, SieveAnnotator
-		nlp/
-			util/
-			Hier ist die Gender-Klasse
-config/
-Hier ist config.properties, in der die Dateipfade angegeben werden
-Dokumente/
+* [src/elkfed/coref](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref):
+Hier befindet sich das Interface [CorefResolver](src/elkfed/coref/CorefResolver.java)
+* [src/elkfed/coref/algorithms/sieve](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/algorithms/sieve):
+Hier befinden sich alle Siebklassen und -methoden
+* [src/elkfed/coref/algorithms/soon](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/algorithms/soon):
+Hier befinden sich die verschiedenen Soon-Algorithmen von BART
+* [src/elkfed/coref/discourse_entities](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/discourse_entities):
+Hier ist die [neue](src/elkfed/coref/discourse_entities/DiscourseEntity.java) sowie die [alte](src/elkfed/coref/discourse_entities/DiscourseEntity.java)
+Implementation der DiscourseEntity
+* [src/elkfed/coref/eval](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/eval):
+Hier ist der [MUCScorer](src/elkfed/coref/eval/MUCScorer.java), der zur Evaluation verwendet wird
+* [src/elkfed/coref/features/pairs](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/features/pairs):
+Hier befinden sich einige Feature-Extraktoren, die wir verwendeten (aufzählen)
+* [src/elkfed/coref/mentions](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/features/mentions):
+Hier befindet sich die [Mention-Klasse](src/elkfed/coref/mentions/Mention.java) sowie die [MentionFactory](src/elkfed/coref/mentions/AbstractMentionFactory.java)
+* [src/elkfed/coref/processors](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/features/processors):
+Hier befindet sich der [AnnotationProcessor](src/elkfed/coref/processors/AnnotationProcessor.java)
+* [src/elkfed/lang](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/lang):
+Hier sind die verschiedenen LanguagePlugins und LinguisticConstants
+* [src/elkfed/main](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/main):
+Hier befindet sich das Hauptprogramm, [SieveAnnotator](src/elkfed/main/SieveAnnotator.java)
+* [src/elkfed/nlp/util](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/nlp/util):
+Hier befindet sich die [Gender-Klasse](src/elkfed/nlp/util/Gender.java)
+* [config](https://github.com/sebastianruder/BART/tree/master/BART/config):
+Hier befindet sich [config.properties](config/config.properties), in der die Dateipfade angegeben werden
+* [documents](https://github.com/sebastianruder/BART/tree/master/BART/documents):
 Hier liegen unsere Präsentationsfolien
-names/
+* [names](https://github.com/sebastianruder/BART/tree/master/BART/names):
 Hier befinden sich sprachspezifische Listen
-tuebadz-MMAX2/
-Hier befinden sich unsere Korpora sowie ein Skript zur Konversion in plain text
-index.html
-index.xml
-INSTALL
-README.md
-
-
-Klicke [hier](http://htmlpreview.github.io/?https://github.com/sebastianruder/BART/blob/master/BART/index.html), um
-zur Webseite zu gelangen.
-
+* [tuebadz-MMAX2](https://github.com/sebastianruder/BART/tree/master/BART/tuebadz-MMAX2):
+Hier befinden sich unsere Korpora sowie [ein Skript](tuebadz-MMAX2/xml2txt.py) zur Konversion in _plain text_
