@@ -44,7 +44,18 @@ Relevante Dateien im _repository_:
 * [src/elkfed/coref](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref):
 Hier befindet sich das Interface [CorefResolver](src/elkfed/coref/CorefResolver.java)
 * [src/elkfed/coref/algorithms/sieve](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/algorithms/sieve):
-Hier befinden sich alle Siebklassen und -methoden
+Hier befinden sich eine [Utility-Klasse](src/elkfed/coref/algorithms/sieve/SieveUtilities.java),
+eine [Factory-Klasse](src/elkfed/coref/algorithms/sieve/SieveFactory.java) und alle Sieb-Klassen
+  1. [SpeakerIdentificationSieve](src/elkfed/coref/algorithms/sieve/SpeakerIdentificationSieve.java)
+  2. [StringMatchSieve](src/elkfed/coref/algorithms/sieve/StringMatchSieve.java)
+  3. [RelaxedStringMatchSieve](src/elkfed/coref/algorithms/sieve/RelaxedStringMatchSieve.java)
+  4. [PreciseConstructSieve](src/elkfed/coref/algorithms/sieve/PreciseConstructSieve.java)
+  5. [StrictHeadMatchASieve](src/elkfed/coref/algorithms/sieve/StrictHeadMatchASieve.java)
+  6. [StrictHeadMatchBSieve](src/elkfed/coref/algorithms/sieve/StrictHeadMatchBSieve.java)
+  7. [StrictHeadMatchCSieve](src/elkfed/coref/algorithms/sieve/StrictHeadMatchCSieve.java)
+  8. [ProperHeadNounMatchSieve](src/elkfed/coref/algorithms/sieve/ProperHeadNounMatchSieve.java)
+  9. [RelaxedHeadMatchSieve](src/elkfed/coref/algorithms/sieve/RelaxedHeadMatchSieve.java)
+  10. [PronounMatchSieve](src/elkfed/coref/algorithms/sieve/PronounMatchSieve.java)
 * [src/elkfed/coref/algorithms/soon](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/algorithms/soon):
 Hier befinden sich die verschiedenen Soon-Algorithmen von BART
 * [src/elkfed/coref/discourse_entities](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/discourse_entities):
