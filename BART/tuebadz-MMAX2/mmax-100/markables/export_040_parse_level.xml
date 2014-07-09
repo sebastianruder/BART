@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (SIMPX (MF (NX (NN Banken))) (VC (VXINF (VVPP bestreikt)))))"/>
+<markable id="markable_37" span="word_3..word_14" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (PX (APPR In) (NX (NE Hamburg)))) (LK (VXFIN (VAFIN sind))) (MF (ADVX (ADV gestern)) (NX (PIAT mehrere) (NN Bankfilialen)) (PX (APPR wegen) (NX (ART eines) (NN Warnstreiks)))) (VC (VXINF (VVPP geschlossen)) (VXINF (VVPP geblieben)))) (\$\. \.))"/>
+<markable id="markable_105" span="word_15..word_44" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (APPR In) (NX (NX (ART einer) (ADJX (ADJA gemeinsamen)) (NN Erklärung)) (NX (NX (ART der) (NN Gewerkschaften)) (NX (NX (NE DAG)) (KON und) (NX (NE HBV))))))) (LK (VXFIN (VVFIN hieß))) (MF (NX (PPER es))) (\$\, \,) (NF (SIMPX (VF (NX (NX (NX (ADVX (ADV mindestens)) (ADJX (CARD zwei)) (NN Filialen)) (NX (ART der) (NE Commerzbank))) (KON sowie) (NX (ADVX (ADV jeweils)) (NX (PIS eine)) (NX (NX (ART der) (ADJX (ADJA Hamburger)) (NN Bank)) (KON und) (NX (ART der) (NE BfG)))))) (LK (VXFIN (VAFIN seien))) (MF (ADJX (ADJD betroffen))) (VC (VXINF (VAPP gewesen)))))) (\$\. \.))"/>
+<markable id="markable_121" span="word_45..word_50" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Die) (NN Streiks))) (LK (VXFIN (VMFIN sollen))) (MF (ADVX (ADV heute))) (VC (VXINF (VVINF weitergehen)))) (\$\. \.))"/>
+</markables>
