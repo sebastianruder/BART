@@ -11,16 +11,23 @@ sowie aus einem Resolutionsmodell besteht. BART verwendet momentan einen auf ein
 von Soon basierenden Resolutionsalgorithmus, der Kandidaten-NPs hinsichtlich ihrer Merkmale
 paarweise vergleicht. Statt diesem soll nun das Resolutionssystem der Stanford-NLP-Gruppe
 (im Folgenden Stanford-System) implementiert werden, das sich durch seine Sieb-Architektur
-auszeichnet. Obwohl es haupts�achlich auf Regeln basiert, konnte es dennoch das beste Ergebnis
+auszeichnet. Obwohl es hauptsäachlich auf Regeln basiert, konnte es dennoch das beste Ergebnis
 beim CoNLL-2011 shared task erzielen. Im Rahmen der Sieb-Architektur werden nacheinander -
-absteigend nach ihrer Pr�zision geordnet - eine Reihe von deterministischen Koreferenzmodellen
-angewendet, wobei jedes Modell auf den Output seines Vorg�angers aufbaut. Besonders das
-Entit�t-zentrische Modell, in bei dem Merkmale �ber alle Vorkommen einer Entit�t geteilt
-werden, bietet einen deutlichen Wissensgewinn, der von Nutzen f�r BARTs Performanz sein wird.
+absteigend nach ihrer Präzision geordnet - eine Reihe von deterministischen Koreferenzmodellen
+angewendet, wobei jedes Modell auf den Output seines Vorgäangers aufbaut. Besonders das
+Entität-zentrische Modell, in bei dem Merkmale über alle Vorkommen einer Entität geteilt
+werden, bietet einen deutlichen Wissensgewinn, der von Nutzen für BARTs Performanz sein wird.
 
 ## Inbetriebnahme
 
-In [config.properties](config/config.properties) muss f�r den Parameter ```testdata```
+Dieses [GitHub repository](https://github.com/sebastianruder/BART) muss zunächst geklont werden.
+
+Es sollte Eclipse mit den Plugins [EGit](http://www.eclipse.org/egit/) (zur Versionskontrolle)
+und [IvyDE](http://ant.apache.org/ivy/ivyde/) (zum _dependency management_)
+verwendet werden. Die Dependenzen gehen aus [ivy.xml](ivy.xml) hervor, während die Einstellungen
+in [ivysettings.xml](ivysettings.xml) gespeichert sind.
+
+In [config.properties](config/config.properties) muss für den Parameter ```testdata```
 das Verzeichnis angegeben werden, indem sich der zu verwendende MMAX2-Datensatz auf dem eigenen
 System befindet, bspw. auf einem Windows-System:
 ```
@@ -34,9 +41,13 @@ werden.
 
 Relevante Dateien im _repository_:
 
-```
-src/
-	elkfed/
+* [src/elkfed/coref](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref)
+⋅⋅⋅Hier befindet sich das Interface [CorefResolver](src/elkfed/coref)
+* [src/elkfed/coref/algorithms/sieve](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/algorithms/sieve)
+⋅⋅⋅Hier befinden sich alle Siebklassen und -methoden
+* [src/elkfed/coref/algorithms/soon](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/algorithms/soon)
+⋅⋅⋅Hier befinden sich die verschiedenen Soon-Algorithmen von BART
+* 
 		coref/
 		Hier ist das Interface CorefResolver
 			algorithms/
@@ -65,7 +76,7 @@ src/
 config/
 Hier ist config.properties, in der die Dateipfade angegeben werden
 Dokumente/
-Hier liegen unsere Pr�sentationsfolien
+Hier liegen unsere Präsentationsfolien
 names/
 Hier befinden sich sprachspezifische Listen
 tuebadz-MMAX2/
@@ -74,7 +85,7 @@ index.html
 index.xml
 INSTALL
 README.md
-```
+
 
 Klicke [hier](http://htmlpreview.github.io/?https://github.com/sebastianruder/BART/blob/master/BART/index.html), um
 zur Webseite zu gelangen.
