@@ -1,0 +1,10 @@
+Stand: 10.07   mmax-100			     R       P       F
+StringMatch: 		SCORER MUC-TOTAL     0.155   0.706   0.254
++RelaxedStringMatch:	SCORER MUC-TOTAL     0.177   0.667   0.280
++PreciseConstructs:	SCORER MUC-TOTAL     0.222   0.690   0.336
++HeadMatchA:		SCORER MUC-TOTAL     0.301   0.627   0.407
++HeadMatchB:		SCORER MUC-TOTAL     0.302   0.627   0.408
++HeadMatchC:		SCORER MUC-TOTAL     0.346   0.546   0.423
++ProperHeadNounMatch:	SCORER MUC-TOTAL     0.346   0.546   0.423
++RelaxedHeadMatch:	SCORER MUC-TOTAL     0.373   0.539   0.441
++PronounMatch:		SCORER MUC-TOTAL     0.446   0.505   0.474
