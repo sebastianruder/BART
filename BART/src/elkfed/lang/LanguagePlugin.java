@@ -120,4 +120,6 @@ public interface LanguagePlugin {
     
     public boolean isInFemaleList(String string);
     
+    public boolean isInStopwordList(String string);
+    
 }
