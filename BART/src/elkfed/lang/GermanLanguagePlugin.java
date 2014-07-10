@@ -93,6 +93,8 @@ public class GermanLanguagePlugin extends AbstractLanguagePlugin {
         readList(neutral_list, "neutral_unigrams_de.txt");
         readList(male_list, "male_unigrams_de.txt");
         readList(female_list, "female_unigrams_de.txt");
+        readList(stopword_list, "stopwords.de.txt");
+        
     }
     
     public boolean unwanted_left(String tok) {

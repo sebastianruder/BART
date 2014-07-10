@@ -61,6 +61,8 @@ public abstract class AbstractLanguagePlugin implements LanguagePlugin {
     protected List<String> neutral_list = new ArrayList<String>();
     protected List<String> male_list = new ArrayList<String>();
     protected List<String> female_list = new ArrayList<String>();
+    protected List<String> stopword_list = new ArrayList<String>();
+    
 
     protected final Map<LanguagePlugin.TableName,Map<String,String>> aliasTables =
             new EnumMap(LanguagePlugin.TableName.class);
@@ -381,6 +383,15 @@ public abstract class AbstractLanguagePlugin implements LanguagePlugin {
     
     public boolean isInAnimateList(String string) {
     	for (String item : animate_list) {
+    		if (item.equals(string)) {
+    			return true;
+    		}
+    	}
+    	return false;
+    }
+    
+    public boolean isInStopwordList(String string) {
+    	for (String item : stopword_list) {
     		if (item.equals(string)) {
     			return true;
     		}
