@@ -55,7 +55,7 @@ public class DiscourseEntity {
     private Set<String> heads;
     private Set<Tree> modifiers;
     private Set<Gender> genders;
-    private Set<Number> numbers; 
+    //private Set<Number> numbers; 
     
 	public DiscourseEntity(Mention m) {
 		ID = nextID;
@@ -64,12 +64,21 @@ public class DiscourseEntity {
 		mentions.add(m);
 		words = new HashSet<String>();
 		addWords(m);
+		
 		heads = new HashSet<String>();
 		heads.add(m.getHeadString());
-		modifiers = new HashSet<Tree>();
-				
+		
+		modifiers = new HashSet<Tree>();				
 		modifiers.addAll(m._premodifiers);		
 		modifiers.addAll(m._postmodifiers);
+		
+		genders = new HashSet<Gender>();
+		genders.add(m.getGender());
+		
+//		numbers = new HashSet<Number>();
+//		numbers.add(m.getNumber());
+		
+		
 		
 			
 		
@@ -90,7 +99,10 @@ public class DiscourseEntity {
 			words.add(token);
 		}
 	}
-
+	
+	public Set<Gender> getGenders() {
+		return genders;
+	}
 	
 	public void merge(Mention ante) {
 		
@@ -100,6 +112,7 @@ public class DiscourseEntity {
 			m.setDiscourseEntity(this);
 			addWords(m);
 		}
+		genders.addAll(getGenders());
 		words.addAll(deAnte.getWords());		
 		modifiers.addAll(deAnte.getModifiers());
 		
