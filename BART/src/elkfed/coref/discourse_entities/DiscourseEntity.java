@@ -45,6 +45,9 @@ import elkfed.nlp.util.Gender;
 
 public class DiscourseEntity {
 	
+	private static final LanguagePlugin langPlugin = ConfigProperties
+			.getInstance().getLanguagePlugin();
+	
 	private static int nextID = 0;
 	private int ID;
 	
@@ -55,7 +58,7 @@ public class DiscourseEntity {
     private Set<String> heads;
     private Set<Tree> modifiers;
     private Set<Gender> genders;
-    //private Set<Number> numbers; 
+    //private Set<Number> numbers; geht so nicht
     
 	public DiscourseEntity(Mention m) {
 		ID = nextID;
@@ -96,7 +99,10 @@ public class DiscourseEntity {
 	public void addWords(Mention m) {
 		//todo: remove stopwords
 		for (String token : m.getMarkable().getDiscourseElements()) {
-			words.add(token);
+			if (!(langPlugin.isInStopwordList(token))) {
+				words.add(token);
+			}
+			
 		}
 	}
 	
