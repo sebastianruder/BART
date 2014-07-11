@@ -69,8 +69,8 @@ public class DiscourseEntity {
 		addWords(m);
 		
 		heads = new HashSet<String>();
-		heads.add(m.getHeadString());
-		
+		//heads.add(m.getHeadString());
+		heads.add(m.getHeadLemma());
 		modifiers = new HashSet<Tree>();				
 		modifiers.addAll(m._premodifiers);		
 		modifiers.addAll(m._postmodifiers);
@@ -97,7 +97,7 @@ public class DiscourseEntity {
 	}
 	
 	public void addWords(Mention m) {
-		//todo: remove stopwords
+		
 		for (String token : m.getMarkable().getDiscourseElements()) {
 			if (!(langPlugin.isInStopwordList(token))) {
 				words.add(token);
@@ -121,6 +121,7 @@ public class DiscourseEntity {
 		genders.addAll(getGenders());
 		words.addAll(deAnte.getWords());		
 		modifiers.addAll(deAnte.getModifiers());
+		heads.addAll(deAnte.getHeads());
 		
 	}
 	
