@@ -394,6 +394,9 @@ public class SieveUtilities {
 
 	public boolean relaxedEntityHeadMatch(Mention m, Mention ante) {
 		String mHead = m.getHeadString();
+		if (langPlugin.isInStopwordList(mHead)) {
+			return false;
+		}
 		Set<String> dAnteWords = ante.getDiscourseEntity().getWords();
 		if (dAnteWords.contains(mHead)) {
 			return true;
