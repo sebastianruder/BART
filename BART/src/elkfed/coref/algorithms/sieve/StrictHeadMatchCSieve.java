@@ -15,19 +15,21 @@ public class StrictHeadMatchCSieve extends Sieve {
 	int runSieve(Mention mention) {
 		int mention_idx = mentions.indexOf(mention);
 		int ante_idx = -1;
-		
-		for (int idx = 0; idx < mention_idx; idx++){
+
+		for (int idx = 0; idx < mention_idx; idx++) {
 			Mention potAnte = mentions.get(idx);
-			
-			if (s.entityHeadMatch(mention, potAnte)) {				
-				if (!(s.IWithinI(mention, potAnte))) {
-					if (!potAnte.getPronoun()) {
-						ante_idx = idx;
+
+			if (s.entityHeadMatch(mention, potAnte)) {
+				if (s.compatibleModifiers(mention, potAnte)) {
+					if (!(s.IWithinI(mention, potAnte))) {
+						if (!potAnte.getPronoun()) {
+							ante_idx = idx;
+						}
 					}
 				}
-				
 			}
 		}
+		
 		return ante_idx;
 	}
 }
