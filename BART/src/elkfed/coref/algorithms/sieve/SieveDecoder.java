@@ -49,14 +49,17 @@ public class SieveDecoder implements CorefResolver {
                 mentions.size()));        
         // counts number of walk_throughs
         for (int walk_through = 1; walk_through < 11; walk_through++) {
-        	/*
-        	condition to exclude/include specific sieve
-        	if (!(walk_through == 7)) {
-        		continue;
-        	}
-        	*/
         	
-        	/* List of first mentions is used instead of all mentions
+        	//condition to exclude/include specific sieve
+//        	if (!(walk_through == 9)) {
+//        		continue;
+//        	}
+        	
+        	
+        	
+        	List<Mention> mentionsToResolve = mentions;
+        	// List of first mentions is used instead of all mentions
+        	/*
         	Set<DiscourseEntity> de_set = new HashSet<DiscourseEntity>();
         	for (int i = 0; i < mentions.size(); i++) {
         		DiscourseEntity de = mentions.get(i).getDiscourseEntity();
@@ -70,13 +73,18 @@ public class SieveDecoder implements CorefResolver {
         	}     	
         	Collections.sort(first_mention_list);
         	
-        	mentions = first_mention_list;
-        	*/
+        	if (!(walk_through == 1 || walk_through == 4)) {
+        		mentionsToResolve = first_mention_list;
+        	} else {
+        		mentionsToResolve = mentions;
+        	} */
+        	
+        	
         	
         	sieve = _factory.createSieve(walk_through, mentions);
 	    	String sieveName = sieve.getName();  
-        	
-		    for (int i = 0; i < mentions.size(); i++) {
+
+		    for (int i = 0; i < mentionsToResolve.size(); i++) {
 		    	/* puts singletons in a single disjoint set
 		    	   not relevant for MUC scorer, maybe for others
 		    	  if (ConfigProperties.getInstance().getOutputSingletons()) {
