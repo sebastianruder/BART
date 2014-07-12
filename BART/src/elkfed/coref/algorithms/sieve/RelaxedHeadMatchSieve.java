@@ -4,7 +4,21 @@ import java.util.List;
 
 import elkfed.coref.PairInstance;
 import elkfed.coref.mentions.Mention;
-
+/**
+ * This Sieve links a Mention to an antecedent, if they both are named entitities
+ * with the same semantic class and the mentions head word matches any word 
+ * in the antecedents Discourse Entity. 
+ * Additionally it needs to meet the word inclusion and the not I-within-I requirements.
+ * 
+ * 
+ * @see SieveUtilities#relaxedEntityHeadMatch(Mention, Mention) 
+ * @see SieveUtilities#NERAgreement(PairInstance)
+ * @see SieveUtilities#wordInclusion(Mention, Mention) 
+ * @see SieveUtilities#IWithinI(Mention, Mention)
+ * 
+ * @author Julian
+ *
+ */
 public class RelaxedHeadMatchSieve extends Sieve {
 
 	public static final SieveUtilities s = new SieveUtilities();
@@ -18,7 +32,7 @@ public class RelaxedHeadMatchSieve extends Sieve {
 	int runSieve(Mention mention) {
 		int mention_idx = mentions.indexOf(mention);
 		int ante_idx = -1;
-		
+
 		for (int idx = 0; idx < mention_idx; idx++) {
 			Mention potAnte = mentions.get(idx);
 			PairInstance pair = new PairInstance(mention, potAnte);
@@ -26,9 +40,9 @@ public class RelaxedHeadMatchSieve extends Sieve {
 				if (s.wordInclusion(mention, potAnte)) {
 					if (s.NERAgreement(pair)) {
 						if (!(s.IWithinI(mention, potAnte))) {
-							if (!potAnte.getPronoun()) {
-								ante_idx = idx;
-							}
+
+							ante_idx = idx;
+
 						}
 					}
 
