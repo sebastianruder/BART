@@ -10,7 +10,21 @@ import java.util.List;
  * ToDo:  Proper WordInclusion with removed StopWords, modificator match,  i within i
  */
 import elkfed.coref.mentions.Mention;
-
+/**
+ * This Sieve links a Mention to an antecedent,
+ * if its head word matches any head word of the antecedents Discourse Entity. 
+ * Additionally it needs to meet the word inclusion, the compatible modifiers
+ * and the not I-within-I requirements.
+ * 
+ * 
+ * @see SieveUtilities#entityHeadMatch(Mention, Mention) 
+ * @see SieveUtilities#wordInclusion(Mention, Mention) 
+ * @see SieveUtilities#compatibleModifiers(Mention, Mention) 
+ * @see SieveUtilities#IWithinI(Mention, Mention)
+ * 
+ * @author Julian
+ *
+ */
 public class StrictHeadMatchASieve extends Sieve {
 	
 	private static final SieveUtilities s = new SieveUtilities();
