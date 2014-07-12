@@ -34,9 +34,9 @@ public class StrictHeadMatchBSieve extends Sieve {
 			if (s.entityHeadMatch(mention, potAnte)) {
 				if (s.wordInclusion(mention, potAnte)) {
 					if (!(s.IWithinI(mention, potAnte))) {
-						if (!potAnte.getPronoun()) {
+						
 							ante_idx = idx;
-						}
+						
 					}
 				}
 			}

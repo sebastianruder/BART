@@ -384,6 +384,10 @@ public class SieveUtilities {
 	}
 
 	public boolean entityHeadMatch(Mention m, Mention ante) {
+		
+		if (m.getPronoun() || ante.getPronoun()) {
+			return false;
+		}
 		String mHead = m.getHeadString();
 		Set<String> dAnteHeads = ante.getDiscourseEntity().getHeads();
 		if (dAnteHeads.contains(mHead)) {
@@ -393,6 +397,10 @@ public class SieveUtilities {
 	}
 
 	public boolean relaxedEntityHeadMatch(Mention m, Mention ante) {
+		
+		if (m.getPronoun() || ante.getPronoun()) {
+			return false;
+		}
 		String mHead = m.getHeadString();
 		if (langPlugin.isInStopwordList(mHead)) {
 			return false;
