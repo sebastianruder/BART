@@ -2,18 +2,13 @@ package elkfed.coref.algorithms.sieve;
 
 import java.util.List;
 
-import elkfed.coref.PairInstance;
-import elkfed.coref.discourse_entities.DiscourseEntity;
-import elkfed.coref.features.pairs.FE_SentenceDistance;
-import elkfed.coref.features.pairs.FE_StringMatch;
+
 import elkfed.coref.mentions.Mention;
-import elkfed.mmax.minidisc.Markable;
-import elkfed.coref.features.pairs.FE_DistanceSentence;
-import elkfed.coref.features.pairs.FE_Pronominal_StrMatch;
 
 /**
+* This model links two mentions only if they contain exactly the same extent text, including modifiers and determiners
 *
-* @author xkuehling
+* @author Xenia
 * 
 */
 
@@ -25,14 +20,7 @@ public class StringMatchSieve extends Sieve {
 	}
 	
 	public int runSieve(Mention mention){
-		
-		FE_StringMatch fe_stringmatch = new FE_StringMatch();
-		/** getMarkableString() aus FE_Pronominal_StrMatch macht letztendlich nichts anderes als getMarkableString() aus FE_StringMatch, 
-		 * funktioniert aber nicht auf Anhieb (wahrscheinlich TuebaDZ-Problem)
-		 * die getStringMatch-Methode aus FE_StringMatch macht das gleiche wie die vorherige StringMatch- Methode, nutzt allerdings getMarkableString() um Artikel etc zu entfernen
-		 *  
-		 */
-		
+
 		int mention_idx = mentions.indexOf(mention);
 		int ante_idx = -1;
 			
@@ -42,11 +30,6 @@ public class StringMatchSieve extends Sieve {
 				if (!(mention.getPronoun())) {
 					ante_idx = idx;
 				}
-//			 if (fe_stringmatch.getStringMatch(new PairInstance(mention, potentialAntecedents.get(idx)))){
-//	
-//				if (!(mention.getPronoun())) {
-//					ante_idx = idx;
-//				}
 			}
 		}
 		return ante_idx;
