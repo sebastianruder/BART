@@ -8,13 +8,25 @@
  */
 package elkfed.coref.features.pairs;
 
+import elkfed.config.ConfigProperties;
 import elkfed.coref.*;
 import elkfed.coref.mentions.Mention;
+import elkfed.lang.LanguagePlugin.TableName;
 import elkfed.ml.FeatureDescription;
 import elkfed.ml.FeatureType;
 import elkfed.mmax.minidisc.Markable;
+import elkfed.mmax.minidisc.MarkableHelper;
 import elkfed.mmax.minidisc.MarkableLevel;
+import elkfed.lang.EnglishLanguagePlugin;
+import elkfed.lang.EnglishLinguisticConstants;
+import elkfed.lang.GermanLanguagePlugin;
+import elkfed.lang.GermanLinguisticConstants;
+import elkfed.lang.LanguagePlugin;
+import elkfed.lang.LanguagePlugin.TableName;
+
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 /**
  * Feature determines wether Ante/Ana are inside quotations and therefore heuristically in speech
@@ -41,7 +53,7 @@ public class FE_Speech implements PairFeatureExtractor {
         inst.setFeature(FD_IN_SPEECH_MATCH, isMentionInSpeech(inst.getAntecedent())==isMentionInSpeech(inst.getAnaphor()));
     }
 
-    public boolean isMentionInSpeech(Mention mention) {
+    public static boolean isMentionInSpeech(Mention mention) {
 
         int markableStart = mention.getMarkable().getLeftmostDiscoursePosition();
 
@@ -63,4 +75,6 @@ public class FE_Speech implements PairFeatureExtractor {
         }
         return false;
     }
+    
+  
 }
