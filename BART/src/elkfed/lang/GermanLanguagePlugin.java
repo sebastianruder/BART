@@ -94,6 +94,7 @@ public class GermanLanguagePlugin extends AbstractLanguagePlugin {
         readList(male_list, "male_unigrams_de.txt");
         readList(female_list, "female_unigrams_de.txt");
         readList(stopword_list, "stopwords_de.txt");
+        readList(speechverb_list, "speechverbs_de.txt");
         
     }
     
@@ -313,7 +314,7 @@ public class GermanLanguagePlugin extends AbstractLanguagePlugin {
                 	positions = new int[] {Integer.parseInt(head_posId)};
                 } catch (NumberFormatException ex) {
                     String[] ranges = MarkableHelper.parseRanges(head_posId);
-                    System.err.println("head range of "+markable.getID()+":"+Arrays.toString(ranges));
+                    //System.err.println("head range of "+markable.getID()+":"+Arrays.toString(ranges));
                     positions = doc.getPositions(ranges);                	
                 }
             }

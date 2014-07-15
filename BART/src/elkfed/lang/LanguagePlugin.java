@@ -106,6 +106,7 @@ public interface LanguagePlugin {
     static enum TableName {
         DemonymMap,
         RoleMap,
+        SpeechVerbMap
     }
 
     public String lookupAlias(String original, TableName table);
@@ -121,5 +122,7 @@ public interface LanguagePlugin {
     public boolean isInFemaleList(String string);
     
     public boolean isInStopwordList(String string);
+    
+    public boolean isInSpeechVerbList(String string);
     
 }

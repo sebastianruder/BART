@@ -62,6 +62,7 @@ public abstract class AbstractLanguagePlugin implements LanguagePlugin {
     protected List<String> male_list = new ArrayList<String>();
     protected List<String> female_list = new ArrayList<String>();
     protected List<String> stopword_list = new ArrayList<String>();
+    protected List<String> speechverb_list = new ArrayList<String>();
     
 
     protected final Map<LanguagePlugin.TableName,Map<String,String>> aliasTables =
@@ -71,7 +72,7 @@ public abstract class AbstractLanguagePlugin implements LanguagePlugin {
     {
         Map<String,String> map;
         try {
-            File names_dir=new File(ConfigProperties.getInstance().getRoot(),"names");
+            File names_dir=new File("/home/xenia/git/BART/BART","names");
             BufferedReader br=new BufferedReader(new FileReader(new File(names_dir,fname)));
             map=new HashMap<String,String>();
             String line;
@@ -93,7 +94,7 @@ public abstract class AbstractLanguagePlugin implements LanguagePlugin {
     
     public void readList(List<String> list, String fname) {
     	try {
-            File names_dir = new File(ConfigProperties.getInstance().getRoot(),"names");
+            File names_dir = new File("/home/xenia/git/BART/BART","names");
             BufferedReader br = new BufferedReader(new FileReader(new File(names_dir,fname)));
             String line;
             while ((line = br.readLine()) != null) {
@@ -392,6 +393,15 @@ public abstract class AbstractLanguagePlugin implements LanguagePlugin {
     
     public boolean isInStopwordList(String string) {
     	for (String item : stopword_list) {
+    		if (item.equals(string)) {
+    			return true;
+    		}
+    	}
+    	return false;
+    }
+    
+    public boolean isInSpeechVerbList(String string) {
+    	for (String item : speechverb_list) {
     		if (item.equals(string)) {
     			return true;
     		}
