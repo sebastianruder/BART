@@ -295,15 +295,31 @@ public class SieveUtilities {
 		return false;
 	}
 
-	boolean sentenceDistance(PairInstance pair) {
+	/**
+	 * Compute if sentences in which mention and antecedent appear are not more than 4 sentences apart. 
+	 * 
+	 * @param pair
+	 * 			PairInstance of mention, antecedent
+	 * @return true or false
+	 */
+	
+	public boolean sentenceDistance(PairInstance pair) {
 		// FE_SentenceDistance sd = new FE_SentenceDistance();
 		if (FE_SentenceDistance.getSentDist(pair) < 4) {
 			return true;
 		}
 		return false;
 	}
+	
+	/**
+	 * Check if mention and antecedent are both in the same state of animacy
+	 * 
+	 * @param pair
+	 * 			PairInstance of mention, antecedent
+	 * @return true or false
+	 */
 
-	boolean animacyAgreement(PairInstance pair) {
+	public boolean animacyAgreement(PairInstance pair) {
 		if (isAnimate(pair.getAnaphor()) == isAnimate(pair.getAntecedent())) {
 			return true;
 		}
@@ -311,7 +327,14 @@ public class SieveUtilities {
 
 	}
 
-	boolean genderAgreement(PairInstance pair) {
+	/**
+	 * Check if mention and antecedent have the same gender
+	 * 
+	 * @param pair
+	 * 			PairInstance of mention, antecedent
+	 * @return true or false
+	 */
+	public boolean genderAgreement(PairInstance pair) {
 
 		if (FE_Gender.getGender(pair).equals(TriValued.TRUE)) {
 			return true;
@@ -319,8 +342,16 @@ public class SieveUtilities {
 		return false;
 
 	}
+	
+	/**
+	 * Check if mention and antecedent have the same numerus (plural/ singular)
+	 * 
+	 * @param pair
+	 * 			PairInstance of mention, antecedent
+	 * @return true or false
+	 */
 
-	boolean numberAgreement(PairInstance pair) {
+	public boolean numberAgreement(PairInstance pair) {
 		if (FE_Number.getNumber(pair)) {
 			return true;
 		}
@@ -341,11 +372,18 @@ public class SieveUtilities {
 
 	}
 
+	/**
+	 * Check if mention and antecedent belong to the same semantic class or mention's or antecedent's semantic class equals "unknown"
+	 * 
+	 * @param pair
+	 * 			PairInstance of mention, antecedent
+	 * @return true or false
+	 */
 	boolean NERAgreement(PairInstance pair) {
 		if ((pair.getAnaphor().getSemanticClass().equals(pair.getAntecedent()
 				.getSemanticClass()))
-				|| (pair.getAnaphor().equals(SemanticClass.UNKNOWN))
-				|| (pair.getAntecedent().equals(SemanticClass.UNKNOWN))) {
+				|| (pair.getAnaphor().getSemanticClass().equals(SemanticClass.UNKNOWN))
+				|| (pair.getAntecedent().getSemanticClass().equals(SemanticClass.UNKNOWN))) {
 			return true;
 		}
 
@@ -354,9 +392,16 @@ public class SieveUtilities {
 	}
 
 
+	/**
+	 * 
+	 * 
+	 * @param mention
+	 * @param ante
+	 * @return
+	 */
 
-	boolean IWithinI(Mention m, Mention ante) {
-		PairInstance pair = new PairInstance(m, ante);
+	boolean IWithinI(Mention mention, Mention ante) {
+		PairInstance pair = new PairInstance(mention, ante);
 		if (!isAppositive(pair) && !isRelativePronoun(pair)
 				&& !isRoleAppositive(pair)) {
 			if (pair.getAnaphor().embeds(pair.getAntecedent())
@@ -437,11 +482,20 @@ public class SieveUtilities {
 		return false;
 	}
 
+	
+	
 	public int getMarkableDistance(PairInstance pair) {
 		return pair.getAnaphor().getMarkable().getIntID()
 				- pair.getAntecedent().getMarkable().getIntID();
 	}
 	
+	
+	/**
+	 * Check if mention is a speaker 
+	 * 
+	 * @param mention
+	 * @return
+	 */
 	public boolean isSpeaker(Mention mention){
 		int extendedMentionSpanLeft;
 		int extendedMentionSpanRight;
