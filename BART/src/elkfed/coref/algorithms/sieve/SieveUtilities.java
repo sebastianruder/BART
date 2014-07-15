@@ -24,6 +24,7 @@ import elkfed.coref.features.pairs.FE_Copula;
 import elkfed.coref.features.pairs.FE_Gender;
 import elkfed.coref.features.pairs.FE_Number;
 import elkfed.coref.features.pairs.FE_SentenceDistance;
+import elkfed.coref.features.pairs.FE_Speech;
 import elkfed.coref.mentions.Mention;
 import elkfed.knowledge.SemanticClass;
 import elkfed.lang.LanguagePlugin;
@@ -436,9 +437,62 @@ public class SieveUtilities {
 		return false;
 	}
 
-	int getMarkableDistance(PairInstance pair) {
+	public int getMarkableDistance(PairInstance pair) {
 		return pair.getAnaphor().getMarkable().getIntID()
 				- pair.getAntecedent().getMarkable().getIntID();
 	}
+	
+	public boolean isSpeaker(Mention mention){
+		int extendedMentionSpanLeft;
+		int extendedMentionSpanRight;
+		int wordDistanceLeft;
+		int wordDistanceRight;
+		
+		String joinedMentionSpanString;
+		
+		if (mention.getMarkable().getLeftmostDiscoursePosition() - 10 <= 0){
+			extendedMentionSpanLeft = mention.getSentenceStart() + 1;
+		}
+		else {
+			extendedMentionSpanLeft = mention.getMarkable().getLeftmostDiscoursePosition() - 10;
+		}
+		
+		if (mention.getMarkable().getRightmostDiscoursePosition() +10 > mention.getSentenceEnd()){
+			extendedMentionSpanRight = mention.getSentenceEnd();
+		}
+		else {
+			extendedMentionSpanRight = mention.getMarkable().getRightmostDiscoursePosition() + 10;
+		}
+		
+		
+		if (FE_Speech.isMentionInSpeech(mention)){
+			return false;
+		}
+		
+		joinedMentionSpanString = mention.getJoinedStringFromDiscIds(extendedMentionSpanLeft, extendedMentionSpanRight, "lemma");
+		if (joinedMentionSpanString != null){
+			String[] words = joinedMentionSpanString.split("\\s+");
+			
+			for (int i= 0; i < words.length; i++){
+				if (langPlugin.isInSpeechVerbList(words[i])){
+			
+					wordDistanceLeft = extendedMentionSpanLeft - mention.getMarkable().getLeftmostDiscoursePosition() + i ;
+					wordDistanceRight = mention.getMarkable().getRightmostDiscoursePosition() - extendedMentionSpanRight + i;
+					if (wordDistanceLeft < 3 || wordDistanceRight < 3){
+						return true;
+					}
+				}
+				
+			}
+		}
+		
+		
+		
+		
+		
+		return false;
+	}
+	
+	
 
 }
