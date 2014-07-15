@@ -31,9 +31,9 @@ public class StrictHeadMatchCSieve extends Sieve {
 		for (int idx = 0; idx < mention_idx; idx++) {
 			Mention potAnte = mentions.get(idx);
 
-			if (s.entityHeadMatch(mention, potAnte)) {
-				if (s.compatibleModifiers(mention, potAnte)) {
-					if (!(s.IWithinI(mention, potAnte))) {
+			if (entityHeadMatch(mention, potAnte)) {
+				if (compatibleModifiers(mention, potAnte)) {
+					if (!(IWithinI(mention, potAnte))) {
 						
 							ante_idx = idx;
 						

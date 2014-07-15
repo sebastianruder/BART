@@ -37,7 +37,7 @@ public class PronounMatchSieve extends Sieve {
 					currentSentencePairs.add(pair);
 				}
 				
-				if (FE_SentenceDistance.getSentDist(pair) > 0 && s.sentenceDistance(pair)){
+				if (FE_SentenceDistance.getSentDist(pair) > 0 && sentenceDistance(pair)){
 					previousSentencePairs.add(pair);
 					
 				}
@@ -49,7 +49,7 @@ public class PronounMatchSieve extends Sieve {
 			
 			for (PairInstance p: currentSentencePairs){
 				for (int i = 1; i < 20; i++){
-					if (s.getMarkableDistance(p) == i && s.genderAgreement(p) && s.numberAgreement(p)){
+					if (getMarkableDistance(p) == i && genderAgreement(p) && numberAgreement(p)){
 						ante_idx = mentions.indexOf(p.getAntecedent());
 					}
 				}
@@ -59,7 +59,7 @@ public class PronounMatchSieve extends Sieve {
 				if (ante_idx == -1){
 					for (PairInstance p2: previousSentencePairs){
 						for (int j = 100 ;j > 0; j--){
-							if (s.getMarkableDistance(p2) == j && s.genderAgreement(p2) && s.numberAgreement(p2)){
+							if (getMarkableDistance(p2) == j && genderAgreement(p2) && numberAgreement(p2)){
 								ante_idx = mentions.indexOf(p2.getAntecedent());
 							}
 						}

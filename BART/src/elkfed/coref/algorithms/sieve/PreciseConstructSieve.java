@@ -57,8 +57,8 @@ public class PreciseConstructSieve extends Sieve {
 		
 		for (int idx = 0; idx < mention_idx; idx++) {			
 			pair = new PairInstance(mention, mentions.get(idx));
-			if (s.isAppositive(pair) || s.isPredicateNominative(pair) || s.isRoleAppositive(pair) || s.isRelativePronoun(pair)
-					|| s.isAcronym(pair) || s.isDemonym(pair)){
+			if (isAppositive(pair) || isPredicateNominative(pair) || isRoleAppositive(pair) || isRelativePronoun(pair)
+					|| isAcronym(pair) || isDemonym(pair)){
 				ante_idx = idx;
 			}
 		}

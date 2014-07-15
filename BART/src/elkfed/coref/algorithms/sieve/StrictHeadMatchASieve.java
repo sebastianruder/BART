@@ -27,8 +27,6 @@ import elkfed.coref.mentions.Mention;
  */
 public class StrictHeadMatchASieve extends Sieve {
 	
-	private static final SieveUtilities s = new SieveUtilities();
-	
 	public StrictHeadMatchASieve(List<Mention> mentions) {
 		this.mentions = mentions;
 		this.name = "StrictHeadMatchASieve";
@@ -42,11 +40,11 @@ public int runSieve(Mention mention){
 		for (int idx = 0; idx < mention_idx; idx++){
 			Mention potAnte = mentions.get(idx);
 			
-			if (s.entityHeadMatch(mention, potAnte)) {
+			if (entityHeadMatch(mention, potAnte)) {
 				
-				if(s.wordInclusion(mention, potAnte)) {
-					if (s.compatibleModifiers(mention, potAnte)) {
-						if (!(s.IWithinI(mention, potAnte))) {
+				if(wordInclusion(mention, potAnte)) {
+					if (compatibleModifiers(mention, potAnte)) {
+						if (!(IWithinI(mention, potAnte))) {
 							
 								ante_idx = idx;
 							

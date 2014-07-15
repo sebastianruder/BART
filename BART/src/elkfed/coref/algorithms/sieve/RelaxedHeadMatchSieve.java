@@ -21,8 +21,6 @@ import elkfed.coref.mentions.Mention;
  */
 public class RelaxedHeadMatchSieve extends Sieve {
 
-	public static final SieveUtilities s = new SieveUtilities();
-
 	public RelaxedHeadMatchSieve(List<Mention> mentions) {
 		this.mentions = mentions;
 		this.name = "RelaxedHeadMatchSieve";
@@ -36,10 +34,10 @@ public class RelaxedHeadMatchSieve extends Sieve {
 		for (int idx = 0; idx < mention_idx; idx++) {
 			Mention potAnte = mentions.get(idx);
 			PairInstance pair = new PairInstance(mention, potAnte);
-			if (s.relaxedEntityHeadMatch(mention, potAnte)) {
-				if (s.wordInclusion(mention, potAnte)) {
-					if (s.NERAgreement(pair)) {
-						if (!(s.IWithinI(mention, potAnte))) {
+			if (relaxedEntityHeadMatch(mention, potAnte)) {
+				if (wordInclusion(mention, potAnte)) {
+					if (NERAgreement(pair)) {
+						if (!(IWithinI(mention, potAnte))) {
 
 							ante_idx = idx;
 
