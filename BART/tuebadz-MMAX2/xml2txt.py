@@ -6,7 +6,7 @@ Converts mmax files into plain text tagged with markable and coref set
 information and a hex color code that marks the same coref set with the
 same color when viewed as html, e.g. in http://www.onlinehtmleditor.net/
 """
-with open("mmax-100-plain.txt", "w") as txt:
+with open("mmax-100-plain.html", "w") as txt:
     # opens the first three files
     for i in range(1,100):
         # these don't have coref level information
