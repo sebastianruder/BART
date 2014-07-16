@@ -68,12 +68,12 @@ Implementation der DiscourseEntity
 Hier ist der [MUCScorer](src/elkfed/coref/eval/MUCScorer.java), der zur Evaluation verwendet wird
 * [src/elkfed/coref/features/pairs](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/features/pairs):
 Hier befinden sich einige Feature-Extraktoren, die wir verwendeten:
-  1. [FE_AppositiveParse](src/elkfed/coref/features/FE_AppositiveParse.java)
-  2. [FE_Copula](src/elkfed/coref/features/FE_Copula.java)
-  3. [FE_Gender](src/elkfed/coref/features/FE_Gender.java)
-  4. [FE_Number](src/elkfed/coref/features/FE_Number.java)
-  5. [FE_SentenceDistance](src/elkfed/coref/features/FE_SentenceDistance.java)
-  6. [FE_Speech](src/elkfed/coref/features/FE_Speech.java)
+  1. [FE_AppositiveParse](src/elkfed/coref/features/pairs/FE_AppositiveParse.java)
+  2. [FE_Copula](src/elkfed/coref/features/pairs/FE_Copula.java)
+  3. [FE_Gender](src/elkfed/coref/features/pairs/FE_Gender.java)
+  4. [FE_Number](src/elkfed/coref/features/pairs/FE_Number.java)
+  5. [FE_SentenceDistance](src/elkfed/coref/features/pairs/FE_SentenceDistance.java)
+  6. [FE_Speech](src/elkfed/coref/features/pairs/FE_Speech.java)
 * [src/elkfed/coref/mentions](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/features/mentions):
 Hier befindet sich die [Mention-Klasse](src/elkfed/coref/mentions/Mention.java) sowie die [MentionFactory](src/elkfed/coref/mentions/AbstractMentionFactory.java)
 * [src/elkfed/coref/processors](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/features/processors):
