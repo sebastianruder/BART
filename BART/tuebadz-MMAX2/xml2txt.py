@@ -1,11 +1,20 @@
 import xml.etree.ElementTree as et
+import random
 
-with open("mmax-mini-plain.txt", "w") as txt:
+"""
+Converts mmax files into html files tagged with markable and coref set
+information and a hex color code that marks the same coref set with the
+same color
+"""
+with open("mmax-100-plain.html", "w") as txt:
     # opens the first three files
-    for i in range(1,4):
-        file_name = "mmax-mini/Basedata/export_00{0}_words.xml".format(i)
-        markable_file_name = "mmax-mini/markables/export_00{0}_markable_level.xml".format(i)
-        coref_file_name = "mmax-mini/markables/export_00{0}_coref_level.xml".format(i)
+    for i in range(1,100):
+        # these don't have coref level information
+        if i == 43 or i == 76:
+            continue
+        file_name = "mmax-100/Basedata/export_{0:03d}_words.xml".format(i)
+        markable_file_name = "mmax-100/markables/export_{0:03d}_markable_level.xml".format(i)
+        coref_file_name = "mmax-100/markables/export_{0:03d}_coref_level.xml".format(i)
         tree = et.parse(file_name)
         
         # creates a markable dictionary which looks like this:
@@ -32,6 +41,8 @@ with open("mmax-mini-plain.txt", "w") as txt:
         corefs = et.parse(coref_file_name).getroot()
         coref_dict = {}
         spans = [(coref.get("coref_set"), coref.get("span")) for coref in corefs]
+        # dictionary to store random color code for each coref set
+        color_dict = {}
         for coref_set, span in spans:
             if ".." in span:
                 start = span.split("..")[0]
@@ -45,8 +56,13 @@ with open("mmax-mini-plain.txt", "w") as txt:
             coref_dict[start]["start_of"].append(coref_set)
             coref_dict[end]["end_of"].append(coref_set)
             
+            # creates random hex color and sets it as color of coref set
+            r = lambda: random.randint(0,255)
+            random_hex = '#%02X%02X%02X' %(r(),r(),r())
+            color_dict.setdefault(coref_set, random_hex)
+            
         # writes file name for differentiation
-        txt.write("Datei: {0}\n".format(file_name))
+        txt.write("Datei: {0}\n<br>".format(file_name))
         # iterates over all words in words file
         for child in tree.getroot():
             id = child.get("id")
@@ -68,25 +84,28 @@ with open("mmax-mini-plain.txt", "w") as txt:
             if coref_start:
                 for coref_set in coref_start:
                     print "<{0}>".format(coref_set),
-                    txt.write("<{0}>".format(coref_set))
+                    txt.write("<a style='color:{0}'>|{1}|".format(color_dict[coref_set], coref_set))
             # if the word is the start of a markable, adds start tag
             if markable_start:
                 for markable_id in markable_start:
                      print "<{0}>".format(markable_id),
-                     txt.write("<{0}>".format(markable_id))
+                     txt.write("|{0}|".format(markable_id))
             # writes word
             print "{0}".format(child.text),
-            txt.write("{0}".format(child.text))
+            if coref_start or coref_end:
+                txt.write("<b>{0}</b>".format(child.text))
+            else:
+                txt.write("{0}".format(child.text))
             # if the word is the end of a markable, adds end tag
             if markable_end:
                 for markable_id in markable_end:
-                    print "</{0}>".format(markable_id),
-                    txt.write("</{0}>".format(markable_id))
+                    print "<\{0}>".format(markable_id),
+                    txt.write("|\{0}|".format(markable_id))
             # if the word is the end of a coref, adds end tag
             if coref_end:
                 for coref_set in coref_end:
-                    print "</{0}>".format(coref_set),
-                    txt.write("</{0}>".format(coref_set))
+                    print "<\{0}>".format(coref_set),
+                    txt.write("|\{0}|</a>".format(coref_set))
             print " ",
             txt.write(" ")
             # puts every sentence on a separate line
@@ -94,4 +113,4 @@ with open("mmax-mini-plain.txt", "w") as txt:
                 print
                 txt.write("\n")    
         print
-        txt.write("\n\n")
+        txt.write("\n\n<br><br>")
