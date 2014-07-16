@@ -72,7 +72,7 @@ public abstract class AbstractLanguagePlugin implements LanguagePlugin {
     {
         Map<String,String> map;
         try {
-            File names_dir=new File("/home/xenia/git/BART/BART","names");
+            File names_dir=new File(ConfigProperties.getInstance().getRoot(),"names");
             BufferedReader br=new BufferedReader(new FileReader(new File(names_dir,fname)));
             map=new HashMap<String,String>();
             String line;
@@ -94,7 +94,7 @@ public abstract class AbstractLanguagePlugin implements LanguagePlugin {
     
     public void readList(List<String> list, String fname) {
     	try {
-            File names_dir = new File("/home/xenia/git/BART/BART","names");
+            File names_dir = new File(ConfigProperties.getInstance().getRoot(),"names");
             BufferedReader br = new BufferedReader(new FileReader(new File(names_dir,fname)));
             String line;
             while ((line = br.readLine()) != null) {
