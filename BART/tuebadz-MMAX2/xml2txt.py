@@ -2,9 +2,9 @@ import xml.etree.ElementTree as et
 import random
 
 """
-Converts mmax files into plain text tagged with markable and coref set
+Converts mmax files into html files tagged with markable and coref set
 information and a hex color code that marks the same coref set with the
-same color when viewed as html, e.g. in http://www.onlinehtmleditor.net/
+same color
 """
 with open("mmax-100-plain.html", "w") as txt:
     # opens the first three files
