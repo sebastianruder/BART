@@ -46,7 +46,9 @@ Hier befindet sich das Interface [CorefResolver](src/elkfed/coref/CorefResolver.
 * [src/elkfed/coref/algorithms/sieve](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/algorithms/sieve):
 Hier befinden sich eine [Factory-Klasse](src/elkfed/coref/algorithms/sieve/SieveFactory.java), eine
 [Super-Klasse](src/elkfed/coref/algorithms/sieve/Sieve.java) sowie
-[alle Sieb-Klassen](http://htmlpreview.github.io/?https://github.com/sebastianruder/BART/blob/master/BART/doc/allclasses-frame.html)
+[alle Sieb-Klassen](http://htmlpreview.github.io/?https://github.com/sebastianruder/BART/blob/master/BART/doc/allclasses-frame.html); eine
+hierarchische Übersicht findet sich [hier](http://htmlpreview.github.io/?https://github.com/sebastianruder/BART/blob/master/BART/doc/overview-tree.html);
+eine genaue Übersicht über alle Klassen und Methoden findet sich [hier](http://htmlpreview.github.io/?https://github.com/sebastianruder/BART/blob/master/BART/doc/index.html)
   1. [SpeakerIdentificationSieve](src/elkfed/coref/algorithms/sieve/SpeakerIdentificationSieve.java)
   2. [StringMatchSieve](src/elkfed/coref/algorithms/sieve/StringMatchSieve.java)
   3. [RelaxedStringMatchSieve](src/elkfed/coref/algorithms/sieve/RelaxedStringMatchSieve.java)
@@ -57,8 +59,6 @@ Hier befinden sich eine [Factory-Klasse](src/elkfed/coref/algorithms/sieve/Sieve
   8. [ProperHeadNounMatchSieve](src/elkfed/coref/algorithms/sieve/ProperHeadNounMatchSieve.java)
   9. [RelaxedHeadMatchSieve](src/elkfed/coref/algorithms/sieve/RelaxedHeadMatchSieve.java)
   10. [PronounMatchSieve](src/elkfed/coref/algorithms/sieve/PronounMatchSieve.java)
-  Eine hierarchische Übersicht findet sich [hier](http://htmlpreview.github.io/?https://github.com/sebastianruder/BART/blob/master/BART/doc/overview-tree.html);
-  eine genaue Übersicht über alle Klassen und Methoden findet sich [hier](http://htmlpreview.github.io/?https://github.com/sebastianruder/BART/blob/master/BART/doc/index.html)
 * [src/elkfed/coref/algorithms/soon](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/algorithms/soon):
 Hier befinden sich die verschiedenen Soon-Algorithmen von BART
 * [src/elkfed/coref/discourse_entities](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/discourse_entities):
@@ -67,7 +67,13 @@ Implementation der DiscourseEntity
 * [src/elkfed/coref/eval](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/eval):
 Hier ist der [MUCScorer](src/elkfed/coref/eval/MUCScorer.java), der zur Evaluation verwendet wird
 * [src/elkfed/coref/features/pairs](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/features/pairs):
-Hier befinden sich einige Feature-Extraktoren, die wir verwendeten (aufzählen)
+Hier befinden sich einige Feature-Extraktoren, die wir verwendeten:
+  1. [FE_AppositiveParse](src/elkfed/coref/features/FE_AppositiveParse.java)
+  2. [FE_Copula](src/elkfed/coref/features/FE_Copula.java)
+  3. [FE_Gender](src/elkfed/coref/features/FE_Gender.java)
+  4. [FE_Number](src/elkfed/coref/features/FE_Number.java)
+  5. [FE_SentenceDistance](src/elkfed/coref/features/FE_SentenceDistance.java)
+  6. [FE_Speech](src/elkfed/coref/features/FE_Speech.java)
 * [src/elkfed/coref/mentions](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/features/mentions):
 Hier befindet sich die [Mention-Klasse](src/elkfed/coref/mentions/Mention.java) sowie die [MentionFactory](src/elkfed/coref/mentions/AbstractMentionFactory.java)
 * [src/elkfed/coref/processors](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/features/processors):
@@ -80,6 +86,8 @@ Hier befindet sich das Hauptprogramm, [SieveAnnotator](src/elkfed/main/SieveAnno
 Hier befindet sich die [Gender-Klasse](src/elkfed/nlp/util/Gender.java)
 * [config](https://github.com/sebastianruder/BART/tree/master/BART/config):
 Hier befindet sich [config.properties](config/config.properties), in der die Dateipfade angegeben werden
+* [doc](https://github.com/sebastianruder/BART/tree/master/BART/doc):
+Hier befinden sich die automatisch generierten Javadoc-Dateien
 * [documents](https://github.com/sebastianruder/BART/tree/master/BART/documents):
 Hier liegen unsere Präsentationsfolien
 * [names](https://github.com/sebastianruder/BART/tree/master/BART/names):
