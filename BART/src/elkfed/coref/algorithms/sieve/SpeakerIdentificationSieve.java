@@ -27,6 +27,7 @@ import elkfed.coref.mentions.Mention;
  * @see FE_SentenceDistance#getSentDist(PairInstance)
  * @see FE_Speech#isMentionInSpeech(Mention)
  * @see Mention#getPersPronoun()
+ * @see SieveUtilities#isVorfeldEs(Mention)
  * 
  * @author Xenia
  */
