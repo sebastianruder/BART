@@ -525,23 +525,24 @@ public abstract class Sieve {
 	public boolean isSpeaker(Mention mention){
 		int extendedMentionSpanLeft;
 		int extendedMentionSpanRight;
-		int wordDistanceLeft;
-		int wordDistanceRight;
+		int MentionSpanLeft = mention.getMarkable().getLeftmostDiscoursePosition() + 1;
+		int MentionSpanRight = mention.getMarkable().getRightmostDiscoursePosition() + 1;
 		
-		String joinedMentionSpanString;
+		String joinedMentionExtendedString = "";
+		String joinedMentionString = "";
 		
-		if (mention.getMarkable().getLeftmostDiscoursePosition() - 10 <= 0){
+		if (MentionSpanLeft - 10 <= 0){
 			extendedMentionSpanLeft = mention.getSentenceStart() + 1;
 		}
 		else {
-			extendedMentionSpanLeft = mention.getMarkable().getLeftmostDiscoursePosition() - 10;
+			extendedMentionSpanLeft = MentionSpanLeft - 10;
 		}
 		
-		if (mention.getMarkable().getRightmostDiscoursePosition() +10 > mention.getSentenceEnd()){
+		if (MentionSpanRight +10 > mention.getSentenceEnd()){
 			extendedMentionSpanRight = mention.getSentenceEnd();
 		}
 		else {
-			extendedMentionSpanRight = mention.getMarkable().getRightmostDiscoursePosition() + 10;
+			extendedMentionSpanRight = MentionSpanRight + 10;
 		}
 		
 		
@@ -549,21 +550,102 @@ public abstract class Sieve {
 			return false;
 		}
 		
-		joinedMentionSpanString = mention.getJoinedStringFromDiscIds(extendedMentionSpanLeft, extendedMentionSpanRight, "lemma");
-		if (joinedMentionSpanString != null){
-			String[] words = joinedMentionSpanString.split("\\s+");
+		joinedMentionExtendedString = mention.getJoinedStringFromDiscIds(extendedMentionSpanLeft, extendedMentionSpanRight, "lemma");
+		joinedMentionString = mention.getJoinedStringFromDiscIds(MentionSpanLeft, MentionSpanRight, "lemma");
+		
+		if (joinedMentionExtendedString != null && joinedMentionString != null) {
+			String[] words = joinedMentionExtendedString.replaceAll("[^A-Za-z0-9äöüÄÖÜ# ]", "").split("\\s+");
+			String[] mentionWords = joinedMentionString.replaceAll("[^A-Za-zäöüÄÖÜ0-9# ]", "").split("\\s+");
 			
 			for (int i= 0; i < words.length; i++){
-				if (langPlugin.isInSpeechVerbList(words[i])){
-			
-					wordDistanceLeft = extendedMentionSpanLeft - mention.getMarkable().getLeftmostDiscoursePosition() + i ;
-					wordDistanceRight = mention.getMarkable().getRightmostDiscoursePosition() - extendedMentionSpanRight + i;
-					if (wordDistanceLeft < 3 || wordDistanceRight < 3){
+				if (langPlugin.isInSpeechVerbList(words[i]) ) {
+					if (i == words.length-1){
+						if (words[i-1].equals(mentionWords[mentionWords.length-1])){
+							return true;
+						}
+						else return false;
+					}
+					
+					if (i == 0 && mentionWords.length > 1){
+						if (words[i+1].equals(mentionWords[0]) && words[i+2].equals(mentionWords[1]) ){
 						return true;
+						}
+						
+						else return false;
+					}
+					
+					if (i == 0 && mentionWords.length == 1){
+						if (words[i+1].equals(mentionWords[0]) ){
+						return true;
+						}
+						
+						else return false;
+					}
+					
+					if (i != 0 && i != words.length-1 ){
+						if ((words[i-1].equals(mentionWords[mentionWords.length-1])) || (words[i+1].equals(mentionWords[0]))){
+							return true;
+						}
+						else return false;
+					}
+				}
+				
+				
+				if (words[i].equals("so")){		
+					if (i == words.length-1){
+						return false;
+					}
+					
+					if (i == words.length-2){
+						if (words[i+1].equals(mentionWords[0])){
+							return true;
+						}
+						
+						else return false;
+					}
+					
+					if (i !=  words.length-1 && i != words.length -2 && mentionWords.length > 1){
+						if (words[i+1].equals(mentionWords[0]) && words[i+2].equals(mentionWords[1])){
+							return true;
+						}
+						
+						else return false;
+					}
+					
+					if (i !=  words.length-1 && i != words.length -2 && mentionWords.length == 1){
+						if (words[i+1].equals(mentionWords[0])){
+							return true;
+						}
+						
+						else return false;
 					}
 				}
 			}
-		}
+		}	
+		
 		return false;
+	}
+	
+	
+	public boolean isVorfeldEs(Mention mention){
+		if (!(mention.getMarkable().toString().equals("[es]") || mention.getMarkable().toString().equals("[Es]"))){
+			return false;
+		}
+		
+		if ( mention.getSentenceStart() != mention.getMarkable().getLeftmostDiscoursePosition()-1 ){
+			return false;
+
+		}
+		
+		else {
+			if (mention.getSentenceTree().toString().matches("\\(Start(.*)\\(SIMPX \\(VF \\(NX \\(PPER [Ee]s\\)\\)\\)(.*)")){
+			return true;
+			}
+		}
+		
+		return false;
+		
+		
+		
 	}
 }
