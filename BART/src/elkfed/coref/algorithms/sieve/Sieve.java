@@ -631,18 +631,13 @@ public abstract class Sieve {
 		if (!(mention.getMarkable().toString().equals("[es]") || mention.getMarkable().toString().equals("[Es]"))){
 			return false;
 		}
-		
-		if ( mention.getSentenceStart() != mention.getMarkable().getLeftmostDiscoursePosition()-1 ){
-			return false;
-
-		}
-		
+	
 		else {
-			if (mention.getSentenceTree().toString().matches("\\(Start(.*)\\(SIMPX \\(VF \\(NX \\(PPER [Ee]s\\)\\)\\)(.*)")){
+			if (mention.getSentenceTree().toString().matches("\\(Start(.*)\\([VM]F \\(NX \\(PPER [Ee]s\\)\\)\\)(.*)")){
 			return true;
 			}
 		}
-		
+
 		return false;
 		
 		
