@@ -44,8 +44,9 @@ Relevante Dateien im _repository_:
 * [src/elkfed/coref](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref):
 Hier befindet sich das Interface [CorefResolver](src/elkfed/coref/CorefResolver.java)
 * [src/elkfed/coref/algorithms/sieve](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/algorithms/sieve):
-Hier befinden sich eine [Utility-Klasse](src/elkfed/coref/algorithms/sieve/SieveUtilities.java),
-eine [Factory-Klasse](src/elkfed/coref/algorithms/sieve/SieveFactory.java) und alle Sieb-Klassen
+Hier befinden sich eine [Factory-Klasse](src/elkfed/coref/algorithms/sieve/SieveFactory.java), eine
+[Super-Klasse](src/elkfed/coref/algorithms/sieve/Sieve.java) sowie
+[alle Sieb-Klassen](http://htmlpreview.github.io/?https://github.com/sebastianruder/BART/blob/master/BART/doc/allclasses-frame.html)
   1. [SpeakerIdentificationSieve](src/elkfed/coref/algorithms/sieve/SpeakerIdentificationSieve.java)
   2. [StringMatchSieve](src/elkfed/coref/algorithms/sieve/StringMatchSieve.java)
   3. [RelaxedStringMatchSieve](src/elkfed/coref/algorithms/sieve/RelaxedStringMatchSieve.java)
@@ -56,6 +57,8 @@ eine [Factory-Klasse](src/elkfed/coref/algorithms/sieve/SieveFactory.java) und a
   8. [ProperHeadNounMatchSieve](src/elkfed/coref/algorithms/sieve/ProperHeadNounMatchSieve.java)
   9. [RelaxedHeadMatchSieve](src/elkfed/coref/algorithms/sieve/RelaxedHeadMatchSieve.java)
   10. [PronounMatchSieve](src/elkfed/coref/algorithms/sieve/PronounMatchSieve.java)
+  Eine hierarchische Übersicht findet sich [hier](http://htmlpreview.github.io/?https://github.com/sebastianruder/BART/blob/master/BART/doc/overview-tree.html);
+  eine genaue Übersicht über alle Klassen und Methoden findet sich [hier](http://htmlpreview.github.io/?https://github.com/sebastianruder/BART/blob/master/BART/doc/index.html)
 * [src/elkfed/coref/algorithms/soon](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/algorithms/soon):
 Hier befinden sich die verschiedenen Soon-Algorithmen von BART
 * [src/elkfed/coref/discourse_entities](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/discourse_entities):
