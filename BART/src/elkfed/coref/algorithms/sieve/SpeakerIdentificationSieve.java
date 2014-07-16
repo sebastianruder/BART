@@ -51,7 +51,7 @@ public class SpeakerIdentificationSieve extends Sieve {
 		// mention has to be a speaker
 		// antecendent has to in speech AND a (personal) pronoun	
 		// further constraints to be implemented (see header)	
-			if (FE_SentenceDistance.getSentDist(pair) < 2 && isSpeaker(mention) && FE_Speech.isMentionInSpeech(ante) && ante.getPersPronoun()){
+			if (FE_SentenceDistance.getSentDist(pair) < 2 && s.isSpeaker(mention) && FE_Speech.isMentionInSpeech(ante) && ante.getPersPronoun() && !s.isVorfeldEs(ante)&& s.isAnimate(mention)){
 			ante_idx = idx;
 			
 			}
