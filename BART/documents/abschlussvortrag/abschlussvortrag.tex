@@ -31,8 +31,6 @@ Grundsätzlich: System für Koreferenzresolution
 \item Vorher: BART
 \item Nachher: BART mit neuem Ansatz
 \begin{itemize}
-
-
 \item Implementierung von vorwiegend regelbasiertem System der Stanford-NLP-Gruppe
 \item Bestes Ergebnis bei CoNLL-2011 shared task
 \item 10 zu implementierende Sieves, erstmal nur für Deutsch
@@ -127,6 +125,12 @@ Grundsätzlich: System für Koreferenzresolution
 \end{frame}
 
 
+\section{Demonstration!}
+\begin{frame}{Demo}
+Man sehe und staune! :)
+\end{frame}
+
+
 \section{Evaluation}
 \begin{frame}{Insgesamt}
 Einzufügen vorm Vortrag
@@ -164,27 +168,49 @@ Welches Sieve macht wie viel, eventuell Vergleich mit Stanford Sieves (welche Si
 \end{frame}
   
 
-\section{Zukunft}
 
-\begin{frame}{zu verbessern:}
-Dinge, die bis zum Abgabeschluss/ darüber hinaus noch verbessert werden (müssen)
+
+\section{Lessons learned, Probleme}
+\begin{frame}{Probleme mit der Technik/ dem Korpus}
+\begin{itemize}
+\item EGit für Eclipse manchmal sehr buggy
+\item Konversionsfehler im Korpus $\rightarrow$ falscher Goldstandard
+\item parse- Level fehlte anfangs $\rightarrow$ Headfinder funktionierte nicht
+\item TüBaD/Z Headfinder hat danach auch noch nicht richtig funktioniert $\rightarrow$ Regel in BART musste geändert werden
+\end{itemize}
+$\rightarrow$  FAZIT
+
+\end{frame}
+
+
+\begin{frame}{Probleme mit BART und dem Stanfordsystem}
+\begin{itemize}
+\item Viele Methoden in BART unklar/ nicht dokumentiert \\$\rightarrow$  Verwendung unklar
+\item Modulübersicht wäre praktisch gewesen
+\item Stanford Code unübersichtlich + verwirrend modularisiert\\$\rightarrow$ wenig Anreiz sich daran zu orientieren
+\end{itemize}
+$\rightarrow$ Immer Zeit einplanen sich in ein fremdes System einzuarbeiten!
+$\rightarrow$ Sinnvollerweise jemanden haben, der kurze Einführung in System geben kann
+\end{frame}
+
+
+
+\section{Zukunft}
+\begin{frame}{TO DO bis Abgabeschluss}
+\begin{itemize}
+\item Dokumentation beenden
+\item Feinschliff an Sieves etc
+\end{itemize}
 \end{frame}
 
 \begin{frame}{Weiterentwicklung}
-Englisch, Italienisch, andere Sprachen\\
-neue Sieves\\
-verbesserte Sieves\\
-BART allgemein aufräumen
+\begin{itemize}
+\item Englisch, Italienisch, andere Sprachen
+\item neue Sieves 
+\item verbesserte Sieves
+\item BART allgemein aufräumen
+\end{itemize}
 \end{frame}
-
-\section{Lessons learned, Probleme}
-\begin{frame}{Probleme}
-eGit nervt, weil zu viele bugs
-
-\end{frame}
-
-
-
 
 
 %\section{Quellen}
