@@ -461,7 +461,7 @@ public abstract class Sieve {
 			return false;
 		}
 		String mHead = m.getHeadString();
-		Set<String> dAnteHeads = ante.getDiscourseEntity().getHeads();
+		Set<String> dAnteHeads = ante.getDiscourseEntity().getHeads();		
 		if (dAnteHeads.contains(mHead)) {
 			return true;
 		}

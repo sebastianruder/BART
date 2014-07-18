@@ -69,8 +69,8 @@ public class DiscourseEntity {
 		addWords(m);
 		
 		heads = new HashSet<String>();
-		//heads.add(m.getHeadString());
-		heads.add(m.getHeadLemma());
+		heads.add(m.getHeadString());
+		//heads.add(m.getHeadLemma());
 		modifiers = new HashSet<Tree>();				
 		modifiers.addAll(m._premodifiers);		
 		modifiers.addAll(m._postmodifiers);
