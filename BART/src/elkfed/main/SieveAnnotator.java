@@ -8,6 +8,7 @@ import elkfed.coref.CorefResolver;
 import elkfed.coref.PairFeatureExtractor;
 import elkfed.coref.PairInstance;
 import elkfed.coref.algorithms.dummy.SoonDummyDecoder;
+import elkfed.coref.algorithms.sieve.Evaluation;
 import elkfed.coref.algorithms.sieve.SieveDecoder;
 import elkfed.coref.processors.AnnotationProcessor;
 import elkfed.ml.FeatureDescription;
@@ -43,6 +44,7 @@ public class SieveAnnotator {
             );
             processor.processCorpus();
             AnnotationProcessor.scoreMUC(ConfigProperties.getInstance().getTestData());
+            Evaluation.printSievePerformance();
         }
         catch (Exception e)
         {
