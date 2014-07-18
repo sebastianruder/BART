@@ -32,8 +32,17 @@ public class GermanLinguisticConstants extends LinguisticConstants
     /** Relative pronoun regexp */
     public static final String RELATIVE_PRONOUN = "(der|die|das|dessen|deren|dessen|dem|den|denen|welcher|welche|welches)";
  
-    /** Anaphoric pronoun regexp */
-    public static final String ANAPHORIC_PRONOUN = "(er|es|sie|ihn|ihm|ihr|ihnen|seiner|ihrer)";
+
+    public static final String FIRSTPERSON_SG_PRONOUNS = "(ich|mich|mir|mein|meine|meiner|meinen|meinem|meines)";
+    		
+    public static final String SECONDPERSON_SG_PRONOUNS = "(du|dich|dir|dein|deine|deiner|deinen|deinem|deines)";
+    
+    public static final String FIRSTPERSON_PL_PRONOUNS = "(wir|uns|unser|unsere|unserer|unseren|unserem|unseres)";
+    
+    public static final String SECONDPERSON_PL_PRONOUNS = "(ihr|euch|euer|eure|eurer|euren|eurem|eures)";
+    
+    
+   
     /** The STTS labels for common noun */
     public static final String COMMON_NOUN_POS = "NN"; 
     

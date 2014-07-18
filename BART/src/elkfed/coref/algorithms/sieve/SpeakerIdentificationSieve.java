@@ -2,10 +2,14 @@ package elkfed.coref.algorithms.sieve;
 
 import java.util.List;
 
+
+import elkfed.lang.GermanLinguisticConstants;
+import elkfed.config.ConfigProperties;
 import elkfed.coref.PairInstance;
 import elkfed.coref.features.pairs.FE_SentenceDistance;
 import elkfed.coref.features.pairs.FE_Speech;
 import elkfed.coref.mentions.Mention;
+import elkfed.lang.LanguagePlugin;
 
 /**
  * This sieve matches speakers to compatible pronouns,
@@ -35,6 +39,9 @@ import elkfed.coref.mentions.Mention;
 
 public class SpeakerIdentificationSieve extends Sieve {
 	
+	private static final LanguagePlugin langPlugin = ConfigProperties
+			.getInstance().getLanguagePlugin();
+	
 	public SpeakerIdentificationSieve(List<Mention> mentions) {
 		this.mentions = mentions;
 		this.name = "SpeakerIdentificationSieve";
@@ -43,18 +50,22 @@ public class SpeakerIdentificationSieve extends Sieve {
 	@Override
 	public int runSieve(Mention mention){	
 		int ante_idx = -1;
+		
 
 		for (int idx = 0; idx < mentions.size(); idx++){ // antecedences in speech can occur before and after a mention
 			Mention ante = mentions.get(idx);
 			PairInstance pair = new PairInstance(mention, ante);
+			
+			String anteString = ante.getMarkable().toString().replace("[", "").replace("]", "");
 
 		// antecedences have to be in the same or a neighbouring sentence
 		// mention has to be a speaker
 		// antecendent has to in speech AND a (personal) pronoun	
 		// further constraints to be implemented (see header)	
-			if (FE_SentenceDistance.getSentDist(pair) < 2 && s.isSpeaker(mention) && FE_Speech.isMentionInSpeech(ante) && ante.getPersPronoun() && !s.isVorfeldEs(ante)&& s.isAnimate(mention)){
-			ante_idx = idx;
-			
+			if (FE_SentenceDistance.getSentDist(pair) < 2 && isSpeaker(mention) && FE_Speech.isMentionInSpeech(ante) && !isVorfeldEs(ante)){
+				if (anteString.matches(GermanLinguisticConstants.FIRSTPERSON_SG_PRONOUNS) || anteString.matches(GermanLinguisticConstants.SECONDPERSON_SG_PRONOUNS) || anteString.matches(GermanLinguisticConstants.FIRSTPERSON_PL_PRONOUNS) || anteString.matches(GermanLinguisticConstants.SECONDPERSON_PL_PRONOUNS)){          
+					ante_idx = idx;
+				}
 			}
 		}
 		return ante_idx;
