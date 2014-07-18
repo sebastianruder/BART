@@ -34,62 +34,65 @@ public class Evaluation {
 		}
 	}
 	
-	public void printMention(Mention m) {
+	public void printMention(Mention m, boolean isAntecedent) {
+		if (isAntecedent) {
+			System.out.print("ANTECEDENT:");
+		}
+		else {
+			System.out.print("MENTION");
+		}
 		System.out.println("HeadLemma: " +  m.getHeadLemma());
 		System.out.println("Head: " + m.getHeadString() );
 		System.out.println("Words: " + m.getDiscourseEntity().getWordsString());
 		System.out.println("SetID: " + m.getSetID());
-		System.out.println("DeID: " + m.getDiscourseEntity().getID());
-		System.out.println("\n");
+		System.out.println("DeID: " + m.getDiscourseEntity().getID() + "\n");
 		Markable markable = m.getMarkable();
 		MiniDiscourse doc = markable.getMarkableLevel().getDocument();
         MarkableLevel lemmas = doc.getMarkableLevelByName("lemma");
-
-	}
-	
-	public void printDiscourseEntity(DiscourseEntity de) {
-		//hier könnt ihr Attribute ausgeben lassen
 	}
 	
 	public void printEvaluation() {
 		for(Mention m: mentions) {
-			
+			String correct_match = "FALSE";
 			System.out.print(String.format("%s: ", m.getMarkable().getID()));
 			
 			if (antecedents.containsKey(m)) {
 				if (m.isCoreferent(antecedents.get(m))) {
-					System.err.print("TRUE! ");
-					
+					correct_match = "TRUE";	
 				}
-				else {
-					System.err.print("FALSE! ");
-				}
-				System.out.println(String.format("Antecedent of '%s': '%s'(%s) with %s", 
+				System.out.println(String.format("%s! Antecedent of '%s': '%s'(%s) with %s", 
+												 correct_match,
 												 m.getMarkable().toString(),	
 												 antecedents.get(m).getMarkable().toString(),
 												 antecedents.get(m).getMarkable().getID(),
 												 sieves.get(m)												
 												 ));
-				System.out.print("MENTION: ");
-				printMention(m);
-				System.out.print("ANTECEDENT: ");
-				printMention(antecedents.get(m));
-				// print postmodifiers
-				
+				printMention(m, false); // false to print "MENTION: "
+				printMention(antecedents.get(m), true); // true to print "ANTECEDENT: "
 				
 			} else {
 				if (!(m.getSetID() == null)) {
-					System.err.println("\nFalse");
+					System.out.print("SetID error! ");
 				}
-				System.out.println(String.format("No Antecedent for '%s'",
-												 m.getMarkable().toString()));				
-				
-				printMention(m);
-				
+				Mention correct_antecedent = null;
+				for (Mention antecedent : mentions) {
+					if (m.isCoreferent(antecedent)) {
+						correct_antecedent = antecedent;
+						break;
+					}
+					else if (antecedent == m) {
+						correct_match = "TRUE";
+					}
+				}
+				System.out.println(String.format("%s! No Antecedent for '%s'",
+												 correct_match,
+												 m.getMarkable().toString()));
+				printMention(m, false);
+				if (correct_antecedent != null) {
+					printMention(correct_antecedent, true);
+				}
 			}
 		}
-		
-
 	}
 	public static void printSievePerformance() {
 		System.out.println("Sieve\tlinksPerSieve\tcorrectLinksPerSieve");
