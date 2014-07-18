@@ -1,5 +1,12 @@
 package elkfed.coref.algorithms.sieve;
 
+import java.io.BufferedWriter;
+import java.io.FileOutputStream;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
+import java.io.Writer;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -13,6 +20,7 @@ import elkfed.mmax.minidisc.MiniDiscourse;
 
 public class Evaluation {
 	
+	private PrintWriter writer;
 	private List<Mention> mentions;
 	public Map<Mention, Mention>  antecedents;
 	private Map<Mention, String> sieves;
@@ -34,24 +42,39 @@ public class Evaluation {
 		}
 	}
 	
-	public void printMention(Mention m, boolean isAntecedent) {
+	public void printMention(Mention m, boolean isAntecedent) throws IOException {
 		if (isAntecedent) {
-			System.out.print("ANTECEDENT:");
+			System.out.print("ANTECEDENT: ");
+			writer.print("ANTECEDENT: ");
 		}
 		else {
-			System.out.print("MENTION");
+			System.out.print("MENTION: ");
+			writer.print("MENTION: ");
 		}
-		System.out.println("HeadLemma: " +  m.getHeadLemma());
-		System.out.println("Head: " + m.getHeadString() );
-		System.out.println("Words: " + m.getDiscourseEntity().getWordsString());
-		System.out.println("SetID: " + m.getSetID());
-		System.out.println("DeID: " + m.getDiscourseEntity().getID() + "\n");
+		String string_to_print = String.format(
+				"%s (%s)\nHeadLemma: %s\nHead: %s\nWords: %s\nSetID: %s\nDeID: %s\n",
+				m.getMarkable().toString(),
+				m.getMarkable().getID(),
+				m.getHeadLemma(),
+				m.getHeadString(),
+				m.getDiscourseEntity().getWordsString(),
+				m.getSetID(),
+				m.getDiscourseEntity().getID());
+		printAndWrite(string_to_print);
 		Markable markable = m.getMarkable();
 		MiniDiscourse doc = markable.getMarkableLevel().getDocument();
         MarkableLevel lemmas = doc.getMarkableLevelByName("lemma");
 	}
 	
 	public void printEvaluation() {
+		
+		// writer appends to file; file should be cleared manually if wanted or new file can be created
+		try {
+		    writer = new PrintWriter(new BufferedWriter(new FileWriter("D:/BART/BART/src/elkfed/coref/algorithms/sieve/log/mmax-100.log", true)));
+		} catch (IOException ex) {
+		  System.err.println("IOException!");
+		}
+		
 		for(Mention m: mentions) {
 			String correct_match = "FALSE";
 			System.out.print(String.format("%s: ", m.getMarkable().getID()));
@@ -60,46 +83,62 @@ public class Evaluation {
 				if (m.isCoreferent(antecedents.get(m))) {
 					correct_match = "TRUE";	
 				}
-				System.out.println(String.format("%s! Antecedent of '%s': '%s'(%s) with %s", 
-												 correct_match,
-												 m.getMarkable().toString(),	
-												 antecedents.get(m).getMarkable().toString(),
-												 antecedents.get(m).getMarkable().getID(),
-												 sieves.get(m)												
-												 ));
-				printMention(m, false); // false to print "MENTION: "
-				printMention(antecedents.get(m), true); // true to print "ANTECEDENT: "
-				
-			} else {
+				String string_to_print = String.format("%s! Antecedent of '%s': '%s'(%s) with %s", 
+						 correct_match,
+						 m.getMarkable().toString(),	
+						 antecedents.get(m).getMarkable().toString(),
+						 antecedents.get(m).getMarkable().getID(),
+						 sieves.get(m));
+				try {
+					printAndWrite(string_to_print);
+					printMention(m, false); // false to print "MENTION: "
+					printMention(antecedents.get(m), true); // true to print "ANTECEDENT: "
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
+			else {
 				if (!(m.getSetID() == null)) {
 					System.out.print("SetID error! ");
 				}
 				Mention correct_antecedent = null;
 				for (Mention antecedent : mentions) {
-					if (m.isCoreferent(antecedent)) {
+					if (antecedent == m) {
+						correct_match = "TRUE";
+						break;
+					}
+					else if (m.isCoreferent(antecedent)) {
 						correct_antecedent = antecedent;
 						break;
 					}
-					else if (antecedent == m) {
-						correct_match = "TRUE";
-					}
 				}
-				System.out.println(String.format("%s! No Antecedent for '%s'",
-												 correct_match,
-												 m.getMarkable().toString()));
-				printMention(m, false);
-				if (correct_antecedent != null) {
-					printMention(correct_antecedent, true);
+				String string_to_print = String.format("%s! No Antecedent for '%s'",
+												 correct_match, m.getMarkable().toString());
+				try {
+					printAndWrite(string_to_print);
+					printMention(m, false);
+					if (correct_antecedent != null) {
+						printMention(correct_antecedent, true);
+					}
+				} catch (IOException e) {
+					e.printStackTrace();
 				}
 			}
 		}
+		writer.println("");
+		writer.close();
 	}
+	
+	public void printAndWrite(String s) {
+		System.out.println(s);
+		writer.println(s);
+	}
+	
 	public static void printSievePerformance() {
 		System.out.println("Sieve\tlinksPerSieve\tcorrectLinksPerSieve");
 		for (String sieve: linksPerSieve.keySet()) {
 			System.out.println(String.format("%s\t%d\t%d", sieve, linksPerSieve.get(sieve),
 														correctLinksPerSieve.get(sieve)));
 		}
-	}
-	
+	}	
 }
