@@ -649,10 +649,17 @@ public abstract class Sieve {
 
 	public boolean wordInclusion(Mention m, Mention ante) {
 
-		Set<String> dWords = m.getDiscourseEntity().getWords();
-		Set<String> dAnteWords = ante.getDiscourseEntity().getWords();
+		Set<String> mWords = new HashSet<String>();
 
-		if (dAnteWords.containsAll(dWords)) {
+		for (String token : m.getMarkable().getDiscourseElements()) {
+			if (!(langPlugin.isInStopwordList(token))) {
+				mWords.add(token);
+			}
+			
+		}
+		Set<String> dAnteWords = ante.getDiscourseEntity().getWords();
+		
+		if (dAnteWords.containsAll(mWords)) {
 			return true;
 		}
 
@@ -661,10 +668,13 @@ public abstract class Sieve {
 	}
 
 	public boolean compatibleModifiers(Mention m, Mention ante) {
-		Set<Tree> dMod = m.getDiscourseEntity().getModifiers();
+		List<Tree> mentionMod = m.getPremodifiers();
+		mentionMod.addAll(m.getPostmodifiers());
 		Set<Tree> dAnteMod = ante.getDiscourseEntity().getModifiers();
-
-		if (dAnteMod.containsAll(dAnteMod)) {
+//		if (mentionMod.size() == 0) {
+//			return false;
+//		}
+		if (dAnteMod.containsAll(mentionMod)) {
 			return true;
 		}
 		return false;
