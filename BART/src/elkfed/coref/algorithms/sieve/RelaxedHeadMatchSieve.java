@@ -36,7 +36,7 @@ public class RelaxedHeadMatchSieve extends Sieve {
 			PairInstance pair = new PairInstance(mention, potAnte);
 			if (relaxedEntityHeadMatch(mention, potAnte)) {
 				if (wordInclusion(mention, potAnte)) {
-					if (NERAgreement(pair)) {
+					if (properNameAgreement(mention, potAnte)) {
 						if (!(IWithinI(mention, potAnte))) {
 
 							ante_idx = idx;

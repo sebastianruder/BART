@@ -39,35 +39,37 @@ import elkfed.mmax.minidisc.Markable;
 import elkfed.nlp.util.Gender;
 
 /**
-*
-* @author Xenia Kühling, Julian Baumann, Sebastian Ruder
-* 
-*/
+ * 
+ * @author Xenia Kühling, Julian Baumann, Sebastian Ruder
+ * 
+ */
 
 public abstract class Sieve {
-	
+
 	// sieve utility class
 	protected String name; // name of sub class
 	// list of antecedents/potential coreferents
 	protected List<Mention> mentions;
-	
+
 	/**
-	 * Abstract method that uses the particular rules of a sieve
-	 * to look for an antecedent for mention in the list of mentions
-	 * that was provided to the sieve. 
-	 * @param mention the mention whose antecedent is sought
+	 * Abstract method that uses the particular rules of a sieve to look for an
+	 * antecedent for mention in the list of mentions that was provided to the
+	 * sieve.
+	 * 
+	 * @param mention
+	 *            the mention whose antecedent is sought
 	 * @return index of antecedent; -1 if no antecedent is found
 	 */
 	abstract int runSieve(Mention mention);
-	
+
 	/**
 	 * Returns name of sieve
+	 * 
 	 * @return name of the sieve
 	 */
 	String getName() {
-		return this.name; 
+		return this.name;
 	}
-	
 
 	// language plugin is retrieved
 	private static final LanguagePlugin langPlugin = ConfigProperties
@@ -325,13 +327,14 @@ public abstract class Sieve {
 	}
 
 	/**
-	 * Compute if sentences in which mention and antecedent appear are not more than 4 sentences apart. 
+	 * Compute if sentences in which mention and antecedent appear are not more
+	 * than 4 sentences apart.
 	 * 
 	 * @param pair
-	 * 			PairInstance of mention, antecedent
+	 *            PairInstance of mention, antecedent
 	 * @return true or false
 	 */
-	
+
 	public boolean sentenceDistance(PairInstance pair) {
 		// FE_SentenceDistance sd = new FE_SentenceDistance();
 		if (FE_SentenceDistance.getSentDist(pair) < 4) {
@@ -339,12 +342,12 @@ public abstract class Sieve {
 		}
 		return false;
 	}
-	
+
 	/**
 	 * Check if mention and antecedent are both in the same state of animacy
 	 * 
 	 * @param pair
-	 * 			PairInstance of mention, antecedent
+	 *            PairInstance of mention, antecedent
 	 * @return true or false
 	 */
 
@@ -360,7 +363,7 @@ public abstract class Sieve {
 	 * Check if mention and antecedent have the same gender
 	 * 
 	 * @param pair
-	 * 			PairInstance of mention, antecedent
+	 *            PairInstance of mention, antecedent
 	 * @return true or false
 	 */
 	public boolean genderAgreement(PairInstance pair) {
@@ -371,12 +374,12 @@ public abstract class Sieve {
 		return false;
 
 	}
-	
+
 	/**
 	 * Check if mention and antecedent have the same numerus (plural/ singular)
 	 * 
 	 * @param pair
-	 * 			PairInstance of mention, antecedent
+	 *            PairInstance of mention, antecedent
 	 * @return true or false
 	 */
 
@@ -402,24 +405,26 @@ public abstract class Sieve {
 	}
 
 	/**
-	 * Check if mention and antecedent belong to the same semantic class or mention's or antecedent's semantic class equals "unknown"
+	 * Check if mention and antecedent belong to the same semantic class or
+	 * mention's or antecedent's semantic class equals "unknown"
 	 * 
 	 * @param pair
-	 * 			PairInstance of mention, antecedent
+	 *            PairInstance of mention, antecedent
 	 * @return true or false
 	 */
 	boolean NERAgreement(PairInstance pair) {
 		if ((pair.getAnaphor().getSemanticClass().equals(pair.getAntecedent()
 				.getSemanticClass()))
-				|| (pair.getAnaphor().getSemanticClass().equals(SemanticClass.UNKNOWN))
-				|| (pair.getAntecedent().getSemanticClass().equals(SemanticClass.UNKNOWN))) {
+				|| (pair.getAnaphor().getSemanticClass()
+						.equals(SemanticClass.UNKNOWN))
+				|| (pair.getAntecedent().getSemanticClass()
+						.equals(SemanticClass.UNKNOWN))) {
 			return true;
 		}
 
 		return false;
 
 	}
-
 
 	/**
 	 * 
@@ -441,24 +446,32 @@ public abstract class Sieve {
 		return false;
 	}
 
-	public boolean noNumericMismatch(PairInstance pair) {	
+	public boolean noNumericMismatch(PairInstance pair) {
 		Set<String> mentionWords = new HashSet<String>();
 		Set<String> anteWords = new HashSet<String>();
-		
+
 		mentionWords = pair.getAnaphor().getDiscourseEntity().getWords();
 		anteWords = pair.getAntecedent().getDiscourseEntity().getWords();
-		
-		for (String mentionWord: mentionWords){
-			if (mentionWord.toLowerCase().matches(".*(eins|zwei|drei|vier|fünf|sechs|sieben|acht|neun|zehn|elf|zwölf|hundert|tausend|million|milliarde).*") || mentionWord.matches(".*[0-9].*")){
-				if (!anteWords.contains(mentionWord)){
+
+		for (String mentionWord : mentionWords) {
+			if (mentionWord
+					.toLowerCase()
+					.matches(
+							".*(eins|zwei|drei|vier|fünf|sechs|sieben|acht|neun|zehn|elf|zwölf|hundert|tausend|million|milliarde).*")
+					|| mentionWord.matches(".*[0-9].*")) {
+				if (!anteWords.contains(mentionWord)) {
 					return false;
 				}
-				
+
 				else {
 
-					for (String anteWord: anteWords){
-						if (anteWord.toLowerCase().matches(".*(eins|zwei|drei|vier|fünf|sechs|sieben|acht|neun|zehn|elf|zwölf|hundert|tausend|million|milliarde).*") || anteWord.matches(".*[0-9].*")){
-							if (!mentionWords.contains(anteWord)){
+					for (String anteWord : anteWords) {
+						if (anteWord
+								.toLowerCase()
+								.matches(
+										".*(eins|zwei|drei|vier|fünf|sechs|sieben|acht|neun|zehn|elf|zwölf|hundert|tausend|million|milliarde).*")
+								|| anteWord.matches(".*[0-9].*")) {
+							if (!mentionWords.contains(anteWord)) {
 								return false;
 							}
 						}
@@ -468,110 +481,79 @@ public abstract class Sieve {
 		}
 		return true;
 	}
-	
-	public boolean noLocationMismatch(PairInstance pair){
+
+	public boolean noLocationMismatch(PairInstance pair) {
 		Set<String> mentionWords = new HashSet<String>();
 		Set<String> anteWords = new HashSet<String>();
-		
+
 		mentionWords = pair.getAnaphor().getDiscourseEntity().getWords();
 		anteWords = pair.getAntecedent().getDiscourseEntity().getWords();
-		
+
 		Map<String, String> mentionWordsPOS = new HashMap<String, String>();
 		Map<String, String> anteWordsPOS = new HashMap<String, String>();
-		
-		for (int i = 0; i < pair.getAnaphor().getMarkable().toString().split("\\s+").length; i++){
-			mentionWordsPOS.put(pair.getAnaphor().getMarkable().toString().replace("[", "").replace("]", "").split("\\s+")[i], pair.getAnaphor().getJoinedStringFromDiscIds(pair.getAnaphor().getMarkable().getLeftmostDiscoursePosition() +1, pair.getAnaphor().getMarkable().getRightmostDiscoursePosition() +1, "pos").split("\\s+")[i]);
+
+		for (int i = 0; i < pair.getAnaphor().getMarkable().toString()
+				.split("\\s+").length; i++) {
+			mentionWordsPOS
+					.put(pair.getAnaphor().getMarkable().toString()
+							.replace("[", "").replace("]", "").split("\\s+")[i],
+							pair.getAnaphor()
+									.getJoinedStringFromDiscIds(
+											pair.getAnaphor()
+													.getMarkable()
+													.getLeftmostDiscoursePosition() + 1,
+											pair.getAnaphor()
+													.getMarkable()
+													.getRightmostDiscoursePosition() + 1,
+											"pos").split("\\s+")[i]);
 		}
-		
-		
-		for (int i = 0; i < pair.getAntecedent().getMarkable().toString().split("\\s+").length; i++){
-			anteWordsPOS.put(pair.getAntecedent().getMarkable().toString().replace("[", "").replace("]", "").split("\\s+")[i], pair.getAntecedent().getJoinedStringFromDiscIds(pair.getAntecedent().getMarkable().getLeftmostDiscoursePosition() +1, pair.getAntecedent().getMarkable().getRightmostDiscoursePosition() +1, "pos").split("\\s+")[i]);
+
+		for (int i = 0; i < pair.getAntecedent().getMarkable().toString()
+				.split("\\s+").length; i++) {
+			anteWordsPOS
+					.put(pair.getAntecedent().getMarkable().toString()
+							.replace("[", "").replace("]", "").split("\\s+")[i],
+							pair.getAntecedent()
+									.getJoinedStringFromDiscIds(
+											pair.getAntecedent()
+													.getMarkable()
+													.getLeftmostDiscoursePosition() + 1,
+											pair.getAntecedent()
+													.getMarkable()
+													.getRightmostDiscoursePosition() + 1,
+											"pos").split("\\s+")[i]);
 		}
-			
-		for (String mentionWord: mentionWords){
-			if (mentionWordsPOS.get(mentionWord) != null){
-				if (mentionWordsPOS.get(mentionWord).equalsIgnoreCase("ne") && !anteWords.contains(mentionWord)){
+
+		for (String mentionWord : mentionWords) {
+			if (mentionWordsPOS.get(mentionWord) != null) {
+				if (mentionWordsPOS.get(mentionWord).equalsIgnoreCase("ne")
+						&& !anteWords.contains(mentionWord)) {
 					return false;
 				}
-			
+
 				else {
-					if (mentionWord.matches("(nördlich.*|südlich.*|.*westlich.*|.*östlich.*|obere.*|niedere.*)")){
-						if (!anteWords.contains(mentionWord)){
+					if (mentionWord
+							.matches("(nördlich.*|südlich.*|.*westlich.*|.*östlich.*|obere.*|niedere.*)")) {
+						if (!anteWords.contains(mentionWord)) {
 							return false;
-					}
-		
+						}
+
 						else {
-							for (String anteWord: anteWords){
-								if (anteWordsPOS.get(anteWord) != null){
-									if (anteWordsPOS.get(anteWord).equalsIgnoreCase("ne") && !mentionWords.contains(anteWord)){
+							for (String anteWord : anteWords) {
+								if (anteWordsPOS.get(anteWord) != null) {
+									if (anteWordsPOS.get(anteWord)
+											.equalsIgnoreCase("ne")
+											&& !mentionWords.contains(anteWord)) {
 										return false;
-								}
-			
+									}
+
 									else {
-										if (anteWord.matches("(nördlich.*|südlich.*|.*westlich.*|.*östlich.*|obere.*|niedere.*)")){
-											if (!mentionWords.contains(anteWord)){
+										if (anteWord
+												.matches("(nördlich.*|südlich.*|.*westlich.*|.*östlich.*|obere.*|niedere.*)")) {
+											if (!mentionWords
+													.contains(anteWord)) {
 												return false;
 											}
-										}
-									}
-								}
-							}
-						}	
-					}
-				}
-			}
-		}
-		return true;
-	}
-	
-	
-	
-	
-	/*
-	public boolean noLocationMismatch(PairInstance pair){
-		Set<String> mentionWords = new HashSet<String>();
-		Set<String> anteWords = new HashSet<String>();
-		
-		mentionWords = pair.getAnaphor().getDiscourseEntity().getWords();
-		anteWords = pair.getAntecedent().getDiscourseEntity().getWords();
-		
-		String[] mentionWordsPOS = pair.getAnaphor().getJoinedStringFromDiscIds(pair.getAnaphor().getMarkable().getLeftmostDiscoursePosition() +1, pair.getAnaphor().getMarkable().getRightmostDiscoursePosition() +1, "pos").split("\\s+");
-		String[] anteWordsPOS = pair.getAntecedent().getJoinedStringFromDiscIds(pair.getAntecedent().getMarkable().getLeftmostDiscoursePosition() +1, pair.getAntecedent().getMarkable().getRightmostDiscoursePosition() +1, "pos").split("\\s+");
-		
-		int count = 0;
-		
-		for (int i = 0; i < mentionWordsPOS.length; i++){
-			if (mentionWordsPOS[i].equalsIgnoreCase("ne")){
-				count++;
-			}
-			if (count > 1){
-				return false;
-			}
-			
-			else {
-				count = 0;
-				for (int j = 0; j < anteWordsPOS.length; j++){
-					if (anteWordsPOS[j].equalsIgnoreCase("ne")){
-						count++;
-					}
-
-					if (count > 1){
-						return false;
-					}
-					
-					else {
-						for (String mentionWord: mentionWords){
-							if (mentionWord.matches("(nördlich.*|südlich.*|.*westlich.*|.*östlich.*|obere.*|niedere.*)")){
-								if (!anteWords.contains(mentionWord)){
-									return false;
-								}
-							}
-			
-							else {
-								for (String anteWord: anteWords){
-									if (anteWord.matches("(nördlich.*|südlich.*|.*westlich.*|.*östlich.*|obere.*|niedere.*)")){
-										if (!mentionWords.contains(anteWord)){
-											return false;
 										}
 									}
 								}
@@ -583,27 +565,73 @@ public abstract class Sieve {
 		}
 		return true;
 	}
-	
-	*/
-	
-	
-	
+
+	/*
+	 * public boolean noLocationMismatch(PairInstance pair){ Set<String>
+	 * mentionWords = new HashSet<String>(); Set<String> anteWords = new
+	 * HashSet<String>();
+	 * 
+	 * mentionWords = pair.getAnaphor().getDiscourseEntity().getWords();
+	 * anteWords = pair.getAntecedent().getDiscourseEntity().getWords();
+	 * 
+	 * String[] mentionWordsPOS =
+	 * pair.getAnaphor().getJoinedStringFromDiscIds(pair
+	 * .getAnaphor().getMarkable().getLeftmostDiscoursePosition() +1,
+	 * pair.getAnaphor().getMarkable().getRightmostDiscoursePosition() +1,
+	 * "pos").split("\\s+"); String[] anteWordsPOS =
+	 * pair.getAntecedent().getJoinedStringFromDiscIds
+	 * (pair.getAntecedent().getMarkable().getLeftmostDiscoursePosition() +1,
+	 * pair.getAntecedent().getMarkable().getRightmostDiscoursePosition() +1,
+	 * "pos").split("\\s+");
+	 * 
+	 * int count = 0;
+	 * 
+	 * for (int i = 0; i < mentionWordsPOS.length; i++){ if
+	 * (mentionWordsPOS[i].equalsIgnoreCase("ne")){ count++; } if (count > 1){
+	 * return false; }
+	 * 
+	 * else { count = 0; for (int j = 0; j < anteWordsPOS.length; j++){ if
+	 * (anteWordsPOS[j].equalsIgnoreCase("ne")){ count++; }
+	 * 
+	 * if (count > 1){ return false; }
+	 * 
+	 * else { for (String mentionWord: mentionWords){ if (mentionWord.matches(
+	 * "(nördlich.*|südlich.*|.*westlich.*|.*östlich.*|obere.*|niedere.*)")){ if
+	 * (!anteWords.contains(mentionWord)){ return false; } }
+	 * 
+	 * else { for (String anteWord: anteWords){ if (anteWord.matches(
+	 * "(nördlich.*|südlich.*|.*westlich.*|.*östlich.*|obere.*|niedere.*)")){ if
+	 * (!mentionWords.contains(anteWord)){ return false; } } } } } } } } }
+	 * return true; }
+	 */
 
 	public boolean entityHeadMatch(Mention m, Mention ante) {
-		
+
 		if (m.getPronoun() || ante.getPronoun()) {
 			return false;
 		}
 		String mHead = m.getHeadString();
-		Set<String> dAnteHeads = ante.getDiscourseEntity().getHeads();		
+		Set<String> dAnteHeads = ante.getDiscourseEntity().getHeads();
 		if (dAnteHeads.contains(mHead)) {
 			return true;
 		}
 		return false;
 	}
 
+	public boolean properNameAgreement(Mention m, Mention ante) {
+		if (m.getProperName() || ante.getProperName()) {
+			if ((m.getSemanticClass().equals(ante.getSemanticClass()))
+					&& (!m.getSemanticClass().equals(SemanticClass.UNKNOWN))) {
+				return true;
+			} else {
+				return false;
+			}
+		}
+		return false;
+	}
+
 	public boolean relaxedEntityHeadMatch(Mention m, Mention ante) {
-		
+
 		if (m.getPronoun() || ante.getPronoun()) {
 			return false;
 		}
@@ -642,139 +670,152 @@ public abstract class Sieve {
 		return false;
 	}
 
-	
-	
 	public int getMarkableDistance(PairInstance pair) {
 		return pair.getAnaphor().getMarkable().getIntID()
 				- pair.getAntecedent().getMarkable().getIntID();
 	}
-	
-	
+
 	/**
-	 * Check if mention is a speaker 
+	 * Check if mention is a speaker
 	 * 
 	 * @param mention
 	 * @return
 	 */
-	public boolean isSpeaker(Mention mention){
+	public boolean isSpeaker(Mention mention) {
 		int extendedMentionSpanLeft;
 		int extendedMentionSpanRight;
-		int MentionSpanLeft = mention.getMarkable().getLeftmostDiscoursePosition() + 1;
-		int MentionSpanRight = mention.getMarkable().getRightmostDiscoursePosition() + 1;
-		
+		int MentionSpanLeft = mention.getMarkable()
+				.getLeftmostDiscoursePosition() + 1;
+		int MentionSpanRight = mention.getMarkable()
+				.getRightmostDiscoursePosition() + 1;
+
 		String joinedMentionExtendedString = "";
 		String joinedMentionString = "";
-		
-		if (MentionSpanLeft - 10 <= 0){
+
+		if (MentionSpanLeft - 10 <= 0) {
 			extendedMentionSpanLeft = mention.getSentenceStart() + 1;
-		}
-		else {
+		} else {
 			extendedMentionSpanLeft = MentionSpanLeft - 10;
 		}
-		
-		if (MentionSpanRight +10 > mention.getSentenceEnd()){
+
+		if (MentionSpanRight + 10 > mention.getSentenceEnd()) {
 			extendedMentionSpanRight = mention.getSentenceEnd();
-		}
-		else {
+		} else {
 			extendedMentionSpanRight = MentionSpanRight + 10;
 		}
-		
-		
-		if (FE_Speech.isMentionInSpeech(mention)){
+
+		if (FE_Speech.isMentionInSpeech(mention)) {
 			return false;
 		}
-		
-		joinedMentionExtendedString = mention.getJoinedStringFromDiscIds(extendedMentionSpanLeft, extendedMentionSpanRight, "lemma");
-		joinedMentionString = mention.getJoinedStringFromDiscIds(MentionSpanLeft, MentionSpanRight, "lemma");
-		
+
+		joinedMentionExtendedString = mention.getJoinedStringFromDiscIds(
+				extendedMentionSpanLeft, extendedMentionSpanRight, "lemma");
+		joinedMentionString = mention.getJoinedStringFromDiscIds(
+				MentionSpanLeft, MentionSpanRight, "lemma");
+
 		if (joinedMentionExtendedString != null && joinedMentionString != null) {
-			String[] words = joinedMentionExtendedString.replaceAll("[^A-Za-z0-9äöüÄÖÜ# ]", "").split("\\s+");
-			String[] mentionWords = joinedMentionString.replaceAll("[^A-Za-zäöüÄÖÜ0-9# ]", "").split("\\s+");
-			
-			for (int i= 0; i < words.length; i++){
-				if (langPlugin.isInSpeechVerbList(words[i]) ) {
-					if (i == words.length-1){
-						if (words[i-1].equals(mentionWords[mentionWords.length-1])){
+			String[] words = joinedMentionExtendedString.replaceAll(
+					"[^A-Za-z0-9äöüÄÖÜ# ]", "").split("\\s+");
+			String[] mentionWords = joinedMentionString.replaceAll(
+					"[^A-Za-zäöüÄÖÜ0-9# ]", "").split("\\s+");
+
+			for (int i = 0; i < words.length; i++) {
+				if (langPlugin.isInSpeechVerbList(words[i])) {
+					if (i == words.length - 1) {
+						if (words[i - 1]
+								.equals(mentionWords[mentionWords.length - 1])) {
+							return true;
+						} else
+							return false;
+					}
+
+					if (i == 0 && mentionWords.length > 1) {
+						if (words[i + 1].equals(mentionWords[0])
+								&& words[i + 2].equals(mentionWords[1])) {
 							return true;
 						}
-						else return false;
+
+						else
+							return false;
 					}
-					
-					if (i == 0 && mentionWords.length > 1){
-						if (words[i+1].equals(mentionWords[0]) && words[i+2].equals(mentionWords[1]) ){
-						return true;
-						}
-						
-						else return false;
-					}
-					
-					if (i == 0 && mentionWords.length == 1){
-						if (words[i+1].equals(mentionWords[0]) ){
-						return true;
-						}
-						
-						else return false;
-					}
-					
-					if (i != 0 && i != words.length-1 ){
-						if ((words[i-1].equals(mentionWords[mentionWords.length-1])) || (words[i+1].equals(mentionWords[0]))){
+
+					if (i == 0 && mentionWords.length == 1) {
+						if (words[i + 1].equals(mentionWords[0])) {
 							return true;
 						}
-						else return false;
+
+						else
+							return false;
+					}
+
+					if (i != 0 && i != words.length - 1) {
+						if ((words[i - 1]
+								.equals(mentionWords[mentionWords.length - 1]))
+								|| (words[i + 1].equals(mentionWords[0]))) {
+							return true;
+						} else
+							return false;
 					}
 				}
-				
-				
-				if (words[i].equals("so")){		
-					if (i == words.length-1){
+
+				if (words[i].equals("so")) {
+					if (i == words.length - 1) {
 						return false;
 					}
-					
-					if (i == words.length-2){
-						if (words[i+1].equals(mentionWords[0])){
+
+					if (i == words.length - 2) {
+						if (words[i + 1].equals(mentionWords[0])) {
 							return true;
 						}
-						
-						else return false;
+
+						else
+							return false;
 					}
-					
-					if (i !=  words.length-1 && i != words.length -2 && mentionWords.length > 1){
-						if (words[i+1].equals(mentionWords[0]) && words[i+2].equals(mentionWords[1])){
+
+					if (i != words.length - 1 && i != words.length - 2
+							&& mentionWords.length > 1) {
+						if (words[i + 1].equals(mentionWords[0])
+								&& words[i + 2].equals(mentionWords[1])) {
 							return true;
 						}
-						
-						else return false;
+
+						else
+							return false;
 					}
-					
-					if (i !=  words.length-1 && i != words.length -2 && mentionWords.length == 1){
-						if (words[i+1].equals(mentionWords[0])){
+
+					if (i != words.length - 1 && i != words.length - 2
+							&& mentionWords.length == 1) {
+						if (words[i + 1].equals(mentionWords[0])) {
 							return true;
 						}
-						
-						else return false;
+
+						else
+							return false;
 					}
 				}
-			}
-		}	
-		
-		return false;
-	}
-	
-	
-	public boolean isVorfeldEs(Mention mention){
-		if (!(mention.getMarkable().toString().equals("[es]") || mention.getMarkable().toString().equals("[Es]"))){
-			return false;
-		}
-	
-		else {
-			if (mention.getSentenceTree().toString().matches("\\(Start(.*)\\([VM]F \\(NX \\(PPER [Ee]s\\)\\)\\)(.*)")){
-			return true;
 			}
 		}
 
 		return false;
-		
-		
-		
+	}
+
+	public boolean isVorfeldEs(Mention mention) {
+		if (!(mention.getMarkable().toString().equals("[es]") || mention
+				.getMarkable().toString().equals("[Es]"))) {
+			return false;
+		}
+
+		else {
+			if (mention
+					.getSentenceTree()
+					.toString()
+					.matches(
+							"\\(Start(.*)\\([VM]F \\(NX \\(PPER [Ee]s\\)\\)\\)(.*)")) {
+				return true;
+			}
+		}
+
+		return false;
+
 	}
 }
