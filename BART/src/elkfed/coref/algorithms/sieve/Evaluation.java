@@ -28,6 +28,8 @@ public class Evaluation {
 	public static Map<String, Integer> correctLinksPerSieve = new HashMap<String, Integer>();
 	public static Map<String, Integer> linksPerSieve = new HashMap<String, Integer>();
 	
+	public static int document_number = 1;
+	
 	public Evaluation(List<Mention> mentions) {
 		this.mentions = mentions;
 		this.antecedents = new HashMap<>();
@@ -69,11 +71,13 @@ public class Evaluation {
 	public void printEvaluation() {
 		
 		// writer appends to file; file should be cleared manually if wanted or new file can be created
+		// Sebastian file path: "D:/BART/BART/src/elkfed/coref/algorithms/sieve/log/mmax-100.log"
 		try {
 		    writer = new PrintWriter(new BufferedWriter(new FileWriter("D:/BART/BART/src/elkfed/coref/algorithms/sieve/log/mmax-100.log", true)));
 		} catch (IOException ex) {
 		  System.err.println("IOException!");
 		}
+		writer.println(String.format("Document no. %d", document_number));
 		
 		for(Mention m: mentions) {
 			String correct_match = "FALSE";
@@ -125,6 +129,7 @@ public class Evaluation {
 				}
 			}
 		}
+		document_number++;
 		writer.println("");
 		writer.close();
 	}
