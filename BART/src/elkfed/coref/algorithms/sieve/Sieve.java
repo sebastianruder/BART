@@ -14,6 +14,9 @@ import elkfed.lang.GermanLinguisticConstants;
 import elkfed.coref.features.pairs.FE_DistanceWord;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 import edu.stanford.nlp.trees.Tree;
@@ -438,22 +441,153 @@ public abstract class Sieve {
 		return false;
 	}
 
-	boolean noNumericMismatch(PairInstance pair) {
-		Set<String> Numbers = Generics.newHashSet(Arrays.asList(new String[] {
-				"eins", "zwei", "drei", "vier", "fünf", "sechs", "sieben",
-				"acht", "neun", "zehn", "elf", "zwölf", "hundert", "tausend",
-				"million", "milliarde" }));
-		for (String s : Numbers) {
-			if ((pair.getAnaphor().toString().contains(s) && !pair
-					.getAntecedent().toString().contains(s))
-					|| (pair.getAntecedent().toString().contains(s) && !pair
-							.getAnaphor().toString().contains(s))) {
-				return false;
+	public boolean noNumericMismatch(PairInstance pair) {	
+		Set<String> mentionWords = new HashSet<String>();
+		Set<String> anteWords = new HashSet<String>();
+		
+		mentionWords = pair.getAnaphor().getDiscourseEntity().getWords();
+		anteWords = pair.getAntecedent().getDiscourseEntity().getWords();
+		
+		for (String mentionWord: mentionWords){
+			if (mentionWord.toLowerCase().matches(".*(eins|zwei|drei|vier|fünf|sechs|sieben|acht|neun|zehn|elf|zwölf|hundert|tausend|million|milliarde).*") || mentionWord.matches(".*[0-9].*")){
+				if (!anteWords.contains(mentionWord)){
+					return false;
+				}
+				
+				else {
+
+					for (String anteWord: anteWords){
+						if (anteWord.toLowerCase().matches(".*(eins|zwei|drei|vier|fünf|sechs|sieben|acht|neun|zehn|elf|zwölf|hundert|tausend|million|milliarde).*") || anteWord.matches(".*[0-9].*")){
+							if (!mentionWords.contains(anteWord)){
+								return false;
+							}
+						}
+					}
+				}
 			}
 		}
-
 		return true;
 	}
+	
+	public boolean noLocationMismatch(PairInstance pair){
+		Set<String> mentionWords = new HashSet<String>();
+		Set<String> anteWords = new HashSet<String>();
+		
+		mentionWords = pair.getAnaphor().getDiscourseEntity().getWords();
+		anteWords = pair.getAntecedent().getDiscourseEntity().getWords();
+		
+		Map<String, String> mentionWordsPOS = new HashMap<String, String>();
+		Map<String, String> anteWordsPOS = new HashMap<String, String>();
+		
+		for (int i = 0; i < pair.getAnaphor().getMarkable().toString().split("\\s+").length; i++){
+			mentionWordsPOS.put(pair.getAnaphor().getMarkable().toString().replace("[", "").replace("]", "").split("\\s+")[i], pair.getAnaphor().getJoinedStringFromDiscIds(pair.getAnaphor().getMarkable().getLeftmostDiscoursePosition() +1, pair.getAnaphor().getMarkable().getRightmostDiscoursePosition() +1, "pos").split("\\s+")[i]);
+		}
+		
+		
+		for (int i = 0; i < pair.getAntecedent().getMarkable().toString().split("\\s+").length; i++){
+			anteWordsPOS.put(pair.getAntecedent().getMarkable().toString().replace("[", "").replace("]", "").split("\\s+")[i], pair.getAntecedent().getJoinedStringFromDiscIds(pair.getAntecedent().getMarkable().getLeftmostDiscoursePosition() +1, pair.getAntecedent().getMarkable().getRightmostDiscoursePosition() +1, "pos").split("\\s+")[i]);
+		}
+			
+		for (String mentionWord: mentionWords){
+			if (mentionWordsPOS.get(mentionWord) != null){
+				if (mentionWordsPOS.get(mentionWord).equalsIgnoreCase("ne") && !anteWords.contains(mentionWord)){
+					return false;
+				}
+			
+				else {
+					if (mentionWord.matches("(nördlich.*|südlich.*|.*westlich.*|.*östlich.*|obere.*|niedere.*)")){
+						if (!anteWords.contains(mentionWord)){
+							return false;
+					}
+		
+						else {
+							for (String anteWord: anteWords){
+								if (anteWordsPOS.get(anteWord) != null){
+									if (anteWordsPOS.get(anteWord).equalsIgnoreCase("ne") && !mentionWords.contains(anteWord)){
+										return false;
+								}
+			
+									else {
+										if (anteWord.matches("(nördlich.*|südlich.*|.*westlich.*|.*östlich.*|obere.*|niedere.*)")){
+											if (!mentionWords.contains(anteWord)){
+												return false;
+											}
+										}
+									}
+								}
+							}
+						}	
+					}
+				}
+			}
+		}
+		return true;
+	}
+	
+	
+	
+	
+	/*
+	public boolean noLocationMismatch(PairInstance pair){
+		Set<String> mentionWords = new HashSet<String>();
+		Set<String> anteWords = new HashSet<String>();
+		
+		mentionWords = pair.getAnaphor().getDiscourseEntity().getWords();
+		anteWords = pair.getAntecedent().getDiscourseEntity().getWords();
+		
+		String[] mentionWordsPOS = pair.getAnaphor().getJoinedStringFromDiscIds(pair.getAnaphor().getMarkable().getLeftmostDiscoursePosition() +1, pair.getAnaphor().getMarkable().getRightmostDiscoursePosition() +1, "pos").split("\\s+");
+		String[] anteWordsPOS = pair.getAntecedent().getJoinedStringFromDiscIds(pair.getAntecedent().getMarkable().getLeftmostDiscoursePosition() +1, pair.getAntecedent().getMarkable().getRightmostDiscoursePosition() +1, "pos").split("\\s+");
+		
+		int count = 0;
+		
+		for (int i = 0; i < mentionWordsPOS.length; i++){
+			if (mentionWordsPOS[i].equalsIgnoreCase("ne")){
+				count++;
+			}
+			if (count > 1){
+				return false;
+			}
+			
+			else {
+				count = 0;
+				for (int j = 0; j < anteWordsPOS.length; j++){
+					if (anteWordsPOS[j].equalsIgnoreCase("ne")){
+						count++;
+					}
+
+					if (count > 1){
+						return false;
+					}
+					
+					else {
+						for (String mentionWord: mentionWords){
+							if (mentionWord.matches("(nördlich.*|südlich.*|.*westlich.*|.*östlich.*|obere.*|niedere.*)")){
+								if (!anteWords.contains(mentionWord)){
+									return false;
+								}
+							}
+			
+							else {
+								for (String anteWord: anteWords){
+									if (anteWord.matches("(nördlich.*|südlich.*|.*westlich.*|.*östlich.*|obere.*|niedere.*)")){
+										if (!mentionWords.contains(anteWord)){
+											return false;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		return true;
+	}
+	
+	*/
+	
+	
+	
 
 	public boolean entityHeadMatch(Mention m, Mention ante) {
 		
