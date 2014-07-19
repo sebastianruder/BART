@@ -43,10 +43,8 @@ import elkfed.nlp.util.Gender;
  * @author Xenia Kühling, Julian Baumann, Sebastian Ruder
  * 
  */
-
 public abstract class Sieve {
 
-	// sieve utility class
 	protected String name; // name of sub class
 	// list of antecedents/potential coreferents
 	protected List<Mention> mentions;
@@ -238,22 +236,29 @@ public abstract class Sieve {
 		if (tokens.length == 1 && tokens[0].matches(relative_pronouns)) {
 			String rp = tokens[0];
 			Gender gender = Gender.UNKNOWN;
-			if (rp.equals("die") || rp.equals("welche")) {
+			if (rp.equals("die") || rp.equals("welche") || rp.equals("deren")) {
 				gender = Gender.FEMALE;
-			} else if (rp.equals("der") || rp.equals("welcher")) {
+			} else if (rp.equals("der") || rp.equals("welcher") || rp.equals("dem")) {
 				gender = Gender.MALE;
 			} else if (rp.equals("das") || rp.equals("welches")) {
 				gender = Gender.NEUTRAL;
-			} else if (rp.equals("deren")) {
-				gender = Gender.PLURAL;
 			}
 			int word_distance = m1.getLeftmostDiscoursePosition()
 					- m2.getRightmostDiscoursePosition();
 			// word distance = 3 means there is one word between mention and
 			// antecedent
 			if (word_distance <= 3 && gender.equals(antecedent.getGender())) {
-				System.out
-						.println(String
+				// makes sure that antecedent is the uppermost mention and
+				// is not embedded by another one
+				for (Mention antecedent_of_antecedent : mentions) {
+					if (antecedent_of_antecedent.equals(antecedent)) {
+						break;
+					}
+					else if (antecedent_of_antecedent.embeds(antecedent)) {
+						return false;
+					}
+				}
+				System.out.println(String
 								.format("RELATIVE PRONOUN! %s and %s (Distance: %d, Gender: %s)",
 										mention.getMarkable().getID(),
 										antecedent.getMarkable().getID(),
