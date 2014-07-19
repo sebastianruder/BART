@@ -455,27 +455,21 @@ public abstract class Sieve {
 	public boolean noNumericMismatch(PairInstance pair) {
 		Set<String> mentionWords = new HashSet<String>();
 		Set<String> anteWords = new HashSet<String>();
+		String numbers_relex = ".*(eins|zwei|drei|vier|fünf|sechs|sieben|acht|neun|zehn|elf|zwölf|hundert|tausend|million|milliarde).*";
 
 		mentionWords = pair.getAnaphor().getDiscourseEntity().getWords();
 		anteWords = pair.getAntecedent().getDiscourseEntity().getWords();
 
 		for (String mentionWord : mentionWords) {
-			if (mentionWord
-					.toLowerCase()
-					.matches(
-							".*(eins|zwei|drei|vier|fünf|sechs|sieben|acht|neun|zehn|elf|zwölf|hundert|tausend|million|milliarde).*")
+			if (mentionWord.toLowerCase().matches(numbers_relex)
 					|| mentionWord.matches(".*[0-9].*")) {
 				if (!anteWords.contains(mentionWord)) {
 					return false;
 				}
-
 				else {
 
 					for (String anteWord : anteWords) {
-						if (anteWord
-								.toLowerCase()
-								.matches(
-										".*(eins|zwei|drei|vier|fünf|sechs|sieben|acht|neun|zehn|elf|zwölf|hundert|tausend|million|milliarde).*")
+						if (anteWord.toLowerCase().matches(numbers_relex)
 								|| anteWord.matches(".*[0-9].*")) {
 							if (!mentionWords.contains(anteWord)) {
 								return false;

@@ -2,6 +2,7 @@ package elkfed.coref.algorithms.sieve;
 
 import java.util.List;
 
+import elkfed.coref.PairInstance;
 import elkfed.coref.mentions.Mention;
 
 /**
@@ -26,8 +27,9 @@ public class RelaxedStringMatchSieve extends Sieve {
 		int mention_idx = mentions.indexOf(mention);
 		int ante_idx = -1;
 		for (int idx = 0; idx < mention_idx; idx++){
+			PairInstance pair = new PairInstance(mention, mentions.get(idx));
 			if (mention.toString().equals(mentions.get(idx).toString())){
-				if (!(mention.getPronoun())) {
+				if (!(mention.getPronoun()) && noNumericMismatch(pair)) {
 					ante_idx = idx;
 				}
 			}
