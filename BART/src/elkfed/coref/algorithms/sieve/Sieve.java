@@ -254,7 +254,8 @@ public abstract class Sieve {
 					if (antecedent_of_antecedent.equals(antecedent)) {
 						break;
 					}
-					else if (antecedent_of_antecedent.embeds(antecedent)) {
+					else if (antecedent_of_antecedent.embeds(antecedent) &&
+							gender.equals(antecedent_of_antecedent.getGender())) {
 						return false;
 					}
 				}
