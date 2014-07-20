@@ -841,6 +841,20 @@ public class Mention implements Comparable<Mention> {
     public String[] getSentenceDiscourseEleme1ntIDs() {
         return _document.getDiscourseElementIDs(getSentenceStart(), getSentenceEnd());
     }
+    
+    public List<String > getDiscourseElementsByLevel(String markableLevel) {
+    	List<String> words = new ArrayList<String>();
+    	MarkableLevel level = _document.getMarkableLevelByName(markableLevel);
+		int from = _markable.getLeftmostDiscoursePosition();
+		int to = _markable.getRightmostDiscoursePosition();        
+
+        Markable[] markables = level.getMarkablesAtSpan(from, to);
+        for (Markable markable : markables) {
+            words.add(markable.getAttributeValue("tag"));
+            
+        }
+    	return words;
+    }
 
     /**
     * @author samuel
