@@ -456,14 +456,14 @@ public abstract class Sieve {
 	public boolean noNumericMismatch(PairInstance pair) {
 		Set<String> mentionWords = new HashSet<String>();
 		Set<String> anteWords = new HashSet<String>();
-		String numbers_relex = ".*(eins|zwei|drei|vier|fünf|sechs|sieben|acht|neun|zehn|elf|zwölf|hundert|tausend|million|milliarde).*";
+		String numbers_relex = ".*(höchstens|mindestens|eins|zwei|drei|vier|fünf|sechs|sieben|acht|neun|zehn|elf|zwölf|hundert|tausend|million|milliarde).*";
 
 		mentionWords = pair.getAnaphor().getDiscourseEntity().getWords();
 		anteWords = pair.getAntecedent().getDiscourseEntity().getWords();
 
 		for (String mentionWord : mentionWords) {
 			if (mentionWord.toLowerCase().matches(numbers_relex)
-					|| mentionWord.matches(".*[0-9].*")) {
+					|| mentionWord.matches(".*[0-9]+.*")) {
 				if (!anteWords.contains(mentionWord)) {
 					return false;
 				}
@@ -471,7 +471,7 @@ public abstract class Sieve {
 
 					for (String anteWord : anteWords) {
 						if (anteWord.toLowerCase().matches(numbers_relex)
-								|| anteWord.matches(".*[0-9].*")) {
+								|| anteWord.matches(".*[0-9]+.*")) {
 							if (!mentionWords.contains(anteWord)) {
 								return false;
 							}
@@ -611,6 +611,9 @@ public abstract class Sieve {
 		if (m.getPronoun() || ante.getPronoun()) {
 			return false;
 		}
+		if (m.getNumber() != ante.getNumber()) {
+			return false;
+		}
 		String mHead = m.getHeadLemma();
 		Set<String> dAnteHeads = ante.getDiscourseEntity().getHeads();
 		if (dAnteHeads.contains(mHead)) {
@@ -650,12 +653,12 @@ public abstract class Sieve {
 
 	public boolean wordInclusion(Mention m, Mention ante) {
 
-		List<String> mWords = new ArrayList<String>();
-		mWords = m.getDiscourseElementsByLevel("lemma");
+		
+		Set<String> dmWords = m.getDiscourseEntity().getWords();
 		
 		Set<String> dAnteWords = ante.getDiscourseEntity().getWords();
 		
-		if (dAnteWords.containsAll(mWords)) {
+		if (dAnteWords.containsAll(dmWords)) {
 			return true;
 		}
 
@@ -664,16 +667,54 @@ public abstract class Sieve {
 	}
 
 	public boolean compatibleModifiers(Mention m, Mention ante) {
-		List<Tree> mentionMod = m.getPremodifiers();
-		mentionMod.addAll(m.getPostmodifiers());
-		Set<Tree> dAnteMod = ante.getDiscourseEntity().getModifiers();
-//		if (mentionMod.size() == 0) {
+		PairInstance pair = new PairInstance(m, ante);
+		if (!(noNumericMismatch(pair) && noLocationMismatch(pair))) {
+			return false;
+		}
+		String posTags_regex = "(adja|nn|ne|pidat)";
+		List<String> anteWords = ante.getDiscourseElementsByLevel("lemma");
+		
+		List<String> mWords = m.getDiscourseElementsByLevel("lemma");
+		
+		List<String> mPos	= m.getDiscourseElementsByLevel("pos");
+		
+		Set<String> toTest = new HashSet<>();
+//		
+//		for(String word: mWords) {
+//			if (!(langPlugin.isInStopwordList(word)) && !m.getHeadLemma().equals(word))  {
+//					
+//				toTest.add(word);
+//			}
+//		}
+		for (int i = 0; i < mWords.size(); i++) {
+			
+			if(mPos.get(i).matches(posTags_regex) && !mWords.get(i).equals(m.getHeadLemma())) {
+				toTest.add(mWords.get(i));
+			}
+		}
+		System.out.println(toTest);
+		System.out.println(m.getHeadLemma());
+//		if (toTest.size() == 0) {
+//			System.out.println("ok");
 //			return false;
 //		}
-		if (dAnteMod.containsAll(mentionMod)) {
+		
+		if(anteWords.containsAll(toTest)) {
 			return true;
-		}
-		return false;
+		} else {
+			return false;
+		}		
+
+//		Set <Tree> dMod = m.getDiscourseEntity().getModifiers();
+//		
+//		Set<Tree> dAnteMod = ante.getDiscourseEntity().getModifiers();
+//		if (dMod.size() == 0) {
+//			return false;
+//		}
+//		if (dAnteMod.containsAll(dMod)) {
+//			return true;
+//		}
+//		return false;
 	}
 
 	public int getMarkableDistance(PairInstance pair) {

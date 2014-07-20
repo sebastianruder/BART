@@ -100,7 +100,10 @@ public class DiscourseEntity {
 	
 	public void addWords(Mention m) {
 		for (String word: m.getDiscourseElementsByLevel("lemma")) {
-			words.add(word);
+			if (!langPlugin.isInStopwordList(word)) {
+				words.add(word);
+			}
+			
 		}
 	}        
 
