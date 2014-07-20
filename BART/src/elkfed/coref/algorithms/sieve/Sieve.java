@@ -13,6 +13,7 @@ import elkfed.lang.GermanLanguagePlugin;
 import elkfed.lang.GermanLinguisticConstants;
 import elkfed.coref.features.pairs.FE_DistanceWord;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -610,7 +611,7 @@ public abstract class Sieve {
 		if (m.getPronoun() || ante.getPronoun()) {
 			return false;
 		}
-		String mHead = m.getHeadString();
+		String mHead = m.getHeadLemma();
 		Set<String> dAnteHeads = ante.getDiscourseEntity().getHeads();
 		if (dAnteHeads.contains(mHead)) {
 			return true;
@@ -635,7 +636,7 @@ public abstract class Sieve {
 		if (m.getPronoun() || ante.getPronoun()) {
 			return false;
 		}
-		String mHead = m.getHeadString();
+		String mHead = m.getHeadLemma();
 		if (langPlugin.isInStopwordList(mHead)) {
 			return false;
 		}
@@ -649,14 +650,9 @@ public abstract class Sieve {
 
 	public boolean wordInclusion(Mention m, Mention ante) {
 
-		Set<String> mWords = new HashSet<String>();
-
-		for (String token : m.getMarkable().getDiscourseElements()) {
-			if (!(langPlugin.isInStopwordList(token))) {
-				mWords.add(token);
-			}
-			
-		}
+		List<String> mWords = new ArrayList<String>();
+		mWords = m.getDiscourseElementsByLevel("lemma");
+		
 		Set<String> dAnteWords = ante.getDiscourseEntity().getWords();
 		
 		if (dAnteWords.containsAll(mWords)) {

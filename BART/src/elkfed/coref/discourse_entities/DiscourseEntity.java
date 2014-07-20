@@ -33,6 +33,8 @@ import java.util.logging.Logger;
 import elkfed.knowledge.SemanticClass;
 import elkfed.lang.EnglishLanguagePlugin;
 import elkfed.lang.MentionType.Features;
+import elkfed.mmax.minidisc.Markable;
+import elkfed.mmax.minidisc.MarkableLevel;
 import elkfed.nlp.util.Gender;
 
 /**
@@ -69,8 +71,8 @@ public class DiscourseEntity {
 		addWords(m);
 		
 		heads = new HashSet<String>();
-		heads.add(m.getHeadString());
-		//heads.add(m.getHeadLemma());
+		//heads.add(m.getHeadString());
+		heads.add(m.getHeadLemma());
 		modifiers = new HashSet<Tree>();				
 		modifiers.addAll(m._premodifiers);		
 		modifiers.addAll(m._postmodifiers);
@@ -97,14 +99,11 @@ public class DiscourseEntity {
 	}
 	
 	public void addWords(Mention m) {
-		
-		for (String token : m.getMarkable().getDiscourseElements()) {
-			if (!(langPlugin.isInStopwordList(token))) {
-				words.add(token);
-			}
-			
+		for (String word: m.getDiscourseElementsByLevel("lemma")) {
+			words.add(word);
 		}
-	}
+	}        
+
 	
 	public Set<Gender> getGenders() {
 		return genders;
