@@ -12,14 +12,18 @@ import elkfed.coref.mentions.AbstractMentionFactory;
 import elkfed.coref.mentions.DefaultMentionFactory;
 import elkfed.coref.mentions.MentionFactory;
 import elkfed.lang.EnglishLanguagePlugin;
+import elkfed.lang.EnglishLinguisticConstants;
 import elkfed.lang.GermanLanguagePlugin;
+import elkfed.lang.GermanLinguisticConstants;
 import elkfed.lang.ItalianLanguagePlugin;
 import elkfed.lang.LanguagePlugin;
+import elkfed.lang.LinguisticConstants;
 import elkfed.mmax.pipeline.DefaultPipeline;
 import elkfed.mmax.pipeline.ParserPipeline;
 import elkfed.mmax.pipeline.Pipeline;
 import elkfed.mmax.pipeline.Parser;
 import elkfed.mmax.pipeline.CharniakParser;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -97,6 +101,7 @@ public class ConfigProperties {
     private MentionFactory factory;
     private File rootDir;
     private LanguagePlugin langPlugin;
+    private LinguisticConstants constants;
     private static final String RUN_PIPELINE = "runPipeline";
 
     /** gets the machine's host name, or null */
@@ -150,6 +155,23 @@ public class ConfigProperties {
             }
         }
         return langPlugin;
+    }
+    
+    public LinguisticConstants getLinguisticConstants() {
+    	if (constants == null) {
+            String lang = getCorpusProperty("language", "english").toLowerCase();
+            if (lang.startsWith("eng")) {
+                constants = new EnglishLinguisticConstants();
+            } else if (lang.startsWith("ita")) {
+            	// no ItalianLinguisticConstants yet
+            } else if (lang.startsWith("deu")) {
+                constants = new GermanLinguisticConstants();
+            } else {
+                throw new UnsupportedOperationException("No LanguagePlugin for " + lang);
+            }
+        }
+        return constants;
+    	
     }
 
     /** Retreive a specified property */

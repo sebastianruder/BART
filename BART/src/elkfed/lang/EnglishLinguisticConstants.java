@@ -23,10 +23,13 @@ import java.util.regex.Pattern;
  *
  * @author ponzetsp
  */
-public class EnglishLinguisticConstants
+public class EnglishLinguisticConstants extends LinguisticConstants
 {   
+	/** Days of the week, months, years; shouldn't be matched with [Relaxed]StringMatch */
+    public static final String DAYS_MONTHS_YEAR = "(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday|January|February|March|April|May|June|July|August|September|October|November|December|year)";
+	
     /** Just a static repository... */
-    private EnglishLinguisticConstants() {}
+    public EnglishLinguisticConstants() {}
     
     /** Personal pronoun regexp (nominative case)*/
     public static final String PERSONAL_PRONOUN_NOM = "(i|you|he|she|it|we|you|they)";
