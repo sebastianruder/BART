@@ -2,15 +2,11 @@ package elkfed.coref.algorithms.sieve;
 
 import java.util.List;
 
-import static elkfed.lang.EnglishLinguisticConstants.FEMALE_PRONOUN_ADJ;
-import static elkfed.lang.EnglishLinguisticConstants.FIRST_PERSON_PL_PRO;
-import static elkfed.lang.EnglishLinguisticConstants.FIRST_PERSON_SG_PRO;
-import static elkfed.lang.EnglishLinguisticConstants.MALE_PRONOUN_ADJ;
-import static elkfed.lang.EnglishLinguisticConstants.SECOND_PERSON_PRO;
 import elkfed.lang.EnglishLanguagePlugin;
 import elkfed.lang.EnglishLinguisticConstants;
 import elkfed.lang.GermanLanguagePlugin;
 import elkfed.lang.GermanLinguisticConstants;
+import elkfed.lang.LinguisticConstants;
 import elkfed.coref.features.pairs.FE_DistanceWord;
 
 import java.util.ArrayList;
@@ -71,7 +67,7 @@ public abstract class Sieve {
 	}
 
 	// language plugin is retrieved
-	private static final LanguagePlugin langPlugin = ConfigProperties
+	protected static final LanguagePlugin langPlugin = ConfigProperties
 			.getInstance().getLanguagePlugin();
 
 	/**
@@ -147,14 +143,8 @@ public abstract class Sieve {
 		// (a) check with pronoun list
 		// not necessary for isRoleAppositive, maybe for other applications
 		String[] tokens = mention.getMarkable().getDiscourseElements();
-		for (int i = 0; i < tokens.length; i++) {
-			String t = tokens[i].toLowerCase();
-			if (t.matches(MALE_PRONOUN_ADJ) || t.matches(FEMALE_PRONOUN_ADJ)
-					|| t.matches(FIRST_PERSON_SG_PRO)
-					|| t.matches(FIRST_PERSON_PL_PRO)
-					|| t.matches(SECOND_PERSON_PRO)) {
-				return true;
-			}
+		if (mention.getPronoun()) {
+			return false;
 		}
 		// (b) check with NER and Gender labels
 		if (SemanticClass.isaPerson(mention.getSemanticClass())
@@ -864,5 +854,40 @@ public abstract class Sieve {
 
 		return false;
 
+	}
+	
+	public boolean contains_article(Mention mention) {
+		String[] tokens = mention.getMarkable().getDiscourseElements();
+		String def_articles = null;
+		String indef_articles = null;
+		if (langPlugin instanceof GermanLanguagePlugin) {
+			def_articles = GermanLinguisticConstants.DEF_ARTICLE;
+			indef_articles = GermanLinguisticConstants.INDEF_ARTICLE;
+		} else if (langPlugin instanceof EnglishLanguagePlugin) {
+			def_articles = EnglishLinguisticConstants.RELATIVE_PRONOUN;
+			indef_articles = GermanLinguisticConstants.INDEF_ARTICLE;
+		}
+		for (String s : tokens) {
+			if (s.matches(def_articles) || s.matches(indef_articles)) {
+				return true;
+			}
+		}
+		return false;		
+	}
+	
+	public boolean contains_day_month_year(Mention mention) {
+		String[] tokens = mention.getMarkable().getDiscourseElements();
+		String days_months_year = null;
+		if (langPlugin instanceof GermanLanguagePlugin) {
+			days_months_year = GermanLinguisticConstants.DAYS_MONTHS_YEAR;
+		} else if (langPlugin instanceof EnglishLanguagePlugin) {
+			days_months_year = EnglishLinguisticConstants.DAYS_MONTHS_YEAR;
+		}
+		for (String s : tokens) {
+			if (s.matches(days_months_year)) {
+				return true;
+			}
+		}
+		return false;		
 	}
 }
