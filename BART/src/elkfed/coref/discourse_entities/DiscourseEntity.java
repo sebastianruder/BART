@@ -36,7 +36,7 @@ import elkfed.lang.MentionType.Features;
 import elkfed.mmax.minidisc.Markable;
 import elkfed.mmax.minidisc.MarkableLevel;
 import elkfed.nlp.util.Gender;
-
+import elkfed.nlp.util.Number;
 /**
  * @author julianbaumann
  */
@@ -60,7 +60,7 @@ public class DiscourseEntity {
     private Set<String> heads;
     private Set<Tree> modifiers;
     private Set<Gender> genders;
-    //private Set<Number> numbers; geht so nicht
+    private Set<Number> numbers; 
     
 	public DiscourseEntity(Mention m) {
 		ID = nextID;
@@ -79,6 +79,9 @@ public class DiscourseEntity {
 		
 		genders = new HashSet<Gender>();
 		genders.add(m.getGender());
+		
+		numbers = new HashSet<Number>();
+		numbers.add(m.getNumber());
 		
 //		numbers = new HashSet<Number>();
 //		numbers.add(m.getNumber());
@@ -112,6 +115,10 @@ public class DiscourseEntity {
 		return genders;
 	}
 	
+	public Set<Number> getNumbers() {
+		return numbers;
+	}
+	
 	public void merge(Mention ante) {
 		
 		DiscourseEntity deAnte = ante.getDiscourseEntity();
@@ -121,6 +128,7 @@ public class DiscourseEntity {
 			addWords(m);
 		}
 		genders.addAll(getGenders());
+		numbers.addAll(getNumbers());
 		words.addAll(deAnte.getWords());		
 		modifiers.addAll(deAnte.getModifiers());
 		heads.addAll(deAnte.getHeads());
