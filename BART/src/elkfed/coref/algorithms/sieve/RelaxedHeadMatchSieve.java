@@ -32,12 +32,13 @@ public class RelaxedHeadMatchSieve extends Sieve {
 		int ante_idx = -1;
 
 		for (int idx = 0; idx < mention_idx; idx++) {
-			Mention potAnte = mentions.get(idx);
-			PairInstance pair = new PairInstance(mention, potAnte);
-			if (relaxedEntityHeadMatch(mention, potAnte)) {
-				if (wordInclusion(mention, potAnte)) {
-					if (properNameAgreement(mention, potAnte)) {
-						if (!(IWithinI(mention, potAnte))) {
+			Mention ante = mentions.get(idx);
+			PairInstance pair = new PairInstance(mention, ante);
+			
+			if (relaxedEntityHeadMatch(pair)) {
+				if (wordInclusion(pair)) {
+					if (properNameAgreement(pair)) {
+						if (!(IWithinI(pair))) {
 
 							ante_idx = idx;
 
