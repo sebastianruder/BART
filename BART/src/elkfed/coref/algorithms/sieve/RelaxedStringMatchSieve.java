@@ -4,6 +4,9 @@ import java.util.List;
 
 import elkfed.coref.PairInstance;
 import elkfed.coref.mentions.Mention;
+import static elkfed.lang.EnglishLinguisticConstants.DEF_ARTICLE;
+import static elkfed.lang.EnglishLinguisticConstants.INDEF_ARTICLE;
+import static elkfed.lang.EnglishLinguisticConstants.DAYS_MONTHS_YEAR;
 
 /**
  * This sieve considers two nominal mentions as coreferent,
@@ -26,6 +29,11 @@ public class RelaxedStringMatchSieve extends Sieve {
 	public int runSieve(Mention mention){
 		int mention_idx = mentions.indexOf(mention);
 		int ante_idx = -1;
+		
+		if (contains_day_month_year(mention)) {
+			return ante_idx;
+		}
+		
 		for (int idx = 0; idx < mention_idx; idx++){
 			PairInstance pair = new PairInstance(mention, mentions.get(idx));
 			if (mention.toString().equals(mentions.get(idx).toString())){
