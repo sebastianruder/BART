@@ -607,7 +607,7 @@ public abstract class Sieve {
 	 */
 
 	public boolean entityHeadMatch(Mention m, Mention ante) {
-
+		
 		if (m.getPronoun() || ante.getPronoun()) {
 			return false;
 		}
@@ -653,12 +653,13 @@ public abstract class Sieve {
 		
 		mheadLemmas.add(mHead);
 		mheadLemmas.addAll(Arrays.asList(mHead.split(" ")));
-		Set<String> dAnteHeads = ante.getDiscourseEntity().getWords();
-		for (String head : dAnteHeads) {
+		Set<String> dAnteWords = ante.getDiscourseEntity().getWords();
+		for (String head : dAnteWords) {
 			if(mheadLemmas.contains(head) || Arrays.asList(head.split(" ")).contains(mHead)) {
 				return true;
 			}
 		}
+	
 //		Set<String> dAnteWords = ante.getDiscourseEntity().getWords();
 //		if (dAnteWords.contains(mHead)) {
 //			return true;
@@ -683,7 +684,7 @@ public abstract class Sieve {
 	}
 
 	public boolean compatibleModifiers(Mention m, Mention ante) {
-
+		
 		PairInstance pair = new PairInstance(m, ante);
 		if (!(noNumericMismatch(pair) && noLocationMismatch(pair))) {
 			return false;
@@ -702,13 +703,16 @@ public abstract class Sieve {
 			if(mPos.get(i).matches(posTags_regex) && !mWords.get(i).equals(m.getHeadLemma())) {
 				toTest.add(mWords.get(i));
 			}
-		}		
+		}	
+		//return false if the mentions are too far apart and share no modifiers
+		if (!sentenceDistance(pair) && toTest.size() == 0) {
+			return false;
+		}
 		
 		if(anteWords.containsAll(toTest)) {
 			return true;
-		} else {
-			return false;
-		}
+		} 
+		return false;
 		}
 
 	public int getMarkableDistance(PairInstance pair) {
