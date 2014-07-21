@@ -63,6 +63,9 @@ public abstract class AbstractLanguagePlugin implements LanguagePlugin {
     protected List<String> female_list = new ArrayList<String>();
     protected List<String> stopword_list = new ArrayList<String>();
     protected List<String> speechverb_list = new ArrayList<String>();
+    protected List<String> singular_list = new ArrayList<String>();
+    protected List<String> plural_list = new ArrayList<String>();
+    
     
 
     protected final Map<LanguagePlugin.TableName,Map<String,String>> aliasTables =
@@ -402,6 +405,25 @@ public abstract class AbstractLanguagePlugin implements LanguagePlugin {
     
     public boolean isInSpeechVerbList(String string) {
     	for (String item : speechverb_list) {
+    		if (item.equals(string)) {
+    			return true;
+    		}
+    	}
+    	return false;
+    }
+    
+    
+    public boolean isInSingularList(String string) {
+    	for (String item : singular_list) {
+    		if (item.equals(string)) {
+    			return true;
+    		}
+    	}
+    	return false;
+    }
+    
+    public boolean isInPluralList(String string) {
+    	for (String item : plural_list) {
     		if (item.equals(string)) {
     			return true;
     		}

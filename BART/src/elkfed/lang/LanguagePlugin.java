@@ -125,4 +125,10 @@ public interface LanguagePlugin {
     
     public boolean isInSpeechVerbList(String string);
     
+    public boolean isInSingularList(String string);
+    
+    public boolean isInPluralList(String string);
+    
+    
+    
 }
