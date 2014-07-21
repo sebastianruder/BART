@@ -70,7 +70,7 @@ public class Mention implements Comparable<Mention> {
 	
     private static final Logger _logger=Logger.getLogger("elkfed.mentions");
 
-    final private boolean do_not_use_parsehead=false; // set to true for old-style (aka "mmax") head computation always
+    final private boolean do_not_use_parsehead=true; // set to true for old-style (aka "mmax") head computation always
     
     // Mention information
     final private MentionType _mentionType;
@@ -165,7 +165,7 @@ public class Mention implements Comparable<Mention> {
    }
 
     public void SetNumber() {
-        if (_ParseHead == null ) {
+        if (getParseHead() == null ) {
 // do nothing -- rely on the number as determined by the language plugin instead
           return;
 
