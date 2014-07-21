@@ -11,7 +11,7 @@ public class GermanLinguisticConstants extends LinguisticConstants
     public GermanLinguisticConstants() {}
     
     /** Days of the week, months, years; shouldn't be matched with [Relaxed]StringMatch */
-    public static final String DAYS_MONTHS_YEAR = "(Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag|Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember|Jahr";
+    public static final String DAYS_MONTHS_YEAR = "(Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag|Januar|Februar|Mï¿½rz|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember|Jahr)";
     
     /** The Saxon genitive */
     public static final String SAXON_GENITIVE = "'s";
