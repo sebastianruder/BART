@@ -292,12 +292,12 @@ public class Mention implements Comparable<Mention> {
     }
     
     
-    ///**
-    // *  Return if mention is singular
-    // */
-    //public boolean getNumber(){
-    //    return _mentionType.features.contains(MentionType.Features.isSingular);
-    //}
+    /**
+     *  Return if mention is singular
+     */
+//    public boolean getNumber(){
+//        return _mentionType.features.contains(MentionType.Features.isSingular);
+//    }
     
     /**
      *  return singular, plural or unknown
