@@ -41,6 +41,7 @@ import elkfed.config.ConfigProperties;
 import elkfed.coref.discourse_entities.DiscourseEntity;
 import elkfed.coref.utterances.Utterance;
 import elkfed.knowledge.SemanticClass;
+import elkfed.lang.GermanLinguisticConstants;
 import elkfed.lang.LanguagePlugin;
 import elkfed.lang.MentionType;
 import elkfed.lang.MentionType.Features;
@@ -49,6 +50,7 @@ import elkfed.mmax.minidisc.MarkableHelper;
 import elkfed.mmax.minidisc.MarkableLevel;
 import elkfed.mmax.minidisc.MiniDiscourse;
 import elkfed.nlp.util.Gender;
+import elkfed.nlp.util.Number;
 import elkfed.nlp.util.NameStructure;
 /* for new (parse) heads */
 
@@ -62,6 +64,10 @@ import elkfed.nlp.util.NameStructure;
  *
  */
 public class Mention implements Comparable<Mention> {
+	
+	private static final LanguagePlugin langPlugin = ConfigProperties
+			.getInstance().getLanguagePlugin();
+	
     private static final Logger _logger=Logger.getLogger("elkfed.mentions");
 
     final private boolean do_not_use_parsehead=false; // set to true for old-style (aka "mmax") head computation always
@@ -284,12 +290,130 @@ public class Mention implements Comparable<Mention> {
     public boolean getDemNominal(){
         return _mentionType.features.contains(MentionType.Features.isDemNominal);
     }
+    
+    
+    ///**
+    // *  Return if mention is singular
+    // */
+    //public boolean getNumber(){
+    //    return _mentionType.features.contains(MentionType.Features.isSingular);
+    //}
+    
     /**
-     *  Return if mention is singular
+     *  return singular, plural or unknown
      */
-    public boolean getNumber(){
-        return _mentionType.features.contains(MentionType.Features.isSingular);
+    public Number getNumber(){
+    	
+    	// if mention's words contain undefined article, mention is singular
+    	
+    	if (	getDiscourseElementsByLevel("lemma").contains("ein") || 
+    			getDiscourseElementsByLevel("lemma").contains("eine")){
+    		return Number.SINGULAR;
+    	}
+    	
+    	// if a certain unambigious pronoun occurs in mention words --> mention's number is pronoun's number
+    	
+    	for (String s: getDiscourseElementsByLevel("lemma")){
+    		if (s.matches(GermanLinguisticConstants.FIRSTPERSON_SG_PRONOUNS)){
+    			return Number.SINGULAR;
+    		}
+    		
+    		if (s.matches(GermanLinguisticConstants.SECONDPERSON_SG_PRONOUNS)){
+    			return Number.SINGULAR;
+    		}
+    		
+    		if (s.matches(GermanLinguisticConstants.THIRDPERSON_SG_PRONOUNS) &&
+    				!s.matches(GermanLinguisticConstants.AMBIGOUS_SG_PL_PRONOUNS)){
+    			return Number.SINGULAR;
+    		}
+    		
+    		if (s.matches(GermanLinguisticConstants.FIRSTPERSON_PL_PRONOUNS)){
+    			return Number.PLURAL;
+    		}
+    		
+    		if (s.matches(GermanLinguisticConstants.SECONDPERSON_PL_PRONOUNS) &&
+    				!s.matches(GermanLinguisticConstants.AMBIGOUS_SG_PL_PRONOUNS)){
+    			return Number.PLURAL;
+    		}
+    		
+    		if (s.matches(GermanLinguisticConstants.THIRDPERSON_PL_PRONOUNS) &&
+    				!s.matches(GermanLinguisticConstants.AMBIGOUS_SG_PL_PRONOUNS)){
+    			return Number.PLURAL;
+    		}
+    		
+    	}
+    	
+    	// check for words that only occur in singular or plural
+    	
+    	for (String s: getDiscourseElementsByLevel("lemma")){
+    		if (langPlugin.isInSingularList(s)){
+    			return Number.SINGULAR;
+    		}
+    		
+    		if (langPlugin.isInPluralList(s)){
+    			return Number.PLURAL;
+    		}
+    		
+    	}
+    	
+    	// if mention is a pronoun, check pronoun list for number
+    	
+    	if (getPronoun()){
+    		if (getMarkable().toString().replace("[", "").replace("]", "").matches(GermanLinguisticConstants.FIRSTPERSON_SG_PRONOUNS)){
+    			return Number.SINGULAR;
+    		}
+    		
+    		if (getMarkable().toString().replace("[", "").replace("]", "").matches(GermanLinguisticConstants.SECONDPERSON_SG_PRONOUNS)){
+    			return Number.SINGULAR;
+    		}
+    		
+    		if (
+    				getMarkable().toString().replace("[", "").replace("]", "").matches(GermanLinguisticConstants.THIRDPERSON_SG_PRONOUNS) &&
+    				!getMarkable().toString().replace("[", "").replace("]", "").matches(GermanLinguisticConstants.AMBIGOUS_SG_PL_PRONOUNS)
+    				){
+    			return Number.SINGULAR;
+    		}
+    		
+    		if (getMarkable().toString().replace("[", "").replace("]", "").matches(GermanLinguisticConstants.FIRSTPERSON_PL_PRONOUNS)){
+    			return Number.PLURAL;
+    		}
+    		
+    		if (
+    				getMarkable().toString().replace("[", "").replace("]", "").matches(GermanLinguisticConstants.SECONDPERSON_PL_PRONOUNS) &&
+    				!getMarkable().toString().replace("[", "").replace("]", "").matches(GermanLinguisticConstants.AMBIGOUS_SG_PL_PRONOUNS)
+    				){
+    			return Number.PLURAL;
+    		}
+    		
+    		if (
+    				getMarkable().toString().replace("[", "").replace("]", "").matches(GermanLinguisticConstants.THIRDPERSON_PL_PRONOUNS) &&
+    				!getMarkable().toString().replace("[", "").replace("]", "").matches(GermanLinguisticConstants.AMBIGOUS_SG_PL_PRONOUNS)
+    				){
+    			return Number.PLURAL;
+    		}
+    		
+    		if (
+    				getMarkable().toString().replace("[", "").replace("]", "").matches(GermanLinguisticConstants.AMBIGOUS_SG_PL_PRONOUNS)
+    				){
+    			return Number.UNKNOWN;
+    		}
+    	}
+    		
+    
+    		// stanford idea: all ne are singular except for organisations   		
+    		
+    		if (getProperName() && !(getSemanticClass().equals(SemanticClass.ORGANIZATION) || getSemanticClass().equals(SemanticClass.UNKNOWN))){
+        		return Number.SINGULAR;
+        	}
+    		
+    		// to try: compare original form and lemma form, check for typical plural signs, e.g.  +-e, +-es, +-s, +-en, +-n
+    		
+
+        return Number.UNKNOWN;
     }
+    
+    
+    
     /**
      *  Return mention person
      */

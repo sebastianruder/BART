@@ -34,6 +34,7 @@ import elkfed.lang.LanguagePlugin.TableName;
 import elkfed.ml.TriValued;
 import elkfed.mmax.minidisc.Markable;
 import elkfed.nlp.util.Gender;
+import elkfed.nlp.util.Number;
 
 /**
  * 
@@ -41,6 +42,8 @@ import elkfed.nlp.util.Gender;
  * 
  */
 public abstract class Sieve {
+	
+
 
 	protected String name; // name of sub class
 	// list of antecedents/potential coreferents
@@ -381,7 +384,10 @@ public abstract class Sieve {
 	 */
 
 	public boolean numberAgreement(PairInstance pair) {
-		if (FE_Number.getNumber(pair)) {
+		if (pair.getAnaphor().getNumber().equals(Number.UNKNOWN) || pair.getAntecedent().getNumber().equals(Number.UNKNOWN)){
+			return true;
+		}
+		if (pair.getAnaphor().getNumber().equals(pair.getAntecedent().getNumber())) {
 			return true;
 		}
 		return false;
