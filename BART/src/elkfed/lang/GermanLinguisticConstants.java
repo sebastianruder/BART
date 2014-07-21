@@ -40,9 +40,15 @@ public class GermanLinguisticConstants extends LinguisticConstants
     		
     public static final String SECONDPERSON_SG_PRONOUNS = "(du|dich|dir|dein|deine|deiner|deinen|deinem|deines)";
     
+    public static final String THIRDPERSON_SG_PRONOUNS = "(sich|er|sie|es|ihn|sie|es|ihm|ihr|es|sein|seine|seiner|seinen|seinem|seines|ihr|ihre|ihren|ihrem|ihres)";
+    
     public static final String FIRSTPERSON_PL_PRONOUNS = "(wir|uns|unser|unsere|unserer|unseren|unserem|unseres)";
     
     public static final String SECONDPERSON_PL_PRONOUNS = "(ihr|euch|euer|eure|eurer|euren|eurem|eures)";
+    
+    public static final String THIRDPERSON_PL_PRONOUNS = "(sie|ihnen|ihre|ihrer|ihren|ihrem|ihres|sich)";
+    
+    public static final String AMBIGOUS_SG_PL_PRONOUNS = "(sie|sich|ihre|ihrer|ihren|ihrem|ihr)";
     
     
    
@@ -77,4 +83,6 @@ public class GermanLinguisticConstants extends LinguisticConstants
 
     /** The designator expression for females */
     public static final String FEMALE_DESIGNATOR = "(Frau|Fr\\.)?";
+
+	
 }
