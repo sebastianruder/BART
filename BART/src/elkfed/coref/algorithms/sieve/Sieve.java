@@ -614,11 +614,17 @@ public abstract class Sieve {
 		if (m.getNumber() != ante.getNumber()) {
 			return false;
 		}
+		Set<String> mheadLemmas= new HashSet<>();
 		String mHead = m.getHeadLemma();
+		mheadLemmas.add(mHead);
+		mheadLemmas.addAll(Arrays.asList(mHead.split(" ")));
 		Set<String> dAnteHeads = ante.getDiscourseEntity().getHeads();
-		if (dAnteHeads.contains(mHead)) {
-			return true;
+		for (String head : dAnteHeads) {
+			if(mheadLemmas.contains(head) || Arrays.asList(head.split(" ")).contains(mHead)) {
+				return true;
+			}
 		}
+
 		return false;
 	}
 
@@ -643,10 +649,20 @@ public abstract class Sieve {
 		if (langPlugin.isInStopwordList(mHead)) {
 			return false;
 		}
-		Set<String> dAnteWords = ante.getDiscourseEntity().getWords();
-		if (dAnteWords.contains(mHead)) {
-			return true;
+		Set<String> mheadLemmas= new HashSet<>();
+		
+		mheadLemmas.add(mHead);
+		mheadLemmas.addAll(Arrays.asList(mHead.split(" ")));
+		Set<String> dAnteHeads = ante.getDiscourseEntity().getWords();
+		for (String head : dAnteHeads) {
+			if(mheadLemmas.contains(head) || Arrays.asList(head.split(" ")).contains(mHead)) {
+				return true;
+			}
 		}
+//		Set<String> dAnteWords = ante.getDiscourseEntity().getWords();
+//		if (dAnteWords.contains(mHead)) {
+//			return true;
+//		}
 		return false;
 
 	}
@@ -667,6 +683,7 @@ public abstract class Sieve {
 	}
 
 	public boolean compatibleModifiers(Mention m, Mention ante) {
+
 		PairInstance pair = new PairInstance(m, ante);
 		if (!(noNumericMismatch(pair) && noLocationMismatch(pair))) {
 			return false;
@@ -679,43 +696,20 @@ public abstract class Sieve {
 		List<String> mPos	= m.getDiscourseElementsByLevel("pos");
 		
 		Set<String> toTest = new HashSet<>();
-//		
-//		for(String word: mWords) {
-//			if (!(langPlugin.isInStopwordList(word)) && !m.getHeadLemma().equals(word))  {
-//					
-//				toTest.add(word);
-//			}
-//		}
+
 		for (int i = 0; i < mWords.size(); i++) {
 			
 			if(mPos.get(i).matches(posTags_regex) && !mWords.get(i).equals(m.getHeadLemma())) {
 				toTest.add(mWords.get(i));
 			}
-		}
-		System.out.println(toTest);
-		System.out.println(m.getHeadLemma());
-//		if (toTest.size() == 0) {
-//			System.out.println("ok");
-//			return false;
-//		}
+		}		
 		
 		if(anteWords.containsAll(toTest)) {
 			return true;
 		} else {
 			return false;
-		}		
-
-//		Set <Tree> dMod = m.getDiscourseEntity().getModifiers();
-//		
-//		Set<Tree> dAnteMod = ante.getDiscourseEntity().getModifiers();
-//		if (dMod.size() == 0) {
-//			return false;
-//		}
-//		if (dAnteMod.containsAll(dMod)) {
-//			return true;
-//		}
-//		return false;
-	}
+		}
+		}
 
 	public int getMarkableDistance(PairInstance pair) {
 		return pair.getAnaphor().getMarkable().getIntID()
