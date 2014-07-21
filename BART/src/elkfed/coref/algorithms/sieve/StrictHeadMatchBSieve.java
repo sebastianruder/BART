@@ -2,6 +2,7 @@ package elkfed.coref.algorithms.sieve;
 
 import java.util.List;
 
+import elkfed.coref.PairInstance;
 import elkfed.coref.mentions.Mention;
 /**
  * This Sieve links a Mention to an antecedent,
@@ -29,11 +30,11 @@ public class StrictHeadMatchBSieve extends Sieve {
 		int ante_idx = -1;
 
 		for (int idx = 0; idx < mention_idx; idx++) {
-			Mention potAnte = mentions.get(idx);
-
-			if (entityHeadMatch(mention, potAnte)) {
-				if (wordInclusion(mention, potAnte)) {
-					if (!(IWithinI(mention, potAnte))) {
+			Mention ante = mentions.get(idx);
+			PairInstance pair = new PairInstance(mention, ante);
+			if (entityHeadMatch(pair)) {
+				if (wordInclusion(pair)) {
+					if (!(IWithinI(pair))) {
 						
 							ante_idx = idx;
 						

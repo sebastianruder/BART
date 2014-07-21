@@ -35,14 +35,14 @@ public class FE_SentenceDistance implements PairFeatureExtractor{
         inst.setFeature(FD_SENTDIST,getSentDist(inst));
     }
     
-     public Integer getSentDist(PairInstance inst)
+     public static Integer getSentDist(PairInstance inst)
     {
         return //instance.setFeature(feature,
                 getDistance(inst.getAntecedent().getMarkable(), inst.getAnaphor().getMarkable());
     }
     
     /** Computes the sentence distance among two markables */
-    private int getDistance(final Markable markable1, final Markable markable2)
+    private static int getDistance(final Markable markable1, final Markable markable2)
     {
         final int distance1 = Integer.parseInt(
                 markable1.getAttributeValue(SENTENCE_ID_ATTRIBUTE));
