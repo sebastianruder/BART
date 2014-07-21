@@ -897,4 +897,9 @@ public abstract class Sieve {
 		}
 		return false;		
 	}
+	
+	public boolean antecedent_is_more_specific(PairInstance pair) {
+		return pair.getAntecedent().getMarkable().getDiscourseElements().length >=
+				pair.getAnaphor().getMarkable().getDiscourseElements().length;
+	}
 }
