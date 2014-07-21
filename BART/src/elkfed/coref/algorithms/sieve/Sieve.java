@@ -384,16 +384,15 @@ public abstract class Sieve {
 	 */
 
 	public boolean numberAgreement(PairInstance pair) {
-		return true;
-	}
-//		if (pair.getAnaphor().getNumber().equals(Number.UNKNOWN) || pair.getAntecedent().getNumber().equals(Number.UNKNOWN)){
-//			return true;
-//		}
-//		if (pair.getAnaphor().getNumber().equals(pair.getAntecedent().getNumber())) {
-//			return true;
-//		}
-//		return false;
-//	}
+		
+		if (pair.getAnaphor().getNumber().equals(Number.UNKNOWN) || pair.getAntecedent().getNumber().equals(Number.UNKNOWN)){
+			return true;
+		}
+		if (pair.getAnaphor().getNumber().equals(pair.getAntecedent().getNumber())) {
+			return true;
+		}
+		return false;
+	 }
 
 	/**
 	 * 
