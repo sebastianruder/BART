@@ -6,6 +6,8 @@ import java.util.List;
  * @author julianbaumann
  */
 
+
+import elkfed.coref.PairInstance;
 /*
  * ToDo:  Proper WordInclusion with removed StopWords, modificator match,  i within i
  */
@@ -38,13 +40,13 @@ public int runSieve(Mention mention){
 		int ante_idx = -1;
 		
 		for (int idx = 0; idx < mention_idx; idx++){
-			Mention potAnte = mentions.get(idx);
-			
-			if (entityHeadMatch(mention, potAnte)) {
+			Mention ante = mentions.get(idx);
+			PairInstance pair = new PairInstance(mention, ante);
+			if (entityHeadMatch(pair)) {
 				
-				if(wordInclusion(mention, potAnte)) {
-					if (compatibleModifiers(mention, potAnte)) {
-						if (!(IWithinI(mention, potAnte))) {
+				if(wordInclusion(pair)) {
+					if (compatibleModifiers(pair)) {
+						if (!(IWithinI(pair))) {
 							
 								ante_idx = idx;
 							

@@ -441,8 +441,8 @@ public abstract class Sieve {
 	 * @return
 	 */
 
-	boolean IWithinI(Mention mention, Mention ante) {
-		PairInstance pair = new PairInstance(mention, ante);
+	boolean IWithinI(PairInstance pair) {
+		
 		if (!isAppositive(pair) && !isRelativePronoun(pair)
 				&& !isRoleAppositive(pair)) {
 			if (pair.getAnaphor().embeds(pair.getAntecedent())
@@ -606,8 +606,9 @@ public abstract class Sieve {
 	 * return true; }
 	 */
 
-	public boolean entityHeadMatch(Mention m, Mention ante) {
-		
+	public boolean entityHeadMatch(PairInstance pair) {
+		Mention m = pair.getAnaphor();
+		Mention ante = pair.getAntecedent();
 		if (m.getPronoun() || ante.getPronoun()) {
 			return false;
 		}
@@ -628,7 +629,10 @@ public abstract class Sieve {
 		return false;
 	}
 
-	public boolean properNameAgreement(Mention m, Mention ante) {
+	public boolean properNameAgreement(PairInstance pair) {
+		Mention m = pair.getAnaphor();
+		Mention ante = pair.getAntecedent();
+		
 		if (m.getProperName() || ante.getProperName()) {
 			if ((m.getSemanticClass().equals(ante.getSemanticClass()))
 					&& (!m.getSemanticClass().equals(SemanticClass.UNKNOWN))) {
@@ -640,7 +644,9 @@ public abstract class Sieve {
 		return false;
 	}
 
-	public boolean relaxedEntityHeadMatch(Mention m, Mention ante) {
+	public boolean relaxedEntityHeadMatch(PairInstance pair) {
+		Mention m = pair.getAnaphor();
+		Mention ante = pair.getAntecedent();
 
 		if (m.getPronoun() || ante.getPronoun()) {
 			return false;
@@ -668,7 +674,9 @@ public abstract class Sieve {
 
 	}
 
-	public boolean wordInclusion(Mention m, Mention ante) {
+	public boolean wordInclusion(PairInstance pair) {
+		Mention m = pair.getAnaphor();
+		Mention ante = pair.getAntecedent();
 
 		
 		Set<String> dmWords = m.getDiscourseEntity().getWords();
@@ -683,9 +691,10 @@ public abstract class Sieve {
 
 	}
 
-	public boolean compatibleModifiers(Mention m, Mention ante) {
+	public boolean compatibleModifiers(PairInstance pair) {
+		Mention m = pair.getAnaphor();
+		Mention ante = pair.getAntecedent();		
 		
-		PairInstance pair = new PairInstance(m, ante);
 		if (!(noNumericMismatch(pair) && noLocationMismatch(pair))) {
 			return false;
 		}

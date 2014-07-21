@@ -38,7 +38,7 @@ public class ProperHeadNounMatchSieve extends Sieve {
 			if (	pair.getAnaphor().getHeadPOS().equalsIgnoreCase("ne") && 
 					pair.getAntecedent().getHeadPOS().equalsIgnoreCase("ne") && 
 					pair.getAnaphor().getDiscourseEntity().getHeadsString().equals(pair.getAntecedent().getDiscourseEntity().getHeadsString())){
-				if (	!IWithinI(mention, mentions.get(idx)) && 
+				if (	!IWithinI(pair) && 
 						noNumericMismatch(pair) && 
 						noLocationMismatch(pair)){
 							ante_idx = idx;
