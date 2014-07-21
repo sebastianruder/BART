@@ -398,19 +398,19 @@ public class Mention implements Comparable<Mention> {
 //    			return Number.UNKNOWN;
 //    		}
 //    	}
-    		
-    
-    		// stanford idea: all ne are singular except for organisations   		
-    		
-    		if (getProperName() && !(getSemanticClass().equals(SemanticClass.ORGANIZATION) || getSemanticClass().equals(SemanticClass.UNKNOWN))){
-        		return Number.SINGULAR;
-        	}
-    		
-    		// to try: compare original form and lemma form, check for typical plural signs, e.g.  +-e, +-es, +-s, +-en, +-n
-    		
-
-        return Number.UNKNOWN;
-    }
+//    		
+//    
+//    		// stanford idea: all ne are singular except for organisations   		
+//    		
+//    		if (getProperName() && !(getSemanticClass().equals(SemanticClass.ORGANIZATION) || getSemanticClass().equals(SemanticClass.UNKNOWN))){
+//        		return Number.SINGULAR;
+//        	}
+//    		
+//    		// to try: compare original form and lemma form, check for typical plural signs, e.g.  +-e, +-es, +-s, +-en, +-n
+//    		
+//
+//        return Number.UNKNOWN;
+//    }
     
     
     
