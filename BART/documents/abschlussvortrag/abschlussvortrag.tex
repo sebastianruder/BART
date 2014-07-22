@@ -11,6 +11,9 @@
 \usepackage{gantt}
 \usepackage{pgf-umlcd}
 
+% to cross out text
+\usepackage{ulem}
+
 \usetheme{Berlin}
 \author{Julian Baumann, Xenia Kühling, Sebastian Ruder}
 \title{Koreferenzresolution mit BART}
@@ -53,14 +56,14 @@ Grundsätzlich: System für Koreferenzresolution
 
 	\item Datenformate
 		\begin{itemize}
-		\item MMAX2, Java, .config
+		\item MMAX2, Java, .config, \textcolor{green}{.py, CoNLL}
 	\end{itemize}
 	\item BART-Version: Klon von Yannicks bitbucket \textit{repository} (\url{https://bitbucket.org/yannick/bart}); Stand 05.05.14 
 	\item Korpora
 	\begin{itemize}
 		\item TüBA-D/Z 2008 MMAX2 (Deutsch)
-		\item Penn Treebank (Englisch)
-		\item Turin University Treebank/ISST (Italienisch)
+		\item \sout{Penn Treebank (Englisch)} \textcolor{green}{OntoNotes}
+		\item \sout{Turin University Treebank/ISST (Italienisch)}
 	\end{itemize}
 	\item Programmierumgebung
 	\begin{itemize}
@@ -133,27 +136,6 @@ Grundsätzlich: System für Koreferenzresolution
 \end{center}
 \end{figure}
 \end{frame}
-
-\begin{frame}
-\begin{figure}
-\begin{center}
-\includegraphics[width=11cm]{class_hierarchy.png}
-\caption{Klassen-Hierarchie}
-\label{fig:class-hierarchy}
-\end{center}
-\end{figure}
-\end{frame}
-
-\begin{frame}
-\begin{figure}
-\begin{center}
-\includegraphics[width=11cm]{package_sieve.png}
-\caption{Struktur des \textit{package}}
-\label{fig:repository}
-\end{center}
-\end{figure}
-\end{frame}
-
 
 \section{Demonstration}
 \begin{frame}{Demo}
@@ -247,22 +229,24 @@ Welches Sieve macht wie viel, eventuell Vergleich mit Stanford Sieves (welche Si
 \begin{itemize}
 \item EGit für Eclipse manchmal sehr buggy
 \item Konversionsfehler im Korpus $\rightarrow$ falscher Goldstandard
-\item parse- Level fehlte anfangs $\rightarrow$ Headfinder funktionierte nicht
+\item parse-Level fehlte anfangs $\rightarrow$ Headfinder funktionierte nicht
 \item TüBaD/Z Headfinder hat danach auch noch nicht richtig funktioniert $\rightarrow$ Regel in BART musste geändert werden
+\item \texttt{getNumber()} gab stets \texttt{Singular} zurück 
 \end{itemize}
-$\rightarrow$  FAZIT
+$\rightarrow$ intimes Wissen des Systems zur Auflösung von technischen Diskrepanzen vonnöten
 
 \end{frame}
 
-
 \begin{frame}{Probleme mit BART und dem Stanfordsystem}
 \begin{itemize}
-\item Viele Methoden in BART unklar/ nicht dokumentiert \\$\rightarrow$  Verwendung unklar
+\item Stanford-System prinzipiell sprach- und korpusübergreifend anwendbar, aber für Englisch und OntoNotes optimiert
+\item Viele Methoden in BART unklar / unzureichend dokumentiert \\$\rightarrow$  Verwendung unklar
 \item Modulübersicht wäre praktisch gewesen
 \item Stanford Code unübersichtlich + verwirrend modularisiert\\$\rightarrow$ wenig Anreiz sich daran zu orientieren
 \end{itemize}
 $\rightarrow$ Immer Zeit einplanen sich in ein fremdes System einzuarbeiten!
 $\rightarrow$ Sinnvollerweise jemanden haben, der kurze Einführung in System geben kann
+$\rightarrow$ Dokumentation umso wichtiger!
 \end{frame}
 
 
