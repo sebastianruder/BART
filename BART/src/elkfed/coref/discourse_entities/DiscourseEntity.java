@@ -78,13 +78,10 @@ public class DiscourseEntity {
 		modifiers.addAll(m._postmodifiers);
 		
 		genders = new HashSet<Gender>();
-		genders.add(m.getGender());
+		genders.add(m.getGender());	
 		
 		numbers = new HashSet<Number>();
-		numbers.add(m.getNumber());
-		
-//		numbers = new HashSet<Number>();
-//		numbers.add(m.getNumber());
+		numbers.add(m.getNumberLabel());
 		
 		
 		

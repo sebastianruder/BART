@@ -389,8 +389,14 @@ public abstract class Sieve {
 	 */
 
 	public boolean numberAgreement(PairInstance pair) {
-	
-		if (pair.getAnaphor().getNumber() == pair.getAntecedent().getNumber()) {
+		Number mNumber = pair.getAnaphor().getNumberLabel();
+		Number anteNumber = pair.getAntecedent().getNumberLabel();
+		
+		if (mNumber.equals(Number.UNKNOWN) || anteNumber.equals(Number.UNKNOWN)){
+			return true;
+			}
+			
+		if (anteNumber == mNumber) {
 			return true;
 		}
 		return false;
