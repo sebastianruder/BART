@@ -255,51 +255,36 @@ Man sehe und staune! :)
 
 
 \section{Evaluation}
-\begin{frame}{Insgesamt}
+\begin{frame}{Vergleich der MUC-Scores: unser System, Stanfordsystem}
 \begin{table}[h]
-\begin{tabular}{l||lll}
-                            & \textbf{Recall} & \textbf{Precision} & \textbf{F-Score} \\ \hline
-SpeakerIdentification       & 0.05            & 0.360              & 0.010            \\
-\textbf{+StringMatch}       & 0.138           & 0.748              & 0.232            \\
-+RelaxedStringMatch         & 0.149           & 0.740              & 0.248            \\
-\textbf{+PreciseConstructs} & 0.200           & \textbf{0.759}     & 0.317            \\
-\textbf{+StrictHeadMatchA}  & 0.282           & 0.714              & 0.404            \\
-\textbf{+StrictHeadMatchB}  & 0.334           & 0.672              & 0.446            \\
-+StrictHeadMatchC           & 0.344           & 0.661              & 0.453            \\
-+ProperHeadNounMatch        & 0.348           & \textbf{0.663}     & 0.456            \\
-+RelaxedHeadMatch           & 0.371           & 0.669              & 0.478            \\
-\textbf{+PronounMatch}      & 0.496           & 0.630              & \textbf{0.555}       
+\begin{tabular}{l||lll || lll}
+
+ & \multicolumn{3}{c||}{Unser System}& \multicolumn{3}{c}{Stanford} \\ \hline
+
+                        SIEVES    & \textbf{R} & \textbf{P} & \textbf{F} 	& \textbf{R}   & \textbf{P} & \textbf{F} \\ \hline
+SpeakerIdentification       & .05            & .360              & .010          	& .87    & .727      & .155  \\
++StringMatch      & .138           & .748              & .232          	& .295   & .718      & .419  \\
++RelaxedStringMatch         & .149           & .740              & .248         	& .297   & .712      & .419   \\
++PreciseConstructs & .200           & .759     & .317           	& .302   & .710      & .423  \\
++StrictHeadMatchA  & .282           & .714              & .404          	& .344   & .661      & .452  \\
++StrictHeadMatchB  & .334           & .672              & .446          	& .349   & .658      & .456   \\
++StrictHeadMatchC           & .344           & .661              & .453           	& .358   & .64       & .459 \\
++ProperHeadNounMatch        & .348           & .663     & .456            	& .362   & .635      & .461  \\
++RelaxedHeadMatch           & .371           & .669              & .478           	& .367   & .632      & .465   \\
++PronounMatch		    & .496           & .630              & .555 	& .596   & .609      & .603     
 \end{tabular}
-\caption{MUC-Score, TueBa-D/Z 1-100}
 \end{table}
 \end{frame}
 
-\begin{frame}{Beitrag der einzelnen Sieves im Stanfordsystem}
-\begin{table}[h]
-\begin{tabular}{l||lll}
-                           & RECALL & PRECISION & F\_1 \\ \hline
-SpeakerIdentificationSieve & 8.7    & 72.7      & 15.5   \\
-+StringMatchSieve           & 29.5   & 71.8      & 41.9   \\
-+RelaxedStringMatchSieve    & 29.7   & 71.2      & 41.9   \\
-+PreciseConstructSieve      & 30.2   & 71.0      & 42.3   \\
-+StrictHeadMatchASieve      & 34.4   & 66.1      & 45.2  \\
-+StrictHeadMatchBSieve      & 34.9   & 65.8      & 45.6   \\
-+StrictHeadMatchCSieve      & 35.8   & 64.0      & 45.9   \\
-+ProperHeadNounMatchSieve   & 36.2   & 63.5      & 46.1   \\
-+RelaxedHeadMatchSieve      & 36.7   & 63.2      & 46.5   \\
-+PronounMatchSieve          & 59.6   & 60.9      & 60.3   \\
-                          
-\end{tabular}
-\caption{Stanford Sieve für Englisch (OntoNotes)}
-\end{table}
-\end{frame}
 
-\begin{frame}{Direkter Vergleich mit BART Deutsch}
+
+\begin{frame}{Vergleich mit BART (Deutsch) und Stanford (Enfglisch)}
 \begin{table}[h]
 \begin{tabular}{l||lll}
              	& RECALL		 & PRECISION & F\_1    \\ \hline
 Unser Ergebnis 	& 0.496      & 0.630              & \textbf{0.555}  \\
-open gold track & 0.705 		 & 0.401     & \textbf{0.511}   
+BART  & 0.705 		 & 0.401     & \textbf{0.511}    \\ 
+Stanford & 0.596   & 0.609      & \textbf{0.603}
           
 \end{tabular}
 \caption{MUC-Score BART SemEval-2010 Task 1 im Vergleich} 
@@ -307,11 +292,11 @@ open gold track & 0.705 		 & 0.401     & \textbf{0.511}
 \end{frame}
 
 
-\begin{frame}{perSieve}
+\begin{frame}{Sieve Performanz: MUC-Score, TueBa-D/Z 1-100}
 \begin{table}[h]
-\begin{tabular}{lcc}
+\begin{tabular}{l||c|c}
                            & \textbf{Total Mentions} & \textbf{correct Links} \\
-                          &\textbf{Linked}			&\\
+                          &\textbf{Linked}			&\\ \hline
 SpeakerIdentificationSieve & 25                             & 9                      \\
 StringMatchSieve           & 312                            & 243   					\\
 RelaxedStringMatchSieve    & 37                             & 24                     \\
@@ -323,7 +308,6 @@ RelaxedHeadMatchSieve      & 68                             & 52                
 ProperHeadNounMatchSieve   & 8                              & 5                      \\
 PronounMatchSieve          & 425                            & 170                    \\
 \end{tabular}
-\caption{MUC-Score, TueBa-D/Z 1-100}
 \end{table}
 \end{frame}
 
