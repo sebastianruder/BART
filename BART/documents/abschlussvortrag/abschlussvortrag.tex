@@ -347,7 +347,7 @@ Welches Sieve macht wie viel, eventuell Vergleich mit Stanford Sieves (welche Si
   
 \end{frame}
 
-\begin{frame}
+\begin{frame}{\textit{Workload} im Laufe des Softwareprojekts}
 \begin{figure}
 \begin{center}
 \includegraphics[width=11cm]{contributions_to_master.jpg}
@@ -358,8 +358,8 @@ Welches Sieve macht wie viel, eventuell Vergleich mit Stanford Sieves (welche Si
 \end{frame}
 
 
-\section{Lessons learned, Probleme}
-\begin{frame}{Probleme mit der Technik/ dem Korpus}
+\section{Lessons learned}
+\begin{frame}{Probleme mit der Technik / dem Korpus}
 \begin{itemize}
 \item EGit für Eclipse manchmal sehr buggy
 \item Konversionsfehler im Korpus $\rightarrow$ falscher Goldstandard
@@ -373,32 +373,33 @@ $\rightarrow$ intimes Wissen des Systems zur Auflösung von technischen Diskrepa
 
 \begin{frame}{Probleme mit BART und dem Stanfordsystem}
 \begin{itemize}
-\item Stanford-System prinzipiell sprach- und korpusübergreifend anwendbar, aber für Englisch und OntoNotes optimiert
-\item Viele Methoden in BART unklar / unzureichend dokumentiert \\$\rightarrow$  Verwendung unklar
+\item Stanford-System prinzipiell sprach- und korpusübergreifend anwendbar, aber für Englisch und OntoNotes optimiert\\
+$\rightarrow$ Erweiterung des \texttt{GermanLanguagePlugins}, \texttt{GermanLinguisticConstants}
+\item Viele Methoden in BART unklar / unzureichend dokumentiert
 \item Modulübersicht wäre praktisch gewesen
-\item Stanford Code unübersichtlich + verwirrend modularisiert\\$\rightarrow$ wenig Anreiz sich daran zu orientieren
+\item Stanford Code unübersichtlich / verwirrend modularisiert\\$\rightarrow$ wenig Anreiz sich daran zu orientieren
 \end{itemize}
-$\rightarrow$ Immer Zeit einplanen sich in ein fremdes System einzuarbeiten!
-$\rightarrow$ Sinnvollerweise jemanden haben, der kurze Einführung in System geben kann
-$\rightarrow$ Dokumentation umso wichtiger!
+$\rightarrow$ Einarbeitung in ein fremdes System ist ein beträchtlicher, kontinuierlicher Zeitaufwand\\
+$\rightarrow$ Ein Ansprechpartner, der in das System einführen und bei systemspezifischen Fragen Hilfestellung geben kann, ist sehr wertvoll\\
+$\rightarrow$ Nachvollziehbare Dokumentation daher umso wichtiger!
 \end{frame}
 
-
-
-\section{Zukunft}
+\section{Ausblick}
 \begin{frame}{TO DO bis Abgabeschluss}
 \begin{itemize}
-\item Dokumentation beenden
-\item Feinschliff an Sieves etc
+\item Dokumentation finalisieren; Abschlussbericht verfassen
+\item Sieves verfeinern, im Speziellen \texttt{PronounMatch}, \texttt{StrictHeadMatch}, \texttt{SpeakerIdentification}
+\item Auf OntoNotes-Korpus evaluieren
+\item TüBa-D/Z-Output in CoNLL-Format, mit CoNLL-Scorer scoren und mit SemEval-Systemen vergleichen
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Weiterentwicklung}
+\begin{frame}{Ausblick}
 \begin{itemize}
-\item Englisch, Italienisch, andere Sprachen
-\item neue Sieves 
-\item verbesserte Sieves
-\item BART allgemein aufräumen
+\item System für das Englische, Italienische und andere Sprachen optimieren
+\item neue, fürs Deutsche optimierte Sieves verwenden
+\item aktuelle Sieves weiter verbessern
+\item Dependenzen in BART bereinigen, relevante Komponenten abgrenzen, ausführlich dokumentieren
 \end{itemize}
 \end{frame}
 
