@@ -61,7 +61,7 @@ Grundsätzlich: System für Koreferenzresolution
 \begin{itemize}
 \item Implementierung von vorwiegend regelbasiertem System der Stanford-NLP-Gruppe
 \item Bestes Ergebnis bei CoNLL-2011 shared task
-\item 10 zu implementierende Sieves, erstmal nur für Deutsch
+\item 10 zu implementierende Sieves, zunächst nur für das Deutsche
 \end{itemize}
 \end{itemize}
 \end{frame}
@@ -92,7 +92,7 @@ Grundsätzlich: System für Koreferenzresolution
 	\end{itemize}
 	\item Programmierumgebung
 	\begin{itemize}
-		\item Eclipse 4.3.2 mit IvyDE (\textit{dependency management}) s
+		\item Eclipse 4.3.2 mit IvyDE (\textit{dependency management})
 	\end{itemize}
 
 \end{itemize}
@@ -100,11 +100,11 @@ Grundsätzlich: System für Koreferenzresolution
 
 \begin{frame}{Organisation} 
 	\begin{itemize}
-	\item Versionskontrolle: Github mit Egit
+	\item Versionskontrolle: Github mit EGit
 	\item Einmal wöchentlich regelmäßiges Treffen, sonst nach Absprache
-	\item GoogleDocs Dokument um Besprochenes und Ziele/Aufgaben festzuhalten
-	\item Skype/WhatsApp Gruppe
-	\item \textbf{Email!!!}
+	\item GoogleDocs-Dokument, um \textit{meeting minutes}, \textit{milestones}  und \textit{action items} festzuhalten
+	\item Skype/WhatsApp-Gruppe
+	\item Email zur kontinuierlichen Kommunikation und für Statusberichte
 	
 	\end{itemize}
 \end{frame}
@@ -148,7 +148,7 @@ Grundsätzlich: System für Koreferenzresolution
   	\attribute{\uline{nextID} : int}
   	\attribute{discourseID : ID}
     \attribute{genders : set<Gender>}
-    \attribute{numbers : set<G}
+    \attribute{numbers : set<Number>}
 	\attribute{words : set<String>}
 	\attribute{heads : set<String>}
 	\attribute{firstMention : Mention}
@@ -156,7 +156,7 @@ Grundsätzlich: System für Koreferenzresolution
     \operation{DiscourseEntity(Mention m)}
     
     \operation{mergeEntities(Mention m) : void}
-    \operation{getMostRepresentativeMention() : void}
+    \operation{getFirstMention() : void}
   \end{class}
 \end{tikzpicture}
 
