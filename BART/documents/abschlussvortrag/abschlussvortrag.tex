@@ -180,6 +180,25 @@ SpeakerIdentification       & 0.05            & 0.360              & 0.010      
 \end{table}
 \end{frame}
 
+\begin{frame}{perSieve}
+\begin{table}[h]
+\begin{tabular}{lll}
+                           & \textbf{Total Mentions Linked} & \textbf{correct Links} \\
+ProperHeadNounMatchSieve   & 8                              & 5                      \\
+StrictHeadMatchCSieve      & 53                             & 24                     \\
+StrictHeadMatchBSieve      & 197                            & 99                     \\
+PreciseConstructSieve      & 115                            & 94                     \\
+SpeakerIdentificationSieve & 25                             & 9                      \\
+PronounMatchSieve          & 425                            & 170                    \\
+StrictHeadMatchASieve      & 243                            & 151                    \\
+RelaxedHeadMatchSieve      & 68                             & 52                     \\
+RelaxedStringMatchSieve    & 37                             & 24                     \\
+StringMatchSieve           & 312                            & 243                   
+\end{tabular}
+\end{table}
+\end{frame}
+
+
 \begin{frame}{Vergleich mit Stanford Sieves + BART, conll 2011 shared task, Englisch}
 Stanford Sieves Englisch vs. BART vs. unser BART\\
 
