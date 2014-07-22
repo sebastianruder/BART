@@ -11,6 +11,30 @@
 \usepackage{gantt}
 \usepackage{pgf-umlcd}
 
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=Java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true
+  tabsize=3
+}
+
 \usetheme{Berlin}
 \author{Julian Baumann, Xenia Kühling, Sebastian Ruder}
 \title{Koreferenzresolution mit BART}
@@ -100,6 +124,82 @@ Grundsätzlich: System für Koreferenzresolution
 
 \end{tikzpicture}
 \end{frame}
+\begin{frame}[fragile]
+\begin{lstlisting}
+public DisjointSet<Mention> decodeDocument(List<Mention> mentions,Map<Mention, Mention> antecedents) {   		
+    Sieve sieve;        
+    for (int walk_through = 1; walk_through < 11; walk_through++) {       	
+        	//all Mentions or only first Mentions  
+        List<Mention> mentionsToResolve;  
+        sieve = _factory.createSieve(walk_through, mentions);
+        for (int i = 0; i < mentionsToResolve.size(); i++) {		    	
+            int ante_idx = sieve.runSieve(mentions.get(i));
+            if (ante_idx != -1) {
+                //merge Entities
+        }        _
+	    return mention_clusters;
+	}
+\end{lstlisting}
+
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Sieve}
+\begin{lstlisting}
+	public abstract class Sieve {
+
+	protected String name; // name of sub class	
+	protected List<Mention> mentions;
+	 
+	abstract int runSieve(Mention mention);
+	
+	public String getName() {
+	    return this.name;
+		
+	//various helping Methods
+	}
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{PreciseConstructsSieve}
+\begin{lstlisting}
+runSieve(Mention mention) {
+	PairInstance pair;
+	int mention_idx = mentions.indexOf(mention);
+	int ante_idx = -1;
+		
+	for (int idx = 0; idx < mention_idx; idx++) {			
+	    pair = new PairInstance(mention, mentions.get(idx));
+	        if (isRelativePronoun(pair) || isAcronym(pair) || isDemonym(pair) || isRoleAppositive(pair)){ 	            
+	            
+	            ante_idx = idx;
+			}
+		}
+		return ante_idx;
+}
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{isRoleAppositive}
+\begin{lstlisting}
+//[[actress] Rebecca Schaeffer]
+
+boolean isRoleAppositive(PairInstance pair) {
+    Mention mention = pair.getAnaphor();
+    Mention antecedent = pair.getAntecedent();
+    
+    if (mention.getProperName() && // check if person
+        isAnimate(antecedent) && // check if animate
+        !isNeutral(antecedent) && // check if neutral
+        mention.embeds(antecedent)) { // check if antecedent is contained in mention							
+            return true;
+		}
+		return false;
+	}
+\end{lstlisting}
+\end{frame}
 
 \begin{frame}
 \frametitle{Discourse Entity}
@@ -124,38 +224,8 @@ Grundsätzlich: System für Koreferenzresolution
 
 \end{frame}
 
-\begin{frame}
-\begin{figure}
-\begin{center}
-\includegraphics[width=8cm]{repository_structure.png}
-\caption{Struktur des \textit{repository}}
-\label{fig:repository}
-\end{center}
-\end{figure}
-\end{frame}
 
-\begin{frame}
-\begin{figure}
-\begin{center}
-\includegraphics[width=11cm]{class_hierarchy.png}
-\caption{Klassen-Hierarchie}
-\label{fig:class-hierarchy}
-\end{center}
-\end{figure}
-\end{frame}
-
-\begin{frame}
-\begin{figure}
-\begin{center}
-\includegraphics[width=11cm]{package_sieve.png}
-\caption{Struktur des \textit{package}}
-\label{fig:repository}
-\end{center}
-\end{figure}
-\end{frame}
-
-
-\section{Demonstration}
+\section{Demonstration!}
 \begin{frame}{Demo}
 Man sehe und staune! :)
 \end{frame}
@@ -198,48 +268,6 @@ Welches Sieve macht wie viel, eventuell Vergleich mit Stanford Sieves (welche Si
 \end{frame}
   
 
-\section{Zeitplan}
-
-\begin{frame}
-
-    \begin{gantt}{10}{9}
-    \begin{ganttitle}
-      \titleelement{Mai}{1}
-      \titleelement{Juni}{4}
-      \titleelement{Juli}{4}
-    \end{ganttitle}
-    \begin{ganttitle}
-      \titleelement{27.05.}{1}
-      \titleelement{03.06.}{1}
-      \titleelement{10.06.}{1}
-      \titleelement{17.06.}{1}
-      \titleelement{24.06.}{1}      
-      \titleelement{01.07.}{1}
-      \titleelement{08.07.}{1}
-      \titleelement{15.07.}{1}
-      \titleelement{22.07.}{1}
-    \end{ganttitle}
-    \ganttbar{Pipeline läuft}{0}{2}
-    \ganttmilestone[color=blue]{1. \textit{Sieve} läuft}{2}
-    \ganttbar{\textit{Sieves} einfügen}{2}{3}
-    \ganttmilestone[color=blue]{\textit{Sieves} laufen}{5}
-    \ganttbar{Evaluation}{5}{3}
-    \ganttbar[color=blue]{Bugfixes}{2}{6}
-    \ganttbar{Präsentation}{7}{1}
-    \ganttbar[color=blue]{Dokumentation}{5}{4}
-  \end{gantt}
-  
-\end{frame}
-
-\begin{frame}
-\begin{figure}
-\begin{center}
-\includegraphics[width=11cm]{contributions_to_master.jpg}
-\caption{Commits von 04.05. - 22.07.14}
-\label{fig:contributions}
-\end{center}
-\end{figure}
-\end{frame}
 
 
 \section{Lessons learned, Probleme}
