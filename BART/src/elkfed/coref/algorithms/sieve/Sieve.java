@@ -368,8 +368,13 @@ public abstract class Sieve {
 	 */
 	public boolean genderAgreement(PairInstance pair) {
 
-		if (FE_Gender.getGender(pair).equals(TriValued.TRUE)) {
-			return true;
+		for (Gender g: pair.getAnaphor().getDiscourseEntity().getGenders()){
+			//if (g.equals(Gender.UNKNOWN) && !pair.getAntecedent().getGender().equals(Gender.UNKNOWN)){
+				//return true;
+			//}
+			if (pair.getAntecedent().getGender().equals(g)){
+				return true;
+			}
 		}
 		return false;
 
@@ -384,14 +389,18 @@ public abstract class Sieve {
 	 */
 
 	public boolean numberAgreement(PairInstance pair) {
-		if (pair.getAnaphor().getNumber().equals(Number.UNKNOWN) || pair.getAntecedent().getNumber().equals(Number.UNKNOWN)){
+		Number mNumber = pair.getAnaphor().getNumberLabel();
+		Number anteNumber = pair.getAntecedent().getNumberLabel();
+		
+		if (mNumber.equals(Number.UNKNOWN) || anteNumber.equals(Number.UNKNOWN)){
 			return true;
-		}
-		if (pair.getAnaphor().getNumber().equals(pair.getAntecedent().getNumber())) {
+			}
+			
+		if (anteNumber == mNumber) {
 			return true;
 		}
 		return false;
-	}
+	 }
 
 	/**
 	 * 
@@ -860,11 +869,12 @@ public abstract class Sieve {
 					.getSentenceTree()
 					.toString()
 					.matches(
-							"\\(Start(.*)\\([VM]F \\(NX \\(PPER [Ee]s\\)\\)\\)(.*)")) {
+							"\\(Start(.*)\\([VM]F \\(NX \\(PPER [Ee]s\\)(.*)")) {
 				return true;
 			}
 		}
-
+		
+		
 		return false;
 
 	}
