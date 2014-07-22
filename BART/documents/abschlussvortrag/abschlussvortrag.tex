@@ -255,6 +255,19 @@ Man sehe und staune! :)
 
 
 \section{Evaluation}
+\begin{frame}{Vergleich mit BART (Deutsch) und Stanford (Englisch)}
+\begin{table}[h]
+\begin{tabular}{l||ll|l}
+               & \textbf{Recall}		 & \textbf{Precision} & \textbf{F\_1}    \\ \hline
+Unser System 	& 0.496      & 0.630              & \textbf{0.555}  \\
+BART  & 0.705 		 & 0.401     & \textbf{0.511}    \\ 
+Stanford & 0.596   & 0.609      & \textbf{0.603}
+          
+\end{tabular}
+\caption{MUC-Score unseres Systems, BART (SemEval-2010 Task 1) und  des Stanford-Systems (CoNLL 2011) im Vergleich} 
+\end{table}
+\end{frame}
+
 \begin{frame}{Vergleich der MUC-Scores: unser System, Stanfordsystem}
 \begin{table}[h]
 \begin{tabular}{l||lll || lll}
@@ -262,41 +275,25 @@ Man sehe und staune! :)
  & \multicolumn{3}{c||}{Unser System}& \multicolumn{3}{c}{Stanford} \\ \hline
 
                         SIEVES    & \textbf{R} & \textbf{P} & \textbf{F} 	& \textbf{R}   & \textbf{P} & \textbf{F} \\ \hline
-SpeakerIdentification       & .05            & .360              & .010          	& .87    & .727      & .155  \\
-+StringMatch      & .138           & .748              & .232          	& .295   & .718      & .419  \\
+SpeakerIdentification       & .05            & .360              & \textbf{.010}          	& .87    & .727      & \textbf{.155}  \\
++StringMatch      & .138           & .748              & \textbf{.232}          	& .295   & .718      & \textbf{.419}  \\
 +RelaxedStringMatch         & .149           & .740              & .248         	& .297   & .712      & .419   \\
-+PreciseConstructs & .200           & .759     & .317           	& .302   & .710      & .423  \\
++PreciseConstructs & .200           & .759     & \textbf{.317}           	& .302   & .710      & \textbf{.423}  \\
 +StrictHeadMatchA  & .282           & .714              & .404          	& .344   & .661      & .452  \\
 +StrictHeadMatchB  & .334           & .672              & .446          	& .349   & .658      & .456   \\
-+StrictHeadMatchC           & .344           & .661              & .453           	& .358   & .64       & .459 \\
++StrictHeadMatchC           & .344           & .661              & .453           	& .358   & .640       & .459 \\
 +ProperHeadNounMatch        & .348           & .663     & .456            	& .362   & .635      & .461  \\
 +RelaxedHeadMatch           & .371           & .669              & .478           	& .367   & .632      & .465   \\
-+PronounMatch		    & .496           & .630              & .555 	& .596   & .609      & .603     
++PronounMatch		    & .496           & .630              & \textbf{.555} 	& .596   & .609      & \textbf{.603}     
 \end{tabular}
 \end{table}
 \end{frame}
-
-
-
-\begin{frame}{Vergleich mit BART (Deutsch) und Stanford (Enfglisch)}
-\begin{table}[h]
-\begin{tabular}{l||lll}
-             	& RECALL		 & PRECISION & F\_1    \\ \hline
-Unser Ergebnis 	& 0.496      & 0.630              & \textbf{0.555}  \\
-BART  & 0.705 		 & 0.401     & \textbf{0.511}    \\ 
-Stanford & 0.596   & 0.609      & \textbf{0.603}
-          
-\end{tabular}
-\caption{MUC-Score BART SemEval-2010 Task 1 im Vergleich} 
-\end{table}
-\end{frame}
-
 
 \begin{frame}{Sieve Performanz: MUC-Score, TueBa-D/Z 1-100}
 \begin{table}[h]
 \begin{tabular}{l||c|c}
-                           & \textbf{Total Mentions} & \textbf{correct Links} \\
-                          &\textbf{Linked}			&\\ \hline
+                           & \textbf{Total mentions} & \textbf{Correct links} \\
+                          &\textbf{linked}			&\\ \hline
 SpeakerIdentificationSieve & 25                             & 9                      \\
 StringMatchSieve           & 312                            & 243   					\\
 RelaxedStringMatchSieve    & 37                             & 24                     \\
@@ -310,10 +307,6 @@ PronounMatchSieve          & 425                            & 170               
 \end{tabular}
 \end{table}
 \end{frame}
-
-
-
-  
 
 \section{Zeitplan}
 
@@ -364,7 +357,7 @@ PronounMatchSieve          & 425                            & 170               
 \begin{itemize}
 \item EGit für Eclipse manchmal sehr buggy
 \item Konversionsfehler im Korpus $\rightarrow$ falscher Goldstandard
-\item Korpusunterschiede zwischen TüBa-D/Z und OntoNotes (bspw. keine \textit{singleton mentions} in OntoNotes)
+\item Korpusunterschiede zwischen TüBa-D/Z und OntoNotes (bspw. keine \textit{singleton mentions} in OntoNotes, keine \textit{mentions} in Appositionalkonstruktionen in TüBa-D/Z)
 \item parse-Level fehlte anfangs $\rightarrow$ Headfinder funktionierte nicht
 \item TüBaD/Z Headfinder funktionierte danach auch noch nicht einwandfrei $\rightarrow$ Regel in BART musste geändert werden
 \item \texttt{getNumber()} gab stets \texttt{Singular} zurück
