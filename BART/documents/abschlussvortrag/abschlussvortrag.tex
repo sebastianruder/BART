@@ -59,7 +59,7 @@ Grundsätzlich: System für Koreferenzresolution
 \item Vorher: BART
 \item Nachher: BART mit neuem Ansatz
 \begin{itemize}
-\item Implementierung von vorwiegend regelbasiertem System der Stanford-NLP-Gruppe
+\item Implementierung des regelbasierten Systems der Stanford-NLP-Gruppe
 \item Bestes Ergebnis bei CoNLL-2011 shared task
 \item 10 zu implementierende Sieves, zunächst nur für das Deutsche
 \end{itemize}
@@ -380,9 +380,10 @@ PronounMatchSieve          & 425                            & 170               
 \begin{itemize}
 \item EGit für Eclipse manchmal sehr buggy
 \item Konversionsfehler im Korpus $\rightarrow$ falscher Goldstandard
+\item Korpusunterschiede zwischen TüBa-D/Z und OntoNotes (bspw. keine \textit{singleton mentions} in OntoNotes)
 \item parse-Level fehlte anfangs $\rightarrow$ Headfinder funktionierte nicht
-\item TüBaD/Z Headfinder hat danach auch noch nicht richtig funktioniert $\rightarrow$ Regel in BART musste geändert werden
-\item \texttt{getNumber()} gab stets \texttt{Singular} zurück 
+\item TüBaD/Z Headfinder funktionierte danach auch noch nicht einwandfrei $\rightarrow$ Regel in BART musste geändert werden
+\item \texttt{getNumber()} gab stets \texttt{Singular} zurück
 \end{itemize}
 $\rightarrow$ intimes Wissen des Systems zur Auflösung von technischen Diskrepanzen vonnöten
 
@@ -397,7 +398,7 @@ $\rightarrow$ Erweiterung des \texttt{GermanLanguagePlugins}, \texttt{GermanLing
 \item Stanford Code unübersichtlich / verwirrend modularisiert\\$\rightarrow$ wenig Anreiz sich daran zu orientieren
 \end{itemize}
 $\rightarrow$ Einarbeitung in ein fremdes System ist ein beträchtlicher, kontinuierlicher Zeitaufwand\\
-$\rightarrow$ Ein Ansprechpartner, der in das System einführen und bei systemspezifischen Fragen Hilfestellung geben kann, ist sehr wertvoll\\
+$\rightarrow$ Ein Ansprechpartner mit System-Wissen, der eine Einführung und Hilfestellung bieten kann, ist sehr wertvoll\\
 $\rightarrow$ Nachvollziehbare Dokumentation daher umso wichtiger!
 \end{frame}
 
