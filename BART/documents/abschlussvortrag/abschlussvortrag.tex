@@ -48,6 +48,7 @@
 \maketitle
 
 \section{Einführung}
+
 \begin{frame}{Inhalt}
 \tableofcontents
 \end{frame}
@@ -95,7 +96,6 @@ Grundsätzlich: System für Koreferenzresolution
 	\end{itemize}
 
 \end{itemize}
-
 \end{frame}
 
 \begin{frame}{Organisation} 
@@ -257,8 +257,8 @@ Man sehe und staune! :)
 \section{Evaluation}
 \begin{frame}{Insgesamt}
 \begin{table}[h]
-\begin{tabular}{llll}
-                            & \textbf{Recall} & \textbf{Precision} & \textbf{F-Score} \\
+\begin{tabular}{l||lll}
+                            & \textbf{Recall} & \textbf{Precision} & \textbf{F-Score} \\ \hline
 SpeakerIdentification       & 0.05            & 0.360              & 0.010            \\
 \textbf{+StringMatch}       & 0.138           & 0.748              & 0.232            \\
 +RelaxedStringMatch         & 0.149           & 0.740              & 0.248            \\
@@ -273,6 +273,39 @@ SpeakerIdentification       & 0.05            & 0.360              & 0.010      
 \caption{MUC-Score, TueBa-D/Z 1-100}
 \end{table}
 \end{frame}
+
+\begin{frame}{Beitrag der einzelnen Sieves im Stanfordsystem}
+\begin{table}[h]
+\begin{tabular}{l||lll}
+                           & RECALL & PRECISION & F\_1 \\ \hline
+SpeakerIdentificationSieve & 8.7    & 72.7      & 15.5   \\
++StringMatchSieve           & 29.5   & 71.8      & 41.9   \\
++RelaxedStringMatchSieve    & 29.7   & 71.2      & 41.9   \\
++PreciseConstructSieve      & 30.2   & 71.0      & 42.3   \\
++StrictHeadMatchASieve      & 34.4   & 66.1      & 45.2  \\
++StrictHeadMatchBSieve      & 34.9   & 65.8      & 45.6   \\
++StrictHeadMatchCSieve      & 35.8   & 64.0      & 45.9   \\
++ProperHeadNounMatchSieve   & 36.2   & 63.5      & 46.1   \\
++RelaxedHeadMatchSieve      & 36.7   & 63.2      & 46.5   \\
++PronounMatchSieve          & 59.6   & 60.9      & 60.3   \\
+                          
+\end{tabular}
+\caption{Stanford Sieve für Englisch (OntoNotes)}
+\end{table}
+\end{frame}
+
+\begin{frame}{Direkter Vergleich mit BART Deutsch}
+\begin{table}[h]
+\begin{tabular}{l||lll}
+             	& RECALL		 & PRECISION & F\_1    \\ \hline
+Unser Ergebnis 	& 0.496      & 0.630              & \textbf{0.555}  \\
+open gold track & 0.705 		 & 0.401     & \textbf{0.511}   
+          
+\end{tabular}
+\caption{MUC-Score BART SemEval-2010 Task 1 im Vergleich} 
+\end{table}
+\end{frame}
+
 
 \begin{frame}{perSieve}
 \begin{table}[h]
@@ -295,36 +328,7 @@ PronounMatchSieve          & 425                            & 170               
 \end{frame}
 
 
-\begin{frame}{Vergleich mit Stanford Sieves + BART, conll 2011 shared task, Englisch}
-Stanford Sieves Englisch vs. BART vs. unser BART\\
 
-s. http://conll.cemantix.org/2011/
-\end{frame}
-
-\begin{frame}{Direkter Vergleich mit BART Deutsch}
-
-Beispiel BART
-
-\begin{tabular}{|c|c|c|c|}
-\hline 
-ID & RECALL & PRECISION & F1 \\ 
-\hline 
-export001 & 0.508 & 0.642 & 0.567 \\ 
-\hline 
-export002 & 0.467 & 0.778   & 0.584 \\ 
-\hline 
-export003 & 0.101 & 0.250 & 0.143 \\ 
-\hline 
-SCORER MUC-TOTAL & 0.457 & 0.637   & 0.532 \\
-\hline
-
-\end{tabular} 
-\end{frame}
-
-\begin{frame}{Vergleich der einzelnen Sieves}
-Welches Sieve macht wie viel, eventuell Vergleich mit Stanford Sieves (welche Sieves sind bei uns toll, welche bei Stanford?)
-
-\end{frame}
   
 
 \section{Zeitplan}
