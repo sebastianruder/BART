@@ -91,11 +91,22 @@ Grundsätzlich: System für Koreferenzresolution
 	\end{itemize}
 	\item Programmierumgebung
 	\begin{itemize}
-		\item Eclipse 4.3.2 mit IvyDE (\textit{dependency management}) sowie EGit und GitHub zur Versionskontrolle
+		\item Eclipse 4.3.2 mit IvyDE (\textit{dependency management}) s
 	\end{itemize}
 
 \end{itemize}
 
+\end{frame}
+
+\begin{frame}{Organisation} 
+	\begin{itemize}
+	\item Versionskontrolle: Github mit Egit
+	\item Einmal wöchentlich regelmäßiges Treffen, sonst nach Absprache
+	\item GoogleDocs Dokument um Besprochenes und Ziele/Aufgaben festzuhalten
+	\item Skype/WhatsApp Gruppe
+	\item \textbf{Email!!!}
+	
+	\end{itemize}
 \end{frame}
 \section{Module}
 
@@ -191,19 +202,18 @@ public DisjointSet<Mention> decodeDocument(List<Mention> mentions,Map<Mention, M
 \begin{frame}[fragile]
 \frametitle{PreciseConstructsSieve}
 \begin{lstlisting}
-runSieve(Mention mention) {
-	PairInstance pair;
-	int mention_idx = mentions.indexOf(mention);
-	int ante_idx = -1;
+int runSieve(Mention mention) {
+    PairInstance pair;
+    int mention_idx = mentions.indexOf(mention);
+    int ante_idx = -1;
 		
-	for (int idx = 0; idx < mention_idx; idx++) {			
-	    pair = new PairInstance(mention, mentions.get(idx));
-	        if (isRelativePronoun(pair) || isAcronym(pair) || isDemonym(pair) || isRoleAppositive(pair)){ 	            
-	            
-	            ante_idx = idx;
-			}
-		}
-		return ante_idx;
+    for (int idx = 0; idx < mention_idx; idx++) {			
+        pair = new PairInstance(mention, mentions.get(idx));
+        if (isRelativePronoun(pair) || isAcronym(pair) || isDemonym(pair) || isRoleAppositive(pair)){            
+            ante_idx = idx;
+        }
+    }
+    return ante_idx;
 }
 \end{lstlisting}
 \end{frame}
@@ -260,24 +270,27 @@ SpeakerIdentification       & 0.05            & 0.360              & 0.010      
 +RelaxedHeadMatch           & 0.371           & 0.669              & 0.478            \\
 \textbf{+PronounMatch}      & 0.496           & 0.630              & \textbf{0.555}       
 \end{tabular}
+\caption{MUC-Score, TueBa-D/Z 1-100}
 \end{table}
 \end{frame}
 
 \begin{frame}{perSieve}
 \begin{table}[h]
-\begin{tabular}{lll}
-                           & \textbf{Total Mentions Linked} & \textbf{correct Links} \\
-ProperHeadNounMatchSieve   & 8                              & 5                      \\
-StrictHeadMatchCSieve      & 53                             & 24                     \\
-StrictHeadMatchBSieve      & 197                            & 99                     \\
-PreciseConstructSieve      & 115                            & 94                     \\
+\begin{tabular}{lcc}
+                           & \textbf{Total Mentions} & \textbf{correct Links} \\
+                          &\textbf{Linked}			&\\
 SpeakerIdentificationSieve & 25                             & 9                      \\
-PronounMatchSieve          & 425                            & 170                    \\
-StrictHeadMatchASieve      & 243                            & 151                    \\
-RelaxedHeadMatchSieve      & 68                             & 52                     \\
+StringMatchSieve           & 312                            & 243   					\\
 RelaxedStringMatchSieve    & 37                             & 24                     \\
-StringMatchSieve           & 312                            & 243                   
+PreciseConstructSieve      & 115                            & 94                     \\
+StrictHeadMatchASieve      & 243                            & 151                    \\
+StrictHeadMatchBSieve      & 197                            & 99                     \\
+StrictHeadMatchCSieve      & 53                             & 24                     \\
+RelaxedHeadMatchSieve      & 68                             & 52                     \\
+ProperHeadNounMatchSieve   & 8                              & 5                      \\
+PronounMatchSieve          & 425                            & 170                    \\
 \end{tabular}
+\caption{MUC-Score, TueBa-D/Z 1-100}
 \end{table}
 \end{frame}
 
