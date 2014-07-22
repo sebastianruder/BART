@@ -11,30 +11,6 @@
 \usepackage{gantt}
 \usepackage{pgf-umlcd}
 
-\usepackage{listings}
-\usepackage{color}
-
-\definecolor{dkgreen}{rgb}{0,0.6,0}
-\definecolor{gray}{rgb}{0.5,0.5,0.5}
-\definecolor{mauve}{rgb}{0.58,0,0.82}
-
-\lstset{frame=tb,
-  language=Java,
-  aboveskip=3mm,
-  belowskip=3mm,
-  showstringspaces=false,
-  columns=flexible,
-  basicstyle={\small\ttfamily},
-  numbers=none,
-  numberstyle=\tiny\color{gray},
-  keywordstyle=\color{blue},
-  commentstyle=\color{dkgreen},
-  stringstyle=\color{mauve},
-  breaklines=true,
-  breakatwhitespace=true
-  tabsize=3
-}
-
 \usetheme{Berlin}
 \author{Julian Baumann, Xenia Kühling, Sebastian Ruder}
 \title{Koreferenzresolution mit BART}
@@ -124,82 +100,6 @@ Grundsätzlich: System für Koreferenzresolution
 
 \end{tikzpicture}
 \end{frame}
-\begin{frame}[fragile]
-\begin{lstlisting}
-public DisjointSet<Mention> decodeDocument(List<Mention> mentions,Map<Mention, Mention> antecedents) {   		
-    Sieve sieve;        
-    for (int walk_through = 1; walk_through < 11; walk_through++) {       	
-        	//all Mentions or only first Mentions  
-        List<Mention> mentionsToResolve;  
-        sieve = _factory.createSieve(walk_through, mentions);
-        for (int i = 0; i < mentionsToResolve.size(); i++) {		    	
-            int ante_idx = sieve.runSieve(mentions.get(i));
-            if (ante_idx != -1) {
-                //merge Entities
-        }        _
-	    return mention_clusters;
-	}
-\end{lstlisting}
-
-\end{frame}
-
-\begin{frame}[fragile]
-\frametitle{Sieve}
-\begin{lstlisting}
-	public abstract class Sieve {
-
-	protected String name; // name of sub class	
-	protected List<Mention> mentions;
-	 
-	abstract int runSieve(Mention mention);
-	
-	public String getName() {
-	    return this.name;
-		
-	//various helping Methods
-	}
-\end{lstlisting}
-\end{frame}
-
-\begin{frame}[fragile]
-\frametitle{PreciseConstructsSieve}
-\begin{lstlisting}
-runSieve(Mention mention) {
-	PairInstance pair;
-	int mention_idx = mentions.indexOf(mention);
-	int ante_idx = -1;
-		
-	for (int idx = 0; idx < mention_idx; idx++) {			
-	    pair = new PairInstance(mention, mentions.get(idx));
-	        if (isRelativePronoun(pair) || isAcronym(pair) || isDemonym(pair) || isRoleAppositive(pair)){ 	            
-	            
-	            ante_idx = idx;
-			}
-		}
-		return ante_idx;
-}
-\end{lstlisting}
-\end{frame}
-
-\begin{frame}[fragile]
-\frametitle{isRoleAppositive}
-\begin{lstlisting}
-//[[actress] Rebecca Schaeffer]
-
-boolean isRoleAppositive(PairInstance pair) {
-    Mention mention = pair.getAnaphor();
-    Mention antecedent = pair.getAntecedent();
-    
-    if (mention.getProperName() && // check if person
-        isAnimate(antecedent) && // check if animate
-        !isNeutral(antecedent) && // check if neutral
-        mention.embeds(antecedent)) { // check if antecedent is contained in mention							
-            return true;
-		}
-		return false;
-	}
-\end{lstlisting}
-\end{frame}
 
 \begin{frame}
 \frametitle{Discourse Entity}
@@ -224,8 +124,38 @@ boolean isRoleAppositive(PairInstance pair) {
 
 \end{frame}
 
+\begin{frame}
+\begin{figure}
+\begin{center}
+\includegraphics[width=8cm]{repository_structure.png}
+\caption{Struktur des \textit{repository}}
+\label{fig:repository}
+\end{center}
+\end{figure}
+\end{frame}
 
-\section{Demonstration!}
+\begin{frame}
+\begin{figure}
+\begin{center}
+\includegraphics[width=11cm]{class_hierarchy.png}
+\caption{Klassen-Hierarchie}
+\label{fig:class-hierarchy}
+\end{center}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\begin{figure}
+\begin{center}
+\includegraphics[width=11cm]{package_sieve.png}
+\caption{Struktur des \textit{package}}
+\label{fig:repository}
+\end{center}
+\end{figure}
+\end{frame}
+
+
+\section{Demonstration}
 \begin{frame}{Demo}
 Man sehe und staune! :)
 \end{frame}
