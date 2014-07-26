@@ -26,14 +26,16 @@ public class PronounMatchSieve extends Sieve {
 		this.name = "PronounMatchSieve";
 	}
 
-	private List<Integer> getAntecedentIdx(Mention m ) {
+	private List<Mention> getAntecedents(Mention m ) {
 		//Kataphern noch berücksichtigen??
-		List<Integer> anteIdx = new ArrayList<>();
-		for (int idx = mentions.indexOf(m); idx > 0; idx--) {
+		List<Mention> anteIdx = new ArrayList<>();
+		for (int idx = mentions.indexOf(m) ; idx > 0; idx--) {
 			
 			Mention ante = mentions.get(idx);
 			PairInstance pair = new PairInstance(m, ante);
-
+			if(IWithinI(pair)) {
+				continue;
+			}
 			if(FE_SentenceDistance.getSentDist(pair) > 3) {
 				continue;
 			}
@@ -43,9 +45,7 @@ public class PronounMatchSieve extends Sieve {
 			if (m.getReflPronoun() && !isAnimate(ante)) {
 				continue;
 			}
-			if (m.getPersPronoun() && isInCooargumentDomain(pair)) {
-				continue;
-			}
+			
 			if (!numberAgreement(pair) || !genderAgreement(pair)) {
 				continue;
 			}
@@ -57,7 +57,8 @@ public class PronounMatchSieve extends Sieve {
 					(!FE_Speech.isMentionInSpeech(pair.getAntecedent()) && FE_Speech.isMentionInSpeech(pair.getAnaphor()))){
 					continue;
 					}
-			anteIdx.add(idx);
+			
+			anteIdx.add(mentions.get(idx));
 			
 		}
 		return anteIdx;
@@ -86,16 +87,32 @@ public class PronounMatchSieve extends Sieve {
 			return -1;
 		}
 		
-		List<Integer> antecedents = getAntecedentIdx(mention);
+		List<Mention> antecedents = getAntecedents(mention);
 		System.out.println(antecedents);
 		if (antecedents.isEmpty()) {
 			return -1;
 		}
+		if (antecedents.size() == 1) {
+			return mentions.indexOf(antecedents.get(0));
+		}
 		
-		//hier könnte man jetzt noch ein Ranking machen. 
-		//da wir aber die Grammatischen Funktionen nicht zur Verfügung haben,
-		//wusste ich nicht so wirklich was man alles scoren könnte :/
-		return antecedents.get(0);
+		
+		int sentDist = FE_SentenceDistance.getSentDist(new PairInstance(mention, antecedents.get(0)));
+		if (sentDist == 0) {
+			return mentions.indexOf(antecedents.get(0));	
+		} else {
+			int idx = 1;
+			while (FE_SentenceDistance.getSentDist(new PairInstance(mention, antecedents.get(idx))) == sentDist ) {
+				idx ++;
+				if (idx >= antecedents.size()) {
+					return mentions.indexOf(antecedents.get(idx - 1));
+				}
+			}
+			return mentions.indexOf(antecedents.get(idx-1));
+			
+		}
+		
+		
 		
 	}
 
