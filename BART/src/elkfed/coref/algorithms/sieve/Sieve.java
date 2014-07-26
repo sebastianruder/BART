@@ -918,4 +918,24 @@ public abstract class Sieve {
 		return pair.getAntecedent().getMarkable().getDiscourseElements().length >=
 				pair.getAnaphor().getMarkable().getDiscourseElements().length;
 	}
+	public static boolean isInCooargumentDomain(PairInstance pair) {
+		if (FE_SentenceDistance.getSentDist(pair) > 0) {
+			return false;
+		}
+		Mention m = pair.getAnaphor();
+		Mention ante = pair.getAntecedent();
+		
+		Tree sentenceTree = m.getSentenceTree();
+		Tree joinedTree = sentenceTree.joinNode(m.getHighestProjection(), ante.getHighestProjection());
+		List<Tree> domPathMention = joinedTree.dominationPath(m.getHighestProjection());
+		//List<Tree> domPathAnte = joinedTree.dominationPath(ante.getHighestProjection());
+		for(Tree node: domPathMention) {
+			if (node.value().equals("SIMPX") && node != joinedTree) {
+				return false;
+			}
+		}
+		return true;
+	}
+		
+	
 }
