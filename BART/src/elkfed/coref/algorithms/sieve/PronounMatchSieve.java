@@ -26,17 +26,17 @@ public class PronounMatchSieve extends Sieve {
 		this.name = "PronounMatchSieve";
 	}
 
-	private List<Mention> getAntecedents(Mention m ) {
-		//Kataphern noch berücksichtigen??
+	private List<Mention> getAntecedents(Mention m) {
+		// Kataphern noch berücksichtigen??
 		List<Mention> anteIdx = new ArrayList<>();
-		for (int idx = mentions.indexOf(m) ; idx > 0; idx--) {
-			
+		for (int idx = mentions.indexOf(m); idx > 0; idx--) {
+
 			Mention ante = mentions.get(idx);
 			PairInstance pair = new PairInstance(m, ante);
-			if(IWithinI(pair)) {
+			if (IWithinI(pair)) {
 				continue;
 			}
-			if(FE_SentenceDistance.getSentDist(pair) > 3) {
+			if (FE_SentenceDistance.getSentDist(pair) > 3) {
 				continue;
 			}
 			if (m.getReflPronoun() && !isInCooargumentDomain(pair)) {
@@ -45,48 +45,53 @@ public class PronounMatchSieve extends Sieve {
 			if (m.getReflPronoun() && !isAnimate(ante)) {
 				continue;
 			}
-			
+			// if (m.getPersPronoun() && isInCooargumentDomain(pair)) {
+			// continue;
+			// }
 			if (!numberAgreement(pair) || !genderAgreement(pair)) {
 				continue;
 			}
-			//VorfeldEs Methode könnte man noch verbessern (analog zu  EnglishLanguagePlugin.isExplitiveRB())
-			if(isVorfeldEs(ante) || ante.getReflPronoun()) {
+			// VorfeldEs Methode könnte man noch verbessern (analog zu
+			// EnglishLanguagePlugin.isExplitiveRB())
+			if (isVorfeldEs(ante) || ante.getReflPronoun()) {
 				continue;
 			}
-			if ((FE_Speech.isMentionInSpeech(pair.getAntecedent()) && !FE_Speech.isMentionInSpeech(pair.getAnaphor())) ||
-					(!FE_Speech.isMentionInSpeech(pair.getAntecedent()) && FE_Speech.isMentionInSpeech(pair.getAnaphor()))){
-					continue;
-					}
-			
+			if ((FE_Speech.isMentionInSpeech(pair.getAntecedent()) && !FE_Speech
+					.isMentionInSpeech(pair.getAnaphor()))
+					|| (!FE_Speech.isMentionInSpeech(pair.getAntecedent()) && FE_Speech
+							.isMentionInSpeech(pair.getAnaphor()))) {
+				continue;
+			}
+
 			anteIdx.add(mentions.get(idx));
-			
+
 		}
 		return anteIdx;
 	}
-	
-//	private int scorePair(PairInstance pair) {
-//		Mention ante = pair.getAntecedent();
-//		
-//		int score = 0;
-//		if (FE_SentenceDistance.getSentDist(pair) == 0) {
-//			score += 20;
-//		}
-//		//Head - Bonus
-//		if (!ante.getHighestProjection().parent().equals("NX")) {
-//			score += 80;
-//		}
-//		
-//		
-//	}
+
+	// private int scorePair(PairInstance pair) {
+	// Mention ante = pair.getAntecedent();
+	//
+	// int score = 0;
+	// if (FE_SentenceDistance.getSentDist(pair) == 0) {
+	// score += 20;
+	// }
+	// //Head - Bonus
+	// if (!ante.getHighestProjection().parent().equals("NX")) {
+	// score += 80;
+	// }
+	//
+	//
+	// }
 
 	public int runSieve(Mention mention) {
 		if (!mention.getPronoun()) {
 			return -1;
 		}
-		if (mention.getRelPronoun() || isVorfeldEs(mention)){
+		if (mention.getRelPronoun() || isVorfeldEs(mention)) {
 			return -1;
 		}
-		
+
 		List<Mention> antecedents = getAntecedents(mention);
 		System.out.println(antecedents);
 		if (antecedents.isEmpty()) {
@@ -95,25 +100,21 @@ public class PronounMatchSieve extends Sieve {
 		if (antecedents.size() == 1) {
 			return mentions.indexOf(antecedents.get(0));
 		}
+
+		int sentDist = FE_SentenceDistance.getSentDist(new PairInstance(
+				mention, antecedents.get(0)));
 		
-		
-		int sentDist = FE_SentenceDistance.getSentDist(new PairInstance(mention, antecedents.get(0)));
-		if (sentDist == 0) {
-			return mentions.indexOf(antecedents.get(0));	
-		} else {
-			int idx = 1;
-			while (FE_SentenceDistance.getSentDist(new PairInstance(mention, antecedents.get(idx))) == sentDist ) {
-				idx ++;
-				if (idx >= antecedents.size()) {
-					return mentions.indexOf(antecedents.get(idx - 1));
-				}
+		//always take leftmost Antecedent in a Sentence
+		int idx = 1;
+		while (FE_SentenceDistance.getSentDist(new PairInstance(mention,
+				antecedents.get(idx))) == sentDist) {
+			idx++;
+			if (idx >= antecedents.size()) {
+				break;
 			}
-			return mentions.indexOf(antecedents.get(idx-1));
-			
 		}
-		
-		
-		
+		return mentions.indexOf(antecedents.get(idx - 1));
+
 	}
 
 }
