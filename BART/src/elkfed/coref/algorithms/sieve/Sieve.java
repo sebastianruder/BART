@@ -936,6 +936,68 @@ public abstract class Sieve {
 		}
 		return true;
 	}
+	
+	
+public boolean isSpeakerSpeechLeft(Mention mention){
+		
+		// this method tries to recognize all speakers that have speech to their left, e.g.:
+		// "...", so A
+		// "...", speech_verb A
+		
+		if (FE_Speech.isMentionInSpeech(mention)){ // speaker cannot be in speech
+			return false;
+		}
+		
+		// returns true if 5 lemmata left to mention contain so, ',' and '"' 
+		if (mention.getDiscourseElementsByLevelAndExtendedSpan("lemma", 5, 0).contains("so") && 
+				mention.getDiscourseElementsByLevelAndExtendedSpan("lemma", 5, 0).contains("\"") &&
+				mention.getDiscourseElementsByLevelAndExtendedSpan("lemma", 5, 0).contains(",")){
+			return true;
+		}
+		
+		// returns true if 2 lemmata left to mention containa speech verb
+		for (String word: mention.getDiscourseElementsByLevelAndExtendedSpan("lemma", 2, 0)){
+			if (langPlugin.isInSpeechVerbList(word)){
+				return true;
+			}
+		}
+		
+		
+		
+		return false;
+		
+		
+	}
+	
+	
+	public boolean isSpeakerSpeechRight(Mention mention){
+		
+		// this method tries to recognize all speakers that have speech to their right, e.g.:
+		// A: "..."
+		// A speech_verb (:) "..."
+		
+		if (FE_Speech.isMentionInSpeech(mention)){ // speaker cannot be in speech
+			return false;
+		}
+				
+		// returns true if 5 lemmate right to mention contain ':' and '"'
+		if (mention.getDiscourseElementsByLevelAndExtendedSpan("lemma", 0, 3).contains(":") && 
+				mention.getDiscourseElementsByLevelAndExtendedSpan("lemma", 0, 3).contains("\"") 
+				){
+			return true;
+		}
+		
+		// returns true if 2 lemmata right to mention containa speech verb
+		for (String word: mention.getDiscourseElementsByLevelAndExtendedSpan("lemma", 0 , 2)){
+			if (langPlugin.isInSpeechVerbList(word)){
+				return true;
+			}
+		}
+		
+		return false;
+
+	}
+	
 		
 	
 }

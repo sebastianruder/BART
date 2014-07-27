@@ -48,26 +48,37 @@ public class SpeakerIdentificationSieve extends Sieve {
 	}
 
 	@Override
-	public int runSieve(Mention mention){	
+	public int runSieve(Mention mention){
+		
+		PairInstance pair;
+		int mention_idx = mentions.indexOf(mention);
 		int ante_idx = -1;
 		
-
-		for (int idx = 0; idx < mentions.size(); idx++){ // antecedences in speech can occur before and after a mention
-			Mention ante = mentions.get(idx);
-			PairInstance pair = new PairInstance(mention, ante);
+		for (int idx = 0; idx < mention_idx; idx++) {			
+			pair = new PairInstance(mention, mentions.get(idx));
+			Mention ante = pair.getAntecedent();
 			
-			String anteString = ante.getMarkable().toString().replace("[", "").replace("]", "");
-
-		// antecedences have to be in the same or a neighbouring sentence
-		// mention has to be a speaker
-		// antecendent has to in speech AND a (personal) pronoun	
-		// further constraints to be implemented (see header)	
-			if (FE_SentenceDistance.getSentDist(pair) < 2 && isSpeaker(mention) && FE_Speech.isMentionInSpeech(ante) && !isVorfeldEs(ante)){
-				if (anteString.matches(GermanLinguisticConstants.FIRSTPERSON_SG_PRONOUNS) || anteString.matches(GermanLinguisticConstants.SECONDPERSON_SG_PRONOUNS) || anteString.matches(GermanLinguisticConstants.FIRSTPERSON_PL_PRONOUNS) || anteString.matches(GermanLinguisticConstants.SECONDPERSON_PL_PRONOUNS)){          
-					ante_idx = idx;
+			if (isVorfeldEs(mention) || isVorfeldEs(ante)){ 
+				return ante_idx; 
+			}
+			
+			if (FE_Speech.isMentionInSpeech(mention) && isSpeakerSpeechRight(ante)){
+				if (mention.getPronoun() && !mention.getReflPronoun() && !mention.getRelPronoun()){
+					if (numberAgreement(pair)){
+						ante_idx = idx;
+					}
+				}
+			}
+			
+			if (FE_Speech.isMentionInSpeech(ante) && isSpeakerSpeechLeft(mention)){
+				if (ante.getPronoun() && !ante.getReflPronoun() && !ante.getRelPronoun()){
+					if (numberAgreement(pair)){
+						ante_idx = idx;
+					}
 				}
 			}
 		}
+			
 		return ante_idx;
 	}
 }
