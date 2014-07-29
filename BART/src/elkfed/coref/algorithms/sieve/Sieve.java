@@ -272,31 +272,40 @@ public abstract class Sieve {
 	 * @return true or false;
 	 */
 	boolean isAcronym(PairInstance pair) {
-		String mention = pair.getAnaphor().toString();
-		String antecedent = pair.getAntecedent().toString();
-		return checkOneWayAcronym(mention, antecedent)
-				|| checkOneWayAcronym(antecedent, mention);
+		Mention mention = pair.getAnaphor();
+		Mention antecedent = pair.getAntecedent();
+		if (mention.toString().toUpperCase().equals(mention.toString())) {
+			return checkOneWayAcronym(mention, antecedent);
+		}
+		else if (antecedent.toString().toUpperCase().equals(antecedent.toString())) {
+			return checkOneWayAcronym(antecedent, mention);
+		}
+		return false;		
 	}
 
 	/**
 	 * Checks if one string is an acronym of the other string
 	 * 
 	 * @param acronym
-	 *            String thought to be an acronym
+	 *            acronym mention
 	 * @param expression
-	 *            String whose initials are thought to form said acronym
+	 *            mention whose initials could form said acronym
 	 * @return true or false
 	 */
-	boolean checkOneWayAcronym(String acronym, String expression) {
-		if (acronym.toUpperCase().equals(acronym)) {
-			String initials = "";
-			for (String word : expression.split(" ")) {
-				initials += word.substring(0, 1).toUpperCase();
-			}
-			if (acronym.equals(initials)) {
-				System.out.println("ACRONYM");
-				return true;
-			}
+	boolean checkOneWayAcronym(Mention acronym, Mention expression) {
+		String initials = "";
+		String[] split_expression;
+		if (expression.toString().contains("-")) {
+			split_expression = expression.getHeadString().split("-");
+		}
+		else {
+			split_expression = expression.toString().split(" ");
+		}
+		for (String word : split_expression) {
+			initials += word.substring(0, 1).toUpperCase();
+		}
+		if (acronym.toString().equals(initials)) {
+			return true;
 		}
 		return false;
 	}
