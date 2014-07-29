@@ -16,7 +16,7 @@ import elkfed.lang.LanguagePlugin;
  *
  *
  * CONSTRAINTS TO BE IMPLEMENTED:
- * I  assigned to the same speaker are coreferent.
+ * I assigned to the same speaker are coreferent.
  * you with the same speaker are coreferent.
  * The speaker and I in her text are coreferent.
  *
@@ -25,22 +25,13 @@ import elkfed.lang.LanguagePlugin;
  * Two different person pronouns by the same speaker cannot be coreferent.
  * Nominal mentions cannot be coreferent with I, you, or we in the same turn or quotation.
  * In conversations, you can corefer only with the previous speaker.
- *The constraints result in causing [my] and [he] to not be coreferent in the earlier example (due to the third constraint).
- * 
- * @see SieveUtilities#isSpeaker(Mention)
- * @see FE_SentenceDistance#getSentDist(PairInstance)
- * @see FE_Speech#isMentionInSpeech(Mention)
- * @see Mention#getPersPronoun()
- * @see SieveUtilities#isVorfeldEs(Mention)
+ * The constraints result in causing [my] and [he] to not be coreferent in the earlier example (due to the third constraint).
  * 
  * @author Xenia
  */
 
 
 public class SpeakerIdentificationSieve extends Sieve {
-	
-	private static final LanguagePlugin langPlugin = ConfigProperties
-			.getInstance().getLanguagePlugin();
 	
 	public SpeakerIdentificationSieve(List<Mention> mentions) {
 		this.mentions = mentions;
@@ -49,7 +40,6 @@ public class SpeakerIdentificationSieve extends Sieve {
 
 	@Override
 	public int runSieve(Mention mention){
-		
 		PairInstance pair;
 		int mention_idx = mentions.indexOf(mention);
 		int ante_idx = -1;
@@ -61,24 +51,19 @@ public class SpeakerIdentificationSieve extends Sieve {
 			if (isVorfeldEs(mention) || isVorfeldEs(ante)){ 
 				return ante_idx; 
 			}
-			
-			if (FE_Speech.isMentionInSpeech(mention) && isSpeakerSpeechRight(ante)){
-				if (mention.getPronoun() && !mention.getReflPronoun() && !mention.getRelPronoun()){
-					if (numberAgreement(pair)){
+			if (numberAgreement(pair)) {
+				if (FE_Speech.isMentionInSpeech(mention) && isSpeakerSpeechRight(ante)){
+					if (mention.getPronoun() && !mention.getReflPronoun() && !mention.getRelPronoun()){
 						ante_idx = idx;
 					}
 				}
-			}
-			
-			if (FE_Speech.isMentionInSpeech(ante) && isSpeakerSpeechLeft(mention)){
-				if (ante.getPronoun() && !ante.getReflPronoun() && !ante.getRelPronoun()){
-					if (numberAgreement(pair)){
+				else if (FE_Speech.isMentionInSpeech(ante) && isSpeakerSpeechLeft(mention)){
+					if (ante.getPronoun() && !ante.getReflPronoun() && !ante.getRelPronoun()){
 						ante_idx = idx;
 					}
 				}
 			}
 		}
-			
 		return ante_idx;
 	}
 }
