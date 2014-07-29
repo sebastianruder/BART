@@ -15,7 +15,7 @@ import elkfed.coref.mentions.Mention;
  * 		begins with (NP , NP), when there is not a conjunction
  * 		in the expansion.
  * 2. 	Predicate nominative: the two mentions (nominal or
- * 		pronominal) are in a copulative subjectï¿½object relation
+ * 		pronominal) are in a copulative subject-object relation
  * 		(e.g., [The New York-based College Board] is [a nonprofit
  * 		organization that administers the SATs and promotes
  * 		higher education]).
@@ -59,7 +59,7 @@ public class PreciseConstructSieve extends Sieve {
 			pair = new PairInstance(mention, mentions.get(idx));
 			if (isRelativePronoun(pair) || isAcronym(pair) || isDemonym(pair) || isRoleAppositive(pair)
 					// || isAppositive(pair)
-					// || isPredicateNominative(pair)
+					// || isPredicateNominative(pair) // no tagged copula constructions in TüBa-D/Z
 					){
 				ante_idx = idx;
 			}
