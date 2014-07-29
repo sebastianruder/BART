@@ -43,8 +43,6 @@ import elkfed.nlp.util.Number;
  */
 public abstract class Sieve {
 	
-
-
 	protected String name; // name of sub class
 	// list of antecedents/potential coreferents
 	protected List<Mention> mentions;
@@ -378,15 +376,14 @@ public abstract class Sieve {
 	public boolean genderAgreement(PairInstance pair) {
 
 		for (Gender g: pair.getAnaphor().getDiscourseEntity().getGenders()){
-			//if (g.equals(Gender.UNKNOWN) && !pair.getAntecedent().getGender().equals(Gender.UNKNOWN)){
-				//return true;
-			//}
-			if (pair.getAntecedent().getGender().equals(g)){
+			if (g.equals(Gender.UNKNOWN) || pair.getAntecedent().getGender().equals(g)
+					//the following line doesn't make a difference
+					//&& !pair.getAntecedent().getGender().equals(Gender.UNKNOWN)
+					) {
 				return true;
 			}
 		}
 		return false;
-
 	}
 
 	/**
