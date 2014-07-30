@@ -19,7 +19,6 @@ import static elkfed.lang.EnglishLinguisticConstants.DAYS_MONTHS_YEAR;
  * @author Sebastian
  *
  */
-
 public class RelaxedStringMatchSieve extends Sieve {
 	
 	public RelaxedStringMatchSieve(List<Mention> mentions) {
@@ -32,10 +31,12 @@ public class RelaxedStringMatchSieve extends Sieve {
 		int ante_idx = -1;
 		SemanticClass semclass = mention.getSemanticClass();
 		
-		if (contains_day_month_year(mention) || (!(contains_article(mention) || SemanticClass.isaPerson(semclass) || SemanticClass.isaObject(semclass)))) {
+		/* Constraints lower recall, slightly improve precision
+		if (contains_day_month_year(mention) || (!(contains_article(mention) ||
+				SemanticClass.isaPerson(semclass) || SemanticClass.isaObject(semclass)))) {
 			return ante_idx;
 		}
-		
+		*/
 		for (int idx = 0; idx < mention_idx; idx++){
 			PairInstance pair = new PairInstance(mention, mentions.get(idx));
 			if (mention.toString().equals(mentions.get(idx).toString())){
@@ -46,5 +47,4 @@ public class RelaxedStringMatchSieve extends Sieve {
 		}
 		return ante_idx;
 	}
-
 }

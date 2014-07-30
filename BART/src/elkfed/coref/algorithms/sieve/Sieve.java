@@ -37,6 +37,8 @@ import elkfed.nlp.util.Gender;
 import elkfed.nlp.util.Number;
 
 /**
+ * Abstract sieve class which provides utility methods and is inherited
+ * by all indiviual sieve classes
  * 
  * @author Xenia Kühling, Julian Baumann, Sebastian Ruder
  * 
@@ -52,15 +54,13 @@ public abstract class Sieve {
 	 * antecedent for mention in the list of mentions that was provided to the
 	 * sieve.
 	 * 
-	 * @param mention
-	 *            the mention whose antecedent is sought
+	 * @param mention the mention whose antecedent is sought
 	 * @return index of antecedent; -1 if no antecedent is found
 	 */
 	abstract int runSieve(Mention mention);
 
 	/**
-	 * Returns name of sieve
-	 * 
+	 * Returns sieve name
 	 * @return name of the sieve
 	 */
 	String getName() {
@@ -77,8 +77,7 @@ public abstract class Sieve {
 	 * Appositive constructions don't appear in TüBa-D/Z; here they form one
 	 * mention.
 	 * 
-	 * @param pair
-	 *            PairInstance of mention, antecedent
+	 * @param pair PairInstance of mention, antecedent
 	 * @return true or false
 	 */
 	boolean isAppositive(PairInstance pair) {
@@ -93,8 +92,7 @@ public abstract class Sieve {
 	 * Checks if mention and antecedent are in a copulative subject-object
 	 * relation
 	 * 
-	 * @param pair
-	 *            PairInstance of mention, antecedent
+	 * @param pair PairInstance of mention, antecedent
 	 * @return true or false
 	 */
 	boolean isPredicateNominative(PairInstance pair) {
@@ -108,8 +106,7 @@ public abstract class Sieve {
 	/**
 	 * Checks if mention and antecedent are in a role appositive construction
 	 * 
-	 * @param pair
-	 *            PairInstance of mention, antecedent
+	 * @param pair PairInstance of mention, antecedent
 	 * @return true or false
 	 */
 	boolean isRoleAppositive(PairInstance pair) {
@@ -136,8 +133,7 @@ public abstract class Sieve {
 	 * https://github.com/castiron/didh/tree/master/lib/vendor/snlp/dcoref;
 	 * German lists have been translated using Google Tranlate
 	 * 
-	 * @param mention
-	 *            mention
+	 * @param mention mention
 	 * @return true or false
 	 */
 	boolean isAnimate(Mention mention) {
@@ -179,8 +175,7 @@ public abstract class Sieve {
 	 * from https://github.com/castiron/didh/tree/master/lib/vendor/snlp/dcoref;
 	 * German lists have been translated using Google Tranlate
 	 * 
-	 * @param mention
-	 *            mention
+	 * @param mention a mention
 	 * @return true or false
 	 */
 	boolean isNeutral(Mention mention) {
@@ -207,8 +202,7 @@ public abstract class Sieve {
 	/**
 	 * Checks if the mention is a relative pronoun and modifies the antecedent.
 	 * 
-	 * @param pair
-	 *            PairInstance of mention, antecedent
+	 * @param pair PairInstance of mention, antecedent
 	 * @return true or false
 	 */
 	boolean isRelativePronoun(PairInstance pair) {
@@ -265,8 +259,7 @@ public abstract class Sieve {
 	/**
 	 * Checks if one mention is an acronym of the other mention and vice versa.
 	 * 
-	 * @param pair
-	 *            PairInstance of mention, antecedent
+	 * @param pair PairInstance of mention, antecedent
 	 * @return true or false;
 	 */
 	boolean isAcronym(PairInstance pair) {
@@ -284,10 +277,8 @@ public abstract class Sieve {
 	/**
 	 * Checks if one string is an acronym of the other string
 	 * 
-	 * @param acronym
-	 *            acronym mention
-	 * @param expression
-	 *            mention whose initials could form said acronym
+	 * @param acronym the acronym mention
+	 * @param expression the  mention whose initials could form said acronym
 	 * @return true or false
 	 */
 	boolean checkOneWayAcronym(Mention acronym, Mention expression) {
@@ -312,8 +303,7 @@ public abstract class Sieve {
 	 * Check if one expression is a demonym of the other using a static list of
 	 * countries and their gentilic forms from Wikipedia
 	 * 
-	 * @param pair
-	 *            PairInstance of mention, antecedent
+	 * @param pair PairInstance of mention, antecedent
 	 * @return true or false
 	 */
 	boolean isDemonym(PairInstance pair) {
@@ -337,11 +327,9 @@ public abstract class Sieve {
 	 * Compute if sentences in which mention and antecedent appear are not more
 	 * than 4 sentences apart.
 	 * 
-	 * @param pair
-	 *            PairInstance of mention, antecedent
+	 * @param pair PairInstance of mention, antecedent
 	 * @return true or false
 	 */
-
 	public boolean sentenceDistance(PairInstance pair) {
 		// FE_SentenceDistance sd = new FE_SentenceDistance();
 		if (FE_SentenceDistance.getSentDist(pair) < 4) {
@@ -353,24 +341,20 @@ public abstract class Sieve {
 	/**
 	 * Check if mention and antecedent are both in the same state of animacy
 	 * 
-	 * @param pair
-	 *            PairInstance of mention, antecedent
+	 * @param pair PairInstance of mention, antecedent
 	 * @return true or false
 	 */
-
 	public boolean animacyAgreement(PairInstance pair) {
 		if (isAnimate(pair.getAnaphor()) == isAnimate(pair.getAntecedent())) {
 			return true;
 		}
 		return false;
-
 	}
 
 	/**
 	 * Check if mention and antecedent have the same gender
 	 * 
-	 * @param pair
-	 *            PairInstance of mention, antecedent
+	 * @param pair PairInstance of mention, antecedent
 	 * @return true or false
 	 */
 	public boolean genderAgreement(PairInstance pair) {
@@ -387,13 +371,11 @@ public abstract class Sieve {
 	}
 
 	/**
-	 * Check if mention and antecedent have the same numerus (plural/ singular)
+	 * Check if mention and antecedent have the same number (plural/ singular)
 	 * 
-	 * @param pair
-	 *            PairInstance of mention, antecedent
+	 * @param pair PairInstance of mention, antecedent
 	 * @return true or false
 	 */
-
 	public boolean numberAgreement(PairInstance pair) {
 		Number mNumber = pair.getAnaphor().getNumberLabel();
 		Number anteNumber = pair.getAntecedent().getNumberLabel();
@@ -416,18 +398,15 @@ public abstract class Sieve {
 	 * (e.g., I and she point to the same person in â€œ[I] voted my
 	 * conscience,â€� [she] said).
 	 */
-
 	public void personAgreement(PairInstance pair) {
 		// missing
-
 	}
 
 	/**
 	 * Check if mention and antecedent belong to the same semantic class or
 	 * mention's or antecedent's semantic class equals "unknown"
 	 * 
-	 * @param pair
-	 *            PairInstance of mention, antecedent
+	 * @param pair PairInstance of mention, antecedent
 	 * @return true or false
 	 */
 	boolean NERAgreement(PairInstance pair) {
@@ -439,9 +418,7 @@ public abstract class Sieve {
 						.equals(SemanticClass.UNKNOWN))) {
 			return true;
 		}
-
 		return false;
-
 	}
 
 	/**
@@ -451,7 +428,6 @@ public abstract class Sieve {
 	 * @param ante
 	 * @return
 	 */
-
 	boolean IWithinI(PairInstance pair) {
 		
 		if (!isAppositive(pair) && !isRelativePronoun(pair)
