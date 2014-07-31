@@ -37,7 +37,7 @@
         <extractor name="de.FE_DistanceNodes"/>
 
         <extractor name="FE_HeadPartOfSpeech"/>
-        <extractor name="de.FE_HeadGrammaticalFunctions"/>
+        <!-- <extractor name="de.FE_HeadGrammaticalFunctions"/> -->
 
         <extractor name="de.FE_Syntax_Binding"/>
         <extractor name="FE_SemClassValue"/>
@@ -57,7 +57,7 @@
         <extractor name="de.FE_HeadMatch"/>
 
         <extractor name="FE_HeadPartOfSpeech"/>
-        <extractor name="de.FE_HeadGrammaticalFunctions"/>
+        <!-- <extractor name="de.FE_HeadGrammaticalFunctions"/> -->
 
         <extractor name="de.FE_Syntax_Binding"/>
         <extractor name="FE_SemClassValue"/>
