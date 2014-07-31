@@ -18,10 +18,16 @@ import elkfed.mmax.minidisc.Markable;
 import elkfed.mmax.minidisc.MarkableLevel;
 import elkfed.mmax.minidisc.MiniDiscourse;
 
+/**
+ * The Evaluation class
+ * 
+ * @author Julian Baumann, Xenia Kühling, Sebastian Ruder
+ * 
+ */
 public class Evaluation {
 	
-	private PrintWriter writer;
-	private List<Mention> mentions;
+	private PrintWriter writer; // writer writing the log file
+	private List<Mention> mentions; // a list of all mentions
 	public Map<Mention, Mention>  antecedents;
 	private Map<Mention, String> sieves;
 	
@@ -29,12 +35,23 @@ public class Evaluation {
 	public static Map<String, Integer> linksPerSieve = new HashMap<String, Integer>();
 	
 	
-	
+	/**
+	 * The constructor of the Evaluation class
+	 * 
+	 * @param mentions a list of mentions
+	 */
 	public Evaluation(List<Mention> mentions) {
 		this.mentions = mentions;
 		this.antecedents = new HashMap<>();
 		this.sieves = new HashMap<>();
 	}
+	
+	/**
+	 * 
+	 * @param m
+	 * @param ante
+	 * @param sieve
+	 */
 	public void setLink(Mention m, Mention ante, String sieve) {
 		antecedents.put(m, ante);
 		sieves.put(m, sieve);
@@ -44,6 +61,15 @@ public class Evaluation {
 		}
 	}
 	
+	/**
+	 * Prints and writes to a file different features of a mention, such
+	 * as its string, id, head lemma, head string, discourse entity, set
+	 * id and discourse entity id for evaluation purposes.
+	 * 
+	 * @param m the mention
+	 * @param isAntecedent true or false
+	 * @throws IOException if file can't be written
+	 */
 	public void printMention(Mention m, boolean isAntecedent) throws IOException {
 		if (isAntecedent) {
 			System.out.print("ANTECEDENT: ");
@@ -63,18 +89,21 @@ public class Evaluation {
 				m.getSetID(),
 				m.getDiscourseEntity().getID());
 		printAndWrite(string_to_print);
-		Markable markable = m.getMarkable();
-		MiniDiscourse doc = markable.getMarkableLevel().getDocument();
-        MarkableLevel lemmas = doc.getMarkableLevelByName("lemma");
+		//Markable markable = m.getMarkable();
+		//MiniDiscourse doc = markable.getMarkableLevel().getDocument();
+        //MarkableLevel lemmas = doc.getMarkableLevelByName("lemma");
 	}
 	
+	/**
+	 * Prints evaluation information, i.e. if a match is correct or false and if
+	 * no match for a mention is found, its antecedent if it has one
+	 */
 	public void printEvaluation() {
-		
 		// writer appends to file; file should be cleared manually if wanted or new file can be created
 		// Sebastian file path: "D:/BART/BART/src/elkfed/coref/algorithms/sieve/log/mmax-100.log"
 		// Julian filePath: "/home/julian/git/BART/BART/src/elkfed/coref/algorithms/sieve/log/mmax-100.log"
 		try {
-		    writer = new PrintWriter(new BufferedWriter(new FileWriter("/home/julian/git/BART/BART/src/elkfed/coref/algorithms/sieve/log/mmax-100.log", true)));
+		    writer = new PrintWriter(new BufferedWriter(new FileWriter("D:/BART/BART/src/elkfed/coref/algorithms/sieve/log/mmax-100.log", true)));
 		} catch (IOException ex) {
 		  System.err.println("IOException!");
 		}
@@ -132,16 +161,23 @@ public class Evaluation {
 				}
 			}
 		}
-
 		writer.println("");
 		writer.close();
 	}
 	
+	/**
+	 * One function to both write a string to a file and print it to stdout
+	 * @param s the string to be written
+	 */
 	public void printAndWrite(String s) {
 		System.out.println(s);
 		writer.println(s);
 	}
 	
+	/**
+	 * Prints the performance of all sieves, i.e. the amount of links generated
+	 * and the amount of correct links
+	 */
 	public static void printSievePerformance() {
 		System.out.println("Sieve\tlinksPerSieve\tcorrectLinksPerSieve");
 		for (String sieve: linksPerSieve.keySet()) {

@@ -34,23 +34,20 @@ import elkfed.coref.mentions.Mention;
  * 		text equals the sequence of upper case characters in the
  * 		other mention.
  * 6. 	Demonym: one of the mentions is a demonym of the other
- * 		(e.g., [Israel]...[Israeli]). For demonym detection we use
- * 		a static list of countries and their gentilic forms from
- * 		Wikipedia.
+ * 		(e.g., [Israel]...[Israeli]).
  * 
  * @author Sebastian
  *
  */
 public class PreciseConstructSieve extends Sieve {
 	
-	// constructor
+	// constructor as defined in the super class
 	public PreciseConstructSieve(List<Mention> mentions) {
 		this.mentions = mentions;
 		this.name = "PreciseConstructSieve";
 	}
 	
 	public int runSieve(Mention mention){
-		
 		PairInstance pair;
 		int mention_idx = mentions.indexOf(mention);
 		int ante_idx = -1;
@@ -58,7 +55,7 @@ public class PreciseConstructSieve extends Sieve {
 		for (int idx = 0; idx < mention_idx; idx++) {			
 			pair = new PairInstance(mention, mentions.get(idx));
 			if (isRelativePronoun(pair) || isAcronym(pair) || isDemonym(pair) || isRoleAppositive(pair)
-					// || isAppositive(pair)
+					// || isAppositive(pair) // no tagged appositive constructions in TüBa-D//
 					// || isPredicateNominative(pair) // no tagged copula constructions in TüBa-D/Z
 					){
 				ante_idx = idx;
