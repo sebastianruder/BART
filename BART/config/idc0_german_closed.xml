@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : 	idc0_split_german_baseline.xml
+    
+	Author     : 	samuel
+
+    Description: 	Klenner&Allioud(2008) baseline improved adding:
+					DistanceNodes, 
+					Speech,
+					FirstSecondPerson, 
+					RelatednessWuPalmer,
+					HeadPartialMatch
+					
+					System prefilters relativ and reflexiv pronouns 
+					not in the syme sentence and adds cataphoric
+					reflexiv pronouns to idc0_pro 
+  MODIFIED: removed GermaNet so it's only what's in the training data
+-->
+
+<coref-experiment>
+<system type="split2filter">
+    <classifiers>
+        <classifier type="maxent" model="idc0_pro"
+            options="** **"/>
+        <classifier type="maxent" model="idc0_nonpro"
+            options="** **"/>
+    </classifiers>
+    <extractors>
+        <extractor name="FE_FirstSecondPerson"/>
+
+        <extractor name="FE_Gender"/>
+        <extractor name="FE_Number"/>
+
+        <extractor name="FE_DistanceSentence"/>
+        <extractor name="FE_DistanceMarkable"/>
+        <extractor name="de.FE_DistanceNodes"/>
+
+        <extractor name="FE_HeadPartOfSpeech"/>
+        <extractor name="de.FE_HeadGrammaticalFunctions"/>
+
+        <extractor name="de.FE_Syntax_Binding"/>
+        <extractor name="FE_SemClassValue"/>
+
+        <extractor name="de.FE_NonProSalience"/>
+
+        <extractor name="FE_Speech"/>
+
+   </extractors>
+    <extractors>
+        <extractor name="FE_Gender"/>
+        <extractor name="FE_Number"/>
+
+        <extractor name="FE_DistanceSentence"/>
+        <extractor name="FE_DistanceMarkable"/>
+
+        <extractor name="de.FE_HeadMatch"/>
+
+        <extractor name="FE_HeadPartOfSpeech"/>
+        <extractor name="de.FE_HeadGrammaticalFunctions"/>
+
+        <extractor name="de.FE_Syntax_Binding"/>
+        <extractor name="FE_SemClassValue"/>
+
+        <extractor name="de.FE_NonProSalience"/>
+        <extractor name="de.FE_HeadPartialMatch"/>
+    </extractors>
+</system>
+</coref-experiment>
