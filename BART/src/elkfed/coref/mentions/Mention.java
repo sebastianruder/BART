@@ -865,7 +865,7 @@ public class Mention implements Comparable<Mention> {
      * @author samuel
      * @return discourse elements in this mentions sentence
      */
-    public String[] getSentenceDiscourseEleme1ntIDs() {
+    public String[] getSentenceDiscourseElementIDs() {
         return _document.getDiscourseElementIDs(getSentenceStart(), getSentenceEnd());
     }
     
