@@ -67,7 +67,7 @@ public abstract class LocalDecoder implements CorefResolver {
         }
         _logger.log(Level.INFO,String.format("joined %d pairs in %d mentions",
                 numLinks,mentions.size()));
-        //_scorer.displayResults();
+        _scorer.displayResults();
         return clusters;
     }
     
