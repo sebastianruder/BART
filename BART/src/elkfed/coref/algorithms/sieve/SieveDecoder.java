@@ -51,7 +51,7 @@ public class SieveDecoder implements CorefResolver {
         for (int walk_through = 1; walk_through < 11; walk_through++) {
         	
         	//condition to exclude/include specific sieve
-//        	if (!(walk_through == 9)) {
+//        	if (walk_through == 1) {
 //        		continue;
 //        	}
         	
@@ -59,25 +59,25 @@ public class SieveDecoder implements CorefResolver {
         	
         	List<Mention> mentionsToResolve = mentions;
         	// List of first mentions is used instead of all mentions
-        	/*
-        	Set<DiscourseEntity> de_set = new HashSet<DiscourseEntity>();
-        	for (int i = 0; i < mentions.size(); i++) {
-        		DiscourseEntity de = mentions.get(i).getDiscourseEntity();
-        		de_set.add(de);
-        	}
-        	// needs to be list because sieve requires a list of mentions
-        	List<Mention> first_mention_list = new ArrayList<Mention>();
-        	for (DiscourseEntity de : de_set) {
-        		Mention first_mention = de.getFirstMention();  
-        		first_mention_list.add(first_mention);
-        	}     	
-        	Collections.sort(first_mention_list);
         	
-        	if (!(walk_through == 1 || walk_through == 4)) {
-        		mentionsToResolve = first_mention_list;
-        	} else {
-        		mentionsToResolve = mentions;
-        	} */
+//        	Set<DiscourseEntity> de_set = new HashSet<DiscourseEntity>();
+//        	for (int i = 0; i < mentions.size(); i++) {
+//        		DiscourseEntity de = mentions.get(i).getDiscourseEntity();
+//        		de_set.add(de);
+//        	}
+//        	// needs to be list because sieve requires a list of mentions
+//        	List<Mention> first_mention_list = new ArrayList<Mention>();
+//        	for (DiscourseEntity de : de_set) {
+//        		Mention first_mention = de.getFirstMention();  
+//        		first_mention_list.add(first_mention);
+//        	}     	
+//        	Collections.sort(first_mention_list);
+//        	
+//        	if (!(walk_through == 1 || walk_through == 4)) {
+//        		mentionsToResolve = first_mention_list;
+//        	} else {
+//        		mentionsToResolve = mentions;
+//        	} 
         	
         	
         	
@@ -89,6 +89,10 @@ public class SieveDecoder implements CorefResolver {
 		    	   not relevant for MUC scorer, maybe for others
 		    	  if (ConfigProperties.getInstance().getOutputSingletons()) {
 		    	  		clusters.union(mentions.get(i), mentions.get(i)); } */
+		    	if (mentions.get(i).getIndefinite()) {
+		    		continue;
+		    	}
+		    	
 	    		int ante_idx = sieve.runSieve(mentions.get(i));
 		    	if (ante_idx==-1) {
 		           _scorer.scoreNonlink(mentions,i);
