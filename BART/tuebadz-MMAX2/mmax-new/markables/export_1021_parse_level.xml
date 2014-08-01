@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (NX (PIAT Kein) (NN Kraftwerk)))"/>
-<markable id="markable_40" span="word_3..word_15" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (ART Die) (ADJX (ADJA Hamburgischen)) (NN Electricitätswerke))) (VXVF (VVFIN legen)) (MF (NX (NX (PPOSAT ihr) (NN Heizkraftwerk)) (NX (NE Hafen))) (PX (APPR nach) (NX (ADJX (CARD 35)) (NN Betriebsjahren))) (ADVX (ADV heute))) (PTKVZ still)) (\$\. \.))"/>
-<markable id="markable_77" span="word_16..word_30" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (ART Das) (ADJX (ADJA benachbarte)) (ADJX (ADJA neue)) (NN Heizwerk))) (VXMF (VMFIN soll)) (MF (PX (APPR mit) (NX (NX (NX (NN Beginn)) (NX (ART der) (NN Heizsaison))) (PX (APPRART im) (NX (NN Oktober))))) (PX (APPR in) (NX (NN Betrieb)))) (VXVI (VVINF gehen))) (\$\. \;))"/>
-<markable id="markable_133" span="word_31..word_54" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (SIMPX (C (KOUI um)) (MF (PX (APPR in) (NX (NN Notfällen)))) (VXVZ (VXVI (VVINF einspringen)) (VXMZ (PTKZU zu) (VMINF können))))) (\$\, \,) (VXAF (VAFIN wird)) (MF (NX (NX (ART der) (NN Fernwärmeteil)) (NX (NX (ART des) (ADJX (ADJA alten)) (NN Kraftwerkes)) (PX (APPRART am) (NX (NE Grasbrook))))) (PX (APPR bis) (NX (ADVX (ADV etwa)) (NX (NN Februar)) (NX (CARD 2000)))) (KomX (KOKOM als) (NX (ADJX (ADJA betriebsfähige)) (NN Reserve)))) (VXVP (VVPP vorgehalten))) (\$\. \.))"/>
-</markables>

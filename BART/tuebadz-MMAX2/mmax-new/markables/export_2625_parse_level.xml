@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (NX (ADJX (ADJA Deutsche)) (NN Bahn)))"/>
-<markable id="markable_17" span="word_3..word_5" mmax_level="parse" orderid="2" tag="(Start (SIMPX (KOORD (KON Und)) (VF (NX (PPER sie))) (VXVF (VVFIN schrumpft))))"/>
-<markable id="markable_66" span="word_6..word_25" mmax_level="parse" orderid="3" tag="(Start (NX (NE Bonn)) (\$-LRB- -LRB-) (NX (NE AP)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (ART Das) (NN Streckennetz)) (NX (ART der) (ADJX (ADJA Deutschen)) (NN Bahn)))) (VXAF (VAFIN ist)) (MF (PX (APPR seit) (NX (NX (ART der) (NN Privatisierung)) (NX (CARD 1994)))) (PX (APPR auf) (NX (ADJX (CARD 40\.355)) (NN Kilometer)))) (VXVP (VVPP geschrumpft))) (\$\. \.))"/>
-<markable id="markable_108" span="word_26..word_43" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (SIMPX (SIMPX (VF (NX (ADJX (CARD 257)) (NN Kilometer))) (VXAF (VAFIN sind)) (MF (ADVX (ADV schon))) (VXVP (VVPP stillgelegt))) (\$\, \,) (SIMPX (VF (NX (ADJX (ADJA weitere)) (ADJX (CARD 700)))) (MF (PX (APPRART vom) (NX (NN Eisenbahn-Bundesamt)))) (VXVP (VVPP genehmigt))))) (\$\, \,) (VXVF (VVFIN ergab)) (MF (NX (NX (ART eine) (NN Anfrage)) (NX (ART der) (NE PDS))))) (\$\. \.))"/>
-<markable id="markable_128" span="word_44..word_51" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (VXVP (VVPP Neugebaut))) (VXAF (VAFIN wurden)) (MF (PX (APPRART im) (NX (ADJX (ADJA letzten)) (NN Jahr))) (NX (ADJX (CARD 18)) (NN Kilometer)))) (\$\. \.))"/>
-</markables>

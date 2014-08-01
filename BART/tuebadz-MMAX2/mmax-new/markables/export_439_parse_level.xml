@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_19" span="word_1..word_7" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NX (NN Warnstreiks)) (PX (APPR bei) (NX (ART der) (NN Bahn)))) (ADVX (ADV auch)) (PX (APPR in) (NX (NE Berlin)))))"/>
-<markable id="markable_65" span="word_8..word_25" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (PX (APPR Aufgrund) (PX (APPR von) (NX (NX (NN Warnstreiks)) (NX (ART der) (NN Eisenbahner)))))) (VXMF (VMFIN müssen)) (MF (NX (PRF sich)) (NX (NN Bahnreisende)) (ADVX (ADV heute)) (ADVX (ADV auch)) (PX (APPR in) (NX (NE Berlin))) (PX (APPR auf) (NX (NX (NN Behinderungen)) (PX (APPRART im) (NX (NN Zugverkehr)))))) (VXVI (VVINF einrichten))) (\$\. \.))"/>
-<markable id="markable_92" span="word_26..word_36" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (APPRART Am) (NX (NX (NN Bahnhof)) (NX (NN Zoo))))) (VXAF (VAFIN ist)) (MF (PX (APPR um) (NX (ADJX (CARD 6\.00)) (NN Uhr))) (NX (ART eine) (NN Kundgebung))) (VXVP (VVPP geplant))) (\$\. \.))"/>
-<markable id="markable_131" span="word_37..word_52" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (ADVX (ADV Heute))) (VXVF (VVFIN beginnt)) (MF (PX (APPR in) (NX (NX (NE Frankfurt)) (PX (APPRART am) (NX (NE Main))))) (NX (NX (ART die) (ADJX (ADJX (ADJA dritte)) (KON und) (ADJX (ADVX (ADV vielleicht)) (ADJA entscheidende))) (NN Tarifrunde)) (PX (APPR für) (NX (ART die) (NN Eisenbahner)))))) (\$\. \.))"/>
-<markable id="markable_136" span="word_53" mmax_level="parse" orderid="5" tag="(Start (NX (NE ADN)))"/>
-</markables>

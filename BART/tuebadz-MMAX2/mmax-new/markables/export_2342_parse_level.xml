@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Kopfschmerz)))"/>
-<markable id="markable_69" span="word_2..word_28" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NN Kopfschmerz)) (KON und) (NX (NN Migräne))) (\$-LRB- -) (SIMPX (VF (SIMPX (C (KOUS wie)) (MF (NX (NN Frau)) (NX (NX (ART die) (NN Spannungen)) (PX (APPRART im) (NX (NN Kopf))))) (VXVF (VVFIN verhindert)))) (\$\, \,) (VXVF (VVFIN verrät)) (MF (NX (NX (NN Heilpraktikerin)) (NX (NE Barbara) (NE Krekeler))) (PX (APPRART am) (NX (NX (NN Donnerstag)) (\$\, \,) (NX (ADJX (ADJA 26\.)) (NN Oktober)))) (\$\, \,) (NX (ADJX (CARD 20)) (NN Uhr)) (PX (APPRART im) (NX (NN Frauengesundheitszentrum))))) (\$\. \.))"/>
-<markable id="markable_80" span="word_29..word_32" mmax_level="parse" orderid="3" tag="(Start (PX (ADVX (ADV Nur)) (PX (APPR für) (NX (NN Frauen)))) (\$\. \.))"/>
-<markable id="markable_85" span="word_33" mmax_level="parse" orderid="4" tag="(Start (NX (NE taz)))"/>
-</markables>

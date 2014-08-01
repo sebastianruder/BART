@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Israel)))"/>
-<markable id="markable_12" span="word_2..word_3" mmax_level="parse" orderid="2" tag="(Start (SIMPX (MF (NX (NN Abriegelung))) (VXVP (VVPP beendet))))"/>
-<markable id="markable_68" span="word_4..word_26" mmax_level="parse" orderid="3" tag="(Start (NX (NE Jerusalem)) (\$-LRB- -LRB-) (NX (NE AFP)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NE Israel))) (VXAF (VAFIN hat)) (MF (ADVX (ADV gestern)) (NX (NX (ART die) (ADJX (PX (APPR seit) (NX (ADVX (ADV über)) (ADJX (CARD drei)) (NN Wochen))) (ADJA bestehende)) (NN Abriegelung)) (NX (NX (ART des) (NE Gaza-Streifens)) (KON und) (NX (ART der) (NE Westbank)))) (ADVX (ADV teilweise))) (VXVP (VVPP aufgehoben))) (\$\. \.))"/>
-<markable id="markable_112" span="word_27..word_43" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Die) (NN Maßnahme))) (VXAF (VAFIN hatte)) (MF (ADVX (ADV bisher)) (NX (ADJX (CARD 30\.000)) (NN Palästinenser)) (PX (PROP daran))) (VXVP (VVPP gehindert)) (\$\, \,) (NF (SIMPX (MF (PX (APPR zu) (NX (NX (PPOSAT ihren) (NN Arbeitsplätzen)) (PX (APPR in) (NX (NE Israel)))))) (VXVZ (PTKZU zu) (VVINF gelangen))))) (\$\. \.))"/>
-</markables>

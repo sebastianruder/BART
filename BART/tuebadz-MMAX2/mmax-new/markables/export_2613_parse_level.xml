@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Menschenrechte)))"/>
-<markable id="markable_14" span="word_2..word_4" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NN Gerichtshof))) (VXMF (VMFIN muß)) (PTKVZ her)))"/>
-<markable id="markable_68" span="word_5..word_26" mmax_level="parse" orderid="3" tag="(Start (NX (NX (NE Bonn)) (\$-LRB- \/) (NX (NE New) (NE York))) (\$-LRB- -LRB-) (NX (NE epd)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NE Amnesty) (NE international))) (VXVF (VVFIN dringt)) (MF (PX (APPR auf) (NX (NX (ART die) (NN Schaffung)) (NX (NX (ART eines) (ADJX (ADJA Internationalen)) (NN Strafgerichtshofes)) (PX (APPR für) (NX (NX (NN Völkermord)) (KON und) (NX (NN Menschenrechtsverstöße))))))))) (\$\. \.))"/>
-<markable id="markable_108" span="word_27..word_43" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (NN Millionen))) (VXAF (VAFIN sind)) (MF (NX (NX (NN Opfer)) (PX (APPR von) (NX (NN Menschenrechtsverstößen))))) (VXAP (VAPP geworden)) (\$\, \,) (NF (SIMPX (C (KOUS ohne) (KOUS daß)) (MF (NX (ART die) (NN Täter)) (PX (APPR vor) (NX (ADJX (ADJA nationalen)) (NN Gerichten)))) (VXVP (VVPP angeklagt)) (VXAF (VAFIN wurden))))) (\$\. \.))"/>
-<markable id="markable_152" span="word_44..word_60" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (NE Amnesty))) (VXVF (VVFIN erinnert)) (\$\, \,) (NF (SIMPX (C (KOUS daß)) (MF (NX (ART die) (NE UN)) (PX (APPR seit) (NX (ADJX (CARD 50)) (NN Jahren))) (PX (APPR über) (NX (NX (ART die) (NN Schaffung)) (NX (ART eines) (ADJX (PIDAT solchen)) (NN Gremiums))))) (VXVF (VVFIN diskutiert))))) (\$\. \.))"/>
-</markables>
