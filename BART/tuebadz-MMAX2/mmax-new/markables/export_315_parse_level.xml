@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (PX (APPR Gegen) (NX (NN Gen-Food))))"/>
-<markable id="markable_43" span="word_3..word_16" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (PX (APPR In) (NX (NE Deutschland)))) (VXVF (VVFIN beginnt)) (MF (PX (APPR nach) (NX (NX (NN Angaben)) (PX (APPR von) (NX (NE Greenpeace))))) (NX (NX (NX (ART der) (NN Abschied)) (NX (ADJX (ADJA großer)) (NN Lebensmittel-Hersteller))) (PX (APPR von) (NX (NN Gen-Food)))))) (\$\. \.))"/>
-<markable id="markable_107" span="word_17..word_42" mmax_level="parse" orderid="3" tag='(Start (SIMPX (VF (SIMPX (VF (NX (NX (ART Die) (NN Tiefkühl-Firma)) (NX (NE Frosta)))) (VXMF (VMFIN wolle)) (MF (PX (APPR ab) (NX (NX (NN Mitte)) (NX (NN Mai)))) (NX (NX (PIAT kein) (ADJX (ADJX (ADJD gentechnisch)) (ADJA verändertes)) (NN Sojaeiweiß)) (ADVX (ADV mehr))) (PX (APPR in) (NX (NX (ART den) (NN Fertiggerichten)) (NX (PPOSAT ihrer) (NN \"Vital\"-Reihe))))) (VXVI (VVINF einsetzen)))) (\$\, \,) (VXVF (VVFIN teilte)) (MF (NX (NE Greenpeace)) (ADVX (ADV gestern)) (PX (APPR in) (NX (NE Hamburg)))) (PTKVZ mit)) (\$\. \.))'/>
-<markable id="markable_146" span="word_43..word_58" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (NX (NX (NE Marks)) (KON \&amp;) (NX (NE Spencer))) (\$\, \,) (NX (NE Mora)) (\$\, \,) (NX (NE McCain)) (\$\, \,) (NX (NE Kikkomann)) (KON und) (NX (NE Töpfer)))) (VXAF (VAFIN hätten)) (MF (ADVX (ADV bereits)) (NX (NN Gentech-Produkte))) (VXVP (VVPP zurückgezogen))) (\$\. \.))"/>
-</markables>

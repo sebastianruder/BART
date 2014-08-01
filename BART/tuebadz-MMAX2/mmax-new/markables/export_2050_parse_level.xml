@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Handball)))"/>
-<markable id="markable_14" span="word_2..word_4" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (NN THW)) (NX (NE Kiel)))) (MF (ADVX (ADV weiter)))))"/>
-<markable id="markable_63" span="word_5..word_25" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NX (ART Der) (ADJX (ADJA deutsche)) (NN Handball-Meister)) (NX (NX (NN THW)) (NX (NE Kiel))))) (VXAF (VAFIN hat)) (MF (NX (NX (ART die) (ADJX (ADJA erste))) (PX (APPR von) (NX (ADJX (CARD zwei)) (NN Qualifikationsrunden)))) (PX (APPR auf) (NX (NX (ART dem) (NN Weg)) (PX (APPR in) (NX (ART die) (NX (NE Champions) (NE League)))))) (ADJX (ADJD schadlos))) (VXVP (VVPP überstanden))) (\$\. \.))"/>
-<markable id="markable_143" span="word_26..word_59" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Die) (NN Zebras))) (VXVF (VVFIN gewannen)) (MF (PX (APPRART am) (NX (NX (NN Samstag)) (ADVX (ADV abend)))) (PX (APPR vor) (NX (ADVX (ADV lediglich)) (ADJX (CARD 100)) (NN Zuschauern))) (ADVX (ADV auch)) (NX (NX (ART das) (NN Rückspiel)) (PX (APPRART beim) (NX (NX (ADJX (ADJA belgischen)) (NN Titelträger)) (NX (NE Initia) (NE Hasselt))))) (PX (APPR mit) (NX (CARD 18\:17)))) (\$\, \,) (NF (SIMPX (C (KOUS nachdem)) (MF (NX (PPER sie)) (ADVX (ADV bereits)) (NX (ART das) (NN Hinspiel)) (ADJX (ADJD klar)) (PX (APPR mit) (NX (CARD 27\:13))) (PX (APPR für) (NX (PRF sich)))) (VXVI (VVINF entscheiden)) (VXMF (VMFIN konnten))))) (\$\. \.))"/>
-</markables>

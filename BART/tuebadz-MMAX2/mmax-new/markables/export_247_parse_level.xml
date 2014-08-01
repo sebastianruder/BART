@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_14" span="word_1..word_5" mmax_level="parse" orderid="1" tag='(Start (NX (NX (NN Ärzte-Demonstration)) (PX (APPR gegen) (\$-LRB- \") (NX (NN Spar-Chaos)))) (\$-LRB- \"))'/>
-<markable id="markable_48" span="word_6..word_19" mmax_level="parse" orderid="2" tag='(Start (SIMPX (VF (PX (APPR Gegen) (NX (NX (ART das) (\$-LRB- \") (NN Spar-Chaos)) (PX (APPRART im) (NX (NN Gesundheitswesen)))))) (\$-LRB- \") (VXVF (VVFIN demonstrieren)) (MF (PX (APPRART am) (NX (NN Montag))) (NX (NX (NN Ärzte)) (KON und) (NX (NN Therapeuten))))) (\$\. \.))'/>
-<markable id="markable_105" span="word_20..word_44" mmax_level="parse" orderid="3" tag='(Start (SIMPX (VF (SIMPX (SIMPX (VF (NX (ART Das) (NN Gesundheitswesen))) (VXMF (VMFIN solle)) (\$-LRB- \") (MF (ADJX (ADJD kleingespart))) (\$-LRB- \") (VXAI (VAINF werden))) (\$\, \,) (KON und) (SIMPX (VF (NX (NE Berlin))) (VXAF (VAFIN sei)) (\$-LRB- \") (MF (NX (ART die) (NN Modellregion)))))) (\$-LRB- \") (\$\, \,) (VXVF (VVFIN sagte)) (MF (NX (NX (NE Anton) (NE Rouwen)) (PX (APPRART vom) (NX (NX (NN Aktionsrat)) (NX (ADJX (ADJA Berliner)) (NN Kassenärzte))))) (ADVX (ADV gestern)))) (\$\. \.))'/>
-<markable id="markable_131" span="word_45..word_54" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Die) (NN Demonstration))) (VXVF (VVFIN beginnt)) (MF (PX (APPR um) (NX (ADJX (CARD 9\.00)) (NN Uhr))) (PX (APPRART am) (NX (ADJX (ADJA Olivaer)) (NN Platz))))) (\$\. \.))"/>
-<markable id="markable_136" span="word_55" mmax_level="parse" orderid="5" tag="(Start (NX (NE ADN)))"/>
-</markables>

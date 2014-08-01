@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (PX (APPR Gegen) (NX (NN Krieg))))"/>
-<markable id="markable_56" span="word_3..word_22" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (ART Die) (NN Unterschriftenlisten)) (PX (APPR für) (NX (NX (ART das) (NN SPD-Mitgliederbegehren)) (PX (APPR gegen) (NX (NX (ART den) (NN Krieg)) (PX (APPRART im) (NX (NE Kosovo))))))))) (VXVF (VVFIN liegen)) (MF (PX (APPR seit) (ADVX (ADV gestern))) (PX (APPR in) (NX (NX (ART den) (NN Kreisbüros)) (NX (ART der) (NN Partei))))) (PTKVZ aus)) (\$\. \.))"/>
-<markable id="markable_101" span="word_23..word_41" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (PROP Außerdem))) (VXAF (VAFIN sind)) (MF (NX (ART die) (NN Vordrucke)) (PX (APPR über) (NX (NX (ART das) (NN Büro)) (NX (ART der) (NE Jusos)))) (ADJX (ADJD erhältlich)))) (\$-LRB- -LRB-) (NX (NX (NN Tel\.)) (\$\. \:) (NX (CARD 28) (CARD 08) (CARD 48) (CARD 13))) (\$-LRB- -RRB-) (\$\. \.))"/>
-</markables>

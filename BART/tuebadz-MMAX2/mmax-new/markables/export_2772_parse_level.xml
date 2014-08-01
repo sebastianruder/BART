@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (NX (ADJX (ADJA Neuer)) (NN Intendant)))"/>
-<markable id="markable_42" span="word_3..word_16" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (ART Der) (NN Aufsichtsrat)) (NX (ART des) (ADJX (ADJA Hamburger)) (NN Ohnsorg-Theaters)))) (VXAF (VAFIN hat)) (MF (ADVX (ADV gestern)) (NX (NE Christian) (NE Seeler)) (PX (APPRART zum) (NX (ADJX (ADJA neuen)) (NN Intendanten)))) (VXVP (VVPP berufen))) (\$\. \.))"/>
-<markable id="markable_96" span="word_17..word_37" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (ART Der) (NN 36jährige))) (VXVF (VVFIN tritt)) (MF (NX (NX (ART die) (NN Nachfolge)) (PX (APPR von) (NX (NE Thomas) (NE Bayer))))) (PTKVZ an) (\$\, \,) (NF (R-SIMPX (C (NX (PRELS der))) (MF (PX (APPR nach) (NX (ADJX (ADVX (ADV nur)) (ADJA einjähriger)) (NN Amtszeit))) (PX (APPR um) (NX (PPOSAT seine) (NN Entlassung)))) (VXVP (VVPP gebeten)) (VXAF (VAFIN hatte))))) (\$\. \.))"/>
-</markables>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (NX (NE Sri) (NE Lanka)))"/>
-<markable id="markable_16" span="word_3..word_5" mmax_level="parse" orderid="2" tag="(Start (NX (ADJX (ADJD Ständig)) (NX (ADJX (ADJA neue)) (NN Tote))))"/>
-<markable id="markable_87" span="word_6..word_35" mmax_level="parse" orderid="3" tag="(Start (NX (NE Colombo)) (\$-LRB- -LRB-) (NX (NE AP)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (PX (APPR Bei) (NX (NX (NX (ART der) (NN Offensive)) (NX (ART der) (ADJX (ADJA srilankischen)) (NN Regierungstruppen))) (PX (APPR gegen) (NX (ART die) (ADJX (ADJA tamilischen)) (NN Rebellen)))))) (VXAF (VAFIN wurden)) (MF (ADVX (ADV bisher)) (NX (ADVX (ADV über)) (ADJX (CARD 180)) (NN Menschen))) (VXVP (VVPP getötet)) (\$\, \,) (NF (SIMPX (C (KOUS wie)) (MF (NX (ART die) (NN Behörden)) (ADVX (ADV gestern)) (PX (APPR in) (NX (NE Colombo)))) (VXVF (VVFIN mitteilten))))) (\$\. \.))"/>
-<markable id="markable_135" span="word_36..word_54" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (ADVX (ADV Unterdessen))) (VXVF (VVFIN warfen)) (MF (NX (ART die) (ADJX (ADJA tamilischen)) (NN Separatisten)) (NX (ART der) (NN Armee))) (PTKVZ vor) (\$\, \,) (NF (SIMPX (VF (NX (PPER sie))) (VXAF (VAFIN habe)) (MF (PX (APPR bei) (NX (PPOSAT ihrem) (NN Vormarsch))) (NX (ADVX (ADV mindestens)) (ADJX (CARD 40)) (NN Zivilpersonen))) (VXVP (VVPP getötet))))) (\$\. \.))"/>
-</markables>

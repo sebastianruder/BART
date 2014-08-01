@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Kroatien)))"/>
-<markable id="markable_15" span="word_2..word_4" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NN Verzicht)) (PX (APPR auf) (NX (NN Offensive)))))"/>
-<markable id="markable_96" span="word_5..word_38" mmax_level="parse" orderid="3" tag="(Start (NX (NX (NE Zagreb)) (\$-LRB- \/) (NX (NE Sarajevo))) (\$-LRB- -LRB-) (NX (NE AFP)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (PX (APPR Auf) (NX (NX (NN Druck)) (NX (ART der) (ADJX (ADJA Vereinigten)) (NN Staaten))))) (VXAF (VAFIN hat)) (MF (NX (NX (ART der) (ADJX (ADJA kroatische)) (NN Präsident)) (NX (NE Tudjman))) (ADVX (ADV gestern)) (NX (NX (NN US-Vermittler)) (NX (NE Richard) (NE Holbrooke))) (NX (NX (ART den) (NN Verzicht)) (PX (APPR auf) (NX (NX (ART ein) (ADJX (ADJA militärisches)) (NN Vorgehen)) (PX (APPR gegen) (NX (ART das) (ADJX (ADJX (ADJD serbisch)) (ADJA besetzte)) (NN Ostslawonien))))))) (VXVP (VVPP zugesichert))) (\$\. \.))"/>
-<markable id="markable_136" span="word_39..word_54" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (NX (ART Die) (NN Regierungen)) (NX (NX (NN Rest-Jugoslawiens)) (KON und) (NX (NE Bosniens))))) (VXAF (VAFIN haben)) (MF (NX (NX (ART die) (NN Einrichtung)) (PX (APPR von) (NX (NX (NN Verbindungsbüros)) (PX (APPR in) (NX (NX (NE Sarajevo)) (KON und) (NX (NE Belgrad)))))))) (VXVP (VVPP zugesagt))) (\$\. \.))"/>
-<markable id="markable_161" span="word_55..word_63" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (PDS Dies))) (VXAF (VAFIN hatte)) (MF (NX (NE Holbrooke)) (PX (APPRART am) (NX (NN Mittwoch))) (PX (APPR in) (NX (NE Sarajevo)))) (VXVP (VVPP mitgeteilt))) (\$\. \.))"/>
-</markables>

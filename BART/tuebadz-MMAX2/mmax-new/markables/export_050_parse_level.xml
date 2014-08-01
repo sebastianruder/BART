@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Fußball)))"/>
-<markable id="markable_12" span="word_2..word_3" mmax_level="parse" orderid="2" tag="(Start (NX (PIAT Mehr) (NN Spieler)))"/>
-<markable id="markable_63" span="word_4..word_23" mmax_level="parse" orderid="3" tag="(Start (NX (NX (NN Verstärkung)) (PX (APPR für) (NX (NX (NE St\.) (NE Paulis)) (NN Profis)))) (\$\. \:) (SIMPX (VF (NX (ART Der) (NN Verein))) (VXVF (VVFIN erweitert)) (MF (NX (PPOSAT seinen) (NN Zweitliga-Kader)) (PX (APPR in) (NX (ART der) (ADJX (ADJA nächsten)) (NN Saison))) (PX (APPR um) (NX (NX (NN Vertragsamateur)) (NX (NE Piotr) (NE Staczek)))))) (\$\. \.))"/>
-<markable id="markable_97" span="word_24..word_36" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (ADVX (ADV Bislang))) (VXVF (VVFIN spielt)) (MF (NX (ART der) (ADJX (NX (ADJX (CARD 20)) (NN Jahre)) (ADJA alte)) (NN Verteidiger)) (PX (APPR in) (NX (NX (ART der) (NN Amateur-Mannschaft)) (NX (ART des) (NN Vereins)))))) (\$\. \.))"/>
-<markable id="markable_161" span="word_37..word_62" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (NX (ART Der) (NN FC)) (NX (NE St\.) (NE Pauli)))) (FKOORD (FKONJ (VXAF (VAFIN hat)) (MF (NX (NX (ART den) (NN Vertrag)) (PX (APPR mit) (NX (NE Staczek)))) (PX (APPR bis) (PX (APPRART zum) (NX (NX (ADJX (ADJA 30\.)) (NN Juni)) (NX (CARD 2000)))))) (VXVP (VVPP verlängert))) (KON und) (FKONJ (VXVF (VVFIN sicherte)) (MF (NX (PRF sich)) (PX (PROP zudem)) (NX (NX (ART die) (NN Option)) (PX (APPR auf) (NX (ART ein) (ADJX (ADJA weiteres)) (NN Jahr)))))))) (\$\. \.))"/>
-</markables>

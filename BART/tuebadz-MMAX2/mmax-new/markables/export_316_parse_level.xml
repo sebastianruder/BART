@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (PX (APPR Gegen) (NX (NN Bündelung))))"/>
-<markable id="markable_70" span="word_3..word_28" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (PX (APPR Aus) (NX (NX (NN Protest)) (PX (APPR gegen) (NX (NX (NX (ART einen) (NN Vorstoß)) (NX (ART der) (ADJX (ADJA Hamburger)) (NE SPD))) (PX (APPRART zur) (NX (NX (NN Zusammenlegung)) (NX (NX (ART der) (ADJX (CARD vier)) (NN Personalräte)) (PX (APPR bei) (NX (ART der) (NN Polizei))))))))))) (VXAF (VAFIN haben)) (MF (NX (NN Polizeigewerkschaften)) (ADVX (ADV gestern)) (NX (ART eine) (NN Mahnwache)) (PX (APPR vor) (NX (ART der) (NN SPD-Parteizentrale)))) (VXVP (VVPP veranstaltet))) (\$\. \.))"/>
-<markable id="markable_90" span="word_29..word_36" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (ADJX (CARD 50)) (NN Beamte))) (VXVF (VVFIN harrten)) (MF (ADJX (NX (ADJX (CARD zwei)) (NN Stunden)) (ADJD lang))) (PTKVZ aus)) (\$\. \.))"/>
-</markables>

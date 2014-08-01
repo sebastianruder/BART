@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_12" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (SIMPX (VF (NX (NN Busse))) (VXVF (VVFIN fahren)) (MF (PX (APPR nach) (NX (NE Sebaldsbrück))))))"/>
-<markable id="markable_91" span="word_5..word_38" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (PX (APPR Wegen) (NX (NX (NN Arbeiten)) (PX (APPR an) (NX (NX (ART der) (NN Oberleitung)) (PX (APPRART im) (NX (NX (NN Zeppelintunnel)) (\$-LRB- -LRB-) (NX (NE Sebaldsbrück))))))))) (\$-LRB- -RRB-) (VXAF (VAFIN werden)) (MF (NX (NX (ART die) (NN Fahrten)) (NX (NX (ART der) (NN Nachtlinie)) (NX (NX (XY N)) (NX (CARD 12))))) (PX (APPR um) (NX (NX (ADJX (CARD 1\.30)) (NN Uhr)) (KON und) (NX (ADJX (CARD 3\.45)) (NN Uhr)))) (PX (APPR zwischen) (NX (NX (NN Hauptbahnhof)) (KON und) (NX (NE Sebaldsbrück)))) (PX (APPRART am) (NX (ADJX (ADJA kommenden)) (NN Freitag))) (PX (APPR durch) (NX (NN Busse)))) (VXVP (VVPP ersetzt))) (\$\. \.))"/>
-<markable id="markable_96" span="word_39" mmax_level="parse" orderid="3" tag="(Start (NX (NE taz)))"/>
-</markables>

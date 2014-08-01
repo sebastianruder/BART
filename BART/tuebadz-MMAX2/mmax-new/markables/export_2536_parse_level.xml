@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_10" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NN Unfall)) (PX (APPR mit) (NX (NN Lok)))))"/>
-<markable id="markable_62" span="word_4..word_24" mmax_level="parse" orderid="2" tag='(Start (\$-LRB- \") (SIMPX (VF (FKONJ (MF (NX (NN Schwein))) (VXAP (VAPP gehabt)))) (\$-LRB- \") (VXAF (VAFIN hat)) (MF (PX (APPRART am) (NX (NN Dienstagabend))) (NX (ART ein) (ADJX (ADJA 26jähriger)) (NN Autofahrer))) (\$\, \,) (NF (R-SIMPX (C (NX (PRELS der))) (MF (NX (NX (ART den) (NN Zusammenstoß)) (PX (APPR mit) (NX (ART einer) (NN Rangierlok)))) (ADJX (ADJD unverletzt))) (VXVP (VVPP überstanden)) (VXAF (VAFIN hat))))) (\$\. \.))'/>
-<markable id="markable_102" span="word_25..word_39" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (ART Der) (NN Fahrer))) (VXAF (VAFIN hatte)) (MF (NX (ART die) (NN Lok))) (VXVP (VVPP übersehen)) (\$\, \,) (NF (SIMPX (C (KOUS als)) (MF (NX (PPER er)) (NX (NX (ART die) (NN Eisenbahnschienen)) (PX (APPRART im) (NX (NN Hafengebiet))))) (VXVF (VVFIN überquerte))))) (\$\. \.))"/>
-<markable id="markable_107" span="word_40" mmax_level="parse" orderid="4" tag="(Start (NX (NE dpa)))"/>
-</markables>

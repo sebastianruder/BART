@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_10" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NE BRD)) (\$-LRB- \/) (NX (NE NL))))"/>
-<markable id="markable_16" span="word_4..word_5" mmax_level="parse" orderid="2" tag="(Start (ADJX (ADJX (ADJD Lückenlos)) (ADJX (ADJD gleich))))"/>
-<markable id="markable_75" span="word_6..word_30" mmax_level="parse" orderid="3" tag='(Start (NX (NE Den) (NE Haag)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (\$-LRB- \") (SIMPX (VF (SIMPX (VF (NX (NX (ADJX (ADJA Politische)) (NN Probleme)) (PX (APPR zwischen) (NX (NX (NE Deutschland)) (KON und) (NX (ART den) (NE Niederlanden)))))) (VXVF (VVFIN gibt)) (MF (NX (PPER es)) (ADVX (PTKNEG nicht))))) (\$-LRB- \") (\$\, \,) (VXVF (VVFIN stellte)) (MF (NX (NX (NN Bundespräsident)) (NX (NE Herzog))) (ADVX (ADV gestern))) (PTKVZ fest)) (\$\. \.))'/>
-<markable id="markable_128" span="word_31..word_51" mmax_level="parse" orderid="4" tag='(Start (SIMPX (VF (PX (APPR Zwischen) (NX (PIDAT beiden) (NN Staaten)))) (VXVF (VVFIN bestehe)) (MF (NX (NX (ART eine) (\$-LRB- \") (ADJX (ADJA lückenlose)) (NN Übereinstimmung)) (\$-LRB- \") (PX (APPR in) (NX (NN Europafragen)))))) (\$\, \,) (NX (ADVX (ADV so)) (NX (NE Herzog)) (PX (APPR nach) (NX (NX (ADJX (ADJA politischen)) (NN Gesprächen)) (PX (APPR in) (NX (NE Den) (NE Haag)))))) (\$\. \.))'/>
-</markables>

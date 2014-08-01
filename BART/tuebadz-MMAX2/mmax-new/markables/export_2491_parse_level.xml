@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_6" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (SIMPX (MF (ADJX (ADJD Schwer))) (VXVP (VVPP verletzt))))"/>
-<markable id="markable_59" span="word_3..word_24" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (FKONJ (MF (ADVX (ADVX (ADV Noch)) (PTKNEG nicht))) (VXVI (VXVP (VVPP identifiziert)) (VXAI (VAINF werden))))) (VXMF (VMFIN konnte)) (MF (NX (ART ein) (NN Mann))) (\$\, \,) (NF (R-SIMPX (C (NX (PRELS der))) (MF (PX (APPRART am) (NX (NN Dienstag))) (PX (APPR in) (NX (NE Marzahn))) (PX (APPR mit) (NX (ADJX (ADJA lebensgefährlichen)) (NN Stichverletzungen))) (PX (APPR von) (NX (ART einem) (NN Autofahrer)))) (VXVP (VVPP gefunden)) (VXAF (VAFIN wurde))))) (\$\. \.))"/>
-<markable id="markable_98" span="word_25..word_39" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (APPR Nach) (NX (NX (NN Angaben)) (NX (ART der) (NN Polizei))))) (VXVF (VVFIN lag)) (MF (NX (ART der) (NN Mann)) (PX (APPR in) (NX (NX (NX (ART der) (NN Allee)) (NX (ART der) (NN Kosmonauten))) (NX (NX (NN Ecke)) (NX (NN Rhinstraße))))))) (\$\. \.))"/>
-<markable id="markable_103" span="word_40" mmax_level="parse" orderid="4" tag="(Start (NX (NE ADN)))"/>
-</markables>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_9" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (NX (NE Benno) (NE Braunschweig)) (\$\. \?))"/>
-<markable id="markable_38" span="word_4..word_15" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (ADJX (ADJX (ADJD Schneller)) (KomX (KOKOM als) (ADJX (ADJD erwartet))))) (VXVF (VVFIN scheint)) (MF (NX (NE Benno) (NE Möhlmann)) (NX (ART einen) (ADJX (ADJA neuen)) (NN Arbeitgeber))) (VXVZ (PTKZU zu) (VVINF finden))) (\$\. \.))"/>
-<markable id="markable_82" span="word_16..word_33" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (ART Der) (ADJX (PX (APPR vor) (NX (ADJX (CARD zehn)) (NN Tagen))) (PX (APPRART beim) (NX (NE HSV))) (ADJA entlassene)) (NN Trainer))) (VXAF (VAFIN ist)) (MF (KomX (KOKOM als) (NX (NX (ADJX (ADJA neuer)) (NN Coach)) (PX (APPRART beim) (NX (NX (NN Regionalligisten)) (NX (NE Braunschweig)))))) (PX (APPRART im) (NX (NN Gespräch))))) (\$\. \.))"/>
-<markable id="markable_116" span="word_34..word_46" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Der) (NN 41jährige))) (VXAF (VAFIN war)) (MF (PX (APPRART am) (NX (NN Sonnabend))) (PX (APPRART beim) (NX (NX (NX (CARD 2\:0)) (NX (ART der) (NN Eintracht))) (PX (APPR über) (NX (NE Oldenburg))))) (ADJX (ADJD zugegen)))) (\$\. \.))"/>
-</markables>

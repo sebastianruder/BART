@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_16" span="word_1..word_6" mmax_level="parse" orderid="1" tag='(Start (NX (NN Betr\.)) (\$\. \:) (NX (NX (NN Aktion)) (\$-LRB- \") (NX (NN Infrasounds))) (\$-LRB- \"))'/>
-<markable id="markable_25" span="word_7..word_9" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NE Hamburg))) (VXVF (VVFIN tönt))) (\$\. \.))"/>
-<markable id="markable_64" span="word_10..word_24" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (APPRART Im) (NX (NX (NN Rahmen)) (NX (NX (ART der) (NN Aktion)) (NX (NN Infrasounds)))))) (VXAF (VAFIN haben)) (MF (NX (NN Künstler)) (NX (ADJX (CARD 17)) (NN Klanginstallationen)) (PX (ADVX (ADV quer)) (APPR über) (NX (ART die) (NN Stadt)))) (VXVP (VVPP verteilt))) (\$\. \.))"/>
-<markable id="markable_153" span="word_25..word_62" mmax_level="parse" orderid="4" tag='(Start (\$-LRB- \") (SIMPX (VF (NX (NX (NE taz)) (NX (NE hamburg)))) (\$-LRB- \") (VXVF (VVFIN dokumentiert)) (\$-LRB- -LRB-) (MF (NX (ADJX (ADJA gekürzte)) (\$-LRB- -RRB-) (NN Beiträge))) (\$\, \,) (NF (R-SIMPX (C (NX (PRELS die))) (MF (NX (ART die) (ADJX (ADJA beteiligten)) (NN Künstler)) (PX (APPR für) (NX (ART den) (NN Katalog)))) (\$-LRB- -LRB-) (\$-LRB- \") (NX (NX (NN Infrasounds)) (\$-LRB- -) (NX (ART Ein) (NN Stadtprojekt))) (\$-LRB- \") (\$\, \,) (NX (NX (NE Kellner)) (NN Verlag)) (\$\, \,) (NX (ADJX (CARD 120)) (NN S\.)) (\$\, \,) (NX (ADVX (ADV ca\.)) (ADJX (CARD 20\,-)) (NN Mark)) (\$-LRB- -RRB-) (VXVP (VVPP geschrieben)) (VXAF (VAFIN haben))))) (\$\. \.))'/>
-<markable id="markable_181" span="word_63..word_73" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (PX (PROP Damit))) (VXVF (VVFIN stellen)) (MF (NX (PPER wir)) (PX (APPR in) (NX (ADJX (ADJA lockerer)) (NN Folge))) (NX (NX (PIS einige)) (NX (ART der) (NN Arbeiten)))) (PTKVZ vor)) (\$\. \.))"/>
-</markables>

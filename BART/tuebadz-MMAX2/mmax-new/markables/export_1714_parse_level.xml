@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Ecuador)))"/>
-<markable id="markable_15" span="word_2..word_4" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NN Flucht)) (PX (APPRART ins) (NX (NN Exil)))))"/>
-<markable id="markable_75" span="word_5..word_29" mmax_level="parse" orderid="3" tag="(Start (NX (NE San) (NE Jose)) (\$-LRB- -LRB-) (NX (NE Reuter)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (NX (ART Der) (ADJX (PX (APPR unter) (NX (NN Korruptionsverdacht))) (ADJA stehende)) (ADJX (ADJA ehemalige)) (NN Vizepräsident)) (NX (NE Ecuadors))) (\$\, \,) (NX (NE Alberto) (NE Dahik)))) (\$\, \,) (VXAF (VAFIN ist)) (MF (PX (APPRART am) (NX (NN Donnerstag))) (PX (APPR nach) (NX (NE Costa) (NE Rica)))) (VXVP (VVPP geflohen))) (\$\. \.))"/>
-<markable id="markable_96" span="word_30..word_37" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (ADVX (ADV Dort))) (VXAF (VAFIN hat)) (MF (NX (NE Dahik)) (ADVX (ADV inzwischen)) (PX (APPR um) (NX (NN Asyl)))) (VXVP (VVPP gebeten))) (\$\. \.))"/>
-</markables>

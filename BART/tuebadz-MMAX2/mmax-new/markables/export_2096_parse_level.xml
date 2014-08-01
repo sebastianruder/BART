@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Mexiko)))"/>
-<markable id="markable_10" span="word_2" mmax_level="parse" orderid="2" tag="(Start (NX (NN Wahlboykott)))"/>
-<markable id="markable_72" span="word_3..word_28" mmax_level="parse" orderid="3" tag="(Start (NX (NE Tuxtla) (NE Gutierrez)) (\$-LRB- -LRB-) (NX (NE AP)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (PX (APPR Bei) (NX (NX (ART den) (NN Regionalwahlen)) (PX (APPR in) (NX (NE Chiapas)))))) (VXAF (VAFIN ist)) (MF (ADVX (ADV offenbar)) (NX (NX (ART ein) (ADJX (ADJA großer)) (NN Teil)) (NX (NX (ART der) (ADJX (CARD 1\,6)) (NN Millionen)) (NX (NN Wahlberechtigten)))) (NX (NX (ART dem) (NN Boykottaufruf)) (NX (ART der) (NN Zapatisten)))) (VXVP (VVPP gefolgt))) (\$\. \.))"/>
-<markable id="markable_97" span="word_29..word_38" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Der) (NN Boykott))) (VXVF (VVFIN schadete)) (MF (PX (APPR vor) (NX (PIS allem))) (NX (NX (ART der) (ADJX (ADJA linksgerichteten)) (NN Oppositionspartei)) (NX (NE PRD))))) (\$\. \.))"/>
-<markable id="markable_158" span="word_39..word_63" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (NX (ART Die) (ADJX (ADJA regierende)) (NN Staatspartei)) (NX (NE PRI)))) (VXVF (VVFIN erklärte)) (\$\, \,) (NF (SIMPX (VF (NX (PPER sie))) (VXAF (VAFIN habe)) (MF (PX (APPR nach) (NX (ADJX (ADJA ersten)) (NN Ergebnissen))) (NX (NX (ART die) (NN Mehrheit)) (PX (APPR in) (NX (NX (ART der) (NN Abgeordnetenkammer)) (PX (APPR von) (NX (NE Chiapas)))))) (ADVX (ADV ebenso))) (VXVP (VVPP gewonnen)) (NF (KomX (KOKOM wie) (PX (APPR in) (NX (ART den) (NN Gemeindeversammlungen)))))))) (\$\. \.))"/>
-</markables>

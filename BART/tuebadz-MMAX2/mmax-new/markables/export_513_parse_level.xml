@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (NX (ADJX (ADJA Zweiter)) (NN Katamaran)))"/>
-<markable id="markable_60" span="word_3..word_24" mmax_level="parse" orderid="2" tag='(Start (SIMPX (VF (PX (APPR Mit) (NX (NX (ART dem) (NN Hochseekatamaran)) (\$-LRB- \") (NX (NE Hanse) (NE Jet))))) (\$-LRB- \") (VXVF (VVFIN verkehrt)) (MF (PX (APPR seit) (NX (ART dem) (NN Wochenende))) (NX (ART ein) (ADJX (ADJA zweites)) (NN Schiff)) (PX (APPRART im) (NX (NX (ADJX (ADJA täglichen)) (NN Direktverkehr)) (PX (PX (APPR von) (NX (NE Hamburg))) (PX (APPR nach) (NX (NE Helgoland)))))))) (\$\. \.))'/>
-<markable id="markable_97" span="word_25..word_38" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (ART Die) (NN Hochgeschwindigkeitsfähre))) (VXVF (VVFIN benötigt)) (MF (PX (APPR für) (NX (NX (ART die) (NN Fahrt)) (PX (APPR zu) (NX (NX (NE Deutschlands)) (ADJX (ADJA einziger)) (NN Hochseeinsel))))) (NX (ADVX (ADV etwa)) (ADJX (CARD dreieinhalb)) (NN Stunden)))) (\$\. \.))"/>
-</markables>

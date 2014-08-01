@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Bayern)))"/>
-<markable id="markable_12" span="word_2..word_3" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NE Huber))) (MF (NX (NN Finanzminister)))))"/>
-<markable id="markable_58" span="word_4..word_22" mmax_level="parse" orderid="3" tag="(Start (NX (NE München)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (ART Der) (ADJX (ADJA bayerische)) (NN Staatskanzleichef)) (NX (NE Erwin) (NE Huber)))) (VXAF (VAFIN wird)) (MF (NX (ADJX (ADJA neuer)) (NN Finanzminister)) (PX (APPRART im) (NX (NX (NN Kabinett)) (PX (APPR von) (NX (NX (NN Ministerpräsident)) (NX (NE Stoiber)))))))) (\$\. \.))"/>
-<markable id="markable_100" span="word_23..word_38" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (PPER Er))) (VXVF (VVFIN löst)) (MF (NX (NE Georg) (PX (APPR von) (NX (NE Waldenfels))))) (PTKVZ ab) (\$\, \,) (NF (R-SIMPX (C (NX (PRELS der))) (MF (NX (NX (ART einen) (NN Vorstandsposten)) (PX (APPR bei) (NX (NX (ART dem) (NN Konzern)) (NX (NE Viag)))))) (VXVF (VVFIN übernimmt))))) (\$\. \.))"/>
-<markable id="markable_128" span="word_39..word_49" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (NX (NX (NN Nachfolger)) (NX (NE Hubers))) (PX (APPR in) (NX (ART der) (NN Staatskanzlei))))) (VXAF (VAFIN wird)) (MF (NX (NX (ART der) (ADJX (ADJA Bonner)) (NN Finanzstaatssekretär)) (NX (NE Faltlhauser))))) (\$\. \.))"/>
-</markables>

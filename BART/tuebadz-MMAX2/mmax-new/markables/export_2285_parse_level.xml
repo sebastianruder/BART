@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Todesfall)))"/>
-<markable id="markable_12" span="word_2..word_3" mmax_level="parse" orderid="2" tag="(Start (NX (PIAT Keine) (NN Rettung)))"/>
-<markable id="markable_67" span="word_4..word_26" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NX (NX (ART Der) (ADJX (ADJA brasilianische)) (NN Rennfahrer)) (NX (NE Marco) (NE Campos))) (\$\, \,) (R-SIMPX (C (NX (PRELS der))) (MF (PX (APPRART am) (NX (NN Sonntag))) (PX (APPRART beim) (NX (NX (NN Formel-3000-EM-Lauf)) (PX (APPR in) (NX (NX (NE Magny) (NE Cours)) (PX (APPR in) (NX (NE Frankreich)))))))) (VXVP (VVPP verunglückt)) (VXAF (VAFIN war))))) (\$\, \,) (VXAF (VAFIN ist)) (MF (ADVX (ADV gestern))) (VXVP (VVPP gestorben))) (\$\. \.))"/>
-<markable id="markable_105" span="word_27..word_41" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (NE Campos))) (FKOORD (FKONJ (VXAF (VAFIN war)) (MF (PX (APPR von) (NX (ART der) (NN Strecke)))) (VXVP (VVPP abgekommen))) (KON und) (FKONJ (VXAF (VAFIN hatte)) (MF (NX (PRF sich)) (PX (APPR mit) (NX (PPOSAT seinem) (NN Wagen))) (ADJX (ADJD mehrfach))) (VXVP (VVPP überschlagen))))) (\$\. \.))"/>
-</markables>
