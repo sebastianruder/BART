@@ -741,6 +741,11 @@ public boolean isSpeakerSpeechLeft(Mention mention){
 			return false;
 		}
 		
+		// only to be used with corpus including deprel-level
+		if (!mention.getDiscourseElementsByLevel("deprel").contains("SUBJ")){
+			return false;
+		}
+		
 		// returns true if 5 lemmata left to mention contain so, ',' and '"' 
 		if (mention.getDiscourseElementsByLevelAndExtendedSpan("lemma", 5, 0).contains("so") && 
 				mention.getDiscourseElementsByLevelAndExtendedSpan("lemma", 5, 0).contains("\"") &&
@@ -768,6 +773,11 @@ public boolean isSpeakerSpeechLeft(Mention mention){
 		// A speech_verb (:) "..."
 		
 		if (FE_Speech.isMentionInSpeech(mention)){ // speaker cannot be in speech
+			return false;
+		}
+		
+		// only to be used with corpus including deprel-level
+		if (!mention.getDiscourseElementsByLevel("deprel").contains("SUBJ")){
 			return false;
 		}
 				
