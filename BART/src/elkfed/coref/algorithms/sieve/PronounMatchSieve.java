@@ -5,6 +5,7 @@ import java.util.List;
 
 import com.sun.org.apache.xalan.internal.utils.FeatureManager.Feature;
 
+import edu.stanford.nlp.trees.Tree;
 import elkfed.coref.features.pairs.FE_SentenceDistance;
 import elkfed.coref.features.pairs.FE_Speech;
 import elkfed.coref.PairInstance;
@@ -69,20 +70,43 @@ public class PronounMatchSieve extends Sieve {
 		return anteIdx;
 	}
 
-	// private int scorePair(PairInstance pair) {
-	// Mention ante = pair.getAntecedent();
-	//
-	// int score = 0;
-	// if (FE_SentenceDistance.getSentDist(pair) == 0) {
-	// score += 20;
-	// }
-	// //Head - Bonus
-	// if (!ante.getHighestProjection().parent().equals("NX")) {
-	// score += 80;
-	// }
-	//
-	//
-	// }
+	private int scorePair(PairInstance pair) {
+		Mention ante = pair.getAntecedent();
+		Mention m = pair.getAnaphor();
+
+		int score = 0;
+		if (FE_SentenceDistance.getSentDist(pair) == 0) {
+			score += 20;
+		}
+		// Head - Bonus
+//		Tree sentenceTree = ante.getSentenceTree();
+//		List<Tree> domPath = sentenceTree.dominationPath(ante.getHighestProjection());
+//		for (int i = domPath.size()-2; i >= 0; i--) {
+//			if(domPath.get(i).value().equals("SIMPX")) {
+//				score += 80;
+//				System.out.println("works");
+//				break;
+//			} 
+//			if(domPath.get(i).value().equals("NX")) {
+//				break;
+//			}
+//			
+//		}
+
+		if (ante.getDiscourseElementsByLevel("deprel").contains("SUBJ")) {
+			score += 170;
+		} else {
+			if (ante.getDiscourseElementsByLevel("deprel").contains("OBJA")) {
+				score += 70;
+			} else {
+				score += 50;
+			}
+			
+		}
+
+
+		return score;
+	}
 
 	public int runSieve(Mention mention) {
 		if (!mention.getPronoun()) {
@@ -100,21 +124,31 @@ public class PronounMatchSieve extends Sieve {
 		if (antecedents.size() == 1) {
 			return mentions.indexOf(antecedents.get(0));
 		}
-
-		int sentDist = FE_SentenceDistance.getSentDist(new PairInstance(
-				mention, antecedents.get(0)));
-		
-		//always take leftmost Antecedent in a Sentence
-		int idx = 1;
-		while (FE_SentenceDistance.getSentDist(new PairInstance(mention,
-				antecedents.get(idx))) == sentDist) {
-			idx++;
-			if (idx >= antecedents.size()) {
-				break;
+		int max = 0;
+		Mention maxMention = antecedents.get(0);
+		for(Mention m: antecedents) {
+			PairInstance pair = new PairInstance(mention, m);
+			if(scorePair(pair) > max) {
+				maxMention = m;
+				max = scorePair(pair);
 			}
 		}
-		return mentions.indexOf(antecedents.get(idx - 1));
+		return mentions.indexOf(maxMention);
 
+//		int sentDist = FE_SentenceDistance.getSentDist(new PairInstance(
+//				mention, antecedents.get(0)));
+//
+//		// always take leftmost Antecedent in a Sentence
+//		int idx = 1;
+//		while (FE_SentenceDistance.getSentDist(new PairInstance(mention,
+//				antecedents.get(idx))) == sentDist) {
+//			idx++;
+//			if (idx >= antecedents.size()) {
+//				break;
+//			}
+//		}
+//		return mentions.indexOf(antecedents.get(idx - 1));
+//
 	}
 
 }
