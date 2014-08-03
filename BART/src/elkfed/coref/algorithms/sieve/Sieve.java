@@ -531,6 +531,12 @@ public abstract class Sieve {
 
 	
 
+	/**
+	 * returns true if the mention head matches any head in the antecedent entity
+	 * 
+	 * @param pair PairInstance of mention, antecedent
+	 * @return true or false
+	 */
 	public boolean entityHeadMatch(PairInstance pair) {
 		Mention m = pair.getAnaphor();
 		Mention ante = pair.getAntecedent();
@@ -543,6 +549,7 @@ public abstract class Sieve {
 		Set<String> mheadLemmas= new HashSet<>();
 		String mHead = m.getHeadLemma();
 		mheadLemmas.add(mHead);
+		//taking split heads into account
 		mheadLemmas.addAll(Arrays.asList(mHead.split(" ")));
 		Set<String> dAnteHeads = ante.getDiscourseEntity().getHeads();
 		for (String head : dAnteHeads) {
@@ -554,6 +561,13 @@ public abstract class Sieve {
 		return false;
 	}
 
+	/**
+	 * returns true if both mention and antecedent are proper names 
+	 * and have the same semantic class
+	 * 
+	 * @param pair PairInstance of mention, antecedent
+	 * @return true or false
+	 */
 	public boolean properNameAgreement(PairInstance pair) {
 		Mention m = pair.getAnaphor();
 		Mention ante = pair.getAntecedent();
@@ -569,6 +583,12 @@ public abstract class Sieve {
 		return false;
 	}
 
+	/**
+	 * Returns true if the mention head matches any word in the antecedent entity
+	 * 
+	 * @param pair PairInstance of mention, antecedent
+	 * @return true or false
+	 */
 	public boolean relaxedEntityHeadMatch(PairInstance pair) {
 		Mention m = pair.getAnaphor();
 		Mention ante = pair.getAntecedent();
@@ -581,7 +601,7 @@ public abstract class Sieve {
 			return false;
 		}
 		Set<String> mheadLemmas= new HashSet<>();
-		
+		//taking split heads into account
 		mheadLemmas.add(mHead);
 		mheadLemmas.addAll(Arrays.asList(mHead.split(" ")));
 		Set<String> dAnteWords = ante.getDiscourseEntity().getWords();
@@ -591,14 +611,17 @@ public abstract class Sieve {
 			}
 		}
 	
-//		Set<String> dAnteWords = ante.getDiscourseEntity().getWords();
-//		if (dAnteWords.contains(mHead)) {
-//			return true;
-//		}
+
 		return false;
 
 	}
 
+	/**
+	 * returns true if every word in the mention is contained in the antecedent entity
+	 * 
+	 * @param pair PairInstance of mention, antecedent
+	 * @return true or false
+	 */
 	public boolean wordInclusion(PairInstance pair) {
 		Mention m = pair.getAnaphor();
 		Mention ante = pair.getAntecedent();
@@ -616,6 +639,13 @@ public abstract class Sieve {
 
 	}
 
+	/**
+	 * returns true if every noun and adjective modifiers are contained in the antecedent entity
+	 * 
+	 * 
+	 * @param pair PairInstance of mention, antecedent
+	 * @return true or false
+	 */
 	public boolean compatibleModifiers(PairInstance pair) {
 		Mention m = pair.getAnaphor();
 		Mention ante = pair.getAntecedent();		
@@ -638,7 +668,7 @@ public abstract class Sieve {
 				toTest.add(mWords.get(i));
 			}
 		}	
-		//return false if the mentions are too far apart and share no modifiers
+		//return false if the mentions are too far apart and share no modifiers to increase precision
 		if (!sentenceDistance(pair) && toTest.size() == 0) {
 			return false;
 		}
