@@ -3,8 +3,6 @@ package elkfed.coref.algorithms.sieve;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.sun.org.apache.xalan.internal.utils.FeatureManager.Feature;
-
 import edu.stanford.nlp.trees.Tree;
 import elkfed.coref.features.pairs.FE_SentenceDistance;
 import elkfed.coref.features.pairs.FE_Speech;
