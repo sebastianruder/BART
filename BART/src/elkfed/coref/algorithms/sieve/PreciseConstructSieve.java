@@ -54,7 +54,8 @@ public class PreciseConstructSieve extends Sieve {
 		
 		for (int idx = 0; idx < mention_idx; idx++) {			
 			pair = new PairInstance(mention, mentions.get(idx));
-			if (isRelativePronoun(pair) || isAcronym(pair) || isDemonym(pair) || isRoleAppositive(pair)
+			if (isRelativePronoun(pair) || isAcronym(pair) || isDemonym(pair)
+					// || isRoleAppositive(pair)
 					// || isAppositive(pair) // no tagged appositive constructions in TüBa-D//
 					// || isPredicateNominative(pair) // no tagged copula constructions in TüBa-D/Z
 					){
