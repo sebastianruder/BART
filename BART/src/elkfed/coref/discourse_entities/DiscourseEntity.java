@@ -82,11 +82,6 @@ public class DiscourseEntity {
 		
 		numbers = new HashSet<Number>();
 		numbers.add(m.getNumberLabel());
-		
-		
-		
-			
-		
 	}	
 
 	
@@ -103,13 +98,21 @@ public class DiscourseEntity {
 			if (!langPlugin.isInStopwordList(word)) {
 				words.add(word);
 			}
-			
 		}
 	}        
 
 	
 	public Set<Gender> getGenders() {
 		return genders;
+	}
+	
+	public void setGender(Gender gender) {
+		genders = new HashSet<Gender>();
+		genders.add(gender);
+	}
+	
+	public void addGender(Gender gender) {
+		genders.add(gender);
 	}
 	
 	public Set<Number> getNumbers() {
@@ -129,7 +132,6 @@ public class DiscourseEntity {
 		words.addAll(deAnte.getWords());		
 		modifiers.addAll(deAnte.getModifiers());
 		heads.addAll(deAnte.getHeads());
-		
 	}
 	
 	public Set<Tree> getModifiers() {
@@ -141,7 +143,6 @@ public class DiscourseEntity {
 	    for (String word : words) {
 	    	w.append(word);
 	    	w.append(" ");
-	    
 	    }
 	    return w.toString();
 	}
@@ -163,7 +164,6 @@ public class DiscourseEntity {
 	    	w.append(head);
 	    	w.append(" ");	    
 	    }
-	    
 	    return w.toString();
 	}
 	
