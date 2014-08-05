@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_13" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (NX (NN Betr\.)) (\$\. \:) (NX (NE Angela) (NE Marquardt)))"/>
+<markable id="markable_25" span="word_5..word_6" mmax_level="parse" orderid="2" tag="(Start (NX (NE Angela) (NE Marquardt)))"/>
+<markable id="markable_63" span="word_7..word_21" mmax_level="parse" orderid="3" tag="(Start (NX (NX (ADJX (CARD 24)) (NN Jahre)) (\$\, \,) (SIMPX (VC (VXINF (VVPP geboren))) (NF (PX (APPR in) (NX (NE Ludwigslust))))) (\$\, \,) (SIMPX (VC (VXINF (VVPP aufgewachsen))) (NF (PX (APPR in) (NX (NE Greifswald))))) (\$\, \,) (SIMPX (LK (VXFIN (VVFIN lebt))) (MF (PX (APPR in) (NX (NE Berlin)))))) (\$\. \.))"/>
+<markable id="markable_98" span="word_22..word_28" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (PPER Sie))) (LK (VXFIN (VVFIN studiert))) (MF (PX (APPR an) (NX (ART der) (NE FU))) (NX (NN Politikwissenschaften)))) (\$\. \.))"/>
+<markable id="markable_155" span="word_29..word_47" mmax_level="parse" orderid="5" tag="(Start (SIMPX (SIMPX (VF (PX (APPR Seit) (NX (CARD 1992)))) (LK (VXFIN (VVFIN sitzt))) (MF (NX (PPER sie)) (PX (APPRART im) (NX (NX (NN Bundesvorstand)) (NX (ART der) (NE PDS)))))) (\$\, \,) (SIMPX (VF (PX (APPR seit) (NX (NX (NN Januar)) (NX (CARD 1995))))) (LK (VXFIN (VAFIN ist))) (MF (NX (PPER sie)) (NX (NX (ADJX (ADJA stellvertretende)) (NN Vorsitzende)) (NX (ART der) (NN Partei)))))) (\$\. \.))"/>
+</markables>

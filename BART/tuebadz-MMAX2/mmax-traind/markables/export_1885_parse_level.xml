@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Nahost)))"/>
+<markable id="markable_12" span="word_2" mmax_level="parse" orderid="2" tag="(Start (NX (NN Hisbollah-Angriff)))"/>
+<markable id="markable_83" span="word_3..word_31" mmax_level="parse" orderid="3" tag="(Start (NX (NX (NE Nabatije)) (\$-LRB- \/) (NX (NE Tel) (NE Aviv))) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (PX (APPR Bei) (NX (NX (NX (ART dem) (ADJX (ADJA schwersten)) (NN Angriff)) (NX (ART der) (ADJX (ADJA pro-iranischen)) (NE Hisbollah))) (PX (APPR in) (NX (PDAT diesem) (NN Jahr)))))) (LK (VXFIN (VAFIN sind))) (MF (ADVX (ADVX (ADV gestern)) (ADVX (ADV morgen))) (PX (APPR in) (NX (NE Südlibanon))) (NX (ADJX (CARD sechs)) (ADJX (ADJA israelische)) (NN Soldaten))) (VC (VXINF (VVPP getötet)) (VXINF (VAPP worden)))) (\$\. \.))"/>
+<markable id="markable_125" span="word_32..word_36" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (PDS Das))) (LK (VXFIN (VVFIN bestätigten))) (MF (NX (ADJX (ADJA libanesische)) (NN Sicherheitskreise)))) (\$\. \.))"/>
+<markable id="markable_165" span="word_37..word_50" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (NX (NN Hisbollah-Sprecher)) (PX (APPR in) (NX (NE Nabatije))))) (LK (VXFIN (VVFIN sprachen))) (MF (PX (APPRART am) (NX (NN Morgen))) (ADVX (ADV sogar)) (PX (APPR von) (NX (ADJX (CARD elf)) (ADJX (ADJX (ADJA getöteten)) (KON oder) (ADJX (ADJA verletzten))) (NN Israelis))))) (\$\. \.))"/>
+<markable id="markable_219" span="word_51..word_66" mmax_level="parse" orderid="6" tag="(Start (SIMPX (VF (NX (NN Hisbollah-Guerillas))) (LK (VXFIN (VAFIN hatten))) (MF (NX (ART einem) (ADJX (ADJA israelischen)) (NN Konvoi)) (PX (APPRART im) (NX (NX (NN Ostsektor)) (NX (ART der) (ADJX (PX (APPR von) (NX (NE Israel))) (ADJA besetzten)) (NN Gebiete)))) (NX (ART einen) (NN Hinterhalt))) (VC (VXINF (VVPP gelegt)))) (\$\. \.))"/>
+</markables>

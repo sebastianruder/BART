@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_9" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NN Studenten)) (KON und) (NX (NE Stasi))))"/>
-<markable id="markable_16" span="word_4..word_5" mmax_level="parse" orderid="2" tag="(Start (NX (NE Mitte)) (\$\. \.))"/>
-<markable id="markable_68" span="word_6..word_25" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NX (NX (ART Die) (NN Einwirkungen)) (PX (APPR von) (NX (NX (NE Stasi)) (KON und) (NX (NE SED))))) (PX (APPR auf) (NX (NX (ART die) (NX (NX (NN Wissenschaft)) (KON und) (NX (NN Forschung)))) (PX (APPR an) (NX (PPOSAT ihrer) (NN Hochschule))))))) (LK (VXFIN (VMFIN wollen))) (MF (NX (NX (NN Studenten)) (NX (ART der) (NN Humboldt-Universität)))) (VC (VXINF (VVINF untersuchen)))) (\$\. \.))"/>
-<markable id="markable_134" span="word_26..word_54" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (SIMPX (VF (PX (APPR Anhand) (NX (NX (ADJX (ADVX (ADV noch)) (ADJA vorhandener)) (NN Akten)) (KON und) (PX (APPR von) (NX (NX (NN Gesprächen)) (PX (APPR mit) (NX (NN Zeitzeugen)))))))) (LK (VXFIN (VMFIN solle))) (VC (VXINF (VVPP recherchiert)) (VXINF (VAINF werden))) (\$\, \,) (NF (SIMPX (C (KOUS inwiefern)) (MF (NX (NX (NN Partei)) (KON und) (NX (NE Stasi))) (PX (APPR in) (NX (NX (NX (TRUNC Studenten-)) (KON und) (NX (NN Kaderauswahl))) (KON sowie) (NX (NN Berufungen))))) (VC (VXINF (VVPP eingegriffen)) (VXFIN (VAFIN haben))))))) (\$\, \,) (LK (VXFIN (VVFIN hieß))) (MF (NX (PPER es)))) (\$\. \.))"/>
-</markables>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_16" span="word_1..word_5" mmax_level="parse" orderid="1" tag="(Start (SIMPX (VF (NX (NE PDS))) (LK (VXFIN (VMFIN will))) (MF (NX (NE Havemann)) (NX (KOKOM als) (NN Verfassungsrichter)))))"/>
+<markable id="markable_81" span="word_6..word_29" mmax_level="parse" orderid="2" tag="(Start (NX (NE Potsdam)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (ART Die) (NE PDS))) (LK (VXFIN (VMFIN will))) (MF (NX (NX (NE Florian) (NE Havemann)) (\$\, \,) (NX (NX (NN Sohn)) (NX (NX (ART des) (ADJX (ADJA prominenten)) (NN DDR-Regimekritikers)) (NX (NE Robert) (NE Havemann))))) (\$\, \,) (PX (APPRART zum) (NX (NX (NN Verfassungsrichter)) (PX (APPR in) (NX (NE Brandenburg)))))) (VC (VXINF (VVINF machen)))) (\$\. \.))"/>
+<markable id="markable_143" span="word_30..word_44" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NX (NX (ART Der) (ADJX (ADJA parlamentarische)) (NN Geschäftsführer)) (NX (NX (ART der) (NN PDS-Landtagsfraktion)) (PX (APPR in) (NX (NE Potsdam))))) (\$\, \,) (NX (NE Heinz) (NE Vietze)))) (\$\, \,) (LK (VXFIN (VVFIN bestätigte))) (MF (NX (ART einen) (NN Spiegel-Bericht)))) (\$\. \.))"/>
+<markable id="markable_191" span="word_45..word_57" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (SIMPX (VF (NX (NX (NE Havemann)) (\$\, \,) (NX (NX (NN Elektriker)) (KON und) (NX (NN Autor))))) (\$\, \,) (LK (VXFIN (VAFIN habe))) (MF (NX (NN Aufgeschlossenheit))) (VC (VXINF (VVPP signalisiert))))) (\$\, \,) (LK (VXFIN (VVFIN sagte))) (MF (NX (NE Vietze)))) (\$\. \.))"/>
+</markables>

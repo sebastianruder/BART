@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_62" span="word_1..word_25" mmax_level="parse" orderid="1" tag='(Start (\$-LRB- \") (NX (ADJX (ADJA Liebe)) (NE taz)) (\$-LRB- \.\.\.) (\$-LRB- \") (NX (NX (NN Wahlkampf)) (NX (ART der) (NE SPDU))) (\$-LRB- -) (NX (NN Betr\.)) (\$\. \:) (\$-LRB- \") (NX (NX (NN Scherf-Angriff)) (PX (APPR auf) (NX (ART die) (ADJX (ADJA positive)) (NN Kraft)))) (\$-LRB- \") (\$\, \,) (NX (NX (NX (NE taz)) (NX (NE bremen))) (PX (APPRART vom) (NX (NX (ADJX (ADJA 5\.)) (NN Mai)) (NX (CARD 1999))))))'/>
+<markable id="markable_112" span="word_26..word_34" mmax_level="parse" orderid="2" tag="(Start (DM (NX (ADJX (ADJA Liebe)) (NN tazzen))) (\$\, \,) (SIMPX (LK (VXFIN (VVFIN versteht))) (MF (NX (PPER ihr)) (NX (PPER \'s)) (ADVX (ADV wirklich)) (ADVX (PTKNEG nicht)))) (\$\. \?))"/>
+<markable id="markable_155" span="word_35..word_48" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NX (ART Der) (NN Streit)) (PX (APPR um) (NX (ART die) (NN Großflächenplakate))))) (LK (VXFIN (VAFIN ist))) (MF (ADVX (ADV doch)) (NX (NX (ART der) (ADJX (ADJA versprochene)) (ADJX (ADJA inhaltliche)) (NN Wahlkampf)) (NX (ART der) (NE SPDU))))) (\$\. \!))"/>
+<markable id="markable_185" span="word_49..word_54" mmax_level="parse" orderid="4" tag="(Start (PX (ADVX (ADV Immer)) (PX (APPR zu) (NX (NN Diensten)))) (\$\, \,) (NX (NE Klaus) (NE Jarchow)))"/>
+</markables>

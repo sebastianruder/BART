@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_11" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (NX (NE PKK)) (\$-LRB- \/) (NX (NN Razzia)))"/>
+<markable id="markable_26" span="word_4..word_7" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (ADJX (CARD Drei)) (NN Kurden))) (MF (PX (APPR in) (NX (NN U-Haft))))))"/>
+<markable id="markable_99" span="word_8..word_34" mmax_level="parse" orderid="3" tag="(Start (NX (NX (NE Karlsruhe)) (\$-LRB- \/) (NX (NE München))) (\$-LRB- -LRB-) (NX (NE AFP)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (PX (APPR Nach) (NX (NX (ART den) (NN Razzien)) (PX (APPR gegen) (NX (NX (NX (NN PKK-Veranstaltungen)) (PX (APPRART am) (NX (NN Wochenende)))) (PX (APPR in) (NX (NX (NE München)) (KON und) (NX (NE Gießen))))))))) (LK (VXFIN (VAFIN hat))) (MF (NX (ART die) (NN Bundesanwaltschaft)) (PX (APPR gegen) (NX (ADJX (CARD zwei)) (NN Kurden))) (NX (NN Haftbefehle))) (VC (VXINF (VVPP erwirkt)))) (\$\. \.))"/>
+<markable id="markable_165" span="word_35..word_50" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (PPER Sie))) (LK (VXFIN (VMFIN sollen))) (MF (NX (KOKOM als) (NX (NN Gebietsverantwortliche)) (NX (ART der) (NE PKK))) (PX (APPR für) (NX (NX (ART die) (NN Regionen)) (NX (NX (NE München)) (KON und) (NX (NE Freiburg))))) (ADJX (ADJD aktiv))) (VC (VXINF (VAPP gewesen)) (VXINF (VAINF sein)))) (\$\. \.))"/>
+<markable id="markable_216" span="word_51..word_65" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (ADVX (ADV Auch))) (LK (VXFIN (VAFIN sei))) (MF (NX (NX (ART ein) (ADJX (PX (APPR mit) (NX (NN Haftbefehl))) (ADJA gesuchter)) (ADJX (ADJA mutmaßlicher)) (NN Gebietsleiter)) (PX (APPR für) (NX (NX (ART die) (NN Region)) (NX (NE Nürnberg)))))) (VC (VXINF (VVPP festgenommen)) (VXINF (VAPP worden)))) (\$\. \.))"/>
+<markable id="markable_249" span="word_66..word_72" mmax_level="parse" orderid="6" tag="(Start (SIMPX (VF (NX (PIDAT Alle) (CARD drei))) (LK (VXFIN (VVFIN befinden))) (MF (NX (PRF sich)) (PX (APPR in) (NX (NN U-Haft))))) (\$\. \.))"/>
+</markables>

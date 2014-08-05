@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_8" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (NX (ADJX (ADJA Fleißige)) (NN Algen)))"/>
-<markable id="markable_32" span="word_3..word_11" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NN Braunalgen))) (LK (VXFIN (VMFIN können))) (MF (ADVX (ADV offenbar)) (NX (ADJX (ADJA gesundheitsgefährdende)) (NN Schwermetalle)) (PX (APPR aus) (NX (NN Industrieabwässern)))) (VC (VXINF (VVINF herausfiltern)))) (\$\. \.))"/>
-<markable id="markable_81" span="word_12..word_31" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (APPR Nach) (NX (NX (NN Untersuchungen)) (NX (NX (ART des) (ADJX (ADJA Pharmazeutischen)) (NN Instituts)) (NX (NX (ART der) (NN Christian-Albrechts-Universität)) (NX (NE Kiel))))))) (LK (VXFIN (VMFIN können))) (MF (NX (ART die) (ADJX (ADJA meterlangen)) (NN Lebewesen)) (NX (ADJX (ADJA vorgereinigte)) (NN Abwässer)) (ADJX (ADVX (ADV fast)) (ADJD vollständig)) (PX (APPR von) (NX (NN Schwermetallen)))) (VC (VXINF (VVINF säubern)))) (\$\. \.))"/>
-</markables>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (NX (ADJX (ADJA Tödlicher)) (NN Unfall)))"/>
+<markable id="markable_59" span="word_3..word_22" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (PX (APPR Bei) (NX (NX (ART einem) (NN Verkehrsunfall)) (PX (APPR auf) (NX (NX (ART einer) (NN Kreisstraße)) (PX (APPR in) (NX (NX (NE Rosengarten)) (PX (APPR bei) (NX (NE Harburg)))))))))) (LK (VXFIN (VAFIN ist))) (MF (PX (APPRART am) (NX (NN Donnerstagabend))) (NX (ART ein) (ADJX (ADJA 21jähriger)) (NN Autofahrer)) (PX (APPRART ums) (NX (NN Leben)))) (VC (VXINF (VVPP gekommen)))) (\$\. \.))"/>
+<markable id="markable_129" span="word_23..word_42" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (PPER Er))) (LK (VXFIN (VAFIN war))) (FKOORD (FKONJ (MF (PX (APPR mit) (NX (PPOSAT seinem) (NN Fahrzeug))) (PX (APPR in) (NX (ART einer) (ADJX (ADJA leichten)) (NN Kurve))) (PX (APPR auf) (NX (ART die) (NN Gegenfahrbahn)))) (VC (VXINF (VVPP geraten)))) (KON und) (FKONJ (MF (ADVX (ADV dort)) (PX (APPR mit) (NX (ART einem) (NN Geländewagen)))) (VC (VXINF (VVPP zusammengestoßen)))))) (\$\. \.))"/>
+<markable id="markable_154" span="word_43" mmax_level="parse" orderid="4" tag="(Start (NX (NE dpa)))"/>
+</markables>

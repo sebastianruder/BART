@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_11" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NE CDU)) (\$-LRB- \/) (NX (NE CSU))))"/>
-<markable id="markable_21" span="word_4..word_6" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NE Hauser))) (LK (VXFIN (VVFIN steigt))) (VC (PTKVZ auf))))"/>
-<markable id="markable_79" span="word_7..word_31" mmax_level="parse" orderid="3" tag="(Start (NX (NE Bonn)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (NX (NX (ART Der) (ADJX (ADJA haushaltspolitische)) (NN Sprecher)) (NX (ART der) (NN CDU\/CSU-Bundestagsfraktion))) (\$\, \,) (NX (NE Hansgeorg) (NE Hauser))) (\$-LRB- -LRB-) (NX (NE CSU)))) (\$-LRB- -RRB-) (\$\, \,) (LK (VXFIN (VMFIN soll))) (MF (NX (NX (ADJX (ADJA neuer)) (ADJX (ADJA Parlamentarischer)) (NN Staatssekretär)) (PX (APPRART im) (NX (NN Bundesfinanzministerium))))) (VC (VXINF (VAINF werden)))) (\$\. \.))"/>
-<markable id="markable_100" span="word_32..word_40" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (PDS Das))) (LK (VXFIN (VVFIN bestätigte))) (MF (ADVX (ADV gestern)) (NX (NX (NX (NN Finanzminister)) (NX (NE Waigel))) (\$-LRB- -LRB-) (NX (NE CSU))))) (\$-LRB- -RRB-) (\$\. \.))"/>
-</markables>

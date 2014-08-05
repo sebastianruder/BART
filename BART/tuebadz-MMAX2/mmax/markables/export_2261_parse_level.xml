@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Kenia)))"/>
-<markable id="markable_16" span="word_2..word_4" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NN Unruhen)) (PX (APPR in) (NX (NN Slums)))))"/>
-<markable id="markable_86" span="word_5..word_32" mmax_level="parse" orderid="3" tag="(Start (NX (NE Nairobi)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (ART Eine) (NN Armensiedlung)) (NX (NX (ART der) (ADJX (ADJA kenianischen)) (NN Hauptstadt)) (NX (NE Nairobi))))) (LK (VXFIN (VAFIN wird))) (MF (PX (APPR seit) (NX (PIAT mehreren) (NN Tagen))) (PX (APPR von) (NX (ADJX (ADJA schweren)) (NN Unruhen)))) (VC (VXINF (VVPP erschüttert))) (\$\, \,) (NF (R-SIMPX (C (PX (APPR bei) (NX (PRELS denen)))) (MF (NX (ADVX (ADV mindestens)) (ADJX (CARD fünf)) (NN Menschen))) (VC (VXINF (VVPP getötet)) (VXFIN (VAFIN wurden)))))) (\$\. \.))"/>
-<markable id="markable_126" span="word_33..word_48" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (NX (ADJX (ADJA Jugendliche)) (NN Angehörige)) (PX (APPR von) (NX (ADJX (CARD zwei)) (NN Volksgruppen))))) (LK (VXFIN (VVFIN bekämpften))) (MF (NX (PRF sich)) (ADVX (ADV gestern)) (ADVX (ADV erneut)) (PX (APPR mit) (NX (NX (NN Steinen)) (\$\, \,) (NX (NN Knüppeln)) (KON und) (NX (NN Speeren)))))) (\$\. \.))"/>
-</markables>

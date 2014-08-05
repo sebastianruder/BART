@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_16" span="word_1..word_5" mmax_level="parse" orderid="1" tag="(Start (NX (ADJX (ADJA Jüdisches)) (NN Museum)) (\$\. \:) (NX (ADJX (ADJA 20\.000ster)) (NN Besucher)))"/>
-<markable id="markable_53" span="word_6..word_20" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (ART Das) (ADJX (ADJA Jüdische)) (NN Museum))) (LK (VXFIN (VAFIN ist))) (MF (ADVX (ADV bereits)) (PX (ADVX (ADV lange)) (APPR vor) (NX (NX (PPOSAT seiner) (ADJX (ADJA offiziellen)) (NN Eröffnung)) (NX (NX (NN Ende)) (NX (CARD 2000))))) (NX (ART ein) (NN Publikumsmagnet)))) (\$\. \.))"/>
-<markable id="markable_76" span="word_21..word_29" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (ADVX (ADV Heute))) (LK (VXFIN (VAFIN wird))) (MF (NX (ART der) (ADJX (ADJA 20\.000ste)) (NN Besucher)) (PX (APPRART im) (NX (NN Libeskind-Bau)))) (VC (VXINF (VVPP erwartet)))) (\$\. \.))"/>
-<markable id="markable_97" span="word_30..word_38" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (NN Führungen))) (LK (VXFIN (VAFIN werden))) (MF (ADVX (ADVX (ADV freitags)) (\$\, \,) (ADVX (ADV samstags)) (KON und) (ADVX (ADV sonntags)))) (VC (VXINF (VVPP angeboten)))) (\$\. \.))"/>
-<markable id="markable_149" span="word_39..word_61" mmax_level="parse" orderid="5" tag="(Start (NX (NE ADN)) (SIMPX (VF (NX (NN Anmeldungen))) (LK (VXFIN (VAFIN sind))) (MF (PX (PX (APPR unter) (NX (NX (ART der) (NN Telefonnummer)) (NX (CARD 28) (CARD 39) (CARD 74) (CARD 44)))) (KON oder) (PX (APPR über) (NX (NX (NN Telefax)) (\$-LRB- -LRB-) (NX (CARD 0) (CARD 30) (\$-LRB- -RRB-) (CARD 2) (CARD 82) (CARD 61) (CARD 83))))) (ADJX (ADJD möglich)))) (\$\. \.))"/>
-</markables>

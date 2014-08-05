@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_6" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Warnstreik)))"/>
-<markable id="markable_75" span="word_2..word_30" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (PX (APPR Mit) (NX (NX (ART einem) (NN Warnstreik)) (ADVX (ADVX (ADV heute)) (PX (PX (APPR von) (NX (ADJX (CARD sieben)))) (PX (APPR bis) (NX (ADJX (CARD acht)) (NN Uhr)))))))) (LK (VXFIN (VMFIN will))) (MF (NX (NX (ART die) (NN Belegschaft)) (NX (NX (ART der) (ADJX (ADJA Bargteheider)) (NN Firma)) (NX (NE Dibona)))) (\$-LRB- -LRB-) (NX (NN Langnese-Honig)) (\$-LRB- -RRB-) (NX (NX (ART den) (NN Arbeitgeberverband)) (NX (NX (NN Nährmittelindustrie)) (NX (NN Nord)))) (ADVX (ADV wieder)) (PX (APPR an) (NX (ART den) (NN Verhandlungstisch)))) (VC (VXINF (VVINF bringen)))) (\$\. \.))"/>
-<markable id="markable_103" span="word_31..word_41" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (ART Die) (NN Arbeitgeber))) (LK (VXFIN (VAFIN hatten))) (MF (NX (NX (NN Anfang)) (NX (NN Oktober))) (NX (ART die) (NN Entgelttarifverhandlungen)) (PX (APPR für) (ADJX (ADJD gescheitert)))) (VC (VXINF (VVPP erklärt)))) (\$\. \.))"/>
-</markables>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Türkei)))"/>
-<markable id="markable_13" span="word_2..word_3" mmax_level="parse" orderid="2" tag="(Start (SIMPX (MF (NX (NN Streiks))) (VC (VXINF (VVPP ausgesetzt)))))"/>
-<markable id="markable_65" span="word_4..word_24" mmax_level="parse" orderid="3" tag="(Start (NX (NE Ankara)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (ART Die) (NN Minderheitsregierung)) (PX (APPR von) (NX (NE Tansu) (NE Ciller))))) (LK (VXFIN (VAFIN hat))) (MF (ADVX (ADV gestern)) (NX (NX (ART die) (ADJX (ADJA teilweise)) (NN Aussetzung)) (NX (NX (ART der) (NN Streiks)) (PX (APPR in) (NX (NN Staatsbetrieben)))))) (VC (VXINF (VVPP erzwungen)))) (\$\. \.))"/>
-<markable id="markable_121" span="word_25..word_47" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (ADVX (ADV Insgesamt))) (LK (VXFIN (VVFIN streiken))) (MF (NX (NX (ADVX (ADV rund)) (ADJX (CARD 350\.000))) (PX (APPR von) (NX (NX (ADJX (CARD 680\.000)) (NN Arbeitern)) (PX (APPR in) (NX (NN Staatsbetrieben))))))) (\$\, \,) (NF (SIMPX (C (KOUI um)) (MF (NX (NX (PPOSAT ihre) (NN Forderungen)) (PX (APPR nach) (NX (NN Lohnerhöhung)))) (PX (APPR unter) (NX (NX (NN Berücksichtigung)) (NX (ART der) (ADJX (ADVX (ADV sehr)) (ADJA hohen)) (NN Inflation))))) (VC (VXINF (VVIZU durchzusetzen)))))) (\$\. \.))"/>
-</markables>

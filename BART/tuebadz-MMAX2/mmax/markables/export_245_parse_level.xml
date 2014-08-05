@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_11" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NN Ermittlungen)) (PX (APPR gegen) (NX (NN Feuerwehrchef)))))"/>
-<markable id="markable_57" span="word_4..word_22" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (ART Der) (ADJX (PX (APPRART ins) (NX (NX (NN Visier)) (NX (ART der) (NN Ermittler)))) (ADJA geratene)) (NN Feuerwehrchef)) (NX (NE Albrecht) (NE Broemme)))) (LK (VXFIN (VAFIN ist))) (MF (PX (APPR nach) (NX (NX (NN Angaben)) (PX (APPR von) (NX (NE Mercedes-Benz))))) (ADVX (PTKNEG nicht)) (ADJX (ADJD bevorzugt))) (VC (VXINF (VVPP behandelt)) (VXINF (VAPP worden)))) (\$\. \.))"/>
-<markable id="markable_132" span="word_23..word_53" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (SIMPX (VF (PX (APPR Bei) (NX (NX (NX (NX (ART der) (ADJX (ADJA einwöchigen)) (NN Abgabe)) (NX (NX (ART eines) (NN Probewagens)) (NX (ART der) (NN A-Klasse)))) (PX (APPR an) (NX (NX (ART die) (NN Ehefrau)) (PX (APPR von) (NX (NE Broemme)))))) (NX (CARD 1998))))) (LK (VXFIN (VAFIN habe))) (MF (NX (PPER es)) (NX (PRF sich)) (PX (APPR um) (NX (ART einen) (ADJX (ADJA normalen)) (NN Vorgang)))) (VC (VXINF (VVPP gehandelt))))) (\$\, \,) (LK (VXFIN (VVFIN sagte))) (MF (NX (NX (ART der) (NN Leiter)) (NX (NX (ART der) (NN Niederlassung)) (NX (NE Berlin)))) (ADVX (ADV gestern)))) (\$\. \.))"/>
-<markable id="markable_162" span="word_54..word_65" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (NX (NN Justizsprecherin)) (NX (NE Michaela) (NE Blume)))) (LK (VXFIN (VVFIN bestätigte))) (\$\, \,) (NF (SIMPX (C (KOUS daß)) (MF (NX (ART die) (NN Staatsanwaltschaft)) (PX (APPR gegen) (NX (NE Broemme)))) (VC (VXFIN (VVFIN ermittelt)))))) (\$\. \.))"/>
-<markable id="markable_167" span="word_66" mmax_level="parse" orderid="5" tag="(Start (NX (NE dpa)))"/>
-</markables>

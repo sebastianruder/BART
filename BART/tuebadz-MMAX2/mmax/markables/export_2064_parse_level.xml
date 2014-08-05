@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE SPD)))"/>
-<markable id="markable_13" span="word_2..word_3" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NE Müntefering))) (MF (NX (NN Kandidat)))))"/>
-<markable id="markable_57" span="word_4..word_21" mmax_level="parse" orderid="3" tag="(Start (NX (NE Bonn)) (\$-LRB- -LRB-) (NX (NE AP)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NE Franz) (NE Müntefering))) (LK (VXFIN (VAFIN ist))) (MF (ADVX (ADV nun)) (ADVX (ADV auch)) (ADJX (ADJD formell)) (NX (NX (NN Kandidat)) (PX (APPR für) (NX (NX (ART das) (NN Amt)) (NX (ART des) (NN Bundesgeschäftsführers))))))) (\$\. \.))"/>
-<markable id="markable_112" span="word_22..word_43" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (APPR Nach) (NX (ART einer) (NN SPD-Vorstandssitzung)))) (LK (VXFIN (VVFIN erklärte))) (MF (NX (NX (NN Parteichef)) (NX (NE Rudolf) (NE Scharping))) (ADVX (ADV gestern))) (\$\, \,) (NF (SIMPX (VF (NX (ART der) (NN Vorstand))) (LK (VXFIN (VAFIN habe))) (MF (NX (NX (PPOSAT seinem) (NN Vorschlag)) (\$\, \,) (SIMPX (MF (NX (NX (NN Herrn)) (NX (NE Müntefering)))) (VC (VXINF (PTKZU zu) (VVINF nominieren)))))) (\$\, \,) (VC (VXINF (VVPP zugestimmt)))))) (\$\. \.))"/>
-<markable id="markable_167" span="word_44..word_65" mmax_level="parse" orderid="5" tag='(Start (\$-LRB- \") (SIMPX (VF (SIMPX (SIMPX (VF (NX (NX (PDS Dies)) (KON und) (NX (ART die) (ADJX (ADJA konstruktive)) (NN Diskussion)))) (LK (VXFIN (VVFIN bestärken))) (MF (NX (PPER mich)) (PX (APPR in) (NX (PPOSAT meiner) (NN Überzeugung))))) (\$\. \:) (SIMPX (VF (NX (PPER Wir))) (LK (VXFIN (VAFIN haben))) (MF (ADVX (ADV wieder)) (NX (NN Tritt))) (VC (VXINF (VVPP gefaßt)))))) (\$-LRB- \") (\$\, \,) (LK (VXFIN (VVFIN sagte))) (MF (NX (NE Scharping)))) (\$\. \.))'/>
-</markables>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_11" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NN Mißverständnis)) (NX (NX (NE Hutter)) (KON und) (NX (NE GdP)))))"/>
+<markable id="markable_40" span="word_5..word_14" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (NE Jörg) (NE Hutter)) (\$\, \,) (NX (ADJX (ADJA grüner)) (NN Bürgerschafts-Kandidat)))) (\$\, \,) (LK (VXFIN (VVFIN fühlt))) (MF (NX (PRF sich)) (ADJX (ADJD mißverstanden)))) (\$\. \.))"/>
+<markable id="markable_97" span="word_15..word_32" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NX (ART Die) (NN Gewerkschaft)) (NX (ART der) (NN Polizei)))) (LK (VXFIN (VAFIN hatte))) (VC (VXINF (VVPP kritisiert))) (\$\, \,) (NF (SIMPX (VF (NX (NE Hutter))) (LK (VXFIN (VVFIN unterstelle))) (MF (NX (ART der) (NE GdP)) (NX (NX (ART ein) (ADJX (ADJA politisches)) (NN Interesse)) (PX (APPR an) (NX (ADJX (ADJA gewaltsamen)) (NN Auseinandersetzungen)))))))) (\$\. \.))"/>
+<markable id="markable_125" span="word_33..word_35" mmax_level="parse" orderid="4" tag="(Start (NX (PX (PROP Dazu)) (NX (NE Hutter))) (\$\. \:))"/>
+<markable id="markable_167" span="word_36..word_50" mmax_level="parse" orderid="5" tag='(Start (\$-LRB- \") (SIMPX (VF (NX (PPER Ich))) (LK (VXFIN (VAFIN bin))) (MF (PX (APPRART im) (NX (NX (NN Hinblick)) (PX (APPR auf) (NX (NX (ART die) (NN Rolle)) (NX (NX (ART der) (NN Gewerkschaft)) (NX (ART der) (NN Polizei)))))))) (VC (VXINF (VVPP mißverstanden)) (VXINF (VAPP worden)))) (\$\. \.))'/>
+<markable id="markable_237" span="word_51..word_72" mmax_level="parse" orderid="6" tag='(Start (SIMPX (VF (NX (PPER Ich))) (LK (VXFIN (VVFIN gehe))) (MF (ADVX (ADV vielmehr)) (PX (PROP davon))) (VC (PTKVZ aus)) (\$\, \,) (NF (SIMPX (C (KOUS daß)) (MF (NX (NX (NX (ART die) (NN Mitglieder)) (NX (ART der) (NE GdP))) (KON und) (NX (PPOSAT ihr) (NN Vorstand))) (NX (NX (PIAT kein) (NN Interesse)) (PX (APPR an) (NX (ADJX (ADJA gewaltsamen)) (NN Auseinandersetzungen))))) (VC (VXFIN (VAFIN haben)))))) (\$\. \.) (\$-LRB- \"))'/>
+<markable id="markable_264" span="word_73" mmax_level="parse" orderid="7" tag="(Start (NX (NE taz)))"/>
+</markables>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Sudan)))"/>
-<markable id="markable_15" span="word_2..word_4" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NN Frau)) (PX (APPRART ans) (NX (NN Steuer)))))"/>
-<markable id="markable_75" span="word_5..word_29" mmax_level="parse" orderid="3" tag="(Start (NX (NE Khartum)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (ART Der) (ADJX (ADJA sudanische)) (NN Präsident)) (NX (NE Omar) (NE Baschir)))) (LK (VXFIN (VAFIN hat))) (MF (NX (NX (NX (ART das) (NN Recht)) (PX (APPR von) (NX (NN Frauen)))) (\$\, \,) (SIMPX (MF (NX (NN Autos))) (VC (VXINF (PTKZU zu) (VVINF fahren))))) (\$\, \,) (PX (APPR gegen) (NX (ADJX (ADJA radikale)) (NN Islamisten)))) (VC (VXINF (VVPP verteidigt)))) (\$\. \.))"/>
-<markable id="markable_143" span="word_30..word_56" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (SIMPX (VF (NX (PPER Er))) (LK (VXFIN (VVFIN wisse))) (MF (ADVX (PTKNEG nicht))) (\$\, \,) (NF (SIMPX (C (PX (APPR aus) (NX (NX (PWAT welcher) (NN Bestimmung)) (NX (ART des) (NN Islam))))) (MF (NX (NX (ART ein) (NN Fahrverbot)) (PX (APPR für) (NX (NN Frauen))))) (VC (VXINF (VVPP abgeleitet)) (VXFIN (VAFIN werde))))))) (\$\, \,) (LK (VXFIN (VVFIN sagte))) (MF (NX (PPER er)) (NX (NE Baschir)) (PX (APPR nach) (NX (NX (ART einem) (NN Bericht)) (NX (NX (ART der) (NN Zeitung)) (NX (NE Al-ray) (NE al-Akhar))))))) (\$\. \.))"/>
-<markable id="markable_172" span="word_57..word_68" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (ADVX (ADV Schließlich))) (LK (VXFIN (VAFIN sei))) (MF (PX (APPR zu) (NX (NX (NN Zeiten)) (NX (NE Mohammeds)))) (NX (ART das) (NN Kamel)) (NX (ART das) (ADJX (ADJA einzige)) (NN Fortbewegungsmittel))) (VC (VXINF (VAPP gewesen)))) (\$\. \.))"/>
-</markables>

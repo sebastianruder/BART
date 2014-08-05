@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_6" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE NIGERIA)))"/>
-<markable id="markable_14" span="word_2..word_3" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NN Sozialdemokraten))) (LK (VXFIN (VVFIN siegen)))))"/>
-<markable id="markable_83" span="word_4..word_31" mmax_level="parse" orderid="3" tag="(Start (NX (NE Abuja)) (\$-LRB- -LRB-) (NX (NE afp)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (ART Die) (ADJX (ADJA nationale)) (NN Wahlkommission)) (NX (NE Nigerias)))) (LK (VXFIN (VAFIN hat))) (MF (PX (APPRART am) (NX (NN Donnerstag))) (NX (NX (NX (ART den) (NN Sieg)) (NX (NX (ART der) (ADJX (ADJA Sozialdemokratischen)) (NN Partei)) (\$-LRB- -LRB-) (NX (NE SDP)))) (\$-LRB- -RRB-) (PX (APPR bei) (NX (ART den) (ADJX (PX (APPRART am) (NX (NN Samstag))) (ADJA durchgeführten)) (NN Parlamentswahlen))))) (VC (VXINF (VVPP bestätigt)))) (\$\. \.))"/>
-<markable id="markable_112" span="word_32..word_42" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (APPR In) (NX (NX (PIDAT beiden) (NN Kammern)) (NX (ART der) (NN Nationalversammlung))))) (LK (VXFIN (VVFIN errang))) (MF (NX (ART die) (NN Partei)) (NX (ART die) (NN Mehrheit)))) (\$\. \.))"/>
-<markable id="markable_157" span="word_43..word_61" mmax_level="parse" orderid="5" tag="(Start (SIMPX (SIMPX (VF (PX (APPRART Im) (NX (NN Senat)))) (LK (VXFIN (VAFIN wird))) (MF (NX (ART die) (NE SDP)) (PX (APPR über) (NX (NX (ADJX (CARD 52))) (NX (ART der) (ADJX (CARD 91)) (NN Sitze))))) (VC (VXINF (VVINF verfügen)))) (\$\, \,) (SIMPX (VF (PX (APPRART im) (NX (NN Repräsentantenhaus)))) (MF (PX (APPR über) (NX (NX (ADJX (CARD 314))) (PX (APPR von) (NX (ADJX (CARD 593))))))))) (\$\. \.))"/>
-</markables>

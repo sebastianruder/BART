@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_13" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (NX (NN Betr\.)) (\$\. \:) (NX (NE Karim) (NE El-Gawhary)))"/>
+<markable id="markable_45" span="word_5..word_15" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NE Karim) (NE El) (NE Gawhary))) (LK (VXFIN (VVFIN lebt))) (MF (NX (KOKOM als) (NX (NN Nahost-Korrespondent)) (NX (ART der) (NE taz))) (PX (APPR in) (NX (NE Kairo))))) (\$\. \.))"/>
+<markable id="markable_108" span="word_16..word_36" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (PPER Er))) (LK (VXFIN (VVFIN beschäftigt))) (MF (NX (PRF sich)) (PX (APPR unter) (NX (PIS anderem))) (PX (APPR mit) (NX (NX (ART der) (NN Problematik)) (PX (APPR von) (NX (NX (ADJX (ADJA militärischen)) (ADJX (ADJA US-amerikanischen)) (NN Interventionen)) (PX (APPR in) (NX (NX (ART der) (NN Region)) (PX (PX (APPRART vom) (NX (NE Irak))) (PX (APPR bis) (PX (APPRART zum) (NX (NE Sudan))))))))))))) (\$\. \.))"/>
+</markables>

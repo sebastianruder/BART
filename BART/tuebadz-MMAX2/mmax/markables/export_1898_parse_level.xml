@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_6" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Berlin)))"/>
-<markable id="markable_22" span="word_2..word_7" mmax_level="parse" orderid="2" tag="(Start (PX (APPR Mit) (NX (NX (ART der) (XY U)) (NX (CARD 1)))) (PX (APPR nach) (NX (NN Osten))))"/>
-<markable id="markable_79" span="word_8..word_29" mmax_level="parse" orderid="3" tag="(Start (NX (NE Berlin)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (ART Die) (NN U-Bahnlinie)) (NX (CARD 1)))) (LK (VXFIN (VVFIN fährt))) (MF (PX (APPR seit) (NX (NN Samstag))) (PX (APPRART vom) (NX (NX (NN Bezirk)) (NX (NE Kreuzberg))) (APZR aus)) (ADVX (ADV wieder)) (PX (APPR in) (NX (NX (ART den) (NN Ostteil)) (NX (ART der) (NN Stadt)))))) (\$\. \.))"/>
-<markable id="markable_112" span="word_30..word_43" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (APPR Nach) (NX (NX (ADVX (ADV über)) (ADJX (CARD 34)) (NN Jahren)) (NX (NN Unterbrechung))))) (LK (VXFIN (VAFIN wurde))) (MF (NX (NX (ART der) (NN Fahrbetrieb)) (PX (APPR über) (NX (ART die) (NN Oberbaumbrücke)))) (ADVX (ADV wieder))) (VC (VXINF (VVPP aufgenommen)))) (\$\. \.))"/>
-<markable id="markable_150" span="word_44..word_58" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (ART Der) (ADJX (NX (ADJX (CARD 830)) (NN Meter)) (ADJA lange)) (NN Abschnitt))) (LK (VXFIN (VVFIN verlängert))) (MF (NX (ART die) (NN Linie)) (PX (APPRART zur) (NX (NX (NX (NN Station)) (NX (ADJX (ADJA Warschauer)) (NN Straße))) (PX (APPR in) (NX (NE Friedrichshain))))))) (\$\. \.))"/>
-</markables>

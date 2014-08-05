@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_16" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (SIMPX (VF (NX (NN Ostberliner))) (LK (VXFIN (VVFIN besetzen))) (MF (NX (PPOSAT ihren) (NN Betrieb)))))"/>
+<markable id="markable_72" span="word_5..word_24" mmax_level="parse" orderid="2" tag='(Start (SIMPX (VF (NX (NX (ADVX (ADV Rund)) (ADJX (CARD einhundert)) (NN Beschäftigte)) (NX (NX (ART des) (NE BAE\/Belfa-Batteriewerkes)) (PX (APPR in) (NX (NE Ost-Berlin)))))) (LK (VXFIN (VAFIN haben))) (FKOORD (FKONJ (MF (ADVX (ADV gestern)) (NX (PPOSAT ihr) (NN Werk))) (VC (VXINF (VVPP besetzt)))) (KON und) (FKONJ (MF (NX (ART eine) (ADJX (ADJA zweitägige)) (\$-LRB- \") (NN Protestproduktion))) (\$-LRB- \") (VC (VXINF (VVPP aufgenommen)))))) (\$\. \.))'/>
+<markable id="markable_137" span="word_25..word_41" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (APPR Mit) (NX (NX (PDAT dieser) (ADJX (ADJA ersten)) (NN Betriebsbesetzung)) (PX (APPR in) (NX (NE Ost-Berlin)))))) (LK (VXFIN (VVFIN wenden))) (MF (NX (PPER sie)) (NX (PRF sich)) (PX (APPR gegen) (NX (NX (ART die) (ADJX (ADJA drohende)) (NN Liquidation)) (PX (APPR durch) (NX (ART die) (NE Treuhand))))))) (\$\. \.))"/>
+<markable id="markable_186" span="word_42..word_54" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (VC (VXINF (VVPP Geplant)))) (LK (VXFIN (VAFIN ist))) (\$\, \,) (NF (SIMPX (MF (NX (NX (ART einen) (NN Teil)) (NX (ART der) (ADJX (ADJA hergestellten)) (NN Gerätebatterien))) (PX (APPR vor) (NX (ART der) (NE Treuhand)))) (VC (VXINF (VVIZU abzuladen)))))) (\$\. \.))"/>
+<markable id="markable_227" span="word_55..word_65" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (PX (APPR In) (NX (ART den) (ADJX (CARD zwei)) (NN Tagen)))) (LK (VXFIN (VMFIN wollen))) (MF (NX (ART die) (NN Arbeiter)) (NX (ADJX (CARD 100\.000)) (NN Batterien))) (VC (VXINF (VVINF produzieren)))) (\$\. \.))"/>
+<markable id="markable_245" span="word_66..word_67" mmax_level="parse" orderid="6" tag="(Start (NX (NX (NN SEITE)) (NX (CARD 18))))"/>
+</markables>

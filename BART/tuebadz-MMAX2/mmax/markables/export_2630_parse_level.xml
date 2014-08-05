@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Intercity)))"/>
-<markable id="markable_10" span="word_2" mmax_level="parse" orderid="2" tag="(Start (NX (NN Verspätungsrekord)))"/>
-<markable id="markable_46" span="word_3..word_17" mmax_level="parse" orderid="3" tag="(Start (NX (NE Hamburg)) (\$-LRB- -LRB-) (NX (NE AP)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (PIDAT Jeder) (ADJX (ADJA dritte)) (NN Intercity))) (LK (VXFIN (VAFIN ist))) (MF (PX (APPRART im) (NX (NN Juli))) (ADJX (PTKA zu) (ADJD spät))) (VC (VXINF (VVPP angekommen)))) (\$\. \.))"/>
-<markable id="markable_97" span="word_18..word_38" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (APPR In) (NX (ART den) (ADJX (ADJA letzten)) (NN Monaten)))) (LK (VXFIN (VVFIN gab))) (MF (NX (PPER es)) (NX (NX (PIAT mehr) (NN Verspätungen)) (PX (KOKOM als) (ADVX (ADV jemals)) (APPR seit) (NX (ART der) (NN Wiedervereinigung)))))) (\$\, \,) (NX (NX (NN Panorama)) (PX (APPR unter) (NX (NX (NN Berufung)) (PX (APPR auf) (NX (ADJX (ADJA vertrauliche)) (NN Bahnberichte)))))) (\$\. \.))"/>
-<markable id="markable_127" span="word_39..word_51" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (ADJX (ADJD Intern))) (LK (VXFIN (VVFIN heißt))) (MF (NX (PPER es))) (\$\, \,) (NF (SIMPX (VF (NX (PDS das))) (LK (VXFIN (VVFIN liege))) (MF (PX (APPR an) (NX (NX (ADJX (ADJA defekten)) (NN Signalanlagen)) (KON und) (NX (ADJX (ADJA veralteten)) (NN Lokomotiven)))))))) (\$\. \.))"/>
-</markables>

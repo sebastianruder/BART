@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN DAG-Geburtstag)))"/>
+<markable id="markable_60" span="word_2..word_23" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (PX (APPR Mit) (NX (ART einer) (NN Doppelveranstaltung)))) (LK (VXFIN (VVFIN feiert))) (MF (NX (NX (NX (ART die) (ADJX (ADJA Deutsche)) (NN Angestellten-Gewerkschaft)) (\$-LRB- -LRB-) (NX (NE DAG))) (\$-LRB- -RRB-) (NX (NE Hamburg))) (NX (NX (ART den) (ADJX (ADJA 50\.)) (NN Jahrestag)) (NX (NX (PPOSAT ihrer) (ADJX (ADJA offiziellen)) (NN Gründungsversammlung)) (PX (APPRART vom) (NX (NX (ADJX (ADJA 20\.)) (NN Oktober)) (NX (CARD 1945)))))))) (\$\. \.))"/>
+<markable id="markable_115" span="word_24..word_36" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NX (ADJX (CARD 300)) (NN Gäste)) (PX (APPR aus) (NX (NX (NN Politik)) (KON und) (NX (NN Wirtschaft)))))) (LK (VXFIN (VVFIN erwartet))) (MF (NX (ART die) (NE DAG)) (PX (APPR an) (NX (PDAT diesem) (NN Freitag))))) (\$\. \;))"/>
+<markable id="markable_153" span="word_37..word_46" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (ADVX (ADV morgen))) (LK (VXFIN (VVFIN folgt))) (MF (NX (NX (NX (ART eine) (NN Arbeitskonferenz)) (NX (ART der) (NN Delegierten))) (PX (APPRART im) (NX (NX (NN Studio)) (NX (NE Hamburg))))))) (\$\. \.))"/>
+</markables>

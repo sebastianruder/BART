@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Berichtigung)))"/>
+<markable id="markable_52" span="word_2..word_20" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (SIMPX (C (KOUS Daß)) (MF (NX (NX (ART die) (NN Buchmesse-Empfehlung)) (NX (NE Julian) (NE Barnes\'))) (PX (APPRART am) (NX (NN Samstag))) (PX (APPR aus) (NX (NX (NN Gründen)) (NX (ART des) (NN Jugendschutzes)))) (ADVX (PTKNEG nicht))) (VC (VXINF (VVPP übersetzt)) (VXFIN (VAFIN wurde))))) (\$\, \,) (LK (VXFIN (VVFIN geht))) (MF (PX (APPR in) (NX (NN Ordnung))))) (\$\. \.))"/>
+<markable id="markable_90" span="word_21..word_28" mmax_level="parse" orderid="3" tag="(Start (SIMPX (KOORD (KON Doch)) (VF (NX (PDS das))) (LK (VXFIN (VVFIN schützt))) (MF (ADVX (ADV natürlich)) (ADVX (PTKNEG nicht)) (PX (APPRART vorm) (NX (NN Fehlerteufel))))) (\$\. \.))"/>
+<markable id="markable_118" span="word_29..word_37" mmax_level="parse" orderid="4" tag='(Start (SIMPX (KOORD (KON Oder)) (VF (NX (PWS was))) (LK (VXFIN (VMFIN sollen))) (\$-LRB- \") (MF (FX (FM convenig) (FM professions))) (\$-LRB- \") (VC (VXINF (VAINF sein)))) (\$\. \?))'/>
+<markable id="markable_145" span="word_38..word_45" mmax_level="parse" orderid="5" tag='(Start (ADVX (KON Wenn) (ADVX (ADV schon)) (\$\, \,) (ADVX (ADV dann)) (\$-LRB- \") (FX (FM convenient))) (\$-LRB- \") (\$\. \.))'/>
+</markables>

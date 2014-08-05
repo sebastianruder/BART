@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_6" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Saudi-Arabien)))"/>
-<markable id="markable_11" span="word_2" mmax_level="parse" orderid="2" tag="(Start (NX (NN Hinrichtungswelle)))"/>
-<markable id="markable_63" span="word_3..word_23" mmax_level="parse" orderid="3" tag="(Start (NX (NE Riad)) (\$-LRB- -LRB-) (NX (NE AP)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (ART Eine) (ADJX (ADJA nigerianische)) (NN Frau)) (KON und) (NX (ADJX (CARD vier)) (NN Männer)))) (LK (VXFIN (VAFIN sind))) (MF (PX (APPRART am) (NX (NN Montag))) (PX (APPR wegen) (NX (NN Drogenhandels))) (PX (APPR in) (NX (NE Saudi-Arabien)))) (VC (VXINF (VVPP enthauptet)) (VXINF (VAPP worden)))) (\$\. \.))"/>
-<markable id="markable_84" span="word_24..word_31" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (PDS Das))) (LK (VXFIN (VVFIN teilte))) (MF (NX (NX (ART das) (NN Innenministerium)) (PX (APPR in) (NX (NE Riad))))) (VC (PTKVZ mit))) (\$\. \.))"/>
-<markable id="markable_128" span="word_32..word_50" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (PX (APPR In) (NX (ART dem) (NN Land)))) (LK (VXFIN (VAFIN sind))) (MF (PX (APPR in) (NX (PDAT diesem) (NN Jahr))) (ADVX (ADV bisher)) (NX (ADJX (CARD 192)) (NN Menschen))) (VC (VXINF (VVPP hingerichtet)) (VXINF (VAPP worden))) (\$\, \,) (NF (NX (NX (ADVX (ADV so)) (PIS viele)) (ADVX (KOKOM wie) (ADVX (ADV nie)) (ADV zuvor))))) (\$\. \.))"/>
-</markables>

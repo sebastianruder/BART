@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_51" span="word_3" mmax_level="markable" gend="masc" head_pos="word_3" markable_type="np" mention_type="nam" min_ids="word_3" num="sing" sem_type="nil" sentenceid="1"/>
+<markable id="markable_52" span="word_12..word_14" mmax_level="markable" gend="fem" head_pos="word_12" markable_type="np" mention_type="nom.indef" min_ids="word_12" num="sing" sem_type="nil" sentenceid="1"/>
+<markable id="markable_53" span="word_14" mmax_level="markable" gend="neut" head_pos="word_14" markable_type="np" mention_type="nom.def" min_ids="word_14" num="sing" sem_type="nil" sentenceid="1"/>
+<markable id="markable_54" span="word_17..word_24" mmax_level="markable" gend="fem" head_pos="word_17" markable_type="np" mention_type="nam" min_ids="word_17" num="sing" sem_type="nil" sentenceid="1"/>
+<markable id="markable_55" span="word_19" mmax_level="markable" gend="fem" head_pos="word_19" markable_type="np" mention_type="nom.indef" min_ids="word_19" num="sing" sem_type="nil" sentenceid="1"/>
+<markable id="markable_122" span="word_27" mmax_level="markable" gend="any" head_pos="word_27" markable_type="np" mention_type="pro.per1" min_ids="word_27" num="sing" sentenceid="2"/>
+<markable id="markable_123" span="word_30..word_33" mmax_level="markable" gend="neut" head_pos="word_31" markable_type="np" mention_type="nam" min_ids="word_30..word_31" num="sing" sem_type="per" sentenceid="2"/>
+<markable id="markable_124" span="word_35" mmax_level="markable" gend="any" head_pos="word_35" markable_type="np" mention_type="pro.per2" min_ids="word_35" num="plur" sentenceid="2"/>
+<markable id="markable_222" span="word_46" mmax_level="markable" gend="masc" head_pos="word_46" markable_type="np" mention_type="pro.per3" min_ids="word_46" num="sing" sentenceid="3"/>
+<markable id="markable_223" span="word_48..word_49" mmax_level="markable" gend="neut" head_pos="word_49" markable_type="np" mention_type="nom.indef" min_ids="word_48..word_49" num="plur" sem_type="tmp" sentenceid="3"/>
+<markable id="markable_224" span="word_50" mmax_level="markable" head_pos="word_50" markable_type="poss" mention_type="pro.per3" min_ids="word_50" sentenceid="3"/>
+<markable id="markable_225" span="word_50..word_54" mmax_level="markable" gend="fem" head_pos="word_51" markable_type="np" mention_type="nom.def" min_ids="word_50..word_51" num="sing" sem_type="nil" sentenceid="3"/>
+<markable id="markable_226" span="word_53..word_54" mmax_level="markable" gend="fem" head_pos="word_54" markable_type="np" mention_type="nom.def" min_ids="word_53..word_54" num="sing" sem_type="evt" sentenceid="3"/>
+<markable id="markable_227" span="word_58..word_59" mmax_level="markable" gend="neut" head_pos="word_59" markable_type="np" mention_type="nom.def" min_ids="word_58..word_59" num="sing" sem_type="nil" sentenceid="3"/>
+<markable id="markable_228" span="word_63" mmax_level="markable" gend="masc" head_pos="word_63" markable_type="np" mention_type="pro.per3" min_ids="word_63" num="sing" sentenceid="3"/>
+<markable id="markable_229" span="word_65..word_70" mmax_level="markable" gend="fem" head_pos="word_66" markable_type="np" mention_type="nom.def" min_ids="word_65..word_66" num="sing" sem_type="evt" sentenceid="3"/>
+<markable id="markable_230" span="word_68..word_70" mmax_level="markable" gend="fem" head_pos="word_70" markable_type="np" mention_type="nom.def" min_ids="word_68..word_70" num="plur" sem_type="nil" sentenceid="3"/>
+<markable id="markable_231" span="word_75" mmax_level="markable" gend="any" head_pos="word_75" markable_type="np" mention_type="pro.per1" min_ids="word_75" num="sing" sentenceid="3"/>
+<markable id="markable_303" span="word_84..word_85" mmax_level="markable" gend="masc" head_pos="word_85" markable_type="np" mention_type="nom.def" min_ids="word_84..word_85" num="plur" sem_type="per" sentenceid="4"/>
+<markable id="markable_304" span="word_87" mmax_level="markable" head_pos="word_87" markable_type="np" mention_type="pro.rel" min_ids="word_87" sentenceid="4"/>
+<markable id="markable_305" span="word_88" mmax_level="markable" gend="masc" head_pos="word_88" markable_type="np" mention_type="pro.per3" min_ids="word_88" num="sing" sentenceid="4"/>
+<markable id="markable_306" span="word_90..word_91" mmax_level="markable" gend="fem" head_pos="word_91" markable_type="np" mention_type="nom.indef" min_ids="word_90..word_91" num="sing" sem_type="nil" sentenceid="4"/>
+<markable id="markable_341" span="word_95" mmax_level="markable" gend="masc" head_pos="word_95" markable_type="np" mention_type="pro.per3" min_ids="word_95" num="sing" sentenceid="5"/>
+<markable id="markable_390" span="word_103..word_105" mmax_level="markable" gend="fem" head_pos="word_105" markable_type="np" mention_type="nom.def" min_ids="word_103..word_105" num="sing" sem_type="evt" sentenceid="6"/>
+<markable id="markable_391" span="word_111" mmax_level="markable" head_pos="word_111" markable_type="poss" mention_type="pro.per3" min_ids="word_111" sentenceid="6"/>
+<markable id="markable_392" span="word_111..word_112" mmax_level="markable" gend="fem" head_pos="word_112" markable_type="np" mention_type="nom.def" min_ids="word_111..word_112" num="sing" sem_type="nil" sentenceid="6"/>
+<markable id="markable_393" span="word_115" mmax_level="markable" gend="masc" head_pos="word_115" markable_type="np" mention_type="pro.per3" min_ids="word_115" num="sing" sentenceid="6"/>
+<markable id="markable_482" span="word_124..word_125" mmax_level="markable" gend="masc" head_pos="word_124" markable_type="np" mention_type="nam" min_ids="word_124..word_125" num="sing" sem_type="per" sentenceid="7"/>
+<markable id="markable_483" span="word_127" mmax_level="markable" head_pos="word_127" markable_type="poss" mention_type="pro.per3" min_ids="word_127" sentenceid="7"/>
+<markable id="markable_484" span="word_127..word_128" mmax_level="markable" gend="masc" head_pos="word_128" markable_type="np" mention_type="nom.def" min_ids="word_127..word_128" num="sing" sem_type="nil" sentenceid="7"/>
+<markable id="markable_485" span="word_136" mmax_level="markable" gend="neut" head_pos="word_136" markable_type="np" mention_type="pro.per3" min_ids="word_136" num="sing" sentenceid="7"/>
+<markable id="markable_486" span="word_138..word_139" mmax_level="markable" gend="masc" head_pos="word_138" markable_type="np" mention_type="nam" min_ids="word_138..word_139" num="sing" sem_type="per" sentenceid="7"/>
+<markable id="markable_487" span="word_148" mmax_level="markable" gend="any" head_pos="word_148" markable_type="np" mention_type="pro.per1" min_ids="word_148" num="sing" sentenceid="7"/>
+<markable id="markable_594" span="word_154..word_156" mmax_level="markable" gend="masc" head_pos="word_156" markable_type="np" mention_type="nom.def" min_ids="word_154..word_156" num="sing" sem_type="per" sentenceid="8"/>
+<markable id="markable_595" span="word_162" mmax_level="markable" gend="neut" head_pos="word_162" markable_type="np" mention_type="pro.per3" min_ids="word_162" num="sing" sentenceid="8"/>
+<markable id="markable_596" span="word_169..word_173" mmax_level="markable" gend="fem" head_pos="word_170" markable_type="np" mention_type="nom.def" min_ids="word_169..word_170" num="sing" sem_type="evt" sentenceid="8"/>
+<markable id="markable_597" span="word_172..word_173" mmax_level="markable" gend="fem" head_pos="word_173" markable_type="np" mention_type="nom.indef" min_ids="word_172..word_173" num="sing" sem_type="loc" sentenceid="8"/>
+<markable id="markable_598" span="word_185" mmax_level="markable" gend="fem" head_pos="word_185" markable_type="np" mention_type="nom.indef" min_ids="word_185" num="sing" sem_type="loc" sentenceid="8"/>
+<markable id="markable_719" span="word_189..word_204" mmax_level="markable" gend="fem" head_pos="word_190" markable_type="np" mention_type="nom.indef" min_ids="word_189..word_190" num="plur" sem_type="evt" sentenceid="9"/>
+<markable id="markable_720" span="word_194" mmax_level="markable" gend="neut" head_pos="word_194" markable_type="np" mention_type="nom.def" min_ids="word_194" num="sing" sem_type="nil" sentenceid="9"/>
+<markable id="markable_721" span="word_201..word_204" mmax_level="markable" gend="fem" head_pos="word_201" markable_type="np" mention_type="nom.indef" min_ids="word_201" num="plur" sem_type="nil" sentenceid="9"/>
+<markable id="markable_722" span="word_203..word_204" mmax_level="markable" gend="masc" head_pos="word_204" markable_type="np" mention_type="nom.indef" min_ids="word_203..word_204" num="plur" sem_type="per" sentenceid="9"/>
+<markable id="markable_723" span="word_208..word_209" mmax_level="markable" gend="masc" head_pos="word_208" markable_type="np" mention_type="nam" min_ids="word_208..word_209" num="sing" sem_type="per" sentenceid="9"/>
+<markable id="markable_724" span="word_212" mmax_level="markable" head_pos="word_212" markable_type="poss" mention_type="pro.per3" min_ids="word_212" sentenceid="9"/>
+<markable id="markable_725" span="word_212..word_215" mmax_level="markable" gend="neut" head_pos="word_213" markable_type="np" mention_type="nom.def" min_ids="word_212..word_213" num="sing" sem_type="nil" sentenceid="9"/>
+<markable id="markable_726" span="word_215" mmax_level="markable" gend="masc" head_pos="word_215" markable_type="np" mention_type="nom.def" min_ids="word_215" num="sing" sem_type="nil" sentenceid="9"/>
+<markable id="markable_727" span="word_218" mmax_level="markable" head_pos="word_218" markable_type="poss" mention_type="pro.per3" min_ids="word_218" sentenceid="9"/>
+<markable id="markable_728" span="word_218..word_219" mmax_level="markable" gend="masc" head_pos="word_219" markable_type="np" mention_type="nom.def" min_ids="word_218..word_219" num="sing" sem_type="per" sentenceid="9"/>
+<markable id="markable_729" span="word_225" mmax_level="markable" head_pos="word_225" markable_type="poss" mention_type="pro.per3" min_ids="word_225" sentenceid="9"/>
+<markable id="markable_730" span="word_225..word_226" mmax_level="markable" gend="masc" head_pos="word_226" markable_type="np" mention_type="nom.def" min_ids="word_225..word_226" num="plur" sem_type="per" sentenceid="9"/>
+<markable id="markable_847" span="word_245..word_252" mmax_level="markable" gend="fem" head_pos="word_246" markable_type="np" mention_type="nom.def" min_ids="word_245..word_246" num="plur" sem_type="evt" sentenceid="11"/>
+<markable id="markable_848" span="word_247..word_252" mmax_level="markable" gend="any" head_pos="word_252" markable_type="np" mention_type="nom.indef" min_ids="word_247..word_252" num="plur" sem_type="nil" sentenceid="11"/>
+<markable id="markable_849" span="word_254" mmax_level="markable" gend="masc" head_pos="word_254" markable_type="np" mention_type="nom.indef" min_ids="word_254" num="plur" sem_type="evt" sentenceid="11"/>
+<markable id="markable_929" span="word_258..word_262" mmax_level="markable" gend="masc" head_pos="word_259" markable_type="np" mention_type="nom.def" min_ids="word_258..word_259" num="sing" sem_type="nil" sentenceid="12"/>
+<markable id="markable_930" span="word_261..word_262" mmax_level="markable" gend="masc" head_pos="word_261" markable_type="np" mention_type="nam" min_ids="word_261..word_262" num="sing" sem_type="per" sentenceid="12"/>
+<markable id="markable_931" span="word_272" mmax_level="markable" gend="fem" head_pos="word_272" markable_type="np" mention_type="nom.indef" min_ids="word_272" num="sing" sem_type="evt" sentenceid="12"/>
+<markable id="markable_932" span="word_276" mmax_level="markable" gend="masc" head_pos="word_276" markable_type="np" mention_type="nam" min_ids="word_276" num="sing" sem_type="nil" sentenceid="12"/>
+<markable id="markable_980" span="word_288..word_289" mmax_level="markable" gend="masc" head_pos="word_288" markable_type="np" mention_type="nam" min_ids="word_288..word_289" num="sing" sem_type="nil" sentenceid="13"/>
+<markable id="markable_981" span="word_291" mmax_level="markable" gend="masc" head_pos="word_291" markable_type="np" mention_type="nom.indef" min_ids="word_291" num="sing" sem_type="per" sentenceid="13"/>
+<markable id="markable_982" span="word_293" mmax_level="markable" gend="neut" head_pos="word_293" markable_type="np" mention_type="nam" min_ids="word_293" num="sing" sem_type="loc" sentenceid="13"/>
+<markable id="markable_1017" span="word_294..word_295" mmax_level="markable" gend="fem" head_pos="word_295" markable_type="np" mention_type="nom.def" min_ids="word_294..word_295" num="sing" sem_type="org" sentenceid="14"/>
+<markable id="markable_1018" span="word_297" mmax_level="markable" head_pos="word_297" markable_type="np" mention_type="pro.refl" min_ids="word_297" sentenceid="14"/>
+<markable id="markable_1019" span="word_298..word_299" mmax_level="markable" gend="masc" head_pos="word_299" markable_type="np" mention_type="nom.def" min_ids="word_298..word_299" num="sing" sem_type="nil" sentenceid="14"/>
+<markable id="markable_1020" span="word_304" mmax_level="markable" gend="masc" head_pos="word_304" markable_type="np" mention_type="nom.indef" min_ids="word_304" num="plur" sem_type="evt" sentenceid="14"/>
+<markable id="markable_1067" span="word_309..word_310" mmax_level="markable" gend="fem" head_pos="word_310" markable_type="np" mention_type="nom.indef" min_ids="word_309..word_310" num="sing" sem_type="loc" sentenceid="15"/>
+<markable id="markable_1068" span="word_307..word_312" mmax_level="markable" gend="masc" head_pos="word_312" markable_type="np" mention_type="nom.def" min_ids="word_307..word_312" num="plur" sem_type="evt" sentenceid="15"/>
+<markable id="markable_1069" span="word_316..word_319" mmax_level="markable" gend="fem" head_pos="word_317" markable_type="np" mention_type="nom.def" min_ids="word_316..word_317" num="sing" sem_type="nil" sentenceid="15"/>
+<markable id="markable_1070" span="word_318..word_319" mmax_level="markable" gend="fem" head_pos="word_319" markable_type="np" mention_type="nam" min_ids="word_318..word_319" num="sing" sem_type="nil" sentenceid="15"/>
+</markables>

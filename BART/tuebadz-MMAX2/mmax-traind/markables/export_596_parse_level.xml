@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_15" span="word_1..word_5" mmax_level="parse" orderid="1" tag="(Start (SIMPX (MF (NX (NN 23jähriger)) (PX (APPRART im) (NX (NX (NN Bahnhof)) (NX (NE Bellevue))))) (VC (VXINF (VVPP getötet)))))"/>
+<markable id="markable_68" span="word_6..word_25" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (ART Ein) (ADJX (ADJA 23jähriger)) (NN Mann))) (LK (VXFIN (VAFIN ist))) (MF (PX (APPR in) (NX (NX (ART der) (NN Nacht)) (PX (APPRART zum) (NX (NN Montag))))) (PX (APPRART im) (NX (NX (NX (ADJX (ADJA Berliner)) (NN S-Bahnhof)) (NX (NE Bellevue))) (\$-LRB- -LRB-) (NX (NX (NN Bezirk)) (NX (NE Tiergarten)))))) (\$-LRB- -RRB-) (VC (VXINF (VVPP getötet)) (VXINF (VAPP worden)))) (\$\. \.))"/>
+<markable id="markable_120" span="word_26..word_38" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NX (ART Der) (ADJX (ADJA genaue)) (NN Hergang)) (NX (ART des) (NN Vorfalls)))) (LK (VXFIN (VAFIN war))) (MF (PX (APPR nach) (NX (NX (NN Polizeiangaben)) (PX (APPRART vom) (NX (NN Morgen))))) (ADVX (ADV noch)) (ADJX (ADJD unklar)))) (\$\. \.))"/>
+<markable id="markable_171" span="word_39..word_54" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (SIMPX (VF (ADJX (ADJD Sicher))) (LK (VXFIN (VAFIN sei))) (MF (ADVX (ADV nur))) (\$\, \,) (NF (SIMPX (C (KOUS daß)) (MF (NX (ART der) (NN Mann)) (PX (APPR von) (NX (ART einem) (NN S-Bahn-Zug)))) (VC (VXINF (VVPP überrollt)) (VXFIN (VAFIN wurde))))))) (\$\, \,) (LK (VXFIN (VVFIN hieß))) (MF (NX (PPER es)))) (\$\. \.))"/>
+<markable id="markable_192" span="word_55" mmax_level="parse" orderid="5" tag="(Start (NX (NE dpa)))"/>
+</markables>

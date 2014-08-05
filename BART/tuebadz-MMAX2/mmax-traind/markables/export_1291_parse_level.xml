@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN URAN)))"/>
+<markable id="markable_16" span="word_2..word_4" mmax_level="parse" orderid="2" tag="(Start (SIMPX (MF (NX (ADJX (CARD Drei)) (NN Händler))) (VC (VXINF (VVPP verhaftet)))))"/>
+<markable id="markable_26" span="word_5..word_6" mmax_level="parse" orderid="3" tag="(Start (NX (NE Berlin)) (\$\. \.))"/>
+<markable id="markable_66" span="word_7..word_22" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Die) (ADJX (ADJA Berliner)) (NN Staatsanwaltschaft))) (LK (VXFIN (VAFIN hat))) (MF (NX (NX (ART einen) (NN Polen)) (KON und) (NX (ADJX (CARD zwei)) (NN Österreicher))) (PX (APPR wegen) (NX (NX (ADJX (ADJA unerlaubten)) (NN Umgangs)) (PX (APPR mit) (NX (NN Kernbrennstoffen)))))) (VC (VXINF (VVPP verhaftet)))) (\$\. \.))"/>
+<markable id="markable_151" span="word_23..word_52" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (SIMPX (VF (NX (ART Die) (ADJX (CARD drei)) (NN Beschuldigten))) (LK (VXFIN (VMFIN sollen))) (MF (NX (NX (NX (ADJX (CARD fünf)) (NN Kilogramm)) (NX (NX (NN Cäsium)) (NX (CARD 137)))) (\$\, \,) (NX (NX (ADJX (CARD 1\,78)) (NN Kilogramm)) (NX (NX (NN Uran)) (NX (CARD 238)))) (KON sowie) (NX (NX (ADJX (CARD 300)) (NN Bauteile)) (NX (ADJX (ADJA plutoniumhaltiger)) (NN Rauchmelder)))) (PX (APPR aus) (NX (NX (NE Polen)) (KON und) (NX (ART den) (NE GUS-Staaten))))) (VC (VXINF (VVPP eingeführt)) (VXINF (VAINF haben))))) (\$\, \,) (LK (VXFIN (VVFIN erklärte))) (MF (NX (ART die) (NN Justiz)))) (\$\. \.))"/>
+</markables>

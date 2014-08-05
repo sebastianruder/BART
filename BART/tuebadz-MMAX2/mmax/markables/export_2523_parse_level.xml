@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_10" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (SIMPX (VF (NX (NN Selbständige))) (LK (VXFIN (VAFIN sind))) (MF (ADJX (ADJD frohgemut)))))"/>
-<markable id="markable_52" span="word_4..word_20" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (SIMPX (VF (NX (NX (NX (ART Die) (NN Arbeitsgemeinschaft)) (NX (ADJX (ADJA Selbständiger)) (NN Unternehmer))) (\$-LRB- -LRB-) (NX (NE ASU)))) (\$-LRB- -RRB-) (LK (VXFIN (VVFIN glaubt))) (MF (PX (APPR an) (NX (ART den) (ADJX (ADJA neuen)) (NN Senat)))))) (\$\, \,) (LK (VXFIN (VVFIN teilt))) (MF (NX (PPER sie))) (VC (PTKVZ mit))) (\$\. \.))"/>
-<markable id="markable_86" span="word_21..word_35" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (ADJX (ADJA Sinkende)) (NN Steureinnahmen))) (LK (VXFIN (VMFIN dürften))) (MF (ADVX (PTKNEG nicht)) (NX (KOKOM als) (NN Menetekel))) (VC (VXINF (VVINF herhalten))) (\$\, \,) (NF (SIMPX (MF (NX (ART die) (NN Sanierungsanstrenungen)) (ADVX (ADV bereits)) (ADJX (KOKOM als) (ADJD gescheitert))) (VC (VXINF (VVIZU anzusehen)))))) (\$\. \.))"/>
-<markable id="markable_143" span="word_36..word_60" mmax_level="parse" orderid="4" tag='(Start (SIMPX (VF (SIMPX (VF (NX (PPER Es))) (LK (VXFIN (VVFIN gebe))) (MF (NX (NX (ADJX (ADJA bemerkenswerte)) (NN Anzeichen)) (PX (APPR für) (NX (NX (NX (ART eine) (\$-LRB- \") (ADJX (ADJX (ADJD neu)) (ADJA erwachte)) (NN Dynamik)) (KON und) (NX (ART ein) (ADJX (ADJA gestärktes)) (NN Selbstbewußtsein))) (PX (APPR in) (NX (ART der) (NN Hansestadt))))))))) (\$-LRB- \") (\$\, \,) (LK (VXFIN (VVFIN meint))) (MF (NX (NX (ART der) (NN ASU-Vorsitzender)) (NX (NE Günther) (NE Diekhöner))))) (\$\. \.))'/>
-<markable id="markable_148" span="word_61" mmax_level="parse" orderid="5" tag="(Start (NX (NE taz)))"/>
-</markables>

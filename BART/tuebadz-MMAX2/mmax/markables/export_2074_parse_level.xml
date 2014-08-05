@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_10" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (NX (NN Unis)) (\$-LRB- \/) (NX (NN Bafög)))"/>
-<markable id="markable_19" span="word_4..word_6" mmax_level="parse" orderid="2" tag="(Start (NX (ADJX (ADJA Heißer)) (NN Herbst)) (\$\. \?))"/>
-<markable id="markable_72" span="word_7..word_29" mmax_level="parse" orderid="3" tag='(Start (NX (NE Bonn)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (ART Der) (ADJX (ADJA studentische)) (NN Dachverband)) (\$-LRB- \") (NX (NE fzs)))) (\$-LRB- \") (LK (VXFIN (VVFIN rechnet))) (MF (PX (APPR mit) (NX (ART einem) (\$-LRB- \") (ADJX (ADJA heißen)) (NN Herbst))) (\$-LRB- \") (PX (APPR an) (NX (ART den) (ADJX (ADJA deutschen)) (NN Hochschulen))))) (\$\. \.))'/>
-<markable id="markable_138" span="word_30..word_57" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Der) (NN Protest))) (LK (VXFIN (VMFIN soll))) (MF (NX (PRF sich)) (PX (APPR vor) (NX (PIS allem))) (PX (PX (APPR gegen) (NX (NX (NX (ART die) (ADJX (ADJA geplante)) (NN Verzinsung)) (NX (ART des) (NN Bafög-Darlehens))) (\$\, \,) (NX (ART die) (ADJX (PX (APPR von) (NX (ART den) (NN Hochschulrektoren))) (ADJA erwogenen)) (NN Studiengebühren)))) (KON und) (PX (APPR gegen) (NX (NX (ART den) (NN Stellenabbau)) (PX (APPR an) (NX (ART den) (NN Hochschulen))))))) (VC (VXINF (VVINF richten)))) (\$\. \.))"/>
-</markables>

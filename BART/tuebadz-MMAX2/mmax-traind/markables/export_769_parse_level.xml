@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_19" span="word_1..word_6" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NE Berlin)) (\$-LRB- -) (NX (NE Moskau))) (\$\. \:) (NX (ADJX (ADJA gemeinsame)) (NN Kultur)))"/>
+<markable id="markable_111" span="word_7..word_43" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (NN Ende)) (NX (NN April)))) (LK (VXFIN (VAFIN haben))) (MF (NX (NX (NX (NE Igor) (NE Borisowitsch) (NE Bugajew)) (\$\, \,) (NX (NX (NN Vorsitzender)) (NX (NX (ART des) (NN Kulturkomitees)) (NX (NX (ART der) (NN Stadt)) (NX (NE Moskau)))))) (\$\, \,) (KON und) (NX (NX (NX (ART der) (ADJX (ADJA Berliner)) (NN Staatssekretär)) (PX (APPR für) (NX (NN Kultur)))) (\$\, \,) (NX (NE Lutz) (PX (APPR von) (NX (NE Pufendorf)))))) (\$\, \,) (NX (NX (ART eine) (NN Vereinbarung)) (PX (APPR über) (NX (NX (ADJX (ADJA gemeinsame)) (NN Kulturprojekte)) (NX (NX (ART der) (NN Partnerstädte)) (NX (NX (NE Berlin)) (KON und) (NX (NE Moskau)))))))) (VC (VXINF (VVPP unterzeichnet)))) (\$\. \.))"/>
+<markable id="markable_182" span="word_44..word_57" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NN Gegenstand))) (LK (VXFIN (VAFIN sind))) (MF (NX (NX (NX (NN Stipendienprogramme)) (PX (APPR für) (NX (NX (ART den) (NN Austausch)) (NX (ADJX (ADJA junger)) (NN KünstlerInnen))))) (\$\, \,) (NX (ART eine) (NN Kammermusikwerkstatt)) (KON und) (NX (NN Kunstausstellungen))))) (\$\. \.))"/>
+<markable id="markable_201" span="word_58" mmax_level="parse" orderid="4" tag="(Start (NX (NE dpa)))"/>
+</markables>

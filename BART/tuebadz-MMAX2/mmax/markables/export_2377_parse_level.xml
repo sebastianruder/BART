@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_6" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (SIMPX (MF (ADJX (ADJD Gut))) (VC (VXINF (VVPP getarnt)))))"/>
-<markable id="markable_54" span="word_3..word_21" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (ADVX (ADV Ausgerechnet)) (NX (ART einem) (ADJX (ADJX (ADJD verdeckt)) (ADJA arbeitenden)) (NN Drogenfahnder)) (NX (ART der) (ADJX (ADJA Hamburger)) (NN Polizei)))) (LK (VXFIN (VAFIN hat))) (MF (NX (ART ein) (NN 17jähriger)) (NX (NX (ART einen) (ADJX (ADJA gemeinsamen)) (NN Raubüberfall)) (PX (APPR auf) (NX (ART einen) (NN Supermarkt))))) (VC (VXINF (VVPP vorgeschlagen)))) (\$\. \.))"/>
-<markable id="markable_143" span="word_22..word_57" mmax_level="parse" orderid="3" tag='(Start (SIMPX (VF (SIMPX (C (KOUS Wie)) (MF (NX (ART die) (NN Polizei)) (ADVX (ADV gestern))) (VC (VXFIN (VVFIN mitteilte))))) (\$\, \,) (LK (VXFIN (VVFIN bot))) (MF (NX (ART der) (NN Jugendliche)) (NX (NX (ART dem) (NN Fahnder)) (\$\, \,) (R-SIMPX (C (NX (PRELS den))) (MF (NX (PPER er)) (PX (APPR für) (NX (ART einen) (NN Drogenabhängigen)))) (VC (VXFIN (VVFIN hielt)))))) (\$\, \,) (VC (PTKVZ an)) (\$\, \,) (NF (SIMPX (C (PX (APPR während) (NX (ART des) (NN Überfalls)))) (MF (PX (APPR vor) (NX (NX (ART einem) (NN Supermarkt)) (PX (APPR in) (NX (NE St\.) (NE Georg))))) (\$-LRB- \") (NX (NN Schmiere))) (\$-LRB- \") (VC (VXINF (PTKZU zu) (VVINF stehen)))))) (\$\. \.))'/>
-</markables>

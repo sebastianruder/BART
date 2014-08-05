@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_6" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (DM (PTKANT Nein) (PTKANT Danke)))"/>
-<markable id="markable_85" span="word_3..word_35" mmax_level="parse" orderid="2" tag='(Start (SIMPX (VF (NX (NX (ART Das) (NN Amtsgericht)) (NX (NE Hamburg)))) (LK (VXFIN (VAFIN hat))) (MF (ADVX (ADV gestern)) (ADJX (ADJD erstinstanzlich))) (VC (VXINF (VVPP entschieden))) (\$\, \,) (NF (SIMPX (C (KOUS daß)) (MF (NX (NX (ART der) (NN Mieter)) (NX (NX (ART des) (NN Hauses)) (NX (NX (ADJX (ADJA Breitenfelder)) (NN Straße)) (NX (CARD 56))))) (NX (NX (ART das) (NN Transparent)) (PX (APPR mit) (NX (NX (ART der) (NN Aufschrift)) (\$-LRB- \") (NX (NX (NE Scientology)) (DM (PTKANT Nein) (PTKANT Danke)))))) (\$-LRB- \") (ADVX (PTKNEG nicht)) (PX (APPR von) (NX (PPOSAT seinem) (NN Balkon)))) (VC (VXINF (VVINF entfernen)) (VXFIN (VMFIN muß)))))) (\$\. \.))'/>
-<markable id="markable_121" span="word_36..word_49" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (PROP Damit))) (LK (VXFIN (VAFIN hat))) (MF (NX (ART das) (NN Gericht)) (NX (NX (ART die) (NN Klage)) (NX (NX (ART des) (NX (NX (NN Vermieters)) (KON und) (NX (NN Eigentümers)))) (NX (ART des) (NN Hauses))))) (VC (VXINF (VVPP zurückgewiesen)))) (\$\. \.))"/>
-</markables>

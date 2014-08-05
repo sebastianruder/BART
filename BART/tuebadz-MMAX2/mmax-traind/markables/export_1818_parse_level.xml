@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN UNITIPS)))"/>
+<markable id="markable_11" span="word_2" mmax_level="parse" orderid="2" tag="(Start (NX (NN Internet)))"/>
+<markable id="markable_66" span="word_3..word_22" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NN StudentInnen))) (LK (VXFIN (VMFIN müssen))) (MF (PX (APPR für) (NX (ART den) (NN Internet-Anschluß))) (NX (PIAT keine) (NN Gebühren))) (VC (VXINF (VVINF bezahlen))) (\$\, \,) (NF (SIMPX (C (KOUS wenn)) (MF (NX (PPER sie)) (NX (PRF sich)) (PX (APPR über) (NX (NX (ART die) (NN Zentraleinrichtungen)) (NX (PPOSAT ihrer) (NN Uni))))) (VC (VXINF (VVINF anschließen)) (VXFIN (VVFIN lassen)))))) (\$\. \.))"/>
+<markable id="markable_160" span="word_23..word_53" mmax_level="parse" orderid="4" tag="(Start (NX (NX (NX (NN Zentraleinrichtung)) (NX (NN Datenverar-beitung))) (NX (ART der) (NE FU))) (\$\. \:) (NX (NX (NX (NN Fabeckstr\.)) (NX (CARD 32))) (PX (APPR in) (NX (NE Dahlem)))) (\$\. \;) (NX (NX (NN Tel\.)) (\$\. \:) (NX (CARD 838-4215))) (\$\, \,) (NX (NX (NX (NN Zentraleinrichtung)) (NX (NN Rechenzen-trum))) (NX (ART der) (NE TU))) (\$\. \:) (NX (NX (NX (NN Einsteinufer)) (NX (CARD 17))) (PX (APPR in) (NX (NE Charlottenburg)))) (\$\, \,) (NX (NX (NN Tel\.)) (\$\. \:) (NX (CARD 314-22703) (\$-LRB- \/) (\$-LRB- -) (CARD 26270))) (\$\. \.))"/>
+</markables>

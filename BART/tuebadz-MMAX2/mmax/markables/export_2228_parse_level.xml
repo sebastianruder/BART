@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_6" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Vietnamesen)))"/>
-<markable id="markable_14" span="word_2..word_3" mmax_level="parse" orderid="2" tag="(Start (NX (ADJX (ADJA Erste)) (NN Abschiebung)))"/>
-<markable id="markable_66" span="word_4..word_23" mmax_level="parse" orderid="3" tag="(Start (NX (NE Berlin)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (PX (APPR Aus) (NX (NE Berlin)))) (LK (VXFIN (VAFIN sind))) (MF (ADVX (ADV gestern)) (NX (ART die) (ADJX (ADJA ersten)) (ADJX (ADJX (ADJD straffällig)) (ADJA gewordenen)) (NN Vietnamesen)) (PX (APPR in) (NX (PPOSAT ihre) (NN Heimat)))) (VC (VXINF (VVPP abgeschoben)) (VXINF (VAPP worden)))) (\$\. \.))"/>
-<markable id="markable_107" span="word_24..word_39" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Die) (NN Rückführung))) (LK (VXFIN (VVFIN stützt))) (MF (NX (PRF sich)) (PX (APPR auf) (NX (NX (NX (ART einen) (NN Vertrag)) (PX (APPR zwischen) (NX (NX (NE Bonn)) (KON und) (NX (NE Hanoi))))) (PX (APPRART vom) (NX (NX (NN Sommer)) (NX (PDAT dieses) (NN Jahres)))))))) (\$\. \.))"/>
-<markable id="markable_129" span="word_40..word_48" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (ADJX (ADJA Weitere)) (NN Abschiebungen))) (LK (VXFIN (VMFIN sollen))) (MF (PX (APPR in) (NX (ART den) (ADJX (ADJA kommenden)) (NN Wochen)))) (VC (VXINF (VVINF folgen)))) (\$\. \.))"/>
-</markables>

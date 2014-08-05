@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_6" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Milieuschutz)))"/>
+<markable id="markable_60" span="word_2..word_24" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (PX (APPR Auf) (NX (NX (NN Antrag)) (NX (NX (NX (ART des) (ADJX (ADJA Tiergartener)) (NN Baustadtrats)) (NX (NE Porath))) (\$-LRB- -LRB-) (NX (NE SPD)))))) (\$-LRB- -RRB-) (LK (VXFIN (VAFIN hat))) (MF (NX (ART das) (NN Bezirksamt)) (ADVX (ADV gestern)) (NX (NX (NX (ART eine) (NN Erhaltungssatzung)) (KON und) (NX (ART eine) (NN Milieuschutzverordnung))) (PX (APPR für) (NX (ART den) (NN Beusselkiez))))) (VC (VXINF (VVPP beschlossen)))) (\$\. \.))"/>
+<markable id="markable_111" span="word_25..word_36" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (PROP Damit))) (LK (VXFIN (VMFIN soll))) (MF (NX (NX (ART der) (ADJX (ADJA befürchteten)) (NN Verdrängung)) (PX (APPR von) (NX (NX (NN Mietern)) (KON und) (NX (NN Gewerbetreibenden)))))) (VC (VXINF (VVPP begegnet)) (VXINF (VAINF werden)))) (\$\. \.))"/>
+<markable id="markable_153" span="word_37..word_48" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (APPR In) (NX (NE Moabit)))) (LK (VXFIN (VVFIN stehen))) (MF (ADVX (ADV bereits)) (NX (NX (ART der) (NN Stefankiez)) (KON und) (NX (ART der) (NN Huttenkiez))) (PX (APPR unter) (NX (NN Milieuschutz))))) (\$\. \.))"/>
+<markable id="markable_217" span="word_49..word_70" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (PX (APPR Für) (NX (NX (ART das) (NN Gebiet)) (PX (APPR um) (NX (NX (ART den) (NN Klausenerplatz)) (PX (APPR in) (NX (NE Charlottenburg)))))))) (LK (VXFIN (VMFIN will))) (MF (NX (NX (NX (NN Baustadtrat)) (NX (NE Dyckhoff))) (\$-LRB- -LRB-) (NX (NE SPD))) (\$-LRB- -RRB-) (ADVX (ADV auch)) (NX (ART eine) (NN Erhaltungssatzung)) (PX (APPR auf) (NX (ART den) (NN Weg)))) (VC (VXINF (VVINF bringen)))) (\$\. \.))"/>
+<markable id="markable_244" span="word_71" mmax_level="parse" orderid="6" tag="(Start (NX (NE taz)))"/>
+</markables>

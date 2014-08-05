@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (NX (ADJX (ADJA Toter)) (NN Briefkasten)))"/>
-<markable id="markable_75" span="word_3..word_29" mmax_level="parse" orderid="2" tag="(Start (NX (NE Wittmund)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (ART Ein) (NN Postbote)) (PX (APPR aus) (NX (ART dem) (ADJX (ADJA ostfriesischen)) (NE Wittmund))))) (LK (VXFIN (VAFIN hat))) (MF (ADJX (NX (ADJX (CARD vier)) (NN Wochen)) (ADJD lang)) (NX (ART einen) (ADJX (ADJA stadtnahen)) (NN Wald)) (PX (APPRART zum) (NX (NX (ADJX (ADJA toten)) (NN Briefkasten)) (PX (APPR für) (NX (ADVX (ADV insgesamt)) (ADJX (CARD 1\.800)) (NN Briefe)))))) (VC (VXINF (VVPP gemacht)))) (\$\. \.))"/>
-<markable id="markable_109" span="word_30..word_41" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (SIMPX (C (KOUI Statt)) (MF (NX (PPER sie)) (NX (ART den) (NN Empfängern))) (VC (VXINF (VVIZU zuzustellen))))) (\$\, \,) (LK (VXFIN (VVFIN versteckte))) (MF (NX (PPER er)) (NX (PPER sie)) (PX (APPR zwischen) (NX (NN Bäumen))))) (\$\. \.))"/>
-<markable id="markable_128" span="word_42..word_48" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (NN Spaziergänger))) (LK (VXFIN (VVFIN entdeckten))) (MF (ADVX (ADV nun)) (NX (ART die) (ADJX (ADJA waldpostlagernden)) (NN Sendungen)))) (\$\. \.))"/>
-<markable id="markable_149" span="word_49..word_56" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (KOKOM Als) (NN Motiv))) (LK (VXFIN (VAFIN hatte))) (MF (NX (ART der) (NN Mitarbeiter)) (NX (NN Überforderung))) (VC (VXINF (VVPP angegeben)))) (\$\. \.))"/>
-</markables>

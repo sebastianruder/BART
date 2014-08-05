@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_6" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Libyen)))"/>
-<markable id="markable_13" span="word_2..word_3" mmax_level="parse" orderid="2" tag="(Start (NX (PIAT Keine) (NN Ausweisung)))"/>
-<markable id="markable_71" span="word_4..word_27" mmax_level="parse" orderid="3" tag="(Start (NX (NE Kairo)) (\$-LRB- -LRB-) (NX (NE Reuter)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (SIMPX (VF (NX (NE Libyen))) (LK (VXFIN (VMFIN will))) (MF (NX (NX (ART den) (NN Beschluß)) (PX (APPR über) (NX (NX (ART die) (NN Ausweisung)) (PX (APPR von) (NX (ADJX (CARD 30\.000)) (NN Palästinensern))))))) (VC (VXINF (VVINF zurücknehmen))))) (\$\, \,) (LK (VXFIN (VVFIN teilte))) (MF (NX (ART das) (ADJX (ADJA ägyptische)) (NN Außenministerium)) (ADVX (ADV gestern))) (VC (PTKVZ mit))) (\$\. \.))"/>
-<markable id="markable_121" span="word_28..word_47" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (NX (NN Hunderte)) (PX (APPR von) (NX (NX (NN Palästinensern)) (PX (APPRART im) (NX (NX (NN Niemandsland)) (PX (APPR zwischen) (NX (NX (NE Libyen)) (KON und) (NX (NE Ägypten)))))))))) (LK (VXFIN (VMFIN dürften))) (FKOORD (FKONJ (MF (PX (APPR in) (NX (PPOSAT ihre) (NN Wohnorte)))) (VC (VXINF (VVINF zurückkehren)))) (KON oder) (FKONJ (MF (PX (APPR in) (NX (ART den) (NE Gaza-Streifen)))) (VC (VXINF (VVINF reisen)))))) (\$\. \.))"/>
-</markables>

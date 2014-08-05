@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_6" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN US-Anarchie)))"/>
+<markable id="markable_43" span="word_2..word_14" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NE Ulrike) (NE Heider))) (LK (VXFIN (VVFIN stellt))) (MF (PX (APPRART am) (NX (NN Samstag))) (PX (APPR um) (NX (ADJX (CARD 19)) (NN Uhr))) (NX (PPOSAT ihr) (ADJX (ADJA neues)) (NN Buch))) (VC (PTKVZ vor))) (\$\. \.))"/>
+<markable id="markable_103" span="word_15..word_33" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (PPER Es))) (FKOORD (FKONJ (LK (VXFIN (VVFIN handelt))) (MF (PX (APPR von) (NX (NX (NN Anarchie)) (PX (APPR in) (NX (ART den) (NE USA))))))) (KON und) (FKONJ (LK (VXFIN (VAFIN hat))) (MF (NX (NX (ART den) (ADJX (ADJA vielsagenden)) (NN Titel)) (\$-LRB- ») (NX (NX (ART die) (NN narren)) (NX (ART der) (NN freiheit)))))))) (\$-LRB- «) (\$\. \.))"/>
+<markable id="markable_155" span="word_34..word_47" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Die) (NN Vorstellung))) (LK (VXFIN (VVFIN findet))) (MF (PX (APPR in) (NX (NX (NX (ART der) (NN Buchhandlung)) (NX (NX (XY oh)) (NX (CARD 21)))) (PX (APPR in) (NX (NX (ART der) (NN Oranienstraße)) (NX (CARD 21))))))) (VC (PTKVZ statt))) (\$\. \.))"/>
+<markable id="markable_174" span="word_48" mmax_level="parse" orderid="5" tag="(Start (NX (NE taz)))"/>
+</markables>

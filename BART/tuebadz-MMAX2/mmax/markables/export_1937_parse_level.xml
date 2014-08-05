@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_13" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (NX (NN Betr\.)) (\$\. \:) (NX (NE Jan) (NE Feddersen)))"/>
-<markable id="markable_40" span="word_5..word_15" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NX (NE Jan) (NE Feddersen)) (\$\, \,) (NX (NX (NN Jahrgang)) (NX (CARD 1957)))) (\$\, \,) (NX (NX (ADJX (ADJA freier)) (NN Journalist)) (PX (APPR in) (NX (NE Hamburg))))) (\$\. \.))"/>
-<markable id="markable_65" span="word_16..word_25" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (PPER Er))) (LK (VXFIN (VAFIN ist))) (MF (NX (NX (ADJX (ADJA regelmäßiger)) (NN Autor)) (NX (NX (ART der) (NE taz)) (KON und) (NX (ART der) (NN Woche)))))) (\$\. \.))"/>
-<markable id="markable_129" span="word_26..word_53" mmax_level="parse" orderid="4" tag='(Start (SIMPX (VF (PX (APPR Auf) (NX (ART der) (NN Debattenseite)))) (LK (VXFIN (VVFIN schrieb))) (MF (NX (NE Feddersen)) (ADVX (ADV zuletzt)) (PX (APPR über) (NX (ART den) (NX (NE Christopher) (NE Street) (NE Day)))))) (\$\. \:) (\$-LRB- \") (NX (DP (ADVX (ADV Immer)) (PIAT mehr)) (NN Angst)) (\$-LRB- \") (\$\, \,) (NX (NX (ADJX (ADJA 1\.)) (ADJX (ADJA 7\.))) (NX (CARD 1995))) (\$-LRB- -LRB-) (PX (ADVX (ADV zusammen)) (PX (APPR mit) (NX (NE A\.) (NE Heinz)))) (\$-LRB- -RRB-) (\$\. \.))'/>
-</markables>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_13" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (NX (NN Betr\.)) (\$\. \:) (NX (NE Jörg) (NE Götting-Frosinski)))"/>
+<markable id="markable_65" span="word_5..word_25" mmax_level="parse" orderid="2" tag='(Start (SIMPX (VF (NX (NX (NX (NE Jörg) (NE Götting-Frosinski)) (\$-LRB- -LRB-) (NX (CARD 40))) (\$-LRB- -RRB-) (\$\, \,) (NX (NX (NN Philologe)) (\$\, \,) (NX (ADVX (ADV ehemals)) (NN Taxifahrer))))) (\$\, \,) (LK (VXFIN (VAFIN ist))) (MF (ADVX (ADV heute)) (NX (NX (NN Redakteur)) (PX (APPRART beim) (NX (NX (ADJX (ADJA Berliner)) (NN Umweltmagazin)) (\$-LRB- \") (NX (NN Grünstift))))))) (\$-LRB- \") (\$\. \.))'/>
+<markable id="markable_112" span="word_26..word_34" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (APPRART Im) (NX (NN April)))) (LK (VXFIN (VVFIN schaffte))) (MF (NX (PPER er)) (NX (PPOSAT seinen) (ADJX (ADJA alten)) (NN Mercedes))) (VC (PTKVZ ab))) (\$\. \.))"/>
+<markable id="markable_133" span="word_35..word_38" mmax_level="parse" orderid="4" tag="(Start (NX (NN Foto)) (\$\. \:) (NX (NE Natalja) (NE Pohla)))"/>
+</markables>

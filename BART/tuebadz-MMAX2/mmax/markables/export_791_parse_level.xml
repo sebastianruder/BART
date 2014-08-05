@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_13" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (SIMPX (VF (NX (NE Berlin))) (LK (VXFIN (VMFIN will))) (MF (NX (ADJX (ADJA längere)) (NN Ladenöffnungszeiten)))))"/>
-<markable id="markable_70" span="word_5..word_28" mmax_level="parse" orderid="2" tag="(Start (NX (NE Berlin)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (ART Der) (ADJX (ADJA Berliner)) (NN Senat))) (LK (VXFIN (VMFIN will))) (MF (PX (APPR über) (NX (ART den) (NN Bundesrat)))) (VC (VXINF (VVINF erreichen))) (\$\, \,) (NF (SIMPX (C (KOUS daß)) (MF (NX (NN Geschäfte)) (PX (APPR in) (NX (NE Deutschland))) (ADJX (ADJX (ADJD länger)) (ADVX (KOKOM als) (ADV bisher)))) (VC (VXINF (VVINF öffnen)) (VXFIN (VMFIN dürfen)))))) (\$\. \.))"/>
-<markable id="markable_98" span="word_29..word_40" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (ADJX (ADJD Konkret))) (LK (VXFIN (VMFIN sollen))) (MF (NX (ART die) (NN Geschäfte)) (ADVX (ADVX (ADV werktags)) (PX (APPR bis) (NX (ADJX (CARD 22\.00)) (NN Uhr))))) (VC (VXINF (VVPP geöffnet)) (VXINF (VAINF sein)) (VXINF (VMINF können)))) (\$\. \.))"/>
-<markable id="markable_138" span="word_41..word_57" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (SIMPX (VF (NX (ADVX (ADV Lediglich)) (ART der) (NN Sonntag))) (LK (VXFIN (VVFIN bleibe))) (VC (VXINF (VVPP ausgenommen))))) (\$\, \,) (LK (VXFIN (VVFIN sagte))) (MF (NX (NX (NX (NX (NE Berlins)) (ADJX (ADJA Regierender)) (NN Bürgermeister)) (NX (NE Eberhard) (NE Diepgen))) (\$-LRB- -LRB-) (NX (NE CDU))) (\$-LRB- -RRB-) (ADVX (ADV gestern)))) (\$\. \.))"/>
-</markables>

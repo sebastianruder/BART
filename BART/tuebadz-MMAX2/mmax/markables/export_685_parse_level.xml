@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_6" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (ADJX (ADJD Energisch)) (NX (CARD II)))"/>
-<markable id="markable_46" span="word_3..word_19" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (NX (ART Der) (ADJX (ADJA schleswig-holsteinische)) (NN Energieminister)) (NX (NE Claus) (NE Möller))) (\$-LRB- -LRB-) (NX (NE SPD)))) (\$-LRB- -RRB-) (LK (VXFIN (VAFIN hat))) (MF (ADVX (ADV gestern)) (PX (APPR in) (NX (NE Pinneberg))) (NX (ART ein) (ADJX (ADJA neuartiges)) (NN Gaskraftwerk))) (VC (VXINF (VVPP eingeweiht)))) (\$\. \.))"/>
-<markable id="markable_72" span="word_20..word_29" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (ART Die) (NN Anlage))) (LK (VXFIN (VVFIN erzeugt))) (MF (ADJX (ADJD jährlich)) (NX (NX (ADVX (ADV rund)) (ADJX (CARD 800\.000)) (NN Kilowattstunden)) (NX (ADJX (ADJA umweltfreundlichen)) (NN Strom))))) (\$\. \.))"/>
-<markable id="markable_106" span="word_30..word_43" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (PROP Außerdem))) (LK (VXFIN (VAFIN wird))) (MF (NX (NX (ART der) (NN Ausstoß)) (NX (ART des) (ADJX (ADJA umweltschädlichen)) (NN Kohlendioxids))) (PX (APPR um) (NX (NX (ADJX (CARD 380)) (NN Tonnen)) (PX (APPR pro) (NX (NN Jahr)))))) (VC (VXINF (VVPP vermindert)))) (\$\. \.))"/>
-</markables>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Fußball)))"/>
+<markable id="markable_13" span="word_2..word_3" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NN Regionalliga)) (NX (NN Nord))))"/>
+<markable id="markable_41" span="word_4..word_14" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (ADVX (ADV Gestern))) (LK (VXFIN (VVFIN besiegte))) (MF (NX (NX (ART der) (NN VfB)) (NX (NE Lübeck))) (NX (NX (ART den) (NN VfB)) (NX (NE Oldenburg))) (PX (APPR mit) (NX (CARD 3\:0))))) (\$\. \.))"/>
+<markable id="markable_76" span="word_15..word_24" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Der) (ADJX (ADJA Lüneburger)) (NN SK))) (LK (VXFIN (VVFIN unterlag))) (MF (NX (NX (ART dem) (NN BV)) (NX (NE Cloppenburg))) (PX (APPR mit) (NX (CARD 1\:2))))) (\$\. \.))"/>
+<markable id="markable_120" span="word_25..word_38" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (NX (ART Die) (NN Amateure)) (NX (ART des) (NE HSV)))) (LK (VXFIN (VVFIN setzten))) (MF (NX (PRF sich)) (PX (APPR mit) (NX (CARD 3\:1))) (PX (APPR gegen) (NX (NX (ART die) (NN Spfr\.)) (NX (NE Ricklingen))))) (VC (PTKVZ durch))) (\$\. \.))"/>
+<markable id="markable_165" span="word_39..word_51" mmax_level="parse" orderid="6" tag="(Start (SIMPX (VF (PX (ADVX (ADV Bereits)) (APPRART am) (NX (NN Sonnabend)))) (LK (VXFIN (VVFIN besiegte))) (MF (NX (NX (ART der) (ADJX (ADJA 1\.)) (NN SC)) (NX (NE Norderstedt))) (NX (NE Arminia) (NE Hannover)) (PX (APPR mit) (NX (CARD 4\:1))))) (\$\. \.))"/>
+</markables>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN ReiseNotizen)))"/>
-<markable id="markable_10" span="word_2" mmax_level="parse" orderid="2" tag="(Start (NX (NN Wandern)))"/>
-<markable id="markable_47" span="word_3..word_17" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (APPR In) (NX (NX (NE Österreich)) (\$\, \,) (NX (NE Südtirol)) (KON und) (NX (NE Liechtenstein))))) (LK (VXFIN (VAFIN haben))) (MF (NX (PRF sich)) (NX (ADJX (CARD 40)) (NN Hotels)) (PX (APPRART zur) (NX (NX (NN Gruppe)) (NX (NN Europa-Wanderhotels))))) (VC (VXINF (VVPP zusammengeschlossen)))) (\$\. \.))"/>
-<markable id="markable_128" span="word_18..word_52" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (NX (NN Voraussetzung)) (PX (APPR für) (NX (ART die) (NN Aufnahme))))) (LK (VXFIN (VAFIN ist))) (\$\, \,) (NF (SIMPX (C (KOUS daß)) (FKOORD (FKONJ (MF (ADVX (ADV selbst)) (NX (ART die) (NN Hotelbesitzer)) (ADJX (ADJD wanderfreudig))) (VC (VXFIN (VAFIN sind)))) (\$\, \,) (FKONJ (MF (NX (ART die) (NN Häuser)) (PX (APPR in) (NX (ADJX (ADJA schönen)) (NN Wanderregionen)))) (VC (VXFIN (VVFIN liegen)))) (\$\, \,) (FKONJ (MF (NX (NX (NN Touren)) (PX (APPR mit) (NX (ADJX (ADJA geschulten)) (NN Begleitern))))) (VC (VXFIN (VVFIN anbieten)))) (KON sowie) (FKONJ (MF (PX (APPR über) (NX (NX (ART eine) (NN Wander-Infothek)) (PX (APPR mit) (NX (NX (NN Landschaftskarten)) (KON und) (NX (NN Kulturführern))))))) (VC (VXFIN (VVFIN verfügen)))))))) (\$\. \.))"/>
-<markable id="markable_133" span="word_53" mmax_level="parse" orderid="5" tag="(Start (NX (NE faf)))"/>
-</markables>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Berichtigung)))"/>
+<markable id="markable_29" span="word_2..word_10" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (PX (APPR In) (NX (ADJX (ADJA gewissen)) (NN Cities)))) (LK (VXFIN (VVFIN hegt))) (MF (NX (ART der) (NN Mensch)) (NX (ADJX (ADJA ungute)) (NN Gefühle)))) (\$\. \.))"/>
+<markable id="markable_96" span="word_11..word_35" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (PDS Das))) (LK (VXFIN (VAFIN ist))) (MF (PX (APPR in) (NX (NE Bonn))) (ADVX (PTKNEG nicht)) (ADVX (ADVX (ADV anders)) (PX (KOKOM als) (PX (PX (APPR in) (NX (NE Bielefeld))) (\$-LRB- -) (KON oder) (PX (APPR in) (NX (NE Berlin))))))) (\$\, \,) (NF (R-SIMPX (C (NX (PRELS was))) (MF (ADVX (ADV gestern)) (PX (APPR aus) (NX (NX (ART der) (NN Unterzeile)) (NX (ART des) (NN Stadtplanungstextes)))) (ADVX (ADV leider)) (ADVX (PTKNEG nicht))) (VC (VXFIN (VVFIN hervorging)))))) (\$\. \.))"/>
+</markables>

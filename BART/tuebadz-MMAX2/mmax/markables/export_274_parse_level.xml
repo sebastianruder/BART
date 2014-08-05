@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_13" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (NX (NN Betr\.)) (\$\. \:) (NX (NE Wolfgang) (NE Engler)))"/>
-<markable id="markable_34" span="word_5..word_12" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NE Wolfgang) (NE Engler))) (LK (VXFIN (VVFIN lebt))) (MF (NX (KOKOM als) (NN Kultursoziologe)) (PX (APPR in) (NX (NE Berlin))))) (\$\. \.))"/>
-<markable id="markable_83" span="word_13..word_33" mmax_level="parse" orderid="3" tag='(Start (SIMPX (VF (ADVX (ADV Kürzlich))) (LK (VXFIN (VVFIN erschien))) (MF (PX (APPR von) (NX (PPER ihm))) (PX (APPRART im) (NX (ADJX (ADJA Berliner)) (NX (NX (NE Aufbau)) (NN Verlag)))) (NX (NX (ART die) (NN Untersuchung)) (\$-LRB- \") (NX (NX (ART Die) (NN Ostdeutschen)) (\$-LRB- -) (NX (NX (NN Kunde)) (PX (APPR von) (NX (ART einem) (ADJX (ADJA verlorenen)) (NN Land)))))))) (\$-LRB- \") (\$\. \.))'/>
-<markable id="markable_102" span="word_34..word_40" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (PPER Er))) (LK (VXFIN (VVFIN schreibt))) (MF (ADJX (ADJD gelegentlich)) (PX (APPR in) (NX (ART der) (NE taz))))) (\$\. \.))"/>
-</markables>

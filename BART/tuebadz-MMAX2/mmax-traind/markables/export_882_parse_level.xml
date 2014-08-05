@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Berichtigung)))"/>
+<markable id="markable_31" span="word_2..word_10" mmax_level="parse" orderid="2" tag="(Start (NX (ADVX (ADV Immer)) (NX (NX (PDAT diese) (NN Musiktitel)) (\$\, \,) (R-SIMPX (C (NX (PRELS die))) (MF (NX (PIS einem)) (NX (NN Fragen))) (VC (VXFIN (VVFIN aufgeben)))))) (\$\. \.))"/>
+<markable id="markable_87" span="word_11..word_31" mmax_level="parse" orderid="3" tag='(Start (PX (APPRART Zum) (NX (NN Beispiel))) (\$\. \:) (\$-LRB- \") (NX (FX (FM King) (FM Fit) (FM the) (FM Battle) (FM of) (NX (NE Alabam))) (\$-LRB- \") (\$\, \,) (NX (NX (PDAT jenes) (NN Werk)) (\$\, \,) (R-SIMPX (C (NX (PRELS das))) (MF (NX (NE Duke) (NE Ellington)) (NX (CARD 1963))) (VC (VXFIN (VVFIN komponierte)))))) (\$\. \.))'/>
+<markable id="markable_118" span="word_32..word_35" mmax_level="parse" orderid="4" tag="(Start (SIMPX (LK (VXFIN (VVFIN Heißt))) (MF (ADVX (ADV wirklich)) (ADVX (ADV so)))) (\$\. \.))"/>
+<markable id="markable_177" span="word_36..word_60" mmax_level="parse" orderid="5" tag='(Start (SIMPX (PARORD (KON Denn)) (VF (NX (NX (ART das) (ADJX (ADJA englische)) (NN Wort)) (\$-LRB- \") (FX (FM fit)))) (\$-LRB- \") (FKOORD (FKONJ (LK (VXFIN (VVFIN dient))) (MF (ADVX (PTKNEG nicht)) (ADVX (ADV nur)) (NX (ART der) (NN Sportsprache)))) (\$\, \,) (KON sondern) (FKONJ (LK (VXFIN (VAFIN ist))) (MF (ADVX (ADV auch)) (NX (NX (ART die) (ADJX (ADJA altertümliche)) (NN Entsprechung)) (PX (APPRART zur) (NX (NX (NN Vergangenheitsform)) (\$-LRB- \") (FX (FM fought))))))))) (\$-LRB- \") (\$\. \.))'/>
+<markable id="markable_213" span="word_61..word_64" mmax_level="parse" orderid="6" tag="(Start (NX (NX (PIAT Keine) (NN Berichtigung)) (ADVX (ADV also))) (\$\. \.))"/>
+</markables>

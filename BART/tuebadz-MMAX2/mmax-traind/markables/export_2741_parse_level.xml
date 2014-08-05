@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Hasen)))"/>
+<markable id="markable_41" span="word_2..word_15" mmax_level="parse" orderid="2" tag="(Start (NX (NE Hannover)) (SIMPX (VF (SIMPX (VF (NX (NX (ART Die) (NN Zahl)) (NX (NX (ART der) (NN Hasen)) (PX (APPR in) (NX (NE Niedersachsen)))))) (LK (VXFIN (VAFIN ist))) (MF (ADJX (ADJD stabil))))) (\$\, \,) (LK (VXFIN (VVFIN sagt))) (MF (NX (ART die) (NN Landesjägerschaft)))) (\$\. \.))"/>
+<markable id="markable_77" span="word_16..word_24" mmax_level="parse" orderid="3" tag='(Start (SIMPX (VF (NX (ART Das) (\$-LRB- \") (NN Wilderfassungsprogramm))) (\$-LRB- \") (LK (VXFIN (VAFIN habe))) (MF (NX (ADJX (CARD 450\.000)) (NN Hasen))) (VC (VXINF (VVPP gezählt)))) (\$\. \.))'/>
+<markable id="markable_91" span="word_25" mmax_level="parse" orderid="4" tag="(Start (NX (NE dpa)))"/>
+</markables>

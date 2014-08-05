@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_13" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (NX (NN Betr\.)) (\$\. \:) (NX (NX (NN Basisdaten)) (NX (NE Tansania))))"/>
+<markable id="markable_25" span="word_5..word_6" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NN Basisdaten)) (NX (NE Tansania))))"/>
+<markable id="markable_102" span="word_7..word_38" mmax_level="parse" orderid="3" tag='(Start (NX (PX (APPR Ab) (NX (CARD 1891))) (NX (ADJX (ADJA deutsche)) (NN Kolonie))) (\$-LRB- -LRB-) (\$-LRB- \") (NX (NX (NE Deutsch-Ostafrika)) (\$-LRB- \") (\$\, \,) (PX (APPR einschließlich) (NX (NX (NX (ART des) (ADJX (ADJA heutigen)) (NE Burundi)) (KON und) (NX (NE Ruanda))) (\$\, \,) (R-SIMPX (C (NX (PRELS die))) (MF (ADVX (ADV erst)) (PX (APPR nach) (NX (ART dem) (ADJX (ADJA Ersten)) (NN Weltkrieg)))) (VC (VXINF (VVPP abgetrennt)) (VXFIN (VAFIN wurden))))))) (\$-LRB- -RRB-) (\$\, \,) (SIMPX (VF (NX (NE Sansibar))) (MF (PX (APPR seit) (NX (CARD 1890))) (NX (ADJX (ADJA britisches)) (NN Protektorat)))) (\$\. \.))'/>
+<markable id="markable_164" span="word_39..word_50" mmax_level="parse" orderid="4" tag="(Start (SIMPX (SIMPX (VF (PX (APPR Nach) (NX (ART dem) (ADJX (ADJA Ersten)) (NN Weltkrieg)))) (LK (VXFIN (VAFIN wird))) (MF (NX (NE Tansania)) (NX (ADJX (ADJA britische)) (NN Kolonie)))) (\$\, \,) (SIMPX (VF (NX (CARD 1961))) (MF (ADJX (ADJD unabhängig))))) (\$\. \.))"/>
+<markable id="markable_195" span="word_51..word_56" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (CARD 1964))) (LK (VXFIN (VVFIN vereinigt))) (MF (NX (PRF sich)) (NX (NE Sansibar)) (PX (APPR mit) (NX (NE Tansania))))))"/>
+<markable id="markable_213" span="word_57..word_60" mmax_level="parse" orderid="6" tag="(Start (NX (NN Größe)) (\$\. \:) (NX (ADJX (CARD 945\.087)) (NN km2)))"/>
+<markable id="markable_231" span="word_61..word_65" mmax_level="parse" orderid="7" tag="(Start (NX (ADJX (ADJA Größte)) (NN Stadt)) (\$\. \:) (NX (NE Dar) (NE Es-Salaam)))"/>
+<markable id="markable_254" span="word_66..word_72" mmax_level="parse" orderid="8" tag="(Start (NX (NN Bevölkerung)) (\$\. \:) (NX (ADJX (CARD 24\,5)) (NN Mio\.)) (\$-LRB- -LRB-) (NX (CARD 1990)) (\$-LRB- -RRB-))"/>
+<markable id="markable_291" span="word_73..word_84" mmax_level="parse" orderid="9" tag="(Start (NX (NN Religionen)) (\$\. \:) (NX (NX (ADVX (ADV Je)) (ART ein) (NN Drittel)) (NX (NX (NN Muslime)) (\$\, \,) (NX (NN Christen)) (KON und) (NX (NX (NN Anhänger)) (PX (APPR von) (NX (NN Naturreligionen)))))))"/>
+<markable id="markable_317" span="word_85..word_89" mmax_level="parse" orderid="10" tag="(Start (NX (ADJX (ADJA Städt\.)) (NN Bevölkerung)) (\$\. \:) (NX (ADJX (CARD 33)) (NN \%)))"/>
+<markable id="markable_335" span="word_90..word_94" mmax_level="parse" orderid="11" tag="(Start (NX (NN Außenhandel)) (\$-LRB- -LRB-) (NX (CARD 1990)) (\$-LRB- -RRB-) (\$\. \:))"/>
+<markable id="markable_354" span="word_95..word_99" mmax_level="parse" orderid="12" tag="(Start (NX (NN Exporte)) (\$\. \:) (NX (NX (ADJX (CARD 407\,8)) (NN Mio\.)) (NX (NN US-\$))))"/>
+<markable id="markable_373" span="word_100..word_104" mmax_level="parse" orderid="13" tag="(Start (NX (NN Importe)) (\$\. \:) (NX (NX (ADJX (CARD 1\.363\,5)) (NN Mio\.)) (NX (NN US-\$))))"/>
+</markables>

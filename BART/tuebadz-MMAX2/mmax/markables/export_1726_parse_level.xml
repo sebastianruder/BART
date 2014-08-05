@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_10" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (SIMPX (C (NX (NX (PWS Was)) (NX (PIS alles)))) (MF (ADVX (PTKNEG nicht))) (VC (VXFIN (VVFIN fehlt)))))"/>
-<markable id="markable_30" span="word_5..word_11" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NE Steffi) (NE Graf))) (MF (NX (ADJX (ADJA kommende)) (NN Woche)) (PX (APPR in) (NX (NE Brighton))))) (\$\. \.))"/>
-<markable id="markable_61" span="word_12..word_24" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (SIMPX (VF (SIMPX (C (KOUS Daß)) (MF (NX (ART die) (ADJX (ADJA steuerverletzte)) (NN Weltranglistenerste))) (VC (VXFIN (VVFIN mittue))))) (\$\, \,) (LK (VXFIN (VAFIN sei))) (MF (ADJX (ADJD definitiv))))) (\$\, \,) (LK (VXFIN (VVFIN glaubt))) (MF (NX (ART der) (NN Turnierdirektor)))) (\$\. \.))"/>
-</markables>

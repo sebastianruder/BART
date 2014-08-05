@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Pflege)))"/>
-<markable id="markable_14" span="word_2..word_4" mmax_level="parse" orderid="2" tag="(Start (PX (APPR Außer) (NX (NN Verfassung))) (\$\. \?))"/>
-<markable id="markable_70" span="word_5..word_27" mmax_level="parse" orderid="3" tag="(Start (NX (NE Dresden)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (ART Das) (NN Gesetz)) (PX (APPRART zur) (NX (NN Pflegeversicherung))))) (LK (VXFIN (VAFIN ist))) (MF (PX (APPR nach) (NX (ART einem) (ADJX (PX (APPRART vom) (NX (NE DGB))) (PX (APPR in) (NX (NN Auftrag))) (ADJA gegebenen)) (NN Rechtsgutachten))) (PX (APPR in) (NX (ADJX (ADJA wesentlichen)) (NN Punkten))) (ADJX (ADJD verfassungswidrig)))) (\$\. \.))"/>
-<markable id="markable_151" span="word_28..word_62" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (SIMPX (VF (NX (NX (ART Die) (ADJX (ADJA bundesgesetzliche)) (NN Bestimmung)) (\$\, \,) (R-SIMPX (C (PX (PWAV wonach))) (MF (PX (APPRART zum) (NX (NX (NN Ausgleich)) (NX (ART des) (NN Arbeitgeberbeitrages)))) (NX (ART ein) (NN Feiertag))) (VC (VXINF (VVPP gestrichen)) (VXINF (VAINF werden)) (VXFIN (VMFIN soll)))))) (\$\, \,) (LK (VXFIN (VVFIN verstoße))) (MF (PX (APPR gegen) (NX (NX (ART die) (NN Kompetenzordnung)) (NX (ART des) (NN Grundgesetzes))))))) (\$\, \,) (LK (VXFIN (VVFIN sagte))) (MF (NX (NX (NX (ART der) (ADJX (PX (APPR mit) (NX (ART dem) (NN Gutachten))) (ADJA beauftragte)) (NN Professor)) (NX (NE Pieroth))) (PX (APPR von) (NX (NX (ART der) (NN Uni)) (NX (NE Münster))))))) (\$\. \.))"/>
-</markables>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Rußland)))"/>
+<markable id="markable_14" span="word_2..word_3" mmax_level="parse" orderid="2" tag="(Start (SIMPX (MF (NX (NN Haushalt))) (VC (VXINF (VVPP abgelehnt)))))"/>
+<markable id="markable_71" span="word_4..word_26" mmax_level="parse" orderid="3" tag="(Start (NX (NE Moskau)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (ART Das) (ADJX (ADJA russische)) (NN Parlament))) (LK (VXFIN (VVFIN lehnte))) (MF (ADVX (ADV gestern)) (NX (NX (ART den) (ADJX (PX (APPR von) (NX (ART der) (NN Regierung))) (ADJA vorgelegten)) (NN Staatshaushalt)) (PX (APPR für) (NX (CARD 1996)))) (PX (APPR in) (NX (ADJX (ADJA erster)) (NN Lesung)))) (VC (PTKVZ ab))) (\$\. \.))"/>
+<markable id="markable_132" span="word_27..word_42" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (SIMPX (C (KOUS Wie)) (MF (NX (NX (ART die) (NN Nachrichtenagentur)) (NX (NE Interfax)))) (VC (VXFIN (VVFIN meldete))))) (\$\, \,) (LK (VXFIN (VVFIN stimmten))) (FKOORD (MF (NX (ADJX (CARD 129)) (NN Abgeordnete)) (PX (APPR für) (NX (ART den) (NN Entwurf)))) (KON und) (MF (NX (ADJX (CARD 138))) (PX (PROP dagegen))))) (\$\. \.))"/>
+<markable id="markable_169" span="word_43..word_50" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (ART Der) (NN Entwurf))) (LK (VXFIN (VVFIN geht))) (MF (ADVX (ADV nun)) (PX (APPR in) (NX (ART den) (NN Vermittlungsausschuß))))) (\$\. \.))"/>
+<markable id="markable_201" span="word_51..word_60" mmax_level="parse" orderid="6" tag="(Start (SIMPX (VF (NX (ART Das) (ADJX (ADJA vorgesehene)) (NN Etatdefizit))) (LK (VXFIN (VVFIN beträgt))) (MF (NX (ADJX (ADJD umgerechnet)) (NX (ADVX (ADV ca\.)) (ADJX (CARD 26)) (NN Milliarden)) (NX (NN Mark))))) (\$\. \.))"/>
+<markable id="markable_240" span="word_61..word_72" mmax_level="parse" orderid="7" tag="(Start (SIMPX (VF (NX (ADVX (ADV Besonders)) (NX (NX (ART das) (NN Militär)) (KON und) (NX (NX (ART die) (NN Abgeordneten)) (NX (ART der) (NN Agrarpartei)))))) (LK (VXFIN (VVFIN fordern))) (MF (NX (ADJX (ADJA höhere)) (NN Ausgaben)))) (\$\. \.))"/>
+</markables>

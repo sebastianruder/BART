@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_6" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Bundesrat)))"/>
-<markable id="markable_13" span="word_2..word_3" mmax_level="parse" orderid="2" tag="(Start (SIMPX (MF (NX (NN Entsendung))) (VC (VXINF (VVPP abgelehnt)))))"/>
-<markable id="markable_92" span="word_4..word_35" mmax_level="parse" orderid="3" tag="(Start (NX (NE Bonn)) (\$-LRB- -LRB-) (NX (NE AFP)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (ART Der) (NN Bundesrat))) (LK (VXFIN (VAFIN hat))) (MF (ADVX (ADV gestern)) (NX (NX (NX (ART das) (NN Entsendegesetz)) (NX (ART der) (NN Bundesregierung))) (\$\, \,) (R-SIMPX (C (PX (APPR durch) (NX (PRELS das)))) (MF (NX (NX (NN Billiglöhne)) (PX (APPR für) (NX (ADJX (ADJA ausländische)) (NN Arbeitnehmer)))) (PX (APPR auf) (NX (NX (NN Baustellen)) (PX (APPR in) (NX (NE Deutschland)))))) (VC (VXINF (VVPP abgeschafft)) (VXINF (VAINF werden)) (VXFIN (VMFIN sollen))))) (\$\, \,) (ADJX (KOKOM als) (ADJD unzureichend))) (VC (VXINF (VVPP abgelehnt)))) (\$\. \.))"/>
-<markable id="markable_118" span="word_36..word_45" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Die) (NN Länder))) (LK (VXFIN (VVFIN unterstützten))) (MF (PX (APPR statt) (NX (PDS dessen))) (NX (NX (ART einen) (ADJX (ADJA weitergehenden)) (NN Antrag)) (NX (NE Berlins))))) (\$\. \.))"/>
-<markable id="markable_149" span="word_46..word_58" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (PDS Dieser))) (FKOORD (FKONJ (LK (VXFIN (VVFIN beschränkt))) (MF (NX (PRF sich)) (ADVX (PTKNEG nicht)) (ADVX (ADV nur)) (PX (APPR auf) (NX (ART das) (NN Bauhauptgewerbe))))) (KON und) (FKONJ (LK (VXFIN (VAFIN ist))) (MF (ADJX (ADJX (ADJD zeitlich)) (ADJD unbefristet)))))) (\$\. \.))"/>
-</markables>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Tischtennis)))"/>
-<markable id="markable_18" span="word_2..word_5" mmax_level="parse" orderid="2" tag="(Start (NX (NX (PIAT Kein) (NN Cup)) (PX (APPR für) (NX (NE Roßkopf)))))"/>
-<markable id="markable_55" span="word_6..word_18" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (ADVX (ADV Erst)) (APPRART im) (NX (NN Endspiel)))) (LK (VXFIN (VVFIN fand))) (MF (NX (NE Jörg) (NE Roßkopf)) (PX (APPRART beim) (NX (NX (NN Weltcup)) (PX (APPR in) (NX (NE Nimes))))) (NX (PPOSAT seinen) (NN -LRB-Welt--RRB-Meister)))) (\$\. \.))"/>
-<markable id="markable_98" span="word_19..word_36" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (PPER Er))) (LK (VXFIN (VVFIN unterlag))) (MF (NX (NX (ART dem) (NN Chinesen)) (NX (NE Kong) (NE Linghui))) (PX (APPR nach) (NX (ADJX (ADJA hartem)) (NN Kampf))) (PX (APPR mit) (NX (NX (CARD 21\:18)) (\$\, \,) (NX (CARD 22\:24)) (\$\, \,) (NX (CARD 20\:22)) (\$\, \,) (NX (CARD 14\:21)))))) (\$\. \.))"/>
-<markable id="markable_161" span="word_37..word_64" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (ADVX (PX (APPR In) (NX (ART den) (NN Runden))) (ADV zuvor))) (LK (VXFIN (VAFIN hatte))) (MF (NX (NE Roßkopf)) (PX (APPR unter) (NX (PIS anderen))) (NX (NX (NX (ART den) (ADJX (ADJA schwedischen)) (NN Olympiasieger)) (NX (NE Jan-Ove) (NE Waldner))) (\$\, \,) (NX (NX (ART den) (ADJX (ADJA belgischen)) (NN Europameister)) (NX (NE Jean-Michel) (NE Saive))) (KON und) (NX (NX (NX (NN Vize-Weltmeister)) (NX (NE Liu) (NE Guoliang))) (\$-LRB- -LRB-) (NX (NE China))))) (\$-LRB- -RRB-) (VC (VXINF (VVPP bezwungen)))) (\$\. \.))"/>
-</markables>

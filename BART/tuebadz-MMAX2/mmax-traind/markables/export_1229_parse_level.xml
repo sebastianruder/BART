@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_6" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE INDONESIEN)))"/>
+<markable id="markable_18" span="word_2..word_4" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NN Haft)) (PX (APPR für) (NX (NN Oppositionellen)))))"/>
+<markable id="markable_84" span="word_5..word_30" mmax_level="parse" orderid="3" tag='(Start (NX (NE Jakarta)) (\$-LRB- -LRB-) (NX (NE afp)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (ART Ein) (NN Gericht)) (PX (APPR in) (NX (NE Ost-Timor))))) (LK (VXFIN (VAFIN hat))) (MF (NX (ART den) (ADJX (ADJA 35jährigen)) (NX (NE Bonifacio) (NE Magno) (NE Pareira))) (PX (APPR wegen) (\$-LRB- \") (NX (ADJX (ADJA regierungsfeindlicher)) (NN Aktivitäten))) (\$-LRB- \") (PX (APPR zu) (NX (NX (ADJX (CARD sechs)) (NN Jahren)) (NX (NN Haft))))) (VC (VXINF (VVPP verurteilt)))) (\$\. \.))'/>
+<markable id="markable_178" span="word_31..word_57" mmax_level="parse" orderid="4" tag='(Start (SIMPX (VF (NX (ART Der) (NN Angeklagte))) (LK (VXFIN (VAFIN habe))) (MF (NX (KOKOM als) (NX (NN Mitglied)) (NX (NX (ART der) (NN Unabhängigkeitsorganisation)) (\$-LRB- \") (NX (NE Fetun)))) (\$-LRB- \") (NX (ADJX (ADJA separatistische)) (NN Absichten))) (VC (VXINF (VVPP verfolgt))) (\$\, \,) (NF (R-SIMPX (C (NX (PRELS die))) (MF (NX (NX (NX (ART eine) (NN Abspaltung)) (NX (NX (ART der) (ADJX (ADJA früheren)) (ADJX (ADJA portugiesischen)) (NN Kolonie)) (NX (NE Ost-Timor)))) (PX (APPR von) (NX (NE Indonesien))))) (VC (VXINF (VVINF fördern)) (VXFIN (VMFIN sollten)))))) (\$\. \.))'/>
+</markables>
