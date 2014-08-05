@@ -3,6 +3,11 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 
+%die Art der Aufzählung lässt sich hiermit verändern
+\usepackage{paralist}
+
+%Diese drei Pakete benötigen wir für die Umlaute, Deutsche Silbentrennung etc.
+%Apple-Nutzer sollten anstelle von \usepackage[latin1]{inputenc} das Paket \usepackage[applemac]{inputenc} verwenden
 \usepackage[ngerman]{babel}
 \usepackage[T1]{fontenc}
 %für Windows
@@ -14,9 +19,12 @@
 \renewcommand{\harvardand}{und} 
 
 %\setkomafont{disposition}{\normalfont\bfseries}
-\author{Julian Baumann, Xenia K\"uhling, Sebastian Ruder}
+\author{Julian Baumann, Xenia Kühling, Sebastian Ruder}
+
 \date{08. August 2014}
+
 \title{Regelbasierte Koreferenz mit BART}
+
 \subtitle{Algorithmen und Implementation zum Softwareprojekt im SS14}
 
 %Brücke zwischen algorithmischer und implementatorischer Ebene
@@ -24,49 +32,75 @@
 
 \begin{document}
 \maketitle
-
 \section{BART im Vergleich zu Stanford}
 
-BART unternimmt automatische Koreferenzresolution mithilfe einer modularen Pipeline, die aus einer Vorverarbeitungsphase (Daten von MMAX2-Annotationsebenen werden aggregiert), der Extraktion der NP-Kandidaten, der Extraktion der NP-Merkmale und der Kandidatenpaare sowie aus einem Resolutionsmodell besteht.
- BART verwendet momentan einen auf einem Ansatz von Soon basierenden Resolutionsalgorithmus, der Kandidaten-NPs hinsichtlich ihrer Merkmale paarweise vergleicht. Statt diesem soll nun das Resolutionssystem der Stanford-NLP-Gruppe (im Folgenden Stanford-System) implementiert werden, das sich durch seine Sieb-Architektur auszeichnet. Obwohl es haupts\"achlich auf Regeln basiert, konnte es dennoch das beste Ergebnis beim CoNLL-2011 shared task erzielen. Im Rahmen der Sieb-Architektur werden nacheinander - absteigend nach ihrer Pr\"azision geordnet - eine Reihe von deterministischen Koreferenzmodellen angewendet, wobei jedes Modell auf den Output seines Vorg\"angers aufbaut. Besonders das Entit\"at-zentrische Modell, in bei dem Merkmale \"uber alle Vorkommen einer Entit\"at geteilt werden, bietet einen deutlichen Wissensgewinn, der von Nutzen f\"ur BARTs Performanz sein wird.
-Vergleich Regel-basiert mit Machine-learning
+BART unternimmt automatische Koreferenzresolution mithilfe einer modularen Pipeline, die aus einer Vorverarbeitungsphase (Daten von MMAX2-Annotationsebenen werden aggregiert), der Extraktion der NP-Kandidaten, der Extraktion der NP-Merkmale und der Kandidatenpaare sowie aus einem Resolutionsmodell besteht.\\
+BART verwendet üblicherweise einen auf einem Ansatz von \citeasnoun{soon2001} basierenden Resolutionsalgorithmus, der Kandidaten-NPs hinsichtlich ihrer Merkmale paarweise vergleicht. Statt diesem implementierten wir das Resolutionssystem der Stanford-NLP-Gruppe (im Folgenden Stanford-System), das sich durch seine Sieb-Architektur auszeichnet und regel-basiert ist.\\
+Frühe Systeme zur Koreferenzresolution basierten ebenfalls auf Regeln. Aufgrund ihrer Abhängigkeit von manuell zu bestimmenden Gewichten und ihrer Unfähigkeit, Koreferenten nicht nur paarweise, sondern korpusübergreifend zuzuordnen, werden heute jedoch stattdessen zumeist Machine-Learning-Systeme eingesetzt. Während überwachte Systeme allerdings auf manuell annotierte Daten angewiesen sind, lassen sich unüberwachte Systeme hingegen aufgrund ihrer Komplexität nur schwierig auf neue Domänen übertragen.\\
+\citeasnoun{lee2013} suchen, die Vorteile Regel- und Machine-Learning-basierter Systeme zu verheiraten und konnten so mit ihrem regel-basierten System das beste Ergebnis beim CoNLL-2011 \textit{shared task} erzielen. Im Rahmen der Sieb-Architektur werden nacheinander - absteigend nach ihrer Präzision geordnet - eine Reihe von deterministischen Koreferenzmodellen angewendet, wobei jedes Modell auf den Output seines Vorgängers aufbaut. Besonders das Entität-zentrische Modell, bei dem Merkmale über alle Vorkommen einer Entität geteilt werden, macht das die globale Koreferenzsolution für regel-basieret Systeme möglich.
 
 \section{Allgemeine Implementation}
 
-SieveFactory, abstrakte Klassen, von der die einzelnen Sieves erben
+Die Klasse \texttt{SieveAnnotator} ruft für jedes Dokument die \texttt{decodeDocument}-Methode des \texttt{SieveDecoder} auf, der \texttt{corefResolver} als Interface implementiert. In dieser wird über alle mentions dieses Dokumentes zehnmal iteriert, wobei bei jeder Iteration durch eine \texttt{SieveFactory} ein anderer Sieve aufgerufen wird. Hier filtern wir bereits alle indefiniten mentions heraus, da diese sich meist auf generische Konzepte beziehen, die keinen Koreferenten besitzen.\\
+Jeder Sieve erbt von der abstrakten \texttt{Sieve}-Klasse, die \texttt{runSieve}-Methode, die er für jede mention aufruft und in der er unter den Antezedenten nach einem Koreferenten für diese mention sucht. \texttt{Sieve} enthält bereits alle \textit{utility}-Methoden, die von den Subklassen verwendet werden und von denen die meisten als Input eine \texttt{PairInstance} bestehend aus mention und Antezedent annehmen.
 
 \section{Details zu den einzelnen Sieves}
 
 \begin{itemize}
-\item \textbf{Speaker Identification:} Es werden Sprecher identifiziert und mit m\"oglichen koreferenten Pronomen verbunden. Da der von der Stanford-Gruppe verwendete OntoNotes-Korpus auch Telefon-Gespräche und Talk Shows umfasst, erzielt dieser Sieve bereits einen Recall von 8,7\% und einen F1-Score von 15,5\% (MUC-Score); da der TüBa-D/Z-Korpus hingegen nur aus Nachrichtenartikeln besteht, ist der Effekt dieses Sieves signifikant geringer. Da es sich vor allem um indirekte Rede handelt, schlagen wir Verben nach, die synonym mit "sagen" sind.
 
-\item \textbf{String Match:} Zwei mentions werden als koreferent angesehen, wenn sie exakt übereinstimmen (einschließlich Modifikatoren und Artikel). \citeasnoun{lee2013} geben hier eine Precision von über 90\% $B^3$ an. Für das Deutsche und den TüBa-D/Z-Korpus erreicht dieser Sieve allerdings nur eine Precision von ??.
-\item \textbf{Relaxed String Match:} Zwei nominale Entit\"aten sind koreferent, wenn ihre K\"opfe gleich sind.
-\item \textbf{Precise Constructs:} Zwei Entit\"aten sind koreferent, wenn sie gemeinsam in einer Appositions- oder Subjekt-Objekt-Konstruktion stehen. Wenn die Entit\"at ein zum Kopf des Antezedens geh\"origes Relativpronomen ist, ein Akronym oder ein Demonym ist. 
-\item \textbf{Strict Head Match A, Strict Head Match B, Strict Head Match C, Proper Head Noun Match, Relaxed Head Match:} Diese Regeln bezeichnen Entit\"aten als koreferent, wenn sie denselben Kopf haben und bestimmte Bedingungen erf\"ullen. 
-\item \textbf{Pronoun Match:} Pronominale Koreferenz besteht, wenn bestimmte Agreement-Bedingungen erf\"ullt sind. Z.B.: Numerus, Genus, Person, Belebtheit, Satzentfernung zwischen Pronomen und Antezedens ${\leq}$ 3
+\item \textbf{SpeakerIdentification} identifiziert Sprecher und verbindet sie mit möglichen koreferenten Pronomen. Da der von \citeasnoun{lee2013} verwendete OntoNotes-Korpus auch Telefon-Gespräche und Talk Shows umfasst, erzielt dieser Sieve bereits einen Recall von 8,7\% und einen F1-Score von 15,5\% (MUC); da der TüBa-D/Z-Korpus hingegen nur aus Nachrichtenartikeln besteht, ist der Effekt dieses Sieves signifikant geringer. Handelt es sich bei einem der beiden um ein Vorfeld-Es, so wird keine Übereinstimmung gefunden. Numerus-Übereinstimmung und eine Satzentfernung ${\leq}$ 1 müssen gegeben sein. Es wird mit BARTs \texttt{FE\_Speech} überprüft, ob sich eine der mentions in wörtlicher Rede befindet und auf Grundlage der Position von ':' und '"' sowie Sprechverben ausgemacht, wo sich der Sprecher befindet, woraufhin schließlich sichergestellt wird, dass sich die in der wörtlichen Rede befindende mention weder Reflexiv-, noch Relativ-, sondern lediglich Pronomen ist.
+
+\item \textbf{StringMatch} sieht zwei mentions als koreferent an, wenn sie exakt übereinstimmen (einschließlich Modifikatoren und Artikel). Wir überprüfen dies, indem wir den String der Markables der beiden mentions vergleichen. Zudem schließen wir mentions aus, deren String eine Datumsangabe enthält, da gleiche Daten in TüBa-D/Z nicht als koreferent gelten. Ebenso muss die mention einen Artikel enthalten oder eine Person oder ein Objekt sein. \citeasnoun{lee2013} geben hier eine Präzision von über 90\% $B^3$ an. Für das Deutsche und den TüBa-D/Z-Korpus erreicht dieser Sieve eine Genauigkeit von ??.
+
+\item \textbf{RelaxedStringMatch} gibt zwei mentions als koreferent an, sofern sie identisch sind, wenn ihre Postmodifikatoren ignoriert werden. Um die Präzision dieses Sieves zu erhöhen, implementierten wir hier ebenfalls Bedingung (iv) des \textbf{ProperHeadWordMatch} sowie die Überlegung, dass der Antezedent spezifischer als die mention sein, d.h. weniger Wörter enthalten muss.
+
+\item \textbf{PreciseConstructs} matcht zwei mentions als koreferent, wenn sie eine der folgenden Bedingungen erfüllen: 
+\begin{itemize}
+	\item Sie stehen gemeinsam in einer Appositions- oder Subjekt-Objekt-Konstruktion. Diese Bedingung ist für uns unerheblich, da diese Konstruktionen in TüBa-D/Z nicht annotiert werden.
+	\item Die mention modifiziert den Antezedens-Kopf. Hier weisen wir explizit den deutschen Relativpronomen ein Genus zu und überprüfen Genus-Übereinstimmung sowie Wortentfernung, wobei wir sicherstellen, dass der Antezedent nicht von einer weiteren mention eingebettet wird, auf die sich das Relativpronomen eher beziehen könnte.
+	\item Eine der mentions ist ein Akronym der anderen. Hier berücksichtigen wir Eigenheiten des Deutschen, in dem auch Akronyme teilweise mit '-' getrennt werden.
+	\item Eine der mentions ist ein Demonym der anderen. Hierfür schlagen wir Demonyme in einer auf Wikipedia basierenden Liste nach, wobei dieses Kriterium im TüBa-D/Z-Korpus nicht von großer Bedeutung ist.
+\end{itemize}
+Auch bei uns ist dieser Sieve unter den präzisesten, auch wenn er nicht ganz an die $B^3$-Präzision von über 90\% des Stanford-Systems heranreicht.
+
+\item \textbf{StrictHeadMatchA} matcht mentions, die denselben Head besitzen und darüber hinaus die folgenden Bedingungen erfüllen:
+
+\begin{compactenum}[(i)]
+ \item Die Modifikatoren der mention müssen unter den Modifikatoren des Antezedenten sein.
+ \item Alle Nicht-Stoppwörter der aktuellen Entität müssen in der Anzedens-Entität vorkommen.
+ \item Keine der beiden NPs kann Kind des Konstituenten der anderen NP sein (\textit{i-within-i}).
+\end{compactenum}
+
+\item \textbf{StrictHeadMatchB} ignoriert Bedingung (i), während \textbf{StrictHeadMatchC} ebenfalls auf Bedingung (ii) verzichtet.
+
+\item \textbf{ProperHeadNounMatch} weist zwei mentions als Koreferenten aus, wenn sie dasselbe \textit{head word} besitzen, sowie Bedingung (iii) erfüllen und (iv) keine unterschiedlichen Orte, Namen, Zahlen oder räumliche Modifikatoren aufweisen.
+
+\item \textbf{RelaxedHeadMatch} matcht zwei mentions, wenn der Kopf der mention mit einem Wort in der Antezedent-Entität übereinstimmt, wobei beide \textit{named entities} desselben Typs sein müssen und Bedingungen (ii) und (iii) genügen müssen.
+
+\item \textbf{PronounMatch} matcht ein Pronomen mit einer Entität, wenn folgende Merkmale übereinstimmen: Numerus, Genus, Person, Belebtheit, NER-Label, Satzentfernung zwischen Pronomen und Antezedens ${\leq}$ 3. \citeasnoun{wunsch2006} verwendet zur pronominalen Koreferenzresolution gewichtete Merkmale, wobei syntaktische signifikanter seien als positionelle.
+
 \end{itemize}
 
-Vorerst sollen String Match und Pronoun Match implementiert werden. (?!)
-
-
-\section{Vergleich der Datenformate}
-Eigenheiten/Besonderheiten MMAX2
-Das XML-Format der TüBa-D/Z wird für BART in MMAX2 konvertiert (zitieren: Müller and Strube, 2006 -Multi-level annotation of linguistic data with MMAX2).
-Hierbei gehen durch die Verwendung von MiniDiscourse in BART bspw. grammatische Funktionen verloren.
-
-Vergleich mit OntoNotes-Format
+\section{Vergleich der Datenformate und Korpora}
+Das XML-Format der TüBa-D/Z wird für BART in MMAX2 \cite{muller2006} konvertiert, das die Daten in verschiedenen \textit{markable levels} bereitstellt, wobei auf benötigte Diskurselemente, wie z.B. grammatische Funktionen mit \texttt{getDiscourseElementsByLevel} zugegriffen werden kann. Wie bereits eingangs erwähnt unterscheiden sich die Annotationsrichtlinien der verwendeten Korpora und ihre Datenformate hinsichtlich der Konstruktionen, die annotiert werden und ihrer Domäne.
 
 \section{Evaluation}
+Aufgrund der Schwierigkeit, Daten im MMAX2-Format zu analysieren und zu visualisieren, konvertierten wir die Texte in das HTML-Format, wobei wir koreferente mentions farbig markierten. Mithilfe der \texttt{Evaluation}-Klasse ließen wir uns ebenfalls die Details jedes matches und die Sieb-spezifische Performanz ausgeben.
+
 Evaluationstabellen
+
 1. Tabelle: Vergleich mit BART Machine Learning-Konfiguration XMLExperiment auf TüBa-D/Z
+
 2. Tabelle: Vergleich mit Stanford-System mit CoNLL Scorer auf OntoNotes
 
+3. Tabelle: Verbesserungen der einzelnen Sieves
+
+\clearpage
 
 \nocite{*}
 \renewcommand*{\refname}{} % This will define heading of bibliography to be empty, so you can...
 \section{Literatur}  
-\bibliography{lit}
-\bibliographystyle{abbrv}
+\bibliography{lit}{}
+\bibliographystyle{agsm}
 
 \end{document}
