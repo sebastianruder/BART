@@ -31,9 +31,10 @@ public class StringMatchSieve extends Sieve {
 			Mention ante = mentions.get(idx);
 			if (mention.getMarkable().toString().equals(ante.getMarkable().toString())) {
 				if (!(mention.getPronoun())) {
-					if (contains_article(mention) || SemanticClass.isaPerson(semclass) || SemanticClass.isaObject(semclass)) {
-						ante_idx = idx;
-					}
+					ante_idx = idx;
+//					if (contains_article(mention) || SemanticClass.isaPerson(semclass) || SemanticClass.isaObject(semclass)) {
+//						ante_idx = idx;
+//					}
 				}
 			}
 		}
