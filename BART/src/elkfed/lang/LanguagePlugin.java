@@ -102,6 +102,8 @@ public interface LanguagePlugin {
 
 /* rule-based expletive detection -- now for "it" (Eng) only */
     public boolean isExpletiveRB(Mention m);
+    
+    public String getHeadGF(Mention m);
 
     static enum TableName {
         DemonymMap,

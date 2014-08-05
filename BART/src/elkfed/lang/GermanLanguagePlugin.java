@@ -15,6 +15,8 @@
  */
 package elkfed.lang;
 
+import static elkfed.mmax.MarkableLevels.DEFAULT_DEPREL_LEVEL;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -22,6 +24,7 @@ import java.util.regex.Pattern;
 
 import edu.stanford.nlp.trees.HeadFinder;
 import edu.stanford.nlp.trees.Tree;
+import elkfed.coref.mentions.Mention;
 import elkfed.knowledge.SemanticClass;
 import elkfed.lang.LanguagePlugin.TableName;
 import elkfed.mmax.MarkableLevels;
@@ -360,7 +363,43 @@ public class GermanLanguagePlugin extends AbstractLanguagePlugin {
             return SemanticClass.UNKNOWN;
         }
     }
+    @Override
+    public String getHeadGF(Mention mention) {
+    	Markable markable = mention.getMarkable();
 
+        String markableGF = "*NULL*";
+
+        MiniDiscourse doc = markable.getMarkableLevel().getDocument();
+        MarkableLevel deprel = doc.getMarkableLevelByName(DEFAULT_DEPREL_LEVEL);
+
+        String head_pos = markable.getAttributeValue(AbstractLanguagePlugin.HEAD_POS);
+
+        int head_disc_pos = doc.getDiscoursePositionFromDiscourseElementID(head_pos);
+
+        try {
+            markableGF = deprel.getMarkablesAtDiscoursePosition(head_disc_pos).get(0).getAttributeValue("tag");
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.exit(0);
+        }
+        //FIXME: mmax conversion bug?
+        if(markableGF.equals("KON") || markableGF.equals("cj")) {
+            Tree sentenceTree = mention.getSentenceTreeWithDiscIds();
+            Tree conjuntion = mention.getMarkableSubTree();
+            while (conjuntion.parent(sentenceTree) != null && conjuntion.parent(sentenceTree).value().toLowerCase().matches("(nx|en-add)")) {
+                conjuntion = conjuntion.parent(sentenceTree);
+            }
+            ArrayList<String> phrase = mention.getHighestProjectingPhraseWithPOS(conjuntion, "NN");
+            if(phrase==null) {
+                phrase = mention.getHighestProjectingPhraseWithPOS(conjuntion, "NE");
+            }
+            if(phrase!=null) {
+                head_disc_pos = doc.getDiscoursePositionFromDiscourseElementID(phrase.get(0));
+                markableGF = deprel.getMarkablesAtDiscoursePosition(head_disc_pos).get(0).getAttributeValue("tag");
+            } 
+        }
+        return markableGF;
+    }
     @Override
     public boolean isExpletiveWordForm(String string) {
         return string.equalsIgnoreCase("es");
