@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_11" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (SIMPX (MF (ADVX (ADV Erneut)) (NX (ADJX (ADJA ältere)) (NN Frau))) (VC (VXINF (VVPP angefahren)))))"/>
+<markable id="markable_54" span="word_5..word_19" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (ADJX (ADJA Lebensgefährliche)) (NN Körperverletzungen))) (LK (VXFIN (VAFIN hat))) (MF (NX (PRF sich)) (NX (ART eine) (ADJX (ADJA 88jährige)) (NN Fußgängerin)) (PX (APPR bei) (NX (NX (ART einem) (NN Zusammenstoß)) (PX (APPR mit) (NX (ART einem) (NN Pkw)))))) (VC (VXINF (VVPP zugezogen)))) (\$\. \.))"/>
+<markable id="markable_103" span="word_20..word_32" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (ART Die) (NN Frau))) (LK (VXFIN (VAFIN hatte))) (MF (NX (ART das) (NN Auto)) (PX (APPRART beim) (NX (NX (NN Überqueren)) (NX (ART der) (ADJX (ADJA Waller)) (NN Heerstraße)))) (ADJX (ADJD offensichtlich))) (VC (VXINF (VVPP übersehen)))) (\$\. \.))"/>
+<markable id="markable_133" span="word_33..word_39" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Der) (NN Fahrer))) (LK (VXFIN (VMFIN konnte))) (MF (ADVX (ADVX (PTKNEG nicht)) (ADVX (ADV mehr)))) (VC (VXINF (VVINF bremsen)))) (\$\. \.))"/>
+<markable id="markable_190" span="word_40..word_60" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (ART Die) (NN 88jährige))) (FKOORD (FKONJ (LK (VXFIN (VAFIN wurde))) (MF (PX (APPRART vom) (NX (ADJX (ADJA rechten)) (NN Außenspiegel)))) (VC (VXINF (VVPP erfaßt)))) (\$\, \,) (FKONJ (LK (VXFIN (VVFIN schleuderte))) (MF (PX (APPR über) (NX (ART die) (NN Motorhaube))))) (KON und) (FKONJ (LK (VXFIN (VVFIN prallte))) (MF (PX (APPR mit) (NX (ART dem) (NN Kopf))) (PX (APPR auf) (NX (ART die) (NN Fahrbahn))))))) (\$\. \.))"/>
+<markable id="markable_230" span="word_61..word_67" mmax_level="parse" orderid="6" tag="(Start (SIMPX (VF (NX (PPER Sie))) (LK (VXFIN (VAFIN wurde))) (MF (ADJX (ADJD anschließend)) (PX (APPRART ins) (NX (NN Krankenhaus)))) (VC (VXINF (VVPP eingeliefert)))) (\$\. \.))"/>
+<markable id="markable_242" span="word_68" mmax_level="parse" orderid="7" tag="(Start (NX (NN Pol\.Ber\.)))"/>
+</markables>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_8" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (SIMPX (MF (NX (NE Schües))) (VC (VXINF (VVPP gewählt)))))"/>
+<markable id="markable_33" span="word_3..word_11" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NE Nikolaus) (NE W\.) (NE Schües))) (LK (VXFIN (VVFIN bleibt))) (MF (NX (NX (NN Präsident)) (NX (ART der) (ADJX (ADJA Hamburger)) (NN Handelskammer))))) (\$\. \.))"/>
+<markable id="markable_78" span="word_12..word_26" mmax_level="parse" orderid="3" tag='(Start (SIMPX (VF (NX (NX (NX (ART Der) (NN Geschäftsführer)) (NX (ART der) (NN Reederei))) (\$-LRB- \") (NX (NE F\.) (NE Laeisz)))) (\$-LRB- \") (LK (VXFIN (VAFIN wurde))) (MF (ADVX (ADV gestern)) (PX (APPR für) (NX (ADJX (CARD drei)) (NN Jahre)))) (VC (VXINF (VVPP wiedergewählt)))) (\$\. \.))'/>
+<markable id="markable_120" span="word_27..word_36" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ADVX (ADV Auch)) (NX (NX (NN Vizepräsident)) (NX (NE Karl-Joachim) (NE Dreyer))))) (LK (VXFIN (VAFIN wurde))) (MF (PX (APPR in) (NX (PPOSAT seinem) (NN Amt)))) (VC (VXINF (VVPP bestätigt)))) (\$\. \.))"/>
+</markables>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Beach-Volleyball)))"/>
+<markable id="markable_13" span="word_2..word_3" mmax_level="parse" orderid="2" tag="(Start (NX (PIAT Mehr) (NN Sand)))"/>
+<markable id="markable_46" span="word_4..word_15" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NX (ART Das) (ADJX (PX (APPRART vom) (NX (NN Aus))) (ADJA bedrohte)) (NN BeachVolleyball-Turnier)) (PX (APPR auf) (NX (NX (ART der) (NN Nordseeinsel)) (NX (NE Wangerooge)))))) (LK (VXFIN (VAFIN ist))) (MF (ADJX (ADJD gerettet)))) (\$\. \.))"/>
+<markable id="markable_124" span="word_16..word_42" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (PPER Es))) (LK (VXFIN (VVFIN findet))) (MF (PX (APPR nach) (NX (NX (NN Angaben)) (PX (APPR von) (NX (NX (NN Ausrichter)) (NX (NE Peter) (NE Kuchenbuch)))))) (PX (PX (APPRART vom) (NX (ADJX (ADJA 23\.)))) (PX (APPR bis) (NX (ADJX (ADJA 25\.)) (NN Juli)))) (PX (APPR auf) (NX (ART der) (NN Insel))) (PX (APPRART im) (NX (NX (NN Rahmen)) (NX (NX (ART der) (NN Tour)) (PX (APPR um) (NX (ART den) (NX (NE German) (NE Beach) (NE Cup)))))))) (VC (PTKVZ statt))) (\$\. \.))"/>
+<markable id="markable_192" span="word_43..word_60" mmax_level="parse" orderid="5" tag='(Start (SIMPX (VF (NX (KOKOM Als) (ADJX (ADJA neuer)) (NN Sponsor))) (LK (VXFIN (VAFIN hat))) (MF (NX (PRF sich)) (NX (NX (NX (ART ein) (NN Kräuterlikörher-steller)) (PX (APPR aus) (NX (NE Wolfenbüttel)))) (\$-LRB- -LRB-) (\$-LRB- \") (NX (NE Jägermeister))) (\$-LRB- \") (\$-LRB- -RRB-) (\$-LRB- \") (ADJX (ADJD finanziell))) (VC (VXINF (VVPP engagiert)))) (\$\. \.))'/>
+</markables>
