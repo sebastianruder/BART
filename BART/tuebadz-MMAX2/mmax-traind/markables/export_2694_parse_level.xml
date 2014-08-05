@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_13" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NN Blockade)) (PX (APPR in) (NX (ART der) (NN Hebbelstraße)))))"/>
+<markable id="markable_124" span="word_5..word_49" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (ART Die) (ADJX (ADJA Charlottenburger)) (NN Hebbelstraße))) (LK (VXFIN (VAFIN wurde))) (MF (ADVX (ADV gestern)) (PX (APPRART zur) (NX (NN Anwohnerstraße))))) (\$\. \:) (SIMPX (VF (SIMPX (C (KOUS Weil)) (MF (NX (NX (NX (NN Verkehrssenator)) (NX (NE Herwig) (NE Haase))) (\$-LRB- -LRB-) (NX (NE CDU))) (\$-LRB- -RRB-) (NX (ART die) (NN Straße)) (NX (KOKOM als) (NX (NN Autorennbahn)) (PX (APPR durch) (NX (ART den) (NE Kiez)))) (PX (APPRART am) (NX (NN Klausener-Platz)))) (VC (VXINF (VVINF erhalten)) (VXFIN (VMFIN will))))) (\$\, \,) (LK (VXFIN (VVFIN demonstrierten))) (MF (NX (ADVX (ADV über)) (ADJX (CARD 100)) (NN BürgerInnen)) (PX (APPR für) (NX (NX (ART eine) (NN Schließung)) (NX (ART der) (ADJX (ADJA stinkigen)) (NN Durchfahrt))))) (\$\, \,) (NF (R-SIMPX (C (PX (APPR an) (NX (PRELS der)))) (MF (NX (NX (NN Kitas)) (KON und) (NX (NN Spielplätze)))) (VC (VXFIN (VVFIN liegen)))))) (\$\. \.))"/>
+<markable id="markable_181" span="word_50..word_53" mmax_level="parse" orderid="3" tag="(Start (NX (NN Foto)) (\$\. \:) (NX (NE David) (NE Reed)))"/>
+</markables>

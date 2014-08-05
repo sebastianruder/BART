@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_8" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (NX (ADJX (ADJA Betrügerischer)) (NN Briefträger)))"/>
+<markable id="markable_55" span="word_3..word_19" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (PX (APPRART Zur) (NX (NX (NN Finanzierung)) (NX (PPOSAT seiner) (NN Waffenleidenschaft))))) (LK (VXFIN (VAFIN hat))) (MF (NX (ART ein) (ADJX (ADJA 34jähriger)) (NN Briefträger)) (NX (NX (NN Sendungen)) (PX (APPR mit) (NX (NX (NN Kreditkarten)) (\$\, \,) (NX (NN Schmuck)) (KON und) (NX (NN Münzen)))))) (VC (VXINF (VVPP unterschlagen)))) (\$\. \.))"/>
+<markable id="markable_110" span="word_20..word_34" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (ART Der) (ADJX (PX (APPR seit) (NX (NX (NN März)) (NX (CARD 1993)))) (PX (APPR von) (NX (PPER ihm))) (ADJA angerichtete)) (NN Schaden))) (LK (VXFIN (VVFIN beläuft))) (MF (NX (PRF sich)) (PX (APPR auf) (NX (ADVX (ADV mindestens)) (ADJX (CARD 400\.000)) (NN Mark))))) (\$\. \.))"/>
+<markable id="markable_168" span="word_35..word_51" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Der) (NN Postbote))) (LK (VXFIN (VAFIN hat))) (FKOORD (FKONJ (MF (ADVX (ADV inzwischen)) (NX (ADJX (CARD 35)) (NN Taten))) (VC (VXINF (VVPP gestanden)))) (KON und) (FKONJ (MF (PX (ADJX (ADJD unmittelbar)) (APPR nach) (NX (PPOSAT seiner) (NN Festnahme))) (PX (APPR bei) (NX (ART der) (NN Post)))) (VC (VXINF (VVPP gekündigt)))))) (\$\. \.))"/>
+<markable id="markable_190" span="word_52" mmax_level="parse" orderid="5" tag="(Start (NX (NE ADN)))"/>
+</markables>

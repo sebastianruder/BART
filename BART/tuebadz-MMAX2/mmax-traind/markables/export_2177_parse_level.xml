@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_12" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (NX (NX (PIAT Kein) (NN Geld)) (PX (APPR für) (NX (NN Hotels)))))"/>
+<markable id="markable_21" span="word_5" mmax_level="parse" orderid="2" tag="(Start (NX (NE Hannover)))"/>
+<markable id="markable_46" span="word_6..word_14" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NE Niedersachsen))) (LK (VXFIN (VMFIN will))) (MF (NX (NX (ART die) (ADJX (ADJA finanzielle)) (NN Förderung)) (NX (ART des) (NN Tourismus)))) (VC (VXINF (VVINF drosseln)))) (\$\. \.))"/>
+<markable id="markable_99" span="word_15..word_32" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Das) (NN Land))) (LK (VXFIN (VAFIN hat))) (MF (NX (ART die) (NN Branche)) (PX (APPR in) (NX (ART den) (ADJX (ADJA vergangenen)) (ADJX (CARD vier)) (NN Jahren))) (ADVX (ADV insgesamt)) (PX (APPR mit) (NX (NX (ADVX (ADV rund)) (ADJX (CARD 150)) (NN Millionen)) (NX (NN DM))))) (VC (VXINF (VVPP bezuschußt)))) (\$\. \.))"/>
+<markable id="markable_163" span="word_33..word_51" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (NX (NX (NN Wirtschaftsminister)) (NX (NE Peter) (NE Fischer))) (\$-LRB- -LRB-) (NX (NE SPD)))) (\$-LRB- -RRB-) (LK (VXFIN (VVFIN fordert))) (MF (NX (ART die) (NN Branche))) (VC (PTKVZ auf)) (\$\, \,) (NF (SIMPX (MF (NX (NX (ART den) (NN Anteil)) (NX (ART der) (NN Eigenfinanzierung))) (ADJX (ADJD erheblich))) (VC (VXINF (PTKZU zu) (VVINF steigern)))))) (\$\. \.))"/>
+<markable id="markable_241" span="word_52..word_74" mmax_level="parse" orderid="6" tag="(Start (SIMPX (VF (NX (KOKOM Als) (NX (ART ein) (ADJX (ADJA gutes)) (NN Beispiel)) (PX (APPR für) (NX (PIAT mehr) (NN Eigeninitiative))))) (LK (VXFIN (VVFIN nennt))) (MF (NX (NE Fischer)) (NX (NX (ART den) (NN Tourismusverband)) (NX (ADJX (ADJA Osnabrücker)) (NN Land)))) (\$\, \,) (NF (R-SIMPX (C (NX (PRELS der))) (MF (NX (PPOSAT seine) (NN Übernachtungszahlen)) (PX (APPR ohne) (NX (ADJX (ADJA staatliche)) (NN Zuschüsse)))) (VC (VXINF (VVINF steigern)) (VXFIN (VMFIN konnte)))))) (\$\. \.))"/>
+<markable id="markable_269" span="word_75" mmax_level="parse" orderid="7" tag="(Start (NX (NE dpa)))"/>
+</markables>

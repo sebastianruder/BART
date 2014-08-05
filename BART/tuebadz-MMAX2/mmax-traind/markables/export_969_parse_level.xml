@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NN Frage)) (NX (ART der) (NN Woche))))"/>
+<markable id="markable_59" span="word_4..word_22" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (PX (PWAV Warum))) (LK (VXFIN (VAFIN ist))) (MF (NX (NX (ART der) (NN Sonnenbrand)) (PX (APPRART am) (NX (NX (NN Rand)) (NX (NX (ART der) (NN Badehose)) (\$-LRB- \/) (NX (ART des) (NN Bikinis)))))) (ADVX (ADV immer)) (ADJX (ADJX (ADJD schlimmer)) (PX (KOKOM als) (APPRART am) (NX (NX (NN Rest)) (NX (ART des) (NN Körpers))))))) (\$\. \?))"/>
+<markable id="markable_90" span="word_23..word_26" mmax_level="parse" orderid="3" tag="(Start (NX (NE Marina) (NE Listing)) (\$\, \,) (NX (NE Berlin)))"/>
+</markables>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_13" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (SIMPX (VF (NX (NN Castor-Gegner))) (LK (VXFIN (VVFIN legen))) (MF (NX (NN Bahntechnik))) (VC (PTKVZ lahm))))"/>
+<markable id="markable_58" span="word_5..word_20" mmax_level="parse" orderid="2" tag="(Start (NX (NE Lüneburg)) (SIMPX (VF (NX (NN Unbekannte))) (LK (VXFIN (VAFIN haben))) (MF (PX (APPR in) (NX (NX (ART der) (NN Nacht)) (PX (APPRART zum) (NX (NN Sonnabend))))) (PX (APPR auf) (NX (NX (ART der) (NN Bahnstrecke)) (NX (NE Hamburg-Uelzen)))) (NX (ART die) (NN Geschwindigkeitsüberwachung))) (VC (VXINF (VVPP lahmgelegt)))) (\$\. \.))"/>
+<markable id="markable_110" span="word_21..word_35" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (SIMPX (C (KOUS Wie)) (MF (NX (ART die) (ADJX (ADJA Deutsche)) (NN Bahn)) (ADVX (ADV gestern))) (VC (VXFIN (VVFIN mitteilte))))) (\$\, \,) (LK (VXFIN (VVFIN handelt))) (MF (NX (PPER es)) (NX (PRF sich)) (ADVX (ADV vermutlich)) (PX (APPR um) (NX (ADJX (ADJA militante)) (NN Kernkraftgegner))))) (\$\. \.))"/>
+<markable id="markable_163" span="word_36..word_51" mmax_level="parse" orderid="4" tag='(Start (SIMPX (VF (PX (APPR Bei) (NX (ART den) (NN Gleisen)))) (LK (VXFIN (VAFIN sei))) (MF (NX (NX (ART ein) (NN Flugblatt)) (PX (APPR mit) (NX (NX (ART der) (NN Aufschrift)) (\$-LRB- \") (SIMPX (LK (VXFIN (VVIMP Stoppt))) (MF (NX (NN Castor)))))))) (\$-LRB- \") (VC (VXINF (VVPP gefunden)) (VXINF (VAPP worden)))) (\$\. \.))'/>
+<markable id="markable_184" span="word_52" mmax_level="parse" orderid="5" tag="(Start (NX (NE dpa)))"/>
+</markables>

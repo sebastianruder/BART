@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Aderlaß)))"/>
+<markable id="markable_66" span="word_2..word_27" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (ART Das) (ADJX (ADJA Deutsche)) (ADJX (ADJA Rote)) (NN Kreuz))) (LK (VXFIN (VVFIN bittet))) (MF (PX (ADVX (ADV jeweils)) (PX (PX (APPR von) (NX (ADJX (CARD 15\.30)))) (PX (APPR bis) (NX (ADJX (CARD 19\.30)) (NN Uhr))))) (PX (APPRART zum) (NX (NN Aderlaß))))) (\$\. \:) (SIMPX (VF (ADVX (ADV Heute))) (LK (VXFIN (VMFIN kann))) (MF (PX (APPR in) (NX (NX (NE Horn-Lehe)) (\$\, \,) (NX (NX (NN Bergiusstraße)) (NX (CARD 125))))) (\$\, \,) (NX (NN Blut))) (VC (VXINF (VVPP gespendet)) (VXINF (VAINF werden)))) (\$\. \.))"/>
+<markable id="markable_132" span="word_28..word_44" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (ADVX (ADVX (ADV Morgen)) (\$-LRB- -LRB-) (NX (ADJX (ADJA 18\.)) (ADJX (ADJA 10))))) (\$-LRB- -RRB-) (LK (VXFIN (VAFIN sind))) (MF (NX (ART die) (NN DRK\'ler)) (PX (APPR in) (NX (NX (ART der) (ADJX (ADJA Neuen)) (NE Vahr)) (PX (APPR in) (NX (NX (ART der) (NN Kurt-Schumacher-Allee)) (NX (CARD 65)))))))) (\$\. \.))"/>
+<markable id="markable_188" span="word_45..word_60" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (APPRART Am) (NX (NX (NN Donnerstag)) (\$-LRB- -LRB-) (NX (ADJX (ADJA 19\.)) (ADJX (ADJA 10)))))) (\$-LRB- -RRB-) (LK (VXFIN (VVFIN kommt))) (MF (NX (ART das) (NE DRK)) (PX (APPR nach) (NX (NX (NE Walle)) (PX (APPR in) (NX (NX (ART die) (NN Melanchthonstraße)) (NX (CARD 150)))))))) (\$\. \.))"/>
+<markable id="markable_209" span="word_61" mmax_level="parse" orderid="5" tag="(Start (NX (NE taz)))"/>
+</markables>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Solarfirmen)))"/>
+<markable id="markable_16" span="word_2..word_4" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NN Geld)) (PX (APPR trotz) (NX (NN Exodus)))))"/>
+<markable id="markable_100" span="word_5..word_38" mmax_level="parse" orderid="3" tag="(Start (NX (NE Bonn)) (\$-LRB- -LRB-) (NX (NE AP)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (SIMPX (VF (NX (NX (ART Die) (NN Solarzellenhersteller)) (NX (NX (NE ASE)) (\$-LRB- -LRB-) (NX (NX (NE Daimler)) (KON und) (NX (NE RWE)))))) (\$-LRB- -RRB-) (LK (VXFIN (VMFIN dürfen))) (MF (NX (NX (NX (ADJX (CARD 380)) (NN Millionen)) (NX (NN Mark))) (NX (NN Subventionen)))) (VC (VXINF (VVINF behalten)))) (\$\, \,) (SIMPX (VF (NX (NE Siemens) (NE Solar))) (MF (NX (ADJX (CARD 117)) (NN Millionen))) (\$-LRB- -) (NF (SIMPX (C (KOUS obwohl)) (MF (NX (PPER sie)) (NX (ART die) (NN Fertigung)) (PX (APPR in) (NX (ART die) (NE USA)))) (VC (VXFIN (VVFIN verlegen))))))) (\$\. \.))"/>
+<markable id="markable_184" span="word_39..word_58" mmax_level="parse" orderid="4" tag="(Start (NX (NX (NN Grund)) (PX (APPR laut) (NX (NX (NN Bundesregierung)) (PX (APPR von) (ADVX (ADV gestern)))))) (\$\. \:) (SIMPX (VF (PX (APPR Für) (NX (ART die) (NN Produktion)))) (LK (VXFIN (VAFIN hätten))) (MF (NX (ART die) (NN Firmen)) (ADVX (ADV eh)) (PX (APPR auf) (NX (NX (NN Grundlagen)) (PX (APPR aus) (NX (ART den) (NE USA)))))) (VC (VXINF (VVPP zurückgegriffen)))) (\$\. \.))"/>
+</markables>

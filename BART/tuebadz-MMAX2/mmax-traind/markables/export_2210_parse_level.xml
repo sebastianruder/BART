@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (SIMPX (MF (NX (NN Gnade))) (VC (VXINF (VVPP vertagt)))))"/>
+<markable id="markable_61" span="word_3..word_24" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (ADVX (ADV Nur)) (ADVX (ADV noch)) (NX (ART der) (NN Petitionsausschuß)) (NX (ART der) (NN Bürgerschaft)))) (LK (VXFIN (VMFIN kann))) (MF (NX (NX (ART den) (NN Gambianer)) (NX (NE John) (NE Edward) (NE Eko))) (PX (APPR vor) (NX (ART der) (NN Abschiebung)))) (VC (VXINF (VVINF bewahren)))) (\$-LRB- -LRB-) (SIMPX (VF (NX (NE taz))) (LK (VXFIN (VVFIN berichtete))) (MF (ADVX (ADV gestern)))) (\$-LRB- -RRB-) (\$\. \.))"/>
+<markable id="markable_145" span="word_25..word_50" mmax_level="parse" orderid="3" tag="(Start (SIMPX (KOORD (KON Doch)) (VF (NX (NX (ART die) (ADJX (PX (APPR für) (ADVX (ADV gestern))) (ADJA vorgesehene)) (NN Entscheidung)) (PX (APPR über) (NX (NX (ART das) (NN Gnadenersuch)) (NX (NX (ART des) (ADJX (PX (APPR seit) (NX (ADJX (CARD 17)) (NN Jahren))) (PX (APPR in) (NX (NE Hamburg))) (ADJA lebenden)) (NN Seemanns)) (PX (APPR aus) (NX (NN Westafrika)))))))) (LK (VXFIN (VAFIN wurde))) (MF (PX (APPR auf) (NX (ART die) (ADJX (ADJA nächste)) (NN Woche)))) (VC (VXINF (VVPP vertagt)))) (\$\. \.))"/>
+</markables>

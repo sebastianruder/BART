@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Kolumbien)))"/>
+<markable id="markable_14" span="word_2..word_3" mmax_level="parse" orderid="2" tag="(Start (SIMPX (MF (NX (NN Botschaft))) (VC (VXINF (VVPP besetzt)))))"/>
+<markable id="markable_91" span="word_4..word_33" mmax_level="parse" orderid="3" tag="(Start (NX (NE Bogota)) (\$-LRB- -LRB-) (NX (NE AFP)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (ADJX (CARD Sieben)) (ADJX (ADJA kolumbianische)) (NN Ölarbeiter))) (LK (VXFIN (VAFIN haben))) (MF (PX (APPRART am) (NX (NN Mittwoch))) (PX (APPR für) (NX (PIAT mehrere) (NN Stunden))) (NX (NX (ART die) (ADJX (ADJA deutsche)) (NN Botschaft)) (PX (APPR in) (NX (NE Bogota))))) (VC (VXINF (VVPP besetzt))) (\$\, \,) (NF (SIMPX (C (KOUI um)) (MF (PX (APPR auf) (NX (NX (NN Repressalien)) (PX (APPR gegen) (NX (NN Gewerkschafter))))) (ADJX (ADJD aufmerksam))) (VC (VXINF (PTKZU zu) (VVINF machen)))))) (\$\. \.))"/>
+<markable id="markable_176" span="word_34..word_55" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Die) (NN Besetzer))) (LK (VXFIN (VVFIN forderten))) (MF (PX (APPR nach) (NX (NX (NN Angaben)) (NX (ART eines) (NN Botschaftssprechers))))) (\$\, \,) (NF (SIMPX (VF (NX (ART eine) (ADJX (ADJA internationale)) (NN Kommission))) (LK (VXFIN (VMFIN solle))) (MF (NX (NX (NX (ART die) (NN Einhaltung)) (NX (ART der) (NN Menschenrechte))) (PX (APPRART im) (NX (NX (NN Umgang)) (PX (APPR mit) (NX (NN Gewerkschaftern))))))) (VC (VXINF (VVINF garantieren)))))) (\$\. \.))"/>
+</markables>

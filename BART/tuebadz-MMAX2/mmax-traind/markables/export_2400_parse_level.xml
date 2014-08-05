@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_9" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NN Porno)) (KON \+) (NX (NN Religion))))"/>
+<markable id="markable_19" span="word_4..word_5" mmax_level="parse" orderid="2" tag="(Start (SIMPX (MF (NX (NN Lehrergehalt))) (VC (VXINF (VVPP gekürzt)))))"/>
+<markable id="markable_92" span="word_6..word_33" mmax_level="parse" orderid="3" tag="(Start (NX (NE Hannover)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (PX (APPR Wegen) (NX (NX (ART der) (NN Vorführung)) (PX (APPR von) (NX (NX (NN Pornofilmen)) (PX (APPRART im) (NX (NN Unterricht)))))))) (LK (VXFIN (VMFIN muß))) (MF (NX (NX (ART ein) (NN Religionslehrer)) (PX (APPRART im) (NX (ADJX (ADJA niedersächsischen)) (NE Wolfenbüttel)))) (ADJX (NX (ADJX (CARD drei)) (NN Jahre)) (ADJD lang)) (PX (APPR auf) (NX (NX (ART einen) (NN Teil)) (NX (PPOSAT seines) (NN Gehalts))))) (VC (VXINF (VVINF verzichten)))) (\$\. \.))"/>
+<markable id="markable_157" span="word_34..word_47" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (KOKOM Als) (NN Disziplinarmaßnahme))) (LK (VXFIN (VAFIN wurde))) (MF (PX (APPR gegen) (NX (PPER ihn))) (NX (NX (NX (ART die) (NN Kürzung)) (NX (PPOSAT seiner) (NN Bezüge))) (PX (APPR um) (NX (ADJX (CARD fünf)) (NN Prozent))))) (VC (VXINF (VVPP verhängt)))) (\$\. \.))"/>
+</markables>

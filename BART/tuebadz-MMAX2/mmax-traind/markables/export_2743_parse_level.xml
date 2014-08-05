@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_6" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Toleranzbuch)))"/>
+<markable id="markable_53" span="word_2..word_18" mmax_level="parse" orderid="2" tag='(Start (SIMPX (VF (NX (ART Der) (ADJX (ADJA Bremer)) (NN Jugendring))) (LK (VXFIN (VVFIN sucht))) (MF (NX (NX (NN Beiträge)) (PX (APPR für) (NX (PPOSAT sein) (\$-LRB- \") (NN Toleranzbuch)))))) (\$-LRB- \") (\$\. \:) (NX (NX (NN Geschichten)) (\$\, \,) (NX (NN Cartoons)) (\$\, \,) (NX (NN Sprüche))) (\$\. \.))'/>
+<markable id="markable_113" span="word_19..word_34" mmax_level="parse" orderid="3" tag="(Start (NX (KON Und) (NX (NX (ADJX (ADJA junge)) (NN Leute)) (\$\, \,) (R-SIMPX (C (NX (PRELS die))) (MF (NX (PRF sich))) (VC (VXINF (VVINF fotografieren)) (VXINF (VVINF lassen)) (VXFIN (VMFIN wollen))) (NF (PX (APPR mit) (NX (NX (NN Tatoos)) (\$\, \,) (NX (NN Frisuren)) (\$\, \,) (NX (NN Klamotten)))))))) (\$-LRB- \.\.\.))"/>
+<markable id="markable_144" span="word_35..word_40" mmax_level="parse" orderid="4" tag="(Start (NX (NN Infos)) (\$\. \:) (NX (CARD 170698) (\$-LRB- \/) (CARD 99)) (\$\. \.))"/>
+<markable id="markable_155" span="word_41" mmax_level="parse" orderid="5" tag="(Start (NX (NE taz)))"/>
+</markables>

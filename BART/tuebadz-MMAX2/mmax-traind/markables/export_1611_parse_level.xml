@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN PARKRAUM)))"/>
+<markable id="markable_18" span="word_2..word_4" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NE VCD))) (LK (VXFIN (VVFIN kritisiert))) (MF (NX (NN Senat)))))"/>
+<markable id="markable_28" span="word_5..word_6" mmax_level="parse" orderid="3" tag="(Start (NX (NE Berlin)) (\$\. \.))"/>
+<markable id="markable_72" span="word_7..word_23" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (NX (NX (ART Der) (NN Verkehrsclub)) (NX (NX (ART der) (NN Bundesrepublik)) (NX (NE Deutschland)))) (\$-LRB- -LRB-) (NX (NE VCD)))) (\$-LRB- -RRB-) (LK (VXFIN (VAFIN hat))) (MF (NX (ART das) (ADJX (PX (APPRART vom) (NX (NN Senat))) (ADJA vorgelegte)) (NN Parkraumkonzept)) (ADJX (ADJD scharf))) (VC (VXINF (VVPP kritisiert)))) (\$\. \.))"/>
+<markable id="markable_152" span="word_24..word_50" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (SIMPX (VF (PX (APPR Bei) (NX (NX (ART einer) (NN Umsetzung)) (NX (ART der) (NN Senatspläne))))) (LK (VXFIN (VVFIN drohe))) (MF (NX (NX (ART eine) (\$-LRB- ») (ADJX (ADJA große)) (NN Pleite)) (\$-LRB- «) (KON und) (NX (NX (ART eine) (\$-LRB- ») (ADJX (ADJA weitere)) (NN Zuspitzung)) (\$-LRB- «) (NX (NX (ART der) (NN Verkehrsprobleme)) (PX (APPR in) (NX (ART der) (NN Innenstadt))))))))) (\$\, \,) (LK (VXFIN (VVFIN erklärte))) (MF (NX (ART der) (NN Verband)))) (\$\. \.))"/>
+<markable id="markable_216" span="word_51..word_66" mmax_level="parse" orderid="6" tag="(Start (SIMPX (VF (PX (PROP Außerdem))) (LK (VXFIN (VMFIN könnten))) (MF (PX (PROP damit)) (NX (NX (PIAT keine) (ADJX (ADJA nennenswerten)) (NN Mittel)) (PX (APPR für) (NX (NX (ART den) (ADJX (ADJA erforderlichen)) (NN Ausbau)) (NX (ART des) (ADJX (ADJA öffentlichen)) (NN Personennahverkehrs)))))) (VC (VXINF (VVPP erwirtschaftet)) (VXINF (VAINF werden)))) (\$\. \.))"/>
+</markables>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_12" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (NX (NX (ADJX (ADJA Freie)) (NN Bahn)) (PX (APPR für) (NX (NN DVU-Wahlplakate)))))"/>
+<markable id="markable_24" span="word_5..word_6" mmax_level="parse" orderid="2" tag="(Start (NX (NE Bremerhaven)) (\$\. \.))"/>
+<markable id="markable_63" span="word_7..word_20" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NX (ART Das) (NN Verwal-tungsgericht)) (NX (NE Bremen)))) (LK (VXFIN (VAFIN hat))) (MF (ADVX (ADV gestern)) (NX (NE Bremerhaven)) (PX (PROP dazu))) (VC (VXINF (VVPP verurteilt))) (NF (SIMPX (MF (NX (NX (ART eine) (NN Verfügung)) (PX (APPRART zum) (NX (NN Plakatieren))))) (VC (VXINF (VVIZU zurückzunehmen)))))) (\$\. \.))"/>
+<markable id="markable_127" span="word_21..word_41" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (PDS Diese))) (LK (VXFIN (VVFIN bezog))) (MF (NX (PRF sich)) (PX (APPR auf) (NX (NX (NX (ART das) (NN Hochhängen)) (PX (APPR von) (NX (NN Wahltafeln)))) (KON und) (NX (ADJX (ADJA bestimmte)) (NN Formate))))) (\$\, \,) (NF (R-SIMPX (C (NX (PRELS die))) (MF (PX (APPR unter) (NX (PIS anderem))) (PX (APPR von) (NX (ART der) (NE DVU)))) (VC (VXINF (VVPP benutzt)) (VXFIN (VAFIN werden)))))) (\$\. \.))"/>
+<markable id="markable_179" span="word_42..word_53" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (PDAT Diese) (NN Verfügung))) (LK (VXFIN (VVFIN sah))) (MF (NX (ART das) (NN VG)) (NX (KOKOM als) (NX (ADJX (ADJA unzulässige)) (NN Behinderung)) (NX (ART der) (NN Wahlwerbung)))) (VC (PTKVZ an))) (\$\. \.))"/>
+<markable id="markable_196" span="word_54" mmax_level="parse" orderid="6" tag="(Start (NX (NE taz)))"/>
+</markables>

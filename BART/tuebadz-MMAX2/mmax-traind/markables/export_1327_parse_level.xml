@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Abstraktes)))"/>
+<markable id="markable_38" span="word_2..word_13" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (NN Malerei)) (\$\, \,) (NX (NN Zeichnungen)) (KON und) (NX (NN Grafiken)))) (LK (VXFIN (VVFIN zeigt))) (MF (NX (NE Peter) (NE Pollaert)) (PX (APPR in) (NX (ART der) (NN OM-Galerie))))) (\$\. \.))"/>
+<markable id="markable_74" span="word_14..word_23" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (ART Die) (NN Arbeiten))) (LK (VXFIN (VAFIN sind))) (FKOORD (MF (ADJX (ADJD abstrakt))) (\$\, \,) (MF (PX (APPR in) (NX (ART den) (NN Grundfarben))) (ADJX (ADJD gehalten))))) (\$\. \.))"/>
+<markable id="markable_117" span="word_24..word_36" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Die) (NN Zeichnungen))) (LK (VXFIN (VVFIN nehmen))) (MF (NX (NX (NN Bezug)) (PX (APPR auf) (NX (ART die) (ADJX (PX (APPR mit) (NX (NX (NN Öl)) (KON und) (NX (NN Acryl)))) (ADJA gemalten)) (NN Bilder)))))) (\$\. \.))"/>
+<markable id="markable_171" span="word_37..word_53" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (PX (APPRART Zur) (NX (NN Auflockerung)))) (LK (VXFIN (VAFIN werden))) (MF (PX (APPR bei) (NX (ART der) (NN Vernissage))) (PX (APPRART am) (NX (ADJX (ADJA 11\.)) (NN Juli))) (NX (NX (ADJX (ADJA alte)) (NN DEFA-Kurzfilme)) (PX (APPR aus) (NX (ART den) (ADJX (ADJA 60er)) (NN Jahren))))) (VC (VXINF (VVPP gezeigt)))) (\$\. \.))"/>
+<markable id="markable_231" span="word_54..word_71" mmax_level="parse" orderid="6" tag="(Start (SIMPX (VF (NX (ART Die) (NN Ausstellung))) (LK (VXFIN (VVFIN läuft))) (MF (PX (APPR bis) (PX (APPRART zum) (NX (ADJX (ADJA 6\.)) (NN August)))) (PX (APPR in) (NX (NX (NX (ART der) (NN OM-Galerie)) (\$\, \,) (NX (NX (ADJX (ADJA Stargarder)) (NN Straße)) (NX (CARD 13)))) (PX (APPR in) (NX (ADJX (ADJA Prenzlauer)) (NN Berg))))))) (\$\. \.))"/>
+<markable id="markable_254" span="word_72" mmax_level="parse" orderid="7" tag="(Start (NX (NE taz)))"/>
+</markables>

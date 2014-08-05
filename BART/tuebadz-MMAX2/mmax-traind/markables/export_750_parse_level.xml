@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_15" span="word_1..word_5" mmax_level="parse" orderid="1" tag="(Start (NX (ADJX (ADJA Deutsche)) (NN Bank)) (\$\. \:) (SIMPX (MF (NX (NN Filialleiter))) (VC (VXINF (VVPP angeklagt)))))"/>
+<markable id="markable_70" span="word_6..word_25" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (PX (APPR Seit) (ADVX (ADV gestern)))) (LK (VXFIN (VVFIN sitzt))) (MF (NX (NX (ART ein) (ADJX (ADJA ehemaliger)) (NN Mitarbeiter)) (NX (ART der) (ADJX (ADJA Deutschen)) (NN Bank))) (PX (APPR wegen) (NX (NX (NN Millionenbetruges)) (PX (APPR an) (NX (ADJX (CARD drei)) (NN Kunden))))) (PX (APPR auf) (NX (NX (ART der) (NN Anklagebank)) (NX (ART des) (NN Landgerichts)))))) (\$\. \.))"/>
+<markable id="markable_126" span="word_26..word_40" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (APPR Innerhalb) (PX (APPR von) (NX (ADJX (CARD neun)) (NN Monaten))))) (LK (VXFIN (VMFIN soll))) (MF (NX (PPER er)) (NX (CARD 1998)) (NX (KOKOM als) (NN Filialleiter)) (NX (NX (ADJX (CARD 5\,6)) (NN Millionen)) (NX (NN Mark)))) (VC (VXINF (VVPP erschwindelt)) (VXINF (VAINF haben)))) (\$\. \.))"/>
+<markable id="markable_195" span="word_41..word_63" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (NX (ADVX (ADV Allein)) (ADJX (CARD 4\,9)) (NN Millionen)) (NX (NN Mark)))) (LK (VXFIN (VMFIN soll))) (MF (NX (PPER er)) (PX (APPR von) (NX (NX (ART dem) (ADJX (ADJA früheren)) (NN Inhaber)) (NX (ART eines) (NN Autohauses))))) (VC (VXINF (VVPP erhalten)) (VXINF (VAINF haben))) (\$\, \,) (NF (SIMPX (C (KOUI um)) (MF (ADJX (ADJD angeblich)) (NX (ART das) (NN Geld)) (ADJX (ADJD hochverzinst))) (VC (VXINF (PTKZU zu) (VVINF vermehren)))))) (\$\. \.))"/>
+<markable id="markable_223" span="word_64" mmax_level="parse" orderid="5" tag="(Start (NX (NE dpa)))"/>
+</markables>

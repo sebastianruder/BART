@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (SIMPX (MF (NX (NN Diäten))) (VC (VXINF (VVPP gespendet)))))"/>
+<markable id="markable_70" span="word_3..word_27" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (ART Die) (ADJX (ADJA grünen)) (NN Bürgerschaftsabgeordneten))) (LK (VXFIN (VMFIN wollen))) (MF (NX (NX (ADJX (CARD 500)) (NN Mark)) (PX (APPR pro) (NX (NN Kopf)))) (PX (APPR für) (NX (NX (NN Flüchtlingszentren)) (PX (APPR in) (NX (NX (NE Tuzla)) (KON und) (NX (NE Lukavac))))))) (VC (VXINF (VVINF spenden))) (\$-LRB- -) (NF (PX (APPR aus) (NX (ART den) (ADJX (PX (APPR in) (NX (ART der) (ADJX (ADJA vergangenen)) (NN Woche))) (ADJA erhöhten)) (NN Diäten))))) (\$\. \.))"/>
+<markable id="markable_141" span="word_28..word_45" mmax_level="parse" orderid="3" tag="(Start (SIMPX (SIMPX (VF (NX (NE Ralf) (NE Fücks))) (LK (VXFIN (VAFIN wird))) (MF (NX (ART das) (NN Geld)) (ADVX (ADV noch)) (NX (PDAT diese) (NN Woche)) (PX (APPR in) (NX (NE Tuzla)))) (VC (VXINF (VVPP übergeben)))) (\$\, \,) (SIMPX (VF (ADVX (ADV dort))) (LK (VXFIN (VVFIN trifft))) (MF (NX (PRF sich)) (NX (ART die) (NE Helsinki-City-Association))))) (\$\. \.))"/>
+<markable id="markable_164" span="word_46" mmax_level="parse" orderid="4" tag="(Start (NX (NE taz)))"/>
+</markables>

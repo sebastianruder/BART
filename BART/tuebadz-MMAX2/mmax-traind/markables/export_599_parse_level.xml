@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_4" span="word_1" mmax_level="parse" orderid="1" tag="(Start (ADVX (ADV beiseite)))"/>
+<markable id="markable_16" span="word_2..word_4" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NN Künstler)) (PX (APPR für) (NX (NE Kosovo)))))"/>
+<markable id="markable_70" span="word_5..word_25" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (APPR Zugunsten) (NX (NX (ART der) (NN Flüchtlinge)) (PX (APPR aus) (NX (ART dem) (NE Kosovo)))))) (LK (VXFIN (VVFIN veranstaltet))) (MF (NX (ART der) (NN Tränenpalast)) (ADVX (ADVX (ADVX (ADV heute)) (ADVX (ADV abend))) (PX (APPR ab) (NX (ADJX (CARD 20)) (NN Uhr)))) (NX (NX (ART ein) (NN Kleinkunstprogramm)) (PX (APPR mit) (NX (NX (NN Kabarett)) (KON und) (NX (NN Chanson))))))) (\$\. \.))"/>
+<markable id="markable_150" span="word_26..word_51" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (APPR Mit) (PX (PROP dabei)))) (LK (VXFIN (VAFIN sind))) (MF (NX (NX (NE Tanja) (NE Ries)) (\$\, \,) (NX (NX (NE Schall)) (KON \&amp;) (NX (NE Hauch))) (\$\, \,) (NX (ART der) (ADJX (ADJA blonde)) (NE Emil)) (\$\, \,) (NX (NE Corinne) (NE Douarre)) (\$\, \,) (NX (NX (NE Pia)) (KON \&amp;) (NX (NE Coco))) (KON und) (NX (ADVX (ADV noch)) (NX (PIAT einige) (PIS andere)) (ADVX (ADV mehr)))))) (\$\. \.))"/>
+<markable id="markable_216" span="word_52..word_68" mmax_level="parse" orderid="5" tag='(Start (SIMPX (SIMPX (VF (NX (ART Die) (NN Karten))) (LK (VXFIN (VVFIN kosten))) (MF (NX (ADJX (CARD 30)) (NN Mark)))) (\$\, \,) (SIMPX (VF (NX (ART der) (NN Reinerlös))) (LK (VXFIN (VVFIN geht))) (MF (PX (APPR an) (NX (NX (ART die) (NN Hilfsorganisation)) (\$-LRB- \") (NX (NE Cap) (NE Anamur))))))) (\$-LRB- \") (\$\. \.))'/>
+</markables>

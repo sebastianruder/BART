@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_9" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (NX (PIAT Mehr) (ADJX (ADJA Letzte)) (NN Fragen)))"/>
+<markable id="markable_43" span="word_4..word_16" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (PX (APPR In) (NX (PDAT diesem) (NN Jahrhundert)))) (LK (VXFIN (VVFIN gab))) (MF (NX (PPER es)) (NX (ART die) (ADJX (ADJX (ADJA Siebziger)) (\$\, \,) (ADJX (ADJA Achtziger)) (KON und) (ADJX (ADJA Neunziger))) (NN Jahre)))) (\$\. \.))"/>
+<markable id="markable_82" span="word_17..word_27" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (ADJX (PWAV Wie))) (LK (VXFIN (VAFIN werden))) (MF (NX (NX (ART die) (ADJX (ADJA ersten)) (ADJX (CARD zehn)) (NN Jahre)) (NX (ART des) (ADJX (ADJA kommenden)) (NN Jahrhunderts)))) (VC (VXINF (VVINF heißen)))) (\$\. \?))"/>
+<markable id="markable_107" span="word_28..word_32" mmax_level="parse" orderid="4" tag="(Start (NX (NE Rainer) (NE Emil) (NE Hickel)) (\$\, \,) (NX (NE Düsseldorf)))"/>
+<markable id="markable_200" span="word_33..word_69" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (PX (PWAV Warum))) (LK (VXFIN (VVFIN gilt))) (FKOORD (MF (PX (APPRART im) (NX (NN Abendland))) (PX (APPR in) (NX (ART der) (NN Politik))) (NX (NX (NX (ART der) (NN Übergang)) (PX (APPR von) (NX (ART der) (NN Alleinherrschaft)))) (PX (APPRART zur) (NX (NX (NN Teilung)) (NX (ART der) (NN Herrschaft))))) (NX (KOKOM als) (NN Fortschritt))) (\$\, \,) (MF (PX (APPR in) (NX (ART der) (NN Religion))) (NX (NX (ART der) (NN Übergang)) (PX (PX (APPR von) (NX (NX (ART der) (NN Herrschaft)) (NX (PIDAT vieler) (NN Götter)))) (PX (APPRART zur) (NX (NX (NN Alleinherrschaft)) (NX (ART eines) (ADJX (ADJA einzigen)) (NN Gottes)))))) (ADVX (ADV aber)) (ADVX (ADV auch))))) (\$\. \?))"/>
+<markable id="markable_249" span="word_70..word_73" mmax_level="parse" orderid="6" tag="(Start (NX (NE Uwe) (NE Zilch)) (\$\, \,) (NX (NE Ahrensburg)))"/>
+</markables>

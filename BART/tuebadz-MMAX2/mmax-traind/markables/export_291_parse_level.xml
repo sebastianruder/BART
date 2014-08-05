@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_8" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (PX (APPR Über) (NX (NE Vancouver))))"/>
+<markable id="markable_78" span="word_3..word_27" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NN Schwimmen)) (PX (APPR über) (NX (NX (ART den) (NN Straßen)) (PX (APPR von) (NX (NE Vancouver)))))) (\$\. \:) (SIMPX (VF (NX (ART Ein) (NN Mann))) (LK (VXFIN (VVFIN zieht))) (MF (NX (PPOSAT seine) (NN Bahnen)) (PX (APPRART im) (NX (NX (ADJX (ADJA gläsernen)) (NN Pool)) (NX (PPOSAT seines) (NN Appartementhauses))))) (\$\, \,) (NF (ADJX (ADJX (ADVX (ADV weithin)) (ADJD sichtbar)) (PX (APPR in) (NX (ART der) (ADJX (ADJA gesamten)) (NN Innenstadt)))))) (\$\. \.))"/>
+<markable id="markable_132" span="word_28..word_38" mmax_level="parse" orderid="3" tag="(Start (SIMPX (PARORD (KON Denn)) (VF (NX (ART der) (NN Luxus-Pool))) (LK (VXFIN (VVFIN ragt))) (MF (PX (APPR über) (NX (NX (ART den) (NN Rest)) (NX (ART des) (NN Gebäudes))))) (VC (PTKVZ hinaus))) (\$\. \.))"/>
+<markable id="markable_153" span="word_39..word_41" mmax_level="parse" orderid="4" tag="(Start (NX (NN Foto)) (\$\. \:) (NX (NE Mike)))"/>
+<markable id="markable_166" span="word_42..word_44" mmax_level="parse" orderid="5" tag="(Start (NX (NE Blake)) (\$-LRB- \/) (NX (NE Reuters)))"/>
+</markables>

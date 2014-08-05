@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN FACHHOCHSCHULEN)))"/>
+<markable id="markable_19" span="word_2..word_5" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NN Kommission))) (LK (VXFIN (VVFIN empfiehlt))) (MF (NX (PIAT mehr) (NN Studienplätze)))))"/>
+<markable id="markable_30" span="word_6..word_7" mmax_level="parse" orderid="3" tag="(Start (NX (NE Berlin)) (\$\. \.))"/>
+<markable id="markable_80" span="word_8..word_28" mmax_level="parse" orderid="4" tag="(Start (SIMPX (SIMPX (VF (NX (NX (ART Die) (NN Anzahl)) (NX (NX (ART der) (NN Studienplätze)) (PX (APPR an) (NX (ART den) (NN Fachhochschulen)))))) (LK (VXFIN (VMFIN sollte))) (MF (PX (PX (APPR von) (NX (ADJX (ADJD nominell)) (ADJX (CARD 17\.200)))) (PX (APPR auf) (NX (ADVX (ADV mindestens)) (ADJX (CARD 25\.000)))))) (VC (VXINF (VVPP erhöht)))) (KON und) (SIMPX (VF (NX (ART das) (NN Fächerspektrum))) (VC (VXINF (VVPP erweitert)) (VXINF (VAINF werden))))) (\$\. \.))"/>
+<markable id="markable_131" span="word_29..word_39" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (PDAT Diese) (NN Empfehlung))) (LK (VXFIN (VVFIN sprach))) (MF (NX (ART die) (NN Landeshochschulstrukturkommission)) (PX (APPR auf) (NX (PPOSAT ihrer) (ADJX (ADJA neunten)) (NN Sitzung)))) (VC (PTKVZ aus))) (\$\. \.))"/>
+<markable id="markable_155" span="word_40..word_44" mmax_level="parse" orderid="6" tag="(Start (SIMPX (VF (NX (NN Fachhochschulen))) (LK (VXFIN (VMFIN sollten))) (VC (VXINF (VVPP zusammengeschlossen)) (VXINF (VAINF werden)))) (\$\. \.))"/>
+<markable id="markable_194" span="word_45..word_58" mmax_level="parse" orderid="7" tag="(Start (SIMPX (VF (PX (APPR In) (NX (PIDAT allen) (NN Fachhochschulstudiengängen)))) (LK (VXFIN (VMFIN solle))) (MF (NX (ART die) (NN Berufsfähigkeit)) (PX (APPR nach) (NX (NX (ADJX (CARD acht)) (NN Semestern)) (PX (APPR einschließlich) (NX (NN Prüfungszeit)))))) (VC (VXINF (VVPP erreicht)) (VXINF (VAINF werden)))) (\$\. \.))"/>
+</markables>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (NX (PIAT Keine) (NN Flüchtlinge)))"/>
+<markable id="markable_80" span="word_3..word_32" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (NX (NX (NE Schleswig-Holsteins)) (NN Innenminister)) (NX (NE Ekkehard) (NE Wienholtz))) (\$-LRB- -LRB-) (NX (NE SPD)))) (\$-LRB- -RRB-) (LK (VXFIN (VAFIN hat))) (VC (VXINF (VVPP bedauert))) (\$\, \,) (NF (SIMPX (C (KOUS daß)) (MF (NX (ART das) (NN Land)) (ADVX (ADV erneut)) (PX (APPR mit) (NX (ART dem) (NN Versuch)))) (VC (VXINF (VVPP gescheitert)) (VXFIN (VAFIN ist))) (\$\, \,) (NF (SIMPX (MF (NX (NX (ART eine) (ADJX (ADJA größere)) (NN Anzahl)) (PX (APPR von) (NX (NX (NN Flüchtlingen)) (PX (APPR aus) (NX (ART dem) (NE Kosovo))))))) (VC (VXINF (VVIZU aufzunehmen)))))))) (\$\. \.))"/>
+<markable id="markable_163" span="word_33..word_54" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NX (ART Die) (NN Konferenz)) (NX (NX (ART der) (NN Innenminister)) (NX (NX (ART des) (NN Bundes)) (KON und) (NX (ART der) (NN Länder)))))) (LK (VXFIN (VAFIN hatte))) (MF (NX (PRF sich)) (PX (APPRART am) (NX (NN Freitag))) (ADVX (ADV lediglich)) (PX (APPR auf) (NX (NX (ART die) (ADJX (ADJA zusätzliche)) (NN Aufnahme)) (PX (APPR von) (NX (NN Härtefällen)))))) (VC (VXINF (VVPP geeinigt)))) (\$\. \.))"/>
+</markables>

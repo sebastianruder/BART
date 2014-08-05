@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_6" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (SIMPX (MF (PX (PROP Trotzdem))) (VC (VXINF (VVINF beten)))))"/>
+<markable id="markable_42" span="word_3..word_18" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (ART Der) (ADJX (ADJA diesjährige)) (NX (NX (TRUNC Buß-)) (KON und) (NX (NN Bettag)))) (\$\, \,) (NX (ART der) (ADJX (ADJA 22\.)) (NN November)))) (\$\, \,) (LK (VXFIN (VAFIN ist))) (MF (NX (NX (PIAT kein) (ADJX (ADJA arbeitsfreier)) (NN Feiertag)) (ADVX (ADV mehr))))) (\$\. \.))"/>
+<markable id="markable_75" span="word_19..word_24" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (PPER Er))) (LK (VXFIN (VAFIN wurde))) (MF (NX (ART der) (NN Pflegeversicherung))) (VC (VXINF (VVPP geopfert)))) (\$\. \.))"/>
+<markable id="markable_137" span="word_25..word_48" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (ADVX (ADV Dennoch))) (LK (VXFIN (VVFIN fordert))) (MF (NX (NX (NN Landessuperintendent)) (NX (NX (NE Volker) (NE Jürgens)) (\$-LRB- -LRB-) (NX (NE Aurich)))) (\$-LRB- -RRB-) (NX (ART die) (NN Gläubigen)) (PX (PROP dazu))) (VC (PTKVZ auf)) (\$\, \,) (NF (SIMPX (MF (PX (APPR an) (NX (PDAT diesem) (ADJX (ADJA kirchlichen)) (NN Feiertag))) (ADVX (ADV vormittags)) (PX (APPR in) (NX (ART die) (NN Kirche)))) (VC (VXINF (PTKZU zu) (VVINF gehen)))))) (\$\. \.))"/>
+<markable id="markable_198" span="word_49..word_62" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (NE Jürgens))) (LK (VXFIN (VVFIN kritisiert))) (MF (NX (NX (NN Kirchenvorstände)) (KON und) (NX (NN Pfarrämter)))) (\$\, \,) (NF (R-SIMPX (C (NX (PRELS die))) (MF (NX (ART die) (NN Gottesdienste)) (PX (APPR auf) (NX (ART den) (NN Abend)))) (VC (VXFIN (VVFIN verlegen)))))) (\$\. \.))"/>
+<markable id="markable_235" span="word_63..word_72" mmax_level="parse" orderid="6" tag='(Start (SIMPX (VF (NX (PDS Das))) (LK (VXFIN (VAFIN sei))) (\$-LRB- \") (MF (NX (NX (ADJX (ADJA vorauseilender)) (NN Gehorsam)) (PX (APPR gegenüber) (NX (ART dem) (NN Staat)))))) (\$-LRB- \") (\$\. \.))'/>
+<markable id="markable_250" span="word_73" mmax_level="parse" orderid="7" tag="(Start (NX (NE taz)))"/>
+</markables>

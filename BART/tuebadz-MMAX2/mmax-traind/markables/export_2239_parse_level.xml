@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_6" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN CSU-Affäre)))"/>
+<markable id="markable_15" span="word_2..word_3" mmax_level="parse" orderid="2" tag="(Start (SIMPX (MF (NX (NN Anklage))) (VC (VXINF (VVPP erhoben)))))"/>
+<markable id="markable_75" span="word_4..word_26" mmax_level="parse" orderid="3" tag='(Start (NX (NE München)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (PX (APPR In) (NX (ART der) (ADJX (ADJA Münchner)) (\$-LRB- \") (NN Käseschachtel-Affäre)))) (\$-LRB- \") (LK (VXFIN (VAFIN hat))) (MF (NX (ART die) (NN Staatsanwaltschaft)) (NX (NX (NN Anklage)) (PX (APPR gegen) (NX (NX (ART den) (ADJX (ADJA zurückgetretenen)) (NN Chef)) (NX (ART der) (NN Rathaus-CSU)))))) (VC (VXINF (VVPP erhoben)))) (\$\. \.))'/>
+<markable id="markable_127" span="word_27..word_37" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (NE Bletschacher))) (LK (VXFIN (VAFIN wird))) (MF (NX (PRF sich)) (PX (APPR wegen) (NX (NX (NN Untreue)) (PX (APPR in) (NX (ADJX (CARD 86)) (NN Einzelfällen)))))) (VC (VXINF (VVINF verantworten)) (VXINF (VMINF müssen)))) (\$\. \.))"/>
+<markable id="markable_195" span="word_38..word_61" mmax_level="parse" orderid="5" tag='(Start (SIMPX (VF (PX (APPR Seit) (NX (CARD 1990)))) (LK (VXFIN (VMFIN soll))) (MF (NX (NX (PPER er)) (NX (KOKOM als) (NX (NN Vorsitzender)) (NX (NX (ART des) (NN Vereins)) (\$-LRB- \") (NX (NX (ADJX (ADJA Stille)) (NN Hilfe)) (NX (NE Südtirol)))))) (\$-LRB- \") (NX (NX (ADVX (ADV rund)) (ADJX (CARD 2\,5)) (NN Millionen)) (NX (NN Mark))) (PX (APPR in) (NX (PPOSAT seine) (ADJX (ADJA marode)) (NN Verpackungsfabrik)))) (VC (VXINF (VVPP gesteckt)) (VXINF (VAINF haben)))) (\$\. \.))'/>
+</markables>

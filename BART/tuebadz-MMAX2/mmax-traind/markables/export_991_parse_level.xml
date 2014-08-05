@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NN BSAG-Umleitungen)) (PX (APPR wegen) (NX (NN Demos)))))"/>
+<markable id="markable_51" span="word_4..word_19" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (PX (APPR Wegen) (NX (NN Demonstrationen)))) (LK (VXFIN (VAFIN ist))) (MF (PX (APPRART am) (NX (NN Samstag))) (PX (APPRART im) (NX (ADJX (ADJA gesamten)) (NN Stadtgebiet))) (PX (APPR mit) (NX (NX (NN Verspätungen)) (KON und) (NX (ADJX (ADJA kurzfristigen)) (NN Umleitungen))))) (VC (VXINF (PTKZU zu) (VVINF rechnen)))) (\$\. \.))"/>
+<markable id="markable_80" span="word_20..word_24" mmax_level="parse" orderid="3" tag="(Start (SIMPX (MF (ADVX (ADV Bitte)) (PX (APPR auf) (NX (NN Hinweise)))) (VC (VXINF (VVINF achten)))) (\$\. \.))"/>
+<markable id="markable_90" span="word_25" mmax_level="parse" orderid="4" tag="(Start (NX (NE taz)))"/>
+</markables>

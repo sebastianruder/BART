@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Frankreich)))"/>
+<markable id="markable_11" span="word_2" mmax_level="parse" orderid="2" tag="(Start (NX (NN Anti-Atom-Demo)))"/>
+<markable id="markable_78" span="word_3..word_29" mmax_level="parse" orderid="3" tag="(Start (NX (NE Le) (NE Fret)) (\$-LRB- -LRB-) (NX (NE AFP)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (PIAT Mehrere) (ADJX (CARD tausend)) (NN AtomtestgegnerInnen))) (LK (VXFIN (VAFIN haben))) (MF (ADVX (ADV gestern)) (PX (APPR in) (NX (NX (ART der) (ADJX (ADJA bretonischen)) (NN Hafenstadt)) (NX (NE Le) (NE Fret)))) (PX (APPR gegen) (NX (NX (ART die) (NN Fortsetzung)) (NX (NX (ART der) (ADJX (ADJA französischen)) (NN Atombombenversuche)) (PX (APPRART im) (NX (NN Südpazifik))))))) (VC (VXINF (VVPP demonstriert)))) (\$\. \.))"/>
+<markable id="markable_137" span="word_30..word_41" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Die) (NN DemonstrantInnen))) (LK (VXFIN (VVFIN versammelten))) (MF (NX (PRF sich)) (PX (APPR in) (NX (NX (NN Nähe)) (NX (NX (ART des) (NN Stützpunktes)) (PX (APPR für) (NX (ADJX (ADJA französische)) (NN Atom-U-Boote)))))))) (\$\. \.))"/>
+<markable id="markable_191" span="word_42..word_60" mmax_level="parse" orderid="5" tag='(Start (SIMPX (VF (PX (PROP Dabei))) (LK (VXFIN (VAFIN waren))) (MF (NX (NX (NN Plakate)) (ADVX (KOKOM wie) (\$-LRB- \") (ADVX (NX (NX (NN Nein)) (PX (APPR zu) (NX (NN Atomversuchen)))) (\$-LRB- \") (KON und) (\$-LRB- \") (NX (NX (NE Chirac)) (\$-LRB- -) (NX (NX (NN Kriegs-Nobelpreis)) (NX (CARD 1995)))))))) (\$-LRB- \") (VC (VXINF (PTKZU zu) (VVINF sehen)))) (\$\. \.))'/>
+</markables>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_15" span="word_1..word_5" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NX (NN DÜRRE)) (KON UND) (NX (NN HUNGER))) (PX (APPR IN) (NX (NE MOSAMBIK)))))"/>
+<markable id="markable_31" span="word_6..word_9" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (ADJX (CARD Zehn)) (NN Millionen)) (NX (NN Menschen)))) (LK (VXFIN (VVFIN warten)))))"/>
+<markable id="markable_77" span="word_10..word_26" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NX (ART Die) (NN Jahrhundertdürre)) (PX (APPRART im) (NX (ADJX (ADJA südlichen)) (NE Afrika))))) (LK (VXFIN (VVFIN verschlimmert))) (MF (NX (NX (ART die) (NN Lage)) (PX (APPR in) (NX (ART dem) (ADJX (PX (APPR von) (NX (NX (ADJX (CARD sechzehn)) (NN Jahren)) (NX (NN Krieg)))) (ADJA zerstörten)) (NE Mosambik)))))) (\$\. \.))"/>
+<markable id="markable_123" span="word_27..word_37" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (APPR An) (NX (NX (ART der) (NN Straße)) (PX (APPR nach) (NX (NE Simbabwe)))))) (LK (VXFIN (VVFIN warten))) (MF (ADVX (ADV bereits)) (NX (NN Zehntausende)) (PX (APPR auf) (NX (NN Hilfe))))) (\$\. \.))"/>
+<markable id="markable_152" span="word_38..word_45" mmax_level="parse" orderid="5" tag="(Start (SIMPX (KOORD (KON Doch)) (VF (NX (PDS die))) (LK (VXFIN (VVFIN kommt))) (MF (ADVX (PTKNEG nicht)))) (\$-LRB- -) (ADVX (ADVX (ADV noch)) (PTKNEG nicht)) (\$\. \.))"/>
+<markable id="markable_174" span="word_46..word_50" mmax_level="parse" orderid="6" tag="(Start (NX (NX (ART Eine) (NN Reportage)) (PX (APPR auf) (NX (NX (NN SEITE)) (NX (CARD 7))))))"/>
+</markables>

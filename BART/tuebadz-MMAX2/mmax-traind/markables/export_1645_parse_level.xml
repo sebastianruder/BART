@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_13" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (SIMPX (VF (NX (NE SPD-Nord))) (LK (VXFIN (VMFIN will))) (MF (NX (ADJX (ADJA besseren)) (NN ÖPNV)))))"/>
+<markable id="markable_43" span="word_5..word_14" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (NN Verbesserungen)) (PX (APPRART im) (NX (ADJX (ADJA Bremen-Norder)) (NN ÖPNV))))) (LK (VXFIN (VAFIN hat))) (MF (ADVX (ADV gestern)) (NX (ART die) (NE SPD))) (VC (VXINF (VVPP gefordert)))) (\$\. \.))"/>
+<markable id="markable_86" span="word_15..word_28" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (APPR Auf) (NX (ART einer) (NN Pressekonferenz)))) (LK (VXFIN (VVFIN verlangte))) (MF (NX (NX (ART der) (NN UB-Nord-Vorsitzende)) (NX (NE Detmar) (NE Leo)))) (\$\, \,) (NF (SIMPX (MF (NX (ADJX (ADJA unstrittige)) (NN Vorhaben)) (ADVX (ADV jetzt))) (VC (VXINF (VVIZU umzusetzen)))))) (\$\. \.))"/>
+<markable id="markable_168" span="word_29..word_56" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (PROP Dazu))) (LK (VXFIN (VVFIN gehört))) (MF (PX (APPR für) (NX (ART die) (NE SPD))) (NX (NX (NX (ART eine) (NN Verbesserung)) (NX (NX (ART der) (NN Aufenthaltsqualität)) (PX (APPR an) (NX (ART den) (NN Haltestellen))))) (\$\, \,) (NX (NX (ART ein) (NN Zubringerbussystem)) (PX (APPR zu) (NX (ART den) (NN Hauptlinien)))) (\$\, \,) (NX (NX (ART die) (NN Funksteuerung)) (PX (APPR von) (NX (NN Ampelanlagen)))) (KON und) (NX (NX (NN Parkverbote)) (PX (APPR an) (NX (NN ÖPNV-Strecken))))))) (\$\. \.))"/>
+<markable id="markable_201" span="word_57" mmax_level="parse" orderid="5" tag="(Start (NX (NE taz)))"/>
+</markables>

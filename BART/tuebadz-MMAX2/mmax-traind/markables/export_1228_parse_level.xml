@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE PALÄSTINA)))"/>
+<markable id="markable_11" span="word_2" mmax_level="parse" orderid="2" tag="(Start (NX (NN EG-Finanzhilfe)))"/>
+<markable id="markable_81" span="word_3..word_30" mmax_level="parse" orderid="3" tag="(Start (NX (NE Jerusalem)) (\$-LRB- -LRB-) (NX (NE ap)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (ART Die) (ADJX (PX (APPR in) (NX (ART den) (ADJX (PX (APPR von) (NX (NE Isreal))) (ADJA besetzten)) (NN Gebieten))) (ADJA lebenden)) (NN Palästinenser))) (LK (VXFIN (VMFIN sollen))) (MF (PX (APPR von) (NX (ART der) (NE EG))) (NX (NX (ADJX (CARD 35)) (NN Millionen)) (NX (NN Dollar))) (PX (APPR für) (NX (NX (ART den) (NN Bau)) (PX (APPR von) (NX (NN Wohnungen)))))) (VC (VXINF (VVINF erhalten)))) (\$\. \.))"/>
+<markable id="markable_146" span="word_31..word_44" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Ein) (ADJX (ADJA entsprechendes)) (NN Abkommen))) (LK (VXFIN (VAFIN wurde))) (MF (PX (APPRART am) (NX (NN Mittwoch))) (PX (APPR von) (NX (NX (NN Vertretern)) (NX (ART der) (NE EG)))) (PX (APPR in) (NX (NE Jerusalem)))) (VC (VXINF (VVPP unterzeichnet)))) (\$\. \.))"/>
+</markables>

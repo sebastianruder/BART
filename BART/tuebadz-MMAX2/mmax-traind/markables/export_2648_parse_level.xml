@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_13" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (NX (NN Betr\.)) (\$\. \:) (NX (NE Freimut) (NE Duve)))"/>
+<markable id="markable_25" span="word_5..word_6" mmax_level="parse" orderid="2" tag="(Start (NX (NE Freimut) (NE Duve)))"/>
+<markable id="markable_68" span="word_7..word_23" mmax_level="parse" orderid="3" tag="(Start (NX (NX (NX (NN Bundestagsabgeordneter)) (NX (ART der) (NE SPD))) (KON und) (NX (NX (NN Vorsitzender)) (NX (NX (ART des) (NN Menschenrechtsausschusses)) (NX (NX (NX (ART der) (NN Organisation)) (PX (APPR für) (NX (NX (NN Sicherheit)) (KON und) (NX (NN Zusammenarbeit))))) (\$-LRB- -LRB-) (NX (NE OSZE)))))) (\$-LRB- -RRB-) (\$\. \.))"/>
+<markable id="markable_134" span="word_24..word_44" mmax_level="parse" orderid="4" tag='(Start (SIMPX (VF (NX (PPER Er))) (LK (VXFIN (VVFIN schreibt))) (MF (ADJX (ADJD regelmäßig)) (PX (APPR für) (NX (ART die) (NE taz))))) (\$\, \,) (ADVX (ADV zuletzt)) (\$\. \:) (\$-LRB- \") (NX (NX (PIAT Kein) (NN Frieden)) (PX (APPR durch) (NX (NN Apartheid)))) (\$-LRB- \") (\$-LRB- -LRB-) (NX (NX (ADJX (ADJA 5\.)) (ADJX (ADJA 9\.))) (NX (CARD 1995))) (\$-LRB- -RRB-) (\$\. \.))'/>
+</markables>

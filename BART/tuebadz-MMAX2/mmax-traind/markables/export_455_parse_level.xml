@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_18" span="word_1..word_6" mmax_level="parse" orderid="1" tag="(Start (SIMPX (VF (NX (NN Jugendlicher))) (LK (VXFIN (VVFIN sticht))) (MF (PX (APPR auf) (NX (ADJX (CARD fünf)) (NN Jugendliche)))) (VC (PTKVZ ein))))"/>
+<markable id="markable_73" span="word_7..word_25" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (ART Ein) (NN 18jähriger))) (LK (VXFIN (VAFIN hat))) (MF (PX (APPR in) (NX (NX (ART der) (NN Nacht)) (PX (APPRART zum) (NX (NN Samstag))))) (PX (APPR in) (NX (NE Tempelhof))) (NX (ADJX (CARD fünf)) (NN Jugendliche)) (PX (APPR durch) (NX (NN Messerstiche))) (PX (APPRART zum) (NX (NN Teil))) (ADJX (ADJD schwer))) (VC (VXINF (VVPP verletzt)))) (\$\. \.))"/>
+<markable id="markable_115" span="word_26..word_34" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (APPR Nach) (NX (NX (NN Angaben)) (NX (ART der) (NN Polizei))))) (LK (VXFIN (VAFIN war))) (MF (NX (ART ein) (NN Streit))) (VC (VXINF (VVPP vorausgegangen)))) (\$\. \.))"/>
+<markable id="markable_151" span="word_35..word_45" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (PIDAT Alle) (ADJX (CARD fünf)) (NN Verletzten))) (LK (VXFIN (VAFIN hätten))) (MF (PX (APPR in) (NX (ART ein) (NN Krankenhaus)))) (VC (VXINF (VVPP gebracht)) (VXINF (VAINF werden)) (VXINF (VMINF müssen)))) (\$\. \.))"/>
+<markable id="markable_185" span="word_46..word_54" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (ART Der) (NN Täter))) (LK (VXFIN (VAFIN sei))) (MF (ADVX (ADV noch)) (PX (APPRART am) (NX (NN Tatort)))) (VC (VXINF (VVPP festgenommen)) (VXINF (VAPP worden)))) (\$\. \.))"/>
+<markable id="markable_226" span="word_55..word_67" mmax_level="parse" orderid="6" tag="(Start (SIMPX (VF (NX (PPER Er))) (LK (VXFIN (VAFIN sei))) (MF (PX (APPR bei) (NX (ART der) (NN Polizei))) (ADVX (ADV bereits)) (PX (APPR wegen) (NX (PIAT mehrerer) (ADJX (ADJA gefährlicher)) (NN Körperverletzungen))) (ADJX (ADJD bekannt))) (VC (VXINF (VAPP gewesen)))) (\$\. \.))"/>
+<markable id="markable_244" span="word_68" mmax_level="parse" orderid="7" tag="(Start (NX (NE dpa)))"/>
+</markables>

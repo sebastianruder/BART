@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Judo)))"/>
+<markable id="markable_11" span="word_2" mmax_level="parse" orderid="2" tag="(Start (NX (NN Wurfglück)))"/>
+<markable id="markable_86" span="word_3..word_32" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (ART Die) (ADJX (ADJA deutschen)) (NN Männer))) (FKOORD (FKONJ (LK (VXFIN (VAFIN hatten))) (MF (PX (APPR bei) (NX (ART den) (ADJX (ADJA 42\.)) (NN Mannschafts-Europameisterschaften))) (NX (ART die) (NN Konkurrenz)) (ADJX (ADJD fest))) (NF (PX (APPRART im) (NX (NN Griff))))) (KON und) (FKONJ (LK (VXFIN (VVFIN verteidigten))) (MF (PX (APPR vor) (NX (ADJX (CARD 3\.000)) (NN Zuschauern))) (PX (APPRART im) (NX (ADJX (ADJA slowakischen)) (NE Trnava))) (PX (APPR durch) (NX (NX (ART einen) (NN 4\:3-Finalsieg)) (PX (APPR gegen) (NX (NE Rußland))))) (ADJX (ADJD erfolgreich)) (NX (PPOSAT ihren) (NN Titel)))))) (\$\. \.))"/>
+<markable id="markable_143" span="word_33..word_43" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (APPRART Am) (NX (NN Vortag)))) (LK (VXFIN (VAFIN hatten))) (MF (NX (ART die) (ADJX (ADJA deutschen)) (NN Frauen)) (NX (ART den) (ADJX (ADJA dritten)) (NN Platz))) (VC (VXINF (VVPP belegt)))) (\$\. \.))"/>
+<markable id="markable_181" span="word_44..word_54" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (NN Europameister))) (LK (VXFIN (VAFIN wurde))) (MF (NX (NE Großbritannien))) (NF (PX (APPR nach) (NX (NX (ART einem) (CARD 3\:2)) (PX (APPRART im) (NX (NX (NN Finale)) (PX (APPR gegen) (NX (NE Polen))))))))) (\$\. \.))"/>
+</markables>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_12" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NN Morddrohung)) (PX (APPR gegen) (NX (NN BBC-Nachrichtenchef)))))"/>
+<markable id="markable_83" span="word_4..word_31" mmax_level="parse" orderid="2" tag="(Start (NX (NE London)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (PX (APPR Nach) (NX (NX (ADJX (ADJA telefonischen)) (NN Morddrohungen)) (PX (APPR gegen) (NX (NX (ART den) (NN Nachrichtenchef)) (NX (ART der) (NE BBC))))))) (LK (VXFIN (VAFIN sind))) (MF (NX (NX (ART die) (NN Sicherheitsvorkehrungen)) (PX (APPR in) (NX (NX (ART den) (ADJX (ADJA zahlreichen)) (NN Gebäuden)) (NX (ART der) (ADJX (ADJA britischen)) (NX (NX (TRUNC Rundfunk-)) (KON und) (NX (NN Fernsehanstalt)))))))) (VC (VXINF (VVPP verschärft)) (VXINF (VAPP worden)))) (\$\. \.))"/>
+<markable id="markable_150" span="word_32..word_47" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (ART Die) (NE BBC))) (LK (VXFIN (VVFIN bestätigte))) (MF (ADVX (ADV gestern))) (\$\, \,) (NF (SIMPX (C (KOUS daß)) (MF (NX (NX (NX (NN Nachrichtendirektor)) (NX (NE Tony) (NE Hall))) (\$-LRB- -LRB-) (NX (CARD 48))) (\$-LRB- -RRB-) (PX (APPR unter) (NX (NN Polizeischutz)))) (VC (VXFIN (VVFIN steht)))))) (\$\. \.))"/>
+<markable id="markable_200" span="word_48..word_60" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (APPRART Am) (NX (NN Montag)))) (LK (VXFIN (VAFIN war))) (MF (NX (NX (ART die) (NN BBC-Moderatorin)) (NX (NE Jill) (NE Dando))) (PX (APPR vor) (NX (PPOSAT ihrem) (NN Haus)))) (VC (VXINF (VVPP ermordet)) (VXINF (VAPP worden)))) (\$\. \.))"/>
+</markables>

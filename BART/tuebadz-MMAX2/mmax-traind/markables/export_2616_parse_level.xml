@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Vogel-Prozeß)))"/>
+<markable id="markable_17" span="word_2..word_5" mmax_level="parse" orderid="2" tag="(Start (PX (ADVX (ADV Allein)) (PX (APPR auf) (NX (ART der) (NN Bank)))))"/>
+<markable id="markable_73" span="word_6..word_27" mmax_level="parse" orderid="3" tag="(Start (NX (NE Berlin)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (ART Der) (ADJX (PX (APPR wegen) (NX (NX (NN Erpressung)) (NX (ADJX (ADJA ausreisewilliger)) (NN DDR-Bürger)))) (ADJA beschuldigte)) (NN DDR-Unterhändler)) (NX (NE Wolfgang) (NE Vogel)))) (LK (VXFIN (VAFIN wird))) (MF (ADJX (ADJD künftig)) (ADVX (ADV allein)) (PX (APPR auf) (NX (ART der) (NN Anklagebank)))) (VC (VXINF (VVINF sitzen)))) (\$\. \.))"/>
+<markable id="markable_137" span="word_28..word_45" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (ADVX (ADV Gestern))) (LK (VXFIN (VAFIN hat))) (MF (NX (ART das) (ADJX (ADJA Berliner)) (NN Landgericht)) (NX (NX (ART das) (NN Verfahren)) (PX (APPR gegen) (NX (NX (ART die) (ADJX (ADJA mitangeklagte)) (ADJX (ADJA frühere)) (NN Vogel-Sekretärin)) (NX (NE Erika) (NE Dörrfeld)))))) (VC (VXINF (VXINF (VVPP abgetrennt)) (KON und) (VXINF (VVPP ausgesetzt))))) (\$\. \.))"/>
+<markable id="markable_167" span="word_46..word_49" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (PPER Sie))) (LK (VXFIN (VAFIN ist))) (MF (ADJX (ADJD verhandlungsunfähig)))) (\$\. \.))"/>
+</markables>

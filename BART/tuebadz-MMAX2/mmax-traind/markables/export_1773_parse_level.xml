@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_15" span="word_1..word_5" mmax_level="parse" orderid="1" tag="(Start (SIMPX (VF (NX (NN Urteil))) (MF (NX (NX (ART ein) (NN Zeichen)) (PX (APPR gegen) (NX (NN Fremdenhaß)))))))"/>
+<markable id="markable_66" span="word_6..word_23" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (KOKOM Als) (NX (NN Zeichen)) (PX (APPR gegen) (NX (NX (NN Rassismus)) (KON und) (NX (NN Fremdenhaß)))))) (LK (VXFIN (VAFIN hat))) (MF (NX (NX (ART der) (ADJX (ADJA Türkische)) (NN Bund)) (PX (APPR in) (NX (NE Berlin-Brandenburg)))) (NX (NX (ART das) (NN Urteil)) (PX (APPRART im) (NX (NN Solingen-Prozeß))))) (VC (VXINF (VVPP bezeichnet)))) (\$\. \.))"/>
+<markable id="markable_115" span="word_24..word_35" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (SIMPX (VF (NX (ART Das) (NN Gericht))) (LK (VXFIN (VAFIN habe))) (MF (NX (ART ein) (ADJX (ADJA wichtiges)) (NN Zeichen))) (VC (VXINF (VVPP gesetzt))))) (\$\, \,) (LK (VXFIN (VVFIN erklärte))) (MF (NX (ART der) (NN Verein)))) (\$\. \.))"/>
+<markable id="markable_155" span="word_36..word_47" mmax_level="parse" orderid="4" tag='(Start (\$-LRB- \") (SIMPX (VF (NX (NX (ART Das) (NN Vertrauen)) (PX (APPR in) (NX (ART die) (ADJX (ADJA deutsche)) (NN Justiz))))) (LK (VXFIN (VAFIN ist))) (VC (VXINF (VVPP wiederhergestellt)) (VXINF (VAPP worden)))) (\$\. \.) (\$-LRB- \"))'/>
+<markable id="markable_214" span="word_48..word_66" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (PX (APPRART Im) (NX (NX (NN Prozeß)) (PX (APPR um) (NX (NX (ART den) (NN Brandanschlag)) (PX (APPR von) (NX (NE Solingen)))))))) (LK (VXFIN (VAFIN hatte))) (MF (NX (NX (ART das) (NN Oberlandesgericht)) (NX (NE Düsseldorf))) (PX (APPR für) (NX (PIDAT alle) (ADJX (CARD vier)) (NN Angeklagten))) (NX (ADJX (ADJA langjährige)) (NN Haftstrafen))) (VC (VXINF (VVPP verhängt)))) (\$\. \.))"/>
+<markable id="markable_238" span="word_67" mmax_level="parse" orderid="6" tag="(Start (NX (NE ADN)))"/>
+</markables>

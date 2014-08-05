@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_11" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (SIMPX (VF (NX (NE FU))) (LK (VXFIN (VVFIN nominierte))) (MF (NX (NN Präsidenten-Kandidaten)))))"/>
+<markable id="markable_79" span="word_4..word_31" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (NX (ART Die) (NN Politologin)) (NX (NE Gesine) (NE Schwan))) (KON und) (NX (NX (ART der) (NN Mediziner)) (NX (NE Peter) (NE Gaehtgens))))) (LK (VXFIN (VAFIN sind))) (MF (PX (APPRART vom) (NX (NX (ADJX (ADJA Akademischen)) (NN Senat)) (NX (NX (NX (ART der) (ADJX (ADJA Freien)) (NN Universität)) (NX (NE Berlin))) (\$-LRB- -LRB-) (NX (NE FU))))) (\$-LRB- -RRB-) (PX (APPR für) (NX (NX (ART das) (NN Amt)) (NX (ART des) (NN Präsidenten))))) (VC (VXINF (VVPP nominiert)) (VXINF (VAPP worden)))) (\$\. \.))"/>
+<markable id="markable_164" span="word_32..word_53" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NX (NE Gaehtgens)) (\$\, \,) (R-SIMPX (C (NX (PRELS der))) (MF (PX (APPRART zur) (NX (NN Zeit))) (NX (NX (ADJX (ADJA Erster)) (NN Vizepräsident)) (NX (ART der) (NE FU)))) (VC (VXFIN (VAFIN ist)))))) (\$\, \,) (LK (VXFIN (VVFIN erhielt))) (MF (NX (ADJX (CARD 19)) (NN Stimmen))) (\$\, \,) (NF (SIMPX (C (KOUS wie)) (MF (NX (ART die) (NN Hochschule)) (PX (APPRART am) (NX (NN Donnerstag)))) (VC (VXFIN (VVFIN mitteilte)))))) (\$\. \.))"/>
+<markable id="markable_203" span="word_54..word_59" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (APPR Für) (NX (NE Schwan)))) (LK (VXFIN (VVFIN votierten))) (MF (NX (ADJX (CARD elf)) (NN Senatsmitglieder)))) (\$\. \.))"/>
+<markable id="markable_229" span="word_60..word_67" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (ART Die) (NN Wahl))) (LK (VXFIN (VVFIN findet))) (MF (PX (APPRART am) (NX (ADJX (ADJA 2\.)) (NN Juni)))) (VC (PTKVZ statt))) (\$\. \.))"/>
+<markable id="markable_242" span="word_68" mmax_level="parse" orderid="6" tag="(Start (NX (NE ADN)))"/>
+<markable id="markable_252" span="word_69..word_71" mmax_level="parse" orderid="7" tag="(Start (NX (NX (NN Interviews)) (NX (NX (NN Seite)) (NX (CARD 36)))))"/>
+</markables>

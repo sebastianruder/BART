@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NN Krach)) (NX (ART der) (NN Familien-Clans))))"/>
+<markable id="markable_80" span="word_4..word_31" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (ART Ein) (ADJX (ADJA gebrochenes)) (NN Heiratsversprechen))) (LK (VXFIN (VVFIN sorgte))) (MF (PX (APPRART am) (NX (NN Sonntag))) (PX (APPR für) (NX (NN Zoff))) (PX (APPR bei) (NX (ADJX (CARD zwei)) (ADJX (ADJA türkischen)) (NN Großfamilien))))) (\$\. \:) (SIMPX (VF (NX (ADVX (ADV Insgesamt)) (ADJX (CARD 60)) (NN Personen))) (LK (VXFIN (VVFIN prügelten))) (MF (NX (PRF sich)) (PX (APPR auf) (NX (NX (ART einer) (NN Straße)) (PX (APPR in) (NX (NE Vegesack))))))) (\$\, \,) (NX (ADVX (ADV so)) (NX (ART die) (NN Polizei))) (\$\. \.))"/>
+<markable id="markable_123" span="word_32..word_37" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (ADJX (CARD Vier)) (NN Personen))) (LK (VXFIN (VAFIN wurden))) (MF (ADJX (ADJD leicht))) (VC (VXINF (VVPP verletzt)))) (\$\. \.))"/>
+<markable id="markable_134" span="word_38" mmax_level="parse" orderid="4" tag="(Start (NX (NE taz)))"/>
+</markables>

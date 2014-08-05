@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_12" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (SIMPX (VF (NX (ART Die) (NN Emsvertiefung))) (LK (VXFIN (VAFIN war))) (MF (ADJX (ADJD rechtmäßig)))))"/>
+<markable id="markable_29" span="word_5..word_8" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NE Oldenburg)) (\$-LRB- \/) (NX (NE Lüneburg))) (\$\. \.))"/>
+<markable id="markable_74" span="word_9..word_24" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NX (ART Das) (NN Oberverwaltungsgericht)) (NX (NE Lüneburg)))) (LK (VXFIN (VAFIN hat))) (MF (NX (NX (PIDAT alle) (NN Klagen)) (PX (APPR gegen) (NX (NX (NX (ART die) (NN Vertiefung)) (NX (ART der) (NE Ems))) (PX (APPR auf) (NX (ADJX (CARD 7\,30)) (NN Meter))))))) (VC (VXINF (VVPP abgewiesen)))) (\$\. \.))"/>
+<markable id="markable_111" span="word_25..word_33" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (PDS Das))) (LK (VXFIN (VVFIN teilte))) (MF (ADVX (ADV gestern)) (ADJX (ADJD abschließend)) (NX (NX (ART die) (NN Bezirksregierung)) (NX (NE Weser-Ems)))) (VC (PTKVZ mit))) (\$\. \.))"/>
+<markable id="markable_139" span="word_34..word_40" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (NN Revision))) (LK (VXFIN (VAFIN habe))) (MF (NX (ART das) (NN Gericht)) (ADVX (PTKNEG nicht))) (VC (VXINF (VVPP zugelassen)))) (\$\. \.))"/>
+<markable id="markable_151" span="word_41" mmax_level="parse" orderid="6" tag="(Start (NX (NE dpa)))"/>
+</markables>

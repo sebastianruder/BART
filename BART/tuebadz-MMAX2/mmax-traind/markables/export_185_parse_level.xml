@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (SIMPX (VF (NX (NE Blauschimmel))) (LK (VXFIN (VAFIN hat))) (MF (NX (NN Geburtstag)))))"/>
+<markable id="markable_48" span="word_4..word_16" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (PX (APPR Seit) (NX (ART einem) (NN Jahr)))) (LK (VXFIN (VAFIN hat))) (MF (ADVX (ADV auch)) (NX (NE Oldenburg)) (NX (NX (PPOSAT seine) (ADJX (ADJA blaue)) (NN Kultur)) (PX (APPR jenseits) (NX (ART des) (NN Normaldoofen)))))) (\$\. \.))"/>
+<markable id="markable_136" span="word_17..word_47" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (APPR An) (NX (PDAT diesem) (NN Samstag)))) (LK (VXFIN (VVFIN beginnt))) (MF (PX (APPR um) (NX (ADJX (CARD 15)) (NN Uhr))) (PX (APPR in) (NX (NX (ART den) (NN Atelierräumen)) (\$\, \,) (NX (NX (NN Bahnhofsstraße)) (NX (CARD 11))))) (\$\, \,) (NX (NX (ART ein) (NN Tag)) (NX (ART der) (ADJX (ADJA Offenen)) (NN Tür)))) (\$\, \,) (NF (R-SIMPX (C (NX (PRELS der))) (MF (PX (APPRART im) (NX (NX (NN Laufe)) (NX (ART des) (NN Abends)))) (ADJX (ADJD fließend)) (PX (APPR in) (NX (ART eine) (NN Party)))) (VC (VXFIN (VVFIN übergeht)))))) (\$\. \.))"/>
+<markable id="markable_217" span="word_48..word_68" mmax_level="parse" orderid="4" tag="(Start (SIMPX (SIMPX (VF (NX (NX (NX (NN Kursangebote)) (\$-LRB- -LRB-) (NX (NX (NN Masken)) (\$\, \,) (NX (NN Musik)) (\$\, \,) (NX (NN Theater)))) (\$-LRB- -RRB-) (PX (APPR für) (NX (NX (NN Menschen)) (PX (PX (APPR mit)) (KON und) (PX (APPR ohne) (NX (NN Behinderung)))))))) (LK (VXFIN (VMFIN können))) (VC (VXINF (VVPP erfragt)))) (\$\, \,) (SIMPX (VF (NX (NN Kunstwerke))) (VC (VXINF (VVPP besichtigt)) (VXINF (VAINF werden))))) (\$\. \.))"/>
+<markable id="markable_251" span="word_69..word_73" mmax_level="parse" orderid="5" tag="(Start (NX (NX (NN Tel\.)) (\$\. \:) (NX (CARD 0441-24) (CARD 80) (CARD 999))))"/>
+<markable id="markable_261" span="word_74" mmax_level="parse" orderid="6" tag="(Start (NX (NE taz)))"/>
+</markables>

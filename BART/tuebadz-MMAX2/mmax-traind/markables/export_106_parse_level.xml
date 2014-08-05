@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_18" span="word_1..word_6" mmax_level="parse" orderid="1" tag="(Start (NX (NN Freispruch)) (\$\. \:) (SIMPX (MF (NX (NN Mann)) (PX (APPR mit) (NX (NN Bratpfanne)))) (VC (VXINF (VVPP erschlagen)))))"/>
+<markable id="markable_81" span="word_7..word_28" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (ART Eine) (NN Bibliothekarin)) (\$\, \,) (R-SIMPX (C (NX (PRELS die))) (MF (NX (PPOSAT ihren) (NN Ehemann)) (PX (APPRART im) (NX (NX (NN September)) (NX (CARD 1998)))) (PX (APPR mit) (NX (ART einer) (ADJX (ADJA gußeisernen)) (NN Bratpfanne)))) (VC (VXINF (VVPP erschlagen)) (VXFIN (VAFIN hatte)))))) (\$\, \,) (LK (VXFIN (VAFIN ist))) (MF (PX (APPRART vom) (NX (NN Landgericht)))) (VC (VXINF (VVPP freigesprochen)) (VXINF (VAPP worden)))) (\$\. \.))"/>
+<markable id="markable_138" span="word_29..word_42" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (SIMPX (VF (NX (ART Die) (NN Frau))) (LK (VXFIN (VAFIN habe))) (MF (PX (APPR in) (NX (NN Notwehr)))) (VC (VXINF (VVPP gehandelt))))) (\$\, \,) (LK (VXFIN (VVFIN hieß))) (MF (NX (PPER es)) (ADVX (ADV gestern)) (PX (APPR in) (NX (ART der) (NN Begründung))))) (\$\. \.))"/>
+<markable id="markable_169" span="word_43..word_48" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (PPER Sie))) (LK (VXFIN (VAFIN war))) (MF (NX (ART des) (NN Totschlags))) (VC (VXINF (VVPP angeklagt)))) (\$\. \.))"/>
+<markable id="markable_180" span="word_49" mmax_level="parse" orderid="5" tag="(Start (NX (NE dpa)))"/>
+</markables>

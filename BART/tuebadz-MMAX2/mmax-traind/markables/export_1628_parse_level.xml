@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (SIMPX (VF (NX (NN Mädchen))) (LK (VXFIN (VVFIN machen))) (MF (NX (NN Videos)))))"/>
+<markable id="markable_50" span="word_4..word_17" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (PX (APPR In) (NX (ART der) (NE Neustadt)))) (LK (VXFIN (VMFIN können))) (MF (NX (NX (NN Mädchen)) (PX (APPR zwischen) (NX (ADJX (ADJX (CARD 12)) (KON und) (ADJX (CARD 16))) (NN Jahren)))) (NX (PPOSAT ihren) (NN Stadtteil))) (VC (VXINF (VVINF filmen)))) (\$\. \.))"/>
+<markable id="markable_107" span="word_18..word_35" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NX (NN Tips)) (KON und) (NX (NN Anleitungen)))) (LK (VXFIN (VVFIN gibt))) (MF (NX (PPER es)) (NX (NX (PIDAT jeden) (NX (NX (NN Dienstag)) (KON und) (NX (NN Donnerstag)))) (PX (APPR ab) (NX (ADJX (CARD 14)) (NN Uhr)))) (PX (APPRART im) (NX (NX (NN Mädchentreff)) (\$\, \,) (NX (NX (NN Hohentorsheerstr\.)) (NX (CARD 56))))))) (\$\. \.))"/>
+<markable id="markable_141" span="word_36..word_41" mmax_level="parse" orderid="4" tag="(Start (NX (NX (NN Anmeldungen)) (PX (APPR unter) (NX (NX (NN Tel\.)) (NX (NX (CARD 502233)) (KON oder) (NX (CARD 591430)))))))"/>
+</markables>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_16" span="word_1..word_5" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NN Seniorenreise)) (PX (APPR in) (NX (ART den) (ADJX (ADJA Teutoburger)) (NN Wald)))))"/>
+<markable id="markable_69" span="word_6..word_25" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (ART Das) (NN Seniorenbüro)) (NX (NE Bremen)))) (LK (VXFIN (VAFIN hat))) (MF (NX (KOKOM als) (ADJX (ADJA neues)) (NN Reiseziel)) (NX (NX (NX (ART das) (NN Staatsbad)) (NX (NE Horn) (\$-LRB- -) (NE Bad) (NE Meinberg))) (PX (APPRART im) (NX (ADJX (ADJA Teutoburger)) (NN Wald)))) (PX (APPRART im) (NX (ADJX (ADJA aktuellen)) (NN Programm))))) (\$\. \.))"/>
+<markable id="markable_116" span="word_26..word_36" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (ART Die) (NN Reise))) (LK (VXFIN (VVFIN findet))) (MF (PX (PX (APPRART vom) (NX (ADJX (ADJA 7\.)))) (PX (APPR bis) (PX (APPRART zum) (NX (ADJX (ADJA 21\.)) (NN Juni)))))) (VC (PTKVZ statt))) (\$\. \.))"/>
+<markable id="markable_159" span="word_37..word_49" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ART Die) (NN Zimmer))) (LK (VXFIN (VAFIN sind))) (MF (PX (APPR mit) (NX (NX (NN Dusche)) (\$\, \,) (NX (NN WC)) (\$\, \,) (NX (NN Telefon)) (KON und) (NX (NN Farbfernseher))))) (VC (VXINF (VVPP ausgestattet)))) (\$\. \.))"/>
+<markable id="markable_205" span="word_50..word_62" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (ADJX (ADJA Weitere)) (NN Auskünfte))) (LK (VXFIN (VVFIN gibt))) (MF (NX (PPER es)) (PX (APPRART im) (NX (NN Seniorenbüro))) (PX (APPR unter) (NX (NX (NN Tel\.)) (\$\. \:) (NX (CARD 32) (CARD 05) (CARD 49)))))) (\$\. \.))"/>
+<markable id="markable_223" span="word_63" mmax_level="parse" orderid="6" tag="(Start (NX (NE taz)))"/>
+</markables>

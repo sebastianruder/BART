@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_16" span="word_1..word_6" mmax_level="parse" orderid="1" tag="(Start (NX (NN Wohnungsbau)) (\$\. \:) (SIMPX (MF (NX (ADVX (ADV Über)) (ADJX (CARD 120)) (NN ha))) (VC (VXINF (VVPP verkauft)))))"/>
+<markable id="markable_78" span="word_7..word_31" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (ART Das) (NN Land)) (NX (NE Berlin)))) (LK (VXFIN (VAFIN hat))) (MF (PX (APPR seit) (NX (CARD 1991))) (NX (NX (ADVX (ADV mehr)) (KOKOM als) (ADJX (CARD 120)) (NN Hektar)) (NX (NN Fläche))) (PX (APPR für) (NX (ART den) (NN Wohnungsbau))) (PX (KON sowohl) (PX (APPR an) (NX (ADJX (ADJA private)) (NN Investoren))) (KON als) (ADVX (ADV auch)) (PX (APPR an) (NX (ADJX (ADJA städtische)) (NN Gesellschaften))))) (VC (VXINF (VVPP verkauft)))) (\$\. \.))"/>
+<markable id="markable_163" span="word_32..word_57" mmax_level="parse" orderid="3" tag='(Start (SIMPX (VF (NX (NX (NX (ART Die) (ADJX (ADJA größte)) (NN Fläche)) (PX (APPR für) (NX (ART den) (NN Wohnungsbau)))) (PX (APPR mit) (NX (ADVX (ADV rund)) (ADJX (CARD zehn)) (NN Hektar))))) (LK (VXFIN (VAFIN wurde))) (MF (PX (ADVX (ADV erst)) (APPR in) (NX (ART der) (ADJX (ADJA vergangenen)) (NN Woche))) (PX (APPR an) (NX (NX (ART die) (NN Wohnungsbaugesellschaft)) (\$-LRB- \") (NX (NX (NN Stadt)) (KON und) (NX (NN Land)))))) (\$-LRB- \") (VC (VXINF (VVPP verkauft)))) (\$\. \.))'/>
+<markable id="markable_215" span="word_58..word_67" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (APPR Auf) (NX (NX (ART dem) (NN Areal)) (PX (APPR in) (NX (NE Altglienicke)))))) (LK (VXFIN (VMFIN sollen))) (MF (NX (ADJX (CARD 2\.500)) (NN Wohnungen))) (VC (VXINF (VVINF entstehen)))) (\$\. \.))"/>
+<markable id="markable_230" span="word_68" mmax_level="parse" orderid="5" tag="(Start (NX (NE ADN)))"/>
+</markables>

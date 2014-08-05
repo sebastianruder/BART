@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_15" span="word_1..word_5" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NN Alkohol-Probleme)) (PX (APPR bei) (NX (NN Kindern)))) (\$-LRB- -) (NX (NN Vortrag)))"/>
+<markable id="markable_59" span="word_6..word_21" mmax_level="parse" orderid="2" tag='(Start (SIMPX (VF (NX (ART Die) (NN WIR-Pflegeelternschule))) (LK (VXFIN (VVFIN bietet))) (MF (NX (NX (ART eine) (NN Weiterbildung)) (PX (APPRART zum) (NX (NX (NN Thema)) (\$-LRB- \") (SIMPX (VF (NX (PPOSAT Mein) (NN Kind))) (LK (VXFIN (VAFIN ist))) (MF (ADJX (ADJD alkoholgeschädigt)))))))) (\$-LRB- \.\.\.) (\$-LRB- \") (VC (PTKVZ an))) (\$\. \.))'/>
+<markable id="markable_136" span="word_22..word_48" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (APPR Über) (NX (NX (NN Folgen)) (KON sowie) (NX (NX (ART das) (NN Zusammenleben)) (PX (APPR mit) (NX (ART einem) (ADJX (ADJA alkoholgeschädigten)) (NN Kind))))))) (LK (VXFIN (VVFIN referiert))) (MF (NX (NX (ART die) (NN Sozialpädagogin)) (NX (NE Angelika) (NE Hartwig))) (ADVX (ADVX (ADVX (ADV heute)) (ADVX (ADV abend))) (\$\, \,) (PX (APPR um) (NX (ADJX (CARD 20)) (NN Uhr)))) (\$\, \,) (PX (APPR an) (NX (NX (ART der) (ADJX (ADJA Horner)) (NN Heerstraße)) (NX (CARD 19)))))) (\$\. \.))"/>
+<markable id="markable_183" span="word_49..word_56" mmax_level="parse" orderid="4" tag="(Start (NX (NX (NN Infos)) (PX (APPR unter) (NX (NX (NN Tel\.)) (\$\. \:) (NX (CARD 23) (CARD 11) (CARD 91))))) (\$\. \.))"/>
+<markable id="markable_196" span="word_57" mmax_level="parse" orderid="5" tag="(Start (NX (NE taz)))"/>
+</markables>

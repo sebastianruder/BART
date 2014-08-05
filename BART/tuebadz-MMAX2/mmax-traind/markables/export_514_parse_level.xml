@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (NX (ADJX (ADJA Marode)) (NN Straßen)))"/>
+<markable id="markable_63" span="word_3..word_25" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (ART Den) (ADJX (ADJA Hamburger)) (NN Bezirken))) (LK (VXFIN (VVFIN fehlen))) (MF (PX (APPR nach) (NX (NX (ART einem) (NN Bericht)) (NX (NX (ART der) (NN Welt)) (PX (APPRART am) (NX (NN Sonntag)))))) (NX (NX (ADVX (ADV mehr)) (KOKOM als) (ADJX (CARD 20)) (NN Millionen)) (NX (NN Mark)))) (\$\, \,) (NF (SIMPX (C (KOUI um)) (MF (NX (ADJX (ADJA marode)) (NN Straßen))) (VC (VXINF (PTKZU zu) (VVINF reparieren)))))) (\$\. \.))"/>
+<markable id="markable_117" span="word_26..word_37" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NX (ART Eine) (NN Aufstockung)) (NX (ART der) (NN Mittel)))) (LK (VXFIN (VAFIN ist))) (MF (PX (APPR laut) (NX (ART der) (NN Zeitung))) (ADVX (PTKNEG nicht)) (PX (APPR in) (NX (NN Sicht))))) (\$\. \.))"/>
+</markables>

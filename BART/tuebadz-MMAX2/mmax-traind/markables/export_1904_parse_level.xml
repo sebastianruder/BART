@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_6" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Bafög)))"/>
+<markable id="markable_15" span="word_2..word_3" mmax_level="parse" orderid="2" tag="(Start (SIMPX (MF (NX (NN Reform))) (VC (VXINF (VVPP verlangt)))))"/>
+<markable id="markable_71" span="word_4..word_24" mmax_level="parse" orderid="3" tag="(Start (NX (NE Bonn)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (ART Das) (ADJX (ADJA Deutsche)) (NN Studentenwerk)) (\$-LRB- -LRB-) (NX (NE DSW)))) (\$-LRB- -RRB-) (LK (VXFIN (VAFIN hat))) (MF (NX (NX (ART eine) (NN Bund-Länder-Kommission)) (PX (APPR für) (NX (NX (ART eine) (NN Reform)) (NX (ART der) (NN Ausbildungsförderung)))))) (VC (VXINF (VVPP gefordert)))) (\$\. \.))"/>
+<markable id="markable_163" span="word_25..word_54" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (SIMPX (VF (NX (ART Eine) (ADJX (PIDAT solche)) (NN Initiative))) (LK (VXFIN (VAFIN sei))) (MF (ADJX (ADJD nötig))) (\$\, \,) (NF (SIMPX (C (KOUI um)) (MF (NX (NX (ART das) (ADJX (ADJA drohende)) (ADJX (ADJA politische)) (NN Patt)) (PX (APPRART im) (NX (NX (NN Bafög-Streit)) (PX (APPR zwischen) (NX (NX (NN Bundestag)) (KON und) (NX (NN Bundesrat)))))))) (VC (VXINF (PTKZU zu) (VVINF überwinden))))))) (\$\, \,) (LK (VXFIN (VVFIN sagte))) (MF (ADVX (ADV gestern)) (NX (NX (NX (ART der) (NN Präsident)) (NX (ART des) (NN Studentenwerks))) (NX (NE Albert) (PX (APPR von) (NX (NE Mutius))))))) (\$\. \.))"/>
+</markables>

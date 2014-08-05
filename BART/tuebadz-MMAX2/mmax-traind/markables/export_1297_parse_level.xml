@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_8" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (SIMPX (MF (NX (NN Amerika-Gedenkbibliothek))) (VC (VXINF (VVPP geschlossen)))))"/>
+<markable id="markable_48" span="word_3..word_18" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (PX (PX (APPR Von) (NX (ADJX (ADJA 13\.)) (ADJX (ADJA 7\.)))) (PX (APPR bis) (NX (ADJX (ADJA 1\.)) (ADJX (ADJA 8\.)))))) (LK (VXFIN (VVFIN bleibt))) (MF (NX (ART die) (NN Amerika-Gedenkbibliothek)) (PX (APPR wegen) (NX (NX (NN Arbeiten)) (PX (APPR an) (NX (ART der) (NN Datenverarbeitungsanlage)))))) (VC (VXINF (VVPP geschlossen)))) (\$\. \.))"/>
+<markable id="markable_95" span="word_19..word_31" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (ART Die) (NN Bücherrücknahme))) (LK (VXFIN (VAFIN ist))) (MF (PX (APPR während) (NX (ART der) (ADJX (ADJA genannten)) (NN Tage))) (PX (APPR zu) (NX (ART den) (ADJX (ADJA üblichen)) (NN Zeiten)))) (VC (VXINF (VVPP geöffnet)))) (\$\. \.))"/>
+</markables>

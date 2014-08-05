@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_4" span="word_1" mmax_level="parse" orderid="1" tag="(Start (VXINF (VVPP Überfahren)))"/>
+<markable id="markable_43" span="word_2..word_17" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (ART Ein) (ADJX (ADJA 35jähriger)) (NN Fußgänger))) (LK (VXFIN (VAFIN ist))) (MF (ADVX (ADVX (ADV gestern)) (ADJX (ADJD früh))) (PX (APPR in) (NX (NE Vegesack))) (PX (APPR von) (NX (ART einem) (NN Motorrad)))) (VC (VXINF (VXINF (VVPP angefahren)) (KON und) (VXINF (VVPP getötet))) (VXINF (VAPP worden)))) (\$\. \.))"/>
+<markable id="markable_85" span="word_18..word_27" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (APPR Laut) (NX (NN Polizei)))) (LK (VXFIN (VAFIN waren))) (MF (NX (KON sowohl) (NX (NN Fahrer)) (KON als) (ADVX (ADV auch)) (NX (NN Fußgänger))) (ADJX (ADJD angetrunken)))) (\$\. \.))"/>
+<markable id="markable_100" span="word_28" mmax_level="parse" orderid="4" tag="(Start (NX (NE taz)))"/>
+</markables>
