@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_9" span="word_1..word_2" sentenceid="1" label="person" min_ids="word_1..word_2" type="enamex" lemmata="president clinton" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_5..word_17" sentenceid="1" label="np" min_ids="word_5..word_6" type="chunk" lemmata="a deal with independent prosecutor robert ray to avoid indictment after leave office" isprenominal="false" pos="dt nn in jj nn nnp nnp to vb nn in vbg nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_8..word_11" sentenceid="1" label="person" min_ids="word_8..word_11" type="enamex" lemmata="independent prosecutor robert ray" isprenominal="false" pos="jj nn nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_14" sentenceid="1" label="np" min_ids="word_14..word_14" type="chunk" lemmata="indictment" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_17" sentenceid="1" label="np" min_ids="word_17..word_17" type="chunk" lemmata="office" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_20..word_22" sentenceid="2" label="np" min_ids="word_20..word_21" type="chunk" lemmata="a statement friday" isprenominal="false" pos="dt nn nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_22" sentenceid="2" label="date" min_ids="word_22..word_22" type="enamex" lemmata="friday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_24..word_25" sentenceid="2" label="person" min_ids="word_24..word_25" type="enamex" lemmata="mr. clinton" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_27" sentenceid="2" label="np" min_ids="word_27..word_27" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_32..word_33" sentenceid="2" label="np" min_ids="word_32..word_33" type="chunk" lemmata="the truth" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_35" sentenceid="2" label="np" min_ids="word_35..word_35" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_37..word_47" sentenceid="2" label="np" min_ids="word_37..word_37" type="chunk" lemmata="testimony about his relationship with former white house intern monica lewinsky" isprenominal="false" pos="nn in prp$ nn in jj nnp nnp nn nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_39" sentenceid="2" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_39..word_47" sentenceid="2" label="np" min_ids="word_39..word_40" type="chunk" lemmata="his relationship with former white house intern monica lewinsky" isprenominal="false" pos="prp$ nn in jj nnp nnp nn nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_42..word_47" sentenceid="2" label="person" min_ids="word_42..word_47" type="enamex" lemmata="former white house intern monica lewinsky" isprenominal="false" pos="jj nnp nnp nn nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_43..word_44" sentenceid="2" label="organization" type="enamex" lemmata="white house" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+</markables>

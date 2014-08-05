@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_3..word_9" sentenceid="1" label="np" min_ids="word_3..word_4" type="chunk" lemmata="other news tonight overseas and at home" isprenominal="false" pos="jj nn nn rb cc in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_5" sentenceid="1" label="np" min_ids="word_5..word_5" type="chunk" lemmata="tonight" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_9" sentenceid="1" label="np" min_ids="word_9..word_9" type="chunk" lemmata="home" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_12..word_13" sentenceid="2" label="np" min_ids="word_12..word_13" type="chunk" lemmata="all this" isprenominal="false" pos="pdt dt" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_18..word_19" sentenceid="2" label="person" min_ids="word_18..word_19" type="enamex" lemmata="mr. clinton" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_23..word_24" sentenceid="3" label="person" min_ids="word_23..word_24" type="enamex" lemmata="president clinton" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_27..word_28" sentenceid="3" label="location" min_ids="word_27..word_28" type="enamex" lemmata="northern ireland" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_30" sentenceid="3" label="np" min_ids="word_30..word_30" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_32..word_35" sentenceid="3" label="np" min_ids="word_32..word_35" type="chunk" lemmata="the supreme court decision" isprenominal="false" pos="dt nnp nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_33..word_34" sentenceid="3" label="organization" type="enamex" lemmata="supreme court" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_37" sentenceid="4" label="np" min_ids="word_37..word_37" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_40..word_41" sentenceid="4" label="person" min_ids="word_40..word_41" type="enamex" lemmata="al gore" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_43..word_46" sentenceid="4" label="np" min_ids="word_43..word_44" type="chunk" lemmata="the phone from belfast" isprenominal="false" pos="dt nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_46" sentenceid="4" label="location" min_ids="word_46..word_46" type="enamex" lemmata="belfast" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_50..word_52" sentenceid="5" label="person" min_ids="word_50..word_51" type="enamex" lemmata="mr. clinton 's" isprenominal="false" pos="nnp nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_50..word_72" sentenceid="5" label="np" min_ids="word_50..word_54" type="chunk" lemmata="mr. clinton 's third visit to northern ireland , and the irish republic to do what he can to generate a last peace" isprenominal="false" pos="nnp nnp pos jj nn in nnp nnp , cc dt nnp nnp to vb wp prp md to vb dt vbg nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_53" sentenceid="5" label="percent" type="enamex" lemmata="third" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_56..word_57" sentenceid="5" label="location" min_ids="word_56..word_57" type="enamex" lemmata="northern ireland" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_56..word_62" sentenceid="5" label="location" min_ids="word_56..word_62" type="enamex" lemmata="northern ireland , and the irish republic" isprenominal="false" pos="nnp nnp , cc dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_60..word_62" sentenceid="5" label="np" min_ids="word_60..word_62" type="chunk" lemmata="the irish republic" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_66" sentenceid="5" label="np" min_ids="word_66..word_66" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_70..word_72" sentenceid="5" label="np" min_ids="word_70..word_72" type="chunk" lemmata="a last peace" isprenominal="false" pos="dt vbg nn" speaker="-" mmax_level="markable" />
+</markables>

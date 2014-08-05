@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/coref">
+  <markable id="markable_1" span="word_7..word_7" coref_set="set_143" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_2" span="word_11..word_14" coref_set="set_107" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_3" span="word_13..word_14" coref_set="set_143" dir_antecedent="markable_1" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_4" span="word_15..word_18" coref_set="set_107" dir_antecedent="markable_2" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_5" span="word_20..word_37" coref_set="set_107" dir_antecedent="markable_4" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_6" span="word_25..word_26" coref_set="set_128" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_7" span="word_29..word_31" coref_set="set_177" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_8" span="word_38..word_38" coref_set="set_107" dir_antecedent="markable_5" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_9" span="word_50..word_73" coref_set="set_115" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_10" span="word_50..word_59" coref_set="set_210" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_11" span="word_61..word_73" coref_set="set_70" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_12" span="word_75..word_77" coref_set="set_115" dir_antecedent="markable_9" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_13" span="word_75..word_75" coref_set="set_210" dir_antecedent="markable_10" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_14" span="word_77..word_77" coref_set="set_70" dir_antecedent="markable_11" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_15" span="word_82..word_83" coref_set="set_177" dir_antecedent="markable_7" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_16" span="word_100..word_101" coref_set="set_117" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_17" span="word_104..word_104" coref_set="set_117" dir_antecedent="markable_16" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_18" span="word_113..word_113" coref_set="set_117" dir_antecedent="markable_17" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_19" span="word_159..word_162" coref_set="set_80" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_20" span="word_166..word_166" coref_set="set_48" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_21" span="word_177..word_179" coref_set="set_128" dir_antecedent="markable_6" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_22" span="word_184..word_187" coref_set="set_80" dir_antecedent="markable_19" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_23" span="word_192..word_195" coref_set="set_92" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_24" span="word_197..word_209" coref_set="set_157" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_25" span="word_201..word_202" coref_set="set_92" dir_antecedent="markable_23" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_26" span="word_204..word_207" coref_set="set_80" dir_antecedent="markable_22" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_27" span="word_214..word_216" coref_set="set_48" dir_antecedent="markable_20" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_28" span="word_223..word_223" coref_set="set_157" dir_antecedent="markable_24" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_29" span="word_240..word_240" coref_set="set_157" dir_antecedent="markable_28" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_30" span="word_244..word_252" coref_set="set_92" dir_antecedent="markable_25" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_31" span="word_249..word_249" coref_set="set_157" dir_antecedent="markable_29" mention="unknown" etype="unknown" mmax_level="coref" />
+</markables>

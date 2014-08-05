@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_15" tag="(S1 (S (NP (NML (JJ Israeli) (NNP Prime) (NNP Minister)) (NNP Ehud) (NNP Barak)) (VP (VBZ is) (VP (VBG proposing) (NP (NP (DT an) (JJ interim) (NN peace) (NN deal)) (PP (IN with) (NP (DT the) (NNPS Palestinians)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_16..word_41" tag="(S1 (S (S (NP (DT The) (NN proposal)) (VP (MD would) (VP (VB give) (NP (DT the) (NNPS Palestinians)) (NP (ADJP (NP (DT a) (NN state) (CC and) (CD 10) (NN %)) (JJR more)) (NN land))))) (, ,) (CC but) (S (NP (PRP it)) (VP (MD would) (VP (VB put) (PRT (RP off)) (NP (NNS decisions)) (PP (IN on) (NP (NP (DT the) (NN fate)) (PP (IN of) (NP (NNP Jerusalem)))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_42..word_52" tag="(S1 (S (NP (NNP Barak)) (VP (VBD announced) (NP (NP (DT the) (NN proposition)) (PP (IN in) (NP (NP (DT a) (NN speech)) (PP (IN to) (NP (NN newspaper) (NNS editors))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_53..word_71" tag="(S1 (S (S (NP (JJ Palestinian) (NNS officials)) (VP (VBP say) (SBAR (S (NP (PRP they)) (VP (VBP have) (RB not) (ADVP (RB formally)) (VP (VBN received) (NP (PRP it)))))))) (, ,) (CC but) (S (NP (PRP they)) (VP (VBP add) (SBAR (S (NP (PRP they)) (VP (VBP oppose) (NP (DT any) (JJ interim) (NN agreement))))))) (. .)))" mmax_level="parse" />
+</markables>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_15" span="word_1..word_2" sentenceid="1" label="organization" min_ids="word_1..word_2" type="enamex" lemmata="syms corp." isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_4..word_22" sentenceid="1" label="np" min_ids="word_4..word_5" type="chunk" lemmata="the sale of its a. sulka &amp;amp; co. subsidiary , a man 's luxury haberdashery , to luxco investments" isprenominal="false" pos="dt nn in prp$ nnp nnp cc nnp nn , dt nns pos nn nn , in nnp nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_7" sentenceid="1" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_7..word_19" sentenceid="1" label="np" min_ids="word_7..word_12" type="chunk" lemmata="its a. sulka &amp;amp; co. subsidiary , a man 's luxury haberdashery ," isprenominal="false" pos="prp$ nnp nnp cc nnp nn , dt nns pos nn nn ," speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_8..word_11" sentenceid="1" label="organization" type="enamex" lemmata="a. sulka &amp;amp; co." isprenominal="false" pos="nnp nnp cc nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_14..word_16" sentenceid="1" label="np" min_ids="word_14..word_15" type="chunk" lemmata="a man 's" isprenominal="false" pos="dt nns pos" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_14..word_18" sentenceid="1" label="np" min_ids="word_14..word_18" type="chunk" lemmata="a man 's luxury haberdashery" isprenominal="false" pos="dt nns pos nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_21..word_22" sentenceid="1" label="organization" min_ids="word_21..word_22" type="enamex" lemmata="luxco investments" isprenominal="false" pos="nnp nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_24" sentenceid="2" label="np" min_ids="word_24..word_24" type="chunk" lemmata="terms" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_30..word_31" sentenceid="3" label="person" min_ids="word_30..word_30" type="enamex" lemmata="syms 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_30..word_39" sentenceid="3" label="np" min_ids="word_30..word_34" type="chunk" lemmata="syms 's `` core business of off - price retailing" isprenominal="false" pos="nnp pos `` jj nn in jj hyph nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_36..word_39" sentenceid="3" label="np" min_ids="word_36..word_39" type="chunk" lemmata="off - price retailing" isprenominal="false" pos="jj hyph nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_42..word_48" sentenceid="3" label="np" min_ids="word_42..word_44" type="chunk" lemmata="a small subsidiary that be operationally unrelated" isprenominal="false" pos="dt jj nn wdt vbz rb jj" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_50..word_52" sentenceid="3" label="np" min_ids="word_50..word_52" type="chunk" lemmata="a difficult distraction" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_56..word_62" sentenceid="3" label="person" min_ids="word_56..word_57" type="enamex" lemmata="marcy syms , president of the parent" isprenominal="false" pos="nnp nnp , nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_59..word_62" sentenceid="3" label="np" min_ids="word_59..word_59" type="chunk" lemmata="president of the parent" isprenominal="false" pos="nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_61..word_62" sentenceid="3" label="np" min_ids="word_61..word_62" type="chunk" lemmata="the parent" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_65..word_66" sentenceid="3" label="np" min_ids="word_65..word_66" type="chunk" lemmata="a statement" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_68..word_69" sentenceid="4" label="np" min_ids="word_68..word_69" type="chunk" lemmata="a spokeswoman" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_71" sentenceid="4" label="organization" min_ids="word_71..word_71" type="enamex" lemmata="sulka" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_73..word_82" sentenceid="4" label="np" min_ids="word_73..word_77" type="chunk" lemmata="a total of seven store in the u.s. and overseas" isprenominal="false" pos="dt nn in cd nns in dt nnp cc rb" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_76" sentenceid="4" label="percent" type="enamex" lemmata="seven" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_79..word_80" sentenceid="4" label="location" min_ids="word_80..word_80" type="enamex" lemmata="the u.s." isprenominal="false" pos="dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_84" sentenceid="5" label="organization" min_ids="word_84..word_84" type="enamex" lemmata="syms" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_86" sentenceid="5" label="percent" type="enamex" lemmata="25" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_86..word_91" sentenceid="5" label="np" min_ids="word_86..word_91" type="chunk" lemmata="25 off - price apparel store" isprenominal="false" pos="cd jj hyph nn nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_93..word_94" sentenceid="5" label="location" min_ids="word_94..word_94" type="enamex" lemmata="the u.s." isprenominal="false" pos="dt nnp" speaker="-" mmax_level="markable" />
+</markables>

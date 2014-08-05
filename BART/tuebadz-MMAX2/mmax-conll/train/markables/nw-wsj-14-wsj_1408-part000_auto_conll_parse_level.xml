@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_20" tag="(S1 (S (NP (DT The) (NML (NNP New) (NNP York)) (NNP Stock) (NNP Exchange)) (VP (VBD said) (SBAR (S (NP (DT a) (NN seat)) (VP (VBD was) (VP (VBN sold) (PP (IN for) (NP (NP ($ $) (CD 500,000)) (, ,) (ADJP (JJ unchanged) (PP (IN from) (NP (NP (DT the) (NN sale)) (NP (NNP Thursday)))))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_21..word_32" tag="(S1 (S (NP (NNS Seats)) (VP (VBP are) (VP (VBN quoted) (PP (IN at) (NP (NP (NP ($ $) (CD 430,000)) (VP (NN bid))) (CC and) (NP (NP ($ $) (CD 525,000)) (VP (VBN asked))))))) (. .)))" mmax_level="parse" />
+</markables>

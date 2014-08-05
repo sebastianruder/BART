@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_9" tag="(S1 (S (NP (NNP Slobodan) (NNP Milosevic)) (VP (VBZ is) (PP (ADVP (RB back)) (IN in) (NP (DT the) (JJ public) (NN eye)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_10..word_24" tag="(S1 (S (NP (NN Today)) (, ,) (NP (DT the) (JJ former) (JJ Yugoslav) (NNP President)) (VP (VBD made) (NP (PRP$ his) (JJ first) (JJ public) (NN appearance)) (PP (IN since) (S (VP (VBG losing) (NP (NN power)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_25..word_38" tag="(S1 (S (NP (NNP Milosevic)) (VP (VBD addressed) (NP (NP (DT a) (JJ special) (NN meeting)) (PP (IN of) (NP (DT the) (NNP Socialist) (NNP Party))) (PP (IN of) (NP (NNP Serbia)))) (PP (IN in) (NP (NNP Belgrade)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_39..word_54" tag="(S1 (S (NP (PRP He)) (VP (VBD denounced) (NP (NP (DT the) (JJ democratic) (JJ Yugoslav) (NN government)) (SBAR (WHNP (WDT that)) (S (VP (VBD unseated) (NP (PRP him)))))) (, ,) (S (VP (VBG calling) (NP (DT the) (NN election)) (S (NP (DT a) (NN coup)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_55..word_67" tag="(S1 (S (NP (PRP He)) (ADVP (RB also)) (VP (VBD accused) (NP (DT the) (NNP West)) (PP (IN of) (S (VP (VBG trying) (S (VP (TO to) (VP (VB break) (PRT (RP up)) (NP (DT the) (NN country))))))))) (. .)))" mmax_level="parse" />
+</markables>

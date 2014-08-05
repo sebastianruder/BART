@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_9" tag="(S1 (S (NP (NNP Ehud) (NNP Barak)) (VP (VBZ is) (VP (VBG talking) (PP (IN to) (NP (NP (PRP$ his) (NN team)) (NP (NN today)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_10..word_27" tag="(S1 (S (NP (PRP He)) (VP (VBD called) (NP (DT a) (NN time) (HYPH -) (NN out)) (PP (IN after) (NP (NP (CD three) (NNS days)) (PP (IN of) (NP (NP (NNS talks)) (PP (IN in) (NP (NP (DT the) (JJ Egyptian) (NN resort)) (PP (IN of) (NP (NNP Tabah)))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_28..word_52" tag="(S1 (S (SBAR (ADVP (RB Even)) (IN if) (S (NP (NNP Barak)) (VP (VBZ decides) (S (VP (TO to) (VP (VB go) (ADVP (RB ahead)) (PP (IN with) (NP (DT the) (NNS talks))))))))) (, ,) (NP (PRP they)) (VP (MD would) (RB not) (VP (VB restart) (PP (IN before) (NP (NP (NP (NN tomorrow) (POS 's)) (NNS funerals)) (PP (IN for) (NP (DT the) (CD two) (VBN slain) (NNPS Israelis))))))) (. .)))" mmax_level="parse" />
+</markables>

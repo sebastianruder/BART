@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_27" tag="(S1 (S (NP (NML (JJ Israeli) (NNP Prime) (NNP Minister)) (NNP Ehud) (NNP Barak)) (VP (VBZ is) (VP (VBG heading) (PP (IN to) (NP (NNP Washington))) (PP (IN for) (NP (NP (NNS talks)) (NP (NN today)) (PP (IN with) (NP (NNP President) (NNP Clinton))))) (SBAR (IN as) (S (NP (JJ deadly) (NNS clashes)) (VP (VBP continue) (PP (IN in) (NP (DT the) (NML (NML (NNP Gaza) (NNP Strip)) (CC and) (NML (NNP West) (NNP Bank)))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_28..word_44" tag="(S1 (S (NP (NNP Mr.) (NNP Barak)) (VP (VBZ says) (SBAR (S (NP (NNS expectations)) (VP (VBP are) (ADJP (JJ low) (PP (IN for) (NP (NP (DT a) (JJ quick) (NN end)) (PP (IN to) (NP (NP (DT the) (CD six) (NNS weeks)) (PP (IN of) (NP (NN violence)))))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_45..word_55" tag="(S1 (S (NP (NNP Mr.) (NNP Clinton)) (VP (VBD met) (PP (IN with) (NP (NML (JJ Palestinian) (NN leader)) (NNP Yasser) (NNP Arafat))) (PP (IN on) (NP (NNP Thursday)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_56..word_72" tag="(S1 (S (ADVP (RB Meanwhile)) (, ,) (NP (QP (CD six) (JJR more)) (NNPS Palestinians) (CC and) (NP (DT another) (JJ Israeli) (NN soldier))) (VP (VBP have) (VP (VBN been) (VP (VBN killed) (PP (IN in) (NP (DT the) (JJS latest) (NN violence)))))) (. .)))" mmax_level="parse" />
+</markables>

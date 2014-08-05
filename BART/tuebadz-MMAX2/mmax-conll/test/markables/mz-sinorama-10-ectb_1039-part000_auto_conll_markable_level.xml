@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_16" span="word_3..word_4" sentenceid="1" label="object" min_ids="word_4..word_4" type="enamex" lemmata="the constitution" isprenominal="false" pos="dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_6..word_11" sentenceid="1" label="np" min_ids="word_6..word_11" type="chunk" lemmata="the &quot; one china &quot; issue" isprenominal="false" pos="dt `` cd nnp '' nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_9" sentenceid="1" label="location" type="enamex" lemmata="china" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_15..word_21" sentenceid="2" label="np" min_ids="word_15..word_17" type="chunk" lemmata="the vexed issue of &quot; one china" isprenominal="false" pos="dt jj nn in `` cd nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_19..word_21" sentenceid="2" label="location" min_ids="word_20..word_21" type="enamex" lemmata="&quot; one china" isprenominal="false" pos="`` cd nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_24..word_26" sentenceid="2" label="np" min_ids="word_24..word_25" type="chunk" lemmata="the president 's" isprenominal="false" pos="dt nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_24..word_31" sentenceid="2" label="np" min_ids="word_24..word_28" type="chunk" lemmata="the president 's advisory group on cross-strait relations" isprenominal="false" pos="dt nnp pos nnp nnp in jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_30..word_31" sentenceid="2" label="np" min_ids="word_30..word_31" type="chunk" lemmata="cross-strait relations" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_34" sentenceid="2" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_34..word_38" sentenceid="2" label="date" min_ids="word_34..word_38" type="enamex" lemmata="its sixth and seventh session" isprenominal="false" pos="prp$ jj cc jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_40" sentenceid="2" label="date" min_ids="word_40..word_40" type="enamex" lemmata="november" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_43..word_45" sentenceid="2" label="np" min_ids="word_43..word_45" type="chunk" lemmata="frenzied media attention" isprenominal="false" pos="jj nns nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_47..word_48" sentenceid="3" label="np" min_ids="word_47..word_48" type="chunk" lemmata="the group" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_51..word_72" sentenceid="3" label="np" min_ids="word_51..word_52" type="chunk" lemmata="a consensus that the &quot; one china &quot; principle advocate by the mainland should be address &quot; in accordance with the constitution" isprenominal="false" pos="dt nn in dt `` cd nnp '' nn vbn in dt nn md vb vbn '' in nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_54..word_63" sentenceid="3" label="np" min_ids="word_54..word_59" type="chunk" lemmata="the &quot; one china &quot; principle advocate by the mainland" isprenominal="false" pos="dt `` cd nnp '' nn vbn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_57" sentenceid="3" label="location" type="enamex" lemmata="china" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_62..word_63" sentenceid="3" label="np" min_ids="word_62..word_63" type="chunk" lemmata="the mainland" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_69..word_72" sentenceid="3" label="np" min_ids="word_69..word_69" type="chunk" lemmata="accordance with the constitution" isprenominal="false" pos="nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_71..word_72" sentenceid="3" label="np" min_ids="word_71..word_72" type="chunk" lemmata="the constitution" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_76..word_80" sentenceid="4" label="person" min_ids="word_76..word_80" type="enamex" lemmata="president chen shui - bian" isprenominal="false" pos="nn nnp nnp hyph nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_83..word_84" sentenceid="4" label="np" min_ids="word_83..word_84" type="chunk" lemmata="this proposal" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_90..word_95" sentenceid="4" label="np" min_ids="word_90..word_95" type="chunk" lemmata="the &quot; one china &quot; stalemate" isprenominal="false" pos="dt `` cd nnp '' nn" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_93" sentenceid="4" label="location" type="enamex" lemmata="china" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_106..word_114" sentenceid="4" label="np" min_ids="word_106..word_108" type="chunk" lemmata="a set timetable for implement the three direct link" isprenominal="false" pos="dt vbn nn in vbg dt cd jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_111..word_114" sentenceid="4" label="np" min_ids="word_111..word_114" type="chunk" lemmata="the three direct link" isprenominal="false" pos="dt cd jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_112" sentenceid="4" label="percent" type="enamex" lemmata="three" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+</markables>

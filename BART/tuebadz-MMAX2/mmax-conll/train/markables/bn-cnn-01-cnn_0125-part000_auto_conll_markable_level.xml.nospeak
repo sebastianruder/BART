@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_18" span="word_1..word_3" sentenceid="1" label="organization" min_ids="word_1..word_3" type="enamex" lemmata="the united nations" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_6" sentenceid="1" label="location" type="enamex" lemmata="iraqi" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_6..word_18" sentenceid="1" label="np" min_ids="word_6..word_7" type="chunk" lemmata="iraqi claim that the two be in urgent talk to settle a dispute" isprenominal="false" pos="jj nns in dt cd vbp in jj nns to vb dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_9..word_10" sentenceid="1" label="percent" min_ids="word_10..word_10" type="enamex" lemmata="the two" isprenominal="false" pos="dt cd" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_13..word_18" sentenceid="1" label="np" min_ids="word_13..word_14" type="chunk" lemmata="urgent talk to settle a dispute" isprenominal="false" pos="jj nns to vb dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_17..word_18" sentenceid="1" label="np" min_ids="word_17..word_18" type="chunk" lemmata="a dispute" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_20" sentenceid="2" label="location" min_ids="word_20..word_20" type="enamex" lemmata="iraq" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_22..word_23" sentenceid="2" label="np" min_ids="word_22..word_23" type="chunk" lemmata="oil export" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_24..word_26" sentenceid="2" label="date" type="enamex" lemmata="five day ago" isprenominal="false" pos="cd nns rb" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_28" sentenceid="3" label="location" min_ids="word_28..word_28" type="enamex" lemmata="baghdad" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_32" sentenceid="3" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_32..word_33" sentenceid="3" label="np" min_ids="word_32..word_33" type="chunk" lemmata="its customer" isprenominal="false" pos="prp$ nns" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_35..word_43" sentenceid="3" label="np" min_ids="word_35..word_38" type="chunk" lemmata="a 50 cent surcharge on every barrel of oil" isprenominal="false" pos="dt cd nn nn in dt nn in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_36..word_37" sentenceid="3" label="percent" type="enamex" lemmata="50 cent" isprenominal="false" pos="cd nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_40..word_43" sentenceid="3" label="np" min_ids="word_40..word_41" type="chunk" lemmata="every barrel of oil" isprenominal="false" pos="dt nn in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_43" sentenceid="3" label="np" min_ids="word_43..word_43" type="chunk" lemmata="oil" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_45" sentenceid="4" label="np" min_ids="word_45..word_45" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_51..word_60" sentenceid="4" label="np" min_ids="word_51..word_52" type="chunk" lemmata="the sale of oil to country it view as hostile" isprenominal="false" pos="dt nn in nn in nns prp vbz in jj" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_54" sentenceid="4" label="np" min_ids="word_54..word_54" type="chunk" lemmata="oil" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_56..word_60" sentenceid="4" label="np" min_ids="word_56..word_56" type="chunk" lemmata="country it view as hostile" isprenominal="false" pos="nns prp vbz in jj" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_57" sentenceid="4" label="np" min_ids="word_57..word_57" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_62" sentenceid="5" label="np" min_ids="word_62..word_62" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_66..word_68" sentenceid="5" label="np" min_ids="word_66..word_68" type="chunk" lemmata="any specific example" isprenominal="false" pos="dt jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_71..word_73" sentenceid="5" label="location" min_ids="word_71..word_73" type="enamex" lemmata="the united states" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_75..word_77" sentenceid="5" label="np" min_ids="word_75..word_77" type="chunk" lemmata="an obvious target" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_79" sentenceid="6" label="location" min_ids="word_79..word_79" type="enamex" lemmata="iraq" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_81..word_90" sentenceid="6" label="np" min_ids="word_81..word_84" type="chunk" lemmata="the sixth largest supplier of crude oil to the u.s." isprenominal="false" pos="dt jj jjs nn in jj nn in dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_82" sentenceid="6" label="percent" type="enamex" lemmata="sixth" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_86..word_87" sentenceid="6" label="np" min_ids="word_86..word_87" type="chunk" lemmata="crude oil" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_89..word_90" sentenceid="6" label="location" min_ids="word_90..word_90" type="enamex" lemmata="the u.s." isprenominal="false" pos="dt nnp" speaker="-" mmax_level="markable" />
+</markables>

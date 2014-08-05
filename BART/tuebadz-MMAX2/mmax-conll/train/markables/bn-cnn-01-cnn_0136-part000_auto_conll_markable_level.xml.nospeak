@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_13" span="word_1..word_2" sentenceid="1" label="location" min_ids="word_1..word_1" type="enamex" lemmata="israel 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_1..word_4" sentenceid="1" label="organization" min_ids="word_1..word_4" type="enamex" lemmata="israel 's labor party" isprenominal="false" pos="nnp pos nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_7..word_8" sentenceid="1" label="person" min_ids="word_7..word_8" type="enamex" lemmata="ehud barak" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_9" sentenceid="1" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_9..word_13" sentenceid="1" label="np" min_ids="word_9..word_10" type="chunk" lemmata="its candidate for prime minister" isprenominal="false" pos="prp$ nn in nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_12..word_13" sentenceid="1" label="np" min_ids="word_12..word_13" type="chunk" lemmata="prime minister" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_15" sentenceid="2" label="time" min_ids="word_15..word_15" type="enamex" lemmata="hours" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_17..word_18" sentenceid="2" label="np" min_ids="word_17..word_18" type="chunk" lemmata="the announcement" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_20" sentenceid="2" label="person" min_ids="word_20..word_20" type="enamex" lemmata="barak" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_22" sentenceid="2" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_22..word_23" sentenceid="2" label="np" min_ids="word_22..word_23" type="chunk" lemmata="his resignation" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_25..word_26" sentenceid="2" label="np" min_ids="word_25..word_26" type="chunk" lemmata="the post" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_28..word_37" sentenceid="2" label="np" min_ids="word_28..word_29" type="chunk" lemmata="a move that force a special election within 60 day" isprenominal="false" pos="dt nn wdt vbz dt jj nn in cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_32..word_37" sentenceid="2" label="np" min_ids="word_32..word_34" type="chunk" lemmata="a special election within 60 day" isprenominal="false" pos="dt jj nn in cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_39" sentenceid="3" label="np" min_ids="word_39..word_39" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_43" sentenceid="3" label="np" min_ids="word_43..word_43" type="chunk" lemmata="office" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_45..word_46" sentenceid="3" label="np" min_ids="word_45..word_46" type="chunk" lemmata="that election" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_50..word_53" sentenceid="4" label="np" min_ids="word_50..word_53" type="chunk" lemmata="the opposition likud party" isprenominal="false" pos="dt nn nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_52" sentenceid="4" label="organization" type="enamex" lemmata="likud" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_58..word_62" sentenceid="4" label="np" min_ids="word_58..word_59" type="chunk" lemmata="a candidate for prime minister" isprenominal="false" pos="dt nn in nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_61..word_62" sentenceid="4" label="np" min_ids="word_61..word_62" type="chunk" lemmata="prime minister" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+</markables>

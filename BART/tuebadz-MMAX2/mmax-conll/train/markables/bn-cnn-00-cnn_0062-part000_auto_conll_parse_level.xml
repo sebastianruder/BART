@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_16" tag="(S1 (S (NP (NP (DT The) (NNP Chicago) (NN suburb)) (PP (IN of) (NP (NNP Arlington) (NNP Heights)))) (VP (VBZ is) (NP (NP (DT the) (JJ first) (NN stop)) (PP (IN for) (NP (NP (NNP George) (NNP W.) (NNP Bush)) (NP (NN today)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_17..word_40" tag="(S1 (S (PP (IN As) (NP (NP (NN part)) (PP (IN of) (NP (PRP$ his) (NML (NNP Barnstorm) (CC for) (NNP Reform)) (NN tour))))) (, ,) (NP (PRP he)) (VP (VBZ is) (VP (VBN joined) (PP (IN by) (NP (NP (JJ Republican) (NNS governors)) (PP (IN from) (NP (NP (NNP Connecticut)) (, ,) (NP (NNP South) (NNP Dakota)) (, ,) (CC and) (NP (NNP Montana)))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_41..word_49" tag="(S1 (S (NP (NP (DT The) (NN message)) (PP (IN for) (NP (DT the) (NN morning)))) (VP (VBD was) (NP (NN education) (NN reform))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_50..word_69" tag="(S1 (S (NP (DT The) (NNP Texas) (NN governor)) (VP (VBZ stops) (PP (IN in) (NP (NP (NP (NNP Gore) (POS 's)) (NN home) (NN state)) (PP (IN of) (NP (NNP Tennessee))) (NP (DT this) (NN afternoon)))) (PP (IN for) (NP (NP (NNS remarks)) (PP (IN at) (NP (DT a) (JJ middle) (NN school)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_70..word_84" tag="(S1 (S (NP (NN Tonight)) (, ,) (NP (NNP Bush)) (VP (VBZ holds) (SBAR (WHNP (WP what)) (S (VP (VBZ 's) (VP (VBN called) (S (NP (NP (DT a) (NN victory) (NN rally)) (PP (IN in) (NP (NP (NNP Jacksonville)) (, ,) (NP (NNP Florida))))))))))) (. .)))" mmax_level="parse" />
+</markables>

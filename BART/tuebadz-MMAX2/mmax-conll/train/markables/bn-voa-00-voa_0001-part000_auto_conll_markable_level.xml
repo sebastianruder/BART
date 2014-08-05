@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1" sentenceid="1" label="np" min_ids="word_1..word_1" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_3..word_7" sentenceid="1" label="person" min_ids="word_3..word_4" type="enamex" lemmata="david coller , voa news" isprenominal="false" pos="nnp nnp , nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_6..word_7" sentenceid="1" label="organization" min_ids="word_6..word_7" type="enamex" lemmata="voa news" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_9..word_14" sentenceid="2" label="np" min_ids="word_9..word_9" type="chunk" lemmata="clashes between palestinians and security force" isprenominal="false" pos="nns in nnps cc nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_11" sentenceid="2" label="location" min_ids="word_11..word_11" type="enamex" lemmata="palestinians" isprenominal="false" pos="nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_11..word_14" sentenceid="2" label="np" min_ids="word_11..word_14" type="chunk" lemmata="palestinians and security force" isprenominal="false" pos="nnps cc nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_13..word_14" sentenceid="2" label="np" min_ids="word_13..word_14" type="chunk" lemmata="security force" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_16..word_18" sentenceid="2" label="location" min_ids="word_16..word_18" type="enamex" lemmata="the west bank" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_16..word_20" sentenceid="2" label="location" min_ids="word_17..word_20" type="enamex" lemmata="the west bank and gaza" isprenominal="false" pos="dt nnp nnp cc nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_20" sentenceid="2" label="np" min_ids="word_20..word_20" type="chunk" lemmata="gaza" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_22" sentenceid="2" label="date" min_ids="word_22..word_22" type="enamex" lemmata="sunday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_24..word_30" sentenceid="2" label="date" min_ids="word_24..word_27" type="enamex" lemmata="a fourth straight day of deadly confrontation" isprenominal="false" pos="dt jj jj nn in jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_29..word_30" sentenceid="2" label="np" min_ids="word_29..word_30" type="chunk" lemmata="deadly confrontation" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_33..word_35" sentenceid="3" label="np" min_ids="word_33..word_35" type="chunk" lemmata="the 27 fatality" isprenominal="false" pos="dt cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_34" sentenceid="3" label="percent" type="enamex" lemmata="27" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_37..word_42" sentenceid="3" label="np" min_ids="word_37..word_42" type="chunk" lemmata="an israeli - arab border guard" isprenominal="false" pos="dt nnp hyph nnp nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_37..word_51" sentenceid="3" label="np" min_ids="word_37..word_51" type="chunk" lemmata="an israeli - arab border guard and a 10 - year - old palestinian boy" isprenominal="false" pos="dt nnp hyph nnp nn nn cc dt cd hyph nn hyph jj jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_38" sentenceid="3" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_44..word_51" sentenceid="3" label="np" min_ids="word_44..word_51" type="chunk" lemmata="a 10 - year - old palestinian boy" isprenominal="false" pos="dt cd hyph nn hyph jj jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_45..word_49" sentenceid="3" label="date" type="enamex" lemmata="10 - year - old" isprenominal="false" pos="cd hyph nn hyph jj" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_50" sentenceid="3" label="location" type="enamex" lemmata="palestinian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_53..word_54" sentenceid="4" label="np" min_ids="word_53..word_54" type="chunk" lemmata="the clash" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_57..word_58" sentenceid="4" label="location" min_ids="word_57..word_58" type="enamex" lemmata="east jerusalem" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_60..word_67" sentenceid="4" label="location" min_ids="word_60..word_62" type="enamex" lemmata="the palestinian territory and arab village in israel" isprenominal="false" pos="dt jj nns cc jj nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_64" sentenceid="4" label="location" type="enamex" lemmata="arab" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_64..word_67" sentenceid="4" label="np" min_ids="word_64..word_65" type="chunk" lemmata="arab village in israel" isprenominal="false" pos="jj nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_67" sentenceid="4" label="location" min_ids="word_67..word_67" type="enamex" lemmata="israel" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_69..word_71" sentenceid="5" label="organization" min_ids="word_69..word_71" type="enamex" lemmata="the israeli army" isprenominal="false" pos="dt jj nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_73..word_75" sentenceid="5" label="np" min_ids="word_73..word_75" type="chunk" lemmata="the border guard" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_78..word_82" sentenceid="5" label="np" min_ids="word_78..word_79" type="chunk" lemmata="a clash with palestinian rioter" isprenominal="false" pos="dt nn in jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_81" sentenceid="5" label="location" type="enamex" lemmata="palestinian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_81..word_82" sentenceid="5" label="np" min_ids="word_81..word_82" type="chunk" lemmata="palestinian rioter" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_84..word_85" sentenceid="5" label="np" min_ids="word_84..word_84" type="chunk" lemmata="joseph 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_34" span="word_84..word_86" sentenceid="5" label="object" min_ids="word_84..word_86" type="enamex" lemmata="joseph 's tomb" isprenominal="false" pos="nnp pos nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_88..word_97" sentenceid="5" label="np" min_ids="word_88..word_92" type="chunk" lemmata="a fortified jewish pilgrimage site in palestinian - control nablus" isprenominal="false" pos="dt jj jj nn nn in nnp hyph vbn nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_35" span="word_90" sentenceid="5" label="location" type="enamex" lemmata="jewish" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_36" span="word_94" sentenceid="5" label="location" type="enamex" lemmata="palestinian" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_37" span="word_94..word_97" sentenceid="5" label="location" min_ids="word_94..word_97" type="enamex" lemmata="palestinian - control nablus" isprenominal="false" pos="nnp hyph vbn nnp" speaker="-" mmax_level="markable" />
+</markables>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_14" span="word_1..word_3" sentenceid="1" label="organization" min_ids="word_1..word_3" type="enamex" lemmata="bob evans inc." isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_5" sentenceid="1" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_5..word_6" sentenceid="1" label="np" min_ids="word_5..word_6" type="chunk" lemmata="its board" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_8..word_18" sentenceid="1" label="np" min_ids="word_8..word_9" type="chunk" lemmata="the purchase of as many as 500,000 share of its common" isprenominal="false" pos="dt nn in rb jj in cd nns in prp$ jj" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_11..word_14" sentenceid="1" label="percent" type="enamex" lemmata="as many as 500,000" isprenominal="false" pos="rb jj in cd" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_11..word_15" sentenceid="1" label="np" min_ids="word_11..word_15" type="chunk" lemmata="as many as 500,000 share" isprenominal="false" pos="rb jj in cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_17" sentenceid="1" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_17..word_18" sentenceid="1" label="np" min_ids="word_17..word_18" type="chunk" lemmata="its common" isprenominal="false" pos="prp$ jj" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_20..word_21" sentenceid="2" label="np" min_ids="word_20..word_21" type="chunk" lemmata="the stock" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_27..word_29" sentenceid="2" label="np" min_ids="word_27..word_29" type="chunk" lemmata="the open market" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_32..word_34" sentenceid="2" label="np" min_ids="word_32..word_34" type="chunk" lemmata="privately negotiate transaction" isprenominal="false" pos="rb vbn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_40..word_41" sentenceid="2" label="np" min_ids="word_40..word_41" type="chunk" lemmata="treasury share" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_43..word_44" sentenceid="2" label="np" min_ids="word_43..word_44" type="chunk" lemmata="stock option" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_43..word_49" sentenceid="2" label="np" min_ids="word_43..word_49" type="chunk" lemmata="stock option or other general corporate purpose" isprenominal="false" pos="nn nns cc jj jj jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_46..word_49" sentenceid="2" label="np" min_ids="word_46..word_49" type="chunk" lemmata="other general corporate purpose" isprenominal="false" pos="jj jj jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_51..word_52" sentenceid="3" label="np" min_ids="word_51..word_52" type="chunk" lemmata="the program" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_54..word_55" sentenceid="3" label="date" min_ids="word_54..word_55" type="enamex" lemmata="april 27" isprenominal="false" pos="nnp cd" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_57..word_59" sentenceid="4" label="np" min_ids="word_57..word_59" type="chunk" lemmata="the restaurant operator" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_61..word_62" sentenceid="4" label="percent" type="enamex" lemmata="32.2 million" isprenominal="false" pos="cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_61..word_68" sentenceid="4" label="np" min_ids="word_61..word_63" type="chunk" lemmata="32.2 million share outstanding as of sept. 29" isprenominal="false" pos="cd cd nns jj in in nnp cd" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_67..word_68" sentenceid="4" label="date" min_ids="word_67..word_68" type="enamex" lemmata="sept. 29" isprenominal="false" pos="nnp cd" speaker="-" mmax_level="markable" />
+</markables>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_9" span="word_3" sentenceid="1" label="location" min_ids="word_3..word_3" type="enamex" lemmata="asia" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_5..word_6" sentenceid="1" label="person" min_ids="word_5..word_6" type="enamex" lemmata="president clinton" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_8..word_9" sentenceid="1" label="np" min_ids="word_8..word_9" type="chunk" lemmata="a bill" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_10" sentenceid="1" label="date" min_ids="word_10..word_10" type="enamex" lemmata="today" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_12" sentenceid="1" label="location" min_ids="word_12..word_12" type="enamex" lemmata="china" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_13..word_16" sentenceid="1" label="np" min_ids="word_13..word_16" type="chunk" lemmata="permanent normal trade relation" isprenominal="false" pos="jj jj nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_21..word_28" sentenceid="2" label="np" min_ids="word_21..word_23" type="chunk" lemmata="the annual review of china 's trade status" isprenominal="false" pos="dt jj nn in nnp pos nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_25..word_26" sentenceid="2" label="location" min_ids="word_25..word_25" type="enamex" lemmata="china 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_25..word_28" sentenceid="2" label="np" min_ids="word_25..word_28" type="chunk" lemmata="china 's trade status" isprenominal="false" pos="nnp pos nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_31..word_34" sentenceid="2" label="np" min_ids="word_31..word_31" type="chunk" lemmata="tariff on chinese import" isprenominal="false" pos="nns in jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_33" sentenceid="2" label="location" type="enamex" lemmata="chinese" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_33..word_34" sentenceid="2" label="np" min_ids="word_33..word_34" type="chunk" lemmata="chinese import" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_36" sentenceid="3" label="location" min_ids="word_36..word_36" type="enamex" lemmata="china" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_39" sentenceid="3" label="np" min_ids="word_39..word_39" type="chunk" lemmata="return" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_45" sentenceid="3" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_45..word_46" sentenceid="3" label="np" min_ids="word_45..word_46" type="chunk" lemmata="its market" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_49..word_52" sentenceid="3" label="np" min_ids="word_49..word_49" type="chunk" lemmata="goods from the u.s" isprenominal="false" pos="nns in dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_51..word_52" sentenceid="3" label="location" min_ids="word_52..word_52" type="enamex" lemmata="the u.s" isprenominal="false" pos="dt nnp" speaker="-" mmax_level="markable" />
+</markables>

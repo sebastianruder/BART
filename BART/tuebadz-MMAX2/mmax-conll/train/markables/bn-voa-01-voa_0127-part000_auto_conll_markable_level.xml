@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_19" span="word_1" sentenceid="1" label="organization" type="enamex" lemmata="nato" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_1..word_3" sentenceid="1" label="np" min_ids="word_1..word_3" type="chunk" lemmata="nato led peacekeeper" isprenominal="false" pos="nnp nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_6" sentenceid="1" label="location" type="enamex" lemmata="yugoslav" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_6..word_7" sentenceid="1" label="np" min_ids="word_6..word_7" type="chunk" lemmata="yugoslav authority" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_6..word_12" sentenceid="1" label="np" min_ids="word_6..word_12" type="chunk" lemmata="yugoslav authority and ethnic - albanian militant" isprenominal="false" pos="jj nns cc jj hyph jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_9..word_12" sentenceid="1" label="np" min_ids="word_9..word_12" type="chunk" lemmata="ethnic - albanian militant" isprenominal="false" pos="jj hyph jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_11" sentenceid="1" label="location" type="enamex" lemmata="albanian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_18..word_24" sentenceid="1" label="np" min_ids="word_18..word_20" type="chunk" lemmata="a new round of fighting near kosovo" isprenominal="false" pos="dt jj nn in nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_22..word_24" sentenceid="1" label="np" min_ids="word_22..word_22" type="chunk" lemmata="fighting near kosovo" isprenominal="false" pos="nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_24" sentenceid="1" label="location" min_ids="word_24..word_24" type="enamex" lemmata="kosovo" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_26..word_27" sentenceid="2" label="np" min_ids="word_26..word_27" type="chunk" lemmata="the tension" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_29..word_30" sentenceid="2" label="date" min_ids="word_29..word_30" type="enamex" lemmata="last week" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_32..word_44" sentenceid="2" label="np" min_ids="word_32..word_35" type="chunk" lemmata="ethnic - albanian rebel attack serb position in the presovo valley of serbia" isprenominal="false" pos="jj hyph jj nns vbg jj nns in dt nnp nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_34" sentenceid="2" label="location" type="enamex" lemmata="albanian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_37" sentenceid="2" label="location" type="enamex" lemmata="serb" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_37..word_44" sentenceid="2" label="np" min_ids="word_37..word_38" type="chunk" lemmata="serb position in the presovo valley of serbia" isprenominal="false" pos="jj nns in dt nnp nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_40..word_42" sentenceid="2" label="np" min_ids="word_40..word_42" type="chunk" lemmata="the presovo valley" isprenominal="false" pos="dt nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_41" sentenceid="2" label="location" type="enamex" lemmata="presovo" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_44" sentenceid="2" label="location" min_ids="word_44..word_44" type="enamex" lemmata="serbia" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_46" sentenceid="2" label="percent" type="enamex" lemmata="four" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_46..word_48" sentenceid="2" label="np" min_ids="word_46..word_48" type="chunk" lemmata="four serb policeman" isprenominal="false" pos="cd jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_47" sentenceid="2" label="location" type="enamex" lemmata="serb" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_50..word_57" sentenceid="3" label="np" min_ids="word_50..word_53" type="chunk" lemmata="the new democratic government of president vladimir kostunica" isprenominal="false" pos="dt jj jj nn in nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_55..word_57" sentenceid="3" label="person" min_ids="word_55..word_57" type="enamex" lemmata="president vladimir kostunica" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_61..word_62" sentenceid="3" label="np" min_ids="word_61..word_62" type="chunk" lemmata="the alliance" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_63..word_64" sentenceid="3" label="np" min_ids="word_63..word_64" type="chunk" lemmata="more time" isprenominal="false" pos="jjr nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_67..word_73" sentenceid="3" label="np" min_ids="word_67..word_68" type="chunk" lemmata="counter attack to drive out the rebel" isprenominal="false" pos="nn nns to vb rp dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_72..word_73" sentenceid="3" label="np" min_ids="word_72..word_73" type="chunk" lemmata="the rebel" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_75..word_76" sentenceid="4" label="person" min_ids="word_75..word_76" type="enamex" lemmata="mr. kostunica" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_78..word_79" sentenceid="4" label="np" min_ids="word_78..word_79" type="chunk" lemmata="the valley" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_80" sentenceid="4" label="date" min_ids="word_80..word_80" type="enamex" lemmata="monday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_85" sentenceid="4" label="np" min_ids="word_85..word_85" type="chunk" lemmata="peace" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_87..word_88" sentenceid="4" label="np" min_ids="word_87..word_88" type="chunk" lemmata="the area" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+</markables>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_19" span="word_3" sentenceid="1" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_3..word_13" sentenceid="1" label="np" min_ids="word_3..word_7" type="chunk" lemmata="his wife and three child the oldest of whom be three" isprenominal="false" pos="prp$ nn cc cd nns dt jjs in wp vbd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_6" sentenceid="1" label="percent" type="enamex" lemmata="three" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_8..word_13" sentenceid="1" label="np" min_ids="word_8..word_9" type="chunk" lemmata="the oldest of whom be three" isprenominal="false" pos="dt jjs in wp vbd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_13" sentenceid="1" label="percent" min_ids="word_13..word_13" type="enamex" lemmata="three" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_15..word_16" sentenceid="1" label="person" min_ids="word_15..word_16" type="enamex" lemmata="christian longo" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_23" sentenceid="2" label="np" min_ids="word_23..word_23" type="chunk" lemmata="prosecutors" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_25" sentenceid="2" label="person" min_ids="word_25..word_25" type="enamex" lemmata="longo" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_27" sentenceid="2" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_27..word_28" sentenceid="2" label="np" min_ids="word_27..word_28" type="chunk" lemmata="his family" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_30" sentenceid="2" label="np" min_ids="word_30..word_30" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_33" sentenceid="2" label="np" min_ids="word_33..word_33" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_33..word_38" sentenceid="2" label="np" min_ids="word_33..word_38" type="chunk" lemmata="he and the life he crave" isprenominal="false" pos="prp cc dt nn prp vbd" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_35..word_38" sentenceid="2" label="np" min_ids="word_35..word_36" type="chunk" lemmata="the life he crave" isprenominal="false" pos="dt nn prp vbd" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_37" sentenceid="2" label="np" min_ids="word_37..word_37" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_40..word_41" sentenceid="3" label="np" min_ids="word_40..word_41" type="chunk" lemmata="the jury" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_44..word_45" sentenceid="3" label="time" min_ids="word_44..word_45" type="enamex" lemmata="three hour" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_48..word_50" sentenceid="3" label="np" min_ids="word_48..word_50" type="chunk" lemmata="a death sentence" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_53..word_54" sentenceid="4" label="organization" min_ids="word_53..word_53" type="enamex" lemmata="cnn 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_53..word_59" sentenceid="4" label="np" min_ids="word_53..word_55" type="chunk" lemmata="cnn 's coverage of the new iraq" isprenominal="false" pos="nnp pos nn in dt jj nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_57..word_59" sentenceid="4" label="location" min_ids="word_58..word_59" type="enamex" lemmata="the new iraq" isprenominal="false" pos="dt jj nnp" speaker="-" mmax_level="markable" />
+</markables>

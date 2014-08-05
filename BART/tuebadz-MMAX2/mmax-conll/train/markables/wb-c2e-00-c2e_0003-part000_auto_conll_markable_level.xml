@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_3" sentenceid="1" label="np" min_ids="word_3..word_3" type="chunk" lemmata="life" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_8..word_14" sentenceid="3" label="np" min_ids="word_8..word_9" type="chunk" lemmata="a student in a university philosophy department" isprenominal="false" pos="dt nn in dt nn nn nn" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_2" span="word_11..word_14" sentenceid="3" label="np" min_ids="word_11..word_14" type="chunk" lemmata="a university philosophy department" isprenominal="false" pos="dt nn nn nn" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_3" span="word_17..word_22" sentenceid="3" label="np" min_ids="word_17..word_18" type="chunk" lemmata="the question of what be life" isprenominal="false" pos="dt nn in wp vbz nn" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_4" span="word_22" sentenceid="3" label="np" min_ids="word_22..word_22" type="chunk" lemmata="life" isprenominal="false" pos="nn" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_5" span="word_25" sentenceid="4" label="np" min_ids="word_25..word_25" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_6" span="word_27..word_29" sentenceid="4" label="np" min_ids="word_27..word_27" type="chunk" lemmata="everyone around he" isprenominal="false" pos="nn in prp" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_7" span="word_29" sentenceid="4" label="np" min_ids="word_29..word_29" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_8" span="word_32..word_35" sentenceid="4" label="np" min_ids="word_32..word_32" type="chunk" lemmata="none of his teacher" isprenominal="false" pos="nn in prp$ nns" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_57" span="word_34" sentenceid="4" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_9" span="word_34..word_35" sentenceid="4" label="np" min_ids="word_34..word_35" type="chunk" lemmata="his teacher" isprenominal="false" pos="prp$ nns" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_10" span="word_40" sentenceid="4" label="np" min_ids="word_40..word_40" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_11" span="word_43" sentenceid="5" label="np" min_ids="word_43..word_43" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_12" span="word_45..word_46" sentenceid="5" label="np" min_ids="word_45..word_46" type="chunk" lemmata="the university" isprenominal="false" pos="dt nn" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_13" span="word_51..word_55" sentenceid="5" label="np" min_ids="word_51..word_53" type="chunk" lemmata="a wise man to ask" isprenominal="false" pos="dt jj nn to vb" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_14" span="word_61" sentenceid="6" label="np" min_ids="word_61..word_61" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_15" span="word_65..word_73" sentenceid="6" label="np" min_ids="word_65..word_68" type="chunk" lemmata="a wise yogi deep in the mountain of india" isprenominal="false" pos="dt jj nnp nn in dt nns in nnp" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_16" span="word_70..word_73" sentenceid="6" label="np" min_ids="word_70..word_71" type="chunk" lemmata="the mountain of india" isprenominal="false" pos="dt nns in nnp" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_53" span="word_73" sentenceid="6" label="location" min_ids="word_73..word_73" type="enamex" lemmata="india" isprenominal="false" pos="nnp" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_17" span="word_75" sentenceid="7" label="np" min_ids="word_75..word_75" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_18" span="word_80..word_81" sentenceid="7" label="np" min_ids="word_80..word_81" type="chunk" lemmata="tortuous road" isprenominal="false" pos="jj nns" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_19" span="word_85..word_87" sentenceid="7" label="np" min_ids="word_85..word_87" type="chunk" lemmata="tower mountain peak" isprenominal="false" pos="vbg nn nns" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_54" span="word_86" sentenceid="7" label="location" type="enamex" lemmata="mountain" isprenominal="false" pos="nn" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_20" span="word_91" sentenceid="7" label="np" min_ids="word_91..word_91" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_21" span="word_93..word_95" sentenceid="7" label="np" min_ids="word_93..word_95" type="chunk" lemmata="this wise man" isprenominal="false" pos="dt jj nn" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_22" span="word_97..word_99" sentenceid="8" label="np" min_ids="word_97..word_99" type="chunk" lemmata="the wise man" isprenominal="false" pos="dt jj nn" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_58" span="word_104" sentenceid="8" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_23" span="word_104..word_105" sentenceid="8" label="np" min_ids="word_104..word_105" type="chunk" lemmata="his eye" isprenominal="false" pos="prp$ nns" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_24" span="word_108..word_109" sentenceid="9" label="np" min_ids="word_108..word_109" type="chunk" lemmata="the student" isprenominal="false" pos="dt nn" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_25" span="word_114" sentenceid="9" label="np" min_ids="word_114..word_114" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_26" span="word_117" sentenceid="9" label="np" min_ids="word_117..word_117" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_55" span="word_121" sentenceid="9" label="time" min_ids="word_121..word_121" type="enamex" lemmata="dawn" isprenominal="false" pos="nn" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_56" span="word_123..word_132" sentenceid="9" label="time" min_ids="word_123..word_123" type="enamex" lemmata="dusk , when the wise man open his eye slightly" isprenominal="false" pos="nn , wrb dt jj nn vbd prp$ nns rb" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_27" span="word_126..word_128" sentenceid="9" label="np" min_ids="word_126..word_128" type="chunk" lemmata="the wise man" isprenominal="false" pos="dt jj nn" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_59" span="word_130" sentenceid="9" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_28" span="word_130..word_131" sentenceid="9" label="np" min_ids="word_130..word_131" type="chunk" lemmata="his eye" isprenominal="false" pos="prp$ nns" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_29" span="word_134..word_135" sentenceid="10" label="np" min_ids="word_134..word_135" type="chunk" lemmata="the student" isprenominal="false" pos="dt nn" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_60" span="word_137" sentenceid="10" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_30" span="word_137..word_138" sentenceid="10" label="np" min_ids="word_137..word_138" type="chunk" lemmata="his chance" isprenominal="false" pos="prp$ nn" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_31" span="word_146" sentenceid="10" label="np" min_ids="word_146..word_146" type="chunk" lemmata="life" isprenominal="false" pos="nn" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_32" span="word_148..word_151" sentenceid="11" label="np" min_ids="word_148..word_150" type="chunk" lemmata="the wise man 's" isprenominal="false" pos="dt jj nn pos" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_33" span="word_148..word_152" sentenceid="11" label="np" min_ids="word_148..word_152" type="chunk" lemmata="the wise man 's gaze" isprenominal="false" pos="dt jj nn pos nn" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_34" span="word_156" sentenceid="11" label="np" min_ids="word_156..word_156" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_35" span="word_161..word_162" sentenceid="11" label="np" min_ids="word_161..word_162" type="chunk" lemmata="the mountain" isprenominal="false" pos="dt nns" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_36" span="word_165" sentenceid="11" label="np" min_ids="word_165..word_165" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_37" span="word_169" sentenceid="11" label="np" min_ids="word_169..word_169" type="chunk" lemmata="life" isprenominal="false" pos="nn" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_38" span="word_171..word_172" sentenceid="11" label="np" min_ids="word_171..word_172" type="chunk" lemmata="a river" isprenominal="false" pos="dt nn" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_39" span="word_174..word_176" sentenceid="12" label="np" min_ids="word_174..word_176" type="chunk" lemmata="the flustered student" isprenominal="false" pos="dt jj nn" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_61" span="word_179" sentenceid="12" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_40" span="word_179..word_180" sentenceid="12" label="np" min_ids="word_179..word_180" type="chunk" lemmata="his foot" isprenominal="false" pos="prp$ nns" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_41" span="word_184" sentenceid="13" label="np" min_ids="word_184..word_184" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_42" span="word_188..word_190" sentenceid="13" label="np" min_ids="word_188..word_190" type="chunk" lemmata="a university course" isprenominal="false" pos="dt nn nn" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_43" span="word_192..word_193" sentenceid="13" label="np" min_ids="word_192..word_193" type="chunk" lemmata="philosophical enlightenment" isprenominal="false" pos="jj nn" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_44" span="word_196..word_208" sentenceid="13" label="np" min_ids="word_196..word_198" type="chunk" lemmata="all this way to hear you say what some little kid might say" isprenominal="false" pos="pdt dt nn to vb prp vb wp dt jj nn md vb" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_45" span="word_201" sentenceid="13" label="np" min_ids="word_201..word_201" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_46" span="word_204..word_206" sentenceid="13" label="np" min_ids="word_204..word_206" type="chunk" lemmata="some little kid" isprenominal="false" pos="dt jj nn" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_47" span="word_214" sentenceid="14" label="np" min_ids="word_214..word_214" type="chunk" lemmata="life" isprenominal="false" pos="nn" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_48" span="word_216..word_218" sentenceid="15" label="np" min_ids="word_216..word_218" type="chunk" lemmata="the wise man" isprenominal="false" pos="dt jj nn" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_49" span="word_223" sentenceid="15" label="np" min_ids="word_223..word_223" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_50" span="word_230" sentenceid="15" label="np" min_ids="word_230..word_230" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_51" span="word_233" sentenceid="15" label="np" min_ids="word_233..word_233" type="chunk" lemmata="life" isprenominal="false" pos="nn" speaker="若逍遥" mmax_level="markable" />
+<markable id="markable_52" span="word_236..word_237" sentenceid="15" label="np" min_ids="word_236..word_237" type="chunk" lemmata="a river" isprenominal="false" pos="dt nn" speaker="若逍遥" mmax_level="markable" />
+</markables>

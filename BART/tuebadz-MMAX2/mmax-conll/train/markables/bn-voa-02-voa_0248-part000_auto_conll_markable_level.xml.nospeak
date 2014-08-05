@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_9" span="word_1" sentenceid="1" label="location" type="enamex" lemmata="us" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_1..word_6" sentenceid="1" label="person" min_ids="word_1..word_6" type="enamex" lemmata="us secretary of defense william cohen" isprenominal="false" pos="nnp nnp in nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_4" sentenceid="1" label="np" min_ids="word_4..word_4" type="chunk" lemmata="defense" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_8" sentenceid="1" label="np" min_ids="word_8..word_8" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_8..word_13" sentenceid="1" label="np" min_ids="word_8..word_13" type="chunk" lemmata="he and top us military commander" isprenominal="false" pos="prp cc jj nnp jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_10..word_13" sentenceid="1" label="np" min_ids="word_10..word_13" type="chunk" lemmata="top us military commander" isprenominal="false" pos="jj nnp jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_11" sentenceid="1" label="location" type="enamex" lemmata="us" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_17..word_27" sentenceid="1" label="np" min_ids="word_17..word_17" type="chunk" lemmata="threat to the us destroyer cole in yemen three month ago" isprenominal="false" pos="nns in dt nnp nn nnp in nnp cd nns rb" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_19..word_27" sentenceid="1" label="np" min_ids="word_19..word_21" type="chunk" lemmata="the us destroyer cole in yemen three month ago" isprenominal="false" pos="dt nnp nn nnp in nnp cd nns rb" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_20" sentenceid="1" label="location" type="enamex" lemmata="us" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_22" sentenceid="1" label="object" min_ids="word_22..word_22" type="enamex" lemmata="cole" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_24" sentenceid="1" label="location" min_ids="word_24..word_24" type="enamex" lemmata="yemen" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_25..word_27" sentenceid="1" label="date" type="enamex" lemmata="three month ago" isprenominal="false" pos="cd nns rb" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_29..word_37" sentenceid="2" label="np" min_ids="word_29..word_31" type="chunk" lemmata="a navy report on the suicide bombing release today" isprenominal="false" pos="dt nnp nn in dt nn nn vbn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_30" sentenceid="2" label="organization" type="enamex" lemmata="navy" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_33..word_37" sentenceid="2" label="np" min_ids="word_33..word_35" type="chunk" lemmata="the suicide bombing release today" isprenominal="false" pos="dt nn nn vbn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_37" sentenceid="2" label="date" min_ids="word_37..word_37" type="enamex" lemmata="today" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_41..word_43" sentenceid="2" label="np" min_ids="word_41..word_43" type="chunk" lemmata="any disciplinary action" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+</markables>

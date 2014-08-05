@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_2" sentenceid="1" label="np" min_ids="word_1..word_2" type="chunk" lemmata="aids activist" isprenominal="false" pos="nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_5..word_8" sentenceid="1" label="date" min_ids="word_5..word_8" type="enamex" lemmata="world aids day today" isprenominal="false" pos="nnp nnp nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_10..word_23" sentenceid="1" label="np" min_ids="word_10..word_11" type="chunk" lemmata="an effort to battle complacency and ignorance about what they call a global epidemic" isprenominal="false" pos="dt nn to vb nn cc nn in wp prp vbp dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_14..word_16" sentenceid="1" label="np" min_ids="word_14..word_16" type="chunk" lemmata="complacency and ignorance" isprenominal="false" pos="nn cc nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_19" sentenceid="1" label="np" min_ids="word_19..word_19" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_21..word_23" sentenceid="1" label="np" min_ids="word_21..word_23" type="chunk" lemmata="a global epidemic" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_25..word_26" sentenceid="2" label="np" min_ids="word_25..word_26" type="chunk" lemmata="health official" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_28..word_29" sentenceid="2" label="percent" type="enamex" lemmata="36 million" isprenominal="false" pos="cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_28..word_30" sentenceid="2" label="np" min_ids="word_28..word_30" type="chunk" lemmata="36 million people" isprenominal="false" pos="cd cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_34..word_37" sentenceid="2" label="np" min_ids="word_34..word_36" type="chunk" lemmata="the incurable disease worldwide" isprenominal="false" pos="dt jj nn rb" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_39..word_40" sentenceid="3" label="percent" min_ids="word_39..word_40" type="enamex" lemmata="five million" isprenominal="false" pos="cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_44..word_46" sentenceid="3" label="date" min_ids="word_44..word_46" type="enamex" lemmata="the last year" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_48..word_50" sentenceid="4" label="organization" min_ids="word_48..word_50" type="enamex" lemmata="the united nations" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_52" sentenceid="4" label="np" min_ids="word_52..word_52" type="chunk" lemmata="man" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_55..word_58" sentenceid="4" label="np" min_ids="word_55..word_55" type="chunk" lemmata="responsibility for their behavior" isprenominal="false" pos="nn in prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_57" sentenceid="4" label="np" type="chunk" lemmata="their" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_57..word_58" sentenceid="4" label="np" min_ids="word_57..word_58" type="chunk" lemmata="their behavior" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_61..word_66" sentenceid="4" label="np" min_ids="word_61..word_62" type="chunk" lemmata="the spread of the deadly virus" isprenominal="false" pos="dt nn in dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_64..word_66" sentenceid="4" label="np" min_ids="word_64..word_66" type="chunk" lemmata="the deadly virus" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_68" sentenceid="5" label="organization" type="enamex" lemmata="u.n." isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_68..word_73" sentenceid="5" label="person" min_ids="word_68..word_73" type="enamex" lemmata="u.n. secretary - general kofi annan" isprenominal="false" pos="nnp nnp hyph nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_75" sentenceid="5" label="np" min_ids="word_75..word_75" type="chunk" lemmata="man" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_78..word_80" sentenceid="5" label="np" min_ids="word_78..word_80" type="chunk" lemmata="a particular difference" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_87..word_88" sentenceid="5" label="np" min_ids="word_87..word_88" type="chunk" lemmata="fewer risk" isprenominal="false" pos="jjr nns" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_92..word_98" sentenceid="5" label="np" min_ids="word_92..word_93" type="chunk" lemmata="the issue of aids head - on" isprenominal="false" pos="dt nn in nn vb hyph rp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_95..word_98" sentenceid="5" label="np" min_ids="word_95..word_95" type="chunk" lemmata="aids head - on" isprenominal="false" pos="nn vb hyph rp" speaker="-" mmax_level="markable" />
+</markables>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/coref">
+  <markable id="markable_1" span="word_59..word_77" coref_set="set_10" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_2" span="word_68..word_68" coref_set="set_10" dir_antecedent="markable_1" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_3" span="word_81..word_81" coref_set="set_10" dir_antecedent="markable_2" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_4" span="word_93..word_93" coref_set="set_10" dir_antecedent="markable_3" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_5" span="word_138..word_161" coref_set="set_37" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_6" span="word_204..word_204" coref_set="set_37" dir_antecedent="markable_5" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_7" span="word_256..word_284" coref_set="set_24" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_8" span="word_287..word_288" coref_set="set_24" dir_antecedent="markable_7" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_9" span="word_294..word_312" coref_set="set_2" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_10" span="word_296..word_296" coref_set="set_37" dir_antecedent="markable_6" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_11" span="word_302..word_302" coref_set="set_2" dir_antecedent="markable_9" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_12" span="word_322..word_342" coref_set="set_15" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_13" span="word_401..word_401" coref_set="set_15" dir_antecedent="markable_12" mention="unknown" etype="unknown" mmax_level="coref" />
+</markables>

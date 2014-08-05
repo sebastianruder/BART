@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_20" tag="(S1 (S (NP (NNP American) (NNP Telephone) (CC &amp;) (NNP Telegraph) (NNP Co.)) (VP (VBD said) (SBAR (S (NP (PRP it)) (VP (MD will) (VP (VB lay) (PRT (RP off)) (NP (NP (QP (CD 75) (TO to) (CD 85)) (NNS technicians)) (ADVP (RB here))) (, ,) (S (ADJP (JJ effective) (NP (NNP Nov.) (CD 1))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_21..word_39" tag="(S1 (S (NP (DT The) (NNS workers)) (VP (VP (VB install)) (, ,) (VP (VB maintain) (CC and) (VB repair) (NP (PRP$ its) (JJ private) (NN branch) (NNS exchanges))) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBP are) (NP (JJ large) (NN intracompany) (NN telephone) (NNS networks)))))) (. .)))" mmax_level="parse" />
+</markables>

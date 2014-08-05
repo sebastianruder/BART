@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/coref">
+  <markable id="markable_1" span="word_13..word_28" coref_set="set_0" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_2" span="word_33..word_33" coref_set="set_1" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_3" span="word_45..word_68" coref_set="set_2" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_4" span="word_83..word_91" coref_set="set_0" dir_antecedent="markable_1" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_5" span="word_102..word_102" coref_set="set_0" dir_antecedent="markable_4" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_6" span="word_120..word_122" coref_set="set_2" dir_antecedent="markable_3" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_7" span="word_145..word_146" coref_set="set_2" dir_antecedent="markable_6" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_8" span="word_183..word_184" coref_set="set_0" dir_antecedent="markable_5" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_9" span="word_198..word_199" coref_set="set_1" dir_antecedent="markable_2" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_10" span="word_201..word_202" coref_set="set_0" dir_antecedent="markable_8" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_11" span="word_205..word_205" coref_set="set_0" dir_antecedent="markable_10" mention="unknown" etype="unknown" mmax_level="coref" />
+  <markable id="markable_12" span="word_214..word_214" coref_set="set_0" dir_antecedent="markable_11" mention="unknown" etype="unknown" mmax_level="coref" />
+</markables>

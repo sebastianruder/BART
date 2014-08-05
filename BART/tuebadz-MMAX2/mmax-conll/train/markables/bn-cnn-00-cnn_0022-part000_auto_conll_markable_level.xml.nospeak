@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_35" span="word_2" sentenceid="1" label="np" type="chunk" lemmata="our" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_2..word_4" sentenceid="1" label="np" min_ids="word_2..word_4" type="chunk" lemmata="our top story" isprenominal="false" pos="prp$ jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_6" sentenceid="1" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_6..word_10" sentenceid="1" label="person" min_ids="word_6..word_10" type="enamex" lemmata="israeli prime minister ehud barak" isprenominal="false" pos="jj nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_36" span="word_13" sentenceid="1" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_13..word_26" sentenceid="1" label="np" min_ids="word_13..word_14" type="chunk" lemmata="his threat to take action against palestinians if violence do not stop by monday" isprenominal="false" pos="prp$ nn to vb nn in nnps in nn vbz rb vb in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_17..word_19" sentenceid="1" label="np" min_ids="word_17..word_17" type="chunk" lemmata="action against palestinians" isprenominal="false" pos="nn in nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_19" sentenceid="1" label="location" min_ids="word_19..word_19" type="enamex" lemmata="palestinians" isprenominal="false" pos="nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_21" sentenceid="1" label="np" min_ids="word_21..word_21" type="chunk" lemmata="violence" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_26" sentenceid="1" label="date" min_ids="word_26..word_26" type="enamex" lemmata="monday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_28" sentenceid="2" label="person" min_ids="word_28..word_28" type="enamex" lemmata="barak" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_30..word_31" sentenceid="2" label="organization" type="enamex" lemmata="palestinian authority" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_30..word_34" sentenceid="2" label="person" min_ids="word_30..word_34" type="enamex" lemmata="palestinian authority president yasser arafat" isprenominal="false" pos="nnp nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_36..word_41" sentenceid="2" label="np" min_ids="word_36..word_41" type="chunk" lemmata="the power to halt the clash" isprenominal="false" pos="dt nn to vb dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_40..word_41" sentenceid="2" label="np" min_ids="word_40..word_41" type="chunk" lemmata="the clash" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_43" sentenceid="3" label="location" min_ids="word_43..word_43" type="enamex" lemmata="palestinians" isprenominal="false" pos="nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_45..word_46" sentenceid="3" label="location" min_ids="word_46..word_46" type="enamex" lemmata="the israelis" isprenominal="false" pos="dt nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_49..word_50" sentenceid="3" label="np" min_ids="word_49..word_50" type="chunk" lemmata="the tension" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_52..word_55" sentenceid="4" label="person" min_ids="word_52..word_55" type="enamex" lemmata="first lady hillary clinton" isprenominal="false" pos="nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_52..word_59" sentenceid="4" label="person" min_ids="word_52..word_59" type="enamex" lemmata="first lady hillary clinton and representative rick lazio" isprenominal="false" pos="nnp nnp nnp nnp cc nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_57..word_59" sentenceid="4" label="np" min_ids="word_57..word_59" type="chunk" lemmata="representative rick lazio" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_61..word_66" sentenceid="4" label="np" min_ids="word_61..word_63" type="chunk" lemmata="a second time in their race" isprenominal="false" pos="dt jj nn in prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_62" sentenceid="4" label="percent" type="enamex" lemmata="second" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_37" span="word_65" sentenceid="4" label="np" type="chunk" lemmata="their" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_65..word_66" sentenceid="4" label="np" min_ids="word_65..word_66" type="chunk" lemmata="their race" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_68..word_72" sentenceid="4" label="np" min_ids="word_68..word_72" type="chunk" lemmata="a new york senate seat" isprenominal="false" pos="dt nnp nnp nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_69..word_70" sentenceid="4" label="location" type="enamex" lemmata="new york" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_71" sentenceid="4" label="organization" type="enamex" lemmata="senate" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_74..word_75" sentenceid="5" label="location" min_ids="word_74..word_74" type="enamex" lemmata="yugoslavia 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_74..word_77" sentenceid="5" label="np" min_ids="word_74..word_77" type="chunk" lemmata="yugoslavia 's new president" isprenominal="false" pos="nnp pos jj nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_82..word_83" sentenceid="5" label="np" min_ids="word_82..word_83" type="chunk" lemmata="a government" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_85..word_88" sentenceid="5" label="np" min_ids="word_85..word_85" type="chunk" lemmata="support from his supporter" isprenominal="false" pos="nn in prp$ nns" speaker="-" mmax_level="markable" />
+<markable id="markable_38" span="word_87" sentenceid="5" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_87..word_88" sentenceid="5" label="np" min_ids="word_87..word_88" type="chunk" lemmata="his supporter" isprenominal="false" pos="prp$ nns" speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_90" sentenceid="6" label="person" type="enamex" lemmata="milosevic" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_90..word_91" sentenceid="6" label="np" min_ids="word_90..word_91" type="chunk" lemmata="milosevic himself" isprenominal="false" pos="nnp prp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_95" sentenceid="6" label="np" min_ids="word_95..word_95" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_34" span="word_99" sentenceid="6" label="location" min_ids="word_99..word_99" type="enamex" lemmata="yugoslavia" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_101..word_103" sentenceid="6" label="np" min_ids="word_101..word_103" type="chunk" lemmata="a political force" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+</markables>

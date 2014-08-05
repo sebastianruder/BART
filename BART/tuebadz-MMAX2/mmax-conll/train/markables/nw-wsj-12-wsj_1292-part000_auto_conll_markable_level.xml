@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_8" span="word_1..word_5" sentenceid="1" label="organization" min_ids="word_1..word_5" type="enamex" lemmata="standard &amp;amp; poor 's corp." isprenominal="false" pos="nnp cc nnp pos nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_7" sentenceid="1" label="np" min_ids="word_7..word_7" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_10..word_18" sentenceid="1" label="organization" min_ids="word_10..word_13" type="enamex" lemmata="john h. harland co. , an atlanta check printer" isprenominal="false" pos="nnp nnp nnp nnp , dt nnp nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_15..word_18" sentenceid="1" label="np" min_ids="word_15..word_18" type="chunk" lemmata="an atlanta check printer" isprenominal="false" pos="dt nnp nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_16" sentenceid="1" label="location" type="enamex" lemmata="atlanta" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_21" sentenceid="1" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_21..word_25" sentenceid="1" label="np" min_ids="word_21..word_25" type="chunk" lemmata="its 500 - stock index" isprenominal="false" pos="prp$ cd hyph nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_22" sentenceid="1" label="percent" type="enamex" lemmata="500" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_29..word_34" sentenceid="1" label="np" min_ids="word_29..word_30" type="chunk" lemmata="the close of trading on wednesday" isprenominal="false" pos="dt nn in nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_32..word_34" sentenceid="1" label="np" min_ids="word_32..word_32" type="chunk" lemmata="trading on wednesday" isprenominal="false" pos="nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_34" sentenceid="1" label="date" min_ids="word_34..word_34" type="enamex" lemmata="wednesday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_36..word_46" sentenceid="2" label="organization" min_ids="word_36..word_39" type="enamex" lemmata="american medical international inc. , a new york hospital operator ," isprenominal="false" pos="nnp nnp nnp nnp , dt nnp nnp nn nn ," speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_41..word_45" sentenceid="2" label="np" min_ids="word_41..word_45" type="chunk" lemmata="a new york hospital operator" isprenominal="false" pos="dt nnp nnp nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_42..word_43" sentenceid="2" label="location" type="enamex" lemmata="new york" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_51..word_52" sentenceid="2" label="np" min_ids="word_51..word_52" type="chunk" lemmata="the index" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_54..word_55" sentenceid="2" label="np" min_ids="word_54..word_55" type="chunk" lemmata="that time" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_57..word_58" sentenceid="3" label="organization" min_ids="word_57..word_58" type="enamex" lemmata="american medical" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+</markables>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_20" tag="(S1 (S (S (NP (JJ Canadian) (JJ retail) (NNS sales)) (VP (VBD rose) (NP (CD 0.2) (NN %)) (PP (IN in) (NP (NNP August))) (PP (IN from) (NP (NNP July))))) (, ,) (NP (NP (NNP Statistics) (NNP Canada)) (, ,) (NP (DT a) (JJ federal) (NN agency)) (, ,)) (VP (VBD said)) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_21..word_31" tag="(S1 (S (NP (DT The) (NNP August) (NN increase)) (VP (VBD followed) (NP (NP (DT a) (NML (CD 0.3) (NN %)) (NN decline)) (PP (IN in) (NP (NNP July))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_32..word_56" tag="(S1 (S (S (PP (IN During) (NP (DT the) (JJ past) (CD four) (NNS months))) (, ,) (NP (JJ retail) (NNS sales)) (VP (VBP have) (VP (VBN remained) (ADJP (RB generally) (JJ weak)) (, ,) (PP (VBG advancing) (NP (NP (DT an) (JJ average) (CD 0.2) (NN %)) (NP (DT a) (NN month))))))) (, ,) (NP (DT the) (NN agency)) (VP (VBD said)) (. .)))" mmax_level="parse" />
+</markables>

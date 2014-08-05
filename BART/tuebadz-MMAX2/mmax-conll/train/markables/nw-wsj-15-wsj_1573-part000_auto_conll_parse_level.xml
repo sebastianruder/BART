@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_24" tag="(S1 (S (NP (NP (NNS Prices)) (PP (IN for) (NP (NP (NNS seats)) (PP (IN on) (NP (DT the) (NML (NNP New) (NNP York)) (NNP Stock) (NNP Exchange)))))) (VP (VBP are) (VP (VBG recovering) (NP (DT a) (NN bit)) (PP (IN after) (S (VP (VBG hitting) (NP (DT a) (NML (CD four) (HYPH -) (NN year)) (NN low)) (NP (ADVP (RBR earlier)) (DT this) (NN month))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_25..word_42" tag="(S1 (S (NP (NP (CD Two) (NNS seats)) (PP (IN on) (NP (DT the) (NNP Big) (NNP Board)))) (VP (VBD were) (VP (VBN sold) (NP (NN yesterday)) (PP (IN for) (NP (NP ($ $) (CD 455,000)) (, ,) (CC and) (RB then) (NP ($ $) (CD 500,000)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_43..word_71" tag="(S1 (S (S (NP (DT The) (JJ previous) (NN sale)) (VP (VBD was) (NP ($ $) (CD 436,000)) (PP (IN on) (NP (NNP Oct.) (CD 17))))) (: ;) (S (NP (NP (DT the) (JJ last) (NN time)) (SBAR (S (NP (NNS prices)) (VP (VBD were) (SBAR (IN that) (S (NP (NN low)) (VP (VBD was) (NP (NNP November) (CD 1985)) (, ,) (SBAR (WHADVP (WRB when)) (S (NP (DT a) (NN seat)) (VP (VBN sold) (PP (IN for) (NP ($ $) (CD 425,000)))))))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_72..word_80" tag="(S1 (S (NP (NNS Prices)) (VP (VBD peaked) (PP (IN at) (NP (NP ($ $) (CD 1,150,000)) (PP (IN in) (NP (NNP September) (CD 1987)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_81..word_93" tag="(S1 (S (NP (NNS Seats)) (VP (VBP are) (ADVP (RB currently)) (VP (VBN quoted) (PP (IN at) (NP (NP (NP ($ $) (CD 430,000)) (VP (NN bid))) (CC and) (NP (NP ($ $) (CD 525,000)) (VP (VBN asked))))))) (. .)))" mmax_level="parse" />
+</markables>

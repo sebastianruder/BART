@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_3" sentenceid="1" label="np" min_ids="word_1..word_3" type="chunk" lemmata="international aid agency" isprenominal="false" pos="jj nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_7..word_15" sentenceid="1" label="np" min_ids="word_7..word_10" type="chunk" lemmata="propose united nations sanction against afghanistan 's taliban authority" isprenominal="false" pos="vbn nnp nnp nns in nnp pos nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_8..word_9" sentenceid="1" label="organization" type="enamex" lemmata="united nations" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_12..word_13" sentenceid="1" label="location" min_ids="word_12..word_12" type="enamex" lemmata="afghanistan 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_12..word_15" sentenceid="1" label="np" min_ids="word_12..word_15" type="chunk" lemmata="afghanistan 's taliban authority" isprenominal="false" pos="nnp pos nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_14" sentenceid="1" label="organization" type="enamex" lemmata="taliban" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_18..word_29" sentenceid="1" label="np" min_ids="word_18..word_18" type="chunk" lemmata="effort to provide humanitarian assistance to the victim of drought and conflict" isprenominal="false" pos="nns to vb jj nn in dt nns in nn cc nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_21..word_22" sentenceid="1" label="np" min_ids="word_21..word_22" type="chunk" lemmata="humanitarian assistance" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_24..word_29" sentenceid="1" label="np" min_ids="word_24..word_25" type="chunk" lemmata="the victim of drought and conflict" isprenominal="false" pos="dt nns in nn cc nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_27..word_29" sentenceid="1" label="np" min_ids="word_27..word_29" type="chunk" lemmata="drought and conflict" isprenominal="false" pos="nn cc nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_31..word_40" sentenceid="2" label="np" min_ids="word_31..word_33" type="chunk" lemmata="the new sanction propose by the united states and russia" isprenominal="false" pos="dt jj nns vbn in dt nnp nnp cc nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_36..word_38" sentenceid="2" label="location" min_ids="word_36..word_38" type="enamex" lemmata="the united states" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_36..word_40" sentenceid="2" label="location" min_ids="word_37..word_40" type="enamex" lemmata="the united states and russia" isprenominal="false" pos="dt nnp nnp cc nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_40" sentenceid="2" label="np" min_ids="word_40..word_40" type="chunk" lemmata="russia" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_43..word_48" sentenceid="2" label="np" min_ids="word_43..word_45" type="chunk" lemmata="an arm embargo on the taliban" isprenominal="false" pos="dt nns nn in dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_47..word_48" sentenceid="2" label="organization" min_ids="word_48..word_48" type="enamex" lemmata="the taliban" isprenominal="false" pos="dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_51..word_52" sentenceid="3" label="np" min_ids="word_51..word_52" type="chunk" lemmata="other thing" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_54" sentenceid="3" label="np" min_ids="word_54..word_54" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_58" sentenceid="3" label="organization" type="enamex" lemmata="taliban" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_58..word_59" sentenceid="3" label="np" min_ids="word_58..word_59" type="chunk" lemmata="taliban asset" isprenominal="false" pos="nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_63..word_67" sentenceid="3" label="np" min_ids="word_63..word_64" type="chunk" lemmata="foreign travel by taliban official" isprenominal="false" pos="jj nn in nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_66" sentenceid="3" label="organization" type="enamex" lemmata="taliban" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_66..word_67" sentenceid="3" label="np" min_ids="word_66..word_67" type="chunk" lemmata="taliban official" isprenominal="false" pos="nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_69..word_73" sentenceid="4" label="np" min_ids="word_69..word_71" type="chunk" lemmata="the un co-ordinator for afghanistan" isprenominal="false" pos="dt nnp nnp in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_70" sentenceid="4" label="organization" type="enamex" lemmata="un" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_73" sentenceid="4" label="location" min_ids="word_73..word_73" type="enamex" lemmata="afghanistan" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_76" sentenceid="4" label="location" min_ids="word_76..word_76" type="enamex" lemmata="geneva" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_78..word_81" sentenceid="4" label="np" min_ids="word_78..word_81" type="chunk" lemmata="the propose un measure" isprenominal="false" pos="dt vbn nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_80" sentenceid="4" label="organization" type="enamex" lemmata="un" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_84..word_88" sentenceid="4" label="np" min_ids="word_84..word_88" type="chunk" lemmata="badly - need aid shipment" isprenominal="false" pos="rb hyph vbn nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_90" sentenceid="5" label="np" min_ids="word_90..word_90" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_92..word_96" sentenceid="5" label="person" min_ids="word_92..word_93" type="enamex" lemmata="connie lawn , voa news" isprenominal="false" pos="nnp nn , nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_95..word_96" sentenceid="5" label="organization" min_ids="word_95..word_96" type="enamex" lemmata="voa news" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+</markables>

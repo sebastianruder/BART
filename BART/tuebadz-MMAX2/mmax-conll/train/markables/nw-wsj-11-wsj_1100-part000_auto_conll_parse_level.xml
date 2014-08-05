@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_12" tag="(S1 (S (NP (NNP Westinghouse) (NNP Electric) (NNP Corp.)) (VP (VBD said) (SBAR (S (NP (PRP it)) (VP (MD will) (VP (VB buy) (NP (NP (NNP Shaw) (HYPH -) (NNP Walker)) (NNP Co))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_13..word_17" tag="(S1 (S (NP (NNS Terms)) (VP (VBD were) (RB n't) (VP (VBN disclosed))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_18..word_40" tag="(S1 (S (NP (NP (NNP Shaw) (HYPH -) (NNP Walker)) (, ,) (VP (VBN based) (PP (IN in) (NP (NP (NNP Muskegon)) (, ,) (NP (NNP Mich.))))) (, ,)) (VP (VBZ makes) (NP (NP (NP (NN metal) (NNS files)) (CC and) (NP (NNS desks))) (, ,) (CC and) (NP (UCP (VBG seating) (CC and) (NN office)) (NNS systems)) (NP (NN furniture)))) (. .)))" mmax_level="parse" />
+</markables>

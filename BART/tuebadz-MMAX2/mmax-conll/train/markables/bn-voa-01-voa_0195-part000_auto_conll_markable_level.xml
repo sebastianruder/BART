@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_19" span="word_4..word_10" sentenceid="1" label="object" min_ids="word_4..word_6" type="enamex" lemmata="the sun ball in el paso texas" isprenominal="false" pos="dt nnp nnp in nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_8..word_10" sentenceid="1" label="location" min_ids="word_8..word_9" type="enamex" lemmata="el paso texas" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_10" sentenceid="1" label="location" min_ids="word_10..word_10" type="enamex" lemmata="texas" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_12..word_16" sentenceid="1" label="organization" min_ids="word_13..word_16" type="enamex" lemmata="the university of wisconsin badgers" isprenominal="false" pos="dt nnp in nnp nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_19..word_28" sentenceid="1" label="organization" min_ids="word_20..word_25" type="enamex" lemmata="the university of california at los angeles 21 - 20" isprenominal="false" pos="dt nnp in nnp in nnp nnp cd hyph cd" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_24..word_28" sentenceid="1" label="np" min_ids="word_20..word_28" type="chunk" lemmata="los angeles 21 - 20" isprenominal="false" pos="nnp nnp cd hyph cd" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_26" sentenceid="1" label="percent" type="enamex" lemmata="21" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_30..word_32" sentenceid="2" label="organization" min_ids="word_31..word_31" type="enamex" lemmata="the badgers '" isprenominal="false" pos="dt nnps pos" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_30..word_35" sentenceid="2" label="person" min_ids="word_31..word_35" type="enamex" lemmata="the badgers ' coach barry averett" isprenominal="false" pos="dt nnps pos nn nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_38" sentenceid="2" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_38..word_39" sentenceid="2" label="np" min_ids="word_38..word_39" type="chunk" lemmata="his senior" isprenominal="false" pos="prp$ nns" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_41" sentenceid="2" label="np" min_ids="word_41..word_41" type="chunk" lemmata="leadership" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_44" sentenceid="2" label="np" type="chunk" lemmata="their" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_44..word_46" sentenceid="2" label="np" min_ids="word_44..word_46" type="chunk" lemmata="their last game" isprenominal="false" pos="prp$ jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_49" sentenceid="2" label="np" type="chunk" lemmata="their" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_49..word_50" sentenceid="2" label="np" min_ids="word_49..word_50" type="chunk" lemmata="their best" isprenominal="false" pos="prp$ jjs" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_52" sentenceid="3" label="np" min_ids="word_52..word_52" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_56..word_58" sentenceid="3" label="np" min_ids="word_56..word_58" type="chunk" lemmata="that first drop" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_57" sentenceid="3" label="percent" type="enamex" lemmata="first" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_62" sentenceid="4" label="np" min_ids="word_62..word_62" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_66" sentenceid="4" label="np" min_ids="word_66..word_66" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_71" sentenceid="4" label="np" min_ids="word_71..word_71" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_73..word_76" sentenceid="4" label="np" min_ids="word_73..word_74" type="chunk" lemmata="the way they respond" isprenominal="false" pos="dt nn prp vbd" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_75" sentenceid="4" label="np" min_ids="word_75..word_75" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_78..word_79" sentenceid="5" label="np" min_ids="word_78..word_79" type="chunk" lemmata="this team" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_83..word_84" sentenceid="5" label="date" min_ids="word_83..word_84" type="enamex" lemmata="all year" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_90" sentenceid="5" label="np" min_ids="word_90..word_90" type="chunk" lemmata="guy" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_96" sentenceid="5" label="np" min_ids="word_96..word_96" type="chunk" lemmata="people" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_102" sentenceid="5" label="np" min_ids="word_102..word_102" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_104..word_107" sentenceid="5" label="np" min_ids="word_104..word_105" type="chunk" lemmata="a way to win" isprenominal="false" pos="dt nn to vb" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_109" sentenceid="6" label="np" min_ids="word_109..word_109" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_114" sentenceid="6" label="np" min_ids="word_114..word_114" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+</markables>

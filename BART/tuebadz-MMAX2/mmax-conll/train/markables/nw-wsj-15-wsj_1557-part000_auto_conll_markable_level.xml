@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_3" sentenceid="1" label="np" min_ids="word_1..word_1" type="chunk" lemmata="companies list below" isprenominal="false" pos="nns vbn rb" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_5" sentenceid="1" label="date" type="enamex" lemmata="quarterly" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_5..word_15" sentenceid="1" label="np" min_ids="word_5..word_6" type="chunk" lemmata="quarterly profit substantially different from the average of analyst ' estimate" isprenominal="false" pos="jj nn rb jj in dt nn in nns pos nns" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_10..word_15" sentenceid="1" label="np" min_ids="word_10..word_11" type="chunk" lemmata="the average of analyst ' estimate" isprenominal="false" pos="dt nn in nns pos nns" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_13..word_14" sentenceid="1" label="np" min_ids="word_13..word_14" type="chunk" lemmata="analyst '" isprenominal="false" pos="nns pos" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_13..word_15" sentenceid="1" label="np" min_ids="word_13..word_15" type="chunk" lemmata="analyst ' estimate" isprenominal="false" pos="nns pos nns" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_17..word_18" sentenceid="2" label="np" min_ids="word_17..word_18" type="chunk" lemmata="the company" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_22..word_24" sentenceid="2" label="percent" type="enamex" lemmata="at least three" isprenominal="false" pos="rb rbs cd" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_22..word_25" sentenceid="2" label="np" min_ids="word_22..word_25" type="chunk" lemmata="at least three analyst" isprenominal="false" pos="rb rbs cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_29..word_39" sentenceid="2" label="np" min_ids="word_29..word_34" type="chunk" lemmata="a minimum five - cent change in actual earnings per share" isprenominal="false" pos="dt jj cd hyph nn nn in jj nns in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_31..word_33" sentenceid="2" label="money" type="enamex" lemmata="five - cent" isprenominal="false" pos="cd hyph nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_36..word_39" sentenceid="2" label="np" min_ids="word_36..word_37" type="chunk" lemmata="actual earnings per share" isprenominal="false" pos="jj nns in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_39" sentenceid="2" label="np" min_ids="word_39..word_39" type="chunk" lemmata="share" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_41..word_46" sentenceid="3" label="np" min_ids="word_41..word_44" type="chunk" lemmata="estimated and actual result involve loss" isprenominal="false" pos="jj cc jj nns vbg nns" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_46" sentenceid="3" label="np" min_ids="word_46..word_46" type="chunk" lemmata="loss" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_50..word_52" sentenceid="4" label="np" min_ids="word_50..word_52" type="chunk" lemmata="the percent difference" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_54..word_55" sentenceid="4" label="np" min_ids="word_54..word_55" type="chunk" lemmata="actual profit" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_57..word_72" sentenceid="4" label="np" min_ids="word_57..word_59" type="chunk" lemmata="the 30-day estimate where at least three analyst have issue forecast in the past 30 day" isprenominal="false" pos="dt cd nn wrb rb rbs cd nns vbp nns nns in dt jj cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_58" sentenceid="4" label="date" type="enamex" lemmata="30-day" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_61..word_63" sentenceid="4" label="percent" type="enamex" lemmata="at least three" isprenominal="false" pos="rb rbs cd" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_61..word_64" sentenceid="4" label="np" min_ids="word_61..word_64" type="chunk" lemmata="at least three analyst" isprenominal="false" pos="rb rbs cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_67" sentenceid="4" label="np" min_ids="word_67..word_67" type="chunk" lemmata="forecast" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_76..word_77" sentenceid="5" label="np" min_ids="word_76..word_77" type="chunk" lemmata="actual profit" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_81..word_83" sentenceid="5" label="np" min_ids="word_81..word_83" type="chunk" lemmata="the 300-day estimate" isprenominal="false" pos="dt cd nn" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_82" sentenceid="5" label="date" type="enamex" lemmata="300-day" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+</markables>

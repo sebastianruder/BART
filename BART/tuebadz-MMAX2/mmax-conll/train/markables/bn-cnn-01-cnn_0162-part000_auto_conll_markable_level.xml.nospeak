@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_2" sentenceid="1" label="np" min_ids="word_1..word_2" type="chunk" lemmata="jury selection" isprenominal="false" pos="nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_5" sentenceid="1" label="np" min_ids="word_5..word_5" type="chunk" lemmata="way" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_7..word_20" sentenceid="1" label="np" min_ids="word_7..word_8" type="chunk" lemmata="the trial of four man accuse in the 1998 u.s. embassy bombing in africa" isprenominal="false" pos="dt nn in cd nns vbn in dt cd nnp nn nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_10" sentenceid="1" label="percent" type="enamex" lemmata="four" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_10..word_20" sentenceid="1" label="np" min_ids="word_10..word_11" type="chunk" lemmata="four man accuse in the 1998 u.s. embassy bombing in africa" isprenominal="false" pos="cd nns vbn in dt cd nnp nn nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_14..word_20" sentenceid="1" label="np" min_ids="word_14..word_18" type="chunk" lemmata="the 1998 u.s. embassy bombing in africa" isprenominal="false" pos="dt cd nnp nn nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_15" sentenceid="1" label="date" type="enamex" lemmata="1998" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_16" sentenceid="1" label="location" type="enamex" lemmata="u.s." isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_20" sentenceid="1" label="location" min_ids="word_20..word_20" type="enamex" lemmata="africa" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_22..word_28" sentenceid="2" label="np" min_ids="word_22..word_24" type="chunk" lemmata="twin terrorist attack in kenya and tanzania" isprenominal="false" pos="jj nn nns in nnp cc nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_26" sentenceid="2" label="location" type="enamex" lemmata="kenya" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_26..word_28" sentenceid="2" label="location" min_ids="word_26..word_28" type="enamex" lemmata="kenya and tanzania" isprenominal="false" pos="nnp cc nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_30" sentenceid="2" label="percent" type="enamex" lemmata="224" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_30..word_31" sentenceid="2" label="np" min_ids="word_30..word_31" type="chunk" lemmata="224 people" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_33" sentenceid="3" label="np" min_ids="word_33..word_33" type="chunk" lemmata="security" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_38..word_39" sentenceid="3" label="np" min_ids="word_38..word_39" type="chunk" lemmata="the courtroom" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_41..word_42" sentenceid="3" label="np" min_ids="word_41..word_42" type="chunk" lemmata="the judge" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_45..word_47" sentenceid="3" label="np" min_ids="word_45..word_47" type="chunk" lemmata="the jury selection" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_50..word_51" sentenceid="3" label="np" min_ids="word_50..word_51" type="chunk" lemmata="the public" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_54..word_55" sentenceid="4" label="np" min_ids="word_54..word_55" type="chunk" lemmata="a jury" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_58..word_59" sentenceid="4" label="np" min_ids="word_58..word_59" type="chunk" lemmata="a month" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_61" sentenceid="5" label="np" min_ids="word_61..word_61" type="chunk" lemmata="prosecutors" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_63..word_64" sentenceid="5" label="np" min_ids="word_63..word_64" type="chunk" lemmata="the bombing" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_68..word_70" sentenceid="5" label="person" min_ids="word_68..word_70" type="enamex" lemmata="osama bin laden" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_74..word_76" sentenceid="6" label="np" min_ids="word_74..word_74" type="chunk" lemmata="they stand trial" isprenominal="false" pos="prp vbg nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_76" sentenceid="6" label="np" min_ids="word_76..word_76" type="chunk" lemmata="trial" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_82..word_84" sentenceid="6" label="person" min_ids="word_82..word_83" type="enamex" lemmata="bin laden 's" isprenominal="false" pos="nnp nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_82..word_86" sentenceid="6" label="np" min_ids="word_82..word_86" type="chunk" lemmata="bin laden 's personal secretary" isprenominal="false" pos="nnp nnp pos jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_88..word_90" sentenceid="7" label="np" min_ids="word_88..word_90" type="chunk" lemmata="the four defendant" isprenominal="false" pos="dt cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_89" sentenceid="7" label="percent" type="enamex" lemmata="four" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_93" sentenceid="7" label="percent" type="enamex" lemmata="22" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_93..word_101" sentenceid="7" label="np" min_ids="word_93..word_94" type="chunk" lemmata="22 suspect believe to be involve in the bombing" isprenominal="false" pos="cd nns vbn to vb vbn in dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_100..word_101" sentenceid="7" label="np" min_ids="word_100..word_101" type="chunk" lemmata="the bombing" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+</markables>

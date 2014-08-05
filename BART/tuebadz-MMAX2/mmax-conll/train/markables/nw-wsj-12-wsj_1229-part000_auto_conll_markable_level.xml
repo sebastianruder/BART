@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_6" span="word_1..word_3" sentenceid="1" label="person" min_ids="word_1..word_3" type="enamex" lemmata="david w. lodge" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_6..word_7" sentenceid="1" label="np" min_ids="word_6..word_7" type="chunk" lemmata="vice president" isprenominal="false" pos="nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_6..word_15" sentenceid="1" label="np" min_ids="word_6..word_11" type="chunk" lemmata="vice president and chief financial officer , effective nov. 1" isprenominal="false" pos="nn nn cc jj jj nn , jj nnp cd" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_9..word_11" sentenceid="1" label="np" min_ids="word_9..word_11" type="chunk" lemmata="chief financial officer" isprenominal="false" pos="jj jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_14..word_15" sentenceid="1" label="date" min_ids="word_14..word_15" type="enamex" lemmata="nov. 1" isprenominal="false" pos="nnp cd" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_17..word_36" sentenceid="2" label="person" min_ids="word_17..word_18" type="enamex" lemmata="mr. lodge , 48 year old , a former finance executive at singer sewing machine co. and celanese corp. ," isprenominal="false" pos="nnp nnp , cd nns jj , dt jj nn nn in nnp nn nnp nnp cc nnp nnp ," speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_20..word_22" sentenceid="2" label="date" type="enamex" lemmata="48 year old" isprenominal="false" pos="cd nns jj" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_24..word_35" sentenceid="2" label="np" min_ids="word_24..word_27" type="chunk" lemmata="a former finance executive at singer sewing machine co. and celanese corp." isprenominal="false" pos="dt jj nn nn in nnp nn nnp nnp cc nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_29..word_32" sentenceid="2" label="organization" min_ids="word_29..word_32" type="enamex" lemmata="singer sewing machine co." isprenominal="false" pos="nnp nn nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_29..word_35" sentenceid="2" label="organization" min_ids="word_29..word_35" type="enamex" lemmata="singer sewing machine co. and celanese corp." isprenominal="false" pos="nnp nn nnp nnp cc nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_38..word_52" sentenceid="2" label="person" min_ids="word_38..word_40" type="enamex" lemmata="francis l. brophy , 64 , who plan to retire from the company next year" isprenominal="false" pos="nnp nnp nnp , cd , wp vbz to vb in dt nn jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_42" sentenceid="2" label="np" min_ids="word_42..word_42" type="chunk" lemmata="64" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_49..word_50" sentenceid="2" label="np" min_ids="word_49..word_50" type="chunk" lemmata="the company" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_51..word_52" sentenceid="2" label="date" min_ids="word_51..word_52" type="enamex" lemmata="next year" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+</markables>

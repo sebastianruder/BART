@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_10" sentenceid="1" label="np" min_ids="word_1..word_2" type="chunk" lemmata="the draining of a pond for anthrax evidence in maryland" isprenominal="false" pos="dt nn in dt nn in nn nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_4..word_10" sentenceid="1" label="np" min_ids="word_4..word_5" type="chunk" lemmata="a pond for anthrax evidence in maryland" isprenominal="false" pos="dt nn in nn nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_7..word_10" sentenceid="1" label="np" min_ids="word_7..word_8" type="chunk" lemmata="anthrax evidence in maryland" isprenominal="false" pos="nn nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_10" sentenceid="1" label="location" min_ids="word_10..word_10" type="enamex" lemmata="maryland" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_17" sentenceid="2" label="np" min_ids="word_17..word_17" type="chunk" lemmata="investigator" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_23" sentenceid="2" label="np" min_ids="word_23..word_23" type="chunk" lemmata="sediment" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_25..word_33" sentenceid="2" label="np" min_ids="word_25..word_26" type="chunk" lemmata="the bottom of the pond locate just outside fredrick" isprenominal="false" pos="dt nn in dt nn vbn rb in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_28..word_33" sentenceid="2" label="np" min_ids="word_28..word_29" type="chunk" lemmata="the pond locate just outside fredrick" isprenominal="false" pos="dt nn vbn rb in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_33" sentenceid="2" label="location" min_ids="word_33..word_33" type="enamex" lemmata="fredrick" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_38..word_40" sentenceid="2" label="location" min_ids="word_38..word_40" type="enamex" lemmata="washington , d.c" isprenominal="false" pos="nnp , nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_40" sentenceid="2" label="np" min_ids="word_40..word_40" type="chunk" lemmata="d.c" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_42" sentenceid="3" label="np" min_ids="word_42..word_42" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_44..word_63" sentenceid="3" label="np" min_ids="word_44..word_44" type="chunk" lemmata="part of the investigation into the deadly anthrax attack in the fall of 2001 in which five people be kill" isprenominal="false" pos="nn in dt nn in dt jj nn nns in dt nn in cd in wdt cd nns vbd vbn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_46..word_63" sentenceid="3" label="np" min_ids="word_46..word_47" type="chunk" lemmata="the investigation into the deadly anthrax attack in the fall of 2001 in which five people be kill" isprenominal="false" pos="dt nn in dt jj nn nns in dt nn in cd in wdt cd nns vbd vbn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_49..word_63" sentenceid="3" label="np" min_ids="word_49..word_52" type="chunk" lemmata="the deadly anthrax attack in the fall of 2001 in which five people be kill" isprenominal="false" pos="dt jj nn nns in dt nn in cd in wdt cd nns vbd vbn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_54..word_63" sentenceid="3" label="date" min_ids="word_55..word_57" type="enamex" lemmata="the fall of 2001 in which five people be kill" isprenominal="false" pos="dt nn in cd in wdt cd nns vbd vbn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_57..word_63" sentenceid="3" label="np" min_ids="word_57..word_57" type="chunk" lemmata="2001 in which five people be kill" isprenominal="false" pos="cd in wdt cd nns vbd vbn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_60" sentenceid="3" label="percent" type="enamex" lemmata="five" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_60..word_61" sentenceid="3" label="np" min_ids="word_60..word_61" type="chunk" lemmata="five people" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+</markables>

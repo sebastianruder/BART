@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_4" sentenceid="1" label="np" min_ids="word_1..word_4" type="chunk" lemmata="the genuine article --" isprenominal="false" pos="dt jj nn ." speaker="-" mmax_level="markable" />
+<markable id="markable_90" span="word_5" sentenceid="2" label="np" type="chunk" lemmata="our" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_5..word_7" sentenceid="2" label="np" min_ids="word_5..word_7" type="chunk" lemmata="our french nanny" isprenominal="false" pos="prp$ jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_68" span="word_6" sentenceid="2" label="location" type="enamex" lemmata="french" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_69" span="word_9..word_12" sentenceid="3" label="person" min_ids="word_9..word_12" type="enamex" lemmata="chou chin - cheng" isprenominal="false" pos="nnp nnp hyph nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_70" span="word_15..word_16" sentenceid="3" label="person" min_ids="word_15..word_16" type="enamex" lemmata="scott williams" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_91" span="word_19" sentenceid="4" label="np" type="chunk" lemmata="my" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_19..word_21" sentenceid="4" label="np" min_ids="word_19..word_20" type="chunk" lemmata="my wife 's" isprenominal="false" pos="prp$ nn pos" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_19..word_22" sentenceid="4" label="np" min_ids="word_19..word_22" type="chunk" lemmata="my wife 's company" isprenominal="false" pos="prp$ nn pos nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_24" sentenceid="4" label="np" min_ids="word_24..word_24" type="chunk" lemmata="she" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_71" span="word_26" sentenceid="4" label="location" min_ids="word_26..word_26" type="enamex" lemmata="paris" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_28" sentenceid="4" label="np" min_ids="word_28..word_28" type="chunk" lemmata="work" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_30" sentenceid="4" label="np" min_ids="word_30..word_30" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_92" span="word_35" sentenceid="4" label="np" type="chunk" lemmata="our" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_35..word_44" sentenceid="4" label="np" min_ids="word_35..word_36" type="chunk" lemmata="our daughter , then just over a year old ," isprenominal="false" pos="prp$ nn , rb rb in dt nn jj ," speaker="-" mmax_level="markable" />
+<markable id="markable_72" span="word_39..word_43" sentenceid="4" label="date" type="enamex" lemmata="just over a year old" isprenominal="false" pos="rb in dt nn jj" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_41..word_43" sentenceid="4" label="np" min_ids="word_41..word_43" type="chunk" lemmata="a year old" isprenominal="false" pos="dt nn jj" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_47..word_51" sentenceid="4" label="np" min_ids="word_47..word_48" type="chunk" lemmata="any problem with attend school" isprenominal="false" pos="dt nns in vbg nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_51" sentenceid="4" label="np" min_ids="word_51..word_51" type="chunk" lemmata="school" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_56" sentenceid="5" label="np" min_ids="word_56..word_56" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_58..word_59" sentenceid="5" label="np" min_ids="word_58..word_59" type="chunk" lemmata="a colleague" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_62" sentenceid="5" label="np" min_ids="word_62..word_62" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_93" span="word_64" sentenceid="5" label="np" type="chunk" lemmata="she" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_64..word_65" sentenceid="5" label="np" min_ids="word_64..word_65" type="chunk" lemmata="she daughter" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_74..word_79" sentenceid="5" label="np" min_ids="word_74..word_75" type="chunk" lemmata="a group of young french child" isprenominal="false" pos="dt nn in jj jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_77..word_79" sentenceid="5" label="np" min_ids="word_77..word_79" type="chunk" lemmata="young french child" isprenominal="false" pos="jj jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_73" span="word_78" sentenceid="5" label="location" type="enamex" lemmata="french" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_94" span="word_81" sentenceid="5" label="np" type="chunk" lemmata="she" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_81..word_85" sentenceid="5" label="np" min_ids="word_81..word_83" type="chunk" lemmata="she first day of pre-school" isprenominal="false" pos="prp$ jj nn in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_74" span="word_82" sentenceid="5" label="percent" type="enamex" lemmata="first" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_85" sentenceid="5" label="np" min_ids="word_85..word_85" type="chunk" lemmata="pre-school" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_87..word_88" sentenceid="6" label="np" min_ids="word_87..word_88" type="chunk" lemmata="the incident" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_90" sentenceid="6" label="np" min_ids="word_90..word_90" type="chunk" lemmata="she" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_94" sentenceid="6" label="np" min_ids="word_94..word_94" type="chunk" lemmata="she" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_95" span="word_98" sentenceid="6" label="np" type="chunk" lemmata="she" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_98..word_99" sentenceid="6" label="np" min_ids="word_98..word_99" type="chunk" lemmata="she daughter" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_103" sentenceid="6" label="np" min_ids="word_103..word_103" type="chunk" lemmata="school" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_108..word_109" sentenceid="7" label="np" min_ids="word_108..word_109" type="chunk" lemmata="the case" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_96" span="word_111" sentenceid="7" label="np" type="chunk" lemmata="my" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_111..word_112" sentenceid="7" label="np" min_ids="word_111..word_112" type="chunk" lemmata="my wife" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_111..word_114" sentenceid="7" label="np" min_ids="word_111..word_114" type="chunk" lemmata="my wife and i" isprenominal="false" pos="prp$ nn cc prp" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_114" sentenceid="7" label="np" min_ids="word_114..word_114" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_116..word_121" sentenceid="7" label="np" min_ids="word_116..word_118" type="chunk" lemmata="a serious problem on our hand" isprenominal="false" pos="dt jj nn in prp$ nns" speaker="-" mmax_level="markable" />
+<markable id="markable_97" span="word_120" sentenceid="7" label="np" type="chunk" lemmata="our" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_120..word_121" sentenceid="7" label="np" min_ids="word_120..word_121" type="chunk" lemmata="our hand" isprenominal="false" pos="prp$ nns" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_125" sentenceid="8" label="np" min_ids="word_125..word_125" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_75" span="word_128..word_130" sentenceid="8" label="person" min_ids="word_128..word_130" type="enamex" lemmata="chien - chien" isprenominal="false" pos="nnp hyph nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_132" sentenceid="8" label="np" min_ids="word_132..word_132" type="chunk" lemmata="she" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_139..word_143" sentenceid="8" label="np" min_ids="word_139..word_143" type="chunk" lemmata="a &quot; little foreigner &quot;" isprenominal="false" pos="dt `` jj nn ''" speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_148" sentenceid="8" label="np" min_ids="word_148..word_148" type="chunk" lemmata="school" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_34" span="word_149..word_150" sentenceid="8" label="np" min_ids="word_149..word_150" type="chunk" lemmata="every day" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_35" span="word_152..word_154" sentenceid="9" label="np" min_ids="word_152..word_154" type="chunk" lemmata="the only solution" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_36" span="word_160" sentenceid="9" label="np" min_ids="word_160..word_160" type="chunk" lemmata="she" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_76" span="word_162" sentenceid="9" label="object" min_ids="word_162..word_162" type="enamex" lemmata="french" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_37" span="word_164..word_165" sentenceid="10" label="np" min_ids="word_164..word_165" type="chunk" lemmata="that way" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_38" span="word_168" sentenceid="10" label="np" min_ids="word_168..word_168" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_39" span="word_172" sentenceid="10" label="np" min_ids="word_172..word_172" type="chunk" lemmata="court" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_40" span="word_176" sentenceid="10" label="np" min_ids="word_176..word_176" type="chunk" lemmata="she" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_41" span="word_187" sentenceid="11" label="np" min_ids="word_187..word_187" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_77" span="word_189..word_196" sentenceid="11" label="person" min_ids="word_189..word_189" type="enamex" lemmata="martine , a frenchwoman in she 50 ," isprenominal="false" pos="nnp , dt nnp in prp$ nns ," speaker="-" mmax_level="markable" />
+<markable id="markable_78" span="word_191..word_195" sentenceid="11" label="location" min_ids="word_192..word_192" type="enamex" lemmata="a frenchwoman in she 50" isprenominal="false" pos="dt nnp in prp$ nns" speaker="-" mmax_level="markable" />
+<markable id="markable_98" span="word_194" sentenceid="11" label="np" type="chunk" lemmata="she" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_79" span="word_194..word_195" sentenceid="11" label="percent" min_ids="word_194..word_195" type="enamex" lemmata="she 50" isprenominal="false" pos="prp$ nns" speaker="-" mmax_level="markable" />
+<markable id="markable_80" span="word_199..word_202" sentenceid="11" label="person" min_ids="word_199..word_201" type="enamex" lemmata="chien - chien 's" isprenominal="false" pos="nnp hyph nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_42" span="word_199..word_203" sentenceid="11" label="np" min_ids="word_199..word_203" type="chunk" lemmata="chien - chien 's nanny" isprenominal="false" pos="nnp hyph nnp pos nn" speaker="-" mmax_level="markable" />
+<markable id="markable_99" span="word_205" sentenceid="12" label="np" type="chunk" lemmata="my" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_43" span="word_205..word_206" sentenceid="12" label="np" min_ids="word_205..word_206" type="chunk" lemmata="my wife" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_81" span="word_209..word_211" sentenceid="12" label="person" min_ids="word_209..word_211" type="enamex" lemmata="chien - chien" isprenominal="false" pos="nnp hyph nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_44" span="word_220..word_227" sentenceid="12" label="np" min_ids="word_220..word_221" type="chunk" lemmata="the idea of leave she with someone else" isprenominal="false" pos="dt nn in vbg prp in nn rb" speaker="-" mmax_level="markable" />
+<markable id="markable_45" span="word_224" sentenceid="12" label="np" min_ids="word_224..word_224" type="chunk" lemmata="she" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_46" span="word_226..word_227" sentenceid="12" label="np" min_ids="word_226..word_227" type="chunk" lemmata="someone else" isprenominal="false" pos="nn rb" speaker="-" mmax_level="markable" />
+<markable id="markable_47" span="word_231" sentenceid="13" label="np" min_ids="word_231..word_231" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_48" span="word_233..word_234" sentenceid="13" label="np" min_ids="word_233..word_234" type="chunk" lemmata="no idea" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_49" span="word_238" sentenceid="13" label="np" min_ids="word_238..word_238" type="chunk" lemmata="person" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_82" span="word_239" sentenceid="13" label="person" min_ids="word_239..word_239" type="enamex" lemmata="martine" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_50" span="word_242" sentenceid="14" label="np" min_ids="word_242..word_242" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_51" span="word_246" sentenceid="14" label="np" min_ids="word_246..word_246" type="chunk" lemmata="she" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_52" span="word_248..word_256" sentenceid="14" label="np" min_ids="word_248..word_250" type="chunk" lemmata="a licensed nanny with document from the french government" isprenominal="false" pos="dt jj nn in nns in dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_53" span="word_252..word_256" sentenceid="14" label="np" min_ids="word_252..word_252" type="chunk" lemmata="document from the french government" isprenominal="false" pos="nns in dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_54" span="word_254..word_256" sentenceid="14" label="np" min_ids="word_254..word_256" type="chunk" lemmata="the french government" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_83" span="word_255" sentenceid="14" label="location" type="enamex" lemmata="french" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_55" span="word_260" sentenceid="14" label="np" min_ids="word_260..word_260" type="chunk" lemmata="she" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_84" span="word_264..word_266" sentenceid="14" label="person" min_ids="word_264..word_266" type="enamex" lemmata="chien - chien" isprenominal="false" pos="nnp hyph nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_56" span="word_271..word_274" sentenceid="14" label="np" min_ids="word_271..word_274" type="chunk" lemmata="a cheaper unlicensed nanny" isprenominal="false" pos="dt jjr jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_85" span="word_276" sentenceid="15" label="percent" type="enamex" lemmata="second" isprenominal="false" pos="rb" speaker="-" mmax_level="markable" />
+<markable id="markable_86" span="word_278..word_280" sentenceid="15" label="person" min_ids="word_278..word_280" type="enamex" lemmata="chien - chien" isprenominal="false" pos="nnp hyph nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_87" span="word_282..word_283" sentenceid="15" label="object" min_ids="word_282..word_283" type="enamex" lemmata="no french" isprenominal="false" pos="dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_57" span="word_286" sentenceid="15" label="np" min_ids="word_286..word_286" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_58" span="word_290" sentenceid="15" label="np" min_ids="word_290..word_290" type="chunk" lemmata="she" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_59" span="word_295" sentenceid="16" label="np" min_ids="word_295..word_295" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_88" span="word_301" sentenceid="16" label="person" min_ids="word_301..word_301" type="enamex" lemmata="martine" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_60" span="word_304" sentenceid="16" label="np" min_ids="word_304..word_304" type="chunk" lemmata="she" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_100" span="word_309" sentenceid="16" label="np" type="chunk" lemmata="my" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_61" span="word_309..word_310" sentenceid="16" label="np" min_ids="word_309..word_310" type="chunk" lemmata="my wife" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_89" span="word_314" sentenceid="17" label="person" min_ids="word_314..word_314" type="enamex" lemmata="martine" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_62" span="word_319" sentenceid="17" label="np" min_ids="word_319..word_319" type="chunk" lemmata="child" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_101" span="word_321" sentenceid="18" label="np" type="chunk" lemmata="my" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_63" span="word_321..word_322" sentenceid="18" label="np" min_ids="word_321..word_322" type="chunk" lemmata="my wife" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_64" span="word_321..word_324" sentenceid="18" label="np" min_ids="word_321..word_324" type="chunk" lemmata="my wife and i" isprenominal="false" pos="prp$ nn cc prp" speaker="-" mmax_level="markable" />
+<markable id="markable_65" span="word_324" sentenceid="18" label="np" min_ids="word_324..word_324" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_66" span="word_326" sentenceid="18" label="np" min_ids="word_326..word_326" type="chunk" lemmata="heaven" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_67" span="word_328" sentenceid="18" label="np" min_ids="word_328..word_328" type="chunk" lemmata="she" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+</markables>

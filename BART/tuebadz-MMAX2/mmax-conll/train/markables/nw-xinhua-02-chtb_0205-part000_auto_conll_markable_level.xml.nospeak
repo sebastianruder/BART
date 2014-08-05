@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_5" span="word_1" sentenceid="1" label="location" type="enamex" lemmata="chinese" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_1..word_5" sentenceid="1" label="person" min_ids="word_1..word_5" type="enamex" lemmata="chinese young pathfinder mingxia fu" isprenominal="false" pos="jj jj nn nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_7..word_18" sentenceid="1" label="np" min_ids="word_7..word_9" type="chunk" lemmata="the diving champion of the women 's 10 - meter diving tower" isprenominal="false" pos="dt jj nn in dt nnps pos cd hyph nn nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_11..word_13" sentenceid="1" label="np" min_ids="word_11..word_12" type="chunk" lemmata="the women 's" isprenominal="false" pos="dt nnps pos" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_11..word_18" sentenceid="1" label="np" min_ids="word_11..word_18" type="chunk" lemmata="the women 's 10 - meter diving tower" isprenominal="false" pos="dt nnps pos cd hyph nn nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_14..word_16" sentenceid="1" label="percent" type="enamex" lemmata="10 - meter" isprenominal="false" pos="cd hyph nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_20..word_23" sentenceid="1" label="object" min_ids="word_20..word_23" type="enamex" lemmata="the world swimming championships" isprenominal="false" pos="dt nnp nnp nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_25" sentenceid="2" label="np" min_ids="word_25..word_25" type="chunk" lemmata="photos" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_28..word_30" sentenceid="2" label="organization" type="enamex" lemmata="xinhua news agency" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_28..word_36" sentenceid="2" label="np" min_ids="word_28..word_36" type="chunk" lemmata="xinhua news agency reporter zhishan cheng -lrb- telephotograph -rrb-" isprenominal="false" pos="nnp nnp nnp nn nnp nnp -lrb- nnp -rrb-" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_32..word_33" sentenceid="2" label="person" type="enamex" lemmata="zhishan cheng" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+</markables>

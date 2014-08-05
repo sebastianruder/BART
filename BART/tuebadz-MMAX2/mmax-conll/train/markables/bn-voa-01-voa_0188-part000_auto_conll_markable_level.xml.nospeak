@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1" sentenceid="1" label="np" min_ids="word_1..word_1" type="chunk" lemmata="security" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_4..word_5" sentenceid="1" label="np" min_ids="word_4..word_5" type="chunk" lemmata="high alert" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_7..word_8" sentenceid="1" label="location" min_ids="word_7..word_8" type="enamex" lemmata="new delhi" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_10..word_11" sentenceid="1" label="date" min_ids="word_10..word_10" type="enamex" lemmata="friday 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_10..word_23" sentenceid="1" label="np" min_ids="word_10..word_12" type="chunk" lemmata="friday 's killing of three people include an indian soldier by suspect muslim militant" isprenominal="false" pos="nnp pos nn in cd nns vbg dt jj nn in vbn jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_14" sentenceid="1" label="percent" type="enamex" lemmata="three" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_14..word_19" sentenceid="1" label="np" min_ids="word_14..word_15" type="chunk" lemmata="three people include an indian soldier" isprenominal="false" pos="cd nns vbg dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_17..word_19" sentenceid="1" label="np" min_ids="word_17..word_19" type="chunk" lemmata="an indian soldier" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_18" sentenceid="1" label="location" type="enamex" lemmata="indian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_21..word_23" sentenceid="1" label="np" min_ids="word_21..word_23" type="chunk" lemmata="suspect muslim militant" isprenominal="false" pos="vbn jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_22" sentenceid="1" label="location" type="enamex" lemmata="muslim" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_25" sentenceid="2" label="location" type="enamex" lemmata="indian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_25..word_26" sentenceid="2" label="np" min_ids="word_25..word_26" type="chunk" lemmata="indian troops" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_30" sentenceid="2" label="percent" type="enamex" lemmata="two" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_30..word_50" sentenceid="2" label="np" min_ids="word_30..word_33" type="chunk" lemmata="two suspect muslim militant who allegedly carry out the attack at the historic red fort in the heart of new delhi" isprenominal="false" pos="cd vbn jj nns wp rb vbd rp dt nn in dt jj nnp nnp in dt nn in nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_32" sentenceid="2" label="location" type="enamex" lemmata="muslim" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_38..word_44" sentenceid="2" label="np" min_ids="word_38..word_39" type="chunk" lemmata="the attack at the historic red fort" isprenominal="false" pos="dt nn in dt jj nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_41..word_44" sentenceid="2" label="object" min_ids="word_42..word_44" type="enamex" lemmata="the historic red fort" isprenominal="false" pos="dt jj nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_46..word_50" sentenceid="2" label="np" min_ids="word_46..word_47" type="chunk" lemmata="the heart of new delhi" isprenominal="false" pos="dt nn in nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_49..word_50" sentenceid="2" label="location" min_ids="word_49..word_50" type="enamex" lemmata="new delhi" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+</markables>

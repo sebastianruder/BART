@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_10" tag="(S1 (S (NP (DT Some) (JJ Canadian) (NNS farmers)) (VP (VBP are) (VP (VBN steamed) (PP (IN at) (NP (DT the) (NNP United) (NNP States))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_11..word_16" tag="(S1 (S (NP (PRP It)) (VP (VBZ 's) (PP (IN because) (IN of) (NP (NNS potatoes)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_17..word_34" tag="(S1 (S (NP (NP (DT Some) (NNS spuds)) (PP (IN from) (NP (NNP Prince) (NNP Edward) (NNP Island)))) (VP (VBP are) (VP (VBG being) (VP (VBN turned) (ADVP (RB back) (PP (IN at) (NP (DT the) (NN border)))) (PP (IN because) (IN of) (NP (DT a) (NN fungus)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_35..word_41" tag="(S1 (S (NP (NNS Officials)) (VP (VBP say) (SBAR (S (NP (DT the) (NNP U.S.)) (VP (VBZ is) (VP (VBG overreacting)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_42..word_61" tag="(S1 (S (NP (DT The) (NNS farmers)) (VP (VBP say) (SBAR (S (S (NP (PRP they)) (VP (VBP are) (VP (VBG losing) (NP (NNS millions))))) (CC and) (S (NP (NP (DT the) (NN island) (POS 's)) (NN government)) (VP (VBZ says) (SBAR (S (NP (PRP it)) (VP (MD might) (VP (VB comment) (S (VP (VB say) (NP (DT the) (PRP them))))))))))))) (. .)))" mmax_level="parse" />
+</markables>

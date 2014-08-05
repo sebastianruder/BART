@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_17" span="word_2" sentenceid="1" label="location" min_ids="word_2..word_2" type="enamex" lemmata="yugoslavia" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_4..word_7" sentenceid="1" label="np" min_ids="word_4..word_7" type="chunk" lemmata="at least six city" isprenominal="false" pos="in jjs cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_9" sentenceid="1" label="np" min_ids="word_9..word_9" type="chunk" lemmata="power" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_10" sentenceid="1" label="date" min_ids="word_10..word_10" type="enamex" lemmata="today" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_12..word_28" sentenceid="1" label="np" min_ids="word_12..word_13" type="chunk" lemmata="an attempt by striking coal miner to get president slobodan milosevic to admit defeat in recent election" isprenominal="false" pos="dt nn in jj nn nns to vb nnp nnp nnp to vb nn in jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_15..word_17" sentenceid="1" label="np" min_ids="word_15..word_17" type="chunk" lemmata="striking coal miner" isprenominal="false" pos="jj nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_20..word_22" sentenceid="1" label="person" min_ids="word_20..word_22" type="enamex" lemmata="president slobodan milosevic" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_25..word_28" sentenceid="1" label="np" min_ids="word_25..word_25" type="chunk" lemmata="defeat in recent election" isprenominal="false" pos="nn in jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_27..word_28" sentenceid="1" label="np" min_ids="word_27..word_28" type="chunk" lemmata="recent election" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_31..word_33" sentenceid="2" label="location" min_ids="word_32..word_33" type="enamex" lemmata="the capital belgrade" isprenominal="false" pos="dt nn nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_35" sentenceid="2" label="np" min_ids="word_35..word_35" type="chunk" lemmata="student" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_35..word_39" sentenceid="2" label="np" min_ids="word_35..word_39" type="chunk" lemmata="student and opposition party supporter" isprenominal="false" pos="nns cc nn nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_37..word_39" sentenceid="2" label="np" min_ids="word_37..word_39" type="chunk" lemmata="opposition party supporter" isprenominal="false" pos="nn nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_42..word_43" sentenceid="2" label="np" min_ids="word_42..word_43" type="chunk" lemmata="the government" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_46..word_53" sentenceid="2" label="np" min_ids="word_46..word_47" type="chunk" lemmata="a crackdown on so - call `` subversive" isprenominal="false" pos="dt nn in rb hyph vbn `` nns" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_49..word_53" sentenceid="2" label="np" min_ids="word_49..word_53" type="chunk" lemmata="so - call `` subversive" isprenominal="false" pos="rb hyph vbn `` nns" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_56..word_58" sentenceid="3" label="np" min_ids="word_56..word_58" type="chunk" lemmata="businesses and factory" isprenominal="false" pos="nns cc nns" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_62..word_67" sentenceid="3" label="np" min_ids="word_62..word_62" type="chunk" lemmata="support of opposition candidate vojislav kostunica" isprenominal="false" pos="nn in nn nn nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_64..word_67" sentenceid="3" label="person" min_ids="word_64..word_67" type="enamex" lemmata="opposition candidate vojislav kostunica" isprenominal="false" pos="nn nn nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_69..word_72" sentenceid="4" label="organization" min_ids="word_69..word_72" type="enamex" lemmata="the yugoslav election commission" isprenominal="false" pos="dt jj nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_74" sentenceid="4" label="np" min_ids="word_74..word_74" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_78..word_84" sentenceid="4" label="percent" min_ids="word_78..word_81" type="enamex" lemmata="more than 50 % of the vote" isprenominal="false" pos="jjr in cd nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_83..word_84" sentenceid="4" label="np" min_ids="word_83..word_84" type="chunk" lemmata="the vote" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_86..word_88" sentenceid="5" label="np" min_ids="word_86..word_88" type="chunk" lemmata="a runoff election" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_92" sentenceid="5" label="date" min_ids="word_92..word_92" type="enamex" lemmata="october" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+</markables>

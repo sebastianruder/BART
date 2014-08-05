@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_6" sentenceid="1" label="np" min_ids="word_1..word_4" type="chunk" lemmata="the new democratic government of yugoslavia" isprenominal="false" pos="dt jj jj nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_6" sentenceid="1" label="location" min_ids="word_6..word_6" type="enamex" lemmata="yugoslavia" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_10..word_11" sentenceid="1" label="organization" min_ids="word_11..word_11" type="enamex" lemmata="the u.n." isprenominal="false" pos="dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_20..word_24" sentenceid="1" label="np" min_ids="word_20..word_21" type="chunk" lemmata="the rule of slobodan milosevic" isprenominal="false" pos="dt nn in nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_23..word_24" sentenceid="1" label="person" min_ids="word_23..word_24" type="enamex" lemmata="slobodan milosevic" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_26" sentenceid="2" label="np" min_ids="word_26..word_26" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_31..word_32" sentenceid="2" label="organization" min_ids="word_32..word_32" type="enamex" lemmata="the u.n" isprenominal="false" pos="dt nnp" speaker="-" mmax_level="markable" />
+</markables>

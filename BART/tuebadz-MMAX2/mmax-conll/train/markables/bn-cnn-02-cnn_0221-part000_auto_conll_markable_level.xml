@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_22" span="word_1..word_2" sentenceid="1" label="time" min_ids="word_1..word_2" type="enamex" lemmata="24 hour" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_4..word_12" sentenceid="1" label="np" min_ids="word_4..word_6" type="chunk" lemmata="a coordinated series of suicide bombing in saudi arabia" isprenominal="false" pos="dt jj nn in nn nns in nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_8..word_12" sentenceid="1" label="np" min_ids="word_8..word_9" type="chunk" lemmata="suicide bombing in saudi arabia" isprenominal="false" pos="nn nns in nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_11..word_12" sentenceid="1" label="location" min_ids="word_11..word_12" type="enamex" lemmata="saudi arabia" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_14..word_16" sentenceid="1" label="np" min_ids="word_14..word_16" type="chunk" lemmata="the death toll" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_21..word_23" sentenceid="2" label="location" min_ids="word_22..word_23" type="enamex" lemmata="an eighth american" isprenominal="false" pos="dt jj nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_22" sentenceid="2" label="percent" type="enamex" lemmata="eighth" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_30" sentenceid="3" label="percent" type="enamex" lemmata="21" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_30..word_31" sentenceid="3" label="np" min_ids="word_30..word_31" type="chunk" lemmata="21 people" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_37..word_40" sentenceid="3" label="np" min_ids="word_37..word_40" type="chunk" lemmata="the nine suspect bomber" isprenominal="false" pos="dt cd vbn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_38" sentenceid="3" label="percent" type="enamex" lemmata="nine" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_42..word_43" sentenceid="4" label="percent" type="enamex" lemmata="nearly 200" isprenominal="false" pos="rb cd" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_42..word_44" sentenceid="4" label="np" min_ids="word_42..word_44" type="chunk" lemmata="nearly 200 people" isprenominal="false" pos="rb cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_48" sentenceid="5" label="location" type="enamex" lemmata="u.s." isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_48..word_51" sentenceid="5" label="np" min_ids="word_48..word_51" type="chunk" lemmata="u.s. and saudi official" isprenominal="false" pos="nnp cc nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_50" sentenceid="5" label="location" type="enamex" lemmata="saudi" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_53..word_54" sentenceid="5" label="np" min_ids="word_53..word_54" type="chunk" lemmata="the bombing" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_56..word_60" sentenceid="5" label="np" min_ids="word_56..word_57" type="chunk" lemmata="the trademark of al qaeda" isprenominal="false" pos="dt nn in dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_59..word_60" sentenceid="5" label="organization" min_ids="word_59..word_60" type="enamex" lemmata="al qaeda" isprenominal="false" pos="dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_62" sentenceid="6" label="np" min_ids="word_62..word_62" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_70..word_79" sentenceid="6" label="np" min_ids="word_70..word_71" type="chunk" lemmata="the arrival of secretary of state colin powell in riyadh" isprenominal="false" pos="dt nn in nnp in nnp nnp nnp in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_73..word_79" sentenceid="6" label="np" min_ids="word_73..word_73" type="chunk" lemmata="secretary of state colin powell in riyadh" isprenominal="false" pos="nnp in nnp nnp nnp in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_75" sentenceid="6" label="np" min_ids="word_75..word_75" type="chunk" lemmata="state" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_76..word_77" sentenceid="6" label="person" min_ids="word_76..word_77" type="enamex" lemmata="colin powell" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_79" sentenceid="6" label="location" min_ids="word_79..word_79" type="enamex" lemmata="riyadh" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_34" span="word_81..word_83" sentenceid="7" label="organization" min_ids="word_81..word_83" type="enamex" lemmata="the state department" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_86..word_88" sentenceid="7" label="np" min_ids="word_86..word_88" type="chunk" lemmata="all non-essential diplomat" isprenominal="false" pos="dt jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_86..word_90" sentenceid="7" label="np" min_ids="word_86..word_90" type="chunk" lemmata="all non-essential diplomat and dependent" isprenominal="false" pos="dt jj nns cc nns" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_90" sentenceid="7" label="np" min_ids="word_90..word_90" type="chunk" lemmata="dependent" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_93..word_94" sentenceid="7" label="np" min_ids="word_93..word_94" type="chunk" lemmata="the country" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_96..word_98" sentenceid="8" label="np" min_ids="word_96..word_98" type="chunk" lemmata="an fbi team" isprenominal="false" pos="dt nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_35" span="word_97" sentenceid="8" label="organization" type="enamex" lemmata="fbi" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_36" span="word_102..word_103" sentenceid="8" label="location" min_ids="word_102..word_103" type="enamex" lemmata="saudi arabia" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_107..word_108" sentenceid="8" label="np" min_ids="word_107..word_108" type="chunk" lemmata="the attack" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_110" sentenceid="9" label="np" min_ids="word_110..word_110" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_37" span="word_112" sentenceid="9" label="percent" type="enamex" lemmata="three" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_112..word_119" sentenceid="9" label="np" min_ids="word_112..word_114" type="chunk" lemmata="three residential compound for americans and other westerners" isprenominal="false" pos="cd jj nns in nnps cc jj nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_38" span="word_116" sentenceid="9" label="location" min_ids="word_116..word_116" type="enamex" lemmata="americans" isprenominal="false" pos="nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_39" span="word_116..word_119" sentenceid="9" label="location" min_ids="word_116..word_119" type="enamex" lemmata="americans and other westerners" isprenominal="false" pos="nnps cc jj nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_118..word_119" sentenceid="9" label="np" min_ids="word_118..word_119" type="chunk" lemmata="other westerners" isprenominal="false" pos="jj nnps" speaker="-" mmax_level="markable" />
+</markables>

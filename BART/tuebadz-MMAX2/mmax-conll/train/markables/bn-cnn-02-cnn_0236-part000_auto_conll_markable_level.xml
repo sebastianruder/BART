@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_3" sentenceid="1" label="np" min_ids="word_1..word_3" type="chunk" lemmata="federal safety official" isprenominal="false" pos="jj nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_11..word_14" sentenceid="1" label="np" min_ids="word_11..word_14" type="chunk" lemmata="a deadly boat accident" isprenominal="false" pos="dt jj nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_16..word_18" sentenceid="1" label="np" min_ids="word_16..word_18" type="chunk" lemmata="the oregon coast" isprenominal="false" pos="dt nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_17" sentenceid="1" label="location" type="enamex" lemmata="oregon" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_20..word_23" sentenceid="2" label="np" min_ids="word_20..word_23" type="chunk" lemmata="a charter fishing boat" isprenominal="false" pos="dt nn nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_26..word_27" sentenceid="2" label="np" min_ids="word_26..word_27" type="chunk" lemmata="rough surf" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_28..word_29" sentenceid="2" label="time" min_ids="word_28..word_29" type="enamex" lemmata="saturday morning" isprenominal="false" pos="nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_32" sentenceid="2" label="percent" type="enamex" lemmata="nine" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_32..word_33" sentenceid="2" label="np" min_ids="word_32..word_33" type="chunk" lemmata="nine people" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_35" sentenceid="3" label="percent" type="enamex" lemmata="two" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_35..word_36" sentenceid="3" label="np" min_ids="word_35..word_36" type="chunk" lemmata="two man" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_43" sentenceid="4" label="percent" type="enamex" lemmata="eight" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_43..word_44" sentenceid="4" label="np" min_ids="word_43..word_44" type="chunk" lemmata="eight people" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_47" sentenceid="5" label="np" min_ids="word_47..word_47" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_49..word_51" sentenceid="5" label="np" min_ids="word_49..word_51" type="chunk" lemmata="a massive wave" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_55..word_56" sentenceid="5" label="np" min_ids="word_55..word_56" type="chunk" lemmata="the boat" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+</markables>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_17" span="word_1" sentenceid="1" label="date" min_ids="word_1..word_1" type="enamex" lemmata="yesterday" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_3" sentenceid="1" label="percent" min_ids="word_3..word_3" type="enamex" lemmata="hundred" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_6..word_11" sentenceid="1" label="np" min_ids="word_6..word_9" type="chunk" lemmata="the west bank town of hebron" isprenominal="false" pos="dt nnp nnp nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_7..word_8" sentenceid="1" label="location" type="enamex" lemmata="west bank" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_11" sentenceid="1" label="location" min_ids="word_11..word_11" type="enamex" lemmata="hebron" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_13..word_30" sentenceid="1" label="np" min_ids="word_13..word_14" type="chunk" lemmata="the funeral of a palestinian woman kill in she home by crossfire between israeli soldier and palestinian gunman" isprenominal="false" pos="dt nn in dt jj nn vbn in prp$ nn in nn in jj nns cc jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_16..word_30" sentenceid="1" label="np" min_ids="word_16..word_18" type="chunk" lemmata="a palestinian woman kill in she home by crossfire between israeli soldier and palestinian gunman" isprenominal="false" pos="dt jj nn vbn in prp$ nn in nn in jj nns cc jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_17" sentenceid="1" label="location" type="enamex" lemmata="palestinian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_34" span="word_21" sentenceid="1" label="np" type="chunk" lemmata="she" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_21..word_22" sentenceid="1" label="np" min_ids="word_21..word_22" type="chunk" lemmata="she home" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_24..word_30" sentenceid="1" label="np" min_ids="word_24..word_24" type="chunk" lemmata="crossfire between israeli soldier and palestinian gunman" isprenominal="false" pos="nn in jj nns cc jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_26" sentenceid="1" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_26..word_27" sentenceid="1" label="np" min_ids="word_26..word_27" type="chunk" lemmata="israeli soldier" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_26..word_30" sentenceid="1" label="np" min_ids="word_26..word_30" type="chunk" lemmata="israeli soldier and palestinian gunman" isprenominal="false" pos="jj nns cc jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_29" sentenceid="1" label="location" type="enamex" lemmata="palestinian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_29..word_30" sentenceid="1" label="np" min_ids="word_29..word_30" type="chunk" lemmata="palestinian gunman" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_34" sentenceid="1" label="location" min_ids="word_34..word_34" type="enamex" lemmata="gaza" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_36..word_38" sentenceid="1" label="np" min_ids="word_36..word_38" type="chunk" lemmata="a second funeral" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_37" sentenceid="1" label="percent" type="enamex" lemmata="second" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_40" sentenceid="1" label="np" min_ids="word_40..word_40" type="chunk" lemmata="place" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_42..word_50" sentenceid="1" label="np" min_ids="word_42..word_44" type="chunk" lemmata="a palestinian man kill friday night by israeli troops" isprenominal="false" pos="dt jj nn vbn nnp nn in jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_43" sentenceid="1" label="location" type="enamex" lemmata="palestinian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_46" sentenceid="1" label="date" type="enamex" lemmata="friday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_46..word_47" sentenceid="1" label="time" min_ids="word_46..word_47" type="enamex" lemmata="friday night" isprenominal="false" pos="nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_49" sentenceid="1" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_49..word_50" sentenceid="1" label="np" min_ids="word_49..word_50" type="chunk" lemmata="israeli troops" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_52" sentenceid="2" label="location" type="enamex" lemmata="palestinian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_52..word_54" sentenceid="2" label="np" min_ids="word_52..word_54" type="chunk" lemmata="palestinian security official" isprenominal="false" pos="jj nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_56" sentenceid="2" label="np" min_ids="word_56..word_56" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_60..word_67" sentenceid="2" label="np" min_ids="word_60..word_61" type="chunk" lemmata="the unrest in the west bank and gaza" isprenominal="false" pos="dt nn in dt nnp nnp cc nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_63..word_65" sentenceid="2" label="location" min_ids="word_63..word_65" type="enamex" lemmata="the west bank" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_63..word_67" sentenceid="2" label="location" min_ids="word_64..word_67" type="enamex" lemmata="the west bank and gaza" isprenominal="false" pos="dt nnp nnp cc nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_67" sentenceid="2" label="np" min_ids="word_67..word_67" type="chunk" lemmata="gaza" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_69" sentenceid="2" label="location" min_ids="word_69..word_69" type="enamex" lemmata="israel" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_35" span="word_71" sentenceid="2" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_71..word_73" sentenceid="2" label="np" min_ids="word_71..word_72" type="chunk" lemmata="its blockade there" isprenominal="false" pos="prp$ nn rb" speaker="-" mmax_level="markable" />
+</markables>

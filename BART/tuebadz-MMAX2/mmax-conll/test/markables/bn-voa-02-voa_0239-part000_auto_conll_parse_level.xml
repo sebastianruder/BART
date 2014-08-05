@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_10" tag="(S1 (S (NP (NP (DT The) (NN head)) (PP (IN of) (NP (JJ official) (NNP Palestinian) (NNP television)))) (VP (VBZ has) (VP (VBN been) (VP (VBN assassinated)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_11..word_23" tag="(S1 (S (NP (JJ Hooded) (NNS men)) (VP (VBN gunned) (PRT (RP down)) (NP (NNP Hisha) (NNP Mickey)) (PP (IN at) (NP (NP (DT a) (NN hotel)) (PP (IN in) (NP (NNP Gaza) (NNP City)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_24..word_36" tag="(S1 (S (NP (DT The) (JJ Palestinian) (NN leadership)) (VP (VBD accused) (NP (NP (DT the) (NNS collaborators)) (PP (IN with) (NP (NNP Israel)))) (PP (IN for) (S (VP (VBG killing) (NP (NNP Mr.) (NNP Mickey)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_37..word_45" tag="(S1 (S (NP (NNP Israel)) (VP (VBZ says) (SBAR (S (NP (PRP$ its) (NN security) (NNS forces)) (VP (VBD were) (RB not) (VP (VBN involved)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_46..word_59" tag="(S1 (S (NP (NNP Mr.) (NNP Mickey)) (VP (VBD was) (PP (IN in) (NP (NP (NN charge)) (PP (IN of) (NP (NP (JJ Palestinian) (NN television)) (CC and) (NP (DT the) (JJ Palestinian) (NN satellite) (NN channel))))))) (. .)))" mmax_level="parse" />
+</markables>

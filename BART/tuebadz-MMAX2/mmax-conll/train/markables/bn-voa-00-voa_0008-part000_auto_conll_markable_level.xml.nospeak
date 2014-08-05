@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_7" sentenceid="1" label="np" min_ids="word_1..word_1" type="chunk" lemmata="judges at the flight 103 lockerbie trial" isprenominal="false" pos="nns in dt nnp cd nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_3..word_7" sentenceid="1" label="np" min_ids="word_3..word_7" type="chunk" lemmata="the flight 103 lockerbie trial" isprenominal="false" pos="dt nnp cd nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_4..word_5" sentenceid="1" label="object" type="enamex" lemmata="flight 103" isprenominal="false" pos="nnp cd" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_6" sentenceid="1" label="location" type="enamex" lemmata="lockerbie" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_12" sentenceid="1" label="date" min_ids="word_12..word_12" type="enamex" lemmata="thursday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_14..word_21" sentenceid="1" label="np" min_ids="word_14..word_15" type="chunk" lemmata="a diary belong to one of the accuse" isprenominal="false" pos="dt nn vbg in cd in dt vbn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_20..word_21" sentenceid="1" label="np" min_ids="word_20..word_21" type="chunk" lemmata="the accuse" isprenominal="false" pos="dt vbn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_26" sentenceid="1" label="np" min_ids="word_26..word_26" type="chunk" lemmata="evidence" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_28..word_30" sentenceid="2" label="np" min_ids="word_28..word_29" type="chunk" lemmata="the defendant 's" isprenominal="false" pos="dt nn pos" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_28..word_31" sentenceid="2" label="np" min_ids="word_28..word_31" type="chunk" lemmata="the defendant 's diary" isprenominal="false" pos="dt nn pos nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_35" sentenceid="2" label="location" type="enamex" lemmata="scottish" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_35..word_36" sentenceid="2" label="np" min_ids="word_35..word_36" type="chunk" lemmata="scottish police" isprenominal="false" pos="nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_38..word_41" sentenceid="2" label="np" min_ids="word_38..word_39" type="chunk" lemmata="an investigation in malta" isprenominal="false" pos="dt nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_41" sentenceid="2" label="location" min_ids="word_41..word_41" type="enamex" lemmata="malta" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_43..word_44" sentenceid="2" label="date" min_ids="word_43..word_44" type="enamex" lemmata="april 1991" isprenominal="false" pos="nnp cd" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_46..word_47" sentenceid="3" label="np" min_ids="word_46..word_47" type="chunk" lemmata="the defense" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_50..word_51" sentenceid="3" label="np" min_ids="word_50..word_51" type="chunk" lemmata="police search" isprenominal="false" pos="nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_56..word_57" sentenceid="3" label="np" min_ids="word_56..word_57" type="chunk" lemmata="the diary" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_63" sentenceid="3" label="np" min_ids="word_63..word_63" type="chunk" lemmata="evidence" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_65..word_66" sentenceid="4" label="person" min_ids="word_65..word_66" type="enamex" lemmata="david coller" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_68..word_69" sentenceid="4" label="organization" min_ids="word_68..word_69" type="enamex" lemmata="voa news" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+</markables>

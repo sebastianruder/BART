@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1" sentenceid="1" label="np" min_ids="word_1..word_1" type="chunk" lemmata="power" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_5..word_7" sentenceid="1" label="np" min_ids="word_5..word_7" type="chunk" lemmata="a rolling basis" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_9" sentenceid="1" label="location" min_ids="word_9..word_9" type="enamex" lemmata="baghdad" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_10" sentenceid="1" label="date" min_ids="word_10..word_10" type="enamex" lemmata="today" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_12..word_13" sentenceid="2" label="np" min_ids="word_12..word_13" type="chunk" lemmata="the city" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_15..word_17" sentenceid="2" label="np" min_ids="word_15..word_18" type="chunk" lemmata="dark two week" isprenominal="false" pos="rb cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_16..word_18" sentenceid="2" label="date" type="enamex" lemmata="two week ago" isprenominal="false" pos="cd nns rb" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_20" sentenceid="2" label="np" min_ids="word_20..word_20" type="chunk" lemmata="people" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_22..word_32" sentenceid="2" label="np" min_ids="word_22..word_22" type="chunk" lemmata="electricity or the ability to cook or keep food from spoil" isprenominal="false" pos="nn cc dt nn to vb cc vb nn in vbg" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_24..word_32" sentenceid="2" label="np" min_ids="word_24..word_25" type="chunk" lemmata="the ability to cook or keep food from spoil" isprenominal="false" pos="dt nn to vb cc vb nn in vbg" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_30" sentenceid="2" label="np" min_ids="word_30..word_30" type="chunk" lemmata="food" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_34" sentenceid="3" label="np" min_ids="word_34..word_34" type="chunk" lemmata="engineers" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_39" sentenceid="3" label="percent" type="enamex" lemmata="two" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_39..word_40" sentenceid="3" label="np" min_ids="word_39..word_40" type="chunk" lemmata="two substation" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_39..word_44" sentenceid="3" label="np" min_ids="word_39..word_44" type="chunk" lemmata="two substation and six diesel plant" isprenominal="false" pos="cd nns cc cd nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_42" sentenceid="3" label="percent" type="enamex" lemmata="six" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_42..word_44" sentenceid="3" label="np" min_ids="word_42..word_44" type="chunk" lemmata="six diesel plant" isprenominal="false" pos="cd nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_51..word_52" sentenceid="3" label="np" min_ids="word_51..word_52" type="chunk" lemmata="the hospital" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_55" sentenceid="3" label="np" min_ids="word_55..word_55" type="chunk" lemmata="line" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+</markables>

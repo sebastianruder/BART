@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_4" sentenceid="1" label="np" min_ids="word_1..word_3" type="chunk" lemmata="the palestinian territory today" isprenominal="false" pos="dt jj nns nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_2" sentenceid="1" label="location" type="enamex" lemmata="palestinian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_4" sentenceid="1" label="date" min_ids="word_4..word_4" type="enamex" lemmata="today" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_6" sentenceid="1" label="percent" type="enamex" lemmata="three" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_6..word_8" sentenceid="1" label="np" min_ids="word_6..word_8" type="chunk" lemmata="three jewish settler" isprenominal="false" pos="cd jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_7" sentenceid="1" label="location" type="enamex" lemmata="jewish" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_12" sentenceid="1" label="location" min_ids="word_12..word_12" type="enamex" lemmata="palestinians" isprenominal="false" pos="nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_14" sentenceid="2" label="percent" type="enamex" lemmata="two" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_14..word_15" sentenceid="2" label="np" min_ids="word_14..word_15" type="chunk" lemmata="two man" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_18..word_19" sentenceid="2" label="np" min_ids="word_18..word_19" type="chunk" lemmata="a bus" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_21" sentenceid="2" label="location" min_ids="word_21..word_21" type="enamex" lemmata="palestinians" isprenominal="false" pos="nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_24..word_25" sentenceid="2" label="np" min_ids="word_24..word_25" type="chunk" lemmata="a bus" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_27..word_28" sentenceid="2" label="np" min_ids="word_27..word_28" type="chunk" lemmata="a woman" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_32" sentenceid="2" label="np" type="chunk" lemmata="she" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_32..word_33" sentenceid="2" label="np" min_ids="word_32..word_33" type="chunk" lemmata="she car" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_38..word_39" sentenceid="3" label="location" min_ids="word_39..word_39" type="enamex" lemmata="the palestinians" isprenominal="false" pos="dt nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_42" sentenceid="3" label="np" min_ids="word_42..word_42" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_46..word_47" sentenceid="3" label="date" min_ids="word_46..word_46" type="enamex" lemmata="thursday 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_46..word_55" sentenceid="3" label="np" min_ids="word_46..word_48" type="chunk" lemmata="thursday 's assassination of a commander of the fatah organization" isprenominal="false" pos="nnp pos nn in dt nn in dt nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_50..word_55" sentenceid="3" label="np" min_ids="word_50..word_51" type="chunk" lemmata="a commander of the fatah organization" isprenominal="false" pos="dt nn in dt nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_53..word_55" sentenceid="3" label="np" min_ids="word_53..word_55" type="chunk" lemmata="the fatah organization" isprenominal="false" pos="dt nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_54" sentenceid="3" label="organization" type="enamex" lemmata="fatah" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+</markables>

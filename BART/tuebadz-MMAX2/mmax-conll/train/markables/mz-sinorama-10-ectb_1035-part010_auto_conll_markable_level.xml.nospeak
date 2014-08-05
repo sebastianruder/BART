@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_45" span="word_1..word_3" sentenceid="1" label="percent" min_ids="word_1..word_3" type="enamex" lemmata="question # 10" isprenominal="false" pos="nn nn cd" speaker="-" mmax_level="markable" />
+<markable id="markable_49" span="word_7" sentenceid="1" label="np" type="chunk" lemmata="your" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_7..word_8" sentenceid="1" label="np" min_ids="word_7..word_8" type="chunk" lemmata="your competitor" isprenominal="false" pos="prp$ nns" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_15" sentenceid="2" label="np" min_ids="word_15..word_15" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_17..word_18" sentenceid="2" label="np" min_ids="word_17..word_18" type="chunk" lemmata="no competitor" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_21" sentenceid="3" label="np" min_ids="word_21..word_21" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_46" span="word_23..word_25" sentenceid="3" label="date" min_ids="word_23..word_25" type="enamex" lemmata="no competitor today" isprenominal="false" pos="dt nns nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_28" sentenceid="3" label="np" min_ids="word_28..word_28" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_31" sentenceid="3" label="np" min_ids="word_31..word_31" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_47" span="word_32" sentenceid="3" label="date" min_ids="word_32..word_32" type="enamex" lemmata="tomorrow" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_36" sentenceid="4" label="np" min_ids="word_36..word_36" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_41..word_42" sentenceid="4" label="np" min_ids="word_41..word_42" type="chunk" lemmata="weighty competitor" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_50" span="word_45" sentenceid="4" label="np" type="chunk" lemmata="your" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_45..word_46" sentenceid="4" label="np" min_ids="word_45..word_46" type="chunk" lemmata="your competitor" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_48" sentenceid="4" label="np" min_ids="word_48..word_48" type="chunk" lemmata="yourself" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_50..word_51" sentenceid="5" label="np" min_ids="word_50..word_51" type="chunk" lemmata="entry barrier" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_50..word_54" sentenceid="5" label="np" min_ids="word_50..word_54" type="chunk" lemmata="entry barrier and exit barrier" isprenominal="false" pos="nn nns cc nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_53..word_54" sentenceid="5" label="np" min_ids="word_53..word_54" type="chunk" lemmata="exit barrier" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_56..word_57" sentenceid="5" label="np" min_ids="word_56..word_57" type="chunk" lemmata="opposite effect" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_59..word_60" sentenceid="6" label="np" min_ids="word_59..word_60" type="chunk" lemmata="the former" isprenominal="false" pos="dt jj" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_66..word_69" sentenceid="6" label="np" min_ids="word_66..word_67" type="chunk" lemmata="a swarm of competitor" isprenominal="false" pos="dt nn in nns" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_69" sentenceid="6" label="np" min_ids="word_69..word_69" type="chunk" lemmata="competitor" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_73..word_74" sentenceid="7" label="np" min_ids="word_73..word_74" type="chunk" lemmata="entry barrier" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_78" sentenceid="7" label="np" min_ids="word_78..word_78" type="chunk" lemmata="anyone" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_83..word_84" sentenceid="8" label="np" min_ids="word_83..word_84" type="chunk" lemmata="the latter" isprenominal="false" pos="dt jj" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_90..word_91" sentenceid="8" label="np" min_ids="word_90..word_91" type="chunk" lemmata="detrimental competition" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_95..word_96" sentenceid="9" label="np" min_ids="word_95..word_96" type="chunk" lemmata="exit barrier" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_100" sentenceid="9" label="np" min_ids="word_100..word_100" type="chunk" lemmata="competitor" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_104..word_106" sentenceid="9" label="np" min_ids="word_104..word_106" type="chunk" lemmata="the last penny" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_110" sentenceid="10" label="np" min_ids="word_110..word_110" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_114..word_117" sentenceid="10" label="np" min_ids="word_114..word_117" type="chunk" lemmata="core compet - itiveness" isprenominal="false" pos="jj nn hyph nn" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_119..word_126" sentenceid="10" label="np" min_ids="word_119..word_121" type="chunk" lemmata="the first thing you have get to do" isprenominal="false" pos="dt jj nn prp vbp vbn to vb" speaker="-" mmax_level="markable" />
+<markable id="markable_48" span="word_120" sentenceid="10" label="percent" type="enamex" lemmata="first" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_122" sentenceid="10" label="np" min_ids="word_122..word_122" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_130..word_138" sentenceid="10" label="np" min_ids="word_130..word_130" type="chunk" lemmata="business that do not relate to your core competency" isprenominal="false" pos="nn wdt vbz rb vb in prp$ jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_51" span="word_136" sentenceid="10" label="np" type="chunk" lemmata="your" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_136..word_138" sentenceid="10" label="np" min_ids="word_136..word_138" type="chunk" lemmata="your core competency" isprenominal="false" pos="prp$ jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_142" sentenceid="11" label="np" min_ids="word_142..word_142" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_145..word_151" sentenceid="11" label="np" min_ids="word_145..word_146" type="chunk" lemmata="the emphasis on innovation and strategic management" isprenominal="false" pos="dt nn in nn cc jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_148" sentenceid="11" label="np" min_ids="word_148..word_148" type="chunk" lemmata="innovation" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_148..word_151" sentenceid="11" label="np" min_ids="word_148..word_151" type="chunk" lemmata="innovation and strategic management" isprenominal="false" pos="nn cc jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_34" span="word_150..word_151" sentenceid="11" label="np" min_ids="word_150..word_151" type="chunk" lemmata="strategic management" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_35" span="word_158" sentenceid="13" label="np" min_ids="word_158..word_158" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_36" span="word_160..word_161" sentenceid="13" label="np" min_ids="word_160..word_161" type="chunk" lemmata="entry barrier" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_37" span="word_163" sentenceid="13" label="np" min_ids="word_163..word_163" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_38" span="word_167..word_168" sentenceid="13" label="np" min_ids="word_167..word_168" type="chunk" lemmata="exit barrier" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_39" span="word_171" sentenceid="14" label="np" min_ids="word_171..word_171" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_52" span="word_175" sentenceid="14" label="np" type="chunk" lemmata="your" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_40" span="word_175..word_178" sentenceid="14" label="np" min_ids="word_175..word_178" type="chunk" lemmata="your &quot; core competency" isprenominal="false" pos="prp$ `` nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_41" span="word_182" sentenceid="15" label="np" min_ids="word_182..word_182" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_42" span="word_185..word_186" sentenceid="15" label="np" min_ids="word_185..word_186" type="chunk" lemmata="core personnel" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_43" span="word_189..word_190" sentenceid="15" label="np" min_ids="word_189..word_190" type="chunk" lemmata="core technology" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_44" span="word_193..word_194" sentenceid="15" label="np" min_ids="word_193..word_194" type="chunk" lemmata="core goal" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+</markables>

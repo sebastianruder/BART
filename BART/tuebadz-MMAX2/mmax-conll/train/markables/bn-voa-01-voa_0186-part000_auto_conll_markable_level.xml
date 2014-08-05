@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_7" sentenceid="1" label="np" min_ids="word_1..word_2" type="chunk" lemmata="reformist ally of yugoslavic president vojislav kostunica" isprenominal="false" pos="jj nns in nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_4" sentenceid="1" label="location" type="enamex" lemmata="yugoslavic" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_4..word_7" sentenceid="1" label="person" min_ids="word_4..word_7" type="enamex" lemmata="yugoslavic president vojislav kostunica" isprenominal="false" pos="nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_10..word_18" sentenceid="1" label="np" min_ids="word_10..word_12" type="chunk" lemmata="a decisive victory in saturday 's serbian parliamentary election" isprenominal="false" pos="dt jj nn in nnp pos jj jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_14..word_15" sentenceid="1" label="date" min_ids="word_14..word_14" type="enamex" lemmata="saturday 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_14..word_18" sentenceid="1" label="np" min_ids="word_14..word_18" type="chunk" lemmata="saturday 's serbian parliamentary election" isprenominal="false" pos="nnp pos jj jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_16" sentenceid="1" label="location" type="enamex" lemmata="serbian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_20..word_30" sentenceid="2" label="organization" min_ids="word_21..word_24" type="enamex" lemmata="the democratic opposition of serbia , which support the president ," isprenominal="false" pos="dt nnp nnp in nnp , wdt vbz dt nnp ," speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_28..word_29" sentenceid="2" label="np" min_ids="word_28..word_29" type="chunk" lemmata="the president" isprenominal="false" pos="dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_32" sentenceid="2" label="np" min_ids="word_32..word_32" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_34..word_38" sentenceid="2" label="percent" min_ids="word_34..word_35" type="enamex" lemmata="65 % of the vote" isprenominal="false" pos="cd nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_37..word_38" sentenceid="2" label="np" min_ids="word_37..word_38" type="chunk" lemmata="the vote" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+</markables>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_11" span="word_1..word_3" sentenceid="1" label="person" min_ids="word_1..word_2" type="enamex" lemmata="al gore 's" isprenominal="false" pos="nnp nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_1..word_5" sentenceid="1" label="np" min_ids="word_1..word_5" type="chunk" lemmata="al gore 's favorability rating" isprenominal="false" pos="nnp nnp pos nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_12" sentenceid="1" label="percent" type="enamex" lemmata="first" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_15" sentenceid="1" label="np" min_ids="word_15..word_15" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_18..word_20" sentenceid="1" label="person" min_ids="word_18..word_19" type="enamex" lemmata="bill clinton 's" isprenominal="false" pos="nnp nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_18..word_24" sentenceid="1" label="np" min_ids="word_18..word_22" type="chunk" lemmata="bill clinton 's running mate in 1992" isprenominal="false" pos="nnp nnp pos nn nn in cd" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_24" sentenceid="1" label="date" min_ids="word_24..word_24" type="enamex" lemmata="1992" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_26..word_30" sentenceid="1" label="np" min_ids="word_26..word_27" type="chunk" lemmata="a majority of american adult" isprenominal="false" pos="dt nn in jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_29" sentenceid="1" label="location" type="enamex" lemmata="american" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_29..word_30" sentenceid="1" label="np" min_ids="word_29..word_30" type="chunk" lemmata="american adult" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_33" sentenceid="1" label="np" min_ids="word_33..word_33" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_36..word_43" sentenceid="2" label="object" min_ids="word_37..word_39" type="enamex" lemmata="the latest gallup poll , complete monday ," isprenominal="false" pos="dt jjs nnp nnp , vbn nnp ," speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_42" sentenceid="2" label="date" min_ids="word_42..word_42" type="enamex" lemmata="monday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_45..word_49" sentenceid="2" label="percent" min_ids="word_45..word_46" type="enamex" lemmata="52 % of those question" isprenominal="false" pos="cd nn in dt vbn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_48..word_49" sentenceid="2" label="np" min_ids="word_48..word_48" type="chunk" lemmata="those question" isprenominal="false" pos="dt vbn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_51..word_55" sentenceid="2" label="np" min_ids="word_51..word_53" type="chunk" lemmata="an unfavorable view of gore" isprenominal="false" pos="dt jj nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_55" sentenceid="2" label="person" min_ids="word_55..word_55" type="enamex" lemmata="gore" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_59..word_63" sentenceid="2" label="percent" min_ids="word_59..word_60" type="enamex" lemmata="39 % before the election" isprenominal="false" pos="cd nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_62..word_63" sentenceid="2" label="np" min_ids="word_62..word_63" type="chunk" lemmata="the election" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_65..word_66" sentenceid="3" label="percent" min_ids="word_65..word_66" type="enamex" lemmata="46 %" isprenominal="false" pos="cd nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_68..word_72" sentenceid="3" label="np" min_ids="word_68..word_70" type="chunk" lemmata="a favorable view of gore" isprenominal="false" pos="dt jj nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_72" sentenceid="3" label="person" min_ids="word_72..word_72" type="enamex" lemmata="gore" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_76..word_80" sentenceid="3" label="percent" min_ids="word_76..word_77" type="enamex" lemmata="56 % before the election" isprenominal="false" pos="cd nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_79..word_80" sentenceid="3" label="np" min_ids="word_79..word_80" type="chunk" lemmata="the election" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+</markables>

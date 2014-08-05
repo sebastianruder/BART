@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1" sentenceid="1" label="np" min_ids="word_1..word_1" type="chunk" lemmata="sunday" isprenominal="false" pos="nnp" speaker="Larry" mmax_level="markable" />
+<markable id="markable_1" span="word_2..word_6" sentenceid="1" label="np" min_ids="word_2..word_3" type="chunk" lemmata="the interview with bob shapiro" isprenominal="false" pos="dt nn in nnp nnp" speaker="Larry" mmax_level="markable" />
+<markable id="markable_20" span="word_5..word_6" sentenceid="1" label="person" min_ids="word_5..word_6" type="enamex" lemmata="bob shapiro" isprenominal="false" pos="nnp nnp" speaker="Larry" mmax_level="markable" />
+<markable id="markable_21" span="word_8" sentenceid="2" label="object" min_ids="word_8..word_8" type="enamex" lemmata="newsnight" isprenominal="false" pos="nnp" speaker="Larry" mmax_level="markable" />
+<markable id="markable_2" span="word_11..word_13" sentenceid="2" label="np" min_ids="word_11..word_12" type="chunk" lemmata="duo action tonight" isprenominal="false" pos="nn nn nn" speaker="Larry" mmax_level="markable" />
+<markable id="markable_22" span="word_13" sentenceid="2" label="time" min_ids="word_13..word_13" type="enamex" lemmata="tonight" isprenominal="false" pos="nn" speaker="Larry" mmax_level="markable" />
+<markable id="markable_3" span="word_15..word_16" sentenceid="3" label="np" min_ids="word_15..word_16" type="chunk" lemmata="the co-hosts" isprenominal="false" pos="dt nns" speaker="Larry" mmax_level="markable" />
+<markable id="markable_23" span="word_18..word_19" sentenceid="3" label="person" min_ids="word_18..word_19" type="enamex" lemmata="kira phillips" isprenominal="false" pos="nnp nnp" speaker="Larry" mmax_level="markable" />
+<markable id="markable_24" span="word_18..word_22" sentenceid="3" label="person" min_ids="word_18..word_22" type="enamex" lemmata="kira phillips and rick sanchez" isprenominal="false" pos="nnp nnp cc nnp nnp" speaker="Larry" mmax_level="markable" />
+<markable id="markable_4" span="word_21..word_22" sentenceid="3" label="np" min_ids="word_21..word_22" type="chunk" lemmata="rick sanchez" isprenominal="false" pos="nnp nnp" speaker="Larry" mmax_level="markable" />
+<markable id="markable_25" span="word_26" sentenceid="4" label="person" min_ids="word_26..word_26" type="enamex" lemmata="rick" isprenominal="false" pos="nnp" speaker="Larry" mmax_level="markable" />
+<markable id="markable_26" span="word_28..word_33" sentenceid="4" label="person" min_ids="word_29..word_30" type="enamex" lemmata="the left kira on the right" isprenominal="false" pos="dt jj nnp in dt nn" speaker="Larry" mmax_level="markable" />
+<markable id="markable_5" span="word_32..word_33" sentenceid="4" label="np" min_ids="word_32..word_33" type="chunk" lemmata="the right" isprenominal="false" pos="dt nn" speaker="Larry" mmax_level="markable" />
+<markable id="markable_6" span="word_36" sentenceid="5" label="np" min_ids="word_36..word_36" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="Larry" mmax_level="markable" />
+<markable id="markable_27" span="word_39" sentenceid="5" label="location" min_ids="word_39..word_39" type="enamex" lemmata="atlanta" isprenominal="false" pos="nnp" speaker="Larry" mmax_level="markable" />
+<markable id="markable_7" span="word_41..word_43" sentenceid="6" label="np" min_ids="word_41..word_43" type="chunk" lemmata="double trouble ." isprenominal="false" pos="jj nn ." speaker="Kyra Phillips" mmax_level="markable" />
+<markable id="markable_8" span="word_46..word_47" sentenceid="7" label="np" min_ids="word_46..word_47" type="chunk" lemmata="the dolphin" isprenominal="false" pos="dt nns" speaker="Rick Sanchez" mmax_level="markable" />
+<markable id="markable_28" span="word_48" sentenceid="7" label="person" min_ids="word_48..word_48" type="enamex" lemmata="larry" isprenominal="false" pos="nnp" speaker="Rick Sanchez" mmax_level="markable" />
+<markable id="markable_9" span="word_53" sentenceid="9" label="np" min_ids="word_53..word_53" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="Rick Sanchez" mmax_level="markable" />
+<markable id="markable_10" span="word_56..word_60" sentenceid="9" label="np" min_ids="word_56..word_57" type="chunk" lemmata="this guy in miami saving" isprenominal="false" pos="dt nn in nnp nn" speaker="Rick Sanchez" mmax_level="markable" />
+<markable id="markable_29" span="word_59" sentenceid="9" label="location" type="enamex" lemmata="miami" isprenominal="false" pos="nnp" speaker="Rick Sanchez" mmax_level="markable" />
+<markable id="markable_11" span="word_59..word_60" sentenceid="9" label="np" min_ids="word_59..word_60" type="chunk" lemmata="miami saving" isprenominal="false" pos="nnp nn" speaker="Rick Sanchez" mmax_level="markable" />
+<markable id="markable_36" span="word_63" sentenceid="9" label="np" type="chunk" lemmata="your" isprenominal="true" pos="prp$" speaker="Rick Sanchez" mmax_level="markable" />
+<markable id="markable_12" span="word_63..word_64" sentenceid="9" label="np" min_ids="word_63..word_64" type="chunk" lemmata="your friend" isprenominal="false" pos="prp$ nn" speaker="Rick Sanchez" mmax_level="markable" />
+<markable id="markable_13" span="word_67..word_69" sentenceid="10" label="np" min_ids="word_67..word_69" type="chunk" lemmata="not this year" isprenominal="false" pos="rb dt nn" speaker="Larry" mmax_level="markable" />
+<markable id="markable_14" span="word_73" sentenceid="11" label="np" min_ids="word_73..word_73" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="Rick Sanchez" mmax_level="markable" />
+<markable id="markable_15" span="word_85" sentenceid="13" label="np" min_ids="word_85..word_85" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="Larry" mmax_level="markable" />
+<markable id="markable_16" span="word_91" sentenceid="16" label="np" min_ids="word_91..word_91" type="chunk" lemmata="thanks" isprenominal="false" pos="nns" speaker="Kyra Phillips" mmax_level="markable" />
+<markable id="markable_30" span="word_92" sentenceid="16" label="person" min_ids="word_92..word_92" type="enamex" lemmata="larry" isprenominal="false" pos="nnp" speaker="Kyra Phillips" mmax_level="markable" />
+<markable id="markable_31" span="word_95" sentenceid="17" label="time" min_ids="word_95..word_95" type="enamex" lemmata="tonight" isprenominal="false" pos="nn" speaker="Kyra Phillips" mmax_level="markable" />
+<markable id="markable_17" span="word_96..word_100" sentenceid="17" label="np" min_ids="word_96..word_100" type="chunk" lemmata="a wal - mart controversy" isprenominal="false" pos="dt nnp hyph nnp nn" speaker="Kyra Phillips" mmax_level="markable" />
+<markable id="markable_32" span="word_97..word_99" sentenceid="17" label="organization" type="enamex" lemmata="wal - mart" isprenominal="false" pos="nnp hyph nnp" speaker="Kyra Phillips" mmax_level="markable" />
+<markable id="markable_18" span="word_104" sentenceid="18" label="np" min_ids="word_104..word_104" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="Kyra Phillips" mmax_level="markable" />
+<markable id="markable_33" span="word_106..word_107" sentenceid="18" label="person" min_ids="word_106..word_107" type="enamex" lemmata="kyra phillips" isprenominal="false" pos="nnp nnp" speaker="Kyra Phillips" mmax_level="markable" />
+<markable id="markable_19" span="word_110" sentenceid="19" label="np" min_ids="word_110..word_110" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="Rick Sanchez" mmax_level="markable" />
+<markable id="markable_34" span="word_112..word_113" sentenceid="19" label="person" min_ids="word_112..word_113" type="enamex" lemmata="rick sanchez" isprenominal="false" pos="nnp nnp" speaker="Rick Sanchez" mmax_level="markable" />
+<markable id="markable_35" span="word_115" sentenceid="20" label="object" min_ids="word_115..word_115" type="enamex" lemmata="newsnight" isprenominal="false" pos="nnp" speaker="Rick Sanchez" mmax_level="markable" />
+</markables>

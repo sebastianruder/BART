@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_9" span="word_1" sentenceid="1" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_1..word_5" sentenceid="1" label="person" min_ids="word_1..word_5" type="enamex" lemmata="israeli prime minister ehud barak" isprenominal="false" pos="jj nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_7" sentenceid="1" label="date" min_ids="word_7..word_7" type="enamex" lemmata="today" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_8" sentenceid="1" label="np" min_ids="word_8..word_8" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_11..word_15" sentenceid="1" label="np" min_ids="word_11..word_12" type="chunk" lemmata="diplomatic contact with yasser arafat" isprenominal="false" pos="jj nns in nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_14..word_15" sentenceid="1" label="person" min_ids="word_14..word_15" type="enamex" lemmata="yasser arafat" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_18..word_22" sentenceid="1" label="np" min_ids="word_18..word_20" type="chunk" lemmata="the israeli election on february" isprenominal="false" pos="dt jj nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_19" sentenceid="1" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_22" sentenceid="1" label="date" min_ids="word_22..word_22" type="enamex" lemmata="february" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_24..word_25" sentenceid="2" label="date" min_ids="word_24..word_25" type="enamex" lemmata="just yesterday" isprenominal="false" pos="rb nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_27" sentenceid="2" label="np" min_ids="word_27..word_27" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_33..word_35" sentenceid="2" label="np" min_ids="word_33..word_35" type="chunk" lemmata="the palestinian leader" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_34" sentenceid="2" label="location" type="enamex" lemmata="palestinian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_36..word_38" sentenceid="2" label="date" min_ids="word_36..word_38" type="enamex" lemmata="this come week" isprenominal="false" pos="dt vbg nn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_40" sentenceid="2" label="location" min_ids="word_40..word_40" type="enamex" lemmata="sweden" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_42..word_43" sentenceid="3" label="np" min_ids="word_42..word_43" type="chunk" lemmata="the announcement" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_45..word_48" sentenceid="3" label="np" min_ids="word_45..word_46" type="chunk" lemmata="harsh word from arafat" isprenominal="false" pos="jj nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_48" sentenceid="3" label="person" min_ids="word_48..word_48" type="enamex" lemmata="arafat" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_50..word_64" sentenceid="3" label="object" min_ids="word_50..word_54" type="enamex" lemmata="the davos world economic forum , where he speak with israeli elder statesman shimon peres" isprenominal="false" pos="dt nnp nnp nnp nnp , wrb prp vbd in jj jj nn nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_57" sentenceid="3" label="np" min_ids="word_57..word_57" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_60" sentenceid="3" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_60..word_64" sentenceid="3" label="np" min_ids="word_60..word_62" type="chunk" lemmata="israeli elder statesman shimon peres" isprenominal="false" pos="jj jj nn nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_63..word_64" sentenceid="3" label="person" min_ids="word_63..word_64" type="enamex" lemmata="shimon peres" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+</markables>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_39" span="word_2..word_5" sentenceid="1" label="organization" min_ids="word_2..word_3" type="enamex" lemmata="bbc news in london" isprenominal="false" pos="nnp nnp in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_40" span="word_5" sentenceid="1" label="location" min_ids="word_5..word_5" type="enamex" lemmata="london" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_7" sentenceid="1" label="np" min_ids="word_7..word_7" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_41" span="word_9..word_13" sentenceid="1" label="person" min_ids="word_9..word_10" type="enamex" lemmata="gregor craigy for the world" isprenominal="false" pos="nnp nnp in dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_42" span="word_12..word_13" sentenceid="1" label="organization" min_ids="word_12..word_13" type="enamex" lemmata="the world" isprenominal="false" pos="dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_44" span="word_15..word_24" sentenceid="2" label="object" min_ids="word_16..word_18" type="enamex" lemmata="a singapore airlines 747 fly from taiwan to los angeles" isprenominal="false" pos="dt nnp nnp cd vbg in nnp in nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_43" span="word_16..word_17" sentenceid="2" label="organization" type="enamex" lemmata="singapore airlines" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_45" span="word_21" sentenceid="2" label="location" min_ids="word_21..word_21" type="enamex" lemmata="taiwan" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_46" span="word_23..word_24" sentenceid="2" label="location" min_ids="word_23..word_24" type="enamex" lemmata="los angeles" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_47" span="word_28..word_29" sentenceid="3" label="object" min_ids="word_28..word_29" type="enamex" lemmata="flight sq006" isprenominal="false" pos="nn cd" speaker="-" mmax_level="markable" />
+<markable id="markable_48" span="word_32" sentenceid="3" label="percent" type="enamex" lemmata="179" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_32..word_33" sentenceid="3" label="np" min_ids="word_32..word_33" type="chunk" lemmata="179 passenger" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_32..word_35" sentenceid="3" label="np" min_ids="word_32..word_35" type="chunk" lemmata="179 passenger and crew" isprenominal="false" pos="cd nns cc nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_35" sentenceid="3" label="np" min_ids="word_35..word_35" type="chunk" lemmata="crew" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_37" sentenceid="3" label="np" min_ids="word_37..word_37" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_40" sentenceid="3" label="np" min_ids="word_40..word_40" type="chunk" lemmata="flame" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_43" sentenceid="3" label="np" min_ids="word_43..word_43" type="chunk" lemmata="takeoff" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_49" span="word_45..word_47" sentenceid="4" label="percent" type="enamex" lemmata="at least 65" isprenominal="false" pos="rb rbs cd" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_45..word_48" sentenceid="4" label="np" min_ids="word_45..word_48" type="chunk" lemmata="at least 65 people" isprenominal="false" pos="rb rbs cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_50" span="word_56..word_57" sentenceid="4" label="percent" type="enamex" lemmata="around 30" isprenominal="false" pos="rb cd" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_56..word_58" sentenceid="4" label="np" min_ids="word_56..word_58" type="chunk" lemmata="around 30 passenger" isprenominal="false" pos="rb cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_51" span="word_63..word_64" sentenceid="5" label="person" min_ids="word_63..word_64" type="enamex" lemmata="david chezan" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_67..word_72" sentenceid="6" label="np" min_ids="word_67..word_67" type="chunk" lemmata="survivors from the singapore airlines flight" isprenominal="false" pos="nns in dt nnp nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_69..word_72" sentenceid="6" label="np" min_ids="word_69..word_72" type="chunk" lemmata="the singapore airlines flight" isprenominal="false" pos="dt nnp nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_52" span="word_70..word_71" sentenceid="6" label="organization" type="enamex" lemmata="singapore airlines" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_75..word_76" sentenceid="6" label="np" min_ids="word_75..word_76" type="chunk" lemmata="the plane" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_80..word_81" sentenceid="6" label="np" min_ids="word_80..word_81" type="chunk" lemmata="the runway" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_85..word_93" sentenceid="6" label="np" min_ids="word_85..word_87" type="chunk" lemmata="a loud noise and the aircraft split in two" isprenominal="false" pos="dt jj nn cc dt nn nn in cd" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_89..word_93" sentenceid="6" label="np" min_ids="word_89..word_91" type="chunk" lemmata="the aircraft split in two" isprenominal="false" pos="dt nn nn in cd" speaker="-" mmax_level="markable" />
+<markable id="markable_53" span="word_93" sentenceid="6" label="percent" min_ids="word_93..word_93" type="enamex" lemmata="two" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_95..word_97" sentenceid="7" label="np" min_ids="word_95..word_97" type="chunk" lemmata="an american passenger" isprenominal="false" pos="dt nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_54" span="word_96" sentenceid="7" label="location" type="enamex" lemmata="american" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_99" sentenceid="7" label="np" min_ids="word_99..word_99" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_106..word_107" sentenceid="7" label="np" min_ids="word_106..word_107" type="chunk" lemmata="the plane" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_111" sentenceid="7" label="np" min_ids="word_111..word_111" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_113..word_114" sentenceid="7" label="np" min_ids="word_113..word_114" type="chunk" lemmata="unbelievable wind" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_113..word_116" sentenceid="7" label="np" min_ids="word_113..word_116" type="chunk" lemmata="unbelievable wind and rain" isprenominal="false" pos="jj nn cc nn" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_116" sentenceid="7" label="np" min_ids="word_116..word_116" type="chunk" lemmata="rain" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_118" sentenceid="8" label="np" min_ids="word_118..word_118" type="chunk" lemmata="survivors" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_121..word_123" sentenceid="8" label="np" min_ids="word_121..word_123" type="chunk" lemmata="the tail section" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_126..word_127" sentenceid="8" label="np" min_ids="word_126..word_127" type="chunk" lemmata="several time" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_130..word_135" sentenceid="8" label="np" min_ids="word_130..word_130" type="chunk" lemmata="passenger hang by their safety belt" isprenominal="false" pos="nns vbg in prp$ nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_57" span="word_133" sentenceid="8" label="np" type="chunk" lemmata="their" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_133..word_135" sentenceid="8" label="np" min_ids="word_133..word_135" type="chunk" lemmata="their safety belt" isprenominal="false" pos="prp$ nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_137" sentenceid="9" label="np" min_ids="word_137..word_137" type="chunk" lemmata="some" isprenominal="false" pos="dt" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_142" sentenceid="9" label="np" min_ids="word_142..word_142" type="chunk" lemmata="flame" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_144..word_145" sentenceid="10" label="np" min_ids="word_144..word_145" type="chunk" lemmata="one survivor" isprenominal="false" pos="cd nn" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_148..word_156" sentenceid="10" label="np" min_ids="word_148..word_149" type="chunk" lemmata="a man , as he put it , &quot;" isprenominal="false" pos="dt nn , in prp vbd prp , ''" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_152" sentenceid="10" label="np" min_ids="word_152..word_152" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_154" sentenceid="10" label="np" min_ids="word_154..word_154" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_160..word_161" sentenceid="10" label="np" min_ids="word_160..word_161" type="chunk" lemmata="a torch" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_34" span="word_165" sentenceid="11" label="np" min_ids="word_165..word_165" type="chunk" lemmata="flames" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_35" span="word_171" sentenceid="11" label="np" min_ids="word_171..word_171" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_36" span="word_175..word_180" sentenceid="11" label="np" min_ids="word_175..word_176" type="chunk" lemmata="jet fuel all over the place" isprenominal="false" pos="nn nn rb in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_37" span="word_179..word_180" sentenceid="11" label="np" min_ids="word_179..word_180" type="chunk" lemmata="the place" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_38" span="word_183" sentenceid="11" label="np" min_ids="word_183..word_183" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_55" span="word_186..word_187" sentenceid="12" label="person" min_ids="word_186..word_187" type="enamex" lemmata="david chezan" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_56" span="word_189..word_190" sentenceid="12" label="organization" min_ids="word_189..word_190" type="enamex" lemmata="bbc news" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+</markables>

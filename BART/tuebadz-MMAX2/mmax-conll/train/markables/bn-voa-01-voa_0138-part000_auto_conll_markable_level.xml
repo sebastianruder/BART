@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_21" span="word_1" sentenceid="1" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_1..word_2" sentenceid="1" label="np" min_ids="word_1..word_2" type="chunk" lemmata="israeli soldier" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_5..word_6" sentenceid="1" label="location" min_ids="word_5..word_6" type="enamex" lemmata="another palestinian" isprenominal="false" pos="dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_8..word_10" sentenceid="1" label="location" min_ids="word_8..word_10" type="enamex" lemmata="the west bank" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_12" sentenceid="1" label="np" min_ids="word_12..word_12" type="chunk" lemmata="clash" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_15" sentenceid="1" label="location" type="enamex" lemmata="israelis" isprenominal="false" pos="nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_15..word_17" sentenceid="1" label="location" min_ids="word_15..word_17" type="enamex" lemmata="israelis and palestinians" isprenominal="false" pos="nnps cc nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_19..word_21" sentenceid="2" label="np" min_ids="word_19..word_19" type="chunk" lemmata="witnesses in ramallah" isprenominal="false" pos="nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_21" sentenceid="2" label="location" min_ids="word_21..word_21" type="enamex" lemmata="ramallah" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_23..word_24" sentenceid="2" label="location" min_ids="word_24..word_24" type="enamex" lemmata="the palestinian" isprenominal="false" pos="dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_27" sentenceid="2" label="date" min_ids="word_27..word_27" type="enamex" lemmata="saturday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_31..word_33" sentenceid="2" label="np" min_ids="word_31..word_33" type="chunk" lemmata="an electric drill" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_36..word_38" sentenceid="2" label="np" min_ids="word_36..word_38" type="chunk" lemmata="a damage building" isprenominal="false" pos="dt vbn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_40..word_42" sentenceid="3" label="np" min_ids="word_40..word_42" type="chunk" lemmata="the israeli military" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_41" sentenceid="3" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_44" sentenceid="3" label="np" min_ids="word_44..word_44" type="chunk" lemmata="soldier" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_47" sentenceid="3" label="np" min_ids="word_47..word_47" type="chunk" lemmata="fire" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_49..word_50" sentenceid="3" label="np" min_ids="word_49..word_50" type="chunk" lemmata="the building" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_53" sentenceid="3" label="np" min_ids="word_53..word_53" type="chunk" lemmata="fire" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_57" sentenceid="4" label="location" min_ids="word_57..word_57" type="enamex" lemmata="israel" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_60..word_62" sentenceid="4" label="np" min_ids="word_60..word_62" type="chunk" lemmata="the vip car" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_64..word_67" sentenceid="4" label="np" min_ids="word_64..word_67" type="chunk" lemmata="the senior palestinian official" isprenominal="false" pos="dt jj jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_66" sentenceid="4" label="location" type="enamex" lemmata="palestinian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_69..word_77" sentenceid="5" label="person" min_ids="word_69..word_71" type="enamex" lemmata="colonel taufiq tarawi , a director of palestinian intelligence" isprenominal="false" pos="nnp nnp nnp , dt nn in jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_73..word_77" sentenceid="5" label="np" min_ids="word_73..word_74" type="chunk" lemmata="a director of palestinian intelligence" isprenominal="false" pos="dt nn in jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_76" sentenceid="5" label="location" type="enamex" lemmata="palestinian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_76..word_77" sentenceid="5" label="np" min_ids="word_76..word_77" type="chunk" lemmata="palestinian intelligence" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_34" span="word_82" sentenceid="5" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_82..word_83" sentenceid="5" label="np" min_ids="word_82..word_83" type="chunk" lemmata="israeli soldier" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_85..word_106" sentenceid="5" label="np" min_ids="word_85..word_88" type="chunk" lemmata="a west bank roadblock , where they confiscate an israeli permit that grant he free movement in and out of the area" isprenominal="false" pos="dt nnp nnp nn , wrb prp vbd dt jj nn wdt vbz prp jj nn in cc in in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_35" span="word_86..word_87" sentenceid="5" label="location" type="enamex" lemmata="west bank" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_91" sentenceid="5" label="np" min_ids="word_91..word_91" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_93..word_106" sentenceid="5" label="np" min_ids="word_93..word_95" type="chunk" lemmata="an israeli permit that grant he free movement in and out of the area" isprenominal="false" pos="dt jj nn wdt vbz prp jj nn in cc in in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_36" span="word_94" sentenceid="5" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_98" sentenceid="5" label="np" min_ids="word_98..word_98" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_99..word_106" sentenceid="5" label="np" min_ids="word_99..word_100" type="chunk" lemmata="free movement in and out of the area" isprenominal="false" pos="jj nn in cc in in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_105..word_106" sentenceid="5" label="np" min_ids="word_105..word_106" type="chunk" lemmata="the area" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+</markables>

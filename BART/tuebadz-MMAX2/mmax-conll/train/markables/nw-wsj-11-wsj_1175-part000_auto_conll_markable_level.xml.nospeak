@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_19" span="word_1..word_3" sentenceid="1" label="organization" min_ids="word_1..word_3" type="enamex" lemmata="buell industries inc." isprenominal="false" pos="nnp nnps nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_5" sentenceid="1" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_5..word_22" sentenceid="1" label="np" min_ids="word_5..word_7" type="chunk" lemmata="its quarterly dividend to five cent a share , payable nov. 17 to stock of record nov. 3" isprenominal="false" pos="prp$ jj nn in cd nns dt nn , jj nnp cd in nn in nn nnp cd" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_9..word_12" sentenceid="1" label="money" min_ids="word_9..word_10" type="enamex" lemmata="five cent a share" isprenominal="false" pos="cd nns dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_11..word_12" sentenceid="1" label="np" min_ids="word_11..word_12" type="chunk" lemmata="a share" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_15..word_16" sentenceid="1" label="date" min_ids="word_15..word_16" type="enamex" lemmata="nov. 17" isprenominal="false" pos="nnp cd" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_18..word_22" sentenceid="1" label="np" min_ids="word_18..word_18" type="chunk" lemmata="stock of record nov. 3" isprenominal="false" pos="nn in nn nnp cd" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_20" sentenceid="1" label="np" min_ids="word_20..word_20" type="chunk" lemmata="record" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_21..word_22" sentenceid="1" label="date" min_ids="word_21..word_22" type="enamex" lemmata="nov. 3" isprenominal="false" pos="nnp cd" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_24..word_26" sentenceid="2" label="np" min_ids="word_24..word_25" type="chunk" lemmata="the company 's" isprenominal="false" pos="dt nn pos" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_24..word_28" sentenceid="2" label="np" min_ids="word_24..word_28" type="chunk" lemmata="the company 's quarterly dividend" isprenominal="false" pos="dt nn pos jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_31..word_34" sentenceid="2" label="money" min_ids="word_31..word_32" type="enamex" lemmata="10 cent a share" isprenominal="false" pos="cd nns dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_33..word_34" sentenceid="2" label="np" min_ids="word_33..word_34" type="chunk" lemmata="a share" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_36..word_39" sentenceid="2" label="date" min_ids="word_36..word_39" type="enamex" lemmata="april 30 , 1988" isprenominal="false" pos="nnp cd , cd" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_41" sentenceid="3" label="organization" min_ids="word_41..word_41" type="enamex" lemmata="buell" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_44" sentenceid="3" label="np" min_ids="word_44..word_44" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_47..word_54" sentenceid="3" label="np" min_ids="word_47..word_49" type="chunk" lemmata="an aftertax charge of about $ 3.6 million" isprenominal="false" pos="dt jj nn in rb $ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_51..word_54" sentenceid="3" label="money" min_ids="word_51..word_54" type="enamex" lemmata="about $ 3.6 million" isprenominal="false" pos="rb $ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_56" sentenceid="3" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_56..word_60" sentenceid="3" label="date" min_ids="word_56..word_60" type="enamex" lemmata="its fourth quarter end tuesday" isprenominal="false" pos="prp$ jj nn vbg nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_60" sentenceid="3" label="np" min_ids="word_60..word_60" type="chunk" lemmata="tuesday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_63..word_74" sentenceid="3" label="np" min_ids="word_63..word_63" type="chunk" lemmata="connection with the sale and discontinuance of several line at a plant" isprenominal="false" pos="nn in dt nn cc nn in jj nns in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_65..word_74" sentenceid="3" label="np" min_ids="word_65..word_68" type="chunk" lemmata="the sale and discontinuance of several line at a plant" isprenominal="false" pos="dt nn cc nn in jj nns in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_70..word_74" sentenceid="3" label="np" min_ids="word_70..word_71" type="chunk" lemmata="several line at a plant" isprenominal="false" pos="jj nns in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_73..word_74" sentenceid="3" label="np" min_ids="word_73..word_74" type="chunk" lemmata="a plant" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_76..word_87" sentenceid="4" label="np" min_ids="word_76..word_81" type="chunk" lemmata="the waterbury , conn. , maker of industrial fastener and metal stamping" isprenominal="false" pos="dt nnp , nnp , nn in jj nns cc nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_77" sentenceid="4" label="location" type="enamex" lemmata="waterbury" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_79" sentenceid="4" label="location" type="enamex" lemmata="conn." isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_83..word_84" sentenceid="4" label="np" min_ids="word_83..word_84" type="chunk" lemmata="industrial fastener" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_83..word_87" sentenceid="4" label="np" min_ids="word_83..word_87" type="chunk" lemmata="industrial fastener and metal stamping" isprenominal="false" pos="jj nns cc nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_86..word_87" sentenceid="4" label="np" min_ids="word_86..word_87" type="chunk" lemmata="metal stamping" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_89..word_90" sentenceid="4" label="percent" type="enamex" lemmata="2.3 million" isprenominal="false" pos="cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_89..word_92" sentenceid="4" label="np" min_ids="word_89..word_91" type="chunk" lemmata="2.3 million share outstanding" isprenominal="false" pos="cd cd nns jj" speaker="-" mmax_level="markable" />
+</markables>

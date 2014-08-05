@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_11" span="word_1" sentenceid="1" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_1..word_5" sentenceid="1" label="person" min_ids="word_1..word_5" type="enamex" lemmata="israeli prime minister ehud barak" isprenominal="false" pos="jj nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_9..word_19" sentenceid="1" label="np" min_ids="word_9..word_13" type="chunk" lemmata="an official `` timeout '' in peace talk with the palestinians" isprenominal="false" pos="dt jj `` nn '' in nn nns in dt nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_15..word_19" sentenceid="1" label="np" min_ids="word_15..word_16" type="chunk" lemmata="peace talk with the palestinians" isprenominal="false" pos="nn nns in dt nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_18..word_19" sentenceid="1" label="location" min_ids="word_19..word_19" type="enamex" lemmata="the palestinians" isprenominal="false" pos="dt nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_21..word_22" sentenceid="2" label="np" min_ids="word_21..word_22" type="chunk" lemmata="the decision" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_26..word_29" sentenceid="2" label="np" min_ids="word_26..word_29" type="chunk" lemmata="an israeli cabinet meeting" isprenominal="false" pos="dt jj nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_27" sentenceid="2" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_30" sentenceid="2" label="date" min_ids="word_30..word_30" type="enamex" lemmata="today" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_32" sentenceid="3" label="np" min_ids="word_32..word_32" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_37..word_40" sentenceid="3" label="np" min_ids="word_37..word_40" type="chunk" lemmata="the time - out" isprenominal="false" pos="dt nn hyph nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_44..word_49" sentenceid="4" label="np" min_ids="word_44..word_45" type="chunk" lemmata="the statement from barak 's office" isprenominal="false" pos="dt nn in nnp pos nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_47..word_48" sentenceid="4" label="person" min_ids="word_47..word_47" type="enamex" lemmata="barak 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_47..word_49" sentenceid="4" label="np" min_ids="word_47..word_49" type="chunk" lemmata="barak 's office" isprenominal="false" pos="nnp pos nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_51" sentenceid="4" label="location" min_ids="word_51..word_51" type="enamex" lemmata="israel" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_53..word_54" sentenceid="4" label="np" min_ids="word_53..word_54" type="chunk" lemmata="a timeout" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_58..word_60" sentenceid="4" label="np" min_ids="word_58..word_60" type="chunk" lemmata="the peace process" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_63..word_65" sentenceid="4" label="np" min_ids="word_63..word_65" type="chunk" lemmata="the continue violence" isprenominal="false" pos="dt vbg nn" speaker="-" mmax_level="markable" />
+</markables>

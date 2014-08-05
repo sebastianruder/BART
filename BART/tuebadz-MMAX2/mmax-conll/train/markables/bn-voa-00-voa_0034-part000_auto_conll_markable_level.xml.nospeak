@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_10" span="word_1..word_2" sentenceid="1" label="person" min_ids="word_1..word_2" type="enamex" lemmata="president clinton" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_5..word_10" sentenceid="1" label="np" min_ids="word_5..word_8" type="chunk" lemmata="oil and travel sanction against yugoslavia" isprenominal="false" pos="nn cc nn nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_10" sentenceid="1" label="location" min_ids="word_10..word_10" type="enamex" lemmata="yugoslavia" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_12..word_15" sentenceid="1" label="np" min_ids="word_12..word_14" type="chunk" lemmata="the balkan country 's" isprenominal="false" pos="dt jj nn pos" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_12..word_17" sentenceid="1" label="np" min_ids="word_12..word_17" type="chunk" lemmata="the balkan country 's new leader" isprenominal="false" pos="dt jj nn pos jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_13" sentenceid="1" label="location" type="enamex" lemmata="balkan" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_19" sentenceid="1" label="np" min_ids="word_19..word_19" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_24..word_27" sentenceid="1" label="np" min_ids="word_24..word_25" type="chunk" lemmata="diplomatic tie with washington" isprenominal="false" pos="jj nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_27" sentenceid="1" label="location" min_ids="word_27..word_27" type="enamex" lemmata="washington" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_29..word_30" sentenceid="2" label="person" min_ids="word_29..word_30" type="enamex" lemmata="mr. clinton" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_31" sentenceid="2" label="date" min_ids="word_31..word_31" type="enamex" lemmata="thursday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_33..word_38" sentenceid="2" label="np" min_ids="word_33..word_34" type="chunk" lemmata="the victory of freedom in serbia" isprenominal="false" pos="dt nn in nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_36" sentenceid="2" label="np" min_ids="word_36..word_36" type="chunk" lemmata="freedom" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_38" sentenceid="2" label="location" min_ids="word_38..word_38" type="enamex" lemmata="serbia" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_42..word_43" sentenceid="2" label="location" min_ids="word_42..word_42" type="enamex" lemmata="europe 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_42..word_53" sentenceid="2" label="np" min_ids="word_42..word_46" type="chunk" lemmata="europe 's most hopeful development since the fall of the berlin wall" isprenominal="false" pos="nnp pos rbs jj nns in dt nn in dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_48..word_53" sentenceid="2" label="np" min_ids="word_48..word_49" type="chunk" lemmata="the fall of the berlin wall" isprenominal="false" pos="dt nn in dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_51..word_53" sentenceid="2" label="object" min_ids="word_51..word_53" type="enamex" lemmata="the berlin wall" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_55" sentenceid="3" label="np" min_ids="word_55..word_55" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_57..word_61" sentenceid="3" label="person" min_ids="word_57..word_58" type="enamex" lemmata="dave deforest , voa news" isprenominal="false" pos="nnp nnp , nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_60..word_61" sentenceid="3" label="organization" min_ids="word_60..word_61" type="enamex" lemmata="voa news" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+</markables>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_6" span="word_1..word_10" sentenceid="1" label="organization" min_ids="word_1..word_3" type="enamex" lemmata="hughes aircraft co. , a general motors corp. unit ," isprenominal="false" pos="nnp nnp nnp , dt nnp nnps nnp nn ," speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_5..word_9" sentenceid="1" label="np" min_ids="word_5..word_9" type="chunk" lemmata="a general motors corp. unit" isprenominal="false" pos="dt nnp nnps nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_6..word_8" sentenceid="1" label="organization" type="enamex" lemmata="general motors corp." isprenominal="false" pos="nnp nnps nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_12..word_17" sentenceid="1" label="np" min_ids="word_12..word_17" type="chunk" lemmata="the intelsat vi commercial communication satellite" isprenominal="false" pos="dt nnp nnp jj nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_13..word_14" sentenceid="1" label="organization" type="enamex" lemmata="intelsat vi" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_23" sentenceid="1" label="date" min_ids="word_23..word_23" type="enamex" lemmata="friday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_25..word_37" sentenceid="2" label="np" min_ids="word_25..word_26" type="chunk" lemmata="the satellite , build by hughes for the international telecommunications satellite organization ," isprenominal="false" pos="dt nn , vbn in nnp in dt nnp nnps nnp nnp ," speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_30..word_36" sentenceid="2" label="organization" min_ids="word_30..word_36" type="enamex" lemmata="hughes for the international telecommunications satellite organization" isprenominal="false" pos="nnp in dt nnp nnps nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_39..word_59" sentenceid="2" label="np" min_ids="word_39..word_39" type="chunk" lemmata="part of a $ 700 million contract award to hughes in 1982 to develop five of the three - ton satellite" isprenominal="false" pos="nn in dt $ cd cd nn vbd in nnp in cd to vb cd in dt cd hyph nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_41..word_59" sentenceid="2" label="np" min_ids="word_41..word_45" type="chunk" lemmata="a $ 700 million contract award to hughes in 1982 to develop five of the three - ton satellite" isprenominal="false" pos="dt $ cd cd nn vbd in nnp in cd to vb cd in dt cd hyph nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_42..word_44" sentenceid="2" label="money" type="enamex" lemmata="$ 700 million" isprenominal="false" pos="$ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_48" sentenceid="2" label="organization" min_ids="word_48..word_48" type="enamex" lemmata="hughes" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_50" sentenceid="2" label="date" min_ids="word_50..word_50" type="enamex" lemmata="1982" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_53..word_59" sentenceid="2" label="percent" min_ids="word_53..word_53" type="enamex" lemmata="five of the three - ton satellite" isprenominal="false" pos="cd in dt cd hyph nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_55..word_59" sentenceid="2" label="np" min_ids="word_55..word_59" type="chunk" lemmata="the three - ton satellite" isprenominal="false" pos="dt cd hyph nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_56..word_58" sentenceid="2" label="percent" type="enamex" lemmata="three - ton" isprenominal="false" pos="cd hyph nn" speaker="-" mmax_level="markable" />
+</markables>

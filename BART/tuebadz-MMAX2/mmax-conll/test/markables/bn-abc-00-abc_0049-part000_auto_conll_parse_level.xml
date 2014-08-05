@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_10" tag="(S1 (S (NP (EX There)) (VP (VBZ is) (NP (NP (NP (JJ other) (NN news)) (NP (NN tonight))) (UCP (ADVP (RB overseas)) (CC and) (PP (IN at) (NP (NN home)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_11..word_22" tag="(S1 (S (SBAR (IN While) (S (NP (PDT all) (DT this)) (VP (VBZ is) (VP (VBG going) (PRT (RP on)))))) (, ,) (NP (NNP Mr.) (NNP Clinton)) (VP (VBZ is) (ADVP (RB overseas))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_23..word_36" tag="(S1 (S (NP (NNP President) (NNP Clinton)) (VP (VBD was) (PP (IN in) (NP (NNP Northern) (NNP Ireland))) (SBAR (WHADVP (WRB when)) (S (NP (PRP he)) (VP (VBD heard) (NP (DT the) (NML (NNP Supreme) (NNP Court)) (NN decision)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_37..word_47" tag="(S1 (S (NP (PRP He)) (VP (VBD talked) (PP (IN to) (NP (NNP Al) (NNP Gore))) (PP (IN on) (NP (NP (DT the) (NN phone)) (PP (IN from) (NP (NNP Belfast)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_48..word_73" tag="(S1 (S (NP (DT This)) (VP (VBZ is) (NP (NP (NP (NNP Mr.) (NNP Clinton) (POS 's)) (JJ third) (NN visit)) (PP (IN to) (NP (NP (NNP Northern) (NNP Ireland)) (, ,) (CC and) (NP (DT the) (NNP Irish) (NNP Republic)))) (S (VP (TO to) (VP (VB do) (SBAR (WHNP (WP what)) (S (NP (PRP he)) (VP (MD can) (S (VP (TO to) (VP (VB generate) (NP (DT a) (VBG lasting) (NN peace))))))))))))) (. .)))" mmax_level="parse" />
+</markables>

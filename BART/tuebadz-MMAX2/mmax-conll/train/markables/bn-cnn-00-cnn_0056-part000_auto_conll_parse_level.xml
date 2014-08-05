@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_11" tag="(S1 (S (NP (NNP President) (NNP Clinton)) (VP (VBZ is) (VP (VBG continuing) (NP (PRP$ his) (NML (JJ long) (HYPH -) (NN distance)) (JJ diplomatic) (NNS efforts)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_12..word_36" tag="(S1 (S (NP (PRP He)) (VP (VBD spoke) (PP (IN with) (NP (NML (JJ Israeli) (NNP Prime) (NNP Minister)) (NNP Ehud) (NNP Barak))) (NP (NN today)) (, ,) (S (VP (VBG urging) (NP (NP (DT a) (JJ full) (NN implementation)) (PP (IN of) (NP (NP (DT the) (NN agreement)) (VP (VBN reached) (PP (IN at) (NP (NP (DT the) (NN emergency) (NN summit)) (PP (IN in) (NP (NNP Egypt)))))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_37..word_47" tag="(S1 (S (NP (NNP President) (NNP Clinton)) (VP (VBD spoke) (PP (IN with) (NP (NML (JJ Palestinian) (NN leader)) (NNP Yasser) (NNP Arafat))) (PP (IN on) (NP (NNP Friday)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_48..word_65" tag="(S1 (S (NP (PRP He)) (VP (VBZ 's) (VP (VBG urging) (NP (DT both) (NNS sides)) (S (VP (TO to) (VP (VB return) (PP (IN to) (NP (DT the) (VBG negotiating) (NN table))) (ADVP (`` ``) (ADVP (RB sooner)) (PP (RB rather) (IN than) (ADVP (RB later))))))))) (. .) ('' '')))" mmax_level="parse" />
+</markables>

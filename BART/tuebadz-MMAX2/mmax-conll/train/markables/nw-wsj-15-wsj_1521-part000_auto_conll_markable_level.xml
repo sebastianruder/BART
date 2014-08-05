@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_10" span="word_1..word_3" sentenceid="1" label="organization" min_ids="word_1..word_3" type="enamex" lemmata="chambers development co." isprenominal="false" pos="nnps nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_5" sentenceid="1" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_5..word_9" sentenceid="1" label="np" min_ids="word_5..word_9" type="chunk" lemmata="its security bureau inc. unit" isprenominal="false" pos="prp$ nnp nnp nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_6..word_8" sentenceid="1" label="organization" type="enamex" lemmata="security bureau inc." isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_11" sentenceid="1" label="percent" type="enamex" lemmata="two" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_11..word_13" sentenceid="1" label="np" min_ids="word_11..word_13" type="chunk" lemmata="two security concern" isprenominal="false" pos="cd nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_15" sentenceid="1" label="location" min_ids="word_15..word_15" type="enamex" lemmata="florida" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_19..word_24" sentenceid="1" label="money" min_ids="word_19..word_21" type="enamex" lemmata="$ 2.1 million of annual revenue" isprenominal="false" pos="$ cd cd in jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_23..word_24" sentenceid="1" label="np" min_ids="word_23..word_24" type="chunk" lemmata="annual revenue" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_26..word_41" sentenceid="2" label="np" min_ids="word_26..word_26" type="chunk" lemmata="purchase of the business serve miami , fort lauderdale and west palm beach , fla. ," isprenominal="false" pos="nn in dt nns vbg nnp , nnp nnp cc nnp nnp nnp , nnp ," speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_28..word_41" sentenceid="2" label="np" min_ids="word_28..word_29" type="chunk" lemmata="the business serve miami , fort lauderdale and west palm beach , fla. ," isprenominal="false" pos="dt nns vbg nnp , nnp nnp cc nnp nnp nnp , nnp ," speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_31" sentenceid="2" label="location" min_ids="word_31..word_31" type="enamex" lemmata="miami" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_31..word_41" sentenceid="2" label="location" min_ids="word_31..word_40" type="enamex" lemmata="miami , fort lauderdale and west palm beach , fla. ," isprenominal="false" pos="nnp , nnp nnp cc nnp nnp nnp , nnp ," speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_33..word_34" sentenceid="2" label="location" min_ids="word_33..word_34" type="enamex" lemmata="fort lauderdale" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_36..word_41" sentenceid="2" label="location" min_ids="word_36..word_38" type="enamex" lemmata="west palm beach , fla. ," isprenominal="false" pos="nnp nnp nnp , nnp ," speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_40" sentenceid="2" label="np" min_ids="word_40..word_40" type="chunk" lemmata="fla." isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_43..word_55" sentenceid="2" label="np" min_ids="word_43..word_43" type="chunk" lemmata="part of a plan by chambers to expand in the grow security industry" isprenominal="false" pos="nn in dt nn in nnps to vb in dt vbg nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_45..word_55" sentenceid="2" label="np" min_ids="word_45..word_46" type="chunk" lemmata="a plan by chambers to expand in the grow security industry" isprenominal="false" pos="dt nn in nnps to vb in dt vbg nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_48" sentenceid="2" label="organization" min_ids="word_48..word_48" type="enamex" lemmata="chambers" isprenominal="false" pos="nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_52..word_55" sentenceid="2" label="np" min_ids="word_52..word_55" type="chunk" lemmata="the grow security industry" isprenominal="false" pos="dt vbg nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_57" sentenceid="3" label="np" min_ids="word_57..word_57" type="chunk" lemmata="terms" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+</markables>

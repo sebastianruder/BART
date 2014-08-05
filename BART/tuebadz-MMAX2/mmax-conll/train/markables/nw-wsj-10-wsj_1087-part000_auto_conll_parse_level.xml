@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_22" tag="(S1 (S (NP (NP (DT A) (NN seat)) (PP (IN on) (NP (NP (DT the) (NNP Chicago) (NNP Board)) (PP (IN of) (NP (NNP Trade)))))) (VP (VBD was) (VP (VBN sold) (PP (IN for) (NP ($ $) (CD 390,000))) (, ,) (S (ADJP (JJ unchanged) (PP (IN from) (NP (NP (DT the) (JJ previous) (NN sale)) (NP (NNP Oct.) (CD 13)))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_23..word_35" tag="(S1 (S (NP (NNS Seats)) (ADVP (RB currently)) (VP (VBP are) (VP (VBN quoted) (PP (IN at) (NP (NP (NP ($ $) (CD 361,000)) (VP (NN bid))) (, ,) (NP (NP ($ $) (CD 395,000)) (VP (VBN asked))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_36..word_55" tag="(S1 (S (NP (NP (DT The) (NN record) (NN price)) (PP (IN for) (NP (NP (DT a) (JJ full) (NN membership)) (PP (IN on) (NP (DT the) (NN exchange)))))) (VP (VBZ is) (NP ($ $) (CD 550,000)) (, ,) (S (VP (VBN set) (NP (NP (NNP Aug.) (CD 31)) (, ,) (NP (CD 1987)))))) (. .)))" mmax_level="parse" />
+</markables>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_28" tag="(S1 (S (NP (NNP Sun) (NNPS Microsystems) (NNP Inc.)) (VP (VBD said) (SBAR (S (NP (NNP Prime) (NNP Computer) (NNP Inc.)) (VP (VBZ has) (VP (VBN agreed) (S (VP (TO to) (VP (JJ resell) (NP (NP (NP (QP (RB as) (JJ much) (IN as) ($ $) (CD 200) (CD million))) (NN worth)) (PP (IN of) (NP (NP (NNP Sun) (POS 's)) (NNS machines)))) (PP (IN over) (NP (DT the) (JJ next) (CD two) (NNS years))))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_29..word_42" tag="(S1 (S (S (NP (DT The) (NNS computers)) (VP (VBP use) (NP (NP (NP (DT the) (NN company) (POS 's)) (JJ own) (NN microprocessor)) (VP (VBN called) (S (NP (NNP Sparc))))))) (, ,) (NP (NNP Sun)) (VP (VBD said)) (. .)))" mmax_level="parse" />
+</markables>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_11" span="word_1..word_3" sentenceid="1" label="location" min_ids="word_1..word_3" type="enamex" lemmata="the soviet union" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_7" sentenceid="1" label="location" type="enamex" lemmata="soviet" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_7..word_11" sentenceid="1" label="np" min_ids="word_7..word_8" type="chunk" lemmata="soviet troops station in poland" isprenominal="false" pos="jj nns vbn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_11" sentenceid="1" label="location" min_ids="word_11..word_11" type="enamex" lemmata="poland" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_14..word_17" sentenceid="1" label="date" min_ids="word_14..word_17" type="enamex" lemmata="may of this year" isprenominal="false" pos="nnp in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_16..word_17" sentenceid="1" label="np" min_ids="word_16..word_17" type="chunk" lemmata="this year" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_22..word_25" sentenceid="1" label="date" min_ids="word_23..word_25" type="enamex" lemmata="the middle of 1994" isprenominal="false" pos="dt nn in cd" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_25" sentenceid="1" label="np" min_ids="word_25..word_25" type="chunk" lemmata="1994" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_29..word_62" sentenceid="2" label="np" min_ids="word_29..word_30" type="chunk" lemmata="the suggestion put forward by soviet side in polish - soviet negotiation be hold in warsaw concern issue of the soviet union withdraw troops from poland and russia 's troops go across the border" isprenominal="false" pos="dt nn vbn rp in nnp nn in nnp hyph nnp nns vbg vbn in nnp vbg nns in dt nnp nnp vbg nns in nnp cc nnp pos nns vbg in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_34" sentenceid="2" label="location" type="enamex" lemmata="soviet" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_34..word_35" sentenceid="2" label="np" min_ids="word_34..word_35" type="chunk" lemmata="soviet side" isprenominal="false" pos="nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_37..word_39" sentenceid="2" label="location" type="enamex" lemmata="polish - soviet" isprenominal="false" pos="nnp hyph nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_37..word_62" sentenceid="2" label="np" min_ids="word_37..word_40" type="chunk" lemmata="polish - soviet negotiation be hold in warsaw concern issue of the soviet union withdraw troops from poland and russia 's troops go across the border" isprenominal="false" pos="nnp hyph nnp nns vbg vbn in nnp vbg nns in dt nnp nnp vbg nns in nnp cc nnp pos nns vbg in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_44" sentenceid="2" label="location" min_ids="word_44..word_44" type="enamex" lemmata="warsaw" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_46..word_50" sentenceid="2" label="np" min_ids="word_46..word_46" type="chunk" lemmata="issue of the soviet union" isprenominal="false" pos="nns in dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_48..word_50" sentenceid="2" label="location" min_ids="word_48..word_50" type="enamex" lemmata="the soviet union" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_52" sentenceid="2" label="np" min_ids="word_52..word_52" type="chunk" lemmata="troops" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_54" sentenceid="2" label="location" type="enamex" lemmata="poland" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_54..word_57" sentenceid="2" label="location" min_ids="word_54..word_56" type="enamex" lemmata="poland and russia 's" isprenominal="false" pos="nnp cc nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_54..word_58" sentenceid="2" label="np" min_ids="word_54..word_58" type="chunk" lemmata="poland and russia 's troops" isprenominal="false" pos="nnp cc nnp pos nns" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_61..word_62" sentenceid="2" label="np" min_ids="word_61..word_62" type="chunk" lemmata="the border" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_68..word_69" sentenceid="3" label="percent" type="enamex" lemmata="about 50,000" isprenominal="false" pos="rb cd" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_68..word_74" sentenceid="3" label="np" min_ids="word_68..word_71" type="chunk" lemmata="about 50,000 soviet troops station in poland" isprenominal="false" pos="rb cd nnp nns vbn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_70" sentenceid="3" label="location" type="enamex" lemmata="soviet" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_74" sentenceid="3" label="location" min_ids="word_74..word_74" type="enamex" lemmata="poland" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+</markables>

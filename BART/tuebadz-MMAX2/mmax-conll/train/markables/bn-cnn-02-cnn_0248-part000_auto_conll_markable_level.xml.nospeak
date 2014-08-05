@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_17" span="word_1..word_9" sentenceid="1" label="percent" min_ids="word_1..word_3" type="enamex" lemmata="tens of thousand of college and high school student" isprenominal="false" pos="nns in nns in nn cc jj nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_5..word_9" sentenceid="1" label="np" min_ids="word_5..word_9" type="chunk" lemmata="college and high school student" isprenominal="false" pos="nn cc jj nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_11..word_19" sentenceid="1" label="np" min_ids="word_11..word_12" type="chunk" lemmata="antiwar protest on campus yesterday from coast to coast" isprenominal="false" pos="jj nns in nns nn in nn in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_14..word_15" sentenceid="1" label="np" min_ids="word_14..word_14" type="chunk" lemmata="campus yesterday" isprenominal="false" pos="nns nn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_15" sentenceid="1" label="date" min_ids="word_15..word_15" type="enamex" lemmata="yesterday" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_17" sentenceid="1" label="np" min_ids="word_17..word_17" type="chunk" lemmata="coast" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_19" sentenceid="1" label="np" min_ids="word_19..word_19" type="chunk" lemmata="coast" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_21" sentenceid="2" label="location" type="enamex" lemmata="california" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_21..word_29" sentenceid="2" label="np" min_ids="word_21..word_28" type="chunk" lemmata="california now , high school and college student there" isprenominal="false" pos="nnp uh , jj nn cc nn nns rb" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_31" sentenceid="2" label="np" min_ids="word_31..word_31" type="chunk" lemmata="class" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_34" sentenceid="2" label="np" type="chunk" lemmata="their" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_34..word_43" sentenceid="2" label="np" min_ids="word_34..word_35" type="chunk" lemmata="their opposition to a u.s. - lead war with iraq" isprenominal="false" pos="prp$ nn in dt nnp hyph vbn nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_37..word_43" sentenceid="2" label="np" min_ids="word_37..word_41" type="chunk" lemmata="a u.s. - lead war with iraq" isprenominal="false" pos="dt nnp hyph vbn nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_38" sentenceid="2" label="location" type="enamex" lemmata="u.s." isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_43" sentenceid="2" label="location" min_ids="word_43..word_43" type="enamex" lemmata="iraq" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_45..word_49" sentenceid="3" label="np" min_ids="word_45..word_49" type="chunk" lemmata="the books not bombs demonstration" isprenominal="false" pos="dt nnps rb nns nn" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_52..word_58" sentenceid="3" label="organization" min_ids="word_52..word_58" type="enamex" lemmata="the national youth and student peace coalition" isprenominal="false" pos="dt nnp nnp cc nnp nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_61..word_64" sentenceid="4" label="np" min_ids="word_61..word_61" type="chunk" lemmata="temperature in the north" isprenominal="false" pos="nns in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_63..word_64" sentenceid="4" label="np" min_ids="word_63..word_64" type="chunk" lemmata="the north" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_72..word_73" sentenceid="5" label="location" min_ids="word_72..word_73" type="enamex" lemmata="lake superior" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_74" sentenceid="5" label="np" min_ids="word_74..word_74" type="chunk" lemmata="surface" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_79" sentenceid="6" label="np" min_ids="word_79..word_79" type="chunk" lemmata="forecaster" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_81" sentenceid="6" label="np" min_ids="word_81..word_81" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_85" sentenceid="6" label="percent" type="enamex" lemmata="first" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_89..word_91" sentenceid="6" label="date" min_ids="word_89..word_91" type="enamex" lemmata="about two decade" isprenominal="false" pos="rb cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_93..word_103" sentenceid="7" label="location" min_ids="word_93..word_94" type="enamex" lemmata="lake superior , the largest of the five great lakes ." isprenominal="false" pos="nnp nnp , dt jjs in dt cd nnp nnp ." speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_96..word_102" sentenceid="7" label="np" min_ids="word_96..word_97" type="chunk" lemmata="the largest of the five great lakes" isprenominal="false" pos="dt jjs in dt cd nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_99..word_102" sentenceid="7" label="location" min_ids="word_100..word_102" type="enamex" lemmata="the five great lakes" isprenominal="false" pos="dt cd nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_100" sentenceid="7" label="percent" type="enamex" lemmata="five" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_104" sentenceid="8" label="np" min_ids="word_104..word_104" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+</markables>

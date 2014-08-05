@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_20" span="word_1..word_3" sentenceid="1" label="person" min_ids="word_1..word_3" type="enamex" lemmata="president bill clinton" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_6..word_9" sentenceid="1" label="np" min_ids="word_6..word_9" type="chunk" lemmata="the first us president" isprenominal="false" pos="dt jj nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_7" sentenceid="1" label="percent" type="enamex" lemmata="first" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_8" sentenceid="1" label="location" type="enamex" lemmata="us" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_12" sentenceid="1" label="location" min_ids="word_12..word_12" type="enamex" lemmata="vietnam" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_17..word_30" sentenceid="2" label="np" min_ids="word_17..word_19" type="chunk" lemmata="a small number of vietnamese official , include foreign minister nguyen dy nien ," isprenominal="false" pos="dt jj nn in jj nns , vbg nnp nnp nnp nnp nnp ," speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_21" sentenceid="2" label="location" type="enamex" lemmata="vietnamese" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_21..word_22" sentenceid="2" label="np" min_ids="word_21..word_22" type="chunk" lemmata="vietnamese official" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_25..word_29" sentenceid="2" label="person" min_ids="word_25..word_29" type="enamex" lemmata="foreign minister nguyen dy nien" isprenominal="false" pos="nnp nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_32..word_33" sentenceid="2" label="person" min_ids="word_32..word_33" type="enamex" lemmata="mr. clinton" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_32..word_36" sentenceid="2" label="np" min_ids="word_32..word_36" type="chunk" lemmata="mr. clinton and his daughter" isprenominal="false" pos="nnp nnp cc prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_38" span="word_35" sentenceid="2" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_35..word_36" sentenceid="2" label="np" min_ids="word_35..word_36" type="chunk" lemmata="his daughter" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_37" sentenceid="2" label="person" min_ids="word_37..word_37" type="enamex" lemmata="chelsea" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_39" sentenceid="2" label="np" min_ids="word_39..word_39" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_42..word_43" sentenceid="2" label="np" min_ids="word_42..word_43" type="chunk" lemmata="the plane" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_45" sentenceid="2" label="location" min_ids="word_45..word_45" type="enamex" lemmata="hanoi" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_48..word_51" sentenceid="3" label="np" min_ids="word_48..word_51" type="chunk" lemmata="the official welcome ceremony" isprenominal="false" pos="dt jj vbg nn" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_56" sentenceid="3" label="date" type="enamex" lemmata="friday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_56..word_57" sentenceid="3" label="time" min_ids="word_56..word_57" type="enamex" lemmata="friday morning" isprenominal="false" pos="nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_59..word_61" sentenceid="3" label="np" min_ids="word_59..word_59" type="chunk" lemmata="thousand of vietnamese" isprenominal="false" pos="nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_61" sentenceid="3" label="location" min_ids="word_61..word_61" type="enamex" lemmata="vietnamese" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_64..word_65" sentenceid="3" label="np" min_ids="word_64..word_65" type="chunk" lemmata="the road" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_67..word_68" sentenceid="3" label="np" min_ids="word_67..word_68" type="chunk" lemmata="the airport" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_70" sentenceid="3" label="percent" type="enamex" lemmata="thousand" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_70..word_71" sentenceid="3" label="np" min_ids="word_70..word_71" type="chunk" lemmata="thousand more" isprenominal="false" pos="nns jjr" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_73..word_81" sentenceid="3" label="np" min_ids="word_73..word_74" type="chunk" lemmata="a square in front of mr. clinton 's hotel" isprenominal="false" pos="dt nn in nn in nnp nnp pos nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_76..word_81" sentenceid="3" label="np" min_ids="word_76..word_76" type="chunk" lemmata="front of mr. clinton 's hotel" isprenominal="false" pos="nn in nnp nnp pos nn" speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_78..word_80" sentenceid="3" label="person" min_ids="word_78..word_79" type="enamex" lemmata="mr. clinton 's" isprenominal="false" pos="nnp nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_78..word_81" sentenceid="3" label="np" min_ids="word_78..word_81" type="chunk" lemmata="mr. clinton 's hotel" isprenominal="false" pos="nnp nnp pos nn" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_83..word_84" sentenceid="4" label="np" min_ids="word_83..word_84" type="chunk" lemmata="the president" isprenominal="false" pos="dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_34" span="word_88" sentenceid="4" label="location" min_ids="word_88..word_88" type="enamex" lemmata="vietnam" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_94..word_113" sentenceid="4" label="np" min_ids="word_94..word_95" type="chunk" lemmata="a process of normalize relation that begin early in mr. clinton 's first term in office , eight year ago" isprenominal="false" pos="dt nn in vbg nns wdt vbd rb in nnp nnp pos jj nn in nn , cd nns rb" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_98..word_113" sentenceid="4" label="np" min_ids="word_98..word_98" type="chunk" lemmata="relation that begin early in mr. clinton 's first term in office , eight year ago" isprenominal="false" pos="nns wdt vbd rb in nnp nnp pos jj nn in nn , cd nns rb" speaker="-" mmax_level="markable" />
+<markable id="markable_35" span="word_103..word_105" sentenceid="4" label="person" min_ids="word_103..word_104" type="enamex" lemmata="mr. clinton 's" isprenominal="false" pos="nnp nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_103..word_109" sentenceid="4" label="np" min_ids="word_103..word_107" type="chunk" lemmata="mr. clinton 's first term in office" isprenominal="false" pos="nnp nnp pos jj nn in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_36" span="word_106" sentenceid="4" label="percent" type="enamex" lemmata="first" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_109" sentenceid="4" label="np" min_ids="word_109..word_109" type="chunk" lemmata="office" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_37" span="word_111..word_113" sentenceid="4" label="date" type="enamex" lemmata="eight year ago" isprenominal="false" pos="cd nns rb" speaker="-" mmax_level="markable" />
+</markables>

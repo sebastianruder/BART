@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_23" span="word_1..word_2" sentenceid="1" label="organization" min_ids="word_1..word_2" type="enamex" lemmata="southmark corp." isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_5" sentenceid="1" label="np" min_ids="word_5..word_5" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_7..word_13" sentenceid="1" label="np" min_ids="word_7..word_7" type="chunk" lemmata="part of its 10 - k report" isprenominal="false" pos="nn in prp$ cd hyph nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_9" sentenceid="1" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_9..word_13" sentenceid="1" label="np" min_ids="word_9..word_13" type="chunk" lemmata="its 10 - k report" isprenominal="false" pos="prp$ cd hyph nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_10" sentenceid="1" label="percent" type="enamex" lemmata="10" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_15..word_19" sentenceid="1" label="organization" min_ids="word_15..word_19" type="enamex" lemmata="the securities and exchange commission" isprenominal="false" pos="dt nnps cc nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_23..word_24" sentenceid="1" label="np" min_ids="word_23..word_24" type="chunk" lemmata="the filing" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_28" sentenceid="1" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_28..word_31" sentenceid="1" label="np" min_ids="word_28..word_31" type="chunk" lemmata="its audited financial statement" isprenominal="false" pos="prp$ jj jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_28..word_34" sentenceid="1" label="np" min_ids="word_28..word_34" type="chunk" lemmata="its audited financial statement and related information" isprenominal="false" pos="prp$ jj jj nns cc jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_33..word_34" sentenceid="1" label="np" min_ids="word_33..word_34" type="chunk" lemmata="related information" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_36..word_49" sentenceid="2" label="np" min_ids="word_36..word_41" type="chunk" lemmata="the real estate and thrift concern , operate under bankruptcy - law proceedings ," isprenominal="false" pos="dt jj nn cc nn nn , vbg in nn hyph nn nns ," speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_45..word_48" sentenceid="2" label="np" min_ids="word_45..word_48" type="chunk" lemmata="bankruptcy - law proceedings" isprenominal="false" pos="nn hyph nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_51" sentenceid="2" label="np" min_ids="word_51..word_51" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_53..word_54" sentenceid="2" label="organization" min_ids="word_54..word_54" type="enamex" lemmata="the sec" isprenominal="false" pos="dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_55" sentenceid="2" label="np" min_ids="word_55..word_55" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_59..word_60" sentenceid="2" label="np" min_ids="word_59..word_60" type="chunk" lemmata="financial statement" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_62..word_67" sentenceid="2" label="date" min_ids="word_63..word_66" type="enamex" lemmata="the end of its first extension" isprenominal="false" pos="dt nn in prp$ jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_34" span="word_65" sentenceid="2" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_65..word_67" sentenceid="2" label="np" min_ids="word_63..word_67" type="chunk" lemmata="its first extension" isprenominal="false" pos="prp$ jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_70..word_71" sentenceid="2" label="np" min_ids="word_70..word_71" type="chunk" lemmata="unreasonable burden" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_70..word_73" sentenceid="2" label="np" min_ids="word_70..word_73" type="chunk" lemmata="unreasonable burden or expense" isprenominal="false" pos="jj nn cc nn" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_73" sentenceid="2" label="np" min_ids="word_73..word_73" type="chunk" lemmata="expense" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_76..word_77" sentenceid="3" label="np" min_ids="word_76..word_77" type="chunk" lemmata="the company" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_80..word_84" sentenceid="3" label="np" min_ids="word_80..word_84" type="chunk" lemmata="a 15 - day extension" isprenominal="false" pos="dt cd hyph nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_81..word_83" sentenceid="3" label="date" type="enamex" lemmata="15 - day" isprenominal="false" pos="cd hyph nn" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_85..word_86" sentenceid="3" label="date" min_ids="word_85..word_86" type="enamex" lemmata="sept. 30" isprenominal="false" pos="nnp cd" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_89..word_91" sentenceid="3" label="np" min_ids="word_89..word_91" type="chunk" lemmata="the financial report" isprenominal="false" pos="dt jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_95" sentenceid="4" label="organization" min_ids="word_95..word_95" type="enamex" lemmata="southmark" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_97" sentenceid="4" label="np" min_ids="word_97..word_97" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_35" span="word_101" sentenceid="4" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_101..word_106" sentenceid="4" label="np" min_ids="word_101..word_106" type="chunk" lemmata="its 10k to provide financial result" isprenominal="false" pos="prp$ nn to vb jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_102" sentenceid="4" label="percent" type="enamex" lemmata="10k" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_105..word_106" sentenceid="4" label="np" min_ids="word_105..word_106" type="chunk" lemmata="financial result" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_36" span="word_110" sentenceid="4" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_110..word_111" sentenceid="4" label="np" min_ids="word_110..word_111" type="chunk" lemmata="its audit" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+</markables>

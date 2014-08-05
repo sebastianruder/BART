@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_14" tag="(S1 (S (NP (NP (NP (NNS Analysts) (POS ')) (NNS downgrades)) (PP (IN in) (NP (DT the) (NN semiconductor) (NN sector)))) (VP (VBP have) (VP (VBN sent) (S (NP (NN chipmaker) (NNS stocks)) (VP (VBG plunging) (NP (NN today)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_15..word_25" tag="(S1 (S (NP (DT That)) (VP (VBZ is) (RB n't) (VP (VBG keeping) (NP (NNP IBM)) (PP (IN from) (S (VP (VBG expanding) (NP (PRP$ its) (NN chip) (NNS operations))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_26..word_47" tag="(S1 (S (NP (PRP It)) (VP (VBZ 's) (VP (VBG investing) (NP (QP ($ $) (CD 2.5) (CD million))) (S (VP (TO to) (VP (VB build) (NP (DT an) (JJ advanced) (NN semiconductor) (NN plan)) (, ,) (ADVP (NP (QP (RB about) (CD 60)) (NNS miles)) (RB north) (PP (IN of) (NP (NML (NNP New) (NNP York)) (NNP City))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_48..word_65" tag="(S1 (S (NP (DT An) (JJ additional) (QP ($ $) (CD 2.5) (CD billion))) (VP (MD will) (VP (VB go) (PP (IN toward) (NP (NP (NNS improvements)) (PP (IN at) (NP (NP (NNP IBM) (NN chip) (NNS plants)) (PP (IN in) (NP (NNP Vermont) (CC and) (NNP Japan))))))))) (. .)))" mmax_level="parse" />
+</markables>

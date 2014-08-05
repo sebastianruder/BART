@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_31" span="word_1..word_3" sentenceid="1" label="organization" min_ids="word_1..word_3" type="enamex" lemmata="aol time warner" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_1..word_5" sentenceid="1" label="organization" min_ids="word_1..word_5" type="enamex" lemmata="aol time warner and microsoft" isprenominal="false" pos="nnp nnp nnp cc nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_8..word_9" sentenceid="1" label="np" min_ids="word_8..word_9" type="chunk" lemmata="the hatchet" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_11..word_12" sentenceid="2" label="person" min_ids="word_11..word_12" type="enamex" lemmata="allan chernoff" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_34" span="word_15..word_19" sentenceid="2" label="organization" min_ids="word_15..word_19" type="enamex" lemmata="the new york stock exchange" isprenominal="false" pos="dt nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_21" sentenceid="2" label="np" min_ids="word_21..word_21" type="chunk" lemmata="more" isprenominal="false" pos="jjr" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_24" sentenceid="3" label="np" min_ids="word_24..word_24" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_27" sentenceid="3" label="np" min_ids="word_27..word_27" type="chunk" lemmata="speed" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_35" span="word_29..word_31" sentenceid="4" label="organization" min_ids="word_29..word_31" type="enamex" lemmata="aol time warner" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_34" sentenceid="4" label="np" min_ids="word_34..word_34" type="chunk" lemmata="course" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_50" span="word_36" sentenceid="4" label="np" type="chunk" lemmata="our" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_36..word_38" sentenceid="4" label="np" min_ids="word_36..word_38" type="chunk" lemmata="our parent company" isprenominal="false" pos="prp$ nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_42..word_44" sentenceid="5" label="np" min_ids="word_42..word_42" type="chunk" lemmata="question about that" isprenominal="false" pos="nn in dt" speaker="-" mmax_level="markable" />
+<markable id="markable_36" span="word_46..word_47" sentenceid="6" label="person" min_ids="word_46..word_47" type="enamex" lemmata="bill gates" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_37" span="word_46..word_50" sentenceid="6" label="person" min_ids="word_46..word_50" type="enamex" lemmata="bill gates and dick parson" isprenominal="false" pos="nnp nnp cc nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_49..word_50" sentenceid="6" label="np" min_ids="word_49..word_50" type="chunk" lemmata="dick parson" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_52..word_57" sentenceid="6" label="np" min_ids="word_52..word_53" type="chunk" lemmata="the ceos of these two company" isprenominal="false" pos="dt nns in dt cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_55..word_57" sentenceid="6" label="np" min_ids="word_55..word_57" type="chunk" lemmata="these two company" isprenominal="false" pos="dt cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_38" span="word_56" sentenceid="6" label="percent" type="enamex" lemmata="two" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_60..word_62" sentenceid="6" label="np" min_ids="word_60..word_62" type="chunk" lemmata="a peace pipe" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_66..word_67" sentenceid="7" label="np" min_ids="word_66..word_67" type="chunk" lemmata="the company" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_69..word_70" sentenceid="7" label="np" min_ids="word_69..word_70" type="chunk" lemmata="a lawsuit" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_39" span="word_72..word_77" sentenceid="8" label="organization" min_ids="word_72..word_74" type="enamex" lemmata="aol time warner our corporate parent" isprenominal="false" pos="nnp nnp nnp prp$ jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_51" span="word_75" sentenceid="8" label="np" type="chunk" lemmata="our" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_75..word_77" sentenceid="8" label="np" min_ids="word_75..word_77" type="chunk" lemmata="our corporate parent" isprenominal="false" pos="prp$ jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_40" span="word_81..word_83" sentenceid="8" label="money" min_ids="word_81..word_83" type="enamex" lemmata="$ 750 million" isprenominal="false" pos="$ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_41" span="word_85" sentenceid="8" label="organization" min_ids="word_85..word_85" type="enamex" lemmata="microsoft" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_87..word_89" sentenceid="9" label="np" min_ids="word_87..word_89" type="chunk" lemmata="the software giant" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_93..word_106" sentenceid="9" label="np" min_ids="word_93..word_93" type="chunk" lemmata="charge it use its monopoly power in after to block the aol netscape browser" isprenominal="false" pos="nns prp vbd prp$ nn nn in in to vb dt nnp nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_94" sentenceid="9" label="np" min_ids="word_94..word_94" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_52" span="word_96" sentenceid="9" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_96..word_98" sentenceid="9" label="np" min_ids="word_96..word_98" type="chunk" lemmata="its monopoly power" isprenominal="false" pos="prp$ nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_42" span="word_100" sentenceid="9" label="date" type="enamex" lemmata="after" isprenominal="false" pos="in" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_103..word_106" sentenceid="9" label="np" min_ids="word_103..word_106" type="chunk" lemmata="the aol netscape browser" isprenominal="false" pos="dt nnp nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_43" span="word_104" sentenceid="9" label="organization" type="enamex" lemmata="aol" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_44" span="word_105" sentenceid="9" label="object" type="enamex" lemmata="netscape" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_109..word_112" sentenceid="10" label="np" min_ids="word_109..word_109" type="chunk" lemmata="part of the deal" isprenominal="false" pos="nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_111..word_112" sentenceid="10" label="np" min_ids="word_111..word_112" type="chunk" lemmata="the deal" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_45" span="word_114" sentenceid="10" label="organization" min_ids="word_114..word_114" type="enamex" lemmata="microsoft" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_53" span="word_117" sentenceid="10" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_117..word_118" sentenceid="10" label="np" min_ids="word_117..word_118" type="chunk" lemmata="its browser" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_46" span="word_120" sentenceid="10" label="organization" min_ids="word_120..word_120" type="enamex" lemmata="aol" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_126" sentenceid="10" label="np" min_ids="word_126..word_126" type="chunk" lemmata="royalty" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_47" span="word_128" sentenceid="11" label="organization" min_ids="word_128..word_128" type="enamex" lemmata="aol" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_48" span="word_134" sentenceid="11" label="organization" min_ids="word_134..word_134" type="enamex" lemmata="microsoft" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_54" span="word_137" sentenceid="11" label="np" type="chunk" lemmata="their" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_137..word_139" sentenceid="11" label="np" min_ids="word_137..word_139" type="chunk" lemmata="their internet messager" isprenominal="false" pos="prp$ nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_49" span="word_146..word_148" sentenceid="12" label="money" min_ids="word_146..word_148" type="enamex" lemmata="$ 750 million" isprenominal="false" pos="$ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_152..word_158" sentenceid="12" label="np" min_ids="word_152..word_153" type="chunk" lemmata="a whale of a company christmas party" isprenominal="false" pos="dt nn in dt nn nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_155..word_158" sentenceid="12" label="np" min_ids="word_155..word_158" type="chunk" lemmata="a company christmas party" isprenominal="false" pos="dt nn nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_162" sentenceid="13" label="np" min_ids="word_162..word_162" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_169..word_170" sentenceid="13" label="np" min_ids="word_169..word_170" type="chunk" lemmata="the money" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_173" sentenceid="14" label="np" min_ids="word_173..word_173" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_177..word_178" sentenceid="14" label="np" min_ids="word_177..word_177" type="chunk" lemmata="it all" isprenominal="false" pos="prp dt" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_180" sentenceid="14" label="np" min_ids="word_180..word_180" type="chunk" lemmata="a" isprenominal="false" pos="dt" speaker="-" mmax_level="markable" />
+</markables>

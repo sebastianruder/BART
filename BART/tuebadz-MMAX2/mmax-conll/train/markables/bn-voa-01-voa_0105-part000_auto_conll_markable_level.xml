@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_2..word_3" sentenceid="1" label="np" min_ids="word_2..word_3" type="chunk" lemmata="other news" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_5..word_6" sentenceid="1" label="organization" min_ids="word_5..word_6" type="enamex" lemmata="daimler chrysler" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_8" sentenceid="1" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_8..word_15" sentenceid="1" label="np" min_ids="word_8..word_12" type="chunk" lemmata="its major wall street backer , investment firm" isprenominal="false" pos="prp$ jj nnp nnp nn , nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_10..word_11" sentenceid="1" label="object" type="enamex" lemmata="wall street" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_14..word_15" sentenceid="1" label="np" min_ids="word_14..word_15" type="chunk" lemmata="investment firm" isprenominal="false" pos="nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_16..word_17" sentenceid="1" label="organization" min_ids="word_16..word_17" type="enamex" lemmata="goldman sachs" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_19..word_23" sentenceid="1" label="np" min_ids="word_19..word_23" type="chunk" lemmata="the german auto - maker" isprenominal="false" pos="dt jj nn hyph nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_20" sentenceid="1" label="location" type="enamex" lemmata="german" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_25" sentenceid="1" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_25..word_30" sentenceid="1" label="np" min_ids="word_25..word_30" type="chunk" lemmata="its us - base chrysler unit" isprenominal="false" pos="prp$ nnp hyph vbn nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_26" sentenceid="1" label="location" type="enamex" lemmata="us" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_29" sentenceid="1" label="organization" type="enamex" lemmata="chrysler" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_32..word_35" sentenceid="1" label="np" min_ids="word_32..word_35" type="chunk" lemmata="poor third quarter earnings" isprenominal="false" pos="jj jj nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_33..word_34" sentenceid="1" label="date" type="enamex" lemmata="third quarter" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_38..word_40" sentenceid="1" label="date" min_ids="word_38..word_40" type="enamex" lemmata="the fourth quarter" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_47..word_48" sentenceid="2" label="organization" min_ids="word_47..word_48" type="enamex" lemmata="goldman sachs" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_50..word_66" sentenceid="2" label="np" min_ids="word_50..word_52" type="chunk" lemmata="the chief consultant in the merger of germany 's daimler benz and us auto - maker chrysler" isprenominal="false" pos="dt jj nn in dt nn in nnp pos nnp nnp cc nnp nn hyph nn nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_54..word_66" sentenceid="2" label="np" min_ids="word_54..word_55" type="chunk" lemmata="the merger of germany 's daimler benz and us auto - maker chrysler" isprenominal="false" pos="dt nn in nnp pos nnp nnp cc nnp nn hyph nn nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_57..word_58" sentenceid="2" label="location" min_ids="word_57..word_57" type="enamex" lemmata="germany 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_57..word_60" sentenceid="2" label="organization" min_ids="word_57..word_60" type="enamex" lemmata="germany 's daimler benz" isprenominal="false" pos="nnp pos nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_57..word_66" sentenceid="2" label="organization" min_ids="word_57..word_66" type="enamex" lemmata="germany 's daimler benz and us auto - maker chrysler" isprenominal="false" pos="nnp pos nnp nnp cc nnp nn hyph nn nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_62" sentenceid="2" label="location" type="enamex" lemmata="us" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+</markables>

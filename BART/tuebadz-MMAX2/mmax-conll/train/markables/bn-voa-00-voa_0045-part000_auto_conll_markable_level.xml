@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_16" sentenceid="1" label="np" min_ids="word_1..word_3" type="chunk" lemmata="the death toll in colombia from three day of heavy fighting between soldier and rebel there" isprenominal="false" pos="dt nn nn in nnp in cd nns in jj nn in nns cc nns rb" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_5" sentenceid="1" label="location" min_ids="word_5..word_5" type="enamex" lemmata="colombia" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_10..word_16" sentenceid="1" label="np" min_ids="word_10..word_11" type="chunk" lemmata="heavy fighting between soldier and rebel there" isprenominal="false" pos="jj nn in nns cc nns rb" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_13..word_15" sentenceid="1" label="np" min_ids="word_13..word_15" type="chunk" lemmata="soldier and rebel" isprenominal="false" pos="nns cc nns" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_20..word_22" sentenceid="1" label="percent" min_ids="word_20..word_22" type="enamex" lemmata="more than 100" isprenominal="false" pos="jjr in cd" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_26..word_31" sentenceid="2" label="np" min_ids="word_26..word_28" type="chunk" lemmata="a brief look at the news" isprenominal="false" pos="dt jj nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_30..word_31" sentenceid="2" label="np" min_ids="word_30..word_31" type="chunk" lemmata="the news" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_33" sentenceid="3" label="np" min_ids="word_33..word_33" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_35..word_38" sentenceid="3" label="person" min_ids="word_35..word_36" type="enamex" lemmata="dave deforest in washington" isprenominal="false" pos="nnp nnp in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_38" sentenceid="3" label="location" min_ids="word_38..word_38" type="enamex" lemmata="washington" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+</markables>

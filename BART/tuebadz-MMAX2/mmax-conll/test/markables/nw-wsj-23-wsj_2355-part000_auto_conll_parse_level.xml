@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_22" tag="(S1 (S (NP (NP (NNP Kenneth) (NNP J.) (NNP Thygerson)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD was) (VP (VBN named) (S (NP (NP (NN president)) (PP (IN of) (NP (NP (DT this) (ADJP (NN thrift) (VBG holding)) (NN company)) (PP (IN in) (NP (NNP August))))))))))) (, ,)) (VP (VBD resigned) (, ,) (S (VP (VBG citing) (NP (JJ personal) (NNS reasons))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_23..word_51" tag="(S1 (S (NP (NNP Mr.) (NNP Thygerson)) (VP (VP (VBD said) (SBAR (S (NP (PRP he)) (VP (VBD had) (VP (VBN planned) (S (VP (TO to) (VP (VB travel) (PP (IN between) (NP (NP (DT the) (NN job)) (PP (IN in) (NP (NP (NNP Denver)) (CC and) (NP (PRP$ his) (NNP San) (NNP Diego)))))) (ADVP (RB home)))))))))) (, ,) (CC but) (VP (VBZ has) (VP (VBD found) (S (NP (DT the) (NN commute)) (ADJP (RB too) (JJ difficult) (S (VP (TO to) (VP (VB continue))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_52..word_58" tag="(S1 (S (NP (DT A) (JJ new) (NN president)) (VP (VBD was) (RB n't) (VP (VBN named))) (. .)))" mmax_level="parse" />
+</markables>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_14" span="word_1..word_3" sentenceid="1" label="organization" min_ids="word_1..word_3" type="enamex" lemmata="athlone industries inc." isprenominal="false" pos="nnp nnps nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_7..word_8" sentenceid="1" label="date" min_ids="word_7..word_8" type="enamex" lemmata="dec. 21" isprenominal="false" pos="nnp cd" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_9" sentenceid="1" label="np" min_ids="word_9..word_9" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_12..word_14" sentenceid="1" label="money" type="enamex" lemmata="$ 10 million" isprenominal="false" pos="$ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_12..word_33" sentenceid="1" label="np" min_ids="word_12..word_16" type="chunk" lemmata="$ 10 million face amount of its $ 59.3 million of 15.625 % subordinated note outstanding , due june 1 , 1991" isprenominal="false" pos="$ cd cd nn nn in prp$ $ cd cd in cd nn jj nns jj , jj nnp cd , cd" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_18" sentenceid="1" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_18..word_33" sentenceid="1" label="money" min_ids="word_18..word_21" type="enamex" lemmata="its $ 59.3 million of 15.625 % subordinated note outstanding , due june 1 , 1991" isprenominal="false" pos="prp$ $ cd cd in cd nn jj nns jj , jj nnp cd , cd" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_23..word_24" sentenceid="1" label="percent" type="enamex" lemmata="15.625 %" isprenominal="false" pos="cd nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_23..word_33" sentenceid="1" label="np" min_ids="word_23..word_26" type="chunk" lemmata="15.625 % subordinated note outstanding , due june 1 , 1991" isprenominal="false" pos="cd nn jj nns jj , jj nnp cd , cd" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_30..word_33" sentenceid="1" label="date" min_ids="word_30..word_33" type="enamex" lemmata="june 1 , 1991" isprenominal="false" pos="nnp cd , cd" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_36..word_40" sentenceid="2" label="money" min_ids="word_36..word_38" type="enamex" lemmata="each $ 1,000 of note" isprenominal="false" pos="dt $ cd in nns" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_40" sentenceid="2" label="np" min_ids="word_40..word_40" type="chunk" lemmata="note" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_42..word_52" sentenceid="2" label="np" min_ids="word_42..word_43" type="chunk" lemmata="the maker of specialty metal , industrial fastener and consumer product" isprenominal="false" pos="dt nn in nn nns , jj nns cc nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_45..word_46" sentenceid="2" label="np" min_ids="word_45..word_46" type="chunk" lemmata="specialty metal" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_45..word_52" sentenceid="2" label="np" min_ids="word_45..word_52" type="chunk" lemmata="specialty metal , industrial fastener and consumer product" isprenominal="false" pos="nn nns , jj nns cc nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_48..word_49" sentenceid="2" label="np" min_ids="word_48..word_49" type="chunk" lemmata="industrial fastener" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_51..word_52" sentenceid="2" label="np" min_ids="word_51..word_52" type="chunk" lemmata="consumer product" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_55..word_65" sentenceid="2" label="money" min_ids="word_55..word_59" type="enamex" lemmata="$ 1,026.46 plus $ 8.68 of interest accrue from dec. 1" isprenominal="false" pos="$ cd cc $ cd in nn vbn in nnp cd" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_56" sentenceid="2" label="money" type="enamex" lemmata="1,026.46" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_61..word_65" sentenceid="2" label="np" min_ids="word_61..word_61" type="chunk" lemmata="interest accrue from dec. 1" isprenominal="false" pos="nn vbn in nnp cd" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_64..word_65" sentenceid="2" label="date" min_ids="word_64..word_65" type="enamex" lemmata="dec. 1" isprenominal="false" pos="nnp cd" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_67..word_68" sentenceid="3" label="np" min_ids="word_67..word_68" type="chunk" lemmata="the company" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_71..word_74" sentenceid="3" label="np" min_ids="word_71..word_71" type="chunk" lemmata="holder of the note" isprenominal="false" pos="nns in dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_73..word_74" sentenceid="3" label="np" min_ids="word_73..word_74" type="chunk" lemmata="the note" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_79..word_82" sentenceid="4" label="organization" min_ids="word_79..word_82" type="enamex" lemmata="manufacturers hanover trust co." isprenominal="false" pos="nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_84..word_85" sentenceid="4" label="np" min_ids="word_84..word_85" type="chunk" lemmata="redemption agent" isprenominal="false" pos="nn nn" speaker="-" mmax_level="markable" />
+</markables>

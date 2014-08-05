@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_9" tag="(S1 (S (NP (NNP WorldCom)) (VP (VBZ hits) (NP (NNP Wall) (NNP Street)) (PP (IN with) (NP (CD two) (JJ big) (NNS announcements)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_10..word_21" tag="(S1 (S (NP (PRP I)) (VP (VBP 'm) (NP (NP (NNP Myron) (NNP Kandel)) (PP (IN at) (NP (NP (DT the) (NNP CNNFN) (NN newsdesk)) (PP (IN in) (NP (NNP New) (NNP York))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_22..word_41" tag="(S1 (S (NP (NP (DT The) (NN nation) (POS 's)) (ADJP (RB second) (JJS biggest)) (NML (JJ long) (NN distance)) (NN phone) (NN company)) (VP (VBD cut) (NP (PRP$ its) (NN revenue) (CC and) (NN profit)) (PP (NP (NN growth) (NNS outlooks)) (IN through) (NP (JJ next) (NN year)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_42..word_49" tag="(S1 (S (NP (PRP It)) (VP (VBZ blames) (NP (NP (JJ competitive) (NNS pressures)) (CC and) (NP (VBN increased) (NNS expenses)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_50..word_63" tag="(S1 (S (NP (NNP WorldCom)) (ADVP (RB also)) (VP (VBZ confirms) (NP (NP (PRP$ its) (NN restructuring)) (PP (IN of) (NP (NP (DT the) (NN company)) (CC and) (S (VP (VBG creating) (NP (CD two) (NN tracking) (NNS stocks)))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10006" span="word_64..word_76" tag="(S1 (S (NP (NN One)) (VP (VBD called) (SBAR (S (NP (NNP WorldCom)) (VP (MD will) (VP (VB follow) (NP (NP (DT the) (JJR faster) (NN growing) (NNS data)) (CC and) (NP (NN internet) (NN business)))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10007" span="word_77..word_91" tag="(S1 (S (NP (NP (DT The) (JJ other)) (, ,) (VP (VBN called) (S (NP (NNP MCI)))) (, ,)) (VP (MD will) (VP (VB track) (NP (NP (DT the) (NN company) (POS 's)) (NML (JJ long) (NN distance)) (NNS units)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10008" span="word_92..word_105" tag="(S1 (S (NP (NP (NP (NNP WorldCom) (POS 's)) (NN rival)) (, ,) (NP (NNP AT&amp;T)) (, ,)) (VP (VBD announced) (NP (DT a) (JJ similar) (VBG restructuring) (NN plan)) (NP (JJ last) (NN week))) (. .)))" mmax_level="parse" />
+</markables>

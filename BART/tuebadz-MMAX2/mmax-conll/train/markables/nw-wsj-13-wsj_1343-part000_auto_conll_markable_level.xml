@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_18" span="word_1..word_5" sentenceid="1" label="organization" min_ids="word_1..word_5" type="enamex" lemmata="american telephone &amp;amp; telegraph co." isprenominal="false" pos="nnp nnp cc nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_7" sentenceid="1" label="np" min_ids="word_7..word_7" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_10..word_12" sentenceid="1" label="money" min_ids="word_10..word_12" type="enamex" lemmata="$ 20 million" isprenominal="false" pos="$ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_15..word_16" sentenceid="1" label="np" min_ids="word_15..word_16" type="chunk" lemmata="a factory" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_18..word_21" sentenceid="1" label="location" min_ids="word_18..word_18" type="enamex" lemmata="guadalajara , mexico ," isprenominal="false" pos="nnp , nnp ," speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_20" sentenceid="1" label="location" min_ids="word_20..word_20" type="enamex" lemmata="mexico" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_24..word_26" sentenceid="1" label="np" min_ids="word_24..word_26" type="chunk" lemmata="telephone answering machine" isprenominal="false" pos="nn nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_28..word_36" sentenceid="2" label="np" min_ids="word_28..word_28" type="chunk" lemmata="construction of the 265,000 - square - foot facility" isprenominal="false" pos="nn in dt cd hyph jj hyph nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_30..word_36" sentenceid="2" label="np" min_ids="word_30..word_36" type="chunk" lemmata="the 265,000 - square - foot facility" isprenominal="false" pos="dt cd hyph jj hyph nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_31..word_35" sentenceid="2" label="percent" type="enamex" lemmata="265,000 - square - foot" isprenominal="false" pos="cd hyph jj hyph nn" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_39..word_40" sentenceid="2" label="date" min_ids="word_39..word_40" type="enamex" lemmata="next year" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_43..word_49" sentenceid="2" label="np" min_ids="word_43..word_43" type="chunk" lemmata="production expect to start in late 1991" isprenominal="false" pos="nn vbn to vb in jj cd" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_48..word_49" sentenceid="2" label="date" min_ids="word_48..word_49" type="enamex" lemmata="late 1991" isprenominal="false" pos="jj cd" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_55..word_57" sentenceid="3" label="np" min_ids="word_55..word_57" type="chunk" lemmata="the guadalajara factory" isprenominal="false" pos="dt nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_56" sentenceid="3" label="location" type="enamex" lemmata="guadalajara" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_60..word_61" sentenceid="3" label="percent" type="enamex" lemmata="about 1,500" isprenominal="false" pos="in cd" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_60..word_62" sentenceid="3" label="np" min_ids="word_60..word_62" type="chunk" lemmata="about 1,500 worker" isprenominal="false" pos="in cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_65" sentenceid="3" label="date" type="enamex" lemmata="annual" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_65..word_75" sentenceid="3" label="np" min_ids="word_65..word_67" type="chunk" lemmata="annual operating expense of $ 5 million to $ 6 million" isprenominal="false" pos="jj nn nns in $ cd cd to $ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_69..word_75" sentenceid="3" label="money" min_ids="word_69..word_75" type="enamex" lemmata="$ 5 million to $ 6 million" isprenominal="false" pos="$ cd cd to $ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_77..word_79" sentenceid="4" label="np" min_ids="word_77..word_79" type="chunk" lemmata="an at&amp;amp;t representative" isprenominal="false" pos="dt nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_78" sentenceid="4" label="organization" type="enamex" lemmata="at&amp;amp;t" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_82..word_84" sentenceid="4" label="np" min_ids="word_82..word_84" type="chunk" lemmata="the guadalajara factory" isprenominal="false" pos="dt nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_83" sentenceid="4" label="location" type="enamex" lemmata="guadalajara" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_87..word_92" sentenceid="4" label="np" min_ids="word_87..word_89" type="chunk" lemmata="a full line of answer machine" isprenominal="false" pos="dt jj nn in vbg nns" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_91..word_92" sentenceid="4" label="np" min_ids="word_91..word_92" type="chunk" lemmata="answer machine" isprenominal="false" pos="vbg nns" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_94" sentenceid="5" label="organization" min_ids="word_94..word_94" type="enamex" lemmata="at&amp;amp;t" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_97..word_107" sentenceid="5" label="np" min_ids="word_97..word_98" type="chunk" lemmata="a factory in matamoros , mexico , to make electrical device" isprenominal="false" pos="dt nn in nnp , nnp , to vb jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_100..word_103" sentenceid="5" label="location" min_ids="word_100..word_100" type="enamex" lemmata="matamoros , mexico ," isprenominal="false" pos="nnp , nnp ," speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_102" sentenceid="5" label="location" min_ids="word_102..word_102" type="enamex" lemmata="mexico" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_106..word_107" sentenceid="5" label="np" min_ids="word_106..word_107" type="chunk" lemmata="electrical device" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_109" sentenceid="6" label="np" min_ids="word_109..word_109" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_112..word_114" sentenceid="6" label="np" min_ids="word_112..word_114" type="chunk" lemmata="datum system product" isprenominal="false" pos="nns nns nns" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_116..word_120" sentenceid="6" label="np" min_ids="word_116..word_117" type="chunk" lemmata="a manufacturer base in monterrey" isprenominal="false" pos="dt nn vbn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_34" span="word_120" sentenceid="6" label="location" min_ids="word_120..word_120" type="enamex" lemmata="monterrey" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+</markables>

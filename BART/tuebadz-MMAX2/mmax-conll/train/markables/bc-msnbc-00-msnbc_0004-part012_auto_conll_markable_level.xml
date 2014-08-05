@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_4" sentenceid="1" label="np" min_ids="word_4..word_4" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="Chris Matthews" mmax_level="markable" />
+<markable id="markable_4" span="word_7" sentenceid="1" label="organization" min_ids="word_7..word_7" type="enamex" lemmata="congress" isprenominal="false" pos="nnp" speaker="Chris Matthews" mmax_level="markable" />
+<markable id="markable_1" span="word_14..word_15" sentenceid="1" label="np" min_ids="word_14..word_15" type="chunk" lemmata="steroid use" isprenominal="false" pos="nn nn" speaker="Chris Matthews" mmax_level="markable" />
+<markable id="markable_2" span="word_17..word_18" sentenceid="1" label="np" min_ids="word_17..word_18" type="chunk" lemmata="professional baseball" isprenominal="false" pos="jj nn" speaker="Chris Matthews" mmax_level="markable" />
+<markable id="markable_3" span="word_25" sentenceid="2" label="np" min_ids="word_25..word_25" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="Chris Matthews" mmax_level="markable" />
+<markable id="markable_5" span="word_29..word_32" sentenceid="3" label="object" min_ids="word_29..word_29" type="enamex" lemmata="hardball only on msnbc" isprenominal="false" pos="nnp rb in nnp" speaker="Chris Matthews" mmax_level="markable" />
+<markable id="markable_6" span="word_32" sentenceid="3" label="organization" min_ids="word_32..word_32" type="enamex" lemmata="msnbc" isprenominal="false" pos="nnp" speaker="Chris Matthews" mmax_level="markable" />
+</markables>

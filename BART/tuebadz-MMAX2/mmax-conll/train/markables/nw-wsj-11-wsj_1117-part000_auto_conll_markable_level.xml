@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_8" span="word_1..word_31" sentenceid="1" label="person" min_ids="word_1..word_5" type="enamex" lemmata="retired adm. william j. crowe , former chairman of the joint chiefs of staff , and robert p. luciano , chairman and chief executive officer of schering - plough corp. ," isprenominal="false" pos="nnp nnp nnp nnp nnp , jj nn in dt nnp nnps in nnp , cc nnp nnp nnp , nn cc jj jj nn in nnp hyph nnp nnp ," speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_7..word_14" sentenceid="1" label="np" min_ids="word_7..word_8" type="chunk" lemmata="former chairman of the joint chiefs of staff" isprenominal="false" pos="jj nn in dt nnp nnps in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_10..word_14" sentenceid="1" label="organization" min_ids="word_11..word_14" type="enamex" lemmata="the joint chiefs of staff" isprenominal="false" pos="dt nnp nnps in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_17..word_19" sentenceid="1" label="person" min_ids="word_17..word_19" type="enamex" lemmata="robert p. luciano" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_21" sentenceid="1" label="np" min_ids="word_21..word_21" type="chunk" lemmata="chairman" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_21..word_30" sentenceid="1" label="np" min_ids="word_21..word_25" type="chunk" lemmata="chairman and chief executive officer of schering - plough corp." isprenominal="false" pos="nn cc jj jj nn in nnp hyph nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_23..word_25" sentenceid="1" label="np" min_ids="word_23..word_25" type="chunk" lemmata="chief executive officer" isprenominal="false" pos="jj jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_27..word_30" sentenceid="1" label="organization" min_ids="word_27..word_30" type="enamex" lemmata="schering - plough corp." isprenominal="false" pos="nnp hyph nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_34..word_38" sentenceid="1" label="np" min_ids="word_34..word_34" type="chunk" lemmata="director of this security firm" isprenominal="false" pos="nns in dt nns nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_36..word_38" sentenceid="1" label="np" min_ids="word_36..word_38" type="chunk" lemmata="this security firm" isprenominal="false" pos="dt nns nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_40..word_41" sentenceid="2" label="np" min_ids="word_40..word_41" type="chunk" lemmata="the board" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_44" sentenceid="2" label="percent" type="enamex" lemmata="17" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_44..word_45" sentenceid="2" label="np" min_ids="word_44..word_45" type="chunk" lemmata="17 seat" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+</markables>

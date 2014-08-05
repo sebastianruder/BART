@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_20" tag="(S1 (NP (NP (VBN Annualized) (NN interest) (NNS rates)) (PP (IN on) (NP (JJ certain) (NNS investments))) (SBAR (IN as) (S (VP (VBN reported) (PP (IN by) (NP (DT the) (NNP Federal) (NNP Reserve) (NNP Board))) (PP (IN on) (NP (DT a) (NML (JJ weekly) (HYPH -) (NN average)) (NN basis)))))) (: :)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_21..word_25" tag="(S1 (FRAG (LST (LS a)) (: -) (NP (VBN Discounted) (NN rate)) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_26..word_42" tag="(S1 (FRAG (LST (LS b)) (: -) (NP (NP (NN Week)) (VP (VBN ended) (NP (NP (NP (NNP Wednesday)) (, ,) (NP (NNP October) (CD 18)) (, ,) (NP (CD 1989))) (CC and) (NP (NP (NNP Wednesday)) (NP (NNP October) (CD 11) (, ,) (CD 1989)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_43..word_51" tag="(S1 (FRAG (LST (LS c)) (: -) (NP (NP (NNS Yields)) (, ,) (VP (VBN adjusted) (PP (IN for) (NP (JJ constant) (NN maturity))))) (. .)))" mmax_level="parse" />
+</markables>

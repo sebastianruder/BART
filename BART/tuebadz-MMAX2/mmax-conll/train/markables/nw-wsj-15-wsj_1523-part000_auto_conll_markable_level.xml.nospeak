@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_7" span="word_1..word_8" sentenceid="1" label="person" min_ids="word_1..word_3" type="enamex" lemmata="david h. eisenberg , 53 year old ," isprenominal="false" pos="nnp nnp nnp , cd nns jj ," speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_5..word_7" sentenceid="1" label="date" type="enamex" lemmata="53 year old" isprenominal="false" pos="cd nns jj" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_11..word_32" sentenceid="1" label="np" min_ids="word_11..word_11" type="chunk" lemmata="president and chief operating officer of imasco 's 500 - store peoples drug stores inc. unit , base in alexandria , va" isprenominal="false" pos="nn cc jj nn nn in nnp pos cd hyph nn nnps nnp nnps nnp nn , vbn in nnp , nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_13..word_15" sentenceid="1" label="np" min_ids="word_13..word_15" type="chunk" lemmata="chief operating officer" isprenominal="false" pos="jj nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_17..word_18" sentenceid="1" label="organization" min_ids="word_17..word_17" type="enamex" lemmata="imasco 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_17..word_32" sentenceid="1" label="np" min_ids="word_17..word_26" type="chunk" lemmata="imasco 's 500 - store peoples drug stores inc. unit , base in alexandria , va" isprenominal="false" pos="nnp pos cd hyph nn nnps nnp nnps nnp nn , vbn in nnp , nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_22..word_25" sentenceid="1" label="organization" type="enamex" lemmata="peoples drug stores inc." isprenominal="false" pos="nnps nnp nnps nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_30..word_32" sentenceid="1" label="location" min_ids="word_30..word_30" type="enamex" lemmata="alexandria , va" isprenominal="false" pos="nnp , nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_32" sentenceid="1" label="location" min_ids="word_32..word_32" type="enamex" lemmata="va" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_34..word_35" sentenceid="2" label="person" min_ids="word_34..word_35" type="enamex" lemmata="mr. eisenberg" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_37..word_40" sentenceid="2" label="np" min_ids="word_37..word_40" type="chunk" lemmata="senior executive vice president" isprenominal="false" pos="jj jj nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_37..word_44" sentenceid="2" label="np" min_ids="word_37..word_44" type="chunk" lemmata="senior executive vice president and chief operating officer" isprenominal="false" pos="jj jj nn nn cc jj nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_42..word_44" sentenceid="2" label="np" min_ids="word_42..word_44" type="chunk" lemmata="chief operating officer" isprenominal="false" pos="jj nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_46" sentenceid="3" label="organization" min_ids="word_46..word_46" type="enamex" lemmata="imasco" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_48..word_57" sentenceid="3" label="np" min_ids="word_48..word_57" type="chunk" lemmata="a tobacco , retailing , restaurant and financial service concern" isprenominal="false" pos="dt nn , nn , nn cc jj nns nn" speaker="-" mmax_level="markable" />
+</markables>

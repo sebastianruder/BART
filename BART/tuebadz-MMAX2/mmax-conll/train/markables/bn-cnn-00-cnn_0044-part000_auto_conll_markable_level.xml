@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_25" span="word_1..word_2" sentenceid="1" label="organization" min_ids="word_2..word_2" type="enamex" lemmata="the senate" isprenominal="false" pos="dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_6..word_19" sentenceid="1" label="np" min_ids="word_6..word_9" type="chunk" lemmata="an agriculture spending bill that include a provision to ease trade sanction against china" isprenominal="false" pos="dt nn nn nn wdt vbz dt nn to vb nn nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_12..word_19" sentenceid="1" label="np" min_ids="word_12..word_13" type="chunk" lemmata="a provision to ease trade sanction against china" isprenominal="false" pos="dt nn to vb nn nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_16..word_19" sentenceid="1" label="np" min_ids="word_16..word_17" type="chunk" lemmata="trade sanction against china" isprenominal="false" pos="nn nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_19" sentenceid="1" label="location" min_ids="word_19..word_19" type="enamex" lemmata="china" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_21..word_22" sentenceid="2" label="np" min_ids="word_21..word_22" type="chunk" lemmata="the measure" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_24..word_31" sentenceid="2" label="np" min_ids="word_24..word_25" type="chunk" lemmata="the sale of food and medicine to cuba" isprenominal="false" pos="dt nn in nn cc nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_27..word_29" sentenceid="2" label="np" min_ids="word_27..word_29" type="chunk" lemmata="food and medicine" isprenominal="false" pos="nn cc nn" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_31" sentenceid="2" label="location" min_ids="word_31..word_31" type="enamex" lemmata="cuba" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_34" sentenceid="2" label="percent" type="enamex" lemmata="first" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_40" sentenceid="3" label="np" min_ids="word_40..word_40" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_42..word_45" sentenceid="3" label="location" min_ids="word_42..word_45" type="enamex" lemmata="public or private u.s." isprenominal="false" pos="jj cc jj nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_46..word_47" sentenceid="3" label="np" min_ids="word_46..word_47" type="chunk" lemmata="financial institution" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_50..word_51" sentenceid="3" label="np" min_ids="word_50..word_51" type="chunk" lemmata="the sale" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_54..word_55" sentenceid="4" label="np" min_ids="word_54..word_55" type="chunk" lemmata="a result" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_57" sentenceid="4" label="location" min_ids="word_57..word_57" type="enamex" lemmata="cuba" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_62" sentenceid="4" label="np" min_ids="word_62..word_62" type="chunk" lemmata="cash" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_65" sentenceid="4" label="np" min_ids="word_65..word_65" type="chunk" lemmata="credit" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_67..word_69" sentenceid="4" label="np" min_ids="word_67..word_69" type="chunk" lemmata="a third country" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_68" sentenceid="4" label="percent" type="enamex" lemmata="third" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_72" sentenceid="4" label="location" type="enamex" lemmata="u.s." isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_72..word_73" sentenceid="4" label="np" min_ids="word_72..word_73" type="chunk" lemmata="u.s. product" isprenominal="false" pos="nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_75..word_76" sentenceid="5" label="person" min_ids="word_75..word_76" type="enamex" lemmata="president clinton" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_79" sentenceid="5" label="np" min_ids="word_79..word_79" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_82" sentenceid="5" label="np" min_ids="word_82..word_82" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_34" span="word_85" sentenceid="6" label="location" min_ids="word_85..word_85" type="enamex" lemmata="havana" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_35" span="word_87" sentenceid="6" label="percent" type="enamex" lemmata="800,000" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_36" span="word_87..word_88" sentenceid="6" label="location" min_ids="word_87..word_88" type="enamex" lemmata="800,000 cubans" isprenominal="false" pos="cd nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_37" span="word_92..word_93" sentenceid="6" label="person" min_ids="word_92..word_93" type="enamex" lemmata="fidel castro" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_97" sentenceid="6" label="np" min_ids="word_97..word_97" type="chunk" lemmata="protest" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_99" sentenceid="7" label="np" min_ids="word_99..word_99" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_101..word_102" sentenceid="7" label="np" min_ids="word_101..word_102" type="chunk" lemmata="the bill" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_106..word_107" sentenceid="7" label="np" min_ids="word_106..word_107" type="chunk" lemmata="the embargo" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_38" span="word_112" sentenceid="7" label="location" type="enamex" lemmata="u.s." isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_112..word_116" sentenceid="7" label="np" min_ids="word_112..word_113" type="chunk" lemmata="u.s. travel to the island" isprenominal="false" pos="nnp nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_115..word_116" sentenceid="7" label="np" min_ids="word_115..word_116" type="chunk" lemmata="the island" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_120..word_130" sentenceid="8" label="np" min_ids="word_120..word_120" type="chunk" lemmata="rules that generally ban tourism to cuba would become law ." isprenominal="false" pos="nns wdt rb vbp nn in nnp md vb nn ." speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_124..word_126" sentenceid="8" label="np" min_ids="word_124..word_124" type="chunk" lemmata="tourism to cuba" isprenominal="false" pos="nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_39" span="word_126" sentenceid="8" label="location" min_ids="word_126..word_126" type="enamex" lemmata="cuba" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_129" sentenceid="8" label="np" min_ids="word_129..word_129" type="chunk" lemmata="law" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+</markables>

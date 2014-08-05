@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_16" span="word_2..word_7" sentenceid="1" label="object" min_ids="word_2..word_7" type="enamex" lemmata="lifestyles of the rich and famous" isprenominal="false" pos="nns in dt nnp cc nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_4..word_7" sentenceid="1" label="np" min_ids="word_4..word_7" type="chunk" lemmata="the rich and famous" isprenominal="false" pos="dt nnp cc nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_12..word_14" sentenceid="1" label="np" min_ids="word_12..word_14" type="chunk" lemmata="some new venue" isprenominal="false" pos="dt jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_16..word_18" sentenceid="1" label="np" min_ids="word_16..word_18" type="chunk" lemmata="the near future" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_20..word_28" sentenceid="2" label="person" min_ids="word_20..word_28" type="enamex" lemmata="judge robert -lrb- `` maximum bob '' -rrb- potter" isprenominal="false" pos="nnp nnp -lrb- `` jj nnp '' -rrb- nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_23..word_26" sentenceid="2" label="np" min_ids="word_23..word_26" type="chunk" lemmata="`` maximum bob ''" isprenominal="false" pos="`` jj nnp ''" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_28" sentenceid="2" label="np" min_ids="word_28..word_28" type="chunk" lemmata="potter" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_30..word_31" sentenceid="2" label="person" min_ids="word_30..word_31" type="enamex" lemmata="jim bakker" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_36..word_39" sentenceid="2" label="date" min_ids="word_37..word_39" type="enamex" lemmata="the big house yesterday" isprenominal="false" pos="dt jj nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_42..word_45" sentenceid="2" label="np" min_ids="word_42..word_45" type="chunk" lemmata="a beverly hills judge" isprenominal="false" pos="dt nnp nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_43..word_44" sentenceid="2" label="location" type="enamex" lemmata="beverly hills" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_48..word_50" sentenceid="2" label="person" min_ids="word_48..word_50" type="enamex" lemmata="zsa zsa gabor" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_56..word_62" sentenceid="2" label="time" min_ids="word_56..word_57" type="enamex" lemmata="120 hour of work with homeless woman" isprenominal="false" pos="cd nns in nn in jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_59..word_62" sentenceid="2" label="np" min_ids="word_59..word_59" type="chunk" lemmata="work with homeless woman" isprenominal="false" pos="nn in jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_61..word_62" sentenceid="2" label="np" min_ids="word_61..word_62" type="chunk" lemmata="homeless woman" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_64..word_65" sentenceid="3" label="person" min_ids="word_64..word_65" type="enamex" lemmata="miss gabor" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_67" sentenceid="3" label="np" type="chunk" lemmata="she" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_67..word_74" sentenceid="3" label="np" min_ids="word_67..word_71" type="chunk" lemmata="she earlier - express fear of jailhouse lesbian" isprenominal="false" pos="prp$ rb hyph vbn nn in jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_73..word_74" sentenceid="3" label="np" min_ids="word_73..word_74" type="chunk" lemmata="jailhouse lesbian" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_76..word_77" sentenceid="4" label="person" min_ids="word_76..word_77" type="enamex" lemmata="mr. bakker" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_79" sentenceid="4" label="np" min_ids="word_79..word_79" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_83..word_86" sentenceid="4" label="np" min_ids="word_83..word_83" type="chunk" lemmata="sin but not fraud" isprenominal="false" pos="nn cc rb nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_86" sentenceid="4" label="np" min_ids="word_86..word_86" type="chunk" lemmata="fraud" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_88" sentenceid="5" label="np" min_ids="word_88..word_88" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_95..word_105" sentenceid="5" label="np" min_ids="word_95..word_98" type="chunk" lemmata="the next lose soul choose to be america 's celebrity convict" isprenominal="false" pos="dt jj vbn nn vbn to vb nnp pos nn vb" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_102..word_103" sentenceid="5" label="location" min_ids="word_102..word_102" type="enamex" lemmata="america 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_102..word_104" sentenceid="5" label="np" min_ids="word_102..word_104" type="chunk" lemmata="america 's celebrity" isprenominal="false" pos="nnp pos nn" speaker="-" mmax_level="markable" />
+</markables>

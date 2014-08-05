@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_3" tag="(S1 (FRAG (NP (NNP Detroit)) (INTJ (UH hello)) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_4..word_5" tag="(S1 (INTJ (UH Hi) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_6..word_7" tag="(S1 (INTJ (UH Hi) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_8..word_11" tag="(S1 (SBARQ (WHADVP (WRB How)) (SQ (VBP are) (NP (PRP you))) (. ?)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_12..word_13" tag="(S1 (INTJ (UH Fine) (. .)))" mmax_level="parse" />
+<markable id="markable_10006" span="word_14..word_27" tag="(S1 (S (NP (NNP Mr.) (NNP Wallace)) (NP (DT this)) (VP (VBZ is) (NP (NP (DT a) (JJ big) (NN pleasure)) (SBAR (IN for) (S (NP (PRP me)) (VP (TO to) (VP (VB talk) (PP (IN to) (NP (PRP you))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10007" span="word_28..word_53" tag="(S1 (SBARQ (CC But) (INTJ (UH um) (UH uh)) (WHNP (WP what)) (SQ (VBZ is) (NP (PRP$ your) (ADJP (RBS most) (JJ difficult)) (NN interview)) (SBAR (IN that) (S (NP (PRP you)) (VP (VBD had) (PP (IN in) (NP (NNP Sixty) (NNP Minutes))) (NP (DT the) (ADJP (RBS most) (JJ difficult)) (NN person)) (SBAR (IN that) (S (NP (PRP you)) (VP (MD could) (VP (VB have) (ADVP (RB ever)) (VP (VBN interviewed)))))))))) (. ?)))" mmax_level="parse" />
+<markable id="markable_10008" span="word_54..word_68" tag="(S1 (S (NP (PRP I)) (VP (VBP think) (ADVP (RB probably)) (NP (DT the) (NNP Aiatola)) (ADVP (RB really)) (SBAR (IN because) (S (NP (PRP he)) (VP (VBD was) (RB not) (ADJP (JJ anxious) (S (VP (TO to) (VP (VB do) (NP (PRP it)))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10009" span="word_69..word_82" tag="(S1 (S (NP (PRP It)) (VP (VBD was) (INTJ (UH um)) (SBAR (ADVP (RB just)) (IN after) (S (NP (DT the) (NNP US) (NNS hostages)) (VP (VBD had) (VP (VBN been) (VP (VBN taken) (PP (IN in) (NP (NNP Iran))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10010" span="word_83..word_95" tag="(S1 (S (CC and) (NP (PRP I)) (VP (VBD was) (ADJP (JJ surprised) (SBAR (IN that) (S (NP (PRP he)) (VP (VBD was) (ADJP (JJ willing) (S (VP (TO to) (VP (VB talk) (PP (IN to) (NP (PRP us)))))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10011" span="word_96..word_104" tag="(S1 (S (CC and) (NP (PRP it)) (VP (VBD was) (NP (DT a) (ADJP (RB very) (RB very) (JJ difficult)) (NN business))) (. .)))" mmax_level="parse" />
+<markable id="markable_10012" span="word_105..word_116" tag="(S1 (S (NP (PRP We)) (VP (VBD did) (NP (PRP it)) (PP (IN in) (NP (NP (DT the) (JJ holy) (NN city)) (PP (IN of) (NP (WDT which))))) (INTJ (UH uh)) (SBAR (S (NP (PRP we))))) (. -)))" mmax_level="parse" />
+<markable id="markable_10013" span="word_117..word_122" tag="(S1 (S (CC and) (NP (DT the) (NNS circumstances)) (VP (VBD were) (ADJP (JJ difficult))) (. .)))" mmax_level="parse" />
+<markable id="markable_10014" span="word_123..word_136" tag="(S1 (S (NP (PRP They)) (VP (VBD took) (NP (JJ good) (NN care)) (S (VP (TO to) (VP (VB see) (SBAR (IN that) (S (NP (PRP we)) (VP (VBD did) (RB n't) (VP (VB get) (PP (IN into) (NP (NN trouble))))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10015" span="word_137..word_139" tag="(S1 (INTJ (UH Ha) (UH ha) (. .)))" mmax_level="parse" />
+<markable id="markable_10016" span="word_140..word_145" tag="(S1 (S (NP (PRP We)) (VP (MD 'll) (VP (VB take) (NP (DT a) (NN break)))) (. .)))" mmax_level="parse" />
+</markables>

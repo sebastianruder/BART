@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1" sentenceid="1" label="np" min_ids="word_1..word_1" type="chunk" lemmata="bloodshed" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_4..word_5" sentenceid="1" label="location" min_ids="word_5..word_5" type="enamex" lemmata="the mideast" isprenominal="false" pos="dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_7..word_18" sentenceid="1" label="np" min_ids="word_7..word_7" type="chunk" lemmata="spite of israeli effort to prevent violence by seal off palestinian territory" isprenominal="false" pos="nn in jj nns to vb nn in vbg rp jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_9" sentenceid="1" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_9..word_18" sentenceid="1" label="np" min_ids="word_9..word_10" type="chunk" lemmata="israeli effort to prevent violence by seal off palestinian territory" isprenominal="false" pos="jj nns to vb nn in vbg rp jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_13" sentenceid="1" label="np" min_ids="word_13..word_13" type="chunk" lemmata="violence" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_17" sentenceid="1" label="location" type="enamex" lemmata="palestinian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_17..word_18" sentenceid="1" label="np" min_ids="word_17..word_18" type="chunk" lemmata="palestinian territory" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_20..word_23" sentenceid="2" label="location" min_ids="word_20..word_23" type="enamex" lemmata="stone - throw palestinians" isprenominal="false" pos="nn hyph vbg nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_25" sentenceid="2" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_25..word_32" sentenceid="2" label="np" min_ids="word_25..word_26" type="chunk" lemmata="israeli troops protect a jewish settlement in gaza" isprenominal="false" pos="jj nns vbg dt jj nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_28..word_32" sentenceid="2" label="np" min_ids="word_28..word_30" type="chunk" lemmata="a jewish settlement in gaza" isprenominal="false" pos="dt jj nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_29" sentenceid="2" label="location" type="enamex" lemmata="jewish" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_32" sentenceid="2" label="location" min_ids="word_32..word_32" type="enamex" lemmata="gaza" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_34" sentenceid="3" label="np" min_ids="word_34..word_34" type="chunk" lemmata="reports" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_36" sentenceid="3" label="percent" type="enamex" lemmata="six" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_36..word_37" sentenceid="3" label="location" min_ids="word_36..word_37" type="enamex" lemmata="six palestinians" isprenominal="false" pos="cd nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_41" sentenceid="3" label="date" min_ids="word_41..word_41" type="enamex" lemmata="today" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_43..word_47" sentenceid="3" label="np" min_ids="word_43..word_43" type="chunk" lemmata="clash on the west bank" isprenominal="false" pos="nns in dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_45..word_47" sentenceid="3" label="location" min_ids="word_45..word_47" type="enamex" lemmata="the west bank" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_50..word_52" sentenceid="3" label="location" min_ids="word_50..word_52" type="enamex" lemmata="the gaza strip" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_56" sentenceid="4" label="location" type="enamex" lemmata="palestinian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_56..word_58" sentenceid="4" label="np" min_ids="word_56..word_58" type="chunk" lemmata="palestinian security force" isprenominal="false" pos="jj nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_61..word_62" sentenceid="4" label="np" min_ids="word_61..word_62" type="chunk" lemmata="a confrontation" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_64..word_70" sentenceid="4" label="np" min_ids="word_64..word_66" type="chunk" lemmata="a jerusalem site revere by both side" isprenominal="false" pos="dt nnp nn vbn in dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_65" sentenceid="4" label="location" type="enamex" lemmata="jerusalem" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_69..word_70" sentenceid="4" label="np" min_ids="word_69..word_70" type="chunk" lemmata="both side" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_72..word_75" sentenceid="5" label="np" min_ids="word_72..word_72" type="chunk" lemmata="control of the shrine" isprenominal="false" pos="nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_74..word_75" sentenceid="5" label="np" min_ids="word_74..word_75" type="chunk" lemmata="the shrine" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_34" span="word_81" sentenceid="6" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_81..word_82" sentenceid="6" label="np" min_ids="word_81..word_82" type="chunk" lemmata="israeli police" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_84..word_85" sentenceid="6" label="np" min_ids="word_84..word_85" type="chunk" lemmata="tear gas" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_87..word_90" sentenceid="6" label="np" min_ids="word_87..word_90" type="chunk" lemmata="stone - throw protester" isprenominal="false" pos="nn hyph vbg nns" speaker="-" mmax_level="markable" />
+<markable id="markable_35" span="word_92" sentenceid="7" label="location" type="enamex" lemmata="palestinian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_92..word_93" sentenceid="7" label="np" min_ids="word_92..word_93" type="chunk" lemmata="palestinian police" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_95..word_96" sentenceid="7" label="np" min_ids="word_95..word_96" type="chunk" lemmata="the clash" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+</markables>

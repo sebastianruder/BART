@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_2" span="word_4..word_5" sentenceid="1" label="person" min_ids="word_4..word_5" type="enamex" lemmata="president bush" isprenominal="false" pos="nnp nnp" speaker="Tim Russert" mmax_level="markable" />
+<markable id="markable_10" span="word_7" sentenceid="1" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="Tim Russert" mmax_level="markable" />
+<markable id="markable_0" span="word_7..word_9" sentenceid="1" label="np" min_ids="word_7..word_9" type="chunk" lemmata="his sixtieth birthday" isprenominal="false" pos="prp$ jj nn" speaker="Tim Russert" mmax_level="markable" />
+<markable id="markable_3" span="word_8" sentenceid="1" label="percent" type="enamex" lemmata="sixtieth" isprenominal="false" pos="jj" speaker="Tim Russert" mmax_level="markable" />
+<markable id="markable_4" span="word_10..word_11" sentenceid="1" label="date" min_ids="word_10..word_11" type="enamex" lemmata="this week" isprenominal="false" pos="dt nn" speaker="Tim Russert" mmax_level="markable" />
+<markable id="markable_5" span="word_14..word_17" sentenceid="2" label="date" type="enamex" lemmata="thirty one year ago" isprenominal="false" pos="cd cd nns rb" speaker="Tim Russert" mmax_level="markable" />
+<markable id="markable_6" span="word_19..word_21" sentenceid="2" label="organization" min_ids="word_19..word_21" type="enamex" lemmata="meet the press" isprenominal="false" pos="nnp nnp nnp" speaker="Tim Russert" mmax_level="markable" />
+<markable id="markable_7" span="word_23..word_25" sentenceid="2" label="person" min_ids="word_23..word_25" type="enamex" lemmata="president gerald ford" isprenominal="false" pos="nnp nnp nnp" speaker="Tim Russert" mmax_level="markable" />
+<markable id="markable_8" span="word_29" sentenceid="2" label="percent" type="enamex" lemmata="sixty" isprenominal="false" pos="jj" speaker="Tim Russert" mmax_level="markable" />
+<markable id="markable_1" span="word_33" sentenceid="2" label="np" min_ids="word_33..word_33" type="chunk" lemmata="president" isprenominal="false" pos="nn" speaker="Tim Russert" mmax_level="markable" />
+<markable id="markable_9" span="word_40..word_42" sentenceid="3" label="organization" min_ids="word_40..word_42" type="enamex" lemmata="meet the press" isprenominal="false" pos="nnp nnp nnp" speaker="Tim Russert" mmax_level="markable" />
+</markables>

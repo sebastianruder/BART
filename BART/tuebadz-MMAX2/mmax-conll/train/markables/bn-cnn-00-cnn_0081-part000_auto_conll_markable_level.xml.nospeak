@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_8" sentenceid="1" label="np" min_ids="word_1..word_3" type="chunk" lemmata="a new project encourage rooftop garden in chicago" isprenominal="false" pos="dt jj nn vbg nn nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_5..word_8" sentenceid="1" label="np" min_ids="word_5..word_6" type="chunk" lemmata="rooftop garden in chicago" isprenominal="false" pos="nn nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_8" sentenceid="1" label="location" min_ids="word_8..word_8" type="enamex" lemmata="chicago" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_11..word_12" sentenceid="1" label="np" min_ids="word_11..word_12" type="chunk" lemmata="new meaning" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_14..word_18" sentenceid="1" label="np" min_ids="word_14..word_15" type="chunk" lemmata="the term `` urban jungle" isprenominal="false" pos="dt nn `` jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_17..word_18" sentenceid="1" label="np" min_ids="word_17..word_18" type="chunk" lemmata="urban jungle" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_21..word_25" sentenceid="2" label="np" min_ids="word_21..word_22" type="chunk" lemmata="the roof of city hall" isprenominal="false" pos="dt nn in nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_24..word_25" sentenceid="2" label="organization" min_ids="word_24..word_25" type="enamex" lemmata="city hall" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_30..word_32" sentenceid="2" label="np" min_ids="word_30..word_32" type="chunk" lemmata="an urban oasis" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_34" sentenceid="3" label="np" min_ids="word_34..word_34" type="chunk" lemmata="rooftops" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_37..word_39" sentenceid="3" label="np" min_ids="word_37..word_39" type="chunk" lemmata="the hot sun" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_43..word_51" sentenceid="3" label="np" min_ids="word_43..word_44" type="chunk" lemmata="the air in city which can make pollution worse" isprenominal="false" pos="dt nn in nns wdt md vb nn jjr" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_46..word_51" sentenceid="3" label="np" min_ids="word_46..word_46" type="chunk" lemmata="city which can make pollution worse" isprenominal="false" pos="nns wdt md vb nn jjr" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_50" sentenceid="3" label="np" min_ids="word_50..word_50" type="chunk" lemmata="pollution" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_53..word_54" sentenceid="4" label="np" min_ids="word_53..word_54" type="chunk" lemmata="the project" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_56..word_71" sentenceid="4" label="np" min_ids="word_56..word_56" type="chunk" lemmata="part of a federal government study to see if rooftop garden can have the opposite effect" isprenominal="false" pos="nn in dt jj nn nn to vb in nn nns md vb dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_58..word_71" sentenceid="4" label="np" min_ids="word_58..word_61" type="chunk" lemmata="a federal government study to see if rooftop garden can have the opposite effect" isprenominal="false" pos="dt jj nn nn to vb in nn nns md vb dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_65..word_66" sentenceid="4" label="np" min_ids="word_65..word_66" type="chunk" lemmata="rooftop garden" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_69..word_71" sentenceid="4" label="np" min_ids="word_69..word_71" type="chunk" lemmata="the opposite effect" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+</markables>

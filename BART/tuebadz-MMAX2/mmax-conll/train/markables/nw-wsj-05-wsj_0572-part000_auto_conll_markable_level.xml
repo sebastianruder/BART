@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_9" span="word_1..word_8" sentenceid="1" label="person" min_ids="word_1..word_3" type="enamex" lemmata="joseph p. jordan , 52 year old ," isprenominal="false" pos="nnp nnp nnp , cd nns jj ," speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_5..word_7" sentenceid="1" label="date" type="enamex" lemmata="52 year old" isprenominal="false" pos="cd nns jj" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_10" sentenceid="1" label="np" min_ids="word_10..word_10" type="chunk" lemmata="president" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_10..word_21" sentenceid="1" label="np" min_ids="word_10..word_17" type="chunk" lemmata="president , chief executive officer and a director of the bank company" isprenominal="false" pos="nn , jj jj nn cc dt nn in dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_12..word_14" sentenceid="1" label="np" min_ids="word_12..word_14" type="chunk" lemmata="chief executive officer" isprenominal="false" pos="jj jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_16..word_17" sentenceid="1" label="np" min_ids="word_16..word_17" type="chunk" lemmata="a director" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_19..word_21" sentenceid="1" label="np" min_ids="word_19..word_21" type="chunk" lemmata="the bank company" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_23..word_39" sentenceid="2" label="person" min_ids="word_23..word_24" type="enamex" lemmata="mr. jordan , formerly president and chief executive of fishkill national bank in beacon , n.y. ," isprenominal="false" pos="nnp nnp , rb nn cc jj nn in nnp nnp nnp in nnp , nnp ," speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_27" sentenceid="2" label="np" min_ids="word_27..word_27" type="chunk" lemmata="president" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_27..word_38" sentenceid="2" label="np" min_ids="word_27..word_30" type="chunk" lemmata="president and chief executive of fishkill national bank in beacon , n.y." isprenominal="false" pos="nn cc jj nn in nnp nnp nnp in nnp , nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_29..word_30" sentenceid="2" label="np" min_ids="word_29..word_30" type="chunk" lemmata="chief executive" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_32..word_38" sentenceid="2" label="organization" min_ids="word_32..word_34" type="enamex" lemmata="fishkill national bank in beacon , n.y." isprenominal="false" pos="nnp nnp nnp in nnp , nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_36..word_38" sentenceid="2" label="location" min_ids="word_36..word_36" type="enamex" lemmata="beacon , n.y." isprenominal="false" pos="nnp , nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_38" sentenceid="2" label="location" min_ids="word_38..word_38" type="enamex" lemmata="n.y." isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_41..word_51" sentenceid="2" label="person" min_ids="word_41..word_42" type="enamex" lemmata="donald broderick , who die at 52 in an automobile accident" isprenominal="false" pos="nnp nnp , wp vbd in cd in dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_47" sentenceid="2" label="percent" min_ids="word_47..word_47" type="enamex" lemmata="52" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_49..word_51" sentenceid="2" label="np" min_ids="word_49..word_51" type="chunk" lemmata="an automobile accident" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+</markables>

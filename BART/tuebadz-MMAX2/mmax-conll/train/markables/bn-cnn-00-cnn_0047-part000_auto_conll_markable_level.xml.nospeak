@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_15" span="word_1..word_5" sentenceid="1" label="organization" min_ids="word_1..word_5" type="enamex" lemmata="the united nations general assembly" isprenominal="false" pos="dt nnp nnps nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_7..word_12" sentenceid="1" label="np" min_ids="word_7..word_8" type="chunk" lemmata="a resolution criticize israel 's action" isprenominal="false" pos="dt nn vbg nnp pos nns" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_10..word_11" sentenceid="1" label="location" min_ids="word_10..word_10" type="enamex" lemmata="israel 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_10..word_12" sentenceid="1" label="np" min_ids="word_10..word_12" type="chunk" lemmata="israel 's action" isprenominal="false" pos="nnp pos nns" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_14..word_15" sentenceid="1" label="np" min_ids="word_14..word_15" type="chunk" lemmata="the dispute" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_17..word_18" sentenceid="2" label="np" min_ids="word_17..word_18" type="chunk" lemmata="the resolution" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_22..word_33" sentenceid="2" label="np" min_ids="word_22..word_24" type="chunk" lemmata="an immediate end to the violence and a resumption of peace talk" isprenominal="false" pos="dt jj nn in dt nn cc dt nn in nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_26..word_33" sentenceid="2" label="np" min_ids="word_26..word_27" type="chunk" lemmata="the violence and a resumption of peace talk" isprenominal="false" pos="dt nn cc dt nn in nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_29..word_33" sentenceid="2" label="np" min_ids="word_29..word_30" type="chunk" lemmata="a resumption of peace talk" isprenominal="false" pos="dt nn in nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_32..word_33" sentenceid="2" label="np" min_ids="word_32..word_33" type="chunk" lemmata="peace talk" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_35..word_37" sentenceid="3" label="location" min_ids="word_35..word_37" type="enamex" lemmata="the united states" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_41" sentenceid="3" label="percent" type="enamex" lemmata="six" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_41..word_47" sentenceid="3" label="np" min_ids="word_41..word_42" type="chunk" lemmata="six nation that vote against the measure" isprenominal="false" pos="cd nns wdt vbd in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_46..word_47" sentenceid="3" label="np" min_ids="word_46..word_47" type="chunk" lemmata="the measure" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_49..word_51" sentenceid="4" label="percent" type="enamex" lemmata="more than 100" isprenominal="false" pos="jjr in cd" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_49..word_52" sentenceid="4" label="np" min_ids="word_49..word_52" type="chunk" lemmata="more than 100 people" isprenominal="false" pos="jjr in cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_56..word_60" sentenceid="4" label="date" min_ids="word_56..word_58" type="enamex" lemmata="the three week of fighting" isprenominal="false" pos="dt cd nns in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_60" sentenceid="4" label="np" min_ids="word_60..word_60" type="chunk" lemmata="fighting" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_62..word_65" sentenceid="4" label="np" min_ids="word_62..word_63" type="chunk" lemmata="almost all of they" isprenominal="false" pos="rb dt in prp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_65" sentenceid="4" label="np" min_ids="word_65..word_65" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_66" sentenceid="4" label="location" min_ids="word_66..word_66" type="enamex" lemmata="palestinians" isprenominal="false" pos="nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_66..word_70" sentenceid="4" label="location" min_ids="word_66..word_70" type="enamex" lemmata="palestinians or arab - israelis" isprenominal="false" pos="nnps cc nnps hyph nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_68..word_70" sentenceid="4" label="np" min_ids="word_68..word_70" type="chunk" lemmata="arab - israelis" isprenominal="false" pos="nnps hyph nnps" speaker="-" mmax_level="markable" />
+</markables>

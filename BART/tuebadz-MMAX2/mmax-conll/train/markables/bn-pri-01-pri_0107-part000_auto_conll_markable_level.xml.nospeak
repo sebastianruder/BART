@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_25" span="word_3..word_7" sentenceid="1" label="organization" min_ids="word_3..word_4" type="enamex" lemmata="bbc news for the world" isprenominal="false" pos="nnp nnp in dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_6..word_7" sentenceid="1" label="organization" min_ids="word_6..word_7" type="enamex" lemmata="the world" isprenominal="false" pos="dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_9..word_11" sentenceid="2" label="np" min_ids="word_9..word_11" type="chunk" lemmata="tentative peace talk" isprenominal="false" pos="jj nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_15" sentenceid="2" label="location" type="enamex" lemmata="israelis" isprenominal="false" pos="nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_15..word_17" sentenceid="2" label="location" min_ids="word_15..word_17" type="enamex" lemmata="israelis and palestinians" isprenominal="false" pos="nnps cc nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_19" sentenceid="3" label="np" min_ids="word_19..word_19" type="chunk" lemmata="negotiations" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_22" sentenceid="3" label="date" min_ids="word_22..word_22" type="enamex" lemmata="yesterday" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_24..word_31" sentenceid="3" label="np" min_ids="word_24..word_25" type="chunk" lemmata="the killing of a jewish settler in gaza" isprenominal="false" pos="dt nn in dt jj nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_27..word_29" sentenceid="3" label="np" min_ids="word_27..word_29" type="chunk" lemmata="a jewish settler" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_28" sentenceid="3" label="location" type="enamex" lemmata="jewish" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_31" sentenceid="3" label="location" min_ids="word_31..word_31" type="enamex" lemmata="gaza" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_33..word_34" sentenceid="4" label="person" min_ids="word_33..word_34" type="enamex" lemmata="hillary anderson" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_37" sentenceid="4" label="location" min_ids="word_37..word_37" type="enamex" lemmata="jerusalem" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_39..word_40" sentenceid="5" label="np" min_ids="word_39..word_40" type="chunk" lemmata="peace talk" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_44" sentenceid="5" label="np" min_ids="word_44..word_44" type="chunk" lemmata="track" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_46..word_57" sentenceid="5" label="np" min_ids="word_46..word_48" type="chunk" lemmata="a tense period follow the killing of a jewish settler in gaza" isprenominal="false" pos="dt jj nn vbg dt nn in dt jj nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_50..word_57" sentenceid="5" label="np" min_ids="word_50..word_51" type="chunk" lemmata="the killing of a jewish settler in gaza" isprenominal="false" pos="dt nn in dt jj nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_53..word_55" sentenceid="5" label="np" min_ids="word_53..word_55" type="chunk" lemmata="a jewish settler" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_34" span="word_54" sentenceid="5" label="location" type="enamex" lemmata="jewish" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_35" span="word_57" sentenceid="5" label="location" min_ids="word_57..word_57" type="enamex" lemmata="gaza" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_36" span="word_59" sentenceid="5" label="date" min_ids="word_59..word_59" type="enamex" lemmata="sunday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_61..word_66" sentenceid="6" label="np" min_ids="word_61..word_63" type="chunk" lemmata="a top team of political negotiator" isprenominal="false" pos="dt jj nn in jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_65..word_66" sentenceid="6" label="np" min_ids="word_65..word_66" type="chunk" lemmata="political negotiator" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_37" span="word_70" sentenceid="7" label="location" type="enamex" lemmata="palestinian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_70..word_71" sentenceid="7" label="np" min_ids="word_70..word_71" type="chunk" lemmata="palestinian official" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_73..word_75" sentenceid="7" label="np" min_ids="word_73..word_75" type="chunk" lemmata="no real progress" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_79..word_80" sentenceid="8" label="np" min_ids="word_79..word_80" type="chunk" lemmata="the negotiator" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_88" sentenceid="8" label="np" min_ids="word_88..word_88" type="chunk" lemmata="ground" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_38" span="word_90" sentenceid="9" label="location" min_ids="word_90..word_90" type="enamex" lemmata="gaza" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_95..word_100" sentenceid="9" label="np" min_ids="word_95..word_96" type="chunk" lemmata="the killing of the jewish settler" isprenominal="false" pos="dt nn in dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_98..word_100" sentenceid="9" label="np" min_ids="word_98..word_100" type="chunk" lemmata="the jewish settler" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_39" span="word_99" sentenceid="9" label="location" type="enamex" lemmata="jewish" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_103..word_111" sentenceid="9" label="np" min_ids="word_103..word_105" type="chunk" lemmata="the limited success of last week 's peace talk" isprenominal="false" pos="dt jj nns in jj nn pos nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_40" span="word_107..word_109" sentenceid="9" label="date" min_ids="word_107..word_108" type="enamex" lemmata="last week 's" isprenominal="false" pos="jj nn pos" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_107..word_111" sentenceid="9" label="np" min_ids="word_107..word_111" type="chunk" lemmata="last week 's peace talk" isprenominal="false" pos="jj nn pos nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_114..word_115" sentenceid="10" label="np" min_ids="word_114..word_115" type="chunk" lemmata="security co-operation" isprenominal="false" pos="nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_121..word_122" sentenceid="10" label="np" min_ids="word_121..word_122" type="chunk" lemmata="the talk" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_41" span="word_127..word_128" sentenceid="11" label="location" min_ids="word_128..word_128" type="enamex" lemmata="the palestinians" isprenominal="false" pos="dt nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_133" sentenceid="11" label="np" min_ids="word_133..word_133" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_135..word_146" sentenceid="11" label="np" min_ids="word_135..word_140" type="chunk" lemmata="the heavy - handed israeli response to the killing of a settler" isprenominal="false" pos="dt jj hyph jj jj nn in dt nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_42" span="word_139" sentenceid="11" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_142..word_146" sentenceid="11" label="np" min_ids="word_142..word_143" type="chunk" lemmata="the killing of a settler" isprenominal="false" pos="dt nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_145..word_146" sentenceid="11" label="np" min_ids="word_145..word_146" type="chunk" lemmata="a settler" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_43" span="word_148..word_149" sentenceid="12" label="person" min_ids="word_148..word_149" type="enamex" lemmata="hillary anderson" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_44" span="word_151..word_152" sentenceid="12" label="organization" min_ids="word_151..word_152" type="enamex" lemmata="bbc news" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_45" span="word_154" sentenceid="12" label="location" min_ids="word_154..word_154" type="enamex" lemmata="jerusalem" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+</markables>

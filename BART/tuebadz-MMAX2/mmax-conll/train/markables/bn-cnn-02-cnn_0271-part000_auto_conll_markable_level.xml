@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_8" span="word_1..word_5" sentenceid="1" label="person" min_ids="word_1..word_2" type="enamex" lemmata="walt rodgers , 3rd cavalry" isprenominal="false" pos="nnp nnp , nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_4..word_5" sentenceid="1" label="organization" min_ids="word_4..word_5" type="enamex" lemmata="3rd cavalry" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_7" sentenceid="1" label="location" type="enamex" lemmata="iraqi" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_7..word_8" sentenceid="1" label="np" min_ids="word_7..word_8" type="chunk" lemmata="iraqi missile" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_10..word_30" sentenceid="1" label="np" min_ids="word_10..word_11" type="chunk" lemmata="operation center for 2nd brigade 3rd infantry zrigs south baghdad , at least four dead , two soldier and two journalist" isprenominal="false" pos="nn nn in jj nnp nnp nnp nnp nnp nnp , in jjs cd jj , cd nns cc cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_13..word_14" sentenceid="1" label="organization" type="enamex" lemmata="2nd brigade" isprenominal="false" pos="jj nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_13..word_30" sentenceid="1" label="organization" min_ids="word_13..word_16" type="enamex" lemmata="2nd brigade 3rd infantry zrigs south baghdad , at least four dead , two soldier and two journalist" isprenominal="false" pos="jj nnp nnp nnp nnp nnp nnp , in jjs cd jj , cd nns cc cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_17..word_19" sentenceid="1" label="location" min_ids="word_17..word_19" type="enamex" lemmata="zrigs south baghdad" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_21..word_23" sentenceid="1" label="percent" type="enamex" lemmata="at least four" isprenominal="false" pos="in jjs cd" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_21..word_24" sentenceid="1" label="np" min_ids="word_21..word_24" type="chunk" lemmata="at least four dead" isprenominal="false" pos="in jjs cd jj" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_26" sentenceid="1" label="percent" type="enamex" lemmata="two" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_26..word_27" sentenceid="1" label="np" min_ids="word_26..word_27" type="chunk" lemmata="two soldier" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_29" sentenceid="1" label="percent" type="enamex" lemmata="two" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_29..word_30" sentenceid="1" label="np" min_ids="word_29..word_30" type="chunk" lemmata="two journalist" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_34..word_36" sentenceid="2" label="percent" min_ids="word_34..word_36" type="enamex" lemmata="at least 15" isprenominal="false" pos="rb rbs cd" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_40..word_42" sentenceid="2" label="np" min_ids="word_40..word_40" type="chunk" lemmata="some of they" isprenominal="false" pos="dt in prp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_42" sentenceid="2" label="np" min_ids="word_42..word_42" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_48" sentenceid="3" label="person" min_ids="word_48..word_48" type="enamex" lemmata="walt" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_51..word_62" sentenceid="3" label="time" min_ids="word_51..word_53" type="enamex" lemmata="a couple minute to get more information on what be happen there" isprenominal="false" pos="dt nn nns to vb jjr nn in wp vbz vbg rb" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_56..word_57" sentenceid="3" label="np" min_ids="word_56..word_57" type="chunk" lemmata="more information" isprenominal="false" pos="jjr nn" speaker="-" mmax_level="markable" />
+</markables>

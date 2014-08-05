@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_8" tag="(S1 (FRAG (NP (NNP Xinhua) (NNP News) (NNP Agency)) (, ,) (NP (NNP Beijing)) (, ,) (NP (NNP April) (NN 23rd))))" mmax_level="parse" />
+<markable id="markable_10002" span="word_9..word_30" tag="(S1 (S (NP (NP (NNP China) (POS 's)) (NML (NNP Foreign) (NNP Ministry)) (NN spokesperson)) (VP (VBD expressed) (NP (NP (NNS condolences)) (PP (IN over) (NP (NP (DT the) (NN death)) (PP (IN of) (NP (NML (JJ former) (NNP US) (NN president)) (NNP Nixon)))))) (PP (IN on) (NP (NP (DT the) (NN night)) (PP (IN of) (NP (DT the) (NN 22nd)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_31..word_67" tag="(S1 (S (PP (IN In) (NP (NP (NN response)) (PP (IN to) (NP (NP (NNS queries)) (PP (IN from) (NP (NNS reporters))))))) (, ,) (NP (DT this) (NN spokesperson)) (VP (VBD said) (, ,) (S (PP (IN during) (NP (NP (DT the) (NN period)) (SBAR (WHADVP (WRB when)) (S (NP (JJ former) (NML (NNP US) (NN president)) (NNP Mr.) (NNP Nixon)) (VP (VBD was) (ADJP (JJ ill))))))) (, ,) (NP (JJ Chinese) (NNS leaders)) (VP (VBP have) (VP (VBD relayed) (NP (NN consolation)) (PP (IN through) (NP (NP (DT the) (JJ Chinese) (NN ambassador)) (VP (VBN stationed) (PP (IN in) (NP (DT the) (NNP US)))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_68..word_76" tag="(S1 (S (NP (PRP We)) (VP (VBP express) (NP (PRP$ our) (JJS deepest) (NNS condolences)) (PP (IN over) (NP (PRP$ his) (NN death)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_77..word_88" tag="(S1 (S (NP (NP (JJ Key) (JJ national) (NNS leaders)) (PP (IN of) (NP (NNP China)))) (VP (VBP have) (ADVP (RB already)) (VP (VBN sent) (NP (NP (NN telegrams)) (PP (IN of) (NP (NNS condolences)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10006" span="word_89..word_91" tag="(S1 (NP (-LRB- -LRB-) (NN End) (-RRB- -RRB-)))" mmax_level="parse" />
+</markables>

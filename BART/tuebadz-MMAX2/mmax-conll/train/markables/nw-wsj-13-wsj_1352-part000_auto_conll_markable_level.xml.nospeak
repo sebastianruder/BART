@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_13" span="word_1..word_5" sentenceid="1" label="organization" min_ids="word_1..word_2" type="enamex" lemmata="ldi corp. , cleveland ," isprenominal="false" pos="nnp nnp , nnp ," speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_4" sentenceid="1" label="location" min_ids="word_4..word_4" type="enamex" lemmata="cleveland" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_7" sentenceid="1" label="np" min_ids="word_7..word_7" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_10..word_21" sentenceid="1" label="money" min_ids="word_10..word_12" type="enamex" lemmata="$ 50 million in commercial paper back by lease - rental receivable" isprenominal="false" pos="$ cd cd in jj nn vbn in nn hyph nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_14..word_21" sentenceid="1" label="np" min_ids="word_14..word_15" type="chunk" lemmata="commercial paper back by lease - rental receivable" isprenominal="false" pos="jj nn vbn in nn hyph nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_18..word_21" sentenceid="1" label="np" min_ids="word_18..word_21" type="chunk" lemmata="lease - rental receivable" isprenominal="false" pos="nn hyph nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_23..word_24" sentenceid="2" label="np" min_ids="word_23..word_24" type="chunk" lemmata="the program" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_26..word_41" sentenceid="2" label="np" min_ids="word_26..word_26" type="chunk" lemmata="fund raise from the sale of the commercial paper with small to medium - sized lease" isprenominal="false" pos="nns vbn in dt nn in dt jj nn in jj to jj hyph jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_29..word_41" sentenceid="2" label="np" min_ids="word_29..word_30" type="chunk" lemmata="the sale of the commercial paper with small to medium - sized lease" isprenominal="false" pos="dt nn in dt jj nn in jj to jj hyph jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_32..word_41" sentenceid="2" label="np" min_ids="word_32..word_34" type="chunk" lemmata="the commercial paper with small to medium - sized lease" isprenominal="false" pos="dt jj nn in jj to jj hyph jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_36..word_41" sentenceid="2" label="np" min_ids="word_36..word_41" type="chunk" lemmata="small to medium - sized lease" isprenominal="false" pos="jj to jj hyph jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_43" sentenceid="3" label="organization" min_ids="word_43..word_43" type="enamex" lemmata="ldi" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_45..word_46" sentenceid="3" label="np" min_ids="word_45..word_46" type="chunk" lemmata="the paper" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_48..word_49" sentenceid="3" label="np" min_ids="word_48..word_49" type="chunk" lemmata="non-recourse financing" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_54" sentenceid="3" label="np" min_ids="word_54..word_54" type="chunk" lemmata="investor" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_59..word_61" sentenceid="3" label="np" min_ids="word_59..word_61" type="chunk" lemmata="the lease receivable" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_67..word_68" sentenceid="3" label="organization" min_ids="word_67..word_68" type="enamex" lemmata="ldi corp" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_70" sentenceid="4" label="organization" min_ids="word_70..word_70" type="enamex" lemmata="ldi" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_74..word_84" sentenceid="4" label="np" min_ids="word_74..word_84" type="chunk" lemmata="datum - processing , telecommunications and other high - tech equipment" isprenominal="false" pos="nn hyph nn , nns cc jj jj hyph nn nn" speaker="-" mmax_level="markable" />
+</markables>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_11" tag="(S1 (S (NP (PRP It)) (VP (VBZ 's) (NP (NP (NNP Election) (NNP Day)) (PP (IN in) (NP (NP (DT the) (JJ Yugoslav) (NN republic)) (PP (IN of) (NP (NNP Serbia))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_12..word_18" tag="(S1 (S (NP (NNS Voters)) (VP (VBP are) (VP (VBG choosing) (NP (DT a) (JJ new) (NN parliament)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_19..word_37" tag="(S1 (S (NP (NNS Polls)) (VP (VBP show) (SBAR (S (NP (NP (NP (NNP President) (NNP Vojislav) (NNP Kostunica)) (POS 's)) (NN government)) (VP (MD could) (VP (VB win) (NP (NP (DT the) (NN majority)) (SBAR (S (NP (PRP it)) (VP (VBZ needs) (S (VP (TO to) (VP (VB begin) (S (VP (VBG introducing) (NP (PRP$ its) (NNS reforms)))))))))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_38..word_48" tag="(S1 (S (NP (ADVP (RBR Earlier)) (NN today)) (, ,) (NP (NML (JJ former) (NNP President)) (NNP Slobodan) (NNP Milosevic)) (VP (VBD cast) (NP (PRP$ his) (NN ballot))) (. .)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_49..word_65" tag="(S1 (S (SBAR (IN If) (S (NP (PRP$ his) (NN party)) (VP (VBZ loses) (SBAR (IN as) (S (VP (VBD predicted))))))) (, ,) (NP (NNP Milosevic)) (VP (MD could) (VP (VB be) (ADJP (JJ vulnerable) (PP (IN to) (NP (NNP U.N.) (NML (NN war) (NNS crimes)) (NN prosecution)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10006" span="word_66..word_72" tag="(S1 (S (NP (JJ Preliminary) (NNS results)) (VP (VBP are) (VP (VBN expected) (NP (ADVP (RB later)) (NN today)))) (. .)))" mmax_level="parse" />
+</markables>

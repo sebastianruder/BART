@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1" sentenceid="1" label="np" min_ids="word_1..word_1" type="chunk" lemmata="researchers" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_3..word_8" sentenceid="1" label="np" min_ids="word_3..word_3" type="chunk" lemmata="child under a age of 5" isprenominal="false" pos="nns in dt nn in cd" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_5..word_8" sentenceid="1" label="date" min_ids="word_6..word_8" type="enamex" lemmata="a age of 5" isprenominal="false" pos="dt nn in cd" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_8" sentenceid="1" label="np" min_ids="word_8..word_8" type="chunk" lemmata="5" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_10..word_12" sentenceid="2" label="percent" min_ids="word_10..word_10" type="enamex" lemmata="half of they" isprenominal="false" pos="nn in prp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_12" sentenceid="2" label="np" min_ids="word_12..word_12" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_14..word_15" sentenceid="2" label="np" min_ids="word_14..word_15" type="chunk" lemmata="the flu" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_18..word_19" sentenceid="3" label="np" min_ids="word_18..word_19" type="chunk" lemmata="unvaccinated kid" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_21" sentenceid="3" label="np" min_ids="word_21..word_21" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_25..word_27" sentenceid="3" label="np" min_ids="word_25..word_27" type="chunk" lemmata="brother and sister" isprenominal="false" pos="nns cc nns" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_29..word_31" sentenceid="3" label="np" min_ids="word_29..word_31" type="chunk" lemmata="a vaccinated child" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_34..word_35" sentenceid="3" label="np" min_ids="word_34..word_35" type="chunk" lemmata="the risk" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_37..word_38" sentenceid="3" label="percent" min_ids="word_37..word_38" type="enamex" lemmata="80 %" isprenominal="false" pos="cd nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_40..word_41" sentenceid="4" label="np" min_ids="word_40..word_41" type="chunk" lemmata="flu shot" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_43..word_50" sentenceid="4" label="np" min_ids="word_43..word_44" type="chunk" lemmata="the need for antibiotic and health care cost" isprenominal="false" pos="dt nn in nns cc nn nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_46" sentenceid="4" label="np" min_ids="word_46..word_46" type="chunk" lemmata="antibiotic" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_46..word_50" sentenceid="4" label="np" min_ids="word_46..word_50" type="chunk" lemmata="antibiotic and health care cost" isprenominal="false" pos="nns cc nn nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_48..word_50" sentenceid="4" label="np" min_ids="word_48..word_50" type="chunk" lemmata="health care cost" isprenominal="false" pos="nn nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_57..word_63" sentenceid="5" label="object" min_ids="word_58..word_63" type="enamex" lemmata="the journal of the american medical association" isprenominal="false" pos="dt nnp in dt nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_60..word_63" sentenceid="5" label="np" min_ids="word_60..word_63" type="chunk" lemmata="the american medical association" isprenominal="false" pos="dt nnp nnp nnp" speaker="-" mmax_level="markable" />
+</markables>

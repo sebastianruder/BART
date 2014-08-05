@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_3" tag="(S1 (INTJ (JJ Good) (NN evening) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_4..word_7" tag="(S1 (FRAG (INTJ (UH Welcome)) (, ,) (NP (NN everyone)) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_8..word_13" tag="(S1 (S (NP (NNP Mike) (NNP Galanos)) (VP (VBZ is) (ADVP (RB off)) (NP (NN tonight))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_14..word_29" tag="(S1 (S (NP (NP (PRP$ Our) (JJ top) (NN story)) (: --) (NP (NNP Eric) (NNP Robert) (NNP Rudolph))) (VP (VBZ has) (ADVP (RB officially)) (VP (VBD said) (SBAR (S (NP (PRP he)) (VP (VBD did) (RB n't) (VP (VB do) (NP (PRP it)))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_30..word_43" tag="(S1 (S (NP (PRP He)) (VP (VBD pleaded) (S (ADJP (RB not) (JJ guilty) (PP (IN to) (S (VP (VBG bombing) (NP (NP (DT a) (NNP Birmingham) (NNS women) (POS 's)) (NN clinic)) (PP (IN in) (NP (CD 1998))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10006" span="word_44..word_55" tag="(S1 (S (NP (DT The) (VBN suspected) (JJ serial) (NN bomber)) (VP (VBD appeared) (PP (IN in) (NP (DT a) (JJ federal) (NN courthouse))) (NP (NNP Tuesday) (NN afternoon))) (. .)))" mmax_level="parse" />
+<markable id="markable_10007" span="word_56..word_66" tag="(S1 (S (NP (PRP He)) (VP (VBZ is) (ADVP (RB also)) (VP (VBN suspected) (PP (IN in) (NP (CD three) (NML (NNP Atlanta) (HYPH -) (NN area)) (NNS bombings))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10008" span="word_67..word_83" tag="(S1 (S (NP (NML (NNP North) (NNP Carolina)) (NNS authorities)) (VP (VBP say) (SBAR (S (NP (NNP Rudolph)) (VP (VBD opened) (PRT (RP up)) (PP (IN to) (NP (PRP them))) (PP (IN about) (NP (NP (PRP$ his) (CD five) (NNS years)) (PP (IN on) (NP (DT the) (NN run))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10009" span="word_84..word_108" tag="(S1 (S (NP (PRP He)) (VP (VBZ says) (SBAR (S (NP (NP (PRP he)) (NP (NNP hunted) (JJ wild) (NNS animals))) (, ,) (VP (VP (VBD searched) (NP (DT the) (NN trash)) (PP (IN for) (NP (NN food)))) (, ,) (CC and) (VP (VBD covered) (NP (PRP himself)) (PP (IN with) (NP (NNS leaves))) (S (VP (TO to) (VP (VB make) (NP (PRP it)) (PP (IN through) (NP (DT the) (NNS winters))))))))))) (. .)))" mmax_level="parse" />
+</markables>

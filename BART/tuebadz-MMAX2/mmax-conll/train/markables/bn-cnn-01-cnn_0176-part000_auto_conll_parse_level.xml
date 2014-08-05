@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_8" tag="(S1 (S (NP (DT The) (NNP Gaza) (NNP Strip)) (VP (VBZ has) (VP (VBN been) (VP (VBN closed) (PRT (RP off))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_9..word_29" tag="(S1 (S (NP (DT The) (JJ Israeli) (NNP Army)) (VP (VP (VBD sealed) (NP (DT the) (NN area))) (CC and) (VP (VBD shut) (PRT (RP down)) (NP (DT the) (JJ Palestinian) (NN airport)) (SBAR (IN after) (S (NP (DT a) (JJ Jewish) (NN settler)) (VP (VBD was) (VP (VBN found) (S (VP (VBN shot) (S (ADJP (JJ dead))))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_30..word_38" tag="(S1 (S (NP (NNP Israel)) (VP (VBZ is) (VP (VBG blaming) (NP (NP (DT the) (NNP Islamic) (JJ militant) (NN group)) (NP (NNP Hamas))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_39..word_54" tag="(S1 (S (NP (NML (JJ Israeli) (NNP Prime) (NNP Minister)) (NNP Ehud) (NNP Barak)) (VP (VBZ says) (SBAR (S (NP (DT the) (NN killing)) (VP (VBZ is) (NP (NP (DT a) (NN blow)) (PP (IN to) (NP (DT the) (NN peace) (NN process)))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_55..word_75" tag="(S1 (S (NP (DT A) (JJ senior) (JJ Palestinian) (NN negotiator)) (VP (VBZ says) (SBAR (S (NP (NNP Israel)) (VP (VP (VBD canceled) (NP (NP (NN peace) (NNS talks)) (VP (VBN scheduled) (PP (IN for) (NP (DT this) (NN week)))))) (, ,) (CC but) (VP (VBD did) (RB not) (VP (VB give) (NP (DT a) (NN reason)))))))) (. .)))" mmax_level="parse" />
+</markables>

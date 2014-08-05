@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_4" span="word_1" sentenceid="1" label="location" type="enamex" lemmata="spanish" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_1..word_6" sentenceid="1" label="person" min_ids="word_1..word_6" type="enamex" lemmata="spanish prime minister jose maria aznar" isprenominal="false" pos="jj nnp nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_11..word_17" sentenceid="1" label="np" min_ids="word_11..word_13" type="chunk" lemmata="the latest violence in the middle east" isprenominal="false" pos="dt jjs nn in dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_15..word_17" sentenceid="1" label="location" min_ids="word_15..word_17" type="enamex" lemmata="the middle east" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_19" sentenceid="2" label="np" min_ids="word_19..word_19" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_22" sentenceid="2" label="np" min_ids="word_22..word_22" type="chunk" lemmata="telephone" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_23" sentenceid="2" label="date" min_ids="word_23..word_23" type="enamex" lemmata="sunday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_25" sentenceid="2" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_25..word_29" sentenceid="2" label="person" min_ids="word_25..word_29" type="enamex" lemmata="israeli prime minister ehud barak" isprenominal="false" pos="jj nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_25..word_34" sentenceid="2" label="person" min_ids="word_25..word_34" type="enamex" lemmata="israeli prime minister ehud barak and palestinian leader yasser arafat" isprenominal="false" pos="jj nnp nnp nnp nnp cc jj nn nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_31" sentenceid="2" label="location" type="enamex" lemmata="palestinian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_31..word_34" sentenceid="2" label="np" min_ids="word_31..word_34" type="chunk" lemmata="palestinian leader yasser arafat" isprenominal="false" pos="jj nn nnp nnp" speaker="-" mmax_level="markable" />
+</markables>

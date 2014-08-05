@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_7" span="word_1..word_13" sentenceid="1" label="person" min_ids="word_1..word_3" type="enamex" lemmata="robert l. wood , 37 - year - old chief financial officer ," isprenominal="false" pos="nnp nnp nnp , cd hyph nn hyph jj jj jj nn ," speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_5..word_9" sentenceid="1" label="date" type="enamex" lemmata="37 - year - old" isprenominal="false" pos="cd hyph nn hyph jj" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_5..word_12" sentenceid="1" label="np" min_ids="word_5..word_12" type="chunk" lemmata="37 - year - old chief financial officer" isprenominal="false" pos="cd hyph nn hyph jj jj jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_16..word_25" sentenceid="1" label="np" min_ids="word_16..word_16" type="chunk" lemmata="chairman and chief executive officer of this independent power producer" isprenominal="false" pos="nn cc jj jj nn in dt jj nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_18..word_20" sentenceid="1" label="np" min_ids="word_18..word_20" type="chunk" lemmata="chief executive officer" isprenominal="false" pos="jj jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_22..word_25" sentenceid="1" label="np" min_ids="word_22..word_25" type="chunk" lemmata="this independent power producer" isprenominal="false" pos="dt jj nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_28..word_32" sentenceid="1" label="person" min_ids="word_28..word_30" type="enamex" lemmata="raymond l. hixson , 63" isprenominal="false" pos="nnp nnp nnp , cd" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_32" sentenceid="1" label="np" min_ids="word_32..word_32" type="chunk" lemmata="63" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_34..word_45" sentenceid="2" label="person" min_ids="word_34..word_35" type="enamex" lemmata="mr. hixson , who resign effective jan. 1 for health reason ," isprenominal="false" pos="nnp nnp , wp vbd jj nnp cd in nn nns ," speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_40..word_41" sentenceid="2" label="date" min_ids="word_40..word_41" type="enamex" lemmata="jan. 1" isprenominal="false" pos="nnp cd" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_43..word_44" sentenceid="2" label="np" min_ids="word_43..word_44" type="chunk" lemmata="health reason" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_47..word_48" sentenceid="2" label="np" min_ids="word_47..word_48" type="chunk" lemmata="a director" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+</markables>

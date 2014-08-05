@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_2..word_6" sentenceid="1" label="np" min_ids="word_2..word_3" type="chunk" lemmata="a twist of the wrist" isprenominal="false" pos="dt nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_5..word_6" sentenceid="1" label="np" min_ids="word_5..word_6" type="chunk" lemmata="the wrist" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_7..word_23" sentenceid="1" label="np" min_ids="word_7..word_7" type="chunk" lemmata="boys with top , and frisbee tosser , and p.r. type with bee in their bonnet ," isprenominal="false" pos="nnps in nns , cc nnp nns , cc nnp nns in nns in prp$ nn ," speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_9" sentenceid="1" label="np" min_ids="word_9..word_9" type="chunk" lemmata="top" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_12" sentenceid="1" label="object" type="enamex" lemmata="frisbee" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_12..word_13" sentenceid="1" label="np" min_ids="word_12..word_13" type="chunk" lemmata="frisbee tosser" isprenominal="false" pos="nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_16..word_22" sentenceid="1" label="np" min_ids="word_16..word_17" type="chunk" lemmata="p.r. type with bee in their bonnet" isprenominal="false" pos="nnp nns in nns in prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_19..word_22" sentenceid="1" label="np" min_ids="word_19..word_19" type="chunk" lemmata="bee in their bonnet" isprenominal="false" pos="nns in prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_21" sentenceid="1" label="np" type="chunk" lemmata="their" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_21..word_22" sentenceid="1" label="np" min_ids="word_21..word_22" type="chunk" lemmata="their bonnet" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_25..word_40" sentenceid="1" label="np" min_ids="word_25..word_26" type="chunk" lemmata="a goal in common , all of they try to put the right spin on it" isprenominal="false" pos="dt nn in jj , dt in prp vbp to vb dt jj nn in prp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_32" sentenceid="1" label="np" min_ids="word_32..word_32" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_36..word_38" sentenceid="1" label="np" min_ids="word_36..word_38" type="chunk" lemmata="the right spin" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_40" sentenceid="1" label="np" min_ids="word_40..word_40" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_42..word_46" sentenceid="2" label="person" min_ids="word_42..word_46" type="enamex" lemmata="-- george o. ludcke ." isprenominal="false" pos=": nnp nnp nnp ." speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_47..word_48" sentenceid="3" label="np" min_ids="word_47..word_48" type="chunk" lemmata="net gain" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_49..word_50" sentenceid="4" label="np" min_ids="word_49..word_50" type="chunk" lemmata="investment letter" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_54" sentenceid="4" label="np" min_ids="word_54..word_54" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_59" sentenceid="4" label="np" min_ids="word_59..word_59" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_62" sentenceid="4" label="np" min_ids="word_62..word_62" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_66" sentenceid="4" label="np" min_ids="word_66..word_66" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_69" sentenceid="4" label="np" min_ids="word_69..word_69" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_71..word_76" sentenceid="4" label="np" min_ids="word_71..word_72" type="chunk" lemmata="no time leave to heed they" isprenominal="false" pos="dt nn vbn to vb prp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_76" sentenceid="4" label="np" min_ids="word_76..word_76" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_78..word_81" sentenceid="5" label="person" min_ids="word_78..word_81" type="enamex" lemmata="-- bern sharfman ." isprenominal="false" pos=": nnp nnp ." speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_82" sentenceid="6" label="np" min_ids="word_82..word_82" type="chunk" lemmata="daffynition" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_83..word_87" sentenceid="7" label="np" min_ids="word_83..word_84" type="chunk" lemmata="tv evangelist : salesparson ." isprenominal="false" pos="nn nn : nn ." speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_86" sentenceid="7" label="np" min_ids="word_86..word_86" type="chunk" lemmata="salesparson" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_88..word_92" sentenceid="8" label="person" min_ids="word_88..word_92" type="enamex" lemmata="-- marguerite whitley may ." isprenominal="false" pos=": nnp nnp nnp ." speaker="-" mmax_level="markable" />
+</markables>

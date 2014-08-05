@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_2..word_15" sentenceid="1" label="np" min_ids="word_2..word_3" type="chunk" lemmata="the development of this disturbing day in the middle east and the arabian peninsula" isprenominal="false" pos="dt nns in dt jj nn in dt nnp nnp cc dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_5..word_15" sentenceid="1" label="np" min_ids="word_5..word_7" type="chunk" lemmata="this disturbing day in the middle east and the arabian peninsula" isprenominal="false" pos="dt jj nn in dt nnp nnp cc dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_9..word_11" sentenceid="1" label="np" min_ids="word_9..word_11" type="chunk" lemmata="the middle east" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_9..word_15" sentenceid="1" label="location" min_ids="word_9..word_15" type="enamex" lemmata="the middle east and the arabian peninsula" isprenominal="false" pos="dt nnp nnp cc dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_13..word_15" sentenceid="1" label="np" min_ids="word_13..word_15" type="chunk" lemmata="the arabian peninsula" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_17..word_19" sentenceid="1" label="percent" type="enamex" lemmata="at least six" isprenominal="false" pos="in jjs cd" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_17..word_21" sentenceid="1" label="np" min_ids="word_17..word_21" type="chunk" lemmata="at least six american sailor" isprenominal="false" pos="in jjs cd jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_20" sentenceid="1" label="location" type="enamex" lemmata="american" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_25..word_27" sentenceid="1" label="np" min_ids="word_25..word_25" type="chunk" lemmata="11 still missing" isprenominal="false" pos="cd rb jj" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_25..word_29" sentenceid="1" label="percent" min_ids="word_25..word_29" type="enamex" lemmata="11 still missing and 35" isprenominal="false" pos="cd rb jj cc cd" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_33..word_34" sentenceid="1" label="np" min_ids="word_33..word_34" type="chunk" lemmata="intelligence expert" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_37..word_65" sentenceid="1" label="np" min_ids="word_37..word_42" type="chunk" lemmata="a well - plan terrorist bombing that rip a 20 x 40 - foot hole in the navy destroyer `` uss cole '' in the yemeni port of aden" isprenominal="false" pos="dt rb hyph vbn jj nn wdt vbd dt cd sym cd hyph nn nn in dt nnp nn `` nnp nnp '' in dt jj nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_45..word_51" sentenceid="1" label="np" min_ids="word_45..word_51" type="chunk" lemmata="a 20 x 40 - foot hole" isprenominal="false" pos="dt cd sym cd hyph nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_46..word_50" sentenceid="1" label="percent" type="enamex" lemmata="20 x 40 - foot" isprenominal="false" pos="cd sym cd hyph nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_53..word_59" sentenceid="1" label="np" min_ids="word_53..word_55" type="chunk" lemmata="the navy destroyer `` uss cole ''" isprenominal="false" pos="dt nnp nn `` nnp nnp ''" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_54" sentenceid="1" label="organization" type="enamex" lemmata="navy" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_56..word_59" sentenceid="1" label="object" min_ids="word_56..word_59" type="enamex" lemmata="`` uss cole ''" isprenominal="false" pos="`` nnp nnp ''" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_61..word_65" sentenceid="1" label="location" min_ids="word_62..word_65" type="enamex" lemmata="the yemeni port of aden" isprenominal="false" pos="dt jj nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_62" sentenceid="1" label="location" type="enamex" lemmata="yemeni" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_65" sentenceid="1" label="np" min_ids="word_65..word_65" type="chunk" lemmata="aden" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_67..word_68" sentenceid="2" label="np" min_ids="word_67..word_68" type="chunk" lemmata="the ship" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_72" sentenceid="2" label="np" min_ids="word_72..word_72" type="chunk" lemmata="refueling" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_74..word_75" sentenceid="3" label="person" min_ids="word_74..word_75" type="enamex" lemmata="president clinton" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_78" sentenceid="3" label="np" min_ids="word_78..word_78" type="chunk" lemmata="retaliation" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+</markables>

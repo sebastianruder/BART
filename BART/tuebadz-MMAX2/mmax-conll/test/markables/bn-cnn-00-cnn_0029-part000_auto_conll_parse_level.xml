@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_12" tag="(S1 (S (NP (CD Two) (NNPS Americans)) (VP (VBP have) (VP (VBN won) (NP (NP (NP (DT this) (NN year) (POS 's)) (NNP Nobel) (NNP Prize)) (PP (IN for) (NP (NNS economics)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_13..word_42" tag="(S1 (S (NP (NP (DT The) (NNP Royal) (NNP Swedish) (NNP Academy)) (PP (IN of) (NP (NNPS Sciences)))) (VP (VBZ is) (VP (VBG giving) (NP (DT the) (NN award)) (PP (IN to) (NP (NP (NNP James) (NNP J.) (NNP Heckman)) (PP (IN of) (NP (NP (DT the) (NNP University)) (PP (IN of) (NP (NML (NML (NML (NNP Chicago) (CC and) (NNP University)) (PP (IN of) (NP (NP (NNP California)) (PP (IN at) (NP (NNP Berkeley)))))) (NN professor)) (NNP Daniel) (NNP L.) (NNP McFadden))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_43..word_61" tag="(S1 (S (NP (DT The) (NNP Academy)) (VP (VBZ says) (SBAR (S (NP (PRP it)) (VP (VBZ 's) (PP (IN for) (NP (NP (PRP$ their) (NNS theories) (CC and) (NNS methods)) (VP (ADVP (RB widely)) (VBN used) (PP (IN in) (S (VP (VBG analyzing) (NP (NN work) (CC and) (NN living) (NNS habits)))))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_62..word_71" tag="(S1 (S (NP (PRP They)) (VP (MD will) (VP (VB share) (NP (NP (DT the) (NN prize) (NN award)) (PP (IN of) (NP ($ $) (CD 915,000)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_72..word_88" tag="(S1 (S (NP (DT The) (NN economics) (NN prize)) (VP (VBZ is) (NP (NP (DT the) (JJ fourth)) (PP (IN in) (NP (NP (DT a) (NN week)) (PP (IN of) (NP (NP (NNS awards)) (VP (VBN announced) (PP (IN by) (NP (DT the) (NNP Nobel) (NNP Academy)))))))))) (. .)))" mmax_level="parse" />
+</markables>

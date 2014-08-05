@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_19" tag="(S1 (S (NP (NNP OPPENHEIMER) (NNP CAPITAL) (NNP LIMITED) (NNP PARTNERSHIP)) (VP (VBD increased) (NP (DT the) (JJ quarterly) (NN distribution)) (PP (IN to) (NP (NP (CD 40) (NNS cents)) (NP (DT a) (NML (JJ limited) (NN partnership)) (NN unit)))) (PP (IN from) (NP (CD 36.25) (NNS cents)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_20..word_35" tag="(S1 (S (NP (DT The) (NN distribution)) (VP (VBZ represents) (NP (ADJP (JJ available)) (NN cash) (NN flow)) (PP (IN from) (NP (NP (DT the) (NN partnership)) (PP (IN between) (NP (NNP Aug.) (CD 1) (CC and) (NP (NNP Oct.) (CD 31))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_36..word_47" tag="(S1 (S (NP (PRP It)) (VP (VBZ is) (ADJP (JJ payable) (NP (NNP Nov.) (CD 30)) (PP (IN to) (NP (NP (NNS units)) (PP (IN of) (NP (NN record))) (NP (NNP Oct.) (CD 31)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_48..word_70" tag="(S1 (S (NP (DT The) (NN money) (NN manager)) (VP (VBZ is) (VP (VBN controlled) (NP (CD 67.7) (NN %)) (PP (IN by) (NP (NP (PRP$ its) (JJ top) (NNS officers)) (CC and) (NP (NP (JJ top) (NNS officers)) (PP (IN of) (NP (NP (NNP Oppenheimer) (CC &amp;) (NNP Co.)) (, ,) (NP (DT a) (NNS securities) (NN firm))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_71..word_77" tag="(S1 (S (NP (DT Both) (NNS firms)) (VP (VBP are) (PP (IN in) (NP (NNP New) (NNP York)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10006" span="word_78..word_88" tag="(S1 (S (NP (NNP Oppenheimer) (NNP Capital)) (VP (VBZ has) (S (NP (QP (RB about) (CD 7.9) (CD million)) (NML (JJ limited) (NN partnership)) (NNS units)) (ADJP (JJ outstanding)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10007" span="word_89..word_108" tag="(S1 (S (PP (IN In) (NP (NML (NML (NNP New) (NNP York)) (NNP Stock) (NNP Exchange)) (JJ composite) (NN trading))) (NP (NN yesterday)) (, ,) (NP (DT the) (NNS units)) (VP (VBD closed) (PP (IN at) (NP ($ $) (CD 15.125))) (, ,) (ADVP (RB up) (NP (CD 12.5) (NNS cents)))) (. .)))" mmax_level="parse" />
+</markables>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_5" sentenceid="1" label="np" min_ids="word_1..word_3" type="chunk" lemmata="the u.s. ambassador to yemen" isprenominal="false" pos="dt nnp nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_2" sentenceid="1" label="location" type="enamex" lemmata="u.s." isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_5" sentenceid="1" label="location" min_ids="word_5..word_5" type="enamex" lemmata="yemen" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_9..word_13" sentenceid="1" label="np" min_ids="word_9..word_11" type="chunk" lemmata="a plane hijacking in yemen" isprenominal="false" pos="dt nn nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_13" sentenceid="1" label="location" min_ids="word_13..word_13" type="enamex" lemmata="yemen" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_15..word_26" sentenceid="2" label="np" min_ids="word_15..word_16" type="chunk" lemmata="a man claim to be an iraqi supporter of president saddam hussein" isprenominal="false" pos="dt nn vbg to vb dt jj nn in nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_20..word_26" sentenceid="2" label="np" min_ids="word_20..word_22" type="chunk" lemmata="an iraqi supporter of president saddam hussein" isprenominal="false" pos="dt jj nn in nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_21" sentenceid="2" label="location" type="enamex" lemmata="iraqi" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_24..word_26" sentenceid="2" label="person" min_ids="word_24..word_26" type="enamex" lemmata="president saddam hussein" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_28..word_34" sentenceid="2" label="np" min_ids="word_28..word_29" type="chunk" lemmata="the flight with 91 passenger on board" isprenominal="false" pos="dt nn in cd nns in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_31" sentenceid="2" label="percent" type="enamex" lemmata="91" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_31..word_34" sentenceid="2" label="np" min_ids="word_31..word_32" type="chunk" lemmata="91 passenger on board" isprenominal="false" pos="cd nns in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_34" sentenceid="2" label="np" min_ids="word_34..word_34" type="chunk" lemmata="board" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_41" sentenceid="2" label="location" min_ids="word_41..word_41" type="enamex" lemmata="baghdad" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_43..word_44" sentenceid="3" label="np" min_ids="word_43..word_44" type="chunk" lemmata="the pilot" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_48..word_49" sentenceid="3" label="np" min_ids="word_48..word_49" type="chunk" lemmata="the plane" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_51..word_59" sentenceid="3" label="location" min_ids="word_51..word_51" type="enamex" lemmata="djibouti , where most of the passenger get off" isprenominal="false" pos="nnp , wrb jjs in dt nns vbd rp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_54..word_57" sentenceid="3" label="np" min_ids="word_54..word_54" type="chunk" lemmata="most of the passenger" isprenominal="false" pos="jjs in dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_56..word_57" sentenceid="3" label="np" min_ids="word_56..word_57" type="chunk" lemmata="the passenger" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_62..word_63" sentenceid="3" label="np" min_ids="word_62..word_63" type="chunk" lemmata="the ambassador" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_65" sentenceid="4" label="np" min_ids="word_65..word_65" type="chunk" lemmata="witnesses" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_67..word_68" sentenceid="4" label="np" min_ids="word_67..word_68" type="chunk" lemmata="the hijacker" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_73..word_74" sentenceid="4" label="np" min_ids="word_73..word_74" type="chunk" lemmata="the crew" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_78" sentenceid="4" label="np" min_ids="word_78..word_78" type="chunk" lemmata="custody" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+</markables>

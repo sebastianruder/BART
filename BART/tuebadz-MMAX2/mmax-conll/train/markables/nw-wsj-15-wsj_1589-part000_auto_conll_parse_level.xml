@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_9" tag="(S1 (NP (NP (NNP COCA) (HYPH -) (NNP COLA)) (NP (NNP Co)) (. .) (-LRB- -LRB-) (NP (NNP Atlanta)) (-RRB- -RRB-) (: --)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_10..word_25" tag="(S1 (S (NP (NP (NNP Anton) (NNP Amon)) (CC and) (NP (NNP George) (NNP Gourlay))) (VP (VBD were) (VP (VBN elected) (NP (NP (NN vice) (NNS presidents)) (PP (IN of) (NP (DT this) (NML (JJ soft) (HYPH -) (NN drink)) (NN company)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_26..word_58" tag="(S1 (S (S (NP (NP (NNP Mr.) (NNP Amon)) (, ,) (ADJP (NML (CD 46) (NNS years)) (JJ old)) (, ,)) (VP (VBZ is) (NP (NP (NP (DT the) (NN company) (POS 's)) (NN director)) (PP (IN of) (NP (NN quality) (NN assurance)))))) (: ;) (S (ADVP (RBS most) (RB recently)) (, ,) (NP (PRP he)) (VP (VBD served) (PP (IN as) (NP (NP (NN vice) (NN president)) (, ,) (NP (NNS operations)) (, ,) (PP (IN for) (NP (NML (NNP Coca) (HYPH -) (NNP Cola)) (NNS Enterprises))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_59..word_79" tag="(S1 (S (S (NP (NP (NNP Mr.) (NNP Gourlay)) (, ,) (NP (CD 48)) (, ,)) (VP (VBZ is) (NP (NP (NN manager)) (PP (IN for) (NP (JJ corporate) (NN manufacturing) (NNS operations)))))) (: ;) (S (NP (PRP he)) (VP (VBD was) (NP (NP (NN assistant) (NN vice) (NN president)) (PP (IN at) (NP (DT the) (NN company)))))) (. .)))" mmax_level="parse" />
+</markables>

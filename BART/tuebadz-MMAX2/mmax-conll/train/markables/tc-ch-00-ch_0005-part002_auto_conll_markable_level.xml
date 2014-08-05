@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_17" sentenceid="1" label="np" min_ids="word_1..word_4" type="chunk" lemmata="this hai tawanly show that i see in new york when i be there be here now" isprenominal="false" pos="dt nnp nnp nn wdt prp vbd in nnp nnp wrb prp vbd ex vbz rb rb" speaker="B" mmax_level="markable" />
+<markable id="markable_101" span="word_2..word_3" sentenceid="1" label="person" type="enamex" lemmata="hai tawanly" isprenominal="false" pos="nnp nnp" speaker="B" mmax_level="markable" />
+<markable id="markable_1" span="word_6" sentenceid="1" label="np" min_ids="word_6..word_6" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="B" mmax_level="markable" />
+<markable id="markable_102" span="word_9..word_10" sentenceid="1" label="location" min_ids="word_9..word_10" type="enamex" lemmata="new york" isprenominal="false" pos="nnp nnp" speaker="B" mmax_level="markable" />
+<markable id="markable_2" span="word_12" sentenceid="1" label="np" min_ids="word_12..word_12" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="B" mmax_level="markable" />
+<markable id="markable_3" span="word_20..word_21" sentenceid="3" label="np" min_ids="word_20..word_21" type="chunk" lemmata="the %uh" isprenominal="false" pos="dt nn" speaker="A" mmax_level="markable" />
+<markable id="markable_4" span="word_24..word_28" sentenceid="6" label="np" min_ids="word_24..word_26" type="chunk" lemmata="the only stop in europe" isprenominal="false" pos="dt jj nn in nnp" speaker="B" mmax_level="markable" />
+<markable id="markable_103" span="word_28" sentenceid="6" label="location" min_ids="word_28..word_28" type="enamex" lemmata="europe" isprenominal="false" pos="nnp" speaker="B" mmax_level="markable" />
+<markable id="markable_5" span="word_32" sentenceid="7" label="np" min_ids="word_32..word_32" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="A" mmax_level="markable" />
+<markable id="markable_6" span="word_39" sentenceid="7" label="np" min_ids="word_39..word_39" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="A" mmax_level="markable" />
+<markable id="markable_104" span="word_45" sentenceid="9" label="date" min_ids="word_45..word_45" type="enamex" lemmata="november" isprenominal="false" pos="nnp" speaker="B" mmax_level="markable" />
+<markable id="markable_7" span="word_46..word_47" sentenceid="9" label="np" min_ids="word_46..word_47" type="chunk" lemmata="some time" isprenominal="false" pos="dt nn" speaker="B" mmax_level="markable" />
+<markable id="markable_8" span="word_51..word_52" sentenceid="11" label="np" min_ids="word_51..word_52" type="chunk" lemmata="good good" isprenominal="false" pos="jj nn" speaker="A" mmax_level="markable" />
+<markable id="markable_9" span="word_55" sentenceid="11" label="np" min_ids="word_55..word_55" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="A" mmax_level="markable" />
+<markable id="markable_111" span="word_57" sentenceid="11" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="A" mmax_level="markable" />
+<markable id="markable_10" span="word_57..word_58" sentenceid="11" label="np" min_ids="word_57..word_58" type="chunk" lemmata="his work" isprenominal="false" pos="prp$ nn" speaker="A" mmax_level="markable" />
+<markable id="markable_11" span="word_59" sentenceid="12" label="np" min_ids="word_59..word_59" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="A" mmax_level="markable" />
+<markable id="markable_12" span="word_65" sentenceid="13" label="np" min_ids="word_65..word_65" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="B" mmax_level="markable" />
+<markable id="markable_13" span="word_67..word_69" sentenceid="13" label="np" min_ids="word_67..word_69" type="chunk" lemmata="a big show" isprenominal="false" pos="dt jj nn" speaker="B" mmax_level="markable" />
+<markable id="markable_14" span="word_71" sentenceid="15" label="np" min_ids="word_71..word_71" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="A" mmax_level="markable" />
+<markable id="markable_15" span="word_74" sentenceid="16" label="np" min_ids="word_74..word_74" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="A" mmax_level="markable" />
+<markable id="markable_16" span="word_76..word_77" sentenceid="16" label="np" min_ids="word_76..word_77" type="chunk" lemmata="a book" isprenominal="false" pos="dt nn" speaker="A" mmax_level="markable" />
+<markable id="markable_105" span="word_79..word_83" sentenceid="16" label="organization" min_ids="word_80..word_83" type="enamex" lemmata="the museum of modern art" isprenominal="false" pos="dt nnp in jj nn" speaker="A" mmax_level="markable" />
+<markable id="markable_17" span="word_85" sentenceid="17" label="np" min_ids="word_85..word_85" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="A" mmax_level="markable" />
+<markable id="markable_18" span="word_87" sentenceid="17" label="np" min_ids="word_87..word_87" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="A" mmax_level="markable" />
+<markable id="markable_19" span="word_93" sentenceid="20" label="np" min_ids="word_93..word_93" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="A" mmax_level="markable" />
+<markable id="markable_106" span="word_97..word_98" sentenceid="20" label="organization" min_ids="word_98..word_98" type="enamex" lemmata="the whitney" isprenominal="false" pos="dt nnp" speaker="A" mmax_level="markable" />
+<markable id="markable_20" span="word_101" sentenceid="22" label="np" min_ids="word_101..word_101" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="A" mmax_level="markable" />
+<markable id="markable_21" span="word_107" sentenceid="22" label="np" min_ids="word_107..word_107" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="A" mmax_level="markable" />
+<markable id="markable_22" span="word_108" sentenceid="23" label="np" min_ids="word_108..word_108" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="A" mmax_level="markable" />
+<markable id="markable_23" span="word_110" sentenceid="23" label="np" min_ids="word_110..word_110" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="A" mmax_level="markable" />
+<markable id="markable_24" span="word_113..word_116" sentenceid="23" label="np" min_ids="word_113..word_116" type="chunk" lemmata="a measly little book" isprenominal="false" pos="dt rb jj nn" speaker="A" mmax_level="markable" />
+<markable id="markable_25" span="word_118" sentenceid="24" label="np" min_ids="word_118..word_118" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="A" mmax_level="markable" />
+<markable id="markable_26" span="word_121" sentenceid="24" label="np" min_ids="word_121..word_121" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="A" mmax_level="markable" />
+<markable id="markable_27" span="word_125" sentenceid="26" label="np" min_ids="word_125..word_125" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="A" mmax_level="markable" />
+<markable id="markable_28" span="word_128..word_130" sentenceid="26" label="np" min_ids="word_128..word_130" type="chunk" lemmata="a total thrill" isprenominal="false" pos="dt jj nn" speaker="A" mmax_level="markable" />
+<markable id="markable_29" span="word_136" sentenceid="27" label="np" min_ids="word_136..word_136" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="B" mmax_level="markable" />
+<markable id="markable_30" span="word_138" sentenceid="27" label="np" min_ids="word_138..word_138" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="B" mmax_level="markable" />
+<markable id="markable_31" span="word_140..word_141" sentenceid="27" label="np" min_ids="word_140..word_141" type="chunk" lemmata="a book" isprenominal="false" pos="dt nn" speaker="B" mmax_level="markable" />
+<markable id="markable_32" span="word_143" sentenceid="27" label="np" min_ids="word_143..word_143" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="B" mmax_level="markable" />
+<markable id="markable_33" span="word_147..word_152" sentenceid="28" label="np" min_ids="word_147..word_150" type="chunk" lemmata="the little drain book you know" isprenominal="false" pos="dt jj nn nn prp vbp" speaker="A" mmax_level="markable" />
+<markable id="markable_34" span="word_151" sentenceid="28" label="np" min_ids="word_151..word_151" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="A" mmax_level="markable" />
+<markable id="markable_35" span="word_154" sentenceid="30" label="np" min_ids="word_154..word_154" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="A" mmax_level="markable" />
+<markable id="markable_36" span="word_156" sentenceid="30" label="np" min_ids="word_156..word_156" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="A" mmax_level="markable" />
+<markable id="markable_37" span="word_158" sentenceid="31" label="np" min_ids="word_158..word_158" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="A" mmax_level="markable" />
+<markable id="markable_38" span="word_161..word_162" sentenceid="32" label="np" min_ids="word_161..word_162" type="chunk" lemmata="the archive" isprenominal="false" pos="dt nns" speaker="A" mmax_level="markable" />
+<markable id="markable_39" span="word_164..word_165" sentenceid="33" label="np" min_ids="word_164..word_165" type="chunk" lemmata="the archive" isprenominal="false" pos="dt nns" speaker="B" mmax_level="markable" />
+<markable id="markable_40" span="word_170" sentenceid="36" label="np" min_ids="word_170..word_170" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="A" mmax_level="markable" />
+<markable id="markable_41" span="word_176" sentenceid="36" label="np" min_ids="word_176..word_176" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="A" mmax_level="markable" />
+<markable id="markable_42" span="word_179..word_181" sentenceid="36" label="np" min_ids="word_179..word_181" type="chunk" lemmata="other %um archive" isprenominal="false" pos="jj nn nns" speaker="A" mmax_level="markable" />
+<markable id="markable_43" span="word_183" sentenceid="37" label="np" min_ids="word_183..word_183" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="A" mmax_level="markable" />
+<markable id="markable_44" span="word_187" sentenceid="37" label="np" min_ids="word_187..word_187" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="A" mmax_level="markable" />
+<markable id="markable_45" span="word_189..word_191" sentenceid="37" label="np" min_ids="word_189..word_191" type="chunk" lemmata="any good response" isprenominal="false" pos="dt jj nn" speaker="A" mmax_level="markable" />
+<markable id="markable_112" span="word_193" sentenceid="38" label="np" type="chunk" lemmata="your" isprenominal="true" pos="prp$" speaker="B" mmax_level="markable" />
+<markable id="markable_46" span="word_193..word_194" sentenceid="38" label="np" min_ids="word_193..word_194" type="chunk" lemmata="your name" isprenominal="false" pos="prp$ nn" speaker="B" mmax_level="markable" />
+<markable id="markable_107" span="word_198..word_202" sentenceid="38" label="organization" min_ids="word_199..word_202" type="enamex" lemmata="the museum of modern art" isprenominal="false" pos="dt nnp in jj nn" speaker="B" mmax_level="markable" />
+<markable id="markable_47" span="word_203" sentenceid="39" label="np" min_ids="word_203..word_203" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="A" mmax_level="markable" />
+<markable id="markable_48" span="word_211" sentenceid="42" label="np" min_ids="word_211..word_211" type="chunk" lemmata="right" isprenominal="false" pos="jj" speaker="A" mmax_level="markable" />
+<markable id="markable_49" span="word_212" sentenceid="43" label="np" min_ids="word_212..word_212" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="A" mmax_level="markable" />
+<markable id="markable_50" span="word_217" sentenceid="43" label="np" min_ids="word_217..word_217" type="chunk" lemmata="stone" isprenominal="false" pos="nn" speaker="A" mmax_level="markable" />
+<markable id="markable_51" span="word_219..word_220" sentenceid="43" label="np" min_ids="word_219..word_220" type="chunk" lemmata="the outside" isprenominal="false" pos="dt nn" speaker="A" mmax_level="markable" />
+<markable id="markable_52" span="word_227..word_228" sentenceid="44" label="np" min_ids="word_227..word_228" type="chunk" lemmata="the computer" isprenominal="false" pos="dt nn" speaker="B" mmax_level="markable" />
+<markable id="markable_53" span="word_229..word_230" sentenceid="45" label="np" min_ids="word_229..word_230" type="chunk" lemmata="%um poss-" isprenominal="false" pos="nn cd" speaker="A" mmax_level="markable" />
+<markable id="markable_54" span="word_232" sentenceid="47" label="np" min_ids="word_232..word_232" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="A" mmax_level="markable" />
+<markable id="markable_55" span="word_236..word_238" sentenceid="47" label="np" min_ids="word_236..word_238" type="chunk" lemmata="the %um archive" isprenominal="false" pos="dt nn nns" speaker="A" mmax_level="markable" />
+<markable id="markable_56" span="word_239" sentenceid="48" label="np" min_ids="word_239..word_239" type="chunk" lemmata="archives" isprenominal="false" pos="nnps" speaker="B" mmax_level="markable" />
+<markable id="markable_57" span="word_240" sentenceid="49" label="np" min_ids="word_240..word_240" type="chunk" lemmata="computer" isprenominal="false" pos="nn" speaker="B" mmax_level="markable" />
+<markable id="markable_58" span="word_241" sentenceid="50" label="np" min_ids="word_241..word_241" type="chunk" lemmata="computer" isprenominal="false" pos="nn" speaker="A" mmax_level="markable" />
+<markable id="markable_59" span="word_242" sentenceid="51" label="np" min_ids="word_242..word_242" type="chunk" lemmata="right" isprenominal="false" pos="jj" speaker="A" mmax_level="markable" />
+<markable id="markable_60" span="word_243" sentenceid="52" label="np" min_ids="word_243..word_243" type="chunk" lemmata="right" isprenominal="false" pos="jj" speaker="A" mmax_level="markable" />
+<markable id="markable_61" span="word_246" sentenceid="54" label="np" min_ids="word_246..word_246" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="A" mmax_level="markable" />
+<markable id="markable_62" span="word_256..word_261" sentenceid="54" label="np" min_ids="word_256..word_256" type="chunk" lemmata="part of the collection you know" isprenominal="false" pos="nn in dt nn prp vbp" speaker="A" mmax_level="markable" />
+<markable id="markable_63" span="word_258..word_261" sentenceid="54" label="np" min_ids="word_258..word_259" type="chunk" lemmata="the collection you know" isprenominal="false" pos="dt nn prp vbp" speaker="A" mmax_level="markable" />
+<markable id="markable_64" span="word_260" sentenceid="54" label="np" min_ids="word_260..word_260" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="A" mmax_level="markable" />
+<markable id="markable_108" span="word_262" sentenceid="55" label="organization" min_ids="word_262..word_262" type="enamex" lemmata="lilly" isprenominal="false" pos="nnp" speaker="B" mmax_level="markable" />
+<markable id="markable_65" span="word_267" sentenceid="57" label="np" min_ids="word_267..word_267" type="chunk" lemmata="she" isprenominal="false" pos="prp" speaker="A" mmax_level="markable" />
+<markable id="markable_66" span="word_270" sentenceid="58" label="np" min_ids="word_270..word_270" type="chunk" lemmata="she" isprenominal="false" pos="prp" speaker="B" mmax_level="markable" />
+<markable id="markable_113" span="word_274" sentenceid="58" label="np" type="chunk" lemmata="my" isprenominal="true" pos="prp$" speaker="B" mmax_level="markable" />
+<markable id="markable_67" span="word_274..word_275" sentenceid="58" label="np" min_ids="word_274..word_275" type="chunk" lemmata="my chair" isprenominal="false" pos="prp$ nn" speaker="B" mmax_level="markable" />
+<markable id="markable_68" span="word_280" sentenceid="60" label="np" min_ids="word_280..word_280" type="chunk" lemmata="she" isprenominal="false" pos="prp" speaker="B" mmax_level="markable" />
+<markable id="markable_69" span="word_283..word_285" sentenceid="60" label="np" min_ids="word_283..word_285" type="chunk" lemmata="all the time" isprenominal="false" pos="pdt dt nn" speaker="B" mmax_level="markable" />
+<markable id="markable_70" span="word_287" sentenceid="61" label="np" min_ids="word_287..word_287" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="A" mmax_level="markable" />
+<markable id="markable_71" span="word_292" sentenceid="61" label="np" min_ids="word_292..word_292" type="chunk" lemmata="she" isprenominal="false" pos="prp" speaker="A" mmax_level="markable" />
+<markable id="markable_72" span="word_293..word_295" sentenceid="61" label="np" min_ids="word_293..word_295" type="chunk" lemmata="a scratch post" isprenominal="false" pos="dt vbg nn" speaker="A" mmax_level="markable" />
+<markable id="markable_73" span="word_298" sentenceid="62" label="np" min_ids="word_298..word_298" type="chunk" lemmata="she" isprenominal="false" pos="prp" speaker="B" mmax_level="markable" />
+<markable id="markable_74" span="word_300..word_301" sentenceid="62" label="np" min_ids="word_300..word_301" type="chunk" lemmata="these thing" isprenominal="false" pos="dt nns" speaker="B" mmax_level="markable" />
+<markable id="markable_75" span="word_302" sentenceid="63" label="np" min_ids="word_302..word_302" type="chunk" lemmata="she" isprenominal="false" pos="prp" speaker="B" mmax_level="markable" />
+<markable id="markable_76" span="word_307..word_309" sentenceid="63" label="np" min_ids="word_307..word_309" type="chunk" lemmata="the red material" isprenominal="false" pos="dt jj nn" speaker="B" mmax_level="markable" />
+<markable id="markable_77" span="word_311..word_312" sentenceid="63" label="np" min_ids="word_311..word_312" type="chunk" lemmata="the chair" isprenominal="false" pos="dt nns" speaker="B" mmax_level="markable" />
+<markable id="markable_78" span="word_319" sentenceid="65" label="np" min_ids="word_319..word_319" type="chunk" lemmata="she" isprenominal="false" pos="prp" speaker="B" mmax_level="markable" />
+<markable id="markable_79" span="word_321" sentenceid="65" label="np" min_ids="word_321..word_321" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="B" mmax_level="markable" />
+<markable id="markable_80" span="word_323" sentenceid="66" label="np" min_ids="word_323..word_323" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="B" mmax_level="markable" />
+<markable id="markable_81" span="word_325" sentenceid="66" label="np" min_ids="word_325..word_325" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="B" mmax_level="markable" />
+<markable id="markable_82" span="word_329" sentenceid="66" label="np" min_ids="word_329..word_329" type="chunk" lemmata="she" isprenominal="false" pos="prp" speaker="B" mmax_level="markable" />
+<markable id="markable_83" span="word_334" sentenceid="69" label="np" min_ids="word_334..word_334" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="B" mmax_level="markable" />
+<markable id="markable_84" span="word_338" sentenceid="70" label="np" min_ids="word_338..word_338" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="B" mmax_level="markable" />
+<markable id="markable_85" span="word_344" sentenceid="70" label="np" min_ids="word_344..word_344" type="chunk" lemmata="she" isprenominal="false" pos="prp" speaker="B" mmax_level="markable" />
+<markable id="markable_86" span="word_347..word_348" sentenceid="70" label="np" min_ids="word_347..word_348" type="chunk" lemmata="the material" isprenominal="false" pos="dt nn" speaker="B" mmax_level="markable" />
+<markable id="markable_87" span="word_353" sentenceid="72" label="np" min_ids="word_353..word_353" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="B" mmax_level="markable" />
+<markable id="markable_114" span="word_356" sentenceid="72" label="np" type="chunk" lemmata="my" isprenominal="true" pos="prp$" speaker="B" mmax_level="markable" />
+<markable id="markable_88" span="word_356..word_357" sentenceid="72" label="np" min_ids="word_356..word_357" type="chunk" lemmata="my arm" isprenominal="false" pos="prp$ nn" speaker="B" mmax_level="markable" />
+<markable id="markable_89" span="word_362..word_365" sentenceid="73" label="np" min_ids="word_362..word_362" type="chunk" lemmata="she like you know" isprenominal="false" pos="prp in prp vbp" speaker="B" mmax_level="markable" />
+<markable id="markable_90" span="word_364" sentenceid="73" label="np" min_ids="word_364..word_364" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="B" mmax_level="markable" />
+<markable id="markable_115" span="word_368" sentenceid="73" label="np" type="chunk" lemmata="my" isprenominal="true" pos="prp$" speaker="B" mmax_level="markable" />
+<markable id="markable_91" span="word_368..word_369" sentenceid="73" label="np" min_ids="word_368..word_369" type="chunk" lemmata="my arm" isprenominal="false" pos="prp$ nn" speaker="B" mmax_level="markable" />
+<markable id="markable_92" span="word_373" sentenceid="74" label="np" min_ids="word_373..word_373" type="chunk" lemmata="she" isprenominal="false" pos="prp" speaker="B" mmax_level="markable" />
+<markable id="markable_93" span="word_375" sentenceid="74" label="np" min_ids="word_375..word_375" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="B" mmax_level="markable" />
+<markable id="markable_94" span="word_380" sentenceid="74" label="np" min_ids="word_380..word_380" type="chunk" lemmata="she" isprenominal="false" pos="prp" speaker="B" mmax_level="markable" />
+<markable id="markable_95" span="word_384" sentenceid="75" label="np" min_ids="word_384..word_384" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="B" mmax_level="markable" />
+<markable id="markable_96" span="word_390" sentenceid="76" label="np" min_ids="word_390..word_390" type="chunk" lemmata="she" isprenominal="false" pos="prp" speaker="A" mmax_level="markable" />
+<markable id="markable_97" span="word_396" sentenceid="78" label="np" min_ids="word_396..word_396" type="chunk" lemmata="she" isprenominal="false" pos="prp" speaker="A" mmax_level="markable" />
+<markable id="markable_109" span="word_410" sentenceid="80" label="organization" min_ids="word_410..word_410" type="enamex" lemmata="lilly" isprenominal="false" pos="nnp" speaker="A" mmax_level="markable" />
+<markable id="markable_98" span="word_412" sentenceid="81" label="np" min_ids="word_412..word_412" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="A" mmax_level="markable" />
+<markable id="markable_110" span="word_414" sentenceid="81" label="percent" type="enamex" lemmata="two" isprenominal="false" pos="cd" speaker="A" mmax_level="markable" />
+<markable id="markable_99" span="word_414..word_416" sentenceid="81" label="np" min_ids="word_414..word_415" type="chunk" lemmata="two cat here" isprenominal="false" pos="cd nns rb" speaker="A" mmax_level="markable" />
+<markable id="markable_100" span="word_419" sentenceid="82" label="np" min_ids="word_419..word_419" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="A" mmax_level="markable" />
+</markables>

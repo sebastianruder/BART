@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_2..word_10" sentenceid="1" label="np" min_ids="word_2..word_6" type="chunk" lemmata="a new year 's message to the serbian people" isprenominal="false" pos="dt nnp nnp pos nn in dt jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_3..word_5" sentenceid="1" label="date" min_ids="word_3..word_4" type="enamex" lemmata="new year 's" isprenominal="false" pos="nnp nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_8..word_10" sentenceid="1" label="np" min_ids="word_8..word_10" type="chunk" lemmata="the serbian people" isprenominal="false" pos="dt jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_9" sentenceid="1" label="location" type="enamex" lemmata="serbian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_12..word_14" sentenceid="1" label="person" min_ids="word_12..word_14" type="enamex" lemmata="president vojislav kostunica" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_16..word_18" sentenceid="1" label="date" min_ids="word_16..word_18" type="enamex" lemmata="the year 2001" isprenominal="false" pos="dt nn cd" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_21..word_25" sentenceid="1" label="np" min_ids="word_21..word_22" type="chunk" lemmata="a time of domestic healing" isprenominal="false" pos="dt nn in jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_24..word_25" sentenceid="1" label="np" min_ids="word_24..word_25" type="chunk" lemmata="domestic healing" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_27..word_35" sentenceid="1" label="np" min_ids="word_27..word_28" type="chunk" lemmata="the triumph of what he call freedom without violence" isprenominal="false" pos="dt nn in wp prp vbd nn in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_31" sentenceid="1" label="np" min_ids="word_31..word_31" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_33..word_35" sentenceid="1" label="np" min_ids="word_33..word_33" type="chunk" lemmata="freedom without violence" isprenominal="false" pos="nn in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_35" sentenceid="1" label="np" min_ids="word_35..word_35" type="chunk" lemmata="violence" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_37..word_38" sentenceid="2" label="person" min_ids="word_37..word_38" type="enamex" lemmata="mr. kostunica" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_42..word_56" sentenceid="2" label="np" min_ids="word_42..word_44" type="chunk" lemmata="the popular uprising in october that force former president slobodan milosevic to accept electoral defeat" isprenominal="false" pos="dt jj nn in nnp wdt vbd jj nnp nnp nnp to vb jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_46..word_56" sentenceid="2" label="date" min_ids="word_46..word_46" type="enamex" lemmata="october that force former president slobodan milosevic to accept electoral defeat" isprenominal="false" pos="nnp wdt vbd jj nnp nnp nnp to vb jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_49..word_52" sentenceid="2" label="person" min_ids="word_49..word_52" type="enamex" lemmata="former president slobodan milosevic" isprenominal="false" pos="jj nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_55..word_56" sentenceid="2" label="np" min_ids="word_55..word_56" type="chunk" lemmata="electoral defeat" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_58..word_59" sentenceid="3" label="person" min_ids="word_58..word_59" type="enamex" lemmata="mr. kostunica" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_62..word_63" sentenceid="3" label="np" min_ids="word_62..word_63" type="chunk" lemmata="legal way" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_69..word_76" sentenceid="3" label="np" min_ids="word_69..word_70" type="chunk" lemmata="the issue of montenegro 's drive for independence" isprenominal="false" pos="dt nn in nnp pos nn in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_72..word_73" sentenceid="3" label="location" min_ids="word_72..word_72" type="enamex" lemmata="montenegro 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_72..word_76" sentenceid="3" label="np" min_ids="word_72..word_74" type="chunk" lemmata="montenegro 's drive for independence" isprenominal="false" pos="nnp pos nn in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_76" sentenceid="3" label="np" min_ids="word_76..word_76" type="chunk" lemmata="independence" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+</markables>

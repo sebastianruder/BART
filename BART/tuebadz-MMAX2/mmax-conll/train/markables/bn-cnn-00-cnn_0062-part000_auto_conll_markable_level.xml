@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_6" sentenceid="1" label="np" min_ids="word_1..word_3" type="chunk" lemmata="the chicago suburb of arlington heights" isprenominal="false" pos="dt nnp nn in nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_2" sentenceid="1" label="location" type="enamex" lemmata="chicago" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_5..word_6" sentenceid="1" label="location" min_ids="word_5..word_6" type="enamex" lemmata="arlington heights" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_8..word_15" sentenceid="1" label="np" min_ids="word_8..word_10" type="chunk" lemmata="the first stop for george w. bush today" isprenominal="false" pos="dt jj nn in nnp nnp nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_9" sentenceid="1" label="percent" type="enamex" lemmata="first" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_12..word_15" sentenceid="1" label="person" min_ids="word_12..word_14" type="enamex" lemmata="george w. bush today" isprenominal="false" pos="nnp nnp nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_15" sentenceid="1" label="date" min_ids="word_15..word_15" type="enamex" lemmata="today" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_18..word_24" sentenceid="2" label="np" min_ids="word_18..word_18" type="chunk" lemmata="part of his barnstorm for reform tour" isprenominal="false" pos="nn in prp$ nnp cc nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_20" sentenceid="2" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_20..word_24" sentenceid="2" label="np" min_ids="word_20..word_24" type="chunk" lemmata="his barnstorm for reform tour" isprenominal="false" pos="prp$ nnp cc nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_21..word_23" sentenceid="2" label="object" type="enamex" lemmata="barnstorm for reform" isprenominal="false" pos="nnp cc nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_26" sentenceid="2" label="np" min_ids="word_26..word_26" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_30" sentenceid="2" label="location" type="enamex" lemmata="republican" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_30..word_39" sentenceid="2" label="np" min_ids="word_30..word_31" type="chunk" lemmata="republican governor from connecticut , south dakota , and montana" isprenominal="false" pos="jj nns in nnp , nnp nnp , cc nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_33" sentenceid="2" label="location" min_ids="word_33..word_33" type="enamex" lemmata="connecticut" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_33..word_39" sentenceid="2" label="location" min_ids="word_33..word_39" type="enamex" lemmata="connecticut , south dakota , and montana" isprenominal="false" pos="nnp , nnp nnp , cc nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_35..word_36" sentenceid="2" label="location" min_ids="word_35..word_36" type="enamex" lemmata="south dakota" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_39" sentenceid="2" label="np" min_ids="word_39..word_39" type="chunk" lemmata="montana" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_41..word_45" sentenceid="3" label="np" min_ids="word_41..word_42" type="chunk" lemmata="the message for the morning" isprenominal="false" pos="dt nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_44..word_45" sentenceid="3" label="time" min_ids="word_44..word_45" type="enamex" lemmata="the morning" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_47..word_48" sentenceid="3" label="np" min_ids="word_47..word_48" type="chunk" lemmata="education reform" isprenominal="false" pos="nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_50..word_52" sentenceid="4" label="np" min_ids="word_50..word_52" type="chunk" lemmata="the texas governor" isprenominal="false" pos="dt nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_51" sentenceid="4" label="location" type="enamex" lemmata="texas" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_55..word_56" sentenceid="4" label="person" min_ids="word_55..word_55" type="enamex" lemmata="gore 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_55..word_62" sentenceid="4" label="np" min_ids="word_55..word_58" type="chunk" lemmata="gore 's home state of tennessee this afternoon" isprenominal="false" pos="nnp pos nn nn in nnp dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_60" sentenceid="4" label="location" min_ids="word_60..word_60" type="enamex" lemmata="tennessee" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_61..word_62" sentenceid="4" label="time" min_ids="word_61..word_62" type="enamex" lemmata="this afternoon" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_64..word_68" sentenceid="4" label="np" min_ids="word_64..word_64" type="chunk" lemmata="remark at a middle school" isprenominal="false" pos="nns in dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_66..word_68" sentenceid="4" label="np" min_ids="word_66..word_68" type="chunk" lemmata="a middle school" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_70" sentenceid="5" label="time" min_ids="word_70..word_70" type="enamex" lemmata="tonight" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_72" sentenceid="5" label="person" min_ids="word_72..word_72" type="enamex" lemmata="bush" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_77..word_83" sentenceid="5" label="np" min_ids="word_77..word_79" type="chunk" lemmata="a victory rally in jacksonville , florida" isprenominal="false" pos="dt nn nn in nnp , nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_81..word_83" sentenceid="5" label="location" min_ids="word_81..word_81" type="enamex" lemmata="jacksonville , florida" isprenominal="false" pos="nnp , nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_83" sentenceid="5" label="location" min_ids="word_83..word_83" type="enamex" lemmata="florida" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+</markables>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_5" sentenceid="1" label="np" min_ids="word_1..word_5" type="chunk" lemmata="a united nations special envoy" isprenominal="false" pos="dt nnp nnp jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_2..word_3" sentenceid="1" label="organization" type="enamex" lemmata="united nations" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_9..word_22" sentenceid="1" label="np" min_ids="word_9..word_14" type="chunk" lemmata="a `` increasingly desperate '' situation for palestinians in gaza and the west bank" isprenominal="false" pos="dt `` rb jj '' nn in nnps in nnp cc dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_16..word_22" sentenceid="1" label="location" min_ids="word_16..word_16" type="enamex" lemmata="palestinians in gaza and the west bank" isprenominal="false" pos="nnps in nnp cc dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_18" sentenceid="1" label="location" min_ids="word_18..word_18" type="enamex" lemmata="gaza" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_18..word_22" sentenceid="1" label="location" min_ids="word_18..word_22" type="enamex" lemmata="gaza and the west bank" isprenominal="false" pos="nnp cc dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_20..word_22" sentenceid="1" label="np" min_ids="word_20..word_22" type="chunk" lemmata="the west bank" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_24" sentenceid="2" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_24..word_29" sentenceid="2" label="np" min_ids="word_24..word_26" type="chunk" lemmata="israeli security restriction on cross-border movement" isprenominal="false" pos="jj nn nns in jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_28..word_29" sentenceid="2" label="np" min_ids="word_28..word_29" type="chunk" lemmata="cross-border movement" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_32..word_33" sentenceid="2" label="np" min_ids="word_32..word_33" type="chunk" lemmata="humanitarian aid" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_32..word_40" sentenceid="2" label="np" min_ids="word_32..word_36" type="chunk" lemmata="humanitarian aid and fuel supplies to the palestinian territory" isprenominal="false" pos="jj nn cc nn nns in dt jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_35..word_36" sentenceid="2" label="np" min_ids="word_35..word_36" type="chunk" lemmata="fuel supplies" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_38..word_40" sentenceid="2" label="location" min_ids="word_38..word_40" type="enamex" lemmata="the palestinian territory" isprenominal="false" pos="dt jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_43..word_49" sentenceid="3" label="np" min_ids="word_43..word_45" type="chunk" lemmata="a cairo meeting of the arab league" isprenominal="false" pos="dt nnp nn in dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_44" sentenceid="3" label="location" type="enamex" lemmata="cairo" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_47..word_49" sentenceid="3" label="organization" min_ids="word_47..word_49" type="enamex" lemmata="the arab league" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_51..word_52" sentenceid="3" label="np" min_ids="word_51..word_52" type="chunk" lemmata="finance ministers" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_55..word_72" sentenceid="3" label="np" min_ids="word_55..word_56" type="chunk" lemmata="a method to funnel up to $ 1 billion in support to palestinians in their uprising against israel" isprenominal="false" pos="dt nn to vb in to $ cd cd in nn in nnps in prp$ nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_59..word_65" sentenceid="3" label="money" min_ids="word_59..word_63" type="enamex" lemmata="up to $ 1 billion in support" isprenominal="false" pos="in to $ cd cd in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_65" sentenceid="3" label="np" min_ids="word_65..word_65" type="chunk" lemmata="support" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_67..word_72" sentenceid="3" label="location" min_ids="word_67..word_67" type="enamex" lemmata="palestinians in their uprising against israel" isprenominal="false" pos="nnps in prp$ nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_69" sentenceid="3" label="np" type="chunk" lemmata="their" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_69..word_72" sentenceid="3" label="np" min_ids="word_69..word_70" type="chunk" lemmata="their uprising against israel" isprenominal="false" pos="prp$ nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_72" sentenceid="3" label="location" min_ids="word_72..word_72" type="enamex" lemmata="israel" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+</markables>

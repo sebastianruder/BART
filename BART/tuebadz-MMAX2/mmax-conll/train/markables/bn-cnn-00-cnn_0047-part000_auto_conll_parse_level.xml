@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_16" tag="(S1 (S (NP (DT The) (NML (NNP United) (NNPS Nations)) (NNP General) (NNP Assembly)) (VP (VBD passed) (NP (NP (DT a) (NN resolution)) (VP (VBG criticizing) (NP (NP (NNP Israel) (POS 's)) (NNS actions)))) (PP (IN in) (NP (DT the) (NN dispute)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_17..word_34" tag="(S1 (S (NP (DT The) (NN resolution)) (ADVP (RB also)) (VP (VBZ calls) (PP (IN for) (NP (NP (DT an) (JJ immediate) (NN end)) (PP (IN to) (NP (NP (DT the) (NN violence)) (CC and) (NP (NP (DT a) (NN resumption)) (PP (IN of) (NP (NN peace) (NNS talks))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_35..word_48" tag="(S1 (S (NP (DT The) (NNP United) (NNP States)) (VP (VBD was) (NP (NP (CD one)) (PP (IN of) (NP (NP (CD six) (NNS nations)) (SBAR (WHNP (WDT that)) (S (VP (VBD voted) (PP (IN against) (NP (DT the) (NN measure)))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_49..word_71" tag="(S1 (S (NP (QP (JJR More) (IN than) (CD 100)) (NNS people)) (VP (VBP have) (VP (VBN died) (PP (IN in) (NP (NP (DT the) (CD three) (NNS weeks)) (PP (IN of) (NP (NN fighting))))) (, ,) (S (NP (QP (RB almost) (DT all)) (PP (IN of) (NP (PRP them)))) (NP (NP (NNPS Palestinians)) (CC or) (NP (NNPS Arab) (HYPH -) (NNPS Israelis)))))) (. .)))" mmax_level="parse" />
+</markables>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_2" sentenceid="1" label="np" min_ids="word_1..word_2" type="chunk" lemmata="convicted rapist" isprenominal="false" pos="vbn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_1..word_8" sentenceid="1" label="person" min_ids="word_1..word_8" type="enamex" lemmata="convicted rapist and max factor heir andrew luster" isprenominal="false" pos="vbn nn cc nnp nn nn nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_4..word_8" sentenceid="1" label="np" min_ids="word_4..word_8" type="chunk" lemmata="max factor heir andrew luster" isprenominal="false" pos="nnp nn nn nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_12" sentenceid="1" label="location" min_ids="word_12..word_12" type="enamex" lemmata="california" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_14" sentenceid="2" label="person" min_ids="word_14..word_14" type="enamex" lemmata="luster" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_17..word_18" sentenceid="2" label="location" min_ids="word_17..word_18" type="enamex" lemmata="los angeles" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_19" sentenceid="2" label="date" min_ids="word_19..word_19" type="enamex" lemmata="yesterday" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_21" sentenceid="2" label="location" min_ids="word_21..word_21" type="enamex" lemmata="mexico" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_23" sentenceid="2" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_23..word_29" sentenceid="2" label="np" min_ids="word_23..word_24" type="chunk" lemmata="his capture tuesday by american bounty hunter" isprenominal="false" pos="prp$ nn nnp in jj nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_25" sentenceid="2" label="date" min_ids="word_25..word_25" type="enamex" lemmata="tuesday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_27" sentenceid="2" label="location" type="enamex" lemmata="american" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_27..word_29" sentenceid="2" label="np" min_ids="word_27..word_29" type="chunk" lemmata="american bounty hunter" isprenominal="false" pos="jj nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_31" sentenceid="3" label="person" min_ids="word_31..word_31" type="enamex" lemmata="luster" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_33" sentenceid="3" label="np" min_ids="word_33..word_33" type="chunk" lemmata="bail" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_35" sentenceid="3" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_35..word_38" sentenceid="3" label="np" min_ids="word_35..word_36" type="chunk" lemmata="his trial in january" isprenominal="false" pos="prp$ nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_38" sentenceid="3" label="date" min_ids="word_38..word_38" type="enamex" lemmata="january" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_43" sentenceid="3" label="percent" type="enamex" lemmata="three" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_43..word_44" sentenceid="3" label="np" min_ids="word_43..word_44" type="chunk" lemmata="three woman" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_46" sentenceid="4" label="np" min_ids="word_46..word_46" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_50" sentenceid="4" label="np" min_ids="word_50..word_50" type="chunk" lemmata="abstentium" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_55" sentenceid="4" label="np" min_ids="word_55..word_55" type="chunk" lemmata="prison" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+</markables>

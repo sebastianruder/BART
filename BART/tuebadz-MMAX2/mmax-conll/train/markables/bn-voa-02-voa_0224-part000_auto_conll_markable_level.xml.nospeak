@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_13" span="word_2..word_4" sentenceid="1" label="location" min_ids="word_2..word_4" type="enamex" lemmata="the west bank" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_5" sentenceid="1" label="date" min_ids="word_5..word_5" type="enamex" lemmata="sunday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_7..word_14" sentenceid="1" label="np" min_ids="word_7..word_14" type="chunk" lemmata="a 20 - year - old palestinian woman" isprenominal="false" pos="dt cd hyph nn hyph jj jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_8..word_12" sentenceid="1" label="date" type="enamex" lemmata="20 - year - old" isprenominal="false" pos="cd hyph nn hyph jj" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_13" sentenceid="1" label="location" type="enamex" lemmata="palestinian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_21..word_28" sentenceid="1" label="np" min_ids="word_21..word_22" type="chunk" lemmata="a road lead to jewish settlement near nablus" isprenominal="false" pos="dt nn vbg in jj nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_25" sentenceid="1" label="location" type="enamex" lemmata="jewish" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_25..word_28" sentenceid="1" label="np" min_ids="word_25..word_26" type="chunk" lemmata="jewish settlement near nablus" isprenominal="false" pos="jj nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_28" sentenceid="1" label="location" min_ids="word_28..word_28" type="enamex" lemmata="nablus" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_30" sentenceid="2" label="np" min_ids="word_30..word_30" type="chunk" lemmata="she" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_32..word_42" sentenceid="2" label="np" min_ids="word_32..word_35" type="chunk" lemmata="the second palestinian woman kill by israeli force in two day" isprenominal="false" pos="dt jj jj nn vbn in jj nns in cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_33" sentenceid="2" label="percent" type="enamex" lemmata="second" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_34" sentenceid="2" label="location" type="enamex" lemmata="palestinian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_38" sentenceid="2" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_38..word_39" sentenceid="2" label="np" min_ids="word_38..word_39" type="chunk" lemmata="israeli force" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_45" sentenceid="3" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_45..word_47" sentenceid="3" label="np" min_ids="word_45..word_47" type="chunk" lemmata="israeli security service" isprenominal="false" pos="jj nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_49" sentenceid="3" label="date" min_ids="word_49..word_49" type="enamex" lemmata="sunday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_51..word_62" sentenceid="3" label="np" min_ids="word_51..word_53" type="chunk" lemmata="a jordanian prisoner suspect in a bus bombing in netanya last month" isprenominal="false" pos="dt jj nn vbn in dt nn nn in nnp jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_52" sentenceid="3" label="location" type="enamex" lemmata="jordanian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_56..word_60" sentenceid="3" label="np" min_ids="word_56..word_58" type="chunk" lemmata="a bus bombing in netanya" isprenominal="false" pos="dt nn nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_60" sentenceid="3" label="location" min_ids="word_60..word_60" type="enamex" lemmata="netanya" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_61..word_62" sentenceid="3" label="date" min_ids="word_61..word_62" type="enamex" lemmata="last month" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_67..word_70" sentenceid="3" label="np" min_ids="word_67..word_70" type="chunk" lemmata="the palestinian security service" isprenominal="false" pos="dt jj nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_68" sentenceid="3" label="location" type="enamex" lemmata="palestinian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_72..word_74" sentenceid="4" label="np" min_ids="word_72..word_74" type="chunk" lemmata="a palestinian spokesman" isprenominal="false" pos="dt nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_73" sentenceid="4" label="location" type="enamex" lemmata="palestinian" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_76..word_77" sentenceid="4" label="np" min_ids="word_76..word_77" type="chunk" lemmata="that charge" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_78..word_79" sentenceid="4" label="np" min_ids="word_78..word_79" type="chunk" lemmata="a fabrication" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+</markables>

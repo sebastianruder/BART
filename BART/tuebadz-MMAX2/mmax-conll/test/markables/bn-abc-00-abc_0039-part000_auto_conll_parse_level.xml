@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_4" tag="(S1 (NP (DT Some) (JJ overseas) (NN news) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_5..word_22" tag="(S1 (S (NP (NP (NNP Barak)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBZ has) (VP (VBN been) (VP (VBN forced) (S (VP (TO to) (VP (VB call) (NP (JJ national) (NNS elections)))))))))) (, ,)) (VP (VBD offered) (S (VP (TO to) (VP (VB recognize) (NP (DT a) (JJ Palestinian) (NN state)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_23..word_29" tag="(S1 (S (NP (EX There)) (VP (VBZ 's) (NP (CD one) (ADJP (RB very) (JJ difficult)) (NN condition))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_30..word_45" tag="(S1 (S (NP (EX There)) (VP (MD could) (VP (VB be) (NP (NP (DT no) (NN discussion)) (PP (IN for) (NP (RB now))) (PP (IN about) (SBAR (WHNP (WP who)) (S (VP (MD will) (VP (VB have) (NP (NP (WP what) (NN status)) (PP (IN in) (NP (NNP Jerusalem)))))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_46..word_51" tag="(S1 (S (NP (NNPS Palestinians)) (VP (VBP do) (RB n't) (VP (VB like) (NP (PRP it)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10006" span="word_52..word_72" tag="(S1 (S (PP (IN In) (NP (NP (NNP Bethlehem)) (, ,) (SBAR (WHADVP (WRB where)) (S (NP (NNPS Christians)) (VP (VBP believe) (SBAR (S (NP (NNP Jesus)) (VP (VBD was) (VP (VBN born)))))))))) (, ,) (NP (NNP Christmas) (NNS plans)) (VP (VBP have) (VP (VBN been) (VP (VBN scaled) (PRT (RP back)) (PP (IN because) (IN of) (NP (DT the) (NN violence)))))) (. .)))" mmax_level="parse" />
+</markables>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_4" sentenceid="1" label="np" min_ids="word_1..word_4" type="chunk" lemmata="the following 13 question" isprenominal="false" pos="dt jj cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_62" span="word_3" sentenceid="1" label="percent" type="enamex" lemmata="13" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_7" sentenceid="1" label="np" min_ids="word_7..word_7" type="chunk" lemmata="investor" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_14" sentenceid="2" label="np" min_ids="word_14..word_14" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_18..word_24" sentenceid="2" label="np" min_ids="word_18..word_20" type="chunk" lemmata="these 13 point of business startup logic" isprenominal="false" pos="dt cd nns in nn nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_63" span="word_19" sentenceid="2" label="percent" type="enamex" lemmata="13" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_22..word_24" sentenceid="2" label="np" min_ids="word_22..word_24" type="chunk" lemmata="business startup logic" isprenominal="false" pos="nn nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_70" span="word_28" sentenceid="2" label="np" type="chunk" lemmata="your" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_28..word_33" sentenceid="2" label="np" min_ids="word_28..word_33" type="chunk" lemmata="your own creative vision and argument" isprenominal="false" pos="prp$ jj jj nn cc nns" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_36" sentenceid="2" label="np" min_ids="word_36..word_36" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_71" span="word_40" sentenceid="2" label="np" type="chunk" lemmata="your" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_40..word_44" sentenceid="2" label="np" min_ids="word_40..word_42" type="chunk" lemmata="your first step to success" isprenominal="false" pos="prp$ jj nn in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_64" span="word_41" sentenceid="2" label="percent" type="enamex" lemmata="first" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_44" sentenceid="2" label="np" min_ids="word_44..word_44" type="chunk" lemmata="success" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_65" span="word_46..word_48" sentenceid="3" label="percent" min_ids="word_46..word_48" type="enamex" lemmata="question # 1" isprenominal="false" pos="nn nn cd" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_52" sentenceid="3" label="np" min_ids="word_52..word_52" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_72" span="word_54" sentenceid="3" label="np" type="chunk" lemmata="your" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_54..word_55" sentenceid="3" label="np" min_ids="word_54..word_55" type="chunk" lemmata="your business" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_59..word_60" sentenceid="4" label="np" min_ids="word_59..word_60" type="chunk" lemmata="a business" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_62..word_65" sentenceid="4" label="np" min_ids="word_62..word_63" type="chunk" lemmata="a process of elimination" isprenominal="false" pos="dt nn in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_65" sentenceid="4" label="np" min_ids="word_65..word_65" type="chunk" lemmata="elimination" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_66" span="word_68..word_70" sentenceid="5" label="date" min_ids="word_68..word_70" type="enamex" lemmata="the late 1980s" isprenominal="false" pos="dt jj cd" speaker="-" mmax_level="markable" />
+<markable id="markable_67" span="word_72" sentenceid="5" label="organization" min_ids="word_72..word_72" type="enamex" lemmata="intel" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_75" sentenceid="5" label="np" min_ids="word_75..word_75" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_68" span="word_81" sentenceid="5" label="location" type="enamex" lemmata="japanese" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_81..word_83" sentenceid="5" label="np" min_ids="word_81..word_83" type="chunk" lemmata="japanese semiconductor company" isprenominal="false" pos="jj nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_85..word_89" sentenceid="5" label="np" min_ids="word_85..word_86" type="chunk" lemmata="the production of memory chip" isprenominal="false" pos="dt nn in nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_88..word_89" sentenceid="5" label="np" min_ids="word_88..word_89" type="chunk" lemmata="memory chip" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_92" sentenceid="5" label="np" min_ids="word_92..word_92" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_94..word_95" sentenceid="5" label="np" min_ids="word_94..word_95" type="chunk" lemmata="that market" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_99" sentenceid="5" label="np" min_ids="word_99..word_99" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_69" span="word_108" sentenceid="5" label="location" type="enamex" lemmata="japanese" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_108..word_109" sentenceid="5" label="np" min_ids="word_108..word_109" type="chunk" lemmata="japanese competition" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_73" span="word_113" sentenceid="5" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_113..word_116" sentenceid="5" label="np" min_ids="word_113..word_114" type="chunk" lemmata="its specialty of microprocessor" isprenominal="false" pos="prp$ nn in nns" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_116" sentenceid="5" label="np" min_ids="word_116..word_116" type="chunk" lemmata="microprocessor" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_118" sentenceid="6" label="np" min_ids="word_118..word_118" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_121..word_126" sentenceid="6" label="np" min_ids="word_121..word_123" type="chunk" lemmata="a larger company many time over" isprenominal="false" pos="dt jjr nn jj nns rb" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_124..word_125" sentenceid="6" label="np" min_ids="word_124..word_125" type="chunk" lemmata="many time" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_130..word_141" sentenceid="7" label="np" min_ids="word_130..word_131" type="chunk" lemmata="a story of how &quot; loss &quot; can turn into &quot; gain" isprenominal="false" pos="dt nn in wrb `` nn '' md vb in `` nn" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_134..word_136" sentenceid="7" label="np" min_ids="word_134..word_136" type="chunk" lemmata="&quot; loss &quot;" isprenominal="false" pos="`` nn ''" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_141" sentenceid="7" label="np" min_ids="word_141..word_141" type="chunk" lemmata="gain" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_144..word_146" sentenceid="8" label="np" min_ids="word_144..word_146" type="chunk" lemmata="&quot; elimination &quot;" isprenominal="false" pos="`` nn ''" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_154..word_155" sentenceid="9" label="np" min_ids="word_154..word_155" type="chunk" lemmata="a company" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_159..word_161" sentenceid="9" label="np" min_ids="word_159..word_161" type="chunk" lemmata="the more limited" isprenominal="false" pos="dt rbr jj" speaker="-" mmax_level="markable" />
+<markable id="markable_74" span="word_164" sentenceid="9" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_164..word_166" sentenceid="9" label="np" min_ids="word_164..word_166" type="chunk" lemmata="its operational scope" isprenominal="false" pos="prp$ jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_34" span="word_169..word_173" sentenceid="10" label="np" min_ids="word_169..word_173" type="chunk" lemmata="just about any successful company" isprenominal="false" pos="rb rb dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_35" span="word_175..word_180" sentenceid="10" label="np" min_ids="word_175..word_177" type="chunk" lemmata="a clear sense of its limitation" isprenominal="false" pos="dt jj nn in prp$ nns" speaker="-" mmax_level="markable" />
+<markable id="markable_75" span="word_179" sentenceid="10" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_36" span="word_179..word_180" sentenceid="10" label="np" min_ids="word_179..word_180" type="chunk" lemmata="its limitation" isprenominal="false" pos="prp$ nns" speaker="-" mmax_level="markable" />
+<markable id="markable_37" span="word_184" sentenceid="10" label="np" min_ids="word_184..word_184" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_38" span="word_191" sentenceid="10" label="np" min_ids="word_191..word_191" type="chunk" lemmata="itself" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_39" span="word_193..word_194" sentenceid="10" label="np" min_ids="word_193..word_194" type="chunk" lemmata="the marketplace" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_76" span="word_197" sentenceid="10" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_40" span="word_197..word_198" sentenceid="10" label="np" min_ids="word_197..word_198" type="chunk" lemmata="its vulnerablility" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_41" span="word_200..word_201" sentenceid="10" label="np" min_ids="word_200..word_201" type="chunk" lemmata="price war" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_42" span="word_205" sentenceid="11" label="np" min_ids="word_205..word_205" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_43" span="word_210" sentenceid="11" label="np" min_ids="word_210..word_210" type="chunk" lemmata="attention" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_44" span="word_212..word_214" sentenceid="11" label="np" min_ids="word_212..word_214" type="chunk" lemmata="the follow point" isprenominal="false" pos="dt vbg nns" speaker="-" mmax_level="markable" />
+<markable id="markable_77" span="word_221" sentenceid="12" label="np" type="chunk" lemmata="your" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_45" span="word_221..word_222" sentenceid="12" label="np" min_ids="word_221..word_222" type="chunk" lemmata="your company" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_46" span="word_224" sentenceid="12" label="np" min_ids="word_224..word_224" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_47" span="word_227..word_236" sentenceid="12" label="np" min_ids="word_227..word_229" type="chunk" lemmata="a basic conception that be clear and easy to understand" isprenominal="false" pos="dt jj nn wdt vbz jj cc jj to vb" speaker="-" mmax_level="markable" />
+<markable id="markable_48" span="word_239..word_241" sentenceid="13" label="np" min_ids="word_239..word_240" type="chunk" lemmata="the company 's" isprenominal="false" pos="dt nn pos" speaker="-" mmax_level="markable" />
+<markable id="markable_49" span="word_239..word_242" sentenceid="13" label="np" min_ids="word_239..word_242" type="chunk" lemmata="the company 's definition" isprenominal="false" pos="dt nn pos nn" speaker="-" mmax_level="markable" />
+<markable id="markable_50" span="word_244..word_249" sentenceid="13" label="np" min_ids="word_244..word_245" type="chunk" lemmata="a reflection of its operational strategy" isprenominal="false" pos="dt nn in prp$ jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_78" span="word_247" sentenceid="13" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_51" span="word_247..word_249" sentenceid="13" label="np" min_ids="word_247..word_249" type="chunk" lemmata="its operational strategy" isprenominal="false" pos="prp$ jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_52" span="word_252..word_255" sentenceid="14" label="np" min_ids="word_252..word_255" type="chunk" lemmata="an unclear company definition" isprenominal="false" pos="dt jj nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_53" span="word_258..word_259" sentenceid="14" label="np" min_ids="word_258..word_259" type="chunk" lemmata="operational strategy" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_54" span="word_262" sentenceid="15" label="np" min_ids="word_262..word_262" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_79" span="word_268" sentenceid="15" label="np" type="chunk" lemmata="your" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_55" span="word_268..word_278" sentenceid="15" label="np" min_ids="word_268..word_269" type="chunk" lemmata="your role base on the value of your product and service" isprenominal="false" pos="prp$ nn vbn in dt nn in prp$ nns cc nns" speaker="-" mmax_level="markable" />
+<markable id="markable_56" span="word_272..word_278" sentenceid="15" label="np" min_ids="word_272..word_273" type="chunk" lemmata="the value of your product and service" isprenominal="false" pos="dt nn in prp$ nns cc nns" speaker="-" mmax_level="markable" />
+<markable id="markable_80" span="word_275" sentenceid="15" label="np" type="chunk" lemmata="your" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_57" span="word_275..word_278" sentenceid="15" label="np" min_ids="word_275..word_278" type="chunk" lemmata="your product and service" isprenominal="false" pos="prp$ nns cc nns" speaker="-" mmax_level="markable" />
+<markable id="markable_58" span="word_281..word_282" sentenceid="15" label="np" min_ids="word_281..word_282" type="chunk" lemmata="the consumer" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_59" span="word_287" sentenceid="15" label="np" min_ids="word_287..word_287" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_60" span="word_291" sentenceid="16" label="np" min_ids="word_291..word_291" type="chunk" lemmata="differentiation" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_81" span="word_297" sentenceid="16" label="np" type="chunk" lemmata="your" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_61" span="word_297..word_298" sentenceid="16" label="np" min_ids="word_297..word_298" type="chunk" lemmata="your advantage" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+</markables>

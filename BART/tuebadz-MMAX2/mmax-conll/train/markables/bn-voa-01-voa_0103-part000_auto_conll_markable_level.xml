@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_4" span="word_1" sentenceid="1" label="location" min_ids="word_1..word_1" type="enamex" lemmata="yugoslavia" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_3" sentenceid="1" label="np" min_ids="word_3..word_3" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_6..word_17" sentenceid="1" label="np" min_ids="word_6..word_7" type="chunk" lemmata="diplomatic tie with the united states , britain , france and germany" isprenominal="false" pos="jj nns in dt nnp nnp , nnp , nnp cc nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_9..word_11" sentenceid="1" label="location" min_ids="word_9..word_11" type="enamex" lemmata="the united states" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_9..word_17" sentenceid="1" label="location" min_ids="word_10..word_17" type="enamex" lemmata="the united states , britain , france and germany" isprenominal="false" pos="dt nnp nnp , nnp , nnp cc nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_13" sentenceid="1" label="location" min_ids="word_13..word_13" type="enamex" lemmata="britain" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_15" sentenceid="1" label="location" min_ids="word_15..word_15" type="enamex" lemmata="france" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_17" sentenceid="1" label="np" min_ids="word_17..word_17" type="chunk" lemmata="germany" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_19..word_21" sentenceid="2" label="person" min_ids="word_19..word_21" type="enamex" lemmata="president vojislav kostunica" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_26..word_27" sentenceid="2" label="location" min_ids="word_26..word_26" type="enamex" lemmata="yugoslavia 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_26..word_28" sentenceid="2" label="np" min_ids="word_26..word_28" type="chunk" lemmata="yugoslavia 's isolation" isprenominal="false" pos="nnp pos nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_30..word_31" sentenceid="3" label="person" min_ids="word_30..word_31" type="enamex" lemmata="david coller" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_33..word_34" sentenceid="3" label="organization" min_ids="word_33..word_34" type="enamex" lemmata="voa news" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+</markables>

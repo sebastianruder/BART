@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_27" span="word_1..word_3" sentenceid="1" label="organization" min_ids="word_1..word_3" type="enamex" lemmata="the u.s. navy" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_6..word_17" sentenceid="1" label="np" min_ids="word_6..word_7" type="chunk" lemmata="the timeline of last week 's attack on the `` uss cole" isprenominal="false" pos="dt nn in jj nn pos nn in dt `` nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_9..word_11" sentenceid="1" label="date" min_ids="word_9..word_10" type="enamex" lemmata="last week 's" isprenominal="false" pos="jj nn pos" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_9..word_17" sentenceid="1" label="np" min_ids="word_9..word_12" type="chunk" lemmata="last week 's attack on the `` uss cole" isprenominal="false" pos="jj nn pos nn in dt `` nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_14..word_17" sentenceid="1" label="object" min_ids="word_14..word_17" type="enamex" lemmata="the `` uss cole" isprenominal="false" pos="dt `` nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_20" sentenceid="2" label="np" min_ids="word_20..word_20" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_22..word_23" sentenceid="2" label="np" min_ids="word_22..word_23" type="chunk" lemmata="the explosion" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_25..word_28" sentenceid="2" label="time" min_ids="word_25..word_28" type="enamex" lemmata="more than two hour" isprenominal="false" pos="jjr in cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_30..word_31" sentenceid="2" label="np" min_ids="word_30..word_31" type="chunk" lemmata="the ship" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_35..word_37" sentenceid="2" label="np" min_ids="word_35..word_37" type="chunk" lemmata="a fuel dock" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_41..word_43" sentenceid="2" label="np" min_ids="word_41..word_43" type="chunk" lemmata="the mooring operation" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_49" sentenceid="3" label="np" min_ids="word_49..word_49" type="chunk" lemmata="some" isprenominal="false" pos="dt" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_54..word_56" sentenceid="3" label="np" min_ids="word_54..word_56" type="chunk" lemmata="the terrorist '" isprenominal="false" pos="dt nns pos" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_54..word_57" sentenceid="3" label="np" min_ids="word_54..word_57" type="chunk" lemmata="the terrorist ' boat" isprenominal="false" pos="dt nns pos nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_61" sentenceid="3" label="np" min_ids="word_61..word_61" type="chunk" lemmata="notice" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_68..word_74" sentenceid="3" label="np" min_ids="word_68..word_70" type="chunk" lemmata="no other boat near the `` cole" isprenominal="false" pos="dt jj nns in dt `` nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_72..word_74" sentenceid="3" label="object" min_ids="word_74..word_74" type="enamex" lemmata="the `` cole" isprenominal="false" pos="dt `` nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_77..word_78" sentenceid="4" label="organization" min_ids="word_78..word_78" type="enamex" lemmata="the navy" isprenominal="false" pos="dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_80..word_81" sentenceid="4" label="np" min_ids="word_80..word_81" type="chunk" lemmata="the sailor" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_85..word_87" sentenceid="4" label="np" min_ids="word_85..word_87" type="chunk" lemmata="the small boat" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_93..word_96" sentenceid="4" label="object" min_ids="word_95..word_95" type="enamex" lemmata="the `` cole ''" isprenominal="false" pos="dt `` nnp ''" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_98" sentenceid="4" label="np" min_ids="word_98..word_98" type="chunk" lemmata="line" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_100" sentenceid="4" label="np" min_ids="word_100..word_100" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_102..word_104" sentenceid="4" label="np" min_ids="word_102..word_104" type="chunk" lemmata="the fuel dock" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_106..word_108" sentenceid="5" label="np" min_ids="word_106..word_106" type="chunk" lemmata="officials in yemen" isprenominal="false" pos="nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_34" span="word_108" sentenceid="5" label="location" min_ids="word_108..word_108" type="enamex" lemmata="yemen" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_110" sentenceid="5" label="np" min_ids="word_110..word_110" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_112..word_115" sentenceid="5" label="np" min_ids="word_112..word_115" type="chunk" lemmata="bomb - make material" isprenominal="false" pos="nn hyph vbg nns" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_117..word_119" sentenceid="5" label="np" min_ids="word_117..word_119" type="chunk" lemmata="a nearby apartment" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_35" span="word_121" sentenceid="6" label="organization" type="enamex" lemmata="fbi" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_121..word_124" sentenceid="6" label="np" min_ids="word_121..word_122" type="chunk" lemmata="fbi agent in yemen" isprenominal="false" pos="nnp nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_36" span="word_124" sentenceid="6" label="location" min_ids="word_124..word_124" type="enamex" lemmata="yemen" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_127..word_134" sentenceid="6" label="np" min_ids="word_127..word_127" type="chunk" lemmata="swab of explosive residue find in the apartment" isprenominal="false" pos="nns in jj nn vbn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_129..word_134" sentenceid="6" label="np" min_ids="word_129..word_130" type="chunk" lemmata="explosive residue find in the apartment" isprenominal="false" pos="jj nn vbn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_133..word_134" sentenceid="6" label="np" min_ids="word_133..word_134" type="chunk" lemmata="the apartment" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_139" sentenceid="6" label="np" min_ids="word_139..word_139" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_37" span="word_141" sentenceid="6" label="location" min_ids="word_141..word_141" type="enamex" lemmata="washington" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_143" sentenceid="6" label="np" min_ids="word_143..word_143" type="chunk" lemmata="analysis" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+</markables>

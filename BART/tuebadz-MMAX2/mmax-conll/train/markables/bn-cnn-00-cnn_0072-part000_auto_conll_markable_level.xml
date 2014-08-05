@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1" sentenceid="1" label="np" min_ids="word_1..word_1" type="chunk" lemmata="veekz" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_6" sentenceid="1" label="location" min_ids="word_6..word_6" type="enamex" lemmata="yemen" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_8" sentenceid="1" label="location" type="enamex" lemmata="u.s." isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_8..word_9" sentenceid="1" label="np" min_ids="word_8..word_9" type="chunk" lemmata="u.s. investigator" isprenominal="false" pos="nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_13" sentenceid="1" label="np" min_ids="word_13..word_13" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_16..word_21" sentenceid="1" label="np" min_ids="word_16..word_16" type="chunk" lemmata="clue of the `` uss cole" isprenominal="false" pos="nns in dt `` nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_18..word_21" sentenceid="1" label="object" min_ids="word_18..word_21" type="enamex" lemmata="the `` uss cole" isprenominal="false" pos="dt `` nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_24" sentenceid="2" label="np" min_ids="word_24..word_24" type="chunk" lemmata="security" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_28..word_34" sentenceid="2" label="np" min_ids="word_28..word_29" type="chunk" lemmata="the wake of a telephone bomb threat" isprenominal="false" pos="dt nn in dt nn nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_31..word_34" sentenceid="2" label="np" min_ids="word_31..word_34" type="chunk" lemmata="a telephone bomb threat" isprenominal="false" pos="dt nn nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_36" sentenceid="3" label="percent" type="enamex" lemmata="17" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_36..word_38" sentenceid="3" label="np" min_ids="word_36..word_38" type="chunk" lemmata="17 u.s. sailor" isprenominal="false" pos="cd nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_37" sentenceid="3" label="location" type="enamex" lemmata="u.s." isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_42" sentenceid="3" label="percent" min_ids="word_42..word_42" type="enamex" lemmata="39" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_44..word_45" sentenceid="3" label="np" min_ids="word_44..word_45" type="chunk" lemmata="2 week" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_44..word_46" sentenceid="3" label="date" type="enamex" lemmata="2 week ago" isprenominal="false" pos="cd nns rb" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_48..word_60" sentenceid="3" label="np" min_ids="word_48..word_49" type="chunk" lemmata="the bombing that leave a huge hole in the side of the destroyer" isprenominal="false" pos="dt nn wdt vbd dt jj nn in dt nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_52..word_54" sentenceid="3" label="np" min_ids="word_52..word_54" type="chunk" lemmata="a huge hole" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_56..word_60" sentenceid="3" label="np" min_ids="word_56..word_57" type="chunk" lemmata="the side of the destroyer" isprenominal="false" pos="dt nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_59..word_60" sentenceid="3" label="np" min_ids="word_59..word_60" type="chunk" lemmata="the destroyer" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_62" sentenceid="4" label="organization" type="enamex" lemmata="fbi" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_62..word_69" sentenceid="4" label="np" min_ids="word_62..word_63" type="chunk" lemmata="fbi technician send to yemen to collect evidence" isprenominal="false" pos="nnp nns vbn in nnp to vb nn" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_66" sentenceid="4" label="location" min_ids="word_66..word_66" type="enamex" lemmata="yemen" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_69" sentenceid="4" label="np" min_ids="word_69..word_69" type="chunk" lemmata="evidence" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_74" sentenceid="4" label="date" min_ids="word_74..word_74" type="enamex" lemmata="today" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+</markables>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_5" span="word_1..word_3" sentenceid="1" label="organization" min_ids="word_1..word_3" type="enamex" lemmata="sun microsystems inc." isprenominal="false" pos="nnp nnps nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_5..word_7" sentenceid="1" label="organization" min_ids="word_5..word_7" type="enamex" lemmata="prime computer inc." isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_12..word_17" sentenceid="1" label="money" min_ids="word_12..word_17" type="enamex" lemmata="as much as $ 200 million" isprenominal="false" pos="rb jj in $ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_12..word_22" sentenceid="1" label="np" min_ids="word_12..word_18" type="chunk" lemmata="as much as $ 200 million worth of sun 's machine" isprenominal="false" pos="rb jj in $ cd cd nn in nnp pos nns" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_20..word_21" sentenceid="1" label="organization" min_ids="word_20..word_20" type="enamex" lemmata="sun 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_20..word_22" sentenceid="1" label="np" min_ids="word_20..word_22" type="chunk" lemmata="sun 's machine" isprenominal="false" pos="nnp pos nns" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_29..word_30" sentenceid="2" label="np" min_ids="word_29..word_30" type="chunk" lemmata="the computer" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_32..word_34" sentenceid="2" label="np" min_ids="word_32..word_33" type="chunk" lemmata="the company 's" isprenominal="false" pos="dt nn pos" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_32..word_38" sentenceid="2" label="np" min_ids="word_32..word_36" type="chunk" lemmata="the company 's own microprocessor call sparc" isprenominal="false" pos="dt nn pos jj nn vbn nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_38" sentenceid="2" label="object" min_ids="word_38..word_38" type="enamex" lemmata="sparc" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_40" sentenceid="2" label="organization" min_ids="word_40..word_40" type="enamex" lemmata="sun" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+</markables>

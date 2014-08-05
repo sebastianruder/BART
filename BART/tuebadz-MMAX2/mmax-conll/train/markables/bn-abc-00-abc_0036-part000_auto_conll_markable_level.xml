@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_15" span="word_2..word_4" sentenceid="1" label="location" min_ids="word_2..word_4" type="enamex" lemmata="the palestinian territory" isprenominal="false" pos="dt jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_5" sentenceid="1" label="np" min_ids="word_5..word_5" type="chunk" lemmata="today" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_7" sentenceid="1" label="percent" type="enamex" lemmata="four" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_7..word_8" sentenceid="1" label="location" min_ids="word_7..word_8" type="enamex" lemmata="four palestinians" isprenominal="false" pos="cd nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_12" sentenceid="1" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_12..word_13" sentenceid="1" label="np" min_ids="word_12..word_13" type="chunk" lemmata="israeli soldier" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_15..word_16" sentenceid="1" label="np" min_ids="word_15..word_16" type="chunk" lemmata="a motorist" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_20..word_21" sentenceid="1" label="np" min_ids="word_20..word_21" type="chunk" lemmata="a sniper" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_23..word_25" sentenceid="2" label="np" min_ids="word_23..word_25" type="chunk" lemmata="the clinton administration" isprenominal="false" pos="dt nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_24" sentenceid="2" label="person" type="enamex" lemmata="clinton" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_29..word_34" sentenceid="2" label="np" min_ids="word_29..word_30" type="chunk" lemmata="a situation spin out of control" isprenominal="false" pos="dt nn vbg in in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_34" sentenceid="2" label="np" min_ids="word_34..word_34" type="chunk" lemmata="control" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_36..word_37" sentenceid="3" label="location" min_ids="word_37..word_37" type="enamex" lemmata="the u.s." isprenominal="false" pos="dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_40..word_41" sentenceid="3" label="date" min_ids="word_40..word_40" type="enamex" lemmata="yesterday 's" isprenominal="false" pos="nn pos" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_40..word_47" sentenceid="3" label="np" min_ids="word_40..word_43" type="chunk" lemmata="yesterday 's palestinian attack to a school bus" isprenominal="false" pos="nn pos jj nn in dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_42" sentenceid="3" label="location" type="enamex" lemmata="palestinian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_45..word_47" sentenceid="3" label="np" min_ids="word_45..word_47" type="chunk" lemmata="a school bus" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_49..word_51" sentenceid="3" label="np" min_ids="word_49..word_51" type="chunk" lemmata="an atrocious act" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_53..word_54" sentenceid="3" label="location" min_ids="word_54..word_54" type="enamex" lemmata="the u.s." isprenominal="false" pos="dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_56..word_57" sentenceid="3" label="location" min_ids="word_57..word_57" type="enamex" lemmata="the israelis" isprenominal="false" pos="dt nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_59" sentenceid="3" label="np" type="chunk" lemmata="their" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_59..word_63" sentenceid="3" label="np" min_ids="word_59..word_60" type="chunk" lemmata="their use of excessive force" isprenominal="false" pos="prp$ nn in jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_62..word_63" sentenceid="3" label="np" min_ids="word_62..word_63" type="chunk" lemmata="excessive force" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_66..word_70" sentenceid="3" label="np" min_ids="word_66..word_68" type="chunk" lemmata="the right way to go" isprenominal="false" pos="dt jj nn to vb" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_72" sentenceid="4" label="location" min_ids="word_72..word_72" type="enamex" lemmata="egypt" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_75" sentenceid="4" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_75..word_78" sentenceid="4" label="np" min_ids="word_75..word_76" type="chunk" lemmata="its ambassador from israel" isprenominal="false" pos="prp$ nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_78" sentenceid="4" label="location" min_ids="word_78..word_78" type="enamex" lemmata="israel" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_81..word_85" sentenceid="4" label="np" min_ids="word_81..word_83" type="chunk" lemmata="the rocket attack on gaza" isprenominal="false" pos="dt nn nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_85" sentenceid="4" label="location" min_ids="word_85..word_85" type="enamex" lemmata="gaza" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+</markables>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1" sentenceid="1" label="np" min_ids="word_1..word_1" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_3..word_7" sentenceid="1" label="person" min_ids="word_3..word_4" type="enamex" lemmata="dave deforest , voa news" isprenominal="false" pos="nnp nnp , nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_6..word_7" sentenceid="1" label="organization" min_ids="word_6..word_7" type="enamex" lemmata="voa news" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_9..word_11" sentenceid="2" label="np" min_ids="word_9..word_11" type="chunk" lemmata="an israeli envoy" isprenominal="false" pos="dt nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_10" sentenceid="2" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_15..word_16" sentenceid="2" label="person" min_ids="word_15..word_16" type="enamex" lemmata="president clinton" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_18..word_20" sentenceid="2" label="object" min_ids="word_18..word_20" type="enamex" lemmata="the white house" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_24..word_25" sentenceid="2" label="location" min_ids="word_24..word_24" type="enamex" lemmata="israel 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_24..word_31" sentenceid="2" label="np" min_ids="word_24..word_27" type="chunk" lemmata="israel 's formal acceptance of us peace proposal" isprenominal="false" pos="nnp pos jj nn in nnp nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_29" sentenceid="2" label="location" type="enamex" lemmata="us" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_29..word_31" sentenceid="2" label="np" min_ids="word_29..word_31" type="chunk" lemmata="us peace proposal" isprenominal="false" pos="nnp nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_33..word_36" sentenceid="3" label="np" min_ids="word_33..word_34" type="chunk" lemmata="the envoy gilead sher" isprenominal="false" pos="dt nn nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_35..word_36" sentenceid="3" label="person" min_ids="word_35..word_36" type="enamex" lemmata="gilead sher" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_39..word_40" sentenceid="3" label="np" min_ids="word_39..word_40" type="chunk" lemmata="the meeting" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_41..word_42" sentenceid="3" label="time" min_ids="word_41..word_42" type="enamex" lemmata="late friday" isprenominal="false" pos="jj nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_44" sentenceid="3" label="np" min_ids="word_44..word_44" type="chunk" lemmata="reporter" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_45..word_50" sentenceid="3" label="np" min_ids="word_45..word_47" type="chunk" lemmata="the next step in the process" isprenominal="false" pos="dt jj nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_49..word_50" sentenceid="3" label="np" min_ids="word_49..word_50" type="chunk" lemmata="the process" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_54..word_55" sentenceid="3" label="person" min_ids="word_54..word_55" type="enamex" lemmata="president clinton" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_58" sentenceid="4" label="np" min_ids="word_58..word_58" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_60" sentenceid="4" label="np" min_ids="word_60..word_60" type="chunk" lemmata="tranquility" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_65..word_66" sentenceid="4" label="location" min_ids="word_65..word_66" type="enamex" lemmata="palestinian territory" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_68..word_69" sentenceid="5" label="location" min_ids="word_69..word_69" type="enamex" lemmata="the israelis" isprenominal="false" pos="dt nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_73" sentenceid="5" label="np" min_ids="word_73..word_73" type="chunk" lemmata="principle" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_75..word_76" sentenceid="5" label="np" min_ids="word_75..word_76" type="chunk" lemmata="the parameter" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_77..word_78" sentenceid="5" label="person" min_ids="word_77..word_78" type="enamex" lemmata="president clinton" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_83" sentenceid="5" label="np" min_ids="word_83..word_83" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_86..word_87" sentenceid="5" label="np" min_ids="word_86..word_87" type="chunk" lemmata="some reservation" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_91..word_92" sentenceid="5" label="location" min_ids="word_92..word_92" type="enamex" lemmata="the palestinians" isprenominal="false" pos="dt nnps" speaker="-" mmax_level="markable" />
+</markables>

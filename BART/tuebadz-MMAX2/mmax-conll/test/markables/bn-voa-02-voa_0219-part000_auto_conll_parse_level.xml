@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_16" tag="(S1 (S (NP (DT The) (NNP United) (NNP States)) (VP (VBZ has) (VP (VBN issued) (NP (NP (DT a) (JJ worldwide) (NN caution)) (PP (IN to) (NP (NP (NNPS Americans)) (VP (VBG warning) (PP (IN of) (NP (JJ possible) (JJ terrorist) (NNS threats))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_17..word_36" tag="(S1 (S (S (NP (DT No) (NNS threats)) (VP (VBP are) (VP (VBN specified)))) (CC but) (S (NP (NP (DT the) (NNP US) (NN embassy)) (PP (IN in) (NP (NNP Rome)))) (VP (VBD was) (VP (VBN closed) (NP (NNP Friday)) (PP (IN for) (SBAR (WHNP (WP what)) (S (NP (NNS officials)) (VP (VBD called) (NP (NN security) (NNS reasons))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_37..word_45" tag="(S1 (S (NP (DT The) (NN embassy)) (VP (MD could) (VP (VB reopen) (ADVP (ADVP (RB as) (RB early)) (PP (IN as) (NP (NNP Monday)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_46..word_53" tag="(S1 (S (NP (DT The) (NNP State) (NNP Department)) (ADVP (NP (RB periodically) (NNS issues)) (RB worldwide)) (VP (VBZ cautions)) (. .)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_54..word_72" tag="(S1 (S (NP (CD One)) (VP (VBD was) (VP (VBN issued) (NP (JJ last) (NNP October)) (PP (VBG following) (NP (NP (DT the) (JJ deadly) (JJ terrorist) (NN bombing)) (PP (IN of) (NP (DT the) (NNP USS) (NNP Cole) (NNP Navy) (NN destroyer))) (PP (IN in) (NP (NNP Yemen))))))) (. .)))" mmax_level="parse" />
+</markables>

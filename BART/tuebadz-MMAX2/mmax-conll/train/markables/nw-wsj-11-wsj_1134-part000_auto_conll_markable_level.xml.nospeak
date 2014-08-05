@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_10" span="word_1..word_10" sentenceid="1" label="person" min_ids="word_1..word_2" type="enamex" lemmata="harris ravine , executive vice president of customer satisfaction ," isprenominal="false" pos="nnp nnp , jj nn nn in nn nn ," speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_4..word_9" sentenceid="1" label="np" min_ids="word_4..word_6" type="chunk" lemmata="executive vice president of customer satisfaction" isprenominal="false" pos="jj nn nn in nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_8..word_9" sentenceid="1" label="np" min_ids="word_8..word_9" type="chunk" lemmata="customer satisfaction" isprenominal="false" pos="nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_13..word_26" sentenceid="1" label="np" min_ids="word_13..word_15" type="chunk" lemmata="executive vice president , finance and administration of this maker of datum storage equipment" isprenominal="false" pos="jj nn nn , nn cc nn in dt nn in nn nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_17" sentenceid="1" label="np" min_ids="word_17..word_17" type="chunk" lemmata="finance" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_19" sentenceid="1" label="np" min_ids="word_19..word_19" type="chunk" lemmata="administration" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_21..word_26" sentenceid="1" label="np" min_ids="word_21..word_22" type="chunk" lemmata="this maker of datum storage equipment" isprenominal="false" pos="dt nn in nn nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_24..word_26" sentenceid="1" label="np" min_ids="word_24..word_26" type="chunk" lemmata="datum storage equipment" isprenominal="false" pos="nn nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_28..word_29" sentenceid="2" label="person" min_ids="word_28..word_29" type="enamex" lemmata="mr. ravine" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_31..word_56" sentenceid="2" label="person" min_ids="word_31..word_34" type="enamex" lemmata="william r. mansfield jr. , who will remain with the company until the end of the year to support the transition and to complete important project" isprenominal="false" pos="nnp nnp nnp nnp , wp md vb in dt nn in dt nn in dt nn to vb dt nn cc to vb jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_40..word_41" sentenceid="2" label="np" min_ids="word_40..word_41" type="chunk" lemmata="the company" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_43..word_47" sentenceid="2" label="date" min_ids="word_44..word_47" type="enamex" lemmata="the end of the year" isprenominal="false" pos="dt nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_50..word_51" sentenceid="2" label="np" min_ids="word_50..word_51" type="chunk" lemmata="the transition" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_55..word_56" sentenceid="2" label="np" min_ids="word_55..word_56" type="chunk" lemmata="important project" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+</markables>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_24" span="word_1" sentenceid="1" label="organization" min_ids="word_1..word_1" type="enamex" lemmata="worldcom" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_3..word_4" sentenceid="1" label="np" min_ids="word_3..word_4" type="chunk" lemmata="wall street" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_6" sentenceid="1" label="percent" type="enamex" lemmata="two" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_6..word_8" sentenceid="1" label="np" min_ids="word_6..word_8" type="chunk" lemmata="two big announcement" isprenominal="false" pos="cd jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_10" sentenceid="2" label="np" min_ids="word_10..word_10" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_12..word_20" sentenceid="2" label="person" min_ids="word_12..word_13" type="enamex" lemmata="myron kandel at the cnnfn newsdesk in new york" isprenominal="false" pos="nnp nnp in dt nnp nn in nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_15..word_20" sentenceid="2" label="np" min_ids="word_15..word_17" type="chunk" lemmata="the cnnfn newsdesk in new york" isprenominal="false" pos="dt nnp nn in nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_16" sentenceid="2" label="organization" type="enamex" lemmata="cnnfn" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_19..word_20" sentenceid="2" label="location" min_ids="word_19..word_20" type="enamex" lemmata="new york" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_22..word_24" sentenceid="3" label="np" min_ids="word_22..word_23" type="chunk" lemmata="the nation 's" isprenominal="false" pos="dt nn pos" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_22..word_30" sentenceid="3" label="np" min_ids="word_22..word_30" type="chunk" lemmata="the nation 's second biggest long distance phone company" isprenominal="false" pos="dt nn pos rb jjs jj nn nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_25" sentenceid="3" label="percent" type="enamex" lemmata="second" isprenominal="false" pos="rb" speaker="-" mmax_level="markable" />
+<markable id="markable_38" span="word_32" sentenceid="3" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_32..word_35" sentenceid="3" label="np" min_ids="word_32..word_35" type="chunk" lemmata="its revenue and profit" isprenominal="false" pos="prp$ nn cc nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_36..word_37" sentenceid="3" label="np" min_ids="word_36..word_37" type="chunk" lemmata="growth outlook" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_39..word_40" sentenceid="3" label="date" min_ids="word_39..word_40" type="enamex" lemmata="next year" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_42" sentenceid="4" label="np" min_ids="word_42..word_42" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_44..word_45" sentenceid="4" label="np" min_ids="word_44..word_45" type="chunk" lemmata="competitive pressure" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_44..word_48" sentenceid="4" label="np" min_ids="word_44..word_48" type="chunk" lemmata="competitive pressure and increase expense" isprenominal="false" pos="jj nns cc vbn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_47..word_48" sentenceid="4" label="np" min_ids="word_47..word_48" type="chunk" lemmata="increase expense" isprenominal="false" pos="vbn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_50" sentenceid="5" label="organization" min_ids="word_50..word_50" type="enamex" lemmata="worldcom" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_39" span="word_53" sentenceid="5" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_53..word_62" sentenceid="5" label="np" min_ids="word_53..word_54" type="chunk" lemmata="its restructuring of the company and create two tracking stock" isprenominal="false" pos="prp$ nn in dt nn cc vbg cd nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_56..word_57" sentenceid="5" label="np" min_ids="word_56..word_57" type="chunk" lemmata="the company" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_56..word_62" sentenceid="5" label="np" min_ids="word_56..word_62" type="chunk" lemmata="the company and create two tracking stock" isprenominal="false" pos="dt nn cc vbg cd nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_60" sentenceid="5" label="percent" type="enamex" lemmata="two" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_60..word_62" sentenceid="5" label="np" min_ids="word_60..word_62" type="chunk" lemmata="two tracking stock" isprenominal="false" pos="cd nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_66" sentenceid="6" label="organization" min_ids="word_66..word_66" type="enamex" lemmata="worldcom" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_69..word_72" sentenceid="6" label="np" min_ids="word_69..word_72" type="chunk" lemmata="the faster growing datum" isprenominal="false" pos="dt jjr nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_69..word_75" sentenceid="6" label="np" min_ids="word_69..word_75" type="chunk" lemmata="the faster growing datum and internet business" isprenominal="false" pos="dt jjr nn nns cc nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_74..word_75" sentenceid="6" label="np" min_ids="word_74..word_75" type="chunk" lemmata="internet business" isprenominal="false" pos="nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_77..word_82" sentenceid="7" label="np" min_ids="word_77..word_78" type="chunk" lemmata="the other , call mci ," isprenominal="false" pos="dt jj , vbn nnp ," speaker="-" mmax_level="markable" />
+<markable id="markable_34" span="word_81" sentenceid="7" label="organization" min_ids="word_81..word_81" type="enamex" lemmata="mci" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_85..word_87" sentenceid="7" label="np" min_ids="word_85..word_86" type="chunk" lemmata="the company 's" isprenominal="false" pos="dt nn pos" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_85..word_90" sentenceid="7" label="np" min_ids="word_85..word_90" type="chunk" lemmata="the company 's long distance unit" isprenominal="false" pos="dt nn pos jj nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_35" span="word_92..word_93" sentenceid="8" label="organization" min_ids="word_92..word_92" type="enamex" lemmata="worldcom 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_92..word_97" sentenceid="8" label="np" min_ids="word_92..word_94" type="chunk" lemmata="worldcom 's rival , at&amp;amp;t ," isprenominal="false" pos="nnp pos nn , nnp ," speaker="-" mmax_level="markable" />
+<markable id="markable_36" span="word_96" sentenceid="8" label="organization" min_ids="word_96..word_96" type="enamex" lemmata="at&amp;amp;t" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_99..word_102" sentenceid="8" label="np" min_ids="word_99..word_102" type="chunk" lemmata="a similar restructure plan" isprenominal="false" pos="dt jj vbg nn" speaker="-" mmax_level="markable" />
+<markable id="markable_37" span="word_103..word_104" sentenceid="8" label="date" min_ids="word_103..word_104" type="enamex" lemmata="last week" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+</markables>

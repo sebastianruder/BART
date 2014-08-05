@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_2" tag="(S1 (INTJ (UH %huh) (. ?)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_3..word_5" tag="(S1 (SBARQ (WHNP (WP What) (NN price)) (. ?)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_6..word_16" tag="(S1 (FRAG (INTJ (UH %uh)) (, ,) (ADJP (RB free) (JJ Free)) (, !) (SBAR (WHNP (WDT which)) (S (VP (VBZ is) (ADJP (RB even) (JJR better))))) (, ,) (INTJ (UH yes))))" mmax_level="parse" />
+<markable id="markable_10004" span="word_17..word_18" tag="(S1 (INTJ (UH Wow) (. .)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_19..word_20" tag="(S1 (INTJ (UH mhm) (. .)))" mmax_level="parse" />
+<markable id="markable_10006" span="word_21..word_25" tag="(S1 (SBARQ (CC But) (WHNP (WP what)) (FRAG (PP (IN about) (NP (PRP you)))) (. ?)))" mmax_level="parse" />
+<markable id="markable_10007" span="word_26..word_34" tag="(S1 (S (INTJ (UH %uh)) (, ,) (ADVP (RB then)) (NP (PRP I)) (VP (MD 'll) (VP (VB work) (PP (IN on) (NP (PRP me))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10008" span="word_35..word_53" tag="(S1 (FRAG (INTJ (UH %uh)) (PP (IN because) (S (VP (VBP see) (SBAR (IN if) (S (NP (PRP I)) (VP (VB do) (RB n't) (VP (VB get) (PRT (RP back)) (INTJ (UH %uh)) (SBAR (IN like) (S (NP (JJ next) (NN week)) (NP (PRP it)) (VP (VBZ 's) (NP (DT no) (JJ big) (NN deal)))))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10009" span="word_54..word_59" tag="(S1 (S (NP (PRP I)) (VP (MD could) (ADVP (RB just)) (VP (VB stay) (ADVP (RB here)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10010" span="word_60..word_67" tag="(S1 (S (ADVP (RB So)) (NP (PRP it)) (VP (VBZ 's) (RB not) (ADJP (JJ important) (PP (IN for) (NP (PRP me))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10011" span="word_68..word_69" tag="(S1 (INTJ (UH Right) (. .)))" mmax_level="parse" />
+<markable id="markable_10012" span="word_70..word_72" tag="(S1 (S (NP (PRP You)) (VP (VBP see)) (. ?)))" mmax_level="parse" />
+<markable id="markable_10013" span="word_73..word_82" tag="(S1 (S (CC So) (NP (DT the) (JJ main) (NN thing)) (VP (VBZ is) (S (VP (TO to) (VP (VB get) (NP (PRP$ your) (NN deal)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10014" span="word_83..word_90" tag="(S1 (S (ADVP (RB So)) (NP (PRP you)) (VP (MD might) (RB not) (VP (VB come) (ADVP (RB back)) (ADVP (RB here)))) (. ?)))" mmax_level="parse" />
+<markable id="markable_10015" span="word_91..word_92" tag="(S1 (INTJ (UH Right) (. .)))" mmax_level="parse" />
+<markable id="markable_10016" span="word_93..word_95" tag="(S1 (S (VP (VBP Got) (NP (PRP you))) (. .)))" mmax_level="parse" />
+<markable id="markable_10017" span="word_96..word_108" tag="(S1 (S (INTJ (UH See)) (NP (PRP I)) (VP (VBP 'm) (RB only) (VP (VB be) (ADVP (RB there)) (PP (IN for) (NP (QP (IN like) (CD three) (CC or) (CD four)) (NNS days))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10018" span="word_109..word_110" tag="(S1 (INTJ (UH Right) (. .)))" mmax_level="parse" />
+<markable id="markable_10019" span="word_111..word_134" tag="(S1 (S (ADVP (RB So)) (PRN (S (NP (PRP I)) (VP (VBP mean) (SBAR (IN if) (S (NP (PRP it)) (VP (VBZ 's) (VP (VBG going) (S (VP (TO to) (VP (VB cost) (NP (PRP me)) (NP (NP (DT an) (NN arm)) (CC and) (NP (DT a) (NN leg))))))))))))) (NP (PRP it)) (VP (VBZ 's) (ADJP (JJR cheaper)) (SBAR (IN if) (S (NP (PRP I)) (ADVP (RB just)) (VP (VB stay) (ADVP (RB here)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10020" span="word_135..word_136" tag="(S1 (INTJ (UH Right) (. .)))" mmax_level="parse" />
+<markable id="markable_10021" span="word_137..word_141" tag="(S1 (S (IN So) (NP (PRP you)) (VP (VBP do) (RB n't) (VP (VB need)))))" mmax_level="parse" />
+<markable id="markable_10022" span="word_142..word_153" tag="(S1 (FRAG (SBAR (IN Because) (S (NP (PRP I)) (VP (VP (VBP do) (RB n't) (VP (VB have) (S (VP (TO to) (VP (VB do) (NP (NN anything))))))) (CC but) (VP (VBP work) (NP (DT that) (NN day))))))))" mmax_level="parse" />
+<markable id="markable_10023" span="word_154..word_155" tag="(S1 (ADVP (RB so) (. .)))" mmax_level="parse" />
+<markable id="markable_10024" span="word_156..word_157" tag="(S1 (INTJ (UH Right) (. .)))" mmax_level="parse" />
+<markable id="markable_10025" span="word_158..word_165" tag="(S1 (SBARQ (INTJ (UH Well)) (WHNP (WP what)) (SQ (VP (VBZ happens) (PP (IN to) (NP (PRP$ your) (NN work))) (ADVP (RB then)))) (. ?)))" mmax_level="parse" />
+<markable id="markable_10026" span="word_166..word_173" tag="(S1 (S (INTJ (UH Well)) (NP (PRP I)) (ADVP (RB just)) (VP (MD wo) (RB n't) (VP (VB do) (NP (PRP it)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10027" span="word_174..word_215" tag="(S1 (S (CC But) (NP (PRP I)) (VP (VBP mean) (SBAR (S (SBAR (IN if) (S (NP (PRP I)) (VP (VBP have) (S (VP (TO to) (VP (VB pay) (SBAR (S (NP (PRP you)) (VP (VBP know)))))))))) (, ,) (NP (NP (QP (DT a) (CD thousand)) (NNS dollars)) (SBAR (S (NP (PRP it)) (VP (VBZ 's) (RB not) (ADJP (JJ expeditious)) (S (VP (TO to) (VP (VB make) (NP (NP (QP (DT a) (CD thousand))) (PRN (S (CC and) (NP (DT That)) (VP (VBZ 's) (NP (DT a) (JJ big) (NN word))) (. .))) (S (NP (DT Those) (NNS crosswords)) (VP (VBP are) (VP (VBG making) (S (NP (PRP you)) (VP (VB use) (NP (JJ big) (NNS words)))))) (. .)))))))))) (VP (VBP pay) (NP (QP (DT a) (CD thousand))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10028" span="word_216..word_221" tag="(S1 (SQ (VBZ Is) (NP (DT that)) (SBAR (WHNP (WP what)) (S (NP (PRP it)) (VP (VBZ is)))) (. ?)))" mmax_level="parse" />
+<markable id="markable_10029" span="word_222..word_224" tag="(S1 (S (VP (VBG Getting) (ADJP (JJR better))) (. ?)))" mmax_level="parse" />
+<markable id="markable_10030" span="word_225..word_226" tag="(S1 (INTJ (UH uh-huh) (. .)))" mmax_level="parse" />
+<markable id="markable_10031" span="word_227..word_228" tag="(S1 (INTJ (UH mhm) (. %hm)))" mmax_level="parse" />
+<markable id="markable_10032" span="word_229..word_233" tag="(S1 (S (NP (DT That)) (VP (VBZ 's) (NP (DT the) (NN purpose))) (. .)))" mmax_level="parse" />
+<markable id="markable_10033" span="word_234..word_235" tag="(S1 (INTJ (UH uh-huh) (. .)))" mmax_level="parse" />
+<markable id="markable_10034" span="word_236..word_240" tag="(S1 (S (VP (VB Increase) (NP (PRP$ your) (NN word) (NN power))) (. .)))" mmax_level="parse" />
+<markable id="markable_10035" span="word_241..word_242" tag="(S1 (INTJ (UH mhm) (. .)))" mmax_level="parse" />
+<markable id="markable_10036" span="word_243..word_253" tag="(S1 (S (CC So) (ADVP (RB %um)) (INTJ (UH Well)) (NP (PRP you)) (VP (VBP know) (SBAR (IN that) (S (VP (MD would) (VP (VB be) (NP (DT the) (NN thing))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10037" span="word_254..word_259" tag="(S1 (FRAG (S (NP (PRP I)) (VP (VBP mean) (SBAR (S (NP (EX there)) (VP (VBZ 's) (NP (DT no) (NN way)))))))))" mmax_level="parse" />
+<markable id="markable_10038" span="word_260..word_294" tag="(S1 (S (NP (PRP I)) (VP (VBP 'm) (ADJP (JJ sure) (SBAR (S (NP (PRP you)) (VP (VBP 're) (RB not) (VP (VBG going) (S (VP (TO to) (VP (VB get) (ADVP (RB back)) (PRN (S (INTJ (UH %uh)) (NP (PRP you)) (VP (VBP know) (PP (IN within) (NP (DT a) (NN day) (QP (CC or) (CD two)))) (PP (IN of) (NP (DT the) (NN time)))) (. .))) (SBAR (S (NP (PRP You)) (VP (VBP know) (SBAR (IN because) (S (NP (EX there)) (VP (VBP 're) (NP (NP (QP (CD eighteen) (CD hundred)) (NNS flights)) (INTJ (UH %uh)) (SBAR (WHNP (WDT that)) (S (VP (VBP go) (ADVP (RB back))))))))))))))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10039" span="word_295..word_300" tag="(S1 (S (NP (PRP I)) (VP (VBP 'm) (RB not) (PP (IN on) (NP (NNP American)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10040" span="word_301..word_303" tag="(S1 (FRAG (ADVP (RB On)) (NP (NNP American)) (. .)))" mmax_level="parse" />
+<markable id="markable_10041" span="word_304..word_306" tag="(S1 (FRAG (ADVP (RB On)) (NP (NNP American)) (. .)))" mmax_level="parse" />
+<markable id="markable_10042" span="word_307..word_311" tag="(S1 (S (NP (PRP They)) (VP (VBP go) (PP (IN from) (NP (NNP London)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10043" span="word_312..word_319" tag="(S1 (S (INTJ (UH oh)) (NP (DT this)) (VP (VBZ is) (NP (NP (DT a) (NN flight)) (PP (IN to) (NP (NNP London))))) (. ?)))" mmax_level="parse" />
+<markable id="markable_10044" span="word_320..word_321" tag="(S1 (INTJ (UH Right) (. .)))" mmax_level="parse" />
+<markable id="markable_10045" span="word_322..word_324" tag="(S1 (S (NP (PRP I)) (VP (VBP see)) (. .)))" mmax_level="parse" />
+<markable id="markable_10046" span="word_325..word_326" tag="(S1 (INTJ (UH Right) (. .)))" mmax_level="parse" />
+<markable id="markable_10047" span="word_327..word_336" tag="(S1 (S (CC And) (ADVP (RB then)) (INTJ (UH %uh)) (ADVP (RB just)) (VP (VB get) (NP (NP (DT the) (NN %uh)) (VP (VBG connecting) (NP (NN flight))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10048" span="word_337..word_344" tag="(S1 (SQ (MD Can) (NP (PRP you)) (VP (VB get) (NP (PRP me)) (NP (DT a) (VBG connecting) (NN flight))) (. ?)))" mmax_level="parse" />
+<markable id="markable_10049" span="word_345..word_352" tag="(S1 (S (INTJ (UH Well)) (NP (DT that)) (VP (MD should) (RB n't) (VP (VB be) (NP (DT a) (NN problem)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10050" span="word_353..word_360" tag="(S1 (S (NP (NNP Susan)) (VP (VBD said) (SBAR (S (NP (EX there)) (VP (VBZ 's) (NP (DT no) (NN inter-Europe) (NNS flights)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10051" span="word_361..word_362" tag="(S1 (INTJ (UH Right) (. .)))" mmax_level="parse" />
+<markable id="markable_10052" span="word_363..word_364" tag="(S1 (INTJ (UH Right) (. .)))" mmax_level="parse" />
+<markable id="markable_10053" span="word_365..word_366" tag="(S1 (INTJ (UH No) (, ,)))" mmax_level="parse" />
+<markable id="markable_10054" span="word_367..word_375" tag="(S1 (S (NP (PRP I)) (VP (MD can) (VP (VB go) (ADVP (RB down)) (PP (IN to) (NP (NP (DT the) (NN place)) (ADVP (RB here)) (CC and)))))))" mmax_level="parse" />
+<markable id="markable_10055" span="word_376..word_377" tag="(S1 (INTJ (UH Sure) (. .)))" mmax_level="parse" />
+<markable id="markable_10056" span="word_378..word_379" tag="(S1 (INTJ (UH Sure) (. .)))" mmax_level="parse" />
+<markable id="markable_10057" span="word_380..word_389" tag="(S1 (S (INTJ (UH %uh)) (INTJ (UH %uh)) (NP (NN nothing)) (VP (VBZ 's) (INTJ (UH %uh) (UH %uh)) (ADJP (JJ possible) (PP (IN with) (NP (NNP Susan))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10058" span="word_390..word_391" tag="(S1 (INTJ (UH No) (, ,)))" mmax_level="parse" />
+<markable id="markable_10059" span="word_392..word_413" tag="(S1 (S (NP (NP (NN everybody)) (SBAR (WHNP (WP who)) (S (VP (VBZ does) (RB n't) (VP (VB have) (NP (DT a) (NN ticket)) (ADVP (NP (DT a) (NN month)) (RB ago))))))) (VP (VBZ is) (RB not) (VP (VBG going) (S (VP (TO to) (VP (VB fly) (PP (IN for) (NP (NP (DT the) (NN rest)) (PP (IN of) (NP (DT the) (NN year)))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10060" span="word_414..word_428" tag="(S1 (S (CC So) (NP (PRP you)) (VP (VBP do) (RB n't) (VP (VB want) (NP (NP (DT a) (NN ticket)) (PP (IN to) (NP (NNP Milan)))) (, ,) (PP (IN for) (NP (QP (CD nine) (CD hundred)) (NNS dollars))))) (. ?)))" mmax_level="parse" />
+<markable id="markable_10061" span="word_429..word_435" tag="(S1 (S (INTJ (UH Well)) (ADVP (RB again)) (NP (DT that)) (VP (VBZ 's) (NP (DT the) (NN point))) (. .)))" mmax_level="parse" />
+<markable id="markable_10062" span="word_436..word_459" tag="(S1 (S (NP (PRP I)) (VP (VBP mean) (SBAR (IN if) (S (NP (PRP it)) (VP (VBZ 's) (VP (VBG going) (S (VP (TO to) (VP (VB cost) (SBAR (IN that) (INTJ (UH %uh)) (S (NP (PRP It)) (VP (VBZ 's) (ADJP (ADJP (JJR easier) (SBAR (IN for) (S (NP (PRP me)) (ADVP (RB just)) (VP (TO to) (VP (VB get) (NP (PRP yours))))))) (SBAR (IN than) (FRAG (RB not) (VP (VB do) (NP (PRP one))))))))))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10063" span="word_460..word_460" tag="(S1 (FRAG (UH okay)))" mmax_level="parse" />
+<markable id="markable_10064" span="word_461..word_463" tag="(S1 (S (NP (PRP You)) (VP (VBP see)) (. ?)))" mmax_level="parse" />
+<markable id="markable_10065" span="word_464..word_465" tag="(S1 (INTJ (UH mhm) (. .)))" mmax_level="parse" />
+<markable id="markable_10066" span="word_466..word_466" tag="(S1 (FRAG (NP (NNP %um))))" mmax_level="parse" />
+<markable id="markable_10067" span="word_467..word_472" tag="(S1 (S (NP (PRP I)) (VP (VBP 'm) (VP (VBG eating) (NP (DT a) (NN banana)))) (, ,)))" mmax_level="parse" />
+<markable id="markable_10068" span="word_473..word_475" tag="(S1 (S (VP (VB excuse) (NP (PRP me))) (. .)))" mmax_level="parse" />
+<markable id="markable_10069" span="word_476..word_477" tag="(S1 (S (NP (PRP It)) (ADVP (RB just))))" mmax_level="parse" />
+<markable id="markable_10070" span="word_478..word_480" tag="(S1 (S (NP (PRP I)) (VP (VBP see)) (. .)))" mmax_level="parse" />
+<markable id="markable_10071" span="word_481..word_497" tag="(S1 (S (NP (PRP You)) (VP (VBP know) (SBAR (S (NP (PRP it)) (ADVP (RB just) (RB %uh)) (VP (VBZ depends) (PP (IN on) (SBAR (IN if) (S (NP (PRP you)) (VP (MD would) (ADVP (RB just)) (VP (VB like) (S (NP (NP (DT the)) (SBAR (S (NP (PRP you)) (VP (VBP know))))) (VP (VB stand) (ADVP (RB by)))))))))))))))" mmax_level="parse" />
+<markable id="markable_10072" span="word_498..word_500" tag="(S1 (S (NP (DT that)) (VP (VBZ 's) (NP (DT the)))))" mmax_level="parse" />
+<markable id="markable_10073" span="word_501..word_501" tag="(S1 (INTJ (UH Well)))" mmax_level="parse" />
+<markable id="markable_10074" span="word_502..word_507" tag="(S1 (S (NP (PRP You)) (VP (VBP know) (S (VP (TO to) (VP (VB have) (NP (DT a) (XX sh-))))))))" mmax_level="parse" />
+<markable id="markable_10075" span="word_508..word_509" tag="(S1 (S (NP (PRP you)) (VP (VBP know))))" mmax_level="parse" />
+<markable id="markable_10076" span="word_510..word_521" tag="(S1 (S (CC And) (NP (PRP I)) (VP (MD 'd) (VP (VB have) (S (VP (TO to) (VP (VB stand) (ADVP (RB by)) (PP (IN in) (NP (NNP London))) (PP (IN by) (NP (PRP myself)))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10077" span="word_522..word_523" tag="(S1 (INTJ (UH uh-huh) (. .)))" mmax_level="parse" />
+<markable id="markable_10078" span="word_524..word_528" tag="(S1 (FRAG (PP (IN Like) (NP (DT a) (JJ big) (NN girl))) (, ,)))" mmax_level="parse" />
+<markable id="markable_10079" span="word_529..word_530" tag="(S1 (INTJ (UH yes) (. .)))" mmax_level="parse" />
+<markable id="markable_10080" span="word_531..word_532" tag="(S1 (INTJ (UH Yes) (. .)))" mmax_level="parse" />
+<markable id="markable_10081" span="word_533..word_534" tag="(S1 (ADVP (RB Exactly) (. .)))" mmax_level="parse" />
+<markable id="markable_10082" span="word_535..word_537" tag="(S1 (FRAG (CC but) (ADVP (RB exactly)) (. .)))" mmax_level="parse" />
+<markable id="markable_10083" span="word_538..word_542" tag="(S1 (S (NP (DT that)) (VP (VBZ 's) (NP (DT the) (NN thing))) (. .)))" mmax_level="parse" />
+<markable id="markable_10084" span="word_543..word_554" tag="(S1 (S (PRN (S (NP (PRP You)) (VP (VBP know) (SBAR (S (NP (PRP we)) (ADJP (JJ Amazing) (. .)) (S (ADVP (RB just)) (VP (VB pick) (NP (DT a) (NN day))))))))) (INTJ (UH %uh)) (NP (PRP you)) (VP (VBP know))))" mmax_level="parse" />
+<markable id="markable_10085" span="word_555..word_570" tag="(S1 (S (INTJ (UH like)) (ADVP (RB probably)) (NP (NP (DT the) (NNP Tuesday)) (PP (IN like) (NP (DT the) (NN %uh)))) (ADVP (RB first) (PP (IN of) (NP (NNP August)))) (VP (MD would) (VP (VB be) (NP (DT the) (JJS best) (NN time)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10086" span="word_571..word_572" tag="(S1 (INTJ (UH Right) (. .)))" mmax_level="parse" />
+<markable id="markable_10087" span="word_573..word_578" tag="(S1 (FRAG (NP (NNP %um) (NNP Mondays)) (ADVP (RB sometimes)) (NP (NP (NNS people)) (VP (VBG coming) (ADVP (RB back))))))" mmax_level="parse" />
+<markable id="markable_10088" span="word_579..word_588" tag="(S1 (S (CC but) (S (INTJ (UH %uh)) (, ,) (NP (PRP you)) (VP (VBP know) (SBAR (S (NP (NN nobody)) (VP (VBZ leaves) (PP (IN on) (NP (NNPS Tuesdays)))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10089" span="word_589..word_606" tag="(S1 (SQ (INTJ (UH Well)) (VBP do) (NP (PRP you)) (VP (VB think) (SBAR (S (NP (PRP it)) (VP (MD would) (VP (VB be) (ADVP (RBR better)) (S (VP (TO to) (VP (VB come) (PP (IN like))))) (PP (IN on) (NP (DT that) (NNP Friday))) (NP (DT the) (ADJP (CD twenty) (HYPH -) (JJ first))))))))))" mmax_level="parse" />
+<markable id="markable_10090" span="word_607..word_619" tag="(S1 (S (CC and) (ADVP (RB then)) (NP (PRP I)) (VP (MD 'd) (VP (VB be) (ADJP (JJR closer) (PP (IN to) (NP (NP (DT the) (NN middle)) (PP (IN of) (NP (NNP August)))))) (ADVP (RB anyways)))) (. ?)))" mmax_level="parse" />
+<markable id="markable_10091" span="word_620..word_637" tag="(S1 (S (INTJ (UH %uh) (, ,) (UH well)) (PRN (S (NP (PRP I)) (VP (VBP mean) (SQ (MD Can) (NP (PRP we)) (VP (VB do) (NP (DT that))) (. ?))))) (INTJ (UH %mm)) (NP (DT that)) (VP (VBZ 's) (NP (NP (NN something)) (SBAR (S (NP (PRP you)) (VP (MD could) (VP (VB do))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10092" span="word_638..word_645" tag="(S1 (S (INTJ (UH %uh)) (, ,) (NP (PRP you)) (VP (VBP know) (SBAR (S (NP (DT the) (JJ other) (NN thing)) (VP (VBZ is)))))))" mmax_level="parse" />
+<markable id="markable_10093" span="word_646..word_671" tag="(S1 (FRAG (PP (IN Because) (S (SBAR (IN if) (S (NP (PRP you)) (VP (VBP 're) (RB not) (VP (VBG coming) (ADVP (RB anyways)) (ADVP (RB then)))))) (PRN (INTJ (UH Right) (. .))) (NP (PRP I)) (VP (VBP do) (RB n't) (VP (VB have) (S (VP (TO to) (VP (VB fly) (PP (IN with) (NP (PRP you)))))) (SBAR (IN so) (S (NP (PRP I)) (VP (MD could) (ADVP (RB just)) (VP (VB come) (NP (DT that) (NNP Friday)))))))) (. .)))))" mmax_level="parse" />
+<markable id="markable_10094" span="word_672..word_673" tag="(S1 (INTJ (UH Right) (. .)))" mmax_level="parse" />
+<markable id="markable_10095" span="word_674..word_686" tag="(S1 (S (INTJ (UH Well)) (, ,) (NP (DT the) (JJ other) (NN thing)) (VP (VBZ is) (SBAR (IN that) (S (NP (PRP you)) (VP (MD could) (ADVP (RB just)) (VP (VB stay) (ADVP (RBR longer))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10096" span="word_687..word_688" tag="(S1 (INTJ (UH Right) (. .)))" mmax_level="parse" />
+<markable id="markable_10097" span="word_689..word_690" tag="(S1 (ADVP (RB Exactly) (. .)))" mmax_level="parse" />
+<markable id="markable_10098" span="word_691..word_695" tag="(S1 (S (VP (VB Get) (NP (DT a) (JJ short) (NN flight))) (. .)))" mmax_level="parse" />
+<markable id="markable_10099" span="word_696..word_699" tag="(S1 (S (ADVP (RB Just)) (VP (VB stay) (ADVP (RBR longer))) (. .)))" mmax_level="parse" />
+<markable id="markable_10100" span="word_700..word_703" tag="(S1 (INTJ (UH Well) (, ,) (UH yeah) (, ,)))" mmax_level="parse" />
+<markable id="markable_10101" span="word_704..word_704" tag="(S1 (X (CC but)))" mmax_level="parse" />
+<markable id="markable_10102" span="word_705..word_706" tag="(S1 (INTJ (UH mhm) (. .)))" mmax_level="parse" />
+<markable id="markable_10103" span="word_707..word_715" tag="(S1 (S (ADVP (RB Maybe)) (NP (PRP you)) (VP (VBD came) (PP (IN like) (NP (DT the) (CD twenty) (JJ first) (NNS %uh)))) (, ,)))" mmax_level="parse" />
+<markable id="markable_10104" span="word_716..word_726" tag="(S1 (S (NP (PRP It)) (VP (MD would) (VP (VB be) (INTJ (UH %uh)) (NP (DT a) (JJ little)) (PP (IN over) (NP (NP (CD three) (NNS weeks)) (PP (RB instead) (PP (IN of)))))))))" mmax_level="parse" />
+<markable id="markable_10105" span="word_727..word_728" tag="(S1 (INTJ (UH Right) (. .)))" mmax_level="parse" />
+<markable id="markable_10106" span="word_729..word_730" tag="(S1 (INTJ (UH mhm) (. .)))" mmax_level="parse" />
+<markable id="markable_10107" span="word_731..word_738" tag="(S1 (S (NP (PRP I)) (VP (VBP think) (SBAR (S (NP (PRP I)) (VP (MD should) (VP (VB go) (ADVP (RB back) (PP (IN to) (NP (NN work)))))))))))" mmax_level="parse" />
+<markable id="markable_10108" span="word_739..word_752" tag="(S1 (S (CC but) (NP (PRP I)) (VP (VBP think) (SBAR (S (NP (PRP it)) (VP (MD would) (VP (VB be) (ADJP (JJR better)) (SBAR (IN if) (S (NP (PRP I)) (VP (VBD came) (PP (IN on) (NP (DT the) (ADJP (CD twenty) (JJ first))))))))))))))" mmax_level="parse" />
+<markable id="markable_10109" span="word_753..word_756" tag="(S1 (FRAG (NP (NP (DT that) (NN way)) (ADVP (RB then))) (. .)))" mmax_level="parse" />
+<markable id="markable_10110" span="word_757..word_758" tag="(S1 (INTJ (UH uh-huh) (. .)))" mmax_level="parse" />
+<markable id="markable_10111" span="word_759..word_764" tag="(S1 (SBAR (IN If) (S (NP (PRP you)) (VP (MD can) (VP (VB change) (NP (PRP it))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10112" span="word_765..word_771" tag="(S1 (S (INTJ (UH Well)) (NP (PRP I)) (VP (MD can) (ADVP (RB probably)) (VP (VB change) (NP (PRP it)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10113" span="word_772..word_785" tag="(S1 (S (PP (IN Because) (NP (DT that) (NN way))) (INTJ (UH oh)) (. .) (NP (PRP I)) (VP (MD 'll) (VP (VB be) (ADJP (JJR closer) (PP (IN to) (NP (NP (DT the) (NN middle)) (PP (IN of) (NP (NNP August))))))))))" mmax_level="parse" />
+<markable id="markable_10114" span="word_786..word_820" tag="(S1 (S (CC and) (ADVP (RB hopefully)) (SBAR (WHADVP (WRB when)) (S (NP (DT the) (NNS problems)) (VP (VBP arise) (NP (NML (S (PP (IN with) (NP (NNP David) (NNP Steel))) (, ,) (NP (PRP I)) (VP (VBP 'm) (RB not) (VP (VBG going) (S (VP (TO to) (ADVP (RB even)) (VP (VB say) (SBAR (IN if))))))) (. .))) (NN %um))))) (, ,) (NP (PRP I)) (VP (MD can) (VP (VP (VB resolve) (NP (PRP it)) (PP (IN from) (ADVP (RB here)))) (CC and) (RB not) (VP (VB have) (S (NP (PRP it)) (VP (VB ruin) (NP (PRP$ my) (NN vacation))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10115" span="word_821..word_822" tag="(S1 (INTJ (UH uh-huh) (. .)))" mmax_level="parse" />
+<markable id="markable_10116" span="word_823..word_824" tag="(S1 (INTJ (UH Right) (. .)))" mmax_level="parse" />
+<markable id="markable_10117" span="word_825..word_829" tag="(S1 (S (INTJ (UH oh)) (NP (DT that)) (VP (VBZ 's) (ADJP (JJ true))) (. .)))" mmax_level="parse" />
+<markable id="markable_10118" span="word_830..word_841" tag="(S1 (SQ (NP (PRP You)) (VP (VB know) (SBAR (S (NP (PRP I)) (VP (MD 'd) (ADVP (RB rather)) (RB not) (VP (VB have) (S (VP (TO to) (VP (VB be) (VP (VBG doing) (NP (DT that) (NN craziness)))))))))))))" mmax_level="parse" />
+<markable id="markable_10119" span="word_842..word_855" tag="(S1 (S (CC and) (NP (PRP I)) (VP (MD 'd) (ADVP (RB still)) (VP (VB be) (ADVP (RB there)) (PP (IN for) (NP (NNS B) (NML (NML (NNP B) (NNP King)) (CC and) (NML (NNP Etta) (NNP James))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10120" span="word_856..word_866" tag="(S1 (FRAG (INTJ (UH duh)) (, ,) (INTJ (UH duh)) (, ,) (INTJ (UH buh)) (, ,) (INTJ (UH buh)) (, ,) (INTJ (UH duh) (UH duh)) (. .)))" mmax_level="parse" />
+<markable id="markable_10121" span="word_867..word_869" tag="(S1 (FRAG (NP (PRP they)) (ADVP (RB there)) (. ?)))" mmax_level="parse" />
+<markable id="markable_10122" span="word_870..word_871" tag="(S1 (SBARQ (WHNP (WP What)) (. ?)))" mmax_level="parse" />
+<markable id="markable_10123" span="word_872..word_877" tag="(S1 (SBARQ (WHNP (WP What) (NN day)) (SQ (VBP are) (NP (PRP they)) (ADVP (RB here))) (. ?)))" mmax_level="parse" />
+<markable id="markable_10124" span="word_878..word_880" tag="(S1 (S (VP (VB Hold) (PRT (RP on))) (. .)))" mmax_level="parse" />
+<markable id="markable_10125" span="word_881..word_887" tag="(S1 (S (NP (PRP You)) (VP (VBP do) (RB n't) (VP (VB have) (NP (DT the) (NN paper)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10126" span="word_888..word_889" tag="(S1 (INTJ (UH oh) (. .)))" mmax_level="parse" />
+<markable id="markable_10127" span="word_890..word_895" tag="(S1 (S (INTJ (UH Well)) (INTJ (UH no)) (NP (PRP I)) (VP (VBP got) (NP (PRP it))) (. .)))" mmax_level="parse" />
+<markable id="markable_10128" span="word_896..word_897" tag="(S1 (S (NP (PRP I)) (XX g-)))" mmax_level="parse" />
+<markable id="markable_10129" span="word_898..word_904" tag="(S1 (S (INTJ (UH %uh)) (NP (PRP they)) (VP (VBP 're) (ADVP (RB here)) (NP (DT the) (CD twenty) (JJ third)))))" mmax_level="parse" />
+<markable id="markable_10130" span="word_905..word_914" tag="(S1 (S (CC so) (INTJ (UH yeah)) (NP (PRP you)) (VP (MD 'd) (VP (VB get) (ADVP (RB here)) (NP (DT the) (CD twenty) (NN second)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10131" span="word_915..word_918" tag="(S1 (S (NP (PRP It)) (VP (VBZ is) (ADJP (JJ true))) (. .)))" mmax_level="parse" />
+<markable id="markable_10132" span="word_919..word_919" tag="(S1 (FRAG (NP (NNP %um))))" mmax_level="parse" />
+<markable id="markable_10133" span="word_920..word_921" tag="(S1 (S (NP (PRP You)) (VP (VBP know))))" mmax_level="parse" />
+<markable id="markable_10134" span="word_922..word_943" tag="(S1 (S (CC and) (SBAR (IN if) (S (NP (PRP they)) (VP (VBD did) (RB n't) (VP (VB have) (NP (NN room)) (PP (IN on) (NP (DT the) (ADJP (CD twenty) (JJ first)))))))) (NP (PRP I)) (VP (MD could) (VP (VB come) (NP (NP (NP (DT the) (NN twentieth)) (PP (IN by) (NP (PRP myself)))) (NP (QP (DT a) (JJ few)) (NNS days))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10135" span="word_944..word_945" tag="(S1 (INTJ (UH uh-huh) (. .)))" mmax_level="parse" />
+<markable id="markable_10136" span="word_946..word_947" tag="(S1 (INTJ (UH Right) (. .)))" mmax_level="parse" />
+<markable id="markable_10137" span="word_948..word_949" tag="(S1 (INTJ (UH Right) (. .)))" mmax_level="parse" />
+<markable id="markable_10138" span="word_950..word_951" tag="(S1 (INTJ (UH okay) (. .)))" mmax_level="parse" />
+</markables>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_17" sentenceid="1" label="np" min_ids="word_1..word_3" type="chunk" lemmata="a michigan teen who disappear with a convict killer and go on a three - week oddysey" isprenominal="false" pos="dt nnp nn wp vbd in dt vbn nn cc vbd in dt cd hyph nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_2" sentenceid="1" label="location" type="enamex" lemmata="michigan" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_7..word_9" sentenceid="1" label="np" min_ids="word_7..word_9" type="chunk" lemmata="a convict killer" isprenominal="false" pos="dt vbn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_13..word_17" sentenceid="1" label="np" min_ids="word_13..word_17" type="chunk" lemmata="a three - week oddysey" isprenominal="false" pos="dt cd hyph nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_14..word_16" sentenceid="1" label="date" type="enamex" lemmata="three - week" isprenominal="false" pos="cd hyph nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_20..word_23" sentenceid="1" label="np" min_ids="word_20..word_20" type="chunk" lemmata="trouble with the law" isprenominal="false" pos="nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_22..word_23" sentenceid="1" label="np" min_ids="word_22..word_23" type="chunk" lemmata="the law" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_24" sentenceid="1" label="np" min_ids="word_24..word_24" type="chunk" lemmata="tonight" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_26" sentenceid="2" label="np" min_ids="word_26..word_26" type="chunk" lemmata="prosecutors" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_28..word_29" sentenceid="2" label="person" min_ids="word_28..word_29" type="enamex" lemmata="lindsey ryan" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_32" sentenceid="2" label="np" min_ids="word_32..word_32" type="chunk" lemmata="firearm" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_34" sentenceid="2" label="np" type="chunk" lemmata="she" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_34..word_36" sentenceid="2" label="np" min_ids="word_34..word_36" type="chunk" lemmata="she parent '" isprenominal="false" pos="prp$ nns pos" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_34..word_37" sentenceid="2" label="np" min_ids="word_34..word_37" type="chunk" lemmata="she parent ' home" isprenominal="false" pos="prp$ nns pos nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_39" sentenceid="3" label="np" min_ids="word_39..word_39" type="chunk" lemmata="police" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_43..word_44" sentenceid="3" label="percent" min_ids="word_44..word_44" type="enamex" lemmata="the two" isprenominal="false" pos="dt cd" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_46" sentenceid="3" label="location" min_ids="word_46..word_46" type="enamex" lemmata="california" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_48..word_52" sentenceid="4" label="date" type="enamex" lemmata="56 - year - old" isprenominal="false" pos="cd hyph nn hyph jj" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_48..word_54" sentenceid="4" label="person" min_ids="word_48..word_54" type="enamex" lemmata="56 - year - old forry drake" isprenominal="false" pos="cd hyph nn hyph jj nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_59..word_63" sentenceid="4" label="np" min_ids="word_59..word_60" type="chunk" lemmata="interstate transport of a minor" isprenominal="false" pos="jj nn in dt jj" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_62..word_63" sentenceid="4" label="np" min_ids="word_62..word_63" type="chunk" lemmata="a minor" isprenominal="false" pos="dt jj" speaker="-" mmax_level="markable" />
+</markables>

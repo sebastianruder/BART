@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_11" span="word_1" sentenceid="1" label="organization" type="enamex" lemmata="un" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_1..word_5" sentenceid="1" label="person" min_ids="word_1..word_5" type="enamex" lemmata="un secretary general kofi annan" isprenominal="false" pos="nnp nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_7..word_19" sentenceid="1" label="np" min_ids="word_7..word_9" type="chunk" lemmata="the aids epidemic that have kill an estimate 14 million people in africa" isprenominal="false" pos="dt nnp nn wdt vbz vbd dt vbn cd cd nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_13..word_16" sentenceid="1" label="percent" type="enamex" lemmata="an estimate 14 million" isprenominal="false" pos="dt vbn cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_13..word_17" sentenceid="1" label="np" min_ids="word_13..word_17" type="chunk" lemmata="an estimate 14 million people" isprenominal="false" pos="dt vbn cd cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_19" sentenceid="1" label="location" min_ids="word_19..word_19" type="enamex" lemmata="africa" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_22..word_28" sentenceid="1" label="np" min_ids="word_22..word_23" type="chunk" lemmata="a test of leadership on the continent" isprenominal="false" pos="dt nn in nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_25" sentenceid="1" label="np" min_ids="word_25..word_25" type="chunk" lemmata="leadership" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_27..word_28" sentenceid="1" label="np" min_ids="word_27..word_28" type="chunk" lemmata="the continent" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_30..word_31" sentenceid="2" label="person" min_ids="word_30..word_31" type="enamex" lemmata="mr. annan" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_33..word_42" sentenceid="2" label="np" min_ids="word_33..word_34" type="chunk" lemmata="the conference of african leader in addis ababa , ethiopia" isprenominal="false" pos="dt nn in jj nns in nnp nnp , nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_36" sentenceid="2" label="location" type="enamex" lemmata="african" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_36..word_37" sentenceid="2" label="np" min_ids="word_36..word_37" type="chunk" lemmata="african leader" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_39..word_42" sentenceid="2" label="location" min_ids="word_39..word_40" type="enamex" lemmata="addis ababa , ethiopia" isprenominal="false" pos="nnp nnp , nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_42" sentenceid="2" label="location" min_ids="word_42..word_42" type="enamex" lemmata="ethiopia" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_44..word_48" sentenceid="2" label="np" min_ids="word_44..word_45" type="chunk" lemmata="the spread of hiv aids" isprenominal="false" pos="dt nn in nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_47..word_48" sentenceid="2" label="np" min_ids="word_47..word_48" type="chunk" lemmata="hiv aids" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_53..word_54" sentenceid="2" label="np" min_ids="word_53..word_54" type="chunk" lemmata="future generation" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_60..word_61" sentenceid="2" label="np" min_ids="word_60..word_61" type="chunk" lemmata="the virus" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+</markables>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_4" tag="(S1 (NP (ADJP (RB Well) (HYPH -) (JJ Seasoned)) (NN Reasoning)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_5..word_29" tag="(S1 (S (-LRB- -LRB-) (`` ``) (NP (NNP Food) (NN manufacturer)) (VP (VBZ changes) (VP (VBG spelling) (PP (IN of) (`` `) (NP (NN catsup)) ('' ')) (PP (IN to) (NP (`` `) (NP (NN ketchup)) (, ,) ('' ') (VP (VBG saying) (SBAR (S (NP (DT that)) (VP (VBZ 's) (SBAR (S (NP (DT the) (VBG spelling) (NNS people)) (ADVP (RB now)) (VP (VBP prefer)))))))))))) (. .) ('' '')))" mmax_level="parse" />
+<markable id="markable_10003" span="word_30..word_34" tag="(S1 (PRN (: --) (NP (NML (NNP WSJ) (NNP Business)) (NN Bulletin)) (-RRB- -RRB-)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_35..word_61" tag="(S1 (S (S (NP (JJ Public) (NN preference)) (VP (VBZ is) (ADJP (JJ important)))) (, ,) (CC So) (S (NP (NN product) (NNS names)) (VP (MD should) (VP (VB match) (PRT (RP up)) (, ,) (NAC (CC And) (NP (NP (NNS firms)) (SBAR (WHNP (WDT that)) (S (VP (VBP find) (SBAR (S (NP (PRP they)) (VP (VBP 're) (VP (VBG lagging) (PP (IN behind) (S (VP (MD Should) (ADVP (RB now)) (VP (VB take) (NP (NNS steps)) (PP (IN to) (NP (NN ketchup))))))))))))))))))) (. !)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_62..word_66" tag="(S1 (NP (: --) (NNP George) (NNP O.) (NNP Ludcke) (. .)))" mmax_level="parse" />
+<markable id="markable_10006" span="word_67..word_68" tag="(S1 (FRAG (NP (NNP Judge) (NNP Not))))" mmax_level="parse" />
+<markable id="markable_10007" span="word_69..word_86" tag="(S1 (SBAR (WHADJP (WRB How) (JJ easy)) (S (NP (PRP it)) (VP (VBZ is) (S (VP (TO To) (VP (VB attack) (NP (NP (NNS others) (POS ')) (NNS views)) (PP (IN Without) (S (ADVP (RB ever)) (VP (VBG setting) (NP (NP (DT A) (NN foot)) (PP (IN in) (NP (PRP$ their) (NNS shoes)))))))))))) (. !)))" mmax_level="parse" />
+<markable id="markable_10008" span="word_87..word_91" tag="(S1 (NP (: --) (NNP G.) (NNP Sterling) (NNP Leiby) (. .)))" mmax_level="parse" />
+<markable id="markable_10009" span="word_92..word_92" tag="(S1 (NP (NN Daffynition)))" mmax_level="parse" />
+<markable id="markable_10010" span="word_93..word_101" tag="(S1 (NP (NP (ADJP (NN Money) (HYPH -) (VBG making)) (NN course)) (: :) (NP (NN wad) (HYPH -) (VBG working)) (. .)))" mmax_level="parse" />
+<markable id="markable_10011" span="word_102..word_105" tag="(S1 (NP (: --) (NNP Thomas) (NNP Henry) (. .)))" mmax_level="parse" />
+</markables>

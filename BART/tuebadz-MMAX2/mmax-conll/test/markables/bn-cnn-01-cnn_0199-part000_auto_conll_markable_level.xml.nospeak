@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_3" sentenceid="1" label="np" min_ids="word_1..word_1" type="chunk" lemmata="lawyers in texas" isprenominal="false" pos="nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_3" sentenceid="1" label="location" min_ids="word_3..word_3" type="enamex" lemmata="texas" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_8" sentenceid="1" label="np" type="chunk" lemmata="their" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_8..word_9" sentenceid="1" label="np" min_ids="word_8..word_9" type="chunk" lemmata="their client" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_12..word_26" sentenceid="1" label="np" min_ids="word_12..word_14" type="chunk" lemmata="the 300th person execute in the state since 1982 , when texas resume capital punishment" isprenominal="false" pos="dt jj nn vbn in dt nn in cd , wrb nnp vbd jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_13" sentenceid="1" label="percent" type="enamex" lemmata="300th" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_17..word_26" sentenceid="1" label="np" min_ids="word_17..word_18" type="chunk" lemmata="the state since 1982 , when texas resume capital punishment" isprenominal="false" pos="dt nn in cd , wrb nnp vbd jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_20..word_26" sentenceid="1" label="date" min_ids="word_20..word_20" type="enamex" lemmata="1982 , when texas resume capital punishment" isprenominal="false" pos="cd , wrb nnp vbd jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_23" sentenceid="1" label="location" min_ids="word_23..word_23" type="enamex" lemmata="texas" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_25..word_26" sentenceid="1" label="np" min_ids="word_25..word_26" type="chunk" lemmata="capital punishment" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_28" sentenceid="2" label="np" min_ids="word_28..word_28" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_31..word_33" sentenceid="2" label="organization" min_ids="word_31..word_33" type="enamex" lemmata="the supreme court" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_36..word_37" sentenceid="2" label="time" min_ids="word_36..word_36" type="enamex" lemmata="tonight 's" isprenominal="false" pos="nn pos" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_36..word_42" sentenceid="2" label="np" min_ids="word_36..word_39" type="chunk" lemmata="tonight 's scheduled execution of delma banks" isprenominal="false" pos="nn pos jj nn in nnp nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_41..word_42" sentenceid="2" label="organization" min_ids="word_41..word_42" type="enamex" lemmata="delma banks" isprenominal="false" pos="nnp nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_44" sentenceid="3" label="np" min_ids="word_44..word_44" type="chunk" lemmata="banks" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_51..word_56" sentenceid="3" label="date" min_ids="word_52..word_56" type="enamex" lemmata="a 16 - year - old" isprenominal="false" pos="dt cd hyph nn hyph jj" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_58..word_61" sentenceid="3" label="np" min_ids="word_58..word_59" type="chunk" lemmata="a park in 1980" isprenominal="false" pos="dt nn in cd" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_61" sentenceid="3" label="date" min_ids="word_61..word_61" type="enamex" lemmata="1980" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_63" sentenceid="4" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_63..word_64" sentenceid="4" label="np" min_ids="word_63..word_64" type="chunk" lemmata="his lawyer" isprenominal="false" pos="prp$ nns" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_66" sentenceid="4" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_66..word_68" sentenceid="4" label="np" min_ids="word_66..word_68" type="chunk" lemmata="his trial attorney" isprenominal="false" pos="prp$ nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_70..word_72" sentenceid="4" label="np" min_ids="word_70..word_72" type="chunk" lemmata="a bad job" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_74..word_75" sentenceid="4" label="np" min_ids="word_74..word_75" type="chunk" lemmata="the prosecutor" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_78..word_80" sentenceid="4" label="location" min_ids="word_78..word_80" type="enamex" lemmata="african - americans" isprenominal="false" pos="nnps hyph nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_82" sentenceid="4" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_82..word_83" sentenceid="4" label="np" min_ids="word_82..word_83" type="chunk" lemmata="his jury" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_85" sentenceid="5" label="np" min_ids="word_85..word_85" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_88..word_97" sentenceid="5" label="np" min_ids="word_88..word_90" type="chunk" lemmata="the 11th killer put to death in texas this year" isprenominal="false" pos="dt jj nn vbn in nn in nnp dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_89" sentenceid="5" label="date" type="enamex" lemmata="11th" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_93" sentenceid="5" label="np" min_ids="word_93..word_93" type="chunk" lemmata="death" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_95" sentenceid="5" label="location" min_ids="word_95..word_95" type="enamex" lemmata="texas" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_96..word_97" sentenceid="5" label="date" min_ids="word_96..word_97" type="enamex" lemmata="this year" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+</markables>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_5" span="word_1..word_2" sentenceid="1" label="person" min_ids="word_1..word_2" type="enamex" lemmata="president clinton" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_1..word_7" sentenceid="1" label="np" min_ids="word_1..word_7" type="chunk" lemmata="president clinton and the democratic presidential candidate" isprenominal="false" pos="nnp nnp cc dt jj jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_4..word_7" sentenceid="1" label="np" min_ids="word_4..word_7" type="chunk" lemmata="the democratic presidential candidate" isprenominal="false" pos="dt jj jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_5" sentenceid="1" label="location" type="enamex" lemmata="democratic" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_10..word_32" sentenceid="1" label="percent" min_ids="word_10..word_10" type="enamex" lemmata="thousand of mourner who gather in missouri at a memorial service for democratic governor mel carnahan who die monday in a plane crash" isprenominal="false" pos="nns in nns wp vbd in nnp in dt jj nn in nnp nnp nnp nnp wp vbd nnp in dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_12..word_32" sentenceid="1" label="np" min_ids="word_12..word_12" type="chunk" lemmata="mourner who gather in missouri at a memorial service for democratic governor mel carnahan who die monday in a plane crash" isprenominal="false" pos="nns wp vbd in nnp in dt jj nn in nnp nnp nnp nnp wp vbd nnp in dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_16" sentenceid="1" label="location" min_ids="word_16..word_16" type="enamex" lemmata="missouri" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_18..word_32" sentenceid="1" label="np" min_ids="word_18..word_20" type="chunk" lemmata="a memorial service for democratic governor mel carnahan who die monday in a plane crash" isprenominal="false" pos="dt jj nn in nnp nnp nnp nnp wp vbd nnp in dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_22" sentenceid="1" label="location" type="enamex" lemmata="democratic" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_22..word_32" sentenceid="1" label="person" min_ids="word_22..word_25" type="enamex" lemmata="democratic governor mel carnahan who die monday in a plane crash" isprenominal="false" pos="nnp nnp nnp nnp wp vbd nnp in dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_28" sentenceid="1" label="date" min_ids="word_28..word_28" type="enamex" lemmata="monday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_30..word_32" sentenceid="1" label="np" min_ids="word_30..word_32" type="chunk" lemmata="a plane crash" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+</markables>

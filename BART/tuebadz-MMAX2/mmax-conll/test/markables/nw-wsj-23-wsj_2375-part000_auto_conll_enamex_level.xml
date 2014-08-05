@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/enamex">
+<markable id="markable_1" span="word_1..word_4" tag="organization" mmax_level="enamex" />
+<markable id="markable_2" span="word_11..word_13" tag="money" mmax_level="enamex" />
+<markable id="markable_3" span="word_19..word_20" tag="location" mmax_level="enamex" />
+<markable id="markable_4" span="word_22..word_22" tag="location" mmax_level="enamex" />
+<markable id="markable_5" span="word_74..word_75" tag="organization" mmax_level="enamex" />
+<markable id="markable_6" span="word_101..word_104" tag="date" mmax_level="enamex" />
+<markable id="markable_7" span="word_106..word_107" tag="organization" mmax_level="enamex" />
+<markable id="markable_8" span="word_118..word_120" tag="organization" mmax_level="enamex" />
+<markable id="markable_9" span="word_122..word_122" tag="location" mmax_level="enamex" />
+<markable id="markable_10" span="word_124..word_124" tag="location" mmax_level="enamex" />
+<markable id="markable_11" span="word_127..word_131" tag="organization" mmax_level="enamex" />
+<markable id="markable_12" span="word_146..word_150" tag="money" mmax_level="enamex" />
+<markable id="markable_13" span="word_163..word_163" tag="person" mmax_level="enamex" />
+<markable id="markable_14" span="word_186..word_187" tag="organization" mmax_level="enamex" />
+<markable id="markable_15" span="word_213..word_213" tag="organization" mmax_level="enamex" />
+<markable id="markable_16" span="word_215..word_217" tag="person" mmax_level="enamex" />
+</markables>

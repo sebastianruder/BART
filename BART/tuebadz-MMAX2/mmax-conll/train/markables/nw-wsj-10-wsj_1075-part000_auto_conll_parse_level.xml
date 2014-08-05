@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_21" tag="(S1 (S (NP (NNP Birmingham) (NNP Steel) (NNP Corp.)) (VP (VBD said) (SBAR (IN that) (S (NP (PRP$ its) (NML (NNP Emeryville) (, ,) (NNP Calif.) (, ,)) (NN minimill)) (VP (VBD sustained) (NP (NP (ADJP (RB only) (JJ minor)) (NN damage)) (PP (IN from) (NP (NP (JJ last) (NN week) (POS 's)) (NN earthquake)))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_22..word_56" tag="(S1 (S (S (NP (NN Steelmaking)) (VP (VBD resumed) (NP (NNP Oct.) (CD 18)))) (, ,) (CC but) (S (NP (DT the) (NN company)) (VP (VP (VBZ expects) (S (NP (NN production)) (VP (TO to) (VP (VB be) (VP (VBN hampered) (PP (IN in) (NP (DT the) (JJ next) (JJ few) (NNS months))) (PP (IN by) (NP (NP (NN traffic) (NNS disruptions)) (PP (IN around) (NP (DT the) (NN plant)))))))))) (CC and) (VP (VBZ outages) (PP (IN for) (NP (NN repair))) (PP (IN to) (NP (NML (UCP (NN gas) (CC and) (JJ electric)) (NN power)) (NNS systems)))))) (. .)))" mmax_level="parse" />
+</markables>

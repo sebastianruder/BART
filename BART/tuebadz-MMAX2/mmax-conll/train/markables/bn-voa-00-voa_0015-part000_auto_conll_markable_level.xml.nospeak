@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_15" span="word_2" sentenceid="1" label="person" min_ids="word_2..word_2" type="enamex" lemmata="dave" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_4..word_8" sentenceid="1" label="percent" min_ids="word_4..word_6" type="enamex" lemmata="ten of thousand of serbs" isprenominal="false" pos="nns in nns in nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_8" sentenceid="1" label="location" min_ids="word_8..word_8" type="enamex" lemmata="serbs" isprenominal="false" pos="nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_12..word_19" sentenceid="1" label="np" min_ids="word_12..word_13" type="chunk" lemmata="the street and town and city throughout yugoslavia" isprenominal="false" pos="dt nns cc nns cc nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_15..word_19" sentenceid="1" label="np" min_ids="word_15..word_17" type="chunk" lemmata="town and city throughout yugoslavia" isprenominal="false" pos="nns cc nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_19" sentenceid="1" label="location" min_ids="word_19..word_19" type="enamex" lemmata="yugoslavia" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_23..word_27" sentenceid="1" label="person" min_ids="word_23..word_27" type="enamex" lemmata="president - elect vojislav kostunica" isprenominal="false" pos="nnp hyph nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_31" sentenceid="1" label="np" min_ids="word_31..word_31" type="chunk" lemmata="office" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_33..word_34" sentenceid="2" label="person" min_ids="word_33..word_34" type="enamex" lemmata="mr. kostunica" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_42..word_45" sentenceid="2" label="date" type="enamex" lemmata="as early as today" isprenominal="false" pos="rb rb in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_45" sentenceid="2" label="np" min_ids="word_45..word_45" type="chunk" lemmata="today" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_47..word_48" sentenceid="3" label="person" min_ids="word_47..word_48" type="enamex" lemmata="president clinton" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_51..word_52" sentenceid="3" label="location" min_ids="word_51..word_51" type="enamex" lemmata="yugoslavia 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_51..word_57" sentenceid="3" label="np" min_ids="word_51..word_54" type="chunk" lemmata="yugoslavia 's popular uprising against slobodan milosevic" isprenominal="false" pos="nnp pos jj nn in nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_56..word_57" sentenceid="3" label="person" min_ids="word_56..word_57" type="enamex" lemmata="slobodan milosevic" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_58..word_64" sentenceid="3" label="np" min_ids="word_58..word_60" type="chunk" lemmata="an extraordinary victory for the serbian people" isprenominal="false" pos="dt jj nn in dt jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_62..word_64" sentenceid="3" label="np" min_ids="word_62..word_64" type="chunk" lemmata="the serbian people" isprenominal="false" pos="dt jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_63" sentenceid="3" label="location" type="enamex" lemmata="serbian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_66" sentenceid="4" label="np" min_ids="word_66..word_66" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_68" sentenceid="4" label="date" min_ids="word_68..word_68" type="enamex" lemmata="friday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_70..word_72" sentenceid="4" label="location" min_ids="word_70..word_72" type="enamex" lemmata="the united states" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_70..word_75" sentenceid="4" label="np" min_ids="word_70..word_75" type="chunk" lemmata="the united states and its ally" isprenominal="false" pos="dt nnp nnp cc prp$ nns" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_74" sentenceid="4" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_74..word_75" sentenceid="4" label="np" min_ids="word_74..word_75" type="chunk" lemmata="its ally" isprenominal="false" pos="prp$ nns" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_81" sentenceid="4" label="np" min_ids="word_81..word_81" type="chunk" lemmata="sanction" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_84" sentenceid="4" label="location" min_ids="word_84..word_84" type="enamex" lemmata="yugoslavia" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_87" sentenceid="4" label="np" min_ids="word_87..word_87" type="chunk" lemmata="isolation" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_89..word_91" sentenceid="5" label="organization" min_ids="word_89..word_91" type="enamex" lemmata="the european community" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_95" sentenceid="5" label="np" min_ids="word_95..word_95" type="chunk" lemmata="sanction" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_99" sentenceid="5" label="date" min_ids="word_99..word_99" type="enamex" lemmata="monday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_101..word_103" sentenceid="6" label="np" min_ids="word_101..word_103" type="chunk" lemmata="most world leader" isprenominal="false" pos="jjs nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_106..word_111" sentenceid="6" label="np" min_ids="word_106..word_107" type="chunk" lemmata="the ouster of president slobodan milosevic" isprenominal="false" pos="dt nn in nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_109..word_111" sentenceid="6" label="person" min_ids="word_109..word_111" type="enamex" lemmata="president slobodan milosevic" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+</markables>

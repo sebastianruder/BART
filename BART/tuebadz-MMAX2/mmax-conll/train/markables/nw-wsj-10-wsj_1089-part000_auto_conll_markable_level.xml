@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_7" span="word_1..word_21" sentenceid="1" label="person" min_ids="word_1..word_3" type="enamex" lemmata="fred d. thompson , a 47 - year - old attorney in private practice in washington and nashville , tenn. ," isprenominal="false" pos="nnp nnp nnp , dt cd hyph nn hyph jj nn in jj nn in nnp cc nnp , nnp ," speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_5..word_20" sentenceid="1" label="np" min_ids="word_5..word_11" type="chunk" lemmata="a 47 - year - old attorney in private practice in washington and nashville , tenn." isprenominal="false" pos="dt cd hyph nn hyph jj nn in jj nn in nnp cc nnp , nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_6..word_10" sentenceid="1" label="date" type="enamex" lemmata="47 - year - old" isprenominal="false" pos="cd hyph nn hyph jj" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_13..word_14" sentenceid="1" label="np" min_ids="word_13..word_14" type="chunk" lemmata="private practice" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_16" sentenceid="1" label="location" min_ids="word_16..word_16" type="enamex" lemmata="washington" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_16..word_20" sentenceid="1" label="location" min_ids="word_16..word_20" type="enamex" lemmata="washington and nashville , tenn." isprenominal="false" pos="nnp cc nnp , nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_18..word_20" sentenceid="1" label="location" min_ids="word_18..word_18" type="enamex" lemmata="nashville , tenn." isprenominal="false" pos="nnp , nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_20" sentenceid="1" label="np" min_ids="word_20..word_20" type="chunk" lemmata="tenn." isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_25..word_32" sentenceid="1" label="np" min_ids="word_25..word_26" type="chunk" lemmata="the board of this engineering and construction company" isprenominal="false" pos="dt nn in dt nn cc nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_28..word_32" sentenceid="1" label="np" min_ids="word_28..word_32" type="chunk" lemmata="this engineering and construction company" isprenominal="false" pos="dt nn cc nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_34..word_35" sentenceid="2" label="np" min_ids="word_34..word_35" type="chunk" lemmata="the board" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_38" sentenceid="2" label="percent" type="enamex" lemmata="11" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_38..word_39" sentenceid="2" label="np" min_ids="word_38..word_39" type="chunk" lemmata="11 seat" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+</markables>

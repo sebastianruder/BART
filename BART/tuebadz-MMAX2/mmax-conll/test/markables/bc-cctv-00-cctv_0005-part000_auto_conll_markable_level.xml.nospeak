@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_4" sentenceid="1" label="np" min_ids="word_4..word_4" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="speaker#1" mmax_level="markable" />
+<markable id="markable_1" span="word_10..word_13" sentenceid="1" label="np" min_ids="word_10..word_13" type="chunk" lemmata="the various relevant party" isprenominal="false" pos="dt jj jj nns" speaker="speaker#1" mmax_level="markable" />
+<markable id="markable_23" span="word_17" sentenceid="2" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="speaker#1" mmax_level="markable" />
+<markable id="markable_2" span="word_17..word_18" sentenceid="2" label="np" min_ids="word_17..word_18" type="chunk" lemmata="its determination" isprenominal="false" pos="prp$ nn" speaker="speaker#1" mmax_level="markable" />
+<markable id="markable_3" span="word_20..word_24" sentenceid="2" label="np" min_ids="word_20..word_24" type="chunk" lemmata="the chinese security regulatory department" isprenominal="false" pos="dt jj nns jj nn" speaker="speaker#1" mmax_level="markable" />
+<markable id="markable_18" span="word_21" sentenceid="2" label="location" type="enamex" lemmata="chinese" isprenominal="false" pos="jj" speaker="speaker#1" mmax_level="markable" />
+<markable id="markable_4" span="word_26..word_28" sentenceid="2" label="np" min_ids="word_26..word_28" type="chunk" lemmata="this stock reform" isprenominal="false" pos="dt nn nn" speaker="speaker#1" mmax_level="markable" />
+<markable id="markable_5" span="word_30..word_35" sentenceid="2" label="np" min_ids="word_30..word_31" type="chunk" lemmata="a die that have be cast" isprenominal="false" pos="dt nn wdt vbz vbn vbn" speaker="speaker#1" mmax_level="markable" />
+<markable id="markable_6" span="word_37" sentenceid="3" label="np" min_ids="word_37..word_37" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="speaker#1" mmax_level="markable" />
+<markable id="markable_7" span="word_43..word_45" sentenceid="3" label="np" min_ids="word_43..word_45" type="chunk" lemmata="the stock reform" isprenominal="false" pos="dt nn nn" speaker="speaker#1" mmax_level="markable" />
+<markable id="markable_8" span="word_49" sentenceid="3" label="np" min_ids="word_49..word_49" type="chunk" lemmata="expectation" isprenominal="false" pos="nns" speaker="speaker#1" mmax_level="markable" />
+<markable id="markable_9" span="word_53..word_60" sentenceid="3" label="np" min_ids="word_53..word_54" type="chunk" lemmata="any deviation that arise during the stock reform" isprenominal="false" pos="dt nns wdt vbp in dt nn nn" speaker="speaker#1" mmax_level="markable" />
+<markable id="markable_10" span="word_58..word_60" sentenceid="3" label="np" min_ids="word_58..word_60" type="chunk" lemmata="the stock reform" isprenominal="false" pos="dt nn nn" speaker="speaker#1" mmax_level="markable" />
+<markable id="markable_11" span="word_66..word_67" sentenceid="4" label="np" min_ids="word_66..word_67" type="chunk" lemmata="dear viewer" isprenominal="false" pos="jj nns" speaker="Xu li" mmax_level="markable" />
+<markable id="markable_12" span="word_69..word_72" sentenceid="4" label="np" min_ids="word_69..word_72" type="chunk" lemmata="the china news program" isprenominal="false" pos="dt nnp nnp nn" speaker="Xu li" mmax_level="markable" />
+<markable id="markable_19" span="word_70..word_71" sentenceid="4" label="organization" type="enamex" lemmata="china news" isprenominal="false" pos="nnp nnp" speaker="Xu li" mmax_level="markable" />
+<markable id="markable_20" span="word_79..word_80" sentenceid="5" label="person" min_ids="word_79..word_80" type="enamex" lemmata="xu li" isprenominal="false" pos="nnp nnp" speaker="Xu li" mmax_level="markable" />
+<markable id="markable_13" span="word_83" sentenceid="6" label="np" min_ids="word_83..word_83" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="Xu li" mmax_level="markable" />
+<markable id="markable_14" span="word_84" sentenceid="6" label="np" min_ids="word_84..word_84" type="chunk" lemmata="everyone" isprenominal="false" pos="nn" speaker="Xu li" mmax_level="markable" />
+<markable id="markable_15" span="word_86" sentenceid="6" label="np" min_ids="word_86..word_86" type="chunk" lemmata="watching" isprenominal="false" pos="nn" speaker="Xu li" mmax_level="markable" />
+<markable id="markable_16" span="word_91..word_98" sentenceid="7" label="np" min_ids="word_91..word_94" type="chunk" lemmata="the focus today program host by wang shilin" isprenominal="false" pos="dt nnp nnp nn vbn in nnp nnp" speaker="Xu li" mmax_level="markable" />
+<markable id="markable_21" span="word_92..word_93" sentenceid="7" label="organization" type="enamex" lemmata="focus today" isprenominal="false" pos="nnp nnp" speaker="Xu li" mmax_level="markable" />
+<markable id="markable_22" span="word_97..word_98" sentenceid="7" label="person" min_ids="word_97..word_98" type="enamex" lemmata="wang shilin" isprenominal="false" pos="nnp nnp" speaker="Xu li" mmax_level="markable" />
+<markable id="markable_17" span="word_102..word_103" sentenceid="8" label="np" min_ids="word_102..word_103" type="chunk" lemmata="dear viewer" isprenominal="false" pos="jj nns" speaker="Xu li" mmax_level="markable" />
+</markables>

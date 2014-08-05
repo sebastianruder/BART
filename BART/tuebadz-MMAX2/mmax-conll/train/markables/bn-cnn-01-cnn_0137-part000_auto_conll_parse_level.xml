@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_14" tag="(S1 (S (NP (NML (NML (NNP South) (NNP Korean)) (NNP President)) (NNP Kim) (NNP Dae) (HYPH -) (NNP jung)) (VP (VBZ has) (VP (VBN accepted) (NP (PRP$ his) (NNP Nobel) (NNP Peace) (NNP Prize)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_15..word_32" tag="(S1 (S (NP (DT The) (NN award)) (VP (VBZ recognizes) (NP (PRP$ his) (NNS efforts) (S (VP (TO to) (VP (VB end) (NP (NP (CD 50) (NNS years)) (PP (IN of) (NP (NP (JJ bad) (NN blood)) (PP (IN between) (NP (NNP North) (CC and) (NNP South) (NNP Korea))))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_33..word_62" tag="(S1 (S (SBAR (IN Though) (S (NP (DT the) (CD two) (NNS countries)) (VP (VBP are) (ADVP (RB still)) (PP (ADVP (RB technically)) (IN at) (NP (NN war)))))) (, ,) (NP (NP (NNP President) (NNP Kim)) (, ,) (NP (DT a) (JJ former) (NN dissident)) (, ,)) (VP (VBD met) (PP (IN with) (NP (NP (PRP$ his) (NML (NNP North) (NNP Korean)) (NN counterpart)) (PP (IN in) (NP (NNP June))))) (S (VP (TO to) (VP (VB move) (PP (IN toward) (NP (NN reconciliation))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_63..word_85" tag="(S1 (S (PP (IN In) (S (VP (VBG accepting) (NP (DT the) (NNP Peace) (NNP Prize))))) (, ,) (NP (DT the) (ADJP (NML (CD 75) (HYPH -) (NN year)) (HYPH -) (JJ old)) (NNP President)) (VP (VBD pledged) (S (VP (TO to) (VP (VB continue) (S (VP (VBG fighting) (PP (IN for) (NP (NP (JJ human) (NNS rights)) (CC and) (NP (NN peace)))))))))) (. .)))" mmax_level="parse" />
+</markables>

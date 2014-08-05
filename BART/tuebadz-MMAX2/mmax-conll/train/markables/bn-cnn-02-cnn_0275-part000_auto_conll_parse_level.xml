@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_4" tag="(S1 (FRAG (NP (NNP Hamburg)) (, ,) (NP (NNP Germany)) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_5..word_16" tag="(S1 (S (NP (NNP Central) (NNP Command)) (VP (VBZ says) (SBAR (S (NP (DT the) (NNPS Iraqis)) (VP (VBD shot) (PRT (RP down)) (NP (DT a) (NN tank) (NN killer)) (NP (NN today)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_17..word_31" tag="(S1 (S (NP (NNS Officials)) (VP (VBP report) (SBAR (IN that) (S (NP (DT the) (NN plane)) (VP (VBD was) (ADVP (RB apparently)) (VP (VBD downed) (PP (IN with) (NP (NP (DT a) (NN surface)) (PP (IN to) (NP (NN air) (NN missile)))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_32..word_43" tag="(S1 (S (NP (PRP It)) (VP (VBD happened) (PP (IN near) (NP (NP (DT the) (NNP Baghdad) (NNP Airport)) (SBAR (WHNP (WDT which)) (S (VP (VBZ is) (PP (IN in) (NP (NNP U.S.) (NNS hands))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_44..word_50" tag="(S1 (S (NP (NN Pilot)) (VP (VBD said) (SBAR (S (NP (PRP they)) (VP (VBP 're) (VP (VBG doing) (ADVP (RB well))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10006" span="word_51..word_53" tag="(S1 (ADVP (RB All) (RB right) (. .)))" mmax_level="parse" />
+<markable id="markable_10007" span="word_54..word_70" tag="(S1 (S (NP (NNP U.S.) (NNPS Marines)) (VP (VP (VBD entered) (NP (JJ southeastern) (NNP Baghdad)) (NP (NN today))) (CC and) (VP (VBD found) (NP (NP (NNS dozens)) (PP (IN of) (NP (NP (NML (NN chemical) (NNS suits)) (NNS masks)) (CC and) (NP (NN atropine) (NNS injecters))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10008" span="word_71..word_78" tag="(S1 (S (NP (PRP They)) (VP (VBD found) (NP (PRP it)) (PP (IN at) (NP (DT an) (JJ industrial) (NN complex)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10009" span="word_79..word_84" tag="(S1 (S (NP (NNP Material)) (VP (VBZ has) (VP (VBN been) (ADVP (RB hastily)) (VP (VBN abandoned)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10010" span="word_85..word_97" tag="(S1 (S (NP (DT The) (JJ Iraqi) (NN government)) (VP (VBZ reports) (SBAR (S (NP (CD 1252) (NNS civilians)) (VP (VBP have) (VP (VBN been) (VP (VBN killed) (PP (IN in) (NP (DT the) (NN war))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10011" span="word_98..word_107" tag="(S1 (S (NP (DT These) (NNS figures)) (VP (VBP come) (PP (IN to) (NP (PRP us))) (PP (IN from) (NP (NML (NNP Abu) (NNP Dhabi)) (NN television)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10012" span="word_108..word_115" tag="(S1 (S (NP (PRP They)) (VP (MD can) (RB not) (VP (VB be) (VP (VBN verified) (PP (IN by) (NP (NNP CNN)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10013" span="word_116..word_129" tag="(S1 (S (NP (DT The) (JJ Iraqi) (NN government)) (VP (VBZ has) (RB not) (VP (VBN released) (NP (NP (DT the) (NN information)) (PP (IN on) (NP (NP (JJ military) (NNS casualties)) (ADVP (RB at) (RB all))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10014" span="word_130..word_144" tag="(S1 (FRAG (ADVP (RB Now)) (ADVP (RB back) (PP (IN to) (NP (NP (NNP Wolf) (NNP Blitzer)) (CC and) (NP (NP (PRP$ our) (VBG continuing) (NN coverage)) (PP (IN of) (NP (NP (DT the) (NN war)) (PP (IN in) (NP (NNP Iraq))))))))) (. .)))" mmax_level="parse" />
+</markables>

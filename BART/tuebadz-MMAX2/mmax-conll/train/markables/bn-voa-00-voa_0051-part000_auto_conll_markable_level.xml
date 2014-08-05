@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_11" span="word_1" sentenceid="1" label="organization" type="enamex" lemmata="un" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_1..word_5" sentenceid="1" label="person" min_ids="word_1..word_5" type="enamex" lemmata="un secretary general kofi annan" isprenominal="false" pos="nnp nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_8..word_13" sentenceid="1" label="person" min_ids="word_8..word_13" type="enamex" lemmata="former dutch prime minister ruud lubbers" isprenominal="false" pos="jj nnp nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_9" sentenceid="1" label="location" type="enamex" lemmata="dutch" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_15..word_21" sentenceid="1" label="np" min_ids="word_15..word_19" type="chunk" lemmata="the new un high commissioner for refugees" isprenominal="false" pos="dt jj nnp nnp nnp in nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_17" sentenceid="1" label="organization" type="enamex" lemmata="un" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_21" sentenceid="1" label="np" min_ids="word_21..word_21" type="chunk" lemmata="refugees" isprenominal="false" pos="nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_23..word_24" sentenceid="2" label="person" min_ids="word_23..word_24" type="enamex" lemmata="mr. annan" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_26..word_36" sentenceid="2" label="np" min_ids="word_26..word_27" type="chunk" lemmata="the record of the 61 - year - old mr. lubbers" isprenominal="false" pos="dt nn in dt cd hyph nn hyph jj nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_29..word_36" sentenceid="2" label="person" min_ids="word_30..word_36" type="enamex" lemmata="the 61 - year - old mr. lubbers" isprenominal="false" pos="dt cd hyph nn hyph jj nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_30..word_34" sentenceid="2" label="date" type="enamex" lemmata="61 - year - old" isprenominal="false" pos="cd hyph nn hyph jj" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_38..word_40" sentenceid="2" label="np" min_ids="word_38..word_40" type="chunk" lemmata="a government leader" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_38..word_45" sentenceid="2" label="np" min_ids="word_38..word_45" type="chunk" lemmata="a government leader , academic and private citizen" isprenominal="false" pos="dt nn nn , nn cc jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_42" sentenceid="2" label="np" min_ids="word_42..word_42" type="chunk" lemmata="academic" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_44..word_45" sentenceid="2" label="np" min_ids="word_44..word_45" type="chunk" lemmata="private citizen" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_50" sentenceid="2" label="np" min_ids="word_50..word_50" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_51..word_56" sentenceid="2" label="np" min_ids="word_51..word_53" type="chunk" lemmata="the right man for the job" isprenominal="false" pos="dt jj nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_55..word_56" sentenceid="2" label="np" min_ids="word_55..word_56" type="chunk" lemmata="the job" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_59..word_61" sentenceid="3" label="organization" min_ids="word_59..word_61" type="enamex" lemmata="the general assembly" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_63..word_64" sentenceid="3" label="np" min_ids="word_63..word_64" type="chunk" lemmata="the nomination" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_66..word_67" sentenceid="3" label="person" min_ids="word_66..word_67" type="enamex" lemmata="mr. lubbers" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_70..word_73" sentenceid="3" label="person" min_ids="word_70..word_71" type="enamex" lemmata="sadako ogata of japan" isprenominal="false" pos="nnp nnp in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_73" sentenceid="3" label="location" min_ids="word_73..word_73" type="enamex" lemmata="japan" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_75..word_76" sentenceid="3" label="date" min_ids="word_75..word_76" type="enamex" lemmata="january 1st" isprenominal="false" pos="nnp nn" speaker="-" mmax_level="markable" />
+</markables>

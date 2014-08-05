@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_11" span="word_1..word_3" sentenceid="1" label="location" min_ids="word_1..word_3" type="enamex" lemmata="the united states" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_6..word_7" sentenceid="1" label="np" min_ids="word_6..word_7" type="chunk" lemmata="more co-operation" isprenominal="false" pos="jjr nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_9" sentenceid="1" label="location" min_ids="word_9..word_9" type="enamex" lemmata="yemen" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_11..word_25" sentenceid="1" label="np" min_ids="word_11..word_12" type="chunk" lemmata="the investigation of the terrorist attack on the uss cole that kill 17 us sailor" isprenominal="false" pos="dt nn in dt jj nn in dt nnp nnp wdt vbd cd nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_14..word_25" sentenceid="1" label="np" min_ids="word_14..word_16" type="chunk" lemmata="the terrorist attack on the uss cole that kill 17 us sailor" isprenominal="false" pos="dt jj nn in dt nnp nnp wdt vbd cd nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_18..word_20" sentenceid="1" label="object" min_ids="word_18..word_20" type="enamex" lemmata="the uss cole" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_23" sentenceid="1" label="percent" type="enamex" lemmata="17" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_23..word_25" sentenceid="1" label="np" min_ids="word_23..word_25" type="chunk" lemmata="17 us sailor" isprenominal="false" pos="cd nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_24" sentenceid="1" label="location" type="enamex" lemmata="us" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_27..word_29" sentenceid="2" label="organization" type="enamex" lemmata="us state department" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_27..word_32" sentenceid="2" label="person" min_ids="word_27..word_32" type="enamex" lemmata="us state department spokesman richard boucher" isprenominal="false" pos="nnp nnp nnp nn nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_34..word_35" sentenceid="2" label="location" min_ids="word_35..word_35" type="enamex" lemmata="the us" isprenominal="false" pos="dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_37..word_44" sentenceid="2" label="np" min_ids="word_37..word_38" type="chunk" lemmata="complete access to the finding of yemeni investigator" isprenominal="false" pos="jj nn in dt nns in jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_40..word_44" sentenceid="2" label="np" min_ids="word_40..word_41" type="chunk" lemmata="the finding of yemeni investigator" isprenominal="false" pos="dt nns in jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_43" sentenceid="2" label="location" type="enamex" lemmata="yemeni" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_43..word_44" sentenceid="2" label="np" min_ids="word_43..word_44" type="chunk" lemmata="yemeni investigator" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_49..word_50" sentenceid="3" label="person" min_ids="word_49..word_50" type="enamex" lemmata="president clinton" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_54" sentenceid="3" label="location" type="enamex" lemmata="yemeni" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_54..word_58" sentenceid="3" label="np" min_ids="word_54..word_55" type="chunk" lemmata="yemeni president ali abdullah saleh" isprenominal="false" pos="jj nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_56..word_58" sentenceid="3" label="person" min_ids="word_56..word_58" type="enamex" lemmata="ali abdullah saleh" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_60..word_61" sentenceid="3" label="np" min_ids="word_60..word_61" type="chunk" lemmata="increase co-operation" isprenominal="false" pos="vbn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_63..word_69" sentenceid="3" label="np" min_ids="word_63..word_64" type="chunk" lemmata="the investigation of last month 's attack" isprenominal="false" pos="dt nn in jj nn pos nn" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_66..word_68" sentenceid="3" label="date" min_ids="word_66..word_67" type="enamex" lemmata="last month 's" isprenominal="false" pos="jj nn pos" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_66..word_69" sentenceid="3" label="np" min_ids="word_66..word_69" type="chunk" lemmata="last month 's attack" isprenominal="false" pos="jj nn pos nn" speaker="-" mmax_level="markable" />
+</markables>

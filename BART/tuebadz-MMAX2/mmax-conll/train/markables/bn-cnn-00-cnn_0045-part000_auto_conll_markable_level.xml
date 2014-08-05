@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_7" sentenceid="1" label="np" min_ids="word_1..word_1" type="chunk" lemmata="violence in the west bank and gaza" isprenominal="false" pos="nn in dt nnp nnp cc nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_3..word_5" sentenceid="1" label="location" min_ids="word_3..word_5" type="enamex" lemmata="the west bank" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_3..word_7" sentenceid="1" label="location" min_ids="word_4..word_7" type="enamex" lemmata="the west bank and gaza" isprenominal="false" pos="dt nnp nnp cc nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_7" sentenceid="1" label="np" min_ids="word_7..word_7" type="chunk" lemmata="gaza" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_10..word_14" sentenceid="1" label="np" min_ids="word_10..word_11" type="chunk" lemmata="the life of eight palestinians" isprenominal="false" pos="dt nns in cd nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_13" sentenceid="1" label="percent" type="enamex" lemmata="eight" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_13..word_14" sentenceid="1" label="location" min_ids="word_13..word_14" type="enamex" lemmata="eight palestinians" isprenominal="false" pos="cd nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_15" sentenceid="1" label="date" min_ids="word_15..word_15" type="enamex" lemmata="today" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_22..word_25" sentenceid="2" label="np" min_ids="word_22..word_22" type="chunk" lemmata="skirmish with israeli soldier" isprenominal="false" pos="nns in jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_24" sentenceid="2" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_24..word_25" sentenceid="2" label="np" min_ids="word_24..word_25" type="chunk" lemmata="israeli soldier" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_27..word_29" sentenceid="3" label="np" min_ids="word_27..word_29" type="chunk" lemmata="the new violence" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_32..word_54" sentenceid="3" label="time" min_ids="word_33..word_38" type="enamex" lemmata="the end of a 48 - hour cease - fire which be design to pave the way for a resumption of peace talk" isprenominal="false" pos="dt nn in dt cd hyph nn nn hyph nn wdt vbd vbn to vb dt nn in dt nn in nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_35..word_54" sentenceid="3" label="np" min_ids="word_33..word_41" type="chunk" lemmata="a 48 - hour cease - fire which be design to pave the way for a resumption of peace talk" isprenominal="false" pos="dt cd hyph nn nn hyph nn wdt vbd vbn to vb dt nn in dt nn in nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_47..word_48" sentenceid="3" label="np" min_ids="word_47..word_48" type="chunk" lemmata="the way" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_50..word_54" sentenceid="3" label="np" min_ids="word_50..word_51" type="chunk" lemmata="a resumption of peace talk" isprenominal="false" pos="dt nn in nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_53..word_54" sentenceid="3" label="np" min_ids="word_53..word_54" type="chunk" lemmata="peace talk" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_56..word_57" sentenceid="4" label="location" min_ids="word_56..word_56" type="enamex" lemmata="israel 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_56..word_60" sentenceid="4" label="np" min_ids="word_56..word_60" type="chunk" lemmata="israel 's act foreign minister" isprenominal="false" pos="nnp pos vbg nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_62" sentenceid="4" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_62..word_63" sentenceid="4" label="np" min_ids="word_62..word_63" type="chunk" lemmata="his nation" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_68..word_69" sentenceid="4" label="np" min_ids="word_68..word_69" type="chunk" lemmata="those talk" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_72..word_75" sentenceid="4" label="person" min_ids="word_72..word_75" type="enamex" lemmata="prime minister ehud barak" isprenominal="false" pos="nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_78..word_79" sentenceid="4" label="np" min_ids="word_78..word_79" type="chunk" lemmata="no chance" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_81" sentenceid="5" label="person" min_ids="word_81..word_81" type="enamex" lemmata="barak" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_83" sentenceid="5" label="np" min_ids="word_83..word_83" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_87..word_94" sentenceid="5" label="np" min_ids="word_87..word_87" type="chunk" lemmata="plan to form a national government of emergency" isprenominal="false" pos="nns to vb dt jj nn in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_90..word_94" sentenceid="5" label="np" min_ids="word_90..word_92" type="chunk" lemmata="a national government of emergency" isprenominal="false" pos="dt jj nn in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_94" sentenceid="5" label="np" min_ids="word_94..word_94" type="chunk" lemmata="emergency" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+</markables>

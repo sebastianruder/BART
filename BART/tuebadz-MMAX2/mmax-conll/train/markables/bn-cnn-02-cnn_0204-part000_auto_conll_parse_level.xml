@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_8" tag="(S1 (S (NP (NNP Saddam) (NNP International) (NNP Airport)) (VP (VBZ has) (VP (VBN become) (NP (DT a) (NN battlefield)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_9..word_31" tag="(S1 (S (NP (NNS Witnesses)) (VP (VBP say) (SBAR (S (NP (JJ Iraqi) (NNS troops)) (VP (VBP are) (VP (VBD dug) (PP (IN in) (S (VP (VBG trying) (S (VP (TO to) (VP (VB fend) (PRT (RP off)) (NP (NP (NN coalition) (NNS troops)) (VP (VBG making) (NP (PRP$ their) (NN way)))))))))) (PP (IN into) (NP (NP (DT the) (NN capital) (POS 's)) (JJ main) (NN airport)))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_32..word_53" tag="(S1 (S (NP (DT A) (NNP Reuters) (NN correspondent)) (VP (VBD said) (SBAR (S (NP (NP (NP (NNS dozens)) (PP (IN of) (NP (JJ Iraqi) (NNS civilians)))) (CC and) (NP (NNS soldiers))) (VP (VBD were) (VP (VBN killed) (PP (IN in) (SBAR (WHNP (WP what)) (S (NP (NNS witnesses)) (VP (VBD called) (S (NP (NP (DT a) (NN barrage)) (PP (IN of) (NP (NNP U.S.) (NN artillery)))))))))))))) (. .)))" mmax_level="parse" />
+</markables>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_27" tag="(S1 (S (NP (VBG Following)) (VP (VBZ is) (NP (NP (DT a) (JJ weekly) (NN listing)) (PP (IN of) (NP (NP (JJ unadited) (JJ net) (NN asset) (NNS values)) (PP (IN of) (NP (NP (ADJP (RB publicly) (VBN traded)) (NML (NN investment) (NN fund)) (NNS shares)) (, ,) (VP (VBN reported) (PP (IN by) (NP (NP (DT the) (NNS companies)) (PP (IN as) (PP (IN of) (NP (NP (NNP Friday) (POS 's)) (NN close))))))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_28..word_56" tag="(S1 (SINV (ADJP (RB Also) (VBN shown)) (VP (VBZ is)) (NP (NP (NP (DT the) (JJ closing) (JJ listed) (NN market) (NN price)) (CC or) (NP (DT a) (NML (NML (NN dealer)) (HYPH -) (PP (IN to) (HYPH -) (NP (NN dealer)))) (VBN asked) (NN price))) (PP (IN of) (NP (NP (DT each) (NN fund) (POS 's)) (NNS shares))) (, ,) (PP (IN with) (NP (NP (DT the) (NN percentage)) (PP (IN of) (NP (NN difference)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_57..word_60" tag="(S1 (NP (NML (NML (JJ Closed) (NN End)) (NN Bond)) (NNS Funds)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_61..word_63" tag="(S1 (NP (NML (JJ Flexible) (NN Portfolio)) (NNS Funds)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_64..word_68" tag="(S1 (NP (UCP (NML (JJ Specialized) (NN Equity)) (CC and) (ADJP (JJ Convertible))) (NNS Funds)))" mmax_level="parse" />
+<markable id="markable_10006" span="word_69..word_72" tag="(S1 (X (LST (LS a)) (: -) (NP (NN Ex-dividend)) (. .)))" mmax_level="parse" />
+<markable id="markable_10007" span="word_73..word_80" tag="(S1 (X (LST (LS b)) (: -) (PP (IN As) (PP (IN of) (NP (NP (NNP Thursday) (POS 's)) (NN close)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10008" span="word_81..word_89" tag="(S1 (X (LST (LS c)) (: -) (VP (VBN Translated) (PP (IN at) (NP (NML (NNP Commercial) (NNP Rand)) (NN exchange) (NN rate)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10009" span="word_90..word_95" tag="(S1 (X (LST (LS e)) (: -) (PP (IN In) (NP (JJ Canadian) (NNS dollars))) (. .)))" mmax_level="parse" />
+<markable id="markable_10010" span="word_96..word_103" tag="(S1 (X (LST (LS f)) (: -) (PP (IN As) (PP (IN of) (NP (NP (NNP Wednesday) (POS 's)) (NN close)))) (. .)))" mmax_level="parse" />
+</markables>
