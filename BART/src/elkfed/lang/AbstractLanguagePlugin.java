@@ -466,6 +466,9 @@ public abstract class AbstractLanguagePlugin implements LanguagePlugin {
     	}
     	return false;
     }
+    public String getHeadGF(Mention m) {
+    	return null;
+    }
     
     public boolean isExpletiveRB(Mention m) {
         if (ConfigProperties.getInstance().getDbgPrint())
