@@ -40,7 +40,7 @@ public class RelaxedStringMatchSieve extends Sieve {
 		for (int idx = 0; idx < mention_idx; idx++){
 			PairInstance pair = new PairInstance(mention, mentions.get(idx));
 			if (mention.toString().equals(mentions.get(idx).toString())){
-				if (!(mention.getPronoun()) && noNumericMismatch(pair) && noLocationMismatch(pair) && antecedent_is_more_specific(pair)) {
+				if (!(mention.getPronoun())) {
 					ante_idx = idx;
 				}
 			}
