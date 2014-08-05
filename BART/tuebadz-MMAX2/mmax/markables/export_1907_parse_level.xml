@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_6" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Hooligans)))"/>
-<markable id="markable_14" span="word_2..word_3" mmax_level="parse" orderid="2" tag="(Start (SIMPX (MF (NX (NN Polizeiauto))) (VC (VXINF (VVPP demoliert)))))"/>
-<markable id="markable_83" span="word_4..word_30" mmax_level="parse" orderid="3" tag="(Start (NX (NE Magdeburg)) (\$-LRB- -LRB-) (NX (NE AP)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NN Hooligans))) (LK (VXFIN (VAFIN haben))) (FKOORD (FKONJ (MF (PX (APPR in) (NX (NX (ART der) (NN Nacht)) (PX (APPRART zum) (NX (NN Sonntag))))) (PX (APPR in) (NX (NE Magdeburg))) (NX (ART eine) (NN Musikveranstaltung))) (VC (VXINF (VVPP gestört)))) (\$\, \,) (FKONJ (MF (NX (ADJX (ADJA herbeigerufene)) (NN Polizisten))) (VC (VXINF (VVPP angegriffen)))) (KON und) (FKONJ (MF (NX (ART ein) (NN Polizeifahrzeug)) (ADJX (ADJD total))) (VC (VXINF (VVPP demoliert)))))) (\$\. \.))"/>
-<markable id="markable_96" span="word_31..word_35" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (ADJX (CARD 21)) (NN Personen))) (LK (VXFIN (VAFIN wurden))) (VC (VXINF (VVPP festgenommen)))) (\$\. \.))"/>
-</markables>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_10" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NE Rühes)) (NN Liste)))"/>
-<markable id="markable_50" span="word_3..word_18" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NX (NX (ART Die) (NN Landesliste)) (NX (ART der) (NE CDU))) (PX (APPR für) (NX (NX (NX (ART die) (NN Landtagswahl)) (PX (APPR in) (NX (NE Schleswig-Holstein)))) (PX (APPRART am) (NX (NX (ADJX (ADJA 27\.)) (NN Februar)) (NX (CARD 2000)))))))) (LK (VXFIN (VAFIN ist))) (MF (ADJX (ADJD komplett)))) (\$\. \.))"/>
-<markable id="markable_109" span="word_19..word_43" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (APPR Mit) (NX (NX (NX (NE Volker) (NE Rühe)) (NX (KOKOM als) (NN Spitzenkandidat))) (KON und) (NX (NX (NX (NN Fraktionschef)) (NX (NE Martin) (NE Kayenburg))) (PX (APPR auf) (NX (NX (NN Platz)) (NX (CARD zwei)))))))) (LK (VXFIN (VAFIN ist))) (MF (NX (ART die) (NN Liste)) (PX (NX (ART eine) (NN Woche)) (APPR vor) (NX (ART der) (ADJX (ADJA endgültigen)) (NN Entscheidung))) (SIMPX (C (KOUS wie)) (VC (VXINF (VVPP erwartet))))) (VC (VXINF (VVPP ausgefallen)))) (\$\. \.))"/>
-<markable id="markable_128" span="word_44..word_49" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (PPER Sie))) (LK (VXFIN (VVFIN entspricht))) (MF (NX (NX (ART den) (NN Vorstellungen)) (NX (NE Rühes))))) (\$\. \.))"/>
-</markables>

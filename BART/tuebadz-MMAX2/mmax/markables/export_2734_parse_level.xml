@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_11" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NE Expo)) (PX (APPRART am) (NX (NN Meer)))))"/>
-<markable id="markable_71" span="word_4..word_26" mmax_level="parse" orderid="2" tag='(Start (NX (NE Wilhelmshaven)) (SIMPX (VF (NX (NX (ADJX (CARD Fünfzehn)) (NN Millionen)) (NX (NN Mark)))) (LK (VXFIN (VMFIN will))) (MF (NX (NX (ART die) (NN Stadt)) (NX (NE Wilhelmshaven))) (PX (APPR trotz) (NX (ADJX (ADJA notorischer)) (NN Geldknappheit))) (PX (APPR für) (NX (NX (ART die) (NN Finanzierung)) (NX (NX (PPOSAT ihres) (NN Weltausstellungsbeitrages)) (\$-LRB- \") (NX (NX (NE Expo)) (PX (APPRART am) (NX (NN Meer)))))))) (\$-LRB- \") (VC (VXINF (VVINF aufbringen)))) (\$\. \.))'/>
-<markable id="markable_105" span="word_27..word_40" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (ART Die) (NN Stadt))) (LK (VXFIN (VVFIN erwartet))) (MF (ADVX (ADV nun)) (ADVX (ADV auch)) (PX (APPR von) (NX (NX (NN Bund)) (KON und) (NX (NE Niedersachsen)))) (NX (NX (ADVX (ADV je)) (ADJX (CARD 15)) (NN Mio\.)) (NX (NN Mark))))) (\$\. \.))"/>
-<markable id="markable_110" span="word_41" mmax_level="parse" orderid="4" tag="(Start (NX (NE dpa)))"/>
-</markables>

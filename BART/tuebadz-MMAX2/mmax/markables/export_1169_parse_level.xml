@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_10" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NN Jobs)) (PX (APPR für) (NX (NN Techniker)))))"/>
-<markable id="markable_43" span="word_4..word_17" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (ART Die) (ADJX (ADJA Hamburger)) (NN Industrie))) (LK (VXFIN (VMFIN will))) (MF (PX (APPR in) (NX (ART den) (ADJX (ADJA kommenden)) (ADJX (CARD fünf)) (NN Jahren))) (NX (DP (ADJX (ADJD deutlich)) (PIAT mehr)) (NN Techniker))) (VC (VXINF (VVINF einstellen)))) (\$\. \.))"/>
-<markable id="markable_97" span="word_18..word_41" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (SIMPX (C (KOUS Wie)) (MF (PX (APPR aus) (NX (NX (ART einer) (NN Umfrage)) (NX (ART der) (NN Handelskammer))))) (VC (VXFIN (VVFIN hervorgeht))))) (\$\, \,) (LK (VXFIN (VAFIN werden))) (MF (PX (APPR vor) (NX (PIS allem))) (NX (NX (NX (NN Elektroniker)) (\$\, \,) (NX (NN Informatiker)) (KON und) (NX (NN Verfahrenstechniker))) (\$\, \,) (KON aber) (NX (ADVX (ADV auch)) (NX (NX (NN Elektrotechniker)) (KON und) (NX (NN Maschinenbauingenieure)))))) (VC (VXINF (VVPP gebraucht)))) (\$\. \.))"/>
-<markable id="markable_131" span="word_42..word_56" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (PROP Demgegenüber))) (LK (VXFIN (VAFIN wird))) (MF (PX (APPR für) (NX (NX (NN Naturwissenschaftler)) (\$\, \,) (NX (NX (TRUNC Bau-)) (KON und) (NX (NN Vermessungsingenieure))) (KON sowie) (NX (NN Architekten)))) (NX (ART das) (NN Arbeitsplatzangebot)) (ADVX (PTKNEG nicht))) (VC (VXINF (VVINF steigen)))) (\$\. \.))"/>
-<markable id="markable_136" span="word_57" mmax_level="parse" orderid="5" tag="(Start (NX (NE dpa)))"/>
-</markables>

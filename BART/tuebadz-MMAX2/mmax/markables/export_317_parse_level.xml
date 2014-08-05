@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_7" span="word_1..word_2" mmax_level="parse" orderid="1" tag="(Start (PX (APPR Gegen) (NX (NN Lauschangriff))))"/>
-<markable id="markable_53" span="word_3..word_21" mmax_level="parse" orderid="2" tag='(Start (SIMPX (VF (NX (NX (ART Der) (ADJX (ADJA stellvertretende)) (ADJX (ADJA Hamburger)) (NN FDP-Landesvorsitzende)) (NX (NE Joachim) (NE Sproß)))) (LK (VXFIN (VVFIN zieht))) (MF (PX (APPR wegen) (NX (ART des) (\$-LRB- \") (ADJX (ADJA Großen)) (NN Lauschangriffs))) (\$-LRB- \") (PX (APPR vor) (NX (NX (ART das) (NN Bundesverfassungsgericht)) (PX (APPR in) (NX (NE Karlsruhe))))))) (\$\. \.))'/>
-<markable id="markable_106" span="word_22..word_43" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NE Sproß))) (FKOORD (FKONJ (LK (VXFIN (VVFIN hält))) (MF (NX (ART den) (NN Lauschangriff)) (PX (APPR für) (ADJX (ADJD verfassungswidrig))))) (KON und) (FKONJ (LK (VXFIN (VAFIN hat))) (MF (PX (PROP dagegen)) (PX (PX (APPRART im) (NX (ADJX (ADJA eigenen)))) (KON und) (PX (APPRART im) (NX (NX (NN Namen)) (PX (APPR von) (NX (ADJX (CARD drei)) (ADJX (ADJA weiteren)) (ADJX (ADJA Hamburger)) (NN FDP-Mitgliedern)))))) (NX (NN Verfassungsbeschwerde))) (VC (VXINF (VVPP erhoben)))))) (\$\. \.))"/>
-</markables>

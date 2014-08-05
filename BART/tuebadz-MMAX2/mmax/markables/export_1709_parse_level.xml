@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Libanon)))"/>
-<markable id="markable_10" span="word_2" mmax_level="parse" orderid="2" tag="(Start (NX (NN Vergeltungsschläge)))"/>
-<markable id="markable_82" span="word_3..word_31" mmax_level="parse" orderid="3" tag="(Start (NX (NE Jerusalem)) (\$-LRB- -LRB-) (NX (NE AFP)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (PX (APPR Mit) (NX (NX (NN Vergeltungsschlägen)) (PX (APPR gegen) (NX (NX (NN Hisbollah-Stellungen)) (PX (APPRART im) (NX (NE Südlibanon)))))))) (LK (VXFIN (VAFIN hat))) (MF (NX (NE Israel)) (ADVX (ADV gestern)) (PX (APPR auf) (NX (ART den) (NN Angriff)))) (VC (VXINF (VVPP reagiert))) (\$\, \,) (NF (R-SIMPX (C (PX (APPR bei) (NX (PRELS dem)))) (MF (PX (APPRART am) (NX (NN Donnerstag))) (NX (ADJX (CARD drei)) (ADJX (ADJA israelische)) (NN Offiziere))) (VC (VXINF (VVPP getötet)) (VXFIN (VAFIN wurden)))))) (\$\. \.))"/>
-<markable id="markable_118" span="word_32..word_46" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (NX (NN Außenminister)) (NX (NE Schimon) (NE Peres)))) (LK (VXFIN (VVFIN warf))) (MF (NX (NE Syrien))) (VC (PTKVZ vor)) (\$\, \,) (NF (SIMPX (MF (NX (ART die) (NE Hisbollah)) (ADVX (PTKNEG nicht)) (PX (APPR an) (NX (NN Anschlägen)))) (VC (VXINF (PTKZU zu) (VVINF hindern)))))) (\$\. \.))"/>
-</markables>

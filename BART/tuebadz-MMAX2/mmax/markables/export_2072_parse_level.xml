@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Prozeßbeginn)))"/>
-<markable id="markable_12" span="word_2..word_3" mmax_level="parse" orderid="2" tag="(Start (SIMPX (MF (NX (NN Vietnamesen))) (VC (VXINF (VVPP geprügelt)))))"/>
-<markable id="markable_78" span="word_4..word_30" mmax_level="parse" orderid="3" tag="(Start (NX (NX (NE Frankfurt)) (\$-LRB- \/) (NX (NE Oder))) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (PX (APPR Wegen) (NX (NX (ART des) (NN Verdachts)) (NX (NX (ART der) (NN Mißhandlung)) (PX (APPR von) (NX (NX (ADJX (ADJA vietnamesischen)) (NN Schwarzhändlern)) (PX (APPR in) (NX (NE Bernau))))))))) (LK (VXFIN (VVFIN beginnt))) (MF (PX (APPRART am) (NX (ADJX (ADJA 17\.)) (NN Januar))) (NX (NX (ART ein) (ADJX (ADJA zweiter)) (NN Prozeß)) (PX (APPR gegen) (NX (NN Polizeibeamte)))))) (\$\. \.))"/>
-<markable id="markable_117" span="word_31..word_46" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (NX (ART Das) (NN Landgericht)) (NX (NX (NE Frankfurt)) (\$-LRB- -LRB-) (NX (NE Oder))))) (\$-LRB- -RRB-) (LK (VXFIN (VAFIN hat))) (MF (NX (NX (ART die) (NN Eröffnung)) (NX (NX (ART des) (NN Hauptverfahrens)) (PX (APPR gegen) (NX (ADJX (CARD acht)) (NN Polizisten)))))) (VC (VXINF (VVPP beschlossen)))) (\$\. \.))"/>
-<markable id="markable_151" span="word_47..word_59" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (PPER Sie))) (LK (VXFIN (VAFIN werden))) (VC (VXINF (VVPP beschuldigt))) (\$\, \,) (NF (SIMPX (MF (PX (APPR während) (NX (PPOSAT ihrer) (NN Dienstzeit))) (NX (PIAT mehrere) (NN Vietnamesen))) (VC (VXINF (VVPP mißhandelt)) (VXINF (PTKZU zu) (VAINF haben)))))) (\$\. \.))"/>
-</markables>

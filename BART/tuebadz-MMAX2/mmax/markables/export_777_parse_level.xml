@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_13" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (NX (NN Betr\.)) (\$\. \:) (NX (NE Christian) (NE Semler)))"/>
-<markable id="markable_36" span="word_5..word_13" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NE Christian) (NE Semler))) (LK (VXFIN (VAFIN ist))) (MF (PX (APPR seit) (NX (CARD 1989))) (NX (NX (NN Mitarbeiter)) (NX (ART der) (NE taz))))) (\$\. \.))"/>
-<markable id="markable_68" span="word_14..word_27" mmax_level="parse" orderid="3" tag="(Start (NX (NX (ADVX (ADV Zuerst)) (TRUNC Osteuropa-)) (\$\, \,) (NX (ADVX (ADV dann)) (NN Meinungsredakteur)) (\$\, \,) (ADJX (ADVX (ADV jetzt)) (PX (APPR unter) (NX (PIS anderem))) (PX (APPRART fürs) (NX (ADJX (ADJA große)) (NN Ganze))) (ADJD zuständig))) (\$\. \.))"/>
-<markable id="markable_97" span="word_28..word_38" mmax_level="parse" orderid="4" tag="(Start (NX (PX (APPR Seit) (NX (NX (NX (NN Beginn)) (NX (ART der) (NN Jugoslawien-Kriege))) (PX (APPR vor) (NX (ADJX (CARD acht)) (NN Jahren))))) (NX (PDAT deren) (ADJX (ADJA mitleidender)) (NN Kommentator))) (\$\. \.))"/>
-</markables>

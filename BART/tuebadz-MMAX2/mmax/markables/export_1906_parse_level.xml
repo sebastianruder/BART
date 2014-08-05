@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_6" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Maueropfer)))"/>
-<markable id="markable_18" span="word_2..word_4" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NN Geld)) (PX (APPR für) (NX (NN Witwe)))))"/>
-<markable id="markable_86" span="word_5..word_30" mmax_level="parse" orderid="3" tag="(Start (NX (NX (NE Berlin)) (\$-LRB- \/) (NX (NE Lüneburg))) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (ADVX (ADV Erstmals))) (LK (VXFIN (VAFIN hat))) (MF (NX (ART ein) (NN Gericht)) (NX (ART einen) (ADJX (ADJA ehemaligen)) (NN DDR-Grenzsoldaten))) (VC (VXINF (VVPP verurteilt))) (\$\, \,) (NF (SIMPX (MF (PX (APPR an) (NX (NX (ART die) (NN Witwe)) (NX (ART eines) (NN Grenzopfers)))) (NX (ART ein) (NN Schmerzensgeld))) (VC (VXINF (PTKZU zu) (VVINF zahlen)))))) (\$\. \.))"/>
-<markable id="markable_170" span="word_31..word_63" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (APPR Nach) (NX (NX (ART dem) (ADJX (ADVX (ADV jetzt)) (ADJA veröffentlichten)) (NN Urteil)) (NX (NX (ART des) (NN Landgerichts)) (NX (NE Lüneburg)))))) (LK (VXFIN (VVFIN erhält))) (MF (NX (NX (ART die) (NN Frau)) (\$\, \,) (R-SIMPX (C (NX (PRELAT deren) (NN Ehemann))) (MF (PX (APPR in) (NX (NX (ART der) (NN Silvesternacht)) (NX (NX (CARD 1965)) (\$-LRB- \/) (NX (CARD 66))))) (PX (APPR vor) (NX (PPOSAT ihren) (NN Augen)))) (VC (VXINF (VVPP erschossen)) (VXINF (VAPP worden)) (VXFIN (VAFIN war))))) (\$\, \,) (PX (APPR von) (NX (ART dem) (NN Postenführer))) (NX (ADJX (CARD 10\.000)) (NN Mark)))) (\$\. \.))"/>
-<markable id="markable_191" span="word_64..word_72" mmax_level="parse" orderid="5" tag="(Start (\$-LRB- -LRB-) (NX (NX (NN Az\.)) (\$\. \:) (NX (NX (CARD 5) (CARD 0) (CARD 510)) (\$-LRB- \/) (NX (CARD 93)))) (\$-LRB- -RRB-))"/>
-</markables>

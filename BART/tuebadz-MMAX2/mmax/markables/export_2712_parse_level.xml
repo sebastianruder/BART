@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_10" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (SIMPX (MF (NX (ADJX (ADJA Lichtenberger)) (NN Bürohaus))) (VC (VXINF (VVPP verkauft)))))"/>
-<markable id="markable_76" span="word_4..word_32" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (SIMPX (VF (NX (NX (NX (ART Der) (NN Bürohausneubau)) (NX (NX (NN DLZ)) (NX (NN Nord)))) (PX (APPR in) (NX (NE Lichtenberg))))) (LK (VXFIN (VAFIN ist))) (MF (PX (APPR für) (NX (NX (ADVX (ADV über)) (ADJX (CARD 400)) (NN Millionen)) (NX (NN Mark)))) (PX (APPR von) (NX (ART der) (NX (NX (NE H\.F\.S\.) (NE Hypo)) (NN GmbH))))) (VC (VXINF (VVPP erworben)) (VXINF (VAPP worden))))) (\$\, \,) (LK (VXFIN (VVFIN teilte))) (MF (NX (NX (ART das) (NN Beratungsunternehmen)) (NX (NE Jones) (NE Lang) (NE Wooton))) (ADVX (ADV gestern))) (VC (PTKVZ mit))) (\$\. \.))"/>
-<markable id="markable_139" span="word_33..word_58" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NX (ART Die) (NN Tochter)) (NX (ART der) (ADJX (ADJA Bayerischen)) (NX (NX (TRUNC Hypotheken-)) (KON und) (NX (NN Wechsel-Bank)))))) (LK (VXFIN (VVFIN übernahm))) (MF (NX (NX (ART ein) (NN Gebäude)) (PX (APPR mit) (NX (NX (ADJX (CARD 79\.000)) (NN Quadratmeter)) (NX (NN Mietfläche)))))) (\$\, \,) (NF (R-SIMPX (C (NX (PRELS das))) (MF (ADJX (ADVX (ADV fast)) (ADJD vollständig)) (PX (APPR an) (NX (NX (ART die) (NN Bundesversicherungsanstalt)) (PX (APPR für) (NX (NN Angestellte)))))) (VC (VXINF (VVPP vermietet)) (VXFIN (VAFIN ist)))))) (\$\. \.))"/>
-<markable id="markable_144" span="word_59" mmax_level="parse" orderid="4" tag="(Start (NX (NE dpa)))"/>
-</markables>

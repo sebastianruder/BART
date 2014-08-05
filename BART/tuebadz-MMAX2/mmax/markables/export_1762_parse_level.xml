@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_9" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (NX (ADVX (ADV Nur)) (NX (ADJX (CARD 500)) (NN Aufrechte))))"/>
-<markable id="markable_46" span="word_4..word_18" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (ADVX (ADV Etwa)) (ADJX (CARD 500)) (NN Leute))) (LK (VXFIN (VVFIN trafen))) (MF (NX (PRF sich)) (ADVX (ADV gestern)) (PX (APPRART am) (NX (NX (NN Bahnhof)) (NX (NN Friedrichstraße)))) (PX (APPRART zur) (NX (NX (NN Kundgebung)) (PX (APPR gegen) (NX (ART den) (NN Tiergartentunnel))))))) (\$\. \.))"/>
-<markable id="markable_97" span="word_19..word_40" mmax_level="parse" orderid="3" tag='(Start (SIMPX (VF (NX (ART Die) (NN Demo))) (LK (VXFIN (VMFIN sollte))) (MF (PX (APPRART zum) (NX (NE Tiergarten)))) (VC (VXINF (VVINF führen))) (\$\, \,) (NF (R-SIMPX (C (ADVX (PWAV wo))) (MF (PX (APPR an) (NX (NX (ART der) (NN Stelle)) (NX (ART des) (ADJX (ADJA ersten)) (NN Spatenstichs)))) (NX (ART ein) (NN Plastikbaum))) (\$-LRB- \") (VC (VXINF (VVPP gepflanzt)) (\$-LRB- \") (VXINF (VAINF werden)) (VXFIN (VMFIN soll)))))) (\$\. \.))'/>
-<markable id="markable_156" span="word_41..word_65" mmax_level="parse" orderid="4" tag='(Start (SIMPX (VF (NX (ART Die) (NE Jusos))) (LK (VXFIN (VVFIN führten))) (MF (PX (APPR mit) (NX (NN Ballonunterstützung))) (NX (ART das) (ADJX (ADJA größte)) (NN Transparent)) (PX (APPR mit) (NX (PRF sich)))) (\$\. \:) (\$-LRB- \") (NF (NX (NX (NX (NN Hauptstadt-Vision)) (NX (ART der) (NE CDU))) (\$\. \:) (NX (NX (NN Autos)) (\$\, \,) (NX (NN Beton)) (\$\, \,) (KON und) (SIMPX (MF (NX (PIS alles))) (VC (VXINF (VVPP untertunnelt)))))))) (\$\. \!) (\$-LRB- \"))'/>
-<markable id="markable_161" span="word_66" mmax_level="parse" orderid="5" tag="(Start (NX (NE taz)))"/>
-</markables>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Dänemark)))"/>
-<markable id="markable_17" span="word_2..word_4" mmax_level="parse" orderid="2" tag="(Start (NX (NX (NN Lizenz)) (PX (APPR für) (NX (NN Nazis)))))"/>
-<markable id="markable_82" span="word_5..word_31" mmax_level="parse" orderid="3" tag="(Start (NX (NE Kopenhagen)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (ADJX (ADJA Dänische)) (NN Neonazis))) (LK (VXFIN (VAFIN haben))) (MF (PX (APPRART vom) (NX (NN Kulturministerium))) (NX (NX (ART eine) (NN Sendelizenz)) (PX (APPR für) (NX (ART eine) (ADJX (ADJA eigene)) (ADJX (ADJA regionale)) (NN Radiostation))))) (VC (VXINF (VVPP erhalten))) (\$\, \,) (NF (SIMPX (C (KOUS wie)) (MF (NX (NX (ART die) (NN Zeitung)) (NX (NE Berlingske) (NE Tidende))) (ADVX (ADV gestern))) (VC (VXFIN (VVFIN berichtete)))))) (\$\. \.))"/>
-<markable id="markable_143" span="word_32..word_57" mmax_level="parse" orderid="4" tag='(Start (SIMPX (VF (NX (NX (ART Ein) (NN Sprecher)) (NX (NX (ART der) (NN Nazigruppe)) (\$-LRB- \") (NX (ADJX (ADJA Dänische)) (ADJX (ADJA Nationalsozialistische)) (NN Bewegung))))) (\$-LRB- \") (\$\, \,) (LK (VXFIN (VVFIN kündigte))) (VC (PTKVZ an)) (\$\, \,) (NF (SIMPX (VF (NX (PIS man))) (LK (VXFIN (VAFIN werde))) (MF (NX (ART die) (NN Sendelizenz)) (PX (APPRART zur) (NX (NX (NN Verbreitung)) (\$-LRB- \") (NX (ADJX (ADJX (ADJD deutlich)) (ADJA rassistischer)) (NN Botschaften))))) (\$-LRB- \") (VC (VXINF (VVINF nutzen)))))) (\$\. \.))'/>
-</markables>

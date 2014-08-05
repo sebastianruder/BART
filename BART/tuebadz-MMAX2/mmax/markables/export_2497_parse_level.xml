@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_10" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (SIMPX (MF (NX (ADJX (ADJA Weitere)) (NN Vietnamesen-Abschiebungen))) (VC (VXINF (VVPP geplant)))))"/>
-<markable id="markable_48" span="word_4..word_18" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (PX (APPR Nach) (NX (NX (ART der) (ADJX (ADJA ersten)) (NN Abschiebung)) (PX (APPR von) (NX (NN Vietnamesen)))))) (LK (VXFIN (VVFIN laufen))) (MF (NX (NX (ART die) (NN Vorbereitungen)) (PX (APPR für) (NX (ADJX (ADJA weitere)) (NN Rückführungen)))) (PX (APPR auf) (NX (NN Hochtouren))))) (\$\. \.))"/>
-<markable id="markable_104" span="word_19..word_41" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (APPR Nach) (NX (NX (NN Angaben)) (PX (APPR von) (NX (NX (NN Innenstaatssekretär)) (NX (NE Böse))))))) (LK (VXFIN (VAFIN hat))) (MF (NX (NE Hanoi)) (PX (APPR in) (NX (ART einem) (ADJX (ADJA ersten)) (NN Schreiben))) (NX (NX (ART die) (NN Aufnahme)) (PX (APPR von) (NX (ADJX (CARD 30)) (NN Vietnamesen))))) (VC (VXINF (VVPP akzeptiert))) (\$\, \,) (NF (NX (NX (PX (PROP davon)) (ADJX (CARD 19))) (PX (APPR aus) (NX (NE Berlin)))))) (\$\. \.))"/>
-<markable id="markable_134" span="word_42..word_53" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (SIMPX (VF (PX (APPR In) (NX (ART den) (ADJX (ADJA nächsten)) (NN Wochen)))) (LK (VXFIN (VMFIN sollen))) (MF (NX (ADJX (ADJA weitere)) (NN Abschiebungen))) (VC (VXINF (VVINF folgen))))) (\$\, \,) (LK (VXFIN (VVFIN sagte))) (MF (NX (PPER er)))) (\$\. \.))"/>
-<markable id="markable_139" span="word_54" mmax_level="parse" orderid="5" tag="(Start (NX (NE dpa)))"/>
-</markables>

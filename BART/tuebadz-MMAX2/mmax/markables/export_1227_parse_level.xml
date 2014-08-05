@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE BULGARIEN)))"/>
-<markable id="markable_13" span="word_2..word_3" mmax_level="parse" orderid="2" tag="(Start (SIMPX (MF (NX (NN Ex-Regierungschef))) (VC (VXINF (VVPP verhaftet)))))"/>
-<markable id="markable_60" span="word_4..word_23" mmax_level="parse" orderid="3" tag="(Start (NX (NE Sofia)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (NX (ART Der) (ADJX (NX (CARD 1990)) (ADJA gestürzte)) (ADJX (ADJA sozialistische)) (NN Regierungschef)) (NX (NE Bulgariens))) (\$\, \,) (NX (NE Andrej) (NE Lukanow)))) (\$\, \,) (LK (VXFIN (VAFIN ist))) (MF (ADVX (ADV gestern))) (VC (VXINF (VVPP inhaftiert)) (VXINF (VAPP worden)))) (\$\. \.))"/>
-<markable id="markable_99" span="word_24..word_39" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (PDS Dies))) (LK (VXFIN (VAFIN wurde))) (MF (ADJX (ADJD möglich))) (\$\, \,) (NF (SIMPX (C (KOUS nachdem)) (MF (NX (ART das) (NN Parlament)) (PX (APPRART am) (NX (NN Dienstag))) (NX (NX (PPOSAT seine) (NN Immunität)) (NX (KOKOM als) (NN Abgeordneter)))) (VC (VXINF (VVPP aufgehoben)) (VXFIN (VAFIN hatte)))))) (\$\. \.))"/>
-<markable id="markable_154" span="word_40..word_62" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (NE Lukanow))) (LK (VXFIN (VAFIN wird))) (VC (VXINF (VVPP vorgeworfen))) (\$\, \,) (NF (SIMPX (MF (NX (KOKOM als) (ADJX (ADJA stellvertretender)) (NN Regierungschef)) (PX (APPR durch) (NX (NX (NN Schuldenerlaß)) (\$\, \,) (NX (NN Kredite)) (KON und) (NX (NN Spenden)))) (NX (NN Mittel)) (PX (APPR an) (NX (NX (NN Länder)) (NX (ART der) (ADJX (ADJA Dritten)) (NN Welt))))) (VC (VXINF (VVPP verschenkt)) (VXINF (PTKZU zu) (VAINF haben)))))) (\$\. \.))"/>
-</markables>

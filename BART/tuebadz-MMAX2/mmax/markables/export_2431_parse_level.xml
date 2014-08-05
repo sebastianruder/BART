@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_6" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NE Türkei)))"/>
-<markable id="markable_11" span="word_2" mmax_level="parse" orderid="2" tag="(Start (NX (NN Regierungsbildung)))"/>
-<markable id="markable_75" span="word_3..word_28" mmax_level="parse" orderid="3" tag="(Start (NX (NE Ankara)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (NX (ART Der) (ADJX (ADJA türkische)) (NN Staatspräsident)) (NX (NE Süleyman) (NE Demirel)))) (LK (VXFIN (VAFIN hat))) (MF (PX (APPRART am) (NX (NN Dienstag))) (PX (APPR in) (NX (NE Ankara))) (NX (NX (ART die) (ADJX (ADJA zurückgetretene)) (NN Ministerpräsidentin)) (NX (NE Tansu) (NE Ciller))) (ADVX (ADV erneut)) (PX (APPR mit) (NX (ART der) (NN Regierungsbildung)))) (VC (VXINF (VVPP beauftragt)))) (\$\. \.))"/>
-<markable id="markable_141" span="word_29..word_54" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (APPR Nach) (NX (NX (ART einer) (NN Erklärung)) (NX (ART des) (NN Präsidialamtes))))) (LK (VXFIN (VVFIN verband))) (MF (NX (NE Demirel)) (NX (NX (ART den) (NN Auftrag)) (PX (APPRART zur) (NX (NX (NN Bildung)) (NX (NX (ART der) (ADJX (ADJA 52\.)) (NN Regierung)) (NX (ART der) (NN Republik)))))) (PX (APPR mit) (NX (NX (ART dem) (NN Wunsch)) (PX (APPR nach) (NX (NX (ADJX (ADJA vorzeitigen)) (NN Neuwahlen)) (PX (APPRART zum) (NX (ADJX (ADJA nächstmöglichen)) (NN Termin))))))))) (\$\. \.))"/>
-</markables>

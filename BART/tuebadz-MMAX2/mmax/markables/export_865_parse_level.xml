@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_14" span="word_1..word_4" mmax_level="parse" orderid="1" tag="(Start (SIMPX (VF (NX (NN Ex-Stasi-Frau))) (LK (VXFIN (VAFIN wird))) (MF (NX (NN Landtagsmandat))) (VC (PTKVZ los))))"/>
-<markable id="markable_62" span="word_5..word_23" mmax_level="parse" orderid="2" tag="(Start (NX (NE Erfurt)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (NX (ART Der) (ADJX (ADJA Thüringer)) (NN Landtag))) (LK (VXFIN (VAFIN hat))) (MF (NX (NX (ART der) (NN PDS-Abgeordneten)) (NX (NE Almuth) (NE Beck))) (PX (APPR wegen) (NX (NN Stasi-Verstrickungen))) (NX (ART das) (NN Mandat))) (VC (VXINF (VVPP entzogen)))) (\$\. \.))"/>
-<markable id="markable_98" span="word_24..word_38" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (NX (NX (ART Die) (NN Abgeordneten)) (PX (APPR von) (NX (NX (NE CDU)) (KON und) (NX (NE SPD)))))) (LK (VXFIN (VVFIN votierten))) (MF (ADVX (ADV gestern)) (PX (APPR in) (NX (ADJX (ADJA namentlicher)) (NN Abstimmung))) (PX (APPR für) (NX (ART den) (NN Entzug))))) (\$\. \.))"/>
-<markable id="markable_143" span="word_39..word_55" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (PX (APPRART Zum) (NX (ADJX (ADJA ersten)) (NN Mal)))) (LK (VXFIN (VVFIN verliert))) (MF (PX (PROP damit)) (NX (ART ein) (ADJX (ADJA gewählter)) (NN Abgeordneter)) (PX (APPR per) (NX (NX (NN Mehrheitsbeschluß)) (NX (ART eines) (NN Landtages)))) (NX (PPOSAT sein) (NN Mandat)) (PX (APPR wegen) (NX (NN Stasi-Mitarbeit))))) (\$\. \.))"/>
-</markables>

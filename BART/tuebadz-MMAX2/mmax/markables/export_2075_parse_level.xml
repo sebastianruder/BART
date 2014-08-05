@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_5" span="word_1" mmax_level="parse" orderid="1" tag="(Start (NX (NN Kündigung)))"/>
-<markable id="markable_12" span="word_2..word_3" mmax_level="parse" orderid="2" tag="(Start (SIMPX (VF (NX (NN Anspruch))) (LK (VXFIN (VVFIN bleibt)))))"/>
-<markable id="markable_94" span="word_4..word_37" mmax_level="parse" orderid="3" tag="(Start (NX (NX (NE Frankfurt)) (\$-LRB- \/) (NX (NE Main))) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (SIMPX (LK (VXFIN (VAFIN Wird))) (MF (NX (ART ein) (NN Arbeitnehmer)) (PX (APPR aus) (NX (ADJX (ADJA betrieblichen)) (NN Gründen)))) (VC (VXINF (VVPP entlassen))))) (\$\, \,) (LK (VXFIN (VMFIN kann))) (MF (NX (PPER er)) (ADVX (ADV auch)) (ADJX (NX (ART ein) (NN Jahr)) (ADJD später)) (NX (NN Wiedereinstellung))) (VC (VXINF (VVINF verlangen))) (\$\, \,) (NF (SIMPX (C (KOUS wenn)) (MF (PX (APPR in) (NX (ART dem) (NN Betrieb))) (NX (ART eine) (ADJX (ADJA entsprechende)) (NN Arbeitsstelle)) (ADJX (ADJD frei))) (VC (VXFIN (VAFIN wird)))))) (\$\. \.))"/>
-<markable id="markable_111" span="word_38..word_44" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (NX (PDS Das))) (LK (VXFIN (VVFIN entschied))) (MF (NX (NX (ART das) (NN Arbeitsgericht)) (NX (NE Frankfurt))) (ADVX (ADV gestern)))) (\$\. \.))"/>
-<markable id="markable_134" span="word_45..word_54" mmax_level="parse" orderid="5" tag="(Start (\$-LRB- -LRB-) (NX (NX (NN Az)) (\$\. \.) (\$\. \:) (NX (NX (NX (NX (CARD 18)) (NX (XY Ca))) (NX (CARD 5572))) (\$-LRB- \/) (NX (CARD 94)))) (\$-LRB- -RRB-))"/>
-</markables>
