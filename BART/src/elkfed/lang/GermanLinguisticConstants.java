@@ -33,7 +33,7 @@ public class GermanLinguisticConstants extends LinguisticConstants
         new StringBuffer().append("^").append(ARTICLE).toString();
     
     /** Relative pronoun regexp */
-    public static final String RELATIVE_PRONOUN = "(der|die|das|dessen|deren|dessen|dem|den|denen|welcher|welche|welches)";
+    public static final String RELATIVE_PRONOUN = "(der|die|das|dessen|deren|dem|den|denen|welcher|welche|welches)";
  
 
     public static final String FIRSTPERSON_SG_PRONOUNS = "(ich|mich|mir|mein|meine|meiner|meinen|meinem|meines)";
