@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_11" span="word_1..word_3" mmax_level="parse" orderid="1" tag="(Start (NX (NX (NN Mittelamerikatreffen)) (PX (APPR in) (NX (NE Frankfurt)))))"/>
-<markable id="markable_61" span="word_4..word_24" mmax_level="parse" orderid="2" tag="(Start (NX (NE Berlin)) (\$-LRB- -LRB-) (NX (NE taz)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (PX (APPR Zu) (NX (NX (ART einem) (ADJX (ADJA dreitägigen)) (NN Bundestreffen)) (NX (NE Mittelamerika))))) (LK (VXFIN (VVFIN lädt))) (MF (NX (NX (ART das) (NN Informationsbüro)) (NX (NE Nicaragua))) (PX (APPR ab) (ADVX (ADV heute))) (PX (APPR nach) (NX (NX (NE Frankfurt)) (\$-LRB- \/) (NX (NE Main)))))) (\$\. \.))"/>
-<markable id="markable_94" span="word_25..word_38" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (APPR Zu) (NX (NN Gast)))) (LK (VXFIN (VAFIN ist))) (MF (PX (APPR unter) (NX (PIS anderen))) (NX (NX (NE Vilma) (NE Nunez)) (\$\, \,) (NX (NX (NN Präsidentin)) (NX (NX (ART der) (ADJX (ADJA nicaraguanischen)) (NN Menschenrechtsorganisation)) (NX (NE CENIDH))))))) (\$\. \.))"/>
-<markable id="markable_117" span="word_39..word_47" mmax_level="parse" orderid="4" tag="(Start (NX (NN Ort)) (\$\. \:) (NX (NX (NX (NN Haus)) (NX (ART der) (NN Jugend))) (\$\, \,) (NX (NX (NN Deutschherrenufer)) (NX (CARD 12)))) (\$\. \.))"/>
-<markable id="markable_135" span="word_48..word_54" mmax_level="parse" orderid="5" tag="(Start (NX (NN Zeit)) (\$\. \:) (ADVX (ADVX (ADV Heute)) (PX (APPR ab) (NX (ADJX (CARD 19\.00)) (NN Uhr)))) (\$\. \.))"/>
-</markables>

@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE markables SYSTEM "markables.dtd">
 <markables xmlns="www.eml.org/NameSpaces/response">
+<markable id="markable_2" span="word_1..word_3" coref_set="set_1" min_ids="word_1" mmax_level="response" />
+<markable id="markable_3" span="word_3" coref_set="set_0" min_ids="word_3" mmax_level="response" />
+<markable id="markable_0" span="word_18" coref_set="set_0" dir_antecedent="markable_3" min_ids="word_18" mmax_level="response" />
+<markable id="markable_1" span="word_60..word_61" coref_set="set_1" dir_antecedent="markable_2" min_ids="word_60..word_61" mmax_level="response" />
 </markables>

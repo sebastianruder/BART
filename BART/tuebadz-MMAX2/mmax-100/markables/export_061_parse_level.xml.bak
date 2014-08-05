@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE markables SYSTEM "markables.dtd">
-<markables xmlns="www.eml.org/NameSpaces/parse">
-<markable id="markable_20" span="word_1..word_7" mmax_level="parse" orderid="1" tag="(Start (VXINF (VVPP Gekündigt)) (\$\. \:) (SIMPX (VF (NX (NN Mieter))) (LK (VXFIN (VVFIN steckt))) (MF (NX (NN Bude)) (PX (APPR in) (NX (NN Brand))))))"/>
-<markable id="markable_75" span="word_8..word_27" mmax_level="parse" orderid="2" tag="(Start (NX (NE Wiesbaden)) (\$-LRB- -LRB-) (NX (NE dpa)) (\$-LRB- -RRB-) (\$-LRB- -) (SIMPX (VF (PX (APPR Nach) (NX (NX (ART der) (NN Kündigung)) (NX (PPOSAT seines) (NN Mietvertrages))))) (LK (VXFIN (VAFIN hat))) (MF (NX (ART ein) (NN Wiesbadener)) (PX (APPRART am) (NX (NX (NN Mittwoch)) (ADVX (ADV abend)))) (NX (PPOSAT seine) (NN Wohnung))) (VC (VXINF (VVPP angezündet)))) (\$\. \.))"/>
-<markable id="markable_105" span="word_28..word_39" mmax_level="parse" orderid="3" tag="(Start (SIMPX (VF (PX (APPR Nach) (NX (NN Polizeiangaben)))) (LK (VXFIN (VAFIN hatten))) (MF (NX (NN Zeugen)) (PX (APPR in) (NX (ART dem) (NN Appartementhaus))) (ADVX (ADV zunächst)) (NX (ART einen) (NN Knall))) (VC (VXINF (VVPP gehört)))) (\$\. \.))"/>
-<markable id="markable_130" span="word_40..word_48" mmax_level="parse" orderid="4" tag="(Start (SIMPX (VF (ADJX (ADJD Anschließend))) (LK (VXFIN (VVFIN drang))) (MF (NX (NN Qualm)) (PX (APPR aus) (NX (NX (ART der) (NN Wohnung)) (NX (ART des) (NN Mieters)))))) (\$\. \.))"/>
-<markable id="markable_151" span="word_49..word_56" mmax_level="parse" orderid="5" tag="(Start (SIMPX (VF (NX (ART Der) (NN Mann))) (LK (VXFIN (VAFIN wurde))) (MF (ADVX (ADV noch)) (PX (APPRART am) (NX (NN Tatort)))) (VC (VXINF (VVPP festgenommen)))) (\$\. \.))"/>
-</markables>
