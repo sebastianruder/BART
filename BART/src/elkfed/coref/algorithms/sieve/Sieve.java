@@ -221,19 +221,42 @@ public abstract class Sieve {
 
 		if (tokens.length == 1 && tokens[0].matches(relative_pronouns)) {
 			String rp = tokens[0];
-			Gender gender = Gender.UNKNOWN;
-			if (rp.equals("die") || rp.equals("welche") || rp.equals("deren")) {
-				gender = Gender.FEMALE;
-			} else if (rp.equals("der") || rp.equals("welcher") || rp.equals("dem")) {
-				gender = Gender.MALE;
-			} else if (rp.equals("das") || rp.equals("welches")) {
-				gender = Gender.NEUTRAL;
+			DiscourseEntity de = mention.getDiscourseEntity();
+			if (rp.equals("dem") || rp.equals("den") ||rp.equals("welcher")) {
+				de.setGender(Gender.MALE);
+			}
+			// "der": Nominativ Singular maskulin, Dativ Singular feminin
+			else if (rp.equals("der")) {
+				de.setGender(Gender.MALE);
+				de.addGender(Gender.FEMALE);
+			}
+			// "dem": Dativ Singular maskulin, Dativ Singular Neutrum
+			// "dessen": Genitiv Singular maskulin, Genitiv Singular Neutrum
+			else if (rp.equals("dem") || rp.equals("dessen")) {
+				de.setGender(Gender.MALE);
+				de.addGender(Gender.NEUTRAL);
+			}
+			else if (rp.equals("welche")) {
+				de.setGender(Gender.FEMALE);
+				de.addGender(Gender.PLURAL);
+			}
+			// "die": Nominativ Singular feminin, Nominativ + Akkusativ Plural
+			// "deren": Genitiv Singular feminin, Genitiv Plural
+			else if (rp.equals("die") || rp.equals("deren")) {
+				de.setGender(Gender.FEMALE);
+				de.addGender(Gender.PLURAL);
+			}			
+			else if (rp.equals("das") || rp.equals("welches")) {
+				mention.getDiscourseEntity().setGender(Gender.NEUTRAL);
+			}
+			else if (rp.equals("denen")) {
+				de.setGender(Gender.PLURAL);
 			}
 			int word_distance = m1.getLeftmostDiscoursePosition()
 					- m2.getRightmostDiscoursePosition();
 			// word distance = 3 means there is one word between mention and
 			// antecedent
-			if (word_distance <= 3 && gender.equals(antecedent.getGender())) {
+			if (word_distance <= 3 && de.getGenders().contains(antecedent.getGender())) {
 				// makes sure that antecedent is the uppermost mention and
 				// is not embedded by another one
 				for (Mention antecedent_of_antecedent : mentions) {
@@ -241,7 +264,7 @@ public abstract class Sieve {
 						break;
 					}
 					else if (antecedent_of_antecedent.embeds(antecedent) &&
-							gender.equals(antecedent_of_antecedent.getGender())) {
+							de.getGenders().contains(antecedent_of_antecedent.getGender())) {
 						return false;
 					}
 				}
