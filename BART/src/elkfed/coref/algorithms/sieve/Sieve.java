@@ -314,7 +314,10 @@ public abstract class Sieve {
 			split_expression = expression.toString().split(" ");
 		}
 		for (String word : split_expression) {
-			initials += word.substring(0, 1).toUpperCase();
+			//if (!(word.length() == 0)) {
+				initials += word.substring(0, 1).toUpperCase();
+			//}
+			
 		}
 		if (acronym.toString().equals(initials)) {
 			return true;
