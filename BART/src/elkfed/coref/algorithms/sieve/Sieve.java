@@ -466,6 +466,14 @@ public abstract class Sieve {
 		}
 		return false;
 	}
+	
+	
+	/**
+	 * true if antecendent or mention do not contain a number that the other one does not contain
+	 * 
+	 * @param pair
+	 * @return true or false
+	 */
 
 	public boolean noNumericMismatch(PairInstance pair) {
 		Set<String> mentionWords = new HashSet<String>();
@@ -496,6 +504,16 @@ public abstract class Sieve {
 		}
 		return true;
 	}
+	
+	
+	/**
+	 * true if modifiers of the pair do not contain different location named entities, 
+	 * other proper nouns or 
+	 * spatial modifiers
+	 * 
+	 * @param pair
+	 * @return true or false
+	 */
 
 	public boolean noLocationMismatch(PairInstance pair) {
 		Set<String> mentionWords = new HashSet<String>();
@@ -707,6 +725,13 @@ public abstract class Sieve {
 		}
 
 	
+	/**
+	 * true if mention is not an instance of Vorfeld- Es or Mittelfeld-Es
+	 * (found out through sentence tree structure)
+	 * 
+	 * @param mention
+	 * @return true or false
+	 */
 
 	public boolean isVorfeldEs(Mention mention) {
 //		if (mention.toString().equalsIgnoreCase("es")) {
@@ -776,11 +801,19 @@ public abstract class Sieve {
 	
 	
 	
+	/**
+	 * true if:
+	 * 
+	 * this method tries to recognize all speakers that have speech to their left, e.g.:
+	 * "...", so A
+	 * "...", speech_verb A
+	 * 
+	 * @param mention
+	 * @return true or false
+	 */
+	
 public boolean isSpeakerSpeechLeft(Mention mention){
-		
-		// this method tries to recognize all speakers that have speech to their left, e.g.:
-		// "...", so A
-		// "...", speech_verb A
+	
 		
 		if (FE_Speech.isMentionInSpeech(mention)){ // speaker cannot be in speech
 			return false;
@@ -811,12 +844,19 @@ public boolean isSpeakerSpeechLeft(Mention mention){
 	}
 	
 	
+	/**
+	 * true if:
+	 * 
+	 * this method tries to recognize all speakers that have speech to their right, e.g.:
+	 * A: "..."
+	 * A speech_verb (:) "..."
+	 * 	
+	 * @param mention
+	 * @return true or false
+	 */
+
 	public boolean isSpeakerSpeechRight(Mention mention){
-		
-		// this method tries to recognize all speakers that have speech to their right, e.g.:
-		// A: "..."
-		// A speech_verb (:) "..."
-		
+			
 		if (FE_Speech.isMentionInSpeech(mention)){ // speaker cannot be in speech
 			return false;
 		}
