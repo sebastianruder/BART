@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_20" tag="(S1 (S (NP (PRP I)) (VP (VBP 'm) (NP (NP (NNP Rhonda) (NNP Schaffler)) (, ,) (ADVP (RB live) (PP (IN from) (NP (DT the) (NML (NNP New) (NNP York)) (NNP Stock) (NNP Exchange)))) (, ,) (SBAR (WHADVP (WRB where)) (S (NP (NNS stocks)) (VP (VBP are) (ADJP (JJ stuck) (PP (IN in) (NP (NN reverse))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_21..word_36" tag="(S1 (S (NP (NNS Stocks)) (VP (VBP have) (VP (VBN rallied) (PP (IN for) (NP (NP (CD three) (NNS months)) (PP (IN on) (NP (NP (DT a) (NN hope)) (PP (IN of) (NP (NP (DT a) (NN turnaround)) (PP (IN in) (NP (DT the) (NN economy))))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_37..word_45" tag="(S1 (S (NP (NNS Investors)) (VP (VBG ignoring) (NP (NP (JJ upbeat) (NNS signs)) (PP (IN about) (NP (DT the) (NN economy))) (NP (NN today)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_46..word_60" tag="(S1 (S (NP (NP (DT A) (JJ key) (NN gauge)) (PP (IN of) (NP (JJ future) (JJ economic) (NN activity)))) (VP (VBD posted) (NP (NP (PRP$ its) (JJS biggest) (NN rise)) (PP (IN in) (NP (CD 17) (NNS months))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_61..word_75" tag="(S1 (S (PP (IN Despite) (NP (DT that))) (NP (DT the) (NML (NNP Dow) (NNP Jones)) (JJ industrial) (NN average)) (VP (VBG sliding) (PP (IN at) (NP (NP (DT the) (NN moment)) (PP (IN by) (NP (CD 76) (NNS points)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10006" span="word_76..word_92" tag="(S1 (FRAG (NP (NNP General) (NNP Electronic)) (VP (VBG using) (NP (DT a) (NN dollar)) (SBAR (IN after) (S (NP (NML (CD three) (NN brokerage)) (NNS companies)) (VP (VBD cut) (NP (PRP$ their) (NN profit) (NN expectation)) (PP (IN on) (NP (DT the) (NN company))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10007" span="word_93..word_97" tag="(S1 (FRAG (NP (NNP Nasdaq)) (PP (IN off) (NP (CD 0.75) (NN %))) (. .)))" mmax_level="parse" />
+<markable id="markable_10008" span="word_98..word_107" tag="(S1 (S (NP (NP (NNP CNN) (POS 's)) (ADJP (`` ``) (JJ Live) (PP (IN From)) ('' ''))) (VP (VBZ continues) (PP (IN after) (NP (DT this)))) (. .)))" mmax_level="parse" />
+</markables>

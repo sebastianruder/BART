@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_8" span="word_1..word_3" sentenceid="1" label="organization" min_ids="word_1..word_3" type="enamex" lemmata="xinhua news agency" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_5" sentenceid="1" label="location" min_ids="word_5..word_5" type="enamex" lemmata="shanghai" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_7..word_8" sentenceid="1" label="date" min_ids="word_7..word_8" type="enamex" lemmata="august 31st" isprenominal="false" pos="nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_11..word_13" sentenceid="1" label="person" min_ids="word_11..word_13" type="enamex" lemmata="reporter jierong zhou" isprenominal="false" pos="nn nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_14" sentenceid="2" label="location" type="enamex" lemmata="malaysian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_14..word_17" sentenceid="2" label="person" min_ids="word_14..word_17" type="enamex" lemmata="malaysian vice-prime minister anwar" isprenominal="false" pos="jj jj nn nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_19..word_22" sentenceid="2" label="np" min_ids="word_19..word_20" type="chunk" lemmata="a visit to china" isprenominal="false" pos="dt nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_22" sentenceid="2" label="location" min_ids="word_22..word_22" type="enamex" lemmata="china" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_23..word_24" sentenceid="2" label="time" min_ids="word_23..word_24" type="enamex" lemmata="this afternoon" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_28" sentenceid="2" label="location" min_ids="word_28..word_28" type="enamex" lemmata="shanghai" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_30" sentenceid="2" label="location" min_ids="word_30..word_30" type="enamex" lemmata="tokyo" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_32" sentenceid="3" label="person" min_ids="word_32..word_32" type="enamex" lemmata="anwar" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_35" sentenceid="3" label="location" min_ids="word_35..word_35" type="enamex" lemmata="shanghai" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_37" sentenceid="3" label="location" min_ids="word_37..word_37" type="enamex" lemmata="nanjing" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_38..word_39" sentenceid="3" label="time" min_ids="word_38..word_39" type="enamex" lemmata="yesterday afternoon" isprenominal="false" pos="nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_41..word_42" sentenceid="4" label="time" min_ids="word_41..word_42" type="enamex" lemmata="last night" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_44..word_47" sentenceid="4" label="np" min_ids="word_44..word_45" type="chunk" lemmata="the vice-mayor of shanghai" isprenominal="false" pos="dt nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_47" sentenceid="4" label="location" min_ids="word_47..word_47" type="enamex" lemmata="shanghai" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_49..word_50" sentenceid="4" label="person" min_ids="word_49..word_50" type="enamex" lemmata="qizheng zhao" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_52..word_54" sentenceid="4" label="person" min_ids="word_52..word_54" type="enamex" lemmata="mayor ju huang" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_59" sentenceid="4" label="person" min_ids="word_59..word_59" type="enamex" lemmata="anwar" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_59..word_62" sentenceid="4" label="np" min_ids="word_59..word_62" type="chunk" lemmata="anwar and his delegation" isprenominal="false" pos="nnp cc prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_61" sentenceid="4" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_61..word_62" sentenceid="4" label="np" min_ids="word_61..word_62" type="chunk" lemmata="his delegation" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_64..word_65" sentenceid="4" label="np" min_ids="word_64..word_65" type="chunk" lemmata="a banquet" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_67..word_68" sentenceid="5" label="time" min_ids="word_67..word_68" type="enamex" lemmata="this morning" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_70" sentenceid="5" label="person" min_ids="word_70..word_70" type="enamex" lemmata="anwar" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_72..word_85" sentenceid="5" label="np" min_ids="word_72..word_75" type="chunk" lemmata="the foundation lay ceremony of the minhang china - malaysia joint - venture enterprise" isprenominal="false" pos="dt nn vbg nn in dt nnp nnp hyph nnp jj hyph nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_77..word_85" sentenceid="5" label="np" min_ids="word_77..word_85" type="chunk" lemmata="the minhang china - malaysia joint - venture enterprise" isprenominal="false" pos="dt nnp nnp hyph nnp jj hyph nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_78..word_79" sentenceid="5" label="location" type="enamex" lemmata="minhang china" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_81" sentenceid="5" label="location" min_ids="word_81..word_81" type="enamex" lemmata="malaysia" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_91..word_92" sentenceid="5" label="location" min_ids="word_91..word_91" type="enamex" lemmata="pudong 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_91..word_96" sentenceid="5" label="location" min_ids="word_91..word_96" type="enamex" lemmata="pudong 's jingqiao export processing district" isprenominal="false" pos="nnp pos nnp nn nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_98..word_100" sentenceid="6" label="np" min_ids="word_98..word_100" type="chunk" lemmata="-lrb- end -rrb-" isprenominal="false" pos="-lrb- nn -rrb-" speaker="-" mmax_level="markable" />
+</markables>

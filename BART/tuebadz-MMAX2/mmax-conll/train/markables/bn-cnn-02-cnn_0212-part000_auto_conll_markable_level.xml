@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_11" span="word_1..word_3" sentenceid="1" label="organization" min_ids="word_1..word_3" type="enamex" lemmata="major league baseball" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_5" sentenceid="1" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_5..word_8" sentenceid="1" label="np" min_ids="word_5..word_6" type="chunk" lemmata="its head of security" isprenominal="false" pos="prp$ nn in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_8" sentenceid="1" label="np" min_ids="word_8..word_8" type="chunk" lemmata="security" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_10" sentenceid="1" label="location" min_ids="word_10..word_10" type="enamex" lemmata="chicago" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_13..word_27" sentenceid="1" label="np" min_ids="word_13..word_15" type="chunk" lemmata="the second incident of an on - field fan attack in the last seven month" isprenominal="false" pos="dt jj nn in dt in hyph nn nn nn in dt jj cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_14" sentenceid="1" label="percent" type="enamex" lemmata="second" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_17..word_27" sentenceid="1" label="np" min_ids="word_17..word_22" type="chunk" lemmata="an on - field fan attack in the last seven month" isprenominal="false" pos="dt in hyph nn nn nn in dt jj cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_20" sentenceid="1" label="np" min_ids="word_20..word_20" type="chunk" lemmata="field" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_29..word_30" sentenceid="2" label="np" min_ids="word_29..word_30" type="chunk" lemmata="the league" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_33..word_36" sentenceid="2" label="np" min_ids="word_33..word_33" type="chunk" lemmata="security at all ballpark" isprenominal="false" pos="nn in dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_35..word_36" sentenceid="2" label="np" min_ids="word_35..word_36" type="chunk" lemmata="all ballpark" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_41..word_42" sentenceid="2" label="np" min_ids="word_41..word_42" type="chunk" lemmata="spectator violence" isprenominal="false" pos="nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_44..word_47" sentenceid="3" label="organization" min_ids="word_44..word_47" type="enamex" lemmata="the kansas city royals" isprenominal="false" pos="dt nnp nnp nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_51" sentenceid="3" label="time" min_ids="word_51..word_51" type="enamex" lemmata="tonight" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_53..word_54" sentenceid="3" label="np" min_ids="word_53..word_54" type="chunk" lemmata="the team" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_58..word_59" sentenceid="3" label="np" min_ids="word_58..word_59" type="chunk" lemmata="security measure" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+</markables>

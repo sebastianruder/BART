@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_27" span="word_1..word_2" sentenceid="1" label="person" min_ids="word_1..word_2" type="enamex" lemmata="president clinton" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_5..word_19" sentenceid="1" label="np" min_ids="word_5..word_7" type="chunk" lemmata="a memorial service for the victim of the deadly bomb attack on the uss cole" isprenominal="false" pos="dt jj nn in dt nns in dt jj nn nn in dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_9..word_19" sentenceid="1" label="np" min_ids="word_9..word_10" type="chunk" lemmata="the victim of the deadly bomb attack on the uss cole" isprenominal="false" pos="dt nns in dt jj nn nn in dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_12..word_19" sentenceid="1" label="np" min_ids="word_12..word_15" type="chunk" lemmata="the deadly bomb attack on the uss cole" isprenominal="false" pos="dt jj nn nn in dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_17..word_19" sentenceid="1" label="object" min_ids="word_17..word_19" type="enamex" lemmata="the uss cole" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_21" sentenceid="1" label="np" min_ids="word_21..word_21" type="chunk" lemmata="justice" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_25..word_26" sentenceid="2" label="person" min_ids="word_25..word_26" type="enamex" lemmata="mr. clinton" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_28..word_34" sentenceid="2" label="np" min_ids="word_28..word_29" type="chunk" lemmata="the gathering at the norfolk naval station" isprenominal="false" pos="dt nn in dt nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_31..word_34" sentenceid="2" label="object" min_ids="word_31..word_34" type="enamex" lemmata="the norfolk naval station" isprenominal="false" pos="dt nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_35" sentenceid="2" label="date" min_ids="word_35..word_35" type="enamex" lemmata="wednesday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_37..word_47" sentenceid="2" label="np" min_ids="word_37..word_37" type="chunk" lemmata="those who carry out the deadly attack that kill 17 sailor" isprenominal="false" pos="dt wp vbd rp dt jj nn wdt vbd cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_41..word_47" sentenceid="2" label="np" min_ids="word_41..word_43" type="chunk" lemmata="the deadly attack that kill 17 sailor" isprenominal="false" pos="dt jj nn wdt vbd cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_46" sentenceid="2" label="percent" type="enamex" lemmata="17" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_46..word_47" sentenceid="2" label="np" min_ids="word_46..word_47" type="chunk" lemmata="17 sailor" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_53..word_56" sentenceid="3" label="np" min_ids="word_53..word_53" type="chunk" lemmata="those who attack they" isprenominal="false" pos="dt wp vbd prp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_56" sentenceid="3" label="np" min_ids="word_56..word_56" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_58" sentenceid="3" label="np" min_ids="word_58..word_58" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_60" sentenceid="3" label="np" min_ids="word_60..word_60" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_64..word_66" sentenceid="3" label="np" min_ids="word_64..word_66" type="chunk" lemmata="a safe harbor" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_68" sentenceid="3" label="np" min_ids="word_68..word_68" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_71" sentenceid="3" label="np" min_ids="word_71..word_71" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_73" sentenceid="3" label="np" min_ids="word_73..word_73" type="chunk" lemmata="justice" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_80" sentenceid="4" label="location" min_ids="word_80..word_80" type="enamex" lemmata="yemen" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_34" span="word_81..word_84" sentenceid="4" label="person" min_ids="word_81..word_84" type="enamex" lemmata="president ali abdul salay" isprenominal="false" pos="nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_86..word_87" sentenceid="4" label="np" min_ids="word_86..word_87" type="chunk" lemmata="important evidence" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_92..word_93" sentenceid="4" label="np" min_ids="word_92..word_93" type="chunk" lemmata="the investigation" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_35" span="word_95..word_96" sentenceid="5" label="person" min_ids="word_95..word_96" type="enamex" lemmata="president salay" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_36" span="word_101" sentenceid="5" label="percent" type="enamex" lemmata="two" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_101..word_106" sentenceid="5" label="np" min_ids="word_101..word_102" type="chunk" lemmata="two people responsible for the blast" isprenominal="false" pos="cd nns jj in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_105..word_106" sentenceid="5" label="np" min_ids="word_105..word_106" type="chunk" lemmata="the blast" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_110..word_112" sentenceid="5" label="np" min_ids="word_110..word_112" type="chunk" lemmata="a suicide mission" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_115..word_116" sentenceid="5" label="np" min_ids="word_115..word_116" type="chunk" lemmata="the attack" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_121..word_123" sentenceid="5" label="np" min_ids="word_121..word_123" type="chunk" lemmata="a long time" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_39" span="word_125" sentenceid="6" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_125..word_126" sentenceid="6" label="np" min_ids="word_125..word_126" type="chunk" lemmata="his comment" isprenominal="false" pos="prp$ nns" speaker="-" mmax_level="markable" />
+<markable id="markable_37" span="word_132" sentenceid="6" label="location" type="enamex" lemmata="us" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_132..word_142" sentenceid="6" label="np" min_ids="word_132..word_133" type="chunk" lemmata="us official who be lead the investigation with yemen 's help" isprenominal="false" pos="nnp nns wp vbp vbg dt nn in nnp pos nn" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_137..word_142" sentenceid="6" label="np" min_ids="word_137..word_138" type="chunk" lemmata="the investigation with yemen 's help" isprenominal="false" pos="dt nn in nnp pos nn" speaker="-" mmax_level="markable" />
+<markable id="markable_38" span="word_140..word_141" sentenceid="6" label="location" min_ids="word_140..word_140" type="enamex" lemmata="yemen 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_140..word_142" sentenceid="6" label="np" min_ids="word_140..word_142" type="chunk" lemmata="yemen 's help" isprenominal="false" pos="nnp pos nn" speaker="-" mmax_level="markable" />
+</markables>

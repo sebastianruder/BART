@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_17" span="word_1..word_2" sentenceid="1" label="person" min_ids="word_1..word_2" type="enamex" lemmata="president clinton" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_5..word_7" sentenceid="1" label="time" min_ids="word_5..word_7" type="enamex" lemmata="prime time tonight" isprenominal="false" pos="jj nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_10" sentenceid="1" label="np" min_ids="word_10..word_10" type="chunk" lemmata="farewell" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_12..word_16" sentenceid="1" label="location" min_ids="word_12..word_12" type="enamex" lemmata="americans in a televise address" isprenominal="false" pos="nnps in dt vbn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_14..word_16" sentenceid="1" label="np" min_ids="word_14..word_16" type="chunk" lemmata="a televise address" isprenominal="false" pos="dt vbn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_18..word_19" sentenceid="2" label="np" min_ids="word_18..word_19" type="chunk" lemmata="the speech" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_24" sentenceid="2" label="np" min_ids="word_24..word_24" type="chunk" lemmata="a" isprenominal="false" pos="dt" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_27" sentenceid="2" label="np" min_ids="word_27..word_27" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_29..word_46" sentenceid="2" label="np" min_ids="word_29..word_30" type="chunk" lemmata="the people who twice vote he into the white house and support he even at his lowest moment" isprenominal="false" pos="dt nns wp rb vbd prp in dt nnp nnp cc vbd prp rb in prp$ jjs nns" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_34" sentenceid="2" label="np" min_ids="word_34..word_34" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_36..word_38" sentenceid="2" label="organization" min_ids="word_36..word_38" type="enamex" lemmata="the white house" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_41" sentenceid="2" label="np" min_ids="word_41..word_41" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_44" sentenceid="2" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_44..word_46" sentenceid="2" label="np" min_ids="word_44..word_46" type="chunk" lemmata="his lowest moment" isprenominal="false" pos="prp$ jjs nns" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_48" sentenceid="3" label="date" min_ids="word_48..word_48" type="enamex" lemmata="yesterday" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_50..word_51" sentenceid="3" label="person" min_ids="word_50..word_51" type="enamex" lemmata="mr. clinton" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_54..word_60" sentenceid="3" label="np" min_ids="word_54..word_54" type="chunk" lemmata="supporter in his home state of arkansas" isprenominal="false" pos="nns in prp$ nn nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_56" sentenceid="3" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_56..word_60" sentenceid="3" label="np" min_ids="word_56..word_58" type="chunk" lemmata="his home state of arkansas" isprenominal="false" pos="prp$ nn nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_60" sentenceid="3" label="location" min_ids="word_60..word_60" type="enamex" lemmata="arkansas" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_62" sentenceid="4" label="np" min_ids="word_62..word_62" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_64..word_80" sentenceid="4" label="np" min_ids="word_64..word_65" type="chunk" lemmata="the last of several speech he have make in recent week to his backer across the country" isprenominal="false" pos="dt jj in jj nns prp vbz vbn in jj nns in prp$ nns in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_67..word_80" sentenceid="4" label="np" min_ids="word_67..word_68" type="chunk" lemmata="several speech he have make in recent week to his backer across the country" isprenominal="false" pos="jj nns prp vbz vbn in jj nns in prp$ nns in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_69" sentenceid="4" label="np" min_ids="word_69..word_69" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_73..word_74" sentenceid="4" label="date" min_ids="word_73..word_74" type="enamex" lemmata="recent week" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_76" sentenceid="4" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_76..word_80" sentenceid="4" label="np" min_ids="word_76..word_77" type="chunk" lemmata="his backer across the country" isprenominal="false" pos="prp$ nns in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_79..word_80" sentenceid="4" label="np" min_ids="word_79..word_80" type="chunk" lemmata="the country" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+</markables>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_11" span="word_1..word_11" sentenceid="1" label="person" min_ids="word_1..word_3" type="enamex" lemmata="francis d. john , 35 - year - old president ," isprenominal="false" pos="nnp nnp nnp , cd hyph nn hyph jj nn ," speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_5..word_9" sentenceid="1" label="date" type="enamex" lemmata="35 - year - old" isprenominal="false" pos="cd hyph nn hyph jj" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_5..word_10" sentenceid="1" label="np" min_ids="word_5..word_10" type="chunk" lemmata="35 - year - old president" isprenominal="false" pos="cd hyph nn hyph jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_14..word_20" sentenceid="1" label="np" min_ids="word_14..word_16" type="chunk" lemmata="the additional job of chief executive officer" isprenominal="false" pos="dt jj nn in jj jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_18..word_20" sentenceid="1" label="np" min_ids="word_18..word_20" type="chunk" lemmata="chief executive officer" isprenominal="false" pos="jj jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_22" sentenceid="2" label="np" min_ids="word_22..word_22" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_24..word_33" sentenceid="2" label="person" min_ids="word_24..word_26" type="enamex" lemmata="paul j. montle , 42 , who will remain chairman" isprenominal="false" pos="nnp nnp nnp , cd , wp md vb nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_28" sentenceid="2" label="np" min_ids="word_28..word_28" type="chunk" lemmata="42" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_33" sentenceid="2" label="np" min_ids="word_33..word_33" type="chunk" lemmata="chairman" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_35..word_36" sentenceid="3" label="organization" min_ids="word_35..word_36" type="enamex" lemmata="national environmental" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_39" sentenceid="3" label="np" min_ids="word_39..word_39" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_42" sentenceid="3" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_42..word_43" sentenceid="3" label="np" min_ids="word_42..word_43" type="chunk" lemmata="its headquarters" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_45" sentenceid="3" label="location" min_ids="word_45..word_45" type="enamex" lemmata="hingham" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_47..word_57" sentenceid="3" label="location" min_ids="word_47..word_47" type="enamex" lemmata="folcroft , pa. , the site of its sludge dewatering facility" isprenominal="false" pos="nnp , nnp , dt nn in prp$ nn nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_49" sentenceid="3" label="location" min_ids="word_49..word_49" type="enamex" lemmata="pa." isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_51..word_57" sentenceid="3" label="np" min_ids="word_51..word_52" type="chunk" lemmata="the site of its sludge dewatering facility" isprenominal="false" pos="dt nn in prp$ nn nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_54" sentenceid="3" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_54..word_57" sentenceid="3" label="np" min_ids="word_54..word_57" type="chunk" lemmata="its sludge dewatering facility" isprenominal="false" pos="prp$ nn nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_59..word_65" sentenceid="4" label="organization" min_ids="word_59..word_60" type="enamex" lemmata="national environmental , formerly yankee cos. ," isprenominal="false" pos="nnp nnp , rb nnp nnp ," speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_63..word_64" sentenceid="4" label="organization" min_ids="word_63..word_64" type="enamex" lemmata="yankee cos." isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_67..word_70" sentenceid="4" label="np" min_ids="word_67..word_70" type="chunk" lemmata="a sludge treatment company" isprenominal="false" pos="dt nn nn nn" speaker="-" mmax_level="markable" />
+</markables>

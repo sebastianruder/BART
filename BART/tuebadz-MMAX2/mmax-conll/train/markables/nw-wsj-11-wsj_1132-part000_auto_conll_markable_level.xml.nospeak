@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_9" span="word_1..word_3" sentenceid="1" label="person" min_ids="word_1..word_3" type="enamex" lemmata="malcolm s. todt" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_6..word_17" sentenceid="1" label="np" min_ids="word_6..word_7" type="chunk" lemmata="vice president and senior officer in charge of equipment lease to municipality" isprenominal="false" pos="nn nn cc jj nn in nn in nn vbg in nns" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_9..word_10" sentenceid="1" label="np" min_ids="word_9..word_10" type="chunk" lemmata="senior officer" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_12..word_17" sentenceid="1" label="np" min_ids="word_12..word_12" type="chunk" lemmata="charge of equipment lease to municipality" isprenominal="false" pos="nn in nn vbg in nns" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_14..word_17" sentenceid="1" label="np" min_ids="word_14..word_14" type="chunk" lemmata="equipment lease to municipality" isprenominal="false" pos="nn vbg in nns" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_17" sentenceid="1" label="np" min_ids="word_17..word_17" type="chunk" lemmata="municipality" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_19..word_25" sentenceid="1" label="np" min_ids="word_19..word_21" type="chunk" lemmata="a new effort of this bond insurer" isprenominal="false" pos="dt jj nn in dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_23..word_25" sentenceid="1" label="np" min_ids="word_23..word_25" type="chunk" lemmata="this bond insurer" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_27..word_28" sentenceid="2" label="person" min_ids="word_27..word_28" type="enamex" lemmata="mr. todt" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_31..word_37" sentenceid="2" label="np" min_ids="word_31..word_32" type="chunk" lemmata="vice president and treasurer of insilco corp" isprenominal="false" pos="nn nn cc nn in nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_34" sentenceid="2" label="np" min_ids="word_34..word_34" type="chunk" lemmata="treasurer" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_36..word_37" sentenceid="2" label="organization" min_ids="word_36..word_37" type="enamex" lemmata="insilco corp" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+</markables>

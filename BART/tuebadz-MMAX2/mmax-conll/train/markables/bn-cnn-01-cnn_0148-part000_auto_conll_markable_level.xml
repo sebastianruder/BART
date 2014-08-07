@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_2" sentenceid="1" label="np" min_ids="word_1..word_2" type="chunk" lemmata="major announcement" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_4" sentenceid="1" label="location" min_ids="word_4..word_4" type="enamex" lemmata="israel" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_5" sentenceid="1" label="date" min_ids="word_5..word_5" type="enamex" lemmata="today" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_7..word_12" sentenceid="2" label="person" min_ids="word_7..word_12" type="enamex" lemmata="former israeli prime minister benjamin netanyahu" isprenominal="false" pos="jj jj nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_8" sentenceid="2" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_14" sentenceid="2" label="np" min_ids="word_14..word_14" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_34" span="word_19" sentenceid="2" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_19..word_21" sentenceid="2" label="np" min_ids="word_19..word_21" type="chunk" lemmata="his old job" isprenominal="false" pos="prp$ jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_23" sentenceid="3" label="np" min_ids="word_23..word_23" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_25..word_31" sentenceid="3" label="np" min_ids="word_25..word_27" type="chunk" lemmata="the current excess of party in parliament" isprenominal="false" pos="dt jj nn in nns in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_29..word_31" sentenceid="3" label="np" min_ids="word_29..word_29" type="chunk" lemmata="party in parliament" isprenominal="false" pos="nns in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_31" sentenceid="3" label="np" min_ids="word_31..word_31" type="chunk" lemmata="parliament" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_33" sentenceid="3" label="np" min_ids="word_33..word_33" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_37..word_43" sentenceid="3" label="np" min_ids="word_37..word_43" type="chunk" lemmata="a stable , long - last coalition" isprenominal="false" pos="dt jj , rb hyph vbg nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_45..word_46" sentenceid="4" label="np" min_ids="word_45..word_46" type="chunk" lemmata="the statement" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_49..word_51" sentenceid="4" label="np" min_ids="word_49..word_49" type="chunk" lemmata="member of parliament" isprenominal="false" pos="nns in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_51" sentenceid="4" label="np" min_ids="word_51..word_51" type="chunk" lemmata="parliament" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_55" sentenceid="4" label="np" min_ids="word_55..word_55" type="chunk" lemmata="election" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_57" sentenceid="4" label="np" min_ids="word_57..word_57" type="chunk" lemmata="themselves" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_59..word_60" sentenceid="5" label="person" min_ids="word_59..word_59" type="enamex" lemmata="netanyahu 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_59..word_61" sentenceid="5" label="np" min_ids="word_59..word_61" type="chunk" lemmata="netanyahu 's withdrawal" isprenominal="false" pos="nnp pos nn" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_63" sentenceid="5" label="organization" type="enamex" lemmata="likud" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_63..word_66" sentenceid="5" label="person" min_ids="word_63..word_66" type="enamex" lemmata="likud leader ariel sharon" isprenominal="false" pos="nnp nn nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_68..word_76" sentenceid="5" label="np" min_ids="word_68..word_70" type="chunk" lemmata="the only candidate run against prime minister ehud barak" isprenominal="false" pos="dt jj nn vbg in nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_73..word_76" sentenceid="5" label="person" min_ids="word_73..word_76" type="enamex" lemmata="prime minister ehud barak" isprenominal="false" pos="nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_79..word_83" sentenceid="5" label="person" min_ids="word_79..word_83" type="enamex" lemmata="former prime minister shimon peres" isprenominal="false" pos="jj nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_85" sentenceid="5" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_85..word_86" sentenceid="5" label="np" min_ids="word_85..word_86" type="chunk" lemmata="israeli radio" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_87" sentenceid="5" label="np" min_ids="word_87..word_87" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_92..word_94" sentenceid="6" label="np" min_ids="word_92..word_94" type="chunk" lemmata="the special election" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_98" sentenceid="6" label="person" min_ids="word_98..word_98" type="enamex" lemmata="barak" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_101..word_103" sentenceid="6" label="date" min_ids="word_101..word_103" type="enamex" lemmata="earlier this month" isprenominal="false" pos="rbr dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_105" sentenceid="7" label="np" min_ids="word_105..word_105" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_110" sentenceid="7" label="np" min_ids="word_110..word_110" type="chunk" lemmata="place" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_111" sentenceid="7" label="date" min_ids="word_111..word_111" type="enamex" lemmata="february" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+</markables>

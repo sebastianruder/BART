@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_10" span="word_1..word_16" sentenceid="1" label="person" min_ids="word_1..word_3" type="enamex" lemmata="roy e. parrott , the company 's president and chief operating officer since sept. 1 ," isprenominal="false" pos="nnp nnp nnp , dt nn pos nn cc jj nn nn in nnp cd ," speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_5..word_7" sentenceid="1" label="np" min_ids="word_5..word_6" type="chunk" lemmata="the company 's" isprenominal="false" pos="dt nn pos" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_5..word_8" sentenceid="1" label="np" min_ids="word_5..word_8" type="chunk" lemmata="the company 's president" isprenominal="false" pos="dt nn pos nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_5..word_15" sentenceid="1" label="np" min_ids="word_5..word_12" type="chunk" lemmata="the company 's president and chief operating officer since sept. 1" isprenominal="false" pos="dt nn pos nn cc jj nn nn in nnp cd" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_10..word_12" sentenceid="1" label="np" min_ids="word_10..word_12" type="chunk" lemmata="chief operating officer" isprenominal="false" pos="jj nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_14..word_15" sentenceid="1" label="date" min_ids="word_14..word_15" type="enamex" lemmata="sept. 1" isprenominal="false" pos="nnp cd" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_20" sentenceid="1" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_20..word_21" sentenceid="1" label="np" min_ids="word_20..word_21" type="chunk" lemmata="its board" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_23..word_24" sentenceid="2" label="np" min_ids="word_23..word_24" type="chunk" lemmata="the appointment" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_26..word_29" sentenceid="2" label="np" min_ids="word_26..word_27" type="chunk" lemmata="the number of director" isprenominal="false" pos="dt nn in nns" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_29" sentenceid="2" label="np" min_ids="word_29..word_29" type="chunk" lemmata="director" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_31" sentenceid="2" label="percent" min_ids="word_31..word_31" type="enamex" lemmata="10" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_33" sentenceid="2" label="percent" type="enamex" lemmata="three" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_37..word_38" sentenceid="2" label="np" min_ids="word_37..word_38" type="chunk" lemmata="company employee" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_40" sentenceid="3" label="organization" min_ids="word_40..word_40" type="enamex" lemmata="simpson" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_42..word_45" sentenceid="3" label="np" min_ids="word_42..word_45" type="chunk" lemmata="an auto part maker" isprenominal="false" pos="dt nn nns nn" speaker="-" mmax_level="markable" />
+</markables>

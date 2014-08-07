@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_16" sentenceid="1" label="np" min_ids="word_1..word_2" type="chunk" lemmata="the admiral review the action of the captain and crew of the `` uss cole ''" isprenominal="false" pos="dt nn vbg dt nns in dt nn cc nn in dt `` nnp nnp ''" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_4..word_16" sentenceid="1" label="np" min_ids="word_4..word_5" type="chunk" lemmata="the action of the captain and crew of the `` uss cole ''" isprenominal="false" pos="dt nns in dt nn cc nn in dt `` nnp nnp ''" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_7..word_16" sentenceid="1" label="np" min_ids="word_7..word_10" type="chunk" lemmata="the captain and crew of the `` uss cole ''" isprenominal="false" pos="dt nn cc nn in dt `` nnp nnp ''" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_12..word_16" sentenceid="1" label="object" min_ids="word_12..word_16" type="enamex" lemmata="the `` uss cole ''" isprenominal="false" pos="dt `` nnp nnp ''" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_19..word_25" sentenceid="1" label="np" min_ids="word_19..word_20" type="chunk" lemmata="no punishment for the ship 's commander" isprenominal="false" pos="dt nn in dt nn pos nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_22..word_24" sentenceid="1" label="np" min_ids="word_22..word_23" type="chunk" lemmata="the ship 's" isprenominal="false" pos="dt nn pos" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_22..word_25" sentenceid="1" label="np" min_ids="word_22..word_25" type="chunk" lemmata="the ship 's commander" isprenominal="false" pos="dt nn pos nn" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_27" sentenceid="2" label="organization" type="enamex" lemmata="pentagon" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_27..word_28" sentenceid="2" label="np" min_ids="word_27..word_28" type="chunk" lemmata="pentagon source" isprenominal="false" pos="nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_30" sentenceid="2" label="organization" type="enamex" lemmata="cnn" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_30..word_34" sentenceid="2" label="person" min_ids="word_30..word_33" type="enamex" lemmata="cnn admiral robert natter 's" isprenominal="false" pos="nnp nnp nnp nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_30..word_35" sentenceid="2" label="np" min_ids="word_30..word_35" type="chunk" lemmata="cnn admiral robert natter 's decision" isprenominal="false" pos="nnp nnp nnp nnp pos nn" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_41" sentenceid="2" label="percent" type="enamex" lemmata="two" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_41..word_44" sentenceid="2" label="np" min_ids="word_41..word_44" type="chunk" lemmata="two top navy official" isprenominal="false" pos="cd jj nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_43" sentenceid="2" label="organization" type="enamex" lemmata="navy" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_47..word_48" sentenceid="2" label="np" min_ids="word_47..word_48" type="chunk" lemmata="the recommendation" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_50" sentenceid="2" label="np" min_ids="word_50..word_50" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_52..word_54" sentenceid="2" label="np" min_ids="word_52..word_53" type="chunk" lemmata="the ship 's" isprenominal="false" pos="dt nn pos" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_52..word_56" sentenceid="2" label="np" min_ids="word_52..word_56" type="chunk" lemmata="the ship 's command officer" isprenominal="false" pos="dt nn pos vbg nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_59..word_61" sentenceid="2" label="np" min_ids="word_59..word_61" type="chunk" lemmata="any disciplinary action" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_63..word_64" sentenceid="3" label="np" min_ids="word_63..word_64" type="chunk" lemmata="the admiral" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_66..word_69" sentenceid="3" label="person" min_ids="word_66..word_68" type="enamex" lemmata="commander kirk lippold 's" isprenominal="false" pos="nnp nnp nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_66..word_70" sentenceid="3" label="np" min_ids="word_66..word_70" type="chunk" lemmata="commander kirk lippold 's action" isprenominal="false" pos="nnp nnp nnp pos nns" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_78..word_84" sentenceid="3" label="np" min_ids="word_78..word_82" type="chunk" lemmata="the `` acceptable '' range of conduct" isprenominal="false" pos="dt `` jj '' nn in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_84" sentenceid="3" label="np" min_ids="word_84..word_84" type="chunk" lemmata="conduct" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_86..word_89" sentenceid="4" label="object" min_ids="word_88..word_88" type="enamex" lemmata="the `` cole ''" isprenominal="false" pos="dt `` nnp ''" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_92" sentenceid="4" label="date" min_ids="word_92..word_92" type="enamex" lemmata="october" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_94" sentenceid="4" label="location" min_ids="word_94..word_94" type="enamex" lemmata="yemen" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_96..word_97" sentenceid="4" label="np" min_ids="word_96..word_97" type="chunk" lemmata="suicide bomber" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_99..word_101" sentenceid="4" label="np" min_ids="word_99..word_101" type="chunk" lemmata="a small boat" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_103" sentenceid="5" label="percent" type="enamex" lemmata="17" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_103..word_104" sentenceid="5" label="np" min_ids="word_103..word_104" type="chunk" lemmata="17 sailor" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+</markables>

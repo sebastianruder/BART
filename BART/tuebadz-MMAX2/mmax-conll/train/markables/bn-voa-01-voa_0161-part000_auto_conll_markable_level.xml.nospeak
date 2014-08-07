@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_20" sentenceid="1" label="np" min_ids="word_1..word_4" type="chunk" lemmata="the us missile destroyer ` cole ' , badly damage by a terrorist bombing in yemen two month ago ," isprenominal="false" pos="dt nnp nn nn `` nnp '' , rb vbn in dt jj nn in nnp cd nns rb ," speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_2" sentenceid="1" label="location" type="enamex" lemmata="us" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_5..word_7" sentenceid="1" label="object" min_ids="word_6..word_6" type="enamex" lemmata="` cole '" isprenominal="false" pos="`` nnp ''" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_12..word_19" sentenceid="1" label="np" min_ids="word_12..word_14" type="chunk" lemmata="a terrorist bombing in yemen two month ago" isprenominal="false" pos="dt jj nn in nnp cd nns rb" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_16" sentenceid="1" label="location" min_ids="word_16..word_16" type="enamex" lemmata="yemen" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_17..word_19" sentenceid="1" label="date" type="enamex" lemmata="two month ago" isprenominal="false" pos="cd nns rb" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_24..word_32" sentenceid="1" label="np" min_ids="word_24..word_25" type="chunk" lemmata="a shipyard in the southern united states for repair" isprenominal="false" pos="dt nn in dt jj nnp nnp in nns" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_27..word_32" sentenceid="1" label="location" min_ids="word_28..word_30" type="enamex" lemmata="the southern united states for repair" isprenominal="false" pos="dt jj nnp nnp in nns" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_32" sentenceid="1" label="np" min_ids="word_32..word_32" type="chunk" lemmata="repair" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_36..word_38" sentenceid="2" label="np" min_ids="word_36..word_38" type="chunk" lemmata="another large vessel" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_39..word_42" sentenceid="2" label="np" min_ids="word_39..word_42" type="chunk" lemmata="the crippled us destroyer" isprenominal="false" pos="dt jj nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_41" sentenceid="2" label="location" type="enamex" lemmata="us" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_44" sentenceid="2" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_44..word_50" sentenceid="2" label="np" min_ids="word_44..word_46" type="chunk" lemmata="its long trip across the atlantic ocean" isprenominal="false" pos="prp$ jj nn in dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_48..word_50" sentenceid="2" label="location" min_ids="word_48..word_50" type="enamex" lemmata="the atlantic ocean" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_51" sentenceid="2" label="date" min_ids="word_51..word_51" type="enamex" lemmata="wednesday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+</markables>

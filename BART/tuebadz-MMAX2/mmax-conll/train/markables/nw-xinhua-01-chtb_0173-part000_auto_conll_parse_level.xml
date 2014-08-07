@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_16" tag="(S1 (S (NP (NP (NNP Chad) (POS 's)) (NML (NNP New) (NNP President)) (NNP Idriss) (NNP Deby)) (VP (VBD arrived) (PP (IN in) (NP (NNP Paris))) (PP (IN on) (NP (DT the) (NN 12th))) (PP (IN for) (NP (DT a) (NN visit)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_17..word_29" tag="(S1 (S (NP (NNP President) (NNP Mitterrand)) (VP (VBD had) (NP (NP (NP (DT a) (NML (JJ half) (HYPH -) (NN hour)) (POS 's)) (JJ secret) (NN meeting)) (PP (IN with) (NP (PRP him))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_30..word_41" tag="(S1 (S (NP (NNP Deby)) (VP (VBD hoped) (SBAR (IN that) (S (NP (NNP France)) (VP (MD will) (VP (VB give) (NP (NNP Chad)) (NP (`` '') (JJ full) (NN support) ('' ''))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_42..word_60" tag="(S1 (S (SBAR (IN While) (S (VP (VBG expressing) (NP (NN agreement)) (S (VP (TO to) (VP (VB provide) (NP (NN co-operation)))))))) (, ,) (NP (NNP France)) (VP (VBD expressed) (SBAR (IN that) (S (NP (PRP they)) (VP (MD would) (VP (VB end) (NP (NP (DT the) (JJ military) (NN agreement)) (PP (IN with) (NP (NNP Chad))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_61..word_70" tag="(S1 (S (ADVP (RB Currently)) (, ,) (NP (NNP France)) (VP (VBZ has) (VP (NP (CD 1200) (NNS soldiers)) (VBN stationed) (PP (IN in) (NP (NNP Chad))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10006" span="word_71..word_77" tag="(S1 (FRAG (-LRB- -LRB-) (NP (NNP Xinhua) (NNP News) (NNP Agency)) (NP (JJ special) (NN telegram)) (-RRB- -RRB-)))" mmax_level="parse" />
+</markables>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_16" span="word_1..word_2" sentenceid="1" label="person" min_ids="word_1..word_2" type="enamex" lemmata="duane walker" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_5..word_7" sentenceid="1" label="object" min_ids="word_5..word_7" type="enamex" lemmata="cnn headline sports" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_10..word_15" sentenceid="2" label="date" min_ids="word_10..word_11" type="enamex" lemmata="week ten of the nfl season" isprenominal="false" pos="nn cd in dt nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_13..word_15" sentenceid="2" label="date" min_ids="word_14..word_15" type="enamex" lemmata="the nfl season" isprenominal="false" pos="dt nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_14" sentenceid="2" label="organization" type="enamex" lemmata="nfl" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_20" sentenceid="2" label="percent" type="enamex" lemmata="first" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_23..word_26" sentenceid="2" label="np" min_ids="word_23..word_26" type="chunk" lemmata="a washington redskins uniform" isprenominal="false" pos="dt nnp nnps nn" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_24..word_25" sentenceid="2" label="organization" type="enamex" lemmata="washington redskins" isprenominal="false" pos="nnp nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_28..word_29" sentenceid="2" label="person" min_ids="word_28..word_29" type="enamex" lemmata="jeff george" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_32..word_34" sentenceid="2" label="np" min_ids="word_32..word_34" type="chunk" lemmata="the starting nod" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_36..word_40" sentenceid="2" label="np" min_ids="word_36..word_36" type="chunk" lemmata="quarterback against the arizona cardinals" isprenominal="false" pos="nn in dt nnp nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_38..word_40" sentenceid="2" label="organization" min_ids="word_38..word_40" type="enamex" lemmata="the arizona cardinals" isprenominal="false" pos="dt nnp nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_42..word_43" sentenceid="3" label="person" min_ids="word_42..word_43" type="enamex" lemmata="brad johnson" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_48..word_51" sentenceid="3" label="np" min_ids="word_48..word_51" type="chunk" lemmata="a sprained knee ligament" isprenominal="false" pos="dt jj nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_53" sentenceid="4" label="np" min_ids="word_53..word_53" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_57" sentenceid="4" label="np" min_ids="word_57..word_57" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_61" sentenceid="4" label="person" min_ids="word_61..word_61" type="enamex" lemmata="brad" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_66..word_67" sentenceid="4" label="np" min_ids="word_66..word_67" type="chunk" lemmata="the game" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_69" sentenceid="5" label="np" min_ids="word_69..word_69" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_72" sentenceid="5" label="np" min_ids="word_72..word_72" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_75" sentenceid="5" label="np" min_ids="word_75..word_75" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_85" sentenceid="5" label="np" min_ids="word_85..word_85" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_89" sentenceid="5" label="np" min_ids="word_89..word_89" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_99" sentenceid="6" label="np" min_ids="word_99..word_99" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_101" sentenceid="6" label="np" min_ids="word_101..word_101" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_105..word_107" sentenceid="6" label="percent" min_ids="word_106..word_107" type="enamex" lemmata="an emergency third" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_113..word_118" sentenceid="6" label="np" min_ids="word_113..word_114" type="chunk" lemmata="the best we could hope for" isprenominal="false" pos="dt jjs prp md vb in" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_115" sentenceid="6" label="np" min_ids="word_115..word_115" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+</markables>

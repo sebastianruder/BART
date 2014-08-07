@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_11" span="word_2..word_7" sentenceid="1" label="location" min_ids="word_2..word_2" type="enamex" lemmata="michigan , a second straight night" isprenominal="false" pos="nnp , dt jj jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_4..word_7" sentenceid="1" label="time" min_ids="word_5..word_7" type="enamex" lemmata="a second straight night" isprenominal="false" pos="dt jj jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_5" sentenceid="1" label="percent" type="enamex" lemmata="second" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_10..word_11" sentenceid="1" label="time" min_ids="word_10..word_11" type="enamex" lemmata="this morning" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_13..word_15" sentenceid="1" label="percent" min_ids="word_13..word_13" type="enamex" lemmata="hundred of people" isprenominal="false" pos="nns in nns" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_15" sentenceid="1" label="np" min_ids="word_15..word_15" type="chunk" lemmata="people" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_18..word_21" sentenceid="1" label="np" min_ids="word_18..word_18" type="chunk" lemmata="rioting in benton harbor" isprenominal="false" pos="nn in nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_20..word_21" sentenceid="1" label="location" min_ids="word_20..word_21" type="enamex" lemmata="benton harbor" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_23..word_27" sentenceid="2" label="np" min_ids="word_23..word_24" type="chunk" lemmata="a man on a motorcycle" isprenominal="false" pos="dt nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_26..word_27" sentenceid="2" label="np" min_ids="word_26..word_27" type="chunk" lemmata="a motorcycle" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_34..word_35" sentenceid="2" label="np" min_ids="word_34..word_35" type="chunk" lemmata="i police" isprenominal="false" pos="nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_37..word_38" sentenceid="2" label="np" min_ids="word_37..word_38" type="chunk" lemmata="the violence" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_42..word_43" sentenceid="3" label="np" min_ids="word_42..word_43" type="chunk" lemmata="the governor" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_46..word_49" sentenceid="3" label="np" min_ids="word_46..word_47" type="chunk" lemmata="a state of emergency" isprenominal="false" pos="dt nn in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_49" sentenceid="3" label="np" min_ids="word_49..word_49" type="chunk" lemmata="emergency" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_51..word_55" sentenceid="4" label="person" min_ids="word_51..word_52" type="enamex" lemmata="mark alberts from our affiliate" isprenominal="false" pos="nnp nnp in prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_54" sentenceid="4" label="np" type="chunk" lemmata="our" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_54..word_55" sentenceid="4" label="np" min_ids="word_54..word_55" type="chunk" lemmata="our affiliate" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_57..word_60" sentenceid="4" label="np" min_ids="word_57..word_57" type="chunk" lemmata="more from benton harbor" isprenominal="false" pos="jjr in nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_59..word_60" sentenceid="4" label="location" min_ids="word_59..word_60" type="enamex" lemmata="benton harbor" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+</markables>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_9" span="word_1..word_3" sentenceid="1" label="organization" min_ids="word_1..word_3" type="enamex" lemmata="brush wellman inc." isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_5" sentenceid="1" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_5..word_6" sentenceid="1" label="np" min_ids="word_5..word_6" type="chunk" lemmata="its board" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_8..word_14" sentenceid="1" label="np" min_ids="word_8..word_9" type="chunk" lemmata="the number of share of common stock" isprenominal="false" pos="dt nn in nns in jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_11..word_14" sentenceid="1" label="np" min_ids="word_11..word_11" type="chunk" lemmata="share of common stock" isprenominal="false" pos="nns in jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_13..word_14" sentenceid="1" label="np" min_ids="word_13..word_14" type="chunk" lemmata="common stock" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_19..word_25" sentenceid="1" label="np" min_ids="word_19..word_22" type="chunk" lemmata="a previously authorize program to 3.9 million" isprenominal="false" pos="dt rb vbn nn in cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_24..word_25" sentenceid="1" label="money" min_ids="word_24..word_25" type="enamex" lemmata="3.9 million" isprenominal="false" pos="cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_27..word_28" sentenceid="1" label="money" min_ids="word_27..word_28" type="enamex" lemmata="2.9 million" isprenominal="false" pos="cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_30..word_34" sentenceid="2" label="np" min_ids="word_30..word_31" type="chunk" lemmata="the maker of engineered material" isprenominal="false" pos="dt nn in jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_33..word_34" sentenceid="2" label="np" min_ids="word_33..word_34" type="chunk" lemmata="engineered material" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_37..word_40" sentenceid="2" label="percent" type="enamex" lemmata="more than 2.7 million" isprenominal="false" pos="jjr in cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_37..word_41" sentenceid="2" label="np" min_ids="word_37..word_41" type="chunk" lemmata="more than 2.7 million share" isprenominal="false" pos="jjr in cd cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_43..word_44" sentenceid="2" label="np" min_ids="word_43..word_44" type="chunk" lemmata="the program" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+</markables>

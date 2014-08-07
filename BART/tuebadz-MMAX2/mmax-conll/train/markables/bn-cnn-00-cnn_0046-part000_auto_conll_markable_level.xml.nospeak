@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_17" sentenceid="1" label="np" min_ids="word_1..word_6" type="chunk" lemmata="a one - time federal judge who have see the law from both side of the bench" isprenominal="false" pos="dt cd hyph nn jj nn wp vbz vbn dt nn in dt nns in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_10..word_17" sentenceid="1" label="np" min_ids="word_10..word_11" type="chunk" lemmata="the law from both side of the bench" isprenominal="false" pos="dt nn in dt nns in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_13..word_17" sentenceid="1" label="np" min_ids="word_13..word_14" type="chunk" lemmata="both side of the bench" isprenominal="false" pos="dt nns in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_16..word_17" sentenceid="1" label="np" min_ids="word_16..word_17" type="chunk" lemmata="the bench" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_57" span="word_23" sentenceid="1" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_23..word_24" sentenceid="1" label="np" min_ids="word_23..word_24" type="chunk" lemmata="his job" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_26" sentenceid="1" label="np" min_ids="word_26..word_26" type="chunk" lemmata="law" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_36" span="word_28..word_29" sentenceid="2" label="person" min_ids="word_28..word_29" type="enamex" lemmata="bob glascoff" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_31..word_39" sentenceid="2" label="np" min_ids="word_31..word_32" type="chunk" lemmata="the story in today 's edition of `` headliners" isprenominal="false" pos="dt nn in nn pos nn in `` nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_37" span="word_34..word_35" sentenceid="2" label="date" min_ids="word_34..word_34" type="enamex" lemmata="today 's" isprenominal="false" pos="nn pos" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_34..word_39" sentenceid="2" label="np" min_ids="word_34..word_36" type="chunk" lemmata="today 's edition of `` headliners" isprenominal="false" pos="nn pos nn in `` nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_38" span="word_39" sentenceid="2" label="object" min_ids="word_39..word_39" type="enamex" lemmata="headliners" isprenominal="false" pos="nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_39" span="word_43..word_44" sentenceid="3" label="date" min_ids="word_43..word_44" type="enamex" lemmata="october 1989" isprenominal="false" pos="nnp cd" speaker="-" mmax_level="markable" />
+<markable id="markable_40" span="word_46..word_48" sentenceid="3" label="person" min_ids="word_46..word_48" type="enamex" lemmata="judge alcee hastings" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_52" sentenceid="3" label="np" min_ids="word_52..word_52" type="chunk" lemmata="perjury" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_52..word_54" sentenceid="3" label="np" min_ids="word_52..word_54" type="chunk" lemmata="perjury and conspiracy" isprenominal="false" pos="nn cc nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_54" sentenceid="3" label="np" min_ids="word_54..word_54" type="chunk" lemmata="conspiracy" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_41" span="word_58..word_59" sentenceid="3" label="organization" min_ids="word_59..word_59" type="enamex" lemmata="the senate" isprenominal="false" pos="dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_63..word_67" sentenceid="4" label="np" min_ids="word_63..word_65" type="chunk" lemmata="the federal bench in 1979" isprenominal="false" pos="dt jj nn in cd" speaker="-" mmax_level="markable" />
+<markable id="markable_42" span="word_67" sentenceid="4" label="date" min_ids="word_67..word_67" type="enamex" lemmata="1979" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_69" sentenceid="4" label="np" min_ids="word_69..word_69" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_43" span="word_72..word_74" sentenceid="4" label="date" type="enamex" lemmata="two year later" isprenominal="false" pos="cd nns rb" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_76..word_88" sentenceid="4" label="np" min_ids="word_76..word_76" type="chunk" lemmata="conspiracy to accept a bribe in a case he preside over in miami" isprenominal="false" pos="nn to vb dt nn in dt nn prp vbd in in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_79..word_80" sentenceid="4" label="np" min_ids="word_79..word_80" type="chunk" lemmata="a bribe" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_82..word_88" sentenceid="4" label="np" min_ids="word_82..word_83" type="chunk" lemmata="a case he preside over in miami" isprenominal="false" pos="dt nn prp vbd in in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_84" sentenceid="4" label="np" min_ids="word_84..word_84" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_44" span="word_88" sentenceid="4" label="location" min_ids="word_88..word_88" type="enamex" lemmata="miami" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_90" sentenceid="5" label="np" min_ids="word_90..word_90" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_94..word_97" sentenceid="5" label="np" min_ids="word_94..word_95" type="chunk" lemmata="a jury in 1983" isprenominal="false" pos="dt nn in cd" speaker="-" mmax_level="markable" />
+<markable id="markable_45" span="word_97" sentenceid="5" label="date" min_ids="word_97..word_97" type="enamex" lemmata="1983" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_100..word_103" sentenceid="5" label="np" min_ids="word_100..word_101" type="chunk" lemmata="a panel of judge" isprenominal="false" pos="dt nn in nns" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_103" sentenceid="5" label="np" min_ids="word_103..word_103" type="chunk" lemmata="judge" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_105..word_106" sentenceid="5" label="np" min_ids="word_105..word_106" type="chunk" lemmata="the case" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_46" span="word_107..word_109" sentenceid="5" label="date" type="enamex" lemmata="four year later" isprenominal="false" pos="cd nns rb" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_112" sentenceid="5" label="np" min_ids="word_112..word_112" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_114..word_123" sentenceid="5" label="np" min_ids="word_114..word_117" type="chunk" lemmata="both the original crime and lie about it under oath" isprenominal="false" pos="pdt dt jj nn cc vbg in prp in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_121" sentenceid="5" label="np" min_ids="word_121..word_121" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_123" sentenceid="5" label="np" min_ids="word_123..word_123" type="chunk" lemmata="oath" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_47" span="word_125..word_126" sentenceid="6" label="organization" min_ids="word_126..word_126" type="enamex" lemmata="the house" isprenominal="false" pos="dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_128" sentenceid="6" label="np" min_ids="word_128..word_128" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_48" span="word_128..word_131" sentenceid="6" label="organization" min_ids="word_128..word_131" type="enamex" lemmata="he and the senate" isprenominal="false" pos="prp cc dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_49" span="word_135" sentenceid="6" label="person" min_ids="word_135..word_135" type="enamex" lemmata="hastings" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_137..word_139" sentenceid="6" label="np" min_ids="word_137..word_137" type="chunk" lemmata="office in 1989" isprenominal="false" pos="nn in cd" speaker="-" mmax_level="markable" />
+<markable id="markable_50" span="word_139" sentenceid="6" label="date" min_ids="word_139..word_139" type="enamex" lemmata="1989" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_51" span="word_141..word_143" sentenceid="7" label="date" type="enamex" lemmata="three year later" isprenominal="false" pos="cd nns rb" speaker="-" mmax_level="markable" />
+<markable id="markable_58" span="word_145" sentenceid="7" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_145..word_146" sentenceid="7" label="np" min_ids="word_145..word_146" type="chunk" lemmata="his conviction" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_155" sentenceid="8" label="np" min_ids="word_155..word_155" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_159..word_165" sentenceid="8" label="np" min_ids="word_159..word_162" type="chunk" lemmata="a newly draw district in ft. lauderdale" isprenominal="false" pos="dt rb vbn nn in nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_52" span="word_164..word_165" sentenceid="8" label="location" min_ids="word_164..word_165" type="enamex" lemmata="ft. lauderdale" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_167" sentenceid="9" label="np" min_ids="word_167..word_167" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_59" span="word_171" sentenceid="9" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_171..word_173" sentenceid="9" label="np" min_ids="word_171..word_173" type="chunk" lemmata="his fourth term" isprenominal="false" pos="prp$ jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_53" span="word_172" sentenceid="9" label="percent" type="enamex" lemmata="fourth" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_175" sentenceid="9" label="np" min_ids="word_175..word_175" type="chunk" lemmata="office" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_34" span="word_180" sentenceid="9" label="np" min_ids="word_180..word_180" type="chunk" lemmata="re-election" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_54" span="word_181..word_182" sentenceid="9" label="date" min_ids="word_181..word_182" type="enamex" lemmata="this fall" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_55" span="word_186" sentenceid="10" label="object" min_ids="word_186..word_186" type="enamex" lemmata="headliners" isprenominal="false" pos="nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_35" span="word_189" sentenceid="10" label="np" min_ids="word_189..word_189" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_56" span="word_191..word_192" sentenceid="10" label="person" min_ids="word_191..word_192" type="enamex" lemmata="bob glascoff" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+</markables>

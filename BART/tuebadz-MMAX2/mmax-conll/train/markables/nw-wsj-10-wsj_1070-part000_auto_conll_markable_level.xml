@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_9" span="word_1..word_4" sentenceid="1" label="organization" min_ids="word_1..word_4" type="enamex" lemmata="the american cancer society" isprenominal="false" pos="dt nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_6" sentenceid="1" label="date" type="enamex" lemmata="1988" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_6..word_12" sentenceid="1" label="np" min_ids="word_6..word_7" type="chunk" lemmata="1988 cost of fund raising and administration" isprenominal="false" pos="cd nns in nn nn cc nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_9..word_12" sentenceid="1" label="np" min_ids="word_9..word_12" type="chunk" lemmata="fund raising and administration" isprenominal="false" pos="nn nn cc nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_14..word_16" sentenceid="1" label="money" min_ids="word_14..word_16" type="enamex" lemmata="$ 72.4 million" isprenominal="false" pos="$ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_19..word_23" sentenceid="1" label="percent" min_ids="word_19..word_20" type="enamex" lemmata="23.2 % of its revenue" isprenominal="false" pos="cd nn in prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_22" sentenceid="1" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_22..word_23" sentenceid="1" label="np" min_ids="word_22..word_23" type="chunk" lemmata="its revenue" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_25..word_35" sentenceid="2" label="np" min_ids="word_25..word_26" type="chunk" lemmata="a chart in last friday 's special report on personal finance" isprenominal="false" pos="dt nn in jj nnp pos jj nn in jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_28..word_30" sentenceid="2" label="date" min_ids="word_28..word_29" type="enamex" lemmata="last friday 's" isprenominal="false" pos="jj nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_28..word_35" sentenceid="2" label="np" min_ids="word_28..word_32" type="chunk" lemmata="last friday 's special report on personal finance" isprenominal="false" pos="jj nnp pos jj nn in jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_34..word_35" sentenceid="2" label="np" min_ids="word_34..word_35" type="chunk" lemmata="personal finance" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_37..word_49" sentenceid="2" label="np" min_ids="word_37..word_39" type="chunk" lemmata="an incorrect figure supply by nonprofit times , a monthly newspaper cover charity" isprenominal="false" pos="dt jj nn vbn in jj nnp , dt jj nn vbg nns" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_42..word_49" sentenceid="2" label="organization" min_ids="word_42..word_43" type="enamex" lemmata="nonprofit times , a monthly newspaper cover charity" isprenominal="false" pos="jj nnp , dt jj nn vbg nns" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_45..word_49" sentenceid="2" label="np" min_ids="word_45..word_47" type="chunk" lemmata="a monthly newspaper cover charity" isprenominal="false" pos="dt jj nn vbg nns" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_46" sentenceid="2" label="date" type="enamex" lemmata="monthly" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_49" sentenceid="2" label="np" min_ids="word_49..word_49" type="chunk" lemmata="charity" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+</markables>

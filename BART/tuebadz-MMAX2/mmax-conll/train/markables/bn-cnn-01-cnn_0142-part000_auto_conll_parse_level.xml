@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_15" tag="(S1 (S (NP (NML (JJ Russian) (NNP President)) (NNP Vladimir) (NNP Putin)) (VP (VBZ is) (VP (VBG visiting) (NP (NNP Havana)) (PP (IN for) (NP (NP (NNS talks)) (PP (IN with) (NP (NML (NNP Cuban) (NNP President)) (NNP Fidel) (NNP Castro))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_16..word_32" tag="(S1 (S (NP (NNP Putin)) (VP (VBZ is) (NP (NP (DT the) (JJ first) (NML (JJ Russian) (NNP President))) (SBAR (S (VP (TO to) (VP (VB visit) (NP (NNP Cuba)) (PP (IN since) (NP (NP (DT the) (NN collapse)) (PP (IN of) (NP (DT the) (NNP Soviet) (NNP Union))))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_33..word_44" tag="(S1 (S (NP (NNP Castro)) (VP (VBD greeted) (NP (DT the) (JJ Russian) (NN leader)) (SBAR (WHADVP (WRB when)) (S (NP (PRP he)) (VP (VBD arrived) (ADVP (RB late)) (NP (JJ last) (NN night)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_45..word_66" tag="(S1 (S (NP (DT Both) (NP (NNP Russia)) (CC and) (NP (NNP Cuba))) (VP (VBP want) (S (VP (TO to) (VP (VB renew) (NP (NP (PRP$ their) (ADJP (NNS decades) (HYPH -) (JJ old)) (NN relationship)) (SBAR (WHNP (WDT that)) (S (VP (VBD cooled) (PP (IN after) (NP (NP (DT the) (NN collapse)) (PP (IN of) (NP (DT the) (NNP Soviet) (NNP Union))))))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_67..word_86" tag="(S1 (S (NP (DT The) (NNS leaders)) (VP (MD will) (VP (VB discuss) (NP (NP (UCP (NN trade) (CC and) (JJ other)) (NNS issues)) (, ,) (PP (VBG including) (NP (NP (NNP Cuba) (POS 's)) (NML (QP ($ $) (CD 11) (CD billion))) (NML (NNP Soviet) (HYPH -) (NN era)) (NN debt)))))) (. .)))" mmax_level="parse" />
+</markables>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_3" sentenceid="1" label="np" min_ids="word_1..word_1" type="chunk" lemmata="reformers in yugoslavia" isprenominal="false" pos="nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_3" sentenceid="1" label="location" min_ids="word_3..word_3" type="enamex" lemmata="yugoslavia" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_5..word_7" sentenceid="1" label="np" min_ids="word_5..word_7" type="chunk" lemmata="a significant boost" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_8" sentenceid="1" label="date" min_ids="word_8..word_8" type="enamex" lemmata="today" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_10..word_12" sentenceid="2" label="np" min_ids="word_10..word_12" type="chunk" lemmata="the serbian parliament" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_11" sentenceid="2" label="location" type="enamex" lemmata="serbian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_14..word_27" sentenceid="2" label="np" min_ids="word_14..word_18" type="chunk" lemmata="a power - share administration to run the republic until early election in december" isprenominal="false" pos="dt nn hyph vbg nn to vb dt nn in jj nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_21..word_22" sentenceid="2" label="np" min_ids="word_21..word_22" type="chunk" lemmata="the republic" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_24..word_27" sentenceid="2" label="np" min_ids="word_24..word_25" type="chunk" lemmata="early election in december" isprenominal="false" pos="jj nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_27" sentenceid="2" label="date" min_ids="word_27..word_27" type="enamex" lemmata="december" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_29..word_31" sentenceid="3" label="np" min_ids="word_29..word_31" type="chunk" lemmata="the legislative body" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_33..word_43" sentenceid="3" label="np" min_ids="word_33..word_36" type="chunk" lemmata="the last major bastion of support for former president slobodan milosevic" isprenominal="false" pos="dt jj jj nn in nn in jj nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_38..word_43" sentenceid="3" label="np" min_ids="word_38..word_38" type="chunk" lemmata="support for former president slobodan milosevic" isprenominal="false" pos="nn in jj nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_40..word_43" sentenceid="3" label="person" min_ids="word_40..word_43" type="enamex" lemmata="former president slobodan milosevic" isprenominal="false" pos="jj nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_45" sentenceid="4" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_45..word_49" sentenceid="4" label="np" min_ids="word_45..word_46" type="chunk" lemmata="his successor , vojislav kostunica" isprenominal="false" pos="prp$ nn , nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_48..word_49" sentenceid="4" label="person" min_ids="word_48..word_49" type="enamex" lemmata="vojislav kostunica" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_53" sentenceid="4" label="organization" type="enamex" lemmata="army" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_53..word_56" sentenceid="4" label="np" min_ids="word_53..word_56" type="chunk" lemmata="army and police force" isprenominal="false" pos="nnp cc nns nns" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_58..word_61" sentenceid="4" label="np" min_ids="word_58..word_59" type="chunk" lemmata="widespread killing in kosovo" isprenominal="false" pos="jj nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_61" sentenceid="4" label="location" min_ids="word_61..word_61" type="enamex" lemmata="kosovo" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_62..word_63" sentenceid="4" label="date" min_ids="word_62..word_63" type="enamex" lemmata="last year" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_66..word_68" sentenceid="5" label="np" min_ids="word_66..word_68" type="chunk" lemmata="a television interview" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_70" sentenceid="5" label="person" min_ids="word_70..word_70" type="enamex" lemmata="kostunica" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_72" sentenceid="5" label="np" min_ids="word_72..word_72" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_77..word_85" sentenceid="5" label="np" min_ids="word_77..word_77" type="chunk" lemmata="responsibility for the crime commit under the milosevic regime" isprenominal="false" pos="nn in dt nns vbn in dt nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_79..word_85" sentenceid="5" label="np" min_ids="word_79..word_80" type="chunk" lemmata="the crime commit under the milosevic regime" isprenominal="false" pos="dt nns vbn in dt nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_83..word_85" sentenceid="5" label="np" min_ids="word_83..word_85" type="chunk" lemmata="the milosevic regime" isprenominal="false" pos="dt nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_84" sentenceid="5" label="person" type="enamex" lemmata="milosevic" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+</markables>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_15" span="word_1..word_3" sentenceid="1" label="person" min_ids="word_1..word_3" type="enamex" lemmata="walter m. brady" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_6..word_17" sentenceid="1" label="np" min_ids="word_6..word_9" type="chunk" lemmata="a senior vice president of this insurer in the canadian head office" isprenominal="false" pos="dt jj nn nn in dt nn in dt jj nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_11..word_17" sentenceid="1" label="np" min_ids="word_11..word_12" type="chunk" lemmata="this insurer in the canadian head office" isprenominal="false" pos="dt nn in dt jj nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_14..word_17" sentenceid="1" label="np" min_ids="word_14..word_17" type="chunk" lemmata="the canadian head office" isprenominal="false" pos="dt jj nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_15" sentenceid="1" label="location" type="enamex" lemmata="canadian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_19" sentenceid="2" label="np" min_ids="word_19..word_19" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_22..word_26" sentenceid="2" label="np" min_ids="word_22..word_23" type="chunk" lemmata="vice president in that office" isprenominal="false" pos="nn nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_25..word_26" sentenceid="2" label="np" min_ids="word_25..word_26" type="chunk" lemmata="that office" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_28..word_30" sentenceid="3" label="person" min_ids="word_28..word_30" type="enamex" lemmata="john b. foy" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_33..word_35" sentenceid="3" label="np" min_ids="word_33..word_35" type="chunk" lemmata="senior vice president" isprenominal="false" pos="jj nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_40..word_44" sentenceid="3" label="np" min_ids="word_40..word_44" type="chunk" lemmata="the individual policy service department" isprenominal="false" pos="dt jj nn nns nn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_46..word_48" sentenceid="4" label="person" min_ids="word_46..word_48" type="enamex" lemmata="frank j. ollari" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_51..word_60" sentenceid="4" label="np" min_ids="word_51..word_53" type="chunk" lemmata="senior vice president in charge of the mortgage finance department" isprenominal="false" pos="jj nn nn in nn in dt nn nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_55..word_60" sentenceid="4" label="np" min_ids="word_55..word_55" type="chunk" lemmata="charge of the mortgage finance department" isprenominal="false" pos="nn in dt nn nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_57..word_60" sentenceid="4" label="np" min_ids="word_57..word_60" type="chunk" lemmata="the mortgage finance department" isprenominal="false" pos="dt nn nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_62" sentenceid="5" label="np" min_ids="word_62..word_62" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_65..word_78" sentenceid="5" label="np" min_ids="word_65..word_66" type="chunk" lemmata="vice president of the department , which be formerly call the real estate department" isprenominal="false" pos="nn nn in dt nn , wdt vbd rb vbn dt jj nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_68..word_78" sentenceid="5" label="np" min_ids="word_68..word_69" type="chunk" lemmata="the department , which be formerly call the real estate department" isprenominal="false" pos="dt nn , wdt vbd rb vbn dt jj nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_75..word_78" sentenceid="5" label="np" min_ids="word_75..word_78" type="chunk" lemmata="the real estate department" isprenominal="false" pos="dt jj nn nn" speaker="-" mmax_level="markable" />
+</markables>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_2..word_5" sentenceid="1" label="np" min_ids="word_2..word_3" type="chunk" lemmata="other news , amazon.com" isprenominal="false" pos="jj nn , add" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_7..word_11" sentenceid="1" label="np" min_ids="word_7..word_11" type="chunk" lemmata="the lead us online retailer" isprenominal="false" pos="dt vbg nnp jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_9" sentenceid="1" label="location" type="enamex" lemmata="us" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_18..word_19" sentenceid="1" label="location" min_ids="word_18..word_18" type="enamex" lemmata="japan 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_18..word_24" sentenceid="1" label="np" min_ids="word_18..word_24" type="chunk" lemmata="japan 's multibillion - dollar e-commerce market" isprenominal="false" pos="nnp pos nn hyph nn nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_20..word_22" sentenceid="1" label="money" type="enamex" lemmata="multibillion - dollar" isprenominal="false" pos="nn hyph nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_26" sentenceid="2" label="organization" min_ids="word_26..word_26" type="enamex" lemmata="amazon" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_28" sentenceid="2" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_28..word_43" sentenceid="2" label="np" min_ids="word_28..word_31" type="chunk" lemmata="its japanese language website , which will feature 1.7 million japanese and english language book title" isprenominal="false" pos="prp$ jj nn nn , wdt md vb cd cd nnps cc nnp nn nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_29" sentenceid="2" label="object" type="enamex" lemmata="japanese" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_36..word_37" sentenceid="2" label="percent" type="enamex" lemmata="1.7 million" isprenominal="false" pos="cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_36..word_38" sentenceid="2" label="location" min_ids="word_36..word_38" type="enamex" lemmata="1.7 million japanese" isprenominal="false" pos="cd cd nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_36..word_43" sentenceid="2" label="np" min_ids="word_36..word_43" type="chunk" lemmata="1.7 million japanese and english language book title" isprenominal="false" pos="cd cd nnps cc nnp nn nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_40" sentenceid="2" label="object" type="enamex" lemmata="english" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_40..word_43" sentenceid="2" label="np" min_ids="word_40..word_43" type="chunk" lemmata="english language book title" isprenominal="false" pos="nnp nn nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_45" sentenceid="3" label="organization" min_ids="word_45..word_45" type="enamex" lemmata="amazon" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_49" sentenceid="3" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_49..word_51" sentenceid="3" label="np" min_ids="word_49..word_51" type="chunk" lemmata="its product line" isprenominal="false" pos="prp$ nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_52..word_53" sentenceid="3" label="np" min_ids="word_52..word_53" type="chunk" lemmata="some time" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_54..word_55" sentenceid="3" label="date" min_ids="word_54..word_55" type="enamex" lemmata="next year" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_59..word_60" sentenceid="4" label="organization" min_ids="word_59..word_59" type="enamex" lemmata="amazon 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_59..word_65" sentenceid="4" label="np" min_ids="word_59..word_63" type="chunk" lemmata="amazon 's first retail venture in asia" isprenominal="false" pos="nnp pos jj jj nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_61" sentenceid="4" label="percent" type="enamex" lemmata="first" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_65" sentenceid="4" label="location" min_ids="word_65..word_65" type="enamex" lemmata="asia" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_67" sentenceid="4" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_67..word_69" sentenceid="4" label="np" min_ids="word_67..word_69" type="chunk" lemmata="its first website" isprenominal="false" pos="prp$ jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_68" sentenceid="4" label="percent" type="enamex" lemmata="first" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_71..word_73" sentenceid="4" label="location" min_ids="word_71..word_73" type="enamex" lemmata="the united states" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_75..word_76" sentenceid="5" label="person" min_ids="word_75..word_76" type="enamex" lemmata="elaine johanneson" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_78..word_79" sentenceid="5" label="organization" min_ids="word_78..word_79" type="enamex" lemmata="voa news" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_81..word_82" sentenceid="5" label="location" min_ids="word_81..word_82" type="enamex" lemmata="new york" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+</markables>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_17" span="word_1" sentenceid="1" label="location" type="enamex" lemmata="u.s." isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_1..word_4" sentenceid="1" label="np" min_ids="word_1..word_4" type="chunk" lemmata="u.s. and yemeni official" isprenominal="false" pos="nnp cc nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_3" sentenceid="1" label="location" type="enamex" lemmata="yemeni" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_7..word_30" sentenceid="1" label="np" min_ids="word_7..word_8" type="chunk" lemmata="a photo of one of the suicide bomber kill in the attack on the `` uss cole '' in the port of aden october" isprenominal="false" pos="dt nn in cd in dt nn nns vbn in dt nn in dt `` nnp nnp '' in dt nn in nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_12..word_30" sentenceid="1" label="np" min_ids="word_12..word_14" type="chunk" lemmata="the suicide bomber kill in the attack on the `` uss cole '' in the port of aden october" isprenominal="false" pos="dt nn nns vbn in dt nn in dt `` nnp nnp '' in dt nn in nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_17..word_24" sentenceid="1" label="np" min_ids="word_17..word_18" type="chunk" lemmata="the attack on the `` uss cole ''" isprenominal="false" pos="dt nn in dt `` nnp nnp ''" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_20..word_24" sentenceid="1" label="object" min_ids="word_20..word_24" type="enamex" lemmata="the `` uss cole ''" isprenominal="false" pos="dt `` nnp nnp ''" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_26..word_30" sentenceid="1" label="np" min_ids="word_26..word_27" type="chunk" lemmata="the port of aden october" isprenominal="false" pos="dt nn in nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_29..word_30" sentenceid="1" label="location" min_ids="word_29..word_29" type="enamex" lemmata="aden october" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_30" sentenceid="1" label="date" min_ids="word_30..word_30" type="enamex" lemmata="october" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_32" sentenceid="2" label="percent" type="enamex" lemmata="17" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_32..word_34" sentenceid="2" label="np" min_ids="word_32..word_34" type="chunk" lemmata="17 u.s. sailor" isprenominal="false" pos="cd nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_33" sentenceid="2" label="location" type="enamex" lemmata="u.s." isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_38" sentenceid="2" label="percent" type="enamex" lemmata="39" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_38..word_39" sentenceid="2" label="np" min_ids="word_38..word_39" type="chunk" lemmata="39 other" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_42..word_43" sentenceid="3" label="np" min_ids="word_42..word_43" type="chunk" lemmata="the official" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_45" sentenceid="3" label="location" type="enamex" lemmata="yemeni" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_45..word_52" sentenceid="3" label="person" min_ids="word_45..word_52" type="enamex" lemmata="yemeni national hussan saeed awad al - khamri" isprenominal="false" pos="jj jj nnp nnp nnp nnp hyph nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_56..word_57" sentenceid="3" label="np" min_ids="word_56..word_57" type="chunk" lemmata="a boy" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_61..word_66" sentenceid="3" label="np" min_ids="word_61..word_62" type="chunk" lemmata="the boat use in the attack" isprenominal="false" pos="dt nn vbn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_65..word_66" sentenceid="3" label="np" min_ids="word_65..word_66" type="chunk" lemmata="the attack" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_68" sentenceid="4" label="percent" type="enamex" lemmata="six" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_68..word_70" sentenceid="4" label="np" min_ids="word_68..word_70" type="chunk" lemmata="six possible suspect" isprenominal="false" pos="cd jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_76" sentenceid="4" label="location" min_ids="word_76..word_76" type="enamex" lemmata="yemen" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_78..word_87" sentenceid="4" label="np" min_ids="word_78..word_79" type="chunk" lemmata="a trial that could start as early as next month" isprenominal="false" pos="dt nn wdt md vb rb rb in jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_83..word_87" sentenceid="4" label="date" type="enamex" lemmata="as early as next month" isprenominal="false" pos="rb rb in jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_86..word_87" sentenceid="4" label="np" min_ids="word_86..word_87" type="chunk" lemmata="next month" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_89" sentenceid="5" label="np" min_ids="word_89..word_89" type="chunk" lemmata="investigators" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_91" sentenceid="5" label="np" min_ids="word_91..word_91" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_96..word_98" sentenceid="5" label="np" min_ids="word_96..word_98" type="chunk" lemmata="other key suspect" isprenominal="false" pos="jj jj nns" speaker="-" mmax_level="markable" />
+</markables>

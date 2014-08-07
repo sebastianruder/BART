@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_2" span="word_2" sentenceid="1" label="location" min_ids="word_2..word_2" type="enamex" lemmata="cairo" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_3" sentenceid="1" label="date" min_ids="word_3..word_3" type="enamex" lemmata="sunday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_5" sentenceid="1" label="location" type="enamex" lemmata="palestinian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_5..word_9" sentenceid="1" label="np" min_ids="word_5..word_9" type="chunk" lemmata="palestinian and israeli security official" isprenominal="false" pos="jj cc jj nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_7" sentenceid="1" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_12" sentenceid="1" label="organization" type="enamex" lemmata="cia" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_12..word_15" sentenceid="1" label="person" min_ids="word_12..word_15" type="enamex" lemmata="cia chief george tenet" isprenominal="false" pos="nnp nnp nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_18..word_23" sentenceid="1" label="np" min_ids="word_18..word_19" type="chunk" lemmata="reduce violence in the palestinian territory" isprenominal="false" pos="vbg nn in dt jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_21..word_23" sentenceid="1" label="location" min_ids="word_21..word_23" type="enamex" lemmata="the palestinian territory" isprenominal="false" pos="dt jj nns" speaker="-" mmax_level="markable" />
+</markables>

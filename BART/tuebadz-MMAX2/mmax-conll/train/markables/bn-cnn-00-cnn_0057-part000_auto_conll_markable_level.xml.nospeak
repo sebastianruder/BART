@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_14" sentenceid="1" label="np" min_ids="word_1..word_2" type="chunk" lemmata="the body of the final four sailor recover from the `` uss cole ''" isprenominal="false" pos="dt nns in dt jj cd nns vbn in dt `` nnp nnp ''" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_4..word_14" sentenceid="1" label="np" min_ids="word_4..word_7" type="chunk" lemmata="the final four sailor recover from the `` uss cole ''" isprenominal="false" pos="dt jj cd nns vbn in dt `` nnp nnp ''" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_6" sentenceid="1" label="percent" type="enamex" lemmata="four" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_10..word_14" sentenceid="1" label="object" min_ids="word_10..word_14" type="enamex" lemmata="the `` uss cole ''" isprenominal="false" pos="dt `` nnp nnp ''" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_17" sentenceid="1" label="date" min_ids="word_17..word_17" type="enamex" lemmata="today" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_19..word_23" sentenceid="2" label="np" min_ids="word_19..word_20" type="chunk" lemmata="a plane carry the remains" isprenominal="false" pos="dt nn vbg dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_22..word_23" sentenceid="2" label="np" min_ids="word_22..word_23" type="chunk" lemmata="the remains" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_26..word_31" sentenceid="2" label="object" min_ids="word_26..word_29" type="enamex" lemmata="dover air force base in delaware" isprenominal="false" pos="nnp nnp nnp nnp in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_31" sentenceid="2" label="location" min_ids="word_31..word_31" type="enamex" lemmata="delaware" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_33" sentenceid="3" label="percent" type="enamex" lemmata="17" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_33..word_34" sentenceid="3" label="np" min_ids="word_33..word_34" type="chunk" lemmata="17 sailor" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_38..word_46" sentenceid="3" label="np" min_ids="word_38..word_41" type="chunk" lemmata="the apparent terrorist attack at a port in yemen" isprenominal="false" pos="dt jj jj nn in dt nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_43..word_46" sentenceid="3" label="np" min_ids="word_43..word_44" type="chunk" lemmata="a port in yemen" isprenominal="false" pos="dt nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_46" sentenceid="3" label="location" min_ids="word_46..word_46" type="enamex" lemmata="yemen" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_47..word_49" sentenceid="3" label="date" type="enamex" lemmata="ten day ago" isprenominal="false" pos="cd nns rb" speaker="-" mmax_level="markable" />
+</markables>

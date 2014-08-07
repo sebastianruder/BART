@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_21" span="word_1" sentenceid="1" label="location" min_ids="word_1..word_1" type="enamex" lemmata="yugoslavia" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_3..word_4" sentenceid="1" label="np" min_ids="word_3..word_4" type="chunk" lemmata="a step" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_8" sentenceid="1" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_11" sentenceid="1" label="np" min_ids="word_11..word_11" type="chunk" lemmata="isolation" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_13..word_14" sentenceid="1" label="np" min_ids="word_13..word_14" type="chunk" lemmata="socialist power" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_16..word_17" sentenceid="2" label="location" min_ids="word_16..word_16" type="enamex" lemmata="yugoslavia 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_16..word_18" sentenceid="2" label="np" min_ids="word_16..word_18" type="chunk" lemmata="yugoslavia 's parliament" isprenominal="false" pos="nnp pos nn" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_19" sentenceid="2" label="date" min_ids="word_19..word_19" type="enamex" lemmata="today" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_21..word_28" sentenceid="2" label="np" min_ids="word_21..word_23" type="chunk" lemmata="a new government back reformist president vojislav kostunica" isprenominal="false" pos="dt jj nn vbg jj nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_25..word_28" sentenceid="2" label="person" min_ids="word_25..word_28" type="enamex" lemmata="reformist president vojislav kostunica" isprenominal="false" pos="jj nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_30" sentenceid="3" label="np" min_ids="word_30..word_30" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_32..word_34" sentenceid="3" label="np" min_ids="word_32..word_33" type="chunk" lemmata="the country 's" isprenominal="false" pos="dt nn pos" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_32..word_45" sentenceid="3" label="np" min_ids="word_32..word_39" type="chunk" lemmata="the country 's first communist - free government in more than half a century" isprenominal="false" pos="dt nn pos jj nn hyph jj nn in jjr in pdt dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_35" sentenceid="3" label="percent" type="enamex" lemmata="first" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_41..word_45" sentenceid="3" label="date" min_ids="word_41..word_45" type="enamex" lemmata="more than half a century" isprenominal="false" pos="jjr in pdt dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_47..word_49" sentenceid="4" label="np" min_ids="word_47..word_49" type="chunk" lemmata="the new cabinet" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_51..word_68" sentenceid="4" label="np" min_ids="word_51..word_51" type="chunk" lemmata="approval in both chamber of parliament and from deputy of yugoslavia 's two republic -- serbia and montenegro" isprenominal="false" pos="nn in dt nns in nn cc in nns in nnp pos cd nns : nnp cc nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_53..word_56" sentenceid="4" label="np" min_ids="word_53..word_54" type="chunk" lemmata="both chamber of parliament" isprenominal="false" pos="dt nns in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_56" sentenceid="4" label="np" min_ids="word_56..word_56" type="chunk" lemmata="parliament" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_59..word_68" sentenceid="4" label="np" min_ids="word_59..word_59" type="chunk" lemmata="deputy of yugoslavia 's two republic -- serbia and montenegro" isprenominal="false" pos="nns in nnp pos cd nns : nnp cc nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_61..word_62" sentenceid="4" label="location" min_ids="word_61..word_61" type="enamex" lemmata="yugoslavia 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_61..word_68" sentenceid="4" label="np" min_ids="word_61..word_64" type="chunk" lemmata="yugoslavia 's two republic -- serbia and montenegro" isprenominal="false" pos="nnp pos cd nns : nnp cc nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_63" sentenceid="4" label="percent" type="enamex" lemmata="two" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_66" sentenceid="4" label="location" type="enamex" lemmata="serbia" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_66..word_68" sentenceid="4" label="location" min_ids="word_66..word_68" type="enamex" lemmata="serbia and montenegro" isprenominal="false" pos="nnp cc nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_70..word_72" sentenceid="5" label="np" min_ids="word_70..word_72" type="chunk" lemmata="the new government" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_76" sentenceid="5" label="np" min_ids="word_76..word_76" type="chunk" lemmata="reformist" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_34" span="word_79" sentenceid="5" label="np" type="chunk" lemmata="their" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_79..word_82" sentenceid="5" label="np" min_ids="word_79..word_80" type="chunk" lemmata="their position in power" isprenominal="false" pos="prp$ nn in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_82" sentenceid="5" label="np" min_ids="word_82..word_82" type="chunk" lemmata="power" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_84..word_86" sentenceid="6" label="date" min_ids="word_84..word_85" type="enamex" lemmata="last month 's" isprenominal="false" pos="jj nn pos" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_84..word_88" sentenceid="6" label="np" min_ids="word_84..word_88" type="chunk" lemmata="last month 's mass uprising" isprenominal="false" pos="jj nn pos jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_90..word_93" sentenceid="6" label="person" min_ids="word_90..word_93" type="enamex" lemmata="former president slobodan milosevic" isprenominal="false" pos="jj nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_96..word_99" sentenceid="6" label="np" min_ids="word_96..word_96" type="chunk" lemmata="defeat in presidential election" isprenominal="false" pos="nn in jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_98..word_99" sentenceid="6" label="np" min_ids="word_98..word_99" type="chunk" lemmata="presidential election" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+</markables>

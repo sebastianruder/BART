@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_17" sentenceid="1" label="np" min_ids="word_1..word_3" type="chunk" lemmata="a chinese writer who be once force to burn his writings to save himself from communist zealot" isprenominal="false" pos="dt jj nn wp vbd rb vbn to vb prp$ nns to vb prp in nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_2" sentenceid="1" label="location" type="enamex" lemmata="chinese" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_10" sentenceid="1" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_10..word_11" sentenceid="1" label="np" min_ids="word_10..word_11" type="chunk" lemmata="his writings" isprenominal="false" pos="prp$ nns" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_14" sentenceid="1" label="np" min_ids="word_14..word_14" type="chunk" lemmata="himself" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_16" sentenceid="1" label="location" type="enamex" lemmata="communist" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_16..word_17" sentenceid="1" label="np" min_ids="word_16..word_17" type="chunk" lemmata="communist zealot" isprenominal="false" pos="nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_20..word_24" sentenceid="1" label="object" min_ids="word_21..word_24" type="enamex" lemmata="the nobel prize for literature" isprenominal="false" pos="dt nnp nnp in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_24" sentenceid="1" label="np" min_ids="word_24..word_24" type="chunk" lemmata="literature" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_26..word_37" sentenceid="2" label="person" min_ids="word_26..word_28" type="enamex" lemmata="ghow ching zheng , who now live and write in france ," isprenominal="false" pos="nnp nnp nnp , wp rb vbz cc vbz in nnp ," speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_36" sentenceid="2" label="location" min_ids="word_36..word_36" type="enamex" lemmata="france" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_41..word_52" sentenceid="2" label="organization" min_ids="word_41..word_43" type="enamex" lemmata="the swedish academy for what it call his write about individual rights" isprenominal="false" pos="dt nnp nnp in wp prp vbd prp$ vbg in jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_46" sentenceid="2" label="np" min_ids="word_46..word_46" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_48" sentenceid="2" label="np" min_ids="word_48..word_48" type="chunk" lemmata="his" isprenominal="false" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_51..word_52" sentenceid="2" label="np" min_ids="word_51..word_52" type="chunk" lemmata="individual rights" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_54..word_56" sentenceid="3" label="person" min_ids="word_54..word_55" type="enamex" lemmata="mr. ghow 's" isprenominal="false" pos="nnp nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_54..word_64" sentenceid="3" label="np" min_ids="word_54..word_57" type="chunk" lemmata="mr. ghow 's work , include ` the other shore '" isprenominal="false" pos="nnp nnp pos nns , vbg `` dt jj nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_61..word_63" sentenceid="3" label="object" min_ids="word_60..word_64" type="enamex" lemmata="the other shore" isprenominal="false" pos="dt jj nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_68" sentenceid="3" label="location" min_ids="word_68..word_68" type="enamex" lemmata="china" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_72" sentenceid="4" label="np" type="chunk" lemmata="our" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_72..word_74" sentenceid="4" label="np" min_ids="word_72..word_74" type="chunk" lemmata="our news summary" isprenominal="false" pos="prp$ nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_76" sentenceid="5" label="np" min_ids="word_76..word_76" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_78..word_82" sentenceid="5" label="person" min_ids="word_78..word_79" type="enamex" lemmata="david coller , voa news" isprenominal="false" pos="nnp nnp , nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_81..word_82" sentenceid="5" label="organization" min_ids="word_81..word_82" type="enamex" lemmata="voa news" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+</markables>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_14" span="word_1" sentenceid="1" label="location" min_ids="word_1..word_1" type="enamex" lemmata="mexico" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_3..word_12" sentenceid="1" label="np" min_ids="word_3..word_4" type="chunk" lemmata="an average of 1,296,800 barrel of crude oil a day" isprenominal="false" pos="dt nn in cd nns in jj nn dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_6..word_12" sentenceid="1" label="percent" min_ids="word_6..word_7" type="enamex" lemmata="1,296,800 barrel of crude oil a day" isprenominal="false" pos="cd nns in jj nn dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_9..word_10" sentenceid="1" label="np" min_ids="word_9..word_10" type="chunk" lemmata="crude oil" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_11..word_12" sentenceid="1" label="np" min_ids="word_11..word_12" type="chunk" lemmata="a day" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_14..word_20" sentenceid="1" label="np" min_ids="word_14..word_15" type="chunk" lemmata="an average of $ 15.31 a barrel" isprenominal="false" pos="dt nn in $ cd dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_17..word_20" sentenceid="1" label="money" min_ids="word_17..word_18" type="enamex" lemmata="$ 15.31 a barrel" isprenominal="false" pos="$ cd dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_19..word_20" sentenceid="1" label="np" min_ids="word_19..word_20" type="chunk" lemmata="a barrel" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_22..word_23" sentenceid="1" label="np" min_ids="word_22..word_22" type="chunk" lemmata="1989 's" isprenominal="false" pos="cd pos" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_28..word_33" sentenceid="1" label="np" min_ids="word_28..word_29" type="chunk" lemmata="a total of $ 4.82 billion" isprenominal="false" pos="dt nn in $ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_31..word_33" sentenceid="1" label="money" min_ids="word_31..word_33" type="enamex" lemmata="$ 4.82 billion" isprenominal="false" pos="$ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_35..word_37" sentenceid="1" label="organization" min_ids="word_35..word_37" type="enamex" lemmata="petroleos mexicanos s.a." isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_40..word_43" sentenceid="2" label="np" min_ids="word_40..word_43" type="chunk" lemmata="the state petroleum monopoly" isprenominal="false" pos="dt nn nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_45..word_48" sentenceid="2" label="np" min_ids="word_45..word_45" type="chunk" lemmata="sale in the period" isprenominal="false" pos="nns in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_47..word_48" sentenceid="2" label="np" min_ids="word_47..word_48" type="chunk" lemmata="the period" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_50..word_51" sentenceid="2" label="percent" min_ids="word_50..word_51" type="enamex" lemmata="15 %" isprenominal="false" pos="cd nn" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_54..word_56" sentenceid="2" label="money" type="enamex" lemmata="$ 262.4 million" isprenominal="false" pos="$ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_54..word_77" sentenceid="2" label="np" min_ids="word_54..word_57" type="chunk" lemmata="$ 262.4 million more than originally project at an average of $ 10 a barrel on an export platform of 1,250,000 barrel a day" isprenominal="false" pos="$ cd cd jjr in rb vbn in dt nn in $ cd dt nn in dt nn nn in cd nns dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_62..word_68" sentenceid="2" label="np" min_ids="word_62..word_63" type="chunk" lemmata="an average of $ 10 a barrel" isprenominal="false" pos="dt nn in $ cd dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_65..word_68" sentenceid="2" label="money" min_ids="word_65..word_66" type="enamex" lemmata="$ 10 a barrel" isprenominal="false" pos="$ cd dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_67..word_68" sentenceid="2" label="np" min_ids="word_67..word_68" type="chunk" lemmata="a barrel" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_70..word_77" sentenceid="2" label="np" min_ids="word_70..word_72" type="chunk" lemmata="an export platform of 1,250,000 barrel a day" isprenominal="false" pos="dt nn nn in cd nns dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_74..word_77" sentenceid="2" label="percent" min_ids="word_74..word_75" type="enamex" lemmata="1,250,000 barrel a day" isprenominal="false" pos="cd nns dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_76..word_77" sentenceid="2" label="date" min_ids="word_76..word_77" type="enamex" lemmata="a day" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+</markables>

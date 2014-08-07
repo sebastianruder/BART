@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_27" tag="(S1 (S (NP (NNP WorldCom)) (VP (VBZ says) (SBAR (S (NP (PRP it)) (VP (VBD agreed) (S (VP (TO to) (VP (VB pay) (NP (QP ($ $) (CD 88) (CD million))) (S (VP (TO to) (VP (VB settle) (NP (NP (DT a) (NML (NN class) (HYPH -) (NN action)) (NN lawsuit)) (NN claim) (SBAR (IN that) (S (NP (PRP it)) (VP (VBD overcharged) (NP (NNS customers)) (PP (IN on) (NP (NML (JJ long) (NN distance)) (NN telephone) (NNS calls))))))))))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_28..word_57" tag="(S1 (S (NP (DT The) (NN settlement)) (VP (VBZ follows) (NP (NP (DT a) (CD 1998) (NN suit)) (VP (VBG arguing) (SBAR (IN that) (S (NP (NP (NNP WorldCom)) (VP (ADVP (RB then)) (VBN known) (PP (IN as) (NP (NNP MCI) (NNP WorldCom))))) (ADVP (RB automatically)) (VP (VBD shifted) (NP (NP (NNS customers)) (SBAR (WHNP (WP who)) (S (VP (VBD were) (ADJP (JJ late) (PP (IN in) (S (VP (VBG paying) (NP (PRP$ their) (NNS bills)) (PP (IN into) (NP (DT a) (NML (JJR higher) (NN rate)) (NN plan))))))))))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_58..word_70" tag="(S1 (S (NP (NNP MCI) (CC and) (NNP Worldcom)) (VP (VBD merged) (PP (IN in) (NP (CD 1998))) (, ,) (PP (IN before) (S (VP (VBG splitting) (NP (ADVP (RB again)) (JJ last) (NN year)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_71..word_81" tag="(S1 (S (NP (NNP WorldCom)) (VP (VBD did) (RB not) (VP (VB admit) (NP (DT any) (NN wrongdoing)) (PP (IN in) (S (VP (VBG settling) (NP (DT the) (NN case))))))) (. .)))" mmax_level="parse" />
+</markables>

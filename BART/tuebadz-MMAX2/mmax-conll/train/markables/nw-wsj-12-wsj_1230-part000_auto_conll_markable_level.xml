@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_14" span="word_1..word_10" sentenceid="1" label="person" min_ids="word_1..word_3" type="enamex" lemmata="carlos a. salvagni , vice president , pharmaceutical manufacturing ," isprenominal="false" pos="nnp nnp nnp , nn nn , nn nn ," speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_5..word_6" sentenceid="1" label="np" min_ids="word_5..word_6" type="chunk" lemmata="vice president" isprenominal="false" pos="nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_8..word_9" sentenceid="1" label="np" min_ids="word_8..word_9" type="chunk" lemmata="pharmaceutical manufacturing" isprenominal="false" pos="nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_13..word_15" sentenceid="1" label="np" min_ids="word_13..word_13" type="chunk" lemmata="responsibility for manufacturing" isprenominal="false" pos="nn in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_15" sentenceid="1" label="np" min_ids="word_15..word_15" type="chunk" lemmata="manufacturing" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_17..word_19" sentenceid="1" label="location" min_ids="word_17..word_17" type="enamex" lemmata="kalamazoo , mich." isprenominal="false" pos="nnp , nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_19" sentenceid="1" label="location" min_ids="word_19..word_19" type="enamex" lemmata="mich." isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_22..word_23" sentenceid="1" label="date" min_ids="word_22..word_23" type="enamex" lemmata="nov. 1" isprenominal="false" pos="nnp cd" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_25..word_31" sentenceid="2" label="person" min_ids="word_25..word_26" type="enamex" lemmata="mr. salvagni , 53 year old ," isprenominal="false" pos="nnp nnp , cd nns jj ," speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_28..word_30" sentenceid="2" label="date" type="enamex" lemmata="53 year old" isprenominal="false" pos="cd nns jj" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_33..word_48" sentenceid="2" label="person" min_ids="word_33..word_35" type="enamex" lemmata="john c. griffin , 57 , who be retire as corporate vice president of pharmaceutical manufacturing" isprenominal="false" pos="nnp nnp nnp , cd , wp vbz vbg in jj nn nn in nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_37" sentenceid="2" label="np" min_ids="word_37..word_37" type="chunk" lemmata="57" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_43..word_48" sentenceid="2" label="np" min_ids="word_43..word_45" type="chunk" lemmata="corporate vice president of pharmaceutical manufacturing" isprenominal="false" pos="jj nn nn in nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_47..word_48" sentenceid="2" label="np" min_ids="word_47..word_48" type="chunk" lemmata="pharmaceutical manufacturing" isprenominal="false" pos="nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_50" sentenceid="3" label="organization" min_ids="word_50..word_50" type="enamex" lemmata="upjohn" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_52..word_68" sentenceid="3" label="np" min_ids="word_52..word_56" type="chunk" lemmata="a world - wide provider of health - care product and service , seed and speciality chemical" isprenominal="false" pos="dt nn hyph jj nn in nn hyph nn nns cc nns , nns cc nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_58..word_61" sentenceid="3" label="np" min_ids="word_58..word_61" type="chunk" lemmata="health - care product" isprenominal="false" pos="nn hyph nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_58..word_63" sentenceid="3" label="np" min_ids="word_58..word_63" type="chunk" lemmata="health - care product and service" isprenominal="false" pos="nn hyph nn nns cc nns" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_58..word_68" sentenceid="3" label="np" min_ids="word_58..word_68" type="chunk" lemmata="health - care product and service , seed and speciality chemical" isprenominal="false" pos="nn hyph nn nns cc nns , nns cc nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_63" sentenceid="3" label="np" min_ids="word_63..word_63" type="chunk" lemmata="service" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_65" sentenceid="3" label="np" min_ids="word_65..word_65" type="chunk" lemmata="seed" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_67..word_68" sentenceid="3" label="np" min_ids="word_67..word_68" type="chunk" lemmata="speciality chemical" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+</markables>

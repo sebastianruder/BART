@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_25" tag="(S1 (S (NP (DT A) (NNP Pentagon) (NN report)) (VP (VBZ calls) (PP (IN for) (NP (VBN improved) (NN intelligence) (NN gathering))) (S (VP (TO to) (VP (VB prevent) (NP (NP (NP (JJ terrorist) (NNS attacks)) (PP (JJ such) (IN as) (NP (DT the) (CD one)))) (PP (IN against) (NP (DT the) (NNP USS) (NNP Cole)))) (PP (IN in) (NP (NP (NNP Yemen)) (NP (JJ last) (NNP October)))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_26..word_49" tag="(S1 (S (NP (DT The) (NN report)) (ADVP (RB also)) (VP (VP (VBZ proposes) (NP (NP (JJ anti-terrorist) (NN training)) (PP (IN for) (NP (DT all) (NNP US) (NNS troops))))) (CC and) (VP (VBZ recommends) (NP (DT a) (JJ new) (NN effort) (S (VP (TO to) (VP (VB react) (ADVP (RBR more) (RB quickly)) (PP (IN to) (NP (VBG emerging) (NN terrorist) (NNS threats))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_50..word_61" tag="(S1 (S (NP (NP (DT The) (NN report)) (VP (VBN released) (NP (NN today)))) (VP (VBD was) (VP (VBN commissioned) (PP (IN by) (NP (NML (NNP Defense) (NNP Secretary)) (NNP William) (NNP Cohen))))) (. .)))" mmax_level="parse" />
+</markables>

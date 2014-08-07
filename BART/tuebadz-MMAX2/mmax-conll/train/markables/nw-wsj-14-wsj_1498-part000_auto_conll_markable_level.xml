@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_5" span="word_1..word_10" sentenceid="1" label="person" min_ids="word_1..word_3" type="enamex" lemmata="roland j. hawkins , chairman of jet vacations inc. ," isprenominal="false" pos="nnp nnp nnp , nn in nn nns nnp ," speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_5..word_9" sentenceid="1" label="np" min_ids="word_5..word_5" type="chunk" lemmata="chairman of jet vacations inc." isprenominal="false" pos="nn in nn nns nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_7..word_9" sentenceid="1" label="organization" min_ids="word_7..word_9" type="enamex" lemmata="jet vacations inc." isprenominal="false" pos="nn nns nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_14..word_19" sentenceid="1" label="np" min_ids="word_14..word_15" type="chunk" lemmata="the board of this cruise line" isprenominal="false" pos="dt nn in dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_17..word_19" sentenceid="1" label="np" min_ids="word_17..word_19" type="chunk" lemmata="this cruise line" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_21..word_22" sentenceid="2" label="np" min_ids="word_21..word_22" type="chunk" lemmata="the board" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_25" sentenceid="2" label="percent" type="enamex" lemmata="seven" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_25..word_26" sentenceid="2" label="np" min_ids="word_25..word_26" type="chunk" lemmata="seven member" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+</markables>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_31" span="word_1" sentenceid="1" label="location" min_ids="word_1..word_1" type="enamex" lemmata="detroit" isprenominal="false" pos="nnp" speaker="Larry King" mmax_level="markable" />
+<markable id="markable_0" span="word_10" sentenceid="4" label="np" min_ids="word_10..word_10" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="caller 6" mmax_level="markable" />
+<markable id="markable_32" span="word_14..word_15" sentenceid="6" label="person" min_ids="word_14..word_15" type="enamex" lemmata="mr. wallace" isprenominal="false" pos="nnp nnp" speaker="caller 6" mmax_level="markable" />
+<markable id="markable_1" span="word_18..word_26" sentenceid="6" label="np" min_ids="word_18..word_20" type="chunk" lemmata="a big pleasure for i to talk to you" isprenominal="false" pos="dt jj nn in prp to vb in prp" speaker="caller 6" mmax_level="markable" />
+<markable id="markable_2" span="word_22" sentenceid="6" label="np" min_ids="word_22..word_22" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="caller 6" mmax_level="markable" />
+<markable id="markable_3" span="word_26" sentenceid="6" label="np" min_ids="word_26..word_26" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="caller 6" mmax_level="markable" />
+<markable id="markable_36" span="word_33" sentenceid="7" label="np" type="chunk" lemmata="your" isprenominal="true" pos="prp$" speaker="caller 6" mmax_level="markable" />
+<markable id="markable_4" span="word_33..word_36" sentenceid="7" label="np" min_ids="word_33..word_36" type="chunk" lemmata="your most difficult interview" isprenominal="false" pos="prp$ rbs jj nn" speaker="caller 6" mmax_level="markable" />
+<markable id="markable_5" span="word_38" sentenceid="7" label="np" min_ids="word_38..word_38" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="caller 6" mmax_level="markable" />
+<markable id="markable_33" span="word_41..word_42" sentenceid="7" label="object" min_ids="word_41..word_42" type="enamex" lemmata="sixty minutes" isprenominal="false" pos="nnp nnp" speaker="caller 6" mmax_level="markable" />
+<markable id="markable_6" span="word_43..word_46" sentenceid="7" label="np" min_ids="word_43..word_46" type="chunk" lemmata="the most difficult person" isprenominal="false" pos="dt rbs jj nn" speaker="caller 6" mmax_level="markable" />
+<markable id="markable_7" span="word_48" sentenceid="7" label="np" min_ids="word_48..word_48" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="caller 6" mmax_level="markable" />
+<markable id="markable_8" span="word_54" sentenceid="8" label="np" min_ids="word_54..word_54" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="Mike Wallace" mmax_level="markable" />
+<markable id="markable_9" span="word_57..word_58" sentenceid="8" label="np" min_ids="word_57..word_58" type="chunk" lemmata="the aiatola" isprenominal="false" pos="dt nnp" speaker="Mike Wallace" mmax_level="markable" />
+<markable id="markable_10" span="word_61" sentenceid="8" label="np" min_ids="word_61..word_61" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="Mike Wallace" mmax_level="markable" />
+<markable id="markable_11" span="word_67" sentenceid="8" label="np" min_ids="word_67..word_67" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="Mike Wallace" mmax_level="markable" />
+<markable id="markable_12" span="word_69" sentenceid="9" label="np" min_ids="word_69..word_69" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="Mike Wallace" mmax_level="markable" />
+<markable id="markable_13" span="word_74..word_76" sentenceid="9" label="np" min_ids="word_74..word_76" type="chunk" lemmata="the us hostage" isprenominal="false" pos="dt nnp nns" speaker="Mike Wallace" mmax_level="markable" />
+<markable id="markable_34" span="word_75" sentenceid="9" label="location" type="enamex" lemmata="us" isprenominal="false" pos="nnp" speaker="Mike Wallace" mmax_level="markable" />
+<markable id="markable_35" span="word_81" sentenceid="9" label="location" min_ids="word_81..word_81" type="enamex" lemmata="iran" isprenominal="false" pos="nnp" speaker="Mike Wallace" mmax_level="markable" />
+<markable id="markable_14" span="word_84" sentenceid="10" label="np" min_ids="word_84..word_84" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="Mike Wallace" mmax_level="markable" />
+<markable id="markable_15" span="word_88" sentenceid="10" label="np" min_ids="word_88..word_88" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="Mike Wallace" mmax_level="markable" />
+<markable id="markable_16" span="word_94" sentenceid="10" label="np" min_ids="word_94..word_94" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="Mike Wallace" mmax_level="markable" />
+<markable id="markable_17" span="word_97" sentenceid="11" label="np" min_ids="word_97..word_97" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="Mike Wallace" mmax_level="markable" />
+<markable id="markable_18" span="word_99..word_103" sentenceid="11" label="np" min_ids="word_99..word_103" type="chunk" lemmata="a very very difficult business" isprenominal="false" pos="dt rb rb jj nn" speaker="Mike Wallace" mmax_level="markable" />
+<markable id="markable_19" span="word_105" sentenceid="12" label="np" min_ids="word_105..word_105" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="Mike Wallace" mmax_level="markable" />
+<markable id="markable_20" span="word_107" sentenceid="12" label="np" min_ids="word_107..word_107" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="Mike Wallace" mmax_level="markable" />
+<markable id="markable_21" span="word_109..word_113" sentenceid="12" label="np" min_ids="word_109..word_111" type="chunk" lemmata="the holy city of which" isprenominal="false" pos="dt jj nn in wdt" speaker="Mike Wallace" mmax_level="markable" />
+<markable id="markable_22" span="word_113" sentenceid="12" label="np" min_ids="word_113..word_113" type="chunk" lemmata="which" isprenominal="false" pos="wdt" speaker="Mike Wallace" mmax_level="markable" />
+<markable id="markable_23" span="word_115" sentenceid="12" label="np" min_ids="word_115..word_115" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="Mike Wallace" mmax_level="markable" />
+<markable id="markable_24" span="word_118..word_119" sentenceid="13" label="np" min_ids="word_118..word_119" type="chunk" lemmata="the circumstance" isprenominal="false" pos="dt nns" speaker="Mike Wallace" mmax_level="markable" />
+<markable id="markable_25" span="word_123" sentenceid="14" label="np" min_ids="word_123..word_123" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="Mike Wallace" mmax_level="markable" />
+<markable id="markable_26" span="word_125..word_126" sentenceid="14" label="np" min_ids="word_125..word_126" type="chunk" lemmata="good care" isprenominal="false" pos="jj nn" speaker="Mike Wallace" mmax_level="markable" />
+<markable id="markable_27" span="word_130" sentenceid="14" label="np" min_ids="word_130..word_130" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="Mike Wallace" mmax_level="markable" />
+<markable id="markable_28" span="word_135" sentenceid="14" label="np" min_ids="word_135..word_135" type="chunk" lemmata="trouble" isprenominal="false" pos="nn" speaker="Mike Wallace" mmax_level="markable" />
+<markable id="markable_29" span="word_140" sentenceid="16" label="np" min_ids="word_140..word_140" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="Larry King" mmax_level="markable" />
+<markable id="markable_30" span="word_143..word_144" sentenceid="16" label="np" min_ids="word_143..word_144" type="chunk" lemmata="a break" isprenominal="false" pos="dt nn" speaker="Larry King" mmax_level="markable" />
+</markables>

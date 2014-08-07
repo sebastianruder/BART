@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_20" tag="(S1 (S (NP (NML (NML (NNP Secretary)) (PP (IN of) (NP (NNP State)))) (NNP Madeleine) (NNP Albright)) (VP (VBZ is) (VP (VBG heading) (PP (IN to) (NP (NNP North) (NNP Korea))) (S (NP (NN today)) (VP (TO to) (VP (VB meet) (PP (IN with) (NP (NN leader))) (NP (NNP Kim) (NNP Jong) (HYPH -) (NNP il))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_21..word_32" tag="(S1 (S (NP (PRP She)) (VP (MD 'll) (VP (VB be) (NP (NP (JJ first)) (SBAR (S (NP (NNP U.S.) (NNP Cabinet) (NNP Member)) (ADVP (RB ever)) (VP (TO to) (VP (VB do) (ADVP (RB so))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_33..word_57" tag="(S1 (S (NP (DT The) (NNP White) (NNP House)) (VP (VBZ is) (VP (VBG trying) (S (VP (TO to) (VP (VP (VB reduce) (NP (NP (NN tension)) (PP (IN in) (NP (DT the) (NN area))))) (, ,) (CONJP (RB as) (RB well) (IN as)) (VP (VB seek) (NP (NP (DT an) (NN end)) (PP (IN to) (NP (NP (NNP North) (NNP Korea) (POS 's)) (NN missile) (NNS programs)))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_58..word_74" tag="(S1 (S (SBAR (IN If) (S (NP (DT the) (NN visit)) (VP (VBZ goes) (ADVP (RB well))))) (, ,) (NP (NNP President) (NNP Clinton)) (VP (MD could) (VP (VB visit) (NP (NNP North) (NNP Korea)) (SBAR (IN before) (S (NP (PRP$ his) (NN term)) (VP (VBZ ends)))))) (. .)))" mmax_level="parse" />
+</markables>

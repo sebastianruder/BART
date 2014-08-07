@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_7" span="word_1..word_15" sentenceid="1" label="person" min_ids="word_1..word_3" type="enamex" lemmata="richard w. lock , retire vice president and treasurer of owens - illinois inc. ," isprenominal="false" pos="nnp nnp nn , vbn nn nn cc nn in nnp hyph nnp nnp ," speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_5..word_7" sentenceid="1" label="np" min_ids="word_5..word_7" type="chunk" lemmata="retire vice president" isprenominal="false" pos="vbn nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_5..word_14" sentenceid="1" label="np" min_ids="word_5..word_9" type="chunk" lemmata="retire vice president and treasurer of owens - illinois inc." isprenominal="false" pos="vbn nn nn cc nn in nnp hyph nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_9" sentenceid="1" label="np" min_ids="word_9..word_9" type="chunk" lemmata="treasurer" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_11" sentenceid="1" label="person" type="enamex" lemmata="owens" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_11..word_14" sentenceid="1" label="organization" min_ids="word_11..word_14" type="enamex" lemmata="owens - illinois inc." isprenominal="false" pos="nnp hyph nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_18..word_24" sentenceid="1" label="np" min_ids="word_18..word_19" type="chunk" lemmata="a director of this transportation industry supplier" isprenominal="false" pos="dt nn in dt nn nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_21..word_24" sentenceid="1" label="np" min_ids="word_21..word_24" type="chunk" lemmata="this transportation industry supplier" isprenominal="false" pos="dt nn nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_27" sentenceid="1" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_27..word_28" sentenceid="1" label="np" min_ids="word_27..word_28" type="chunk" lemmata="its board" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_30" sentenceid="1" label="percent" type="enamex" lemmata="six" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_30..word_31" sentenceid="1" label="np" min_ids="word_30..word_31" type="chunk" lemmata="six member" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+</markables>

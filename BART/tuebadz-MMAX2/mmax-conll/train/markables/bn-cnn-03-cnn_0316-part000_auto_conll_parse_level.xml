@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_15" tag="(S1 (S (NP (NP (DT Another) (CD six) (NNS executives)) (PP (IN from) (NP (NNP Enron)))) (VP (MD could) (VP (VB be) (VP (VBN charged) (PP (IN with) (NP (NP (NNS securities) (NN fraud)) (CC and) (NP (JJ other) (NNS crimes))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_16..word_32" tag="(S1 (S (NP (JJ Federal) (NNS prosecutors)) (VP (VBD notified) (NP (DT the) (JJ former) (NNS employees)) (SBAR (IN that) (S (NP (PRP they)) (VP (MD could) (VP (VB face) (NP (NNS charges)) (ADVP (ADVP (RB as) (RB early)) (PP (IN as) (NP (DT this) (NN week))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_33..word_41" tag="(S1 (S (NP (PRP They)) (VP (MD would) (VP (VB join) (S (NP (CD seven) (JJ other) (NNS executives)) (ADVP (RB already)) (VP (VBN charged))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_42..word_67" tag="(S1 (S (NP (NP (NNP Abe)) (NP (PRP$ our) (NNP Enron) (NML (JJ corporate) (NNP America) (NN score)) (NN board))) (VP (VBZ sets) (NP (NP (CD 50) (NNS executives)) (VP (ADVP (RB now)) (VBN charged) (PP (IN in) (NP (NP (NNP America)) (, ,) (NP (NP (CD seven)) (PP (IN of) (NP (PRP them)))))))) (, ,) (SBAR (IN as) (S (NP (PRP I)) (VP (VBD said)))) (, ,) (PP (IN at) (NP (NNP Enron)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_68..word_77" tag="(S1 (S (NP (DT No) (NN one)) (, ,) (NP (DT no) (NN one)) (VP (VBZ is) (VP (VBN sent) (PP (IN to) (NP (NN prison))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10006" span="word_78..word_86" tag="(S1 (S (VP (VBN Been) (SBAR (NP (CD 511) (NNS days)) (IN since) (S (NP (NNP Enron)) (VP (VBD filed) (PP (IN for) (NP (NNS bankruptcies))))))) (. .)))" mmax_level="parse" />
+</markables>

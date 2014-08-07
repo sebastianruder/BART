@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_10" sentenceid="1" label="np" min_ids="word_1..word_2" type="chunk" lemmata="the head of the united nations refugee agency sadaqal o'gatta" isprenominal="false" pos="dt nn in dt nnp nnp nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_4..word_8" sentenceid="1" label="organization" min_ids="word_4..word_8" type="enamex" lemmata="the united nations refugee agency" isprenominal="false" pos="dt nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_9..word_10" sentenceid="1" label="person" min_ids="word_9..word_10" type="enamex" lemmata="sadaqal o'gatta" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_14..word_15" sentenceid="1" label="np" min_ids="word_14..word_15" type="chunk" lemmata="the agency" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_21" sentenceid="1" label="np" min_ids="word_21..word_21" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_24" sentenceid="1" label="np" min_ids="word_24..word_24" type="chunk" lemmata="funding" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+</markables>

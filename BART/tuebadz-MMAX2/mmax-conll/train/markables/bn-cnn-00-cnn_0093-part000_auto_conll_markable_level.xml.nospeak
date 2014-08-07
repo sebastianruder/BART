@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_12" span="word_1" sentenceid="1" label="date" type="enamex" lemmata="monday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_3..word_4" sentenceid="1" label="person" min_ids="word_3..word_4" type="enamex" lemmata="president clinton" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_7..word_22" sentenceid="1" label="money" min_ids="word_7..word_9" type="enamex" lemmata="$ 435 million to ease the debt burden of some of the world 's poorest country" isprenominal="false" pos="$ cd cd to vb dt nn nns in dt in dt nn pos jjs nns" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_12..word_22" sentenceid="1" label="np" min_ids="word_12..word_14" type="chunk" lemmata="the debt burden of some of the world 's poorest country" isprenominal="false" pos="dt nn nns in dt in dt nn pos jjs nns" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_16..word_22" sentenceid="1" label="np" min_ids="word_16..word_16" type="chunk" lemmata="some of the world 's poorest country" isprenominal="false" pos="dt in dt nn pos jjs nns" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_18..word_20" sentenceid="1" label="np" min_ids="word_18..word_19" type="chunk" lemmata="the world 's" isprenominal="false" pos="dt nn pos" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_18..word_22" sentenceid="1" label="np" min_ids="word_18..word_22" type="chunk" lemmata="the world 's poorest country" isprenominal="false" pos="dt nn pos jjs nns" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_24" sentenceid="2" label="np" min_ids="word_24..word_24" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_26..word_28" sentenceid="2" label="location" min_ids="word_26..word_28" type="enamex" lemmata="the united states" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_31..word_42" sentenceid="2" label="np" min_ids="word_31..word_31" type="chunk" lemmata="part of a global effort to free develop country from interest payment" isprenominal="false" pos="nn in dt jj nn to vb vbg nns in nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_33..word_42" sentenceid="2" label="np" min_ids="word_33..word_35" type="chunk" lemmata="a global effort to free develop country from interest payment" isprenominal="false" pos="dt jj nn to vb vbg nns in nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_38..word_39" sentenceid="2" label="np" min_ids="word_38..word_39" type="chunk" lemmata="develop country" isprenominal="false" pos="vbg nns" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_41..word_42" sentenceid="2" label="np" min_ids="word_41..word_42" type="chunk" lemmata="interest payment" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_44..word_45" sentenceid="3" label="np" min_ids="word_44..word_45" type="chunk" lemmata="the measure" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_47..word_55" sentenceid="3" label="np" min_ids="word_47..word_47" type="chunk" lemmata="part of a $ 15 billion international assistance package" isprenominal="false" pos="nn in dt $ cd cd jj nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_49..word_55" sentenceid="3" label="np" min_ids="word_49..word_55" type="chunk" lemmata="a $ 15 billion international assistance package" isprenominal="false" pos="dt $ cd cd jj nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_50..word_52" sentenceid="3" label="money" type="enamex" lemmata="$ 15 billion" isprenominal="false" pos="$ cd cd" speaker="-" mmax_level="markable" />
+</markables>

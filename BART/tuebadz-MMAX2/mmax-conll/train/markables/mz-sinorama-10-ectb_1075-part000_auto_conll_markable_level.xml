@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_2" sentenceid="1" label="np" min_ids="word_2..word_2" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_40" span="word_5" sentenceid="1" label="np" type="chunk" lemmata="my" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_5..word_6" sentenceid="1" label="np" min_ids="word_5..word_6" type="chunk" lemmata="my abc" isprenominal="false" pos="prp$ nns" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_9" sentenceid="2" label="object" type="enamex" lemmata="english" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_9..word_10" sentenceid="2" label="np" min_ids="word_9..word_10" type="chunk" lemmata="english instruction" isprenominal="false" pos="nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_12..word_15" sentenceid="2" label="np" min_ids="word_12..word_15" type="chunk" lemmata="&quot; prime &quot; time" isprenominal="false" pos="`` jj '' nn" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_17..word_20" sentenceid="3" label="person" min_ids="word_17..word_20" type="enamex" lemmata="teng sue - feng" isprenominal="false" pos="nnp nnp hyph nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_22..word_27" sentenceid="3" label="np" min_ids="word_22..word_22" type="chunk" lemmata="photo by hsueh chi - kuang" isprenominal="false" pos="nns in nnp nnp hyph nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_24..word_27" sentenceid="3" label="person" min_ids="word_24..word_27" type="enamex" lemmata="hsueh chi - kuang" isprenominal="false" pos="nnp nnp hyph nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_31..word_32" sentenceid="3" label="person" min_ids="word_31..word_32" type="enamex" lemmata="sue jollow" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_36" sentenceid="4" label="date" min_ids="word_36..word_36" type="enamex" lemmata="september" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_38" sentenceid="4" label="object" min_ids="word_38..word_38" type="enamex" lemmata="english" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_41..word_52" sentenceid="4" label="np" min_ids="word_41..word_43" type="chunk" lemmata="a compulsory subject for primary school student in grade 5 and 6" isprenominal="false" pos="dt jj nn in jj nn nns in nns cd cc cd" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_45..word_52" sentenceid="4" label="np" min_ids="word_45..word_47" type="chunk" lemmata="primary school student in grade 5 and 6" isprenominal="false" pos="jj nn nns in nns cd cc cd" speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_49..word_52" sentenceid="4" label="percent" min_ids="word_49..word_52" type="enamex" lemmata="grade 5 and 6" isprenominal="false" pos="nns cd cc cd" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_57..word_73" sentenceid="5" label="np" min_ids="word_57..word_57" type="chunk" lemmata="chorus of &quot; bo - po - mo &quot; and &quot; a - b - c &quot;" isprenominal="false" pos="nns in `` nnp hyph nnp hyph nn '' cc `` dt hyph nn hyph nn ''" speaker="-" mmax_level="markable" />
+<markable id="markable_34" span="word_59..word_73" sentenceid="5" label="object" min_ids="word_60..word_72" type="enamex" lemmata="&quot; bo - po - mo &quot; and &quot; a - b - c &quot;" isprenominal="false" pos="`` nnp hyph nnp hyph nn '' cc `` dt hyph nn hyph nn ''" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_78..word_80" sentenceid="5" label="np" min_ids="word_78..word_80" type="chunk" lemmata="primary school classroom" isprenominal="false" pos="jj nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_82..word_85" sentenceid="5" label="np" min_ids="word_82..word_84" type="chunk" lemmata="a long time now" isprenominal="false" pos="dt jj nn rb" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_87..word_88" sentenceid="6" label="np" min_ids="word_87..word_88" type="chunk" lemmata="many parent" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_41" span="word_91" sentenceid="6" label="np" type="chunk" lemmata="their" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_91..word_92" sentenceid="6" label="np" min_ids="word_91..word_92" type="chunk" lemmata="their child" isprenominal="false" pos="prp$ nns" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_94..word_97" sentenceid="6" label="np" min_ids="word_94..word_97" type="chunk" lemmata="&quot; bilingual &quot; kindergarten" isprenominal="false" pos="`` jj '' nns" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_101..word_105" sentenceid="6" label="np" min_ids="word_101..word_103" type="chunk" lemmata="private english school long before" isprenominal="false" pos="jj nnp nns rb rb" speaker="-" mmax_level="markable" />
+<markable id="markable_35" span="word_102" sentenceid="6" label="object" type="enamex" lemmata="english" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_110" sentenceid="6" label="np" min_ids="word_110..word_110" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_112..word_116" sentenceid="6" label="np" min_ids="word_112..word_116" type="chunk" lemmata="an english - speak environment" isprenominal="false" pos="dt nnp hyph vbg nn" speaker="-" mmax_level="markable" />
+<markable id="markable_36" span="word_113" sentenceid="6" label="object" type="enamex" lemmata="english" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_118..word_120" sentenceid="6" label="np" min_ids="word_118..word_120" type="chunk" lemmata="an early age" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_123" sentenceid="6" label="np" min_ids="word_123..word_123" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_127..word_128" sentenceid="6" label="np" min_ids="word_127..word_128" type="chunk" lemmata="modern society" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_130..word_132" sentenceid="7" label="np" min_ids="word_130..word_132" type="chunk" lemmata="the whole world" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_37" span="word_137" sentenceid="7" label="object" min_ids="word_137..word_137" type="enamex" lemmata="english" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_38" span="word_140" sentenceid="8" label="location" min_ids="word_140..word_140" type="enamex" lemmata="taiwan" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_143..word_144" sentenceid="8" label="np" min_ids="word_143..word_144" type="chunk" lemmata="the bandwagon" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_152" sentenceid="9" label="np" min_ids="word_152..word_152" type="chunk" lemmata="development" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_155" sentenceid="9" label="np" min_ids="word_155..word_155" type="chunk" lemmata="place" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_39" span="word_157" sentenceid="9" label="object" type="enamex" lemmata="english" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_157..word_160" sentenceid="9" label="np" min_ids="word_157..word_160" type="chunk" lemmata="english language teaching methodology" isprenominal="false" pos="nnp nn nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_163..word_165" sentenceid="9" label="np" min_ids="word_163..word_165" type="chunk" lemmata="private language school" isprenominal="false" pos="jj nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_167..word_170" sentenceid="9" label="np" min_ids="word_167..word_169" type="chunk" lemmata="the education system itself" isprenominal="false" pos="dt nn nn prp" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_170" sentenceid="9" label="np" min_ids="word_170..word_170" type="chunk" lemmata="itself" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+</markables>

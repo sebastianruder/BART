@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_5" sentenceid="1" label="np" min_ids="word_1..word_1" type="chunk" lemmata="violence between israelis and palestinians" isprenominal="false" pos="nn in nnps cc nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_3" sentenceid="1" label="location" type="enamex" lemmata="israelis" isprenominal="false" pos="nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_3..word_5" sentenceid="1" label="location" min_ids="word_3..word_5" type="enamex" lemmata="israelis and palestinians" isprenominal="false" pos="nnps cc nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_8" sentenceid="1" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_8..word_10" sentenceid="1" label="date" min_ids="word_8..word_10" type="enamex" lemmata="its third month" isprenominal="false" pos="prp$ jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_14..word_18" sentenceid="1" label="np" min_ids="word_14..word_17" type="chunk" lemmata="a slightly reduced level overall" isprenominal="false" pos="dt rb jj nn rb" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_20" sentenceid="2" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_20..word_23" sentenceid="2" label="np" min_ids="word_20..word_23" type="chunk" lemmata="israeli and palestinian negotiator" isprenominal="false" pos="jj cc jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_22" sentenceid="2" label="location" type="enamex" lemmata="palestinian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_27..word_29" sentenceid="2" label="object" min_ids="word_27..word_29" type="enamex" lemmata="the white house" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_31..word_45" sentenceid="2" label="person" min_ids="word_31..word_33" type="enamex" lemmata="president bill clinton in hope of restart direct negotiation between they for a final settlement" isprenominal="false" pos="nnp nnp nnp in nns in vbg jj nns in prp in dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_35..word_45" sentenceid="2" label="np" min_ids="word_35..word_35" type="chunk" lemmata="hope of restart direct negotiation between they for a final settlement" isprenominal="false" pos="nns in vbg jj nns in prp in dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_38..word_41" sentenceid="2" label="np" min_ids="word_38..word_39" type="chunk" lemmata="direct negotiation between they" isprenominal="false" pos="jj nns in prp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_41" sentenceid="2" label="np" min_ids="word_41..word_41" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_43..word_45" sentenceid="2" label="np" min_ids="word_43..word_45" type="chunk" lemmata="a final settlement" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+</markables>

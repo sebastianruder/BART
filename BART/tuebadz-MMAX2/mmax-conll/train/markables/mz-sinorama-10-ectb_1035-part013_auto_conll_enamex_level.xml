@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/enamex">
+<markable id="markable_1" span="word_2..word_3" tag="percent" mmax_level="enamex" />
+<markable id="markable_2" span="word_52..word_52" tag="percent" mmax_level="enamex" />
+<markable id="markable_3" span="word_220..word_221" tag="person" mmax_level="enamex" />
+<markable id="markable_4" span="word_225..word_225" tag="organization" mmax_level="enamex" />
+<markable id="markable_5" span="word_229..word_229" tag="location" mmax_level="enamex" />
+<markable id="markable_6" span="word_244..word_245" tag="location" mmax_level="enamex" />
+<markable id="markable_7" span="word_258..word_258" tag="location" mmax_level="enamex" />
+<markable id="markable_8" span="word_260..word_260" tag="date" mmax_level="enamex" />
+<markable id="markable_9" span="word_278..word_280" tag="date" mmax_level="enamex" />
+</markables>

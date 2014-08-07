@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_12" span="word_1..word_3" sentenceid="1" label="organization" min_ids="word_1..word_3" type="enamex" lemmata="control data corp." isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_5" sentenceid="1" label="np" min_ids="word_5..word_5" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_10..word_33" sentenceid="1" label="np" min_ids="word_10..word_14" type="chunk" lemmata="the $ 154.2 million amount of its 12 3/4 % senior note due june 15 , 1991 , at par , plus accrue interest" isprenominal="false" pos="dt $ cd cd nn in prp$ cd cd nn jj nns in nnp cd , cd , in nn , cc vbn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_11..word_13" sentenceid="1" label="money" type="enamex" lemmata="$ 154.2 million" isprenominal="false" pos="$ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_16" sentenceid="1" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_16..word_29" sentenceid="1" label="np" min_ids="word_16..word_21" type="chunk" lemmata="its 12 3/4 % senior note due june 15 , 1991 , at par" isprenominal="false" pos="prp$ cd cd nn jj nns in nnp cd , cd , in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_17..word_19" sentenceid="1" label="percent" type="enamex" lemmata="12 3/4 %" isprenominal="false" pos="cd cd nn" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_23..word_26" sentenceid="1" label="date" min_ids="word_23..word_26" type="enamex" lemmata="june 15 , 1991" isprenominal="false" pos="nnp cd , cd" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_29" sentenceid="1" label="np" min_ids="word_29..word_29" type="chunk" lemmata="par" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_32..word_33" sentenceid="1" label="np" min_ids="word_32..word_33" type="chunk" lemmata="accrue interest" isprenominal="false" pos="vbn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_35..word_39" sentenceid="1" label="np" min_ids="word_35..word_39" type="chunk" lemmata="the dec. 8 purchase date" isprenominal="false" pos="dt nnp cd nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_36..word_37" sentenceid="1" label="date" type="enamex" lemmata="dec. 8" isprenominal="false" pos="nnp cd" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_41..word_47" sentenceid="2" label="np" min_ids="word_41..word_47" type="chunk" lemmata="the minneapolis computer system and service concern" isprenominal="false" pos="dt nnp nn nns cc nns nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_42" sentenceid="2" label="location" type="enamex" lemmata="minneapolis" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_49..word_50" sentenceid="2" label="np" min_ids="word_49..word_50" type="chunk" lemmata="the offer" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_54..word_57" sentenceid="2" label="np" min_ids="word_54..word_57" type="chunk" lemmata="the senior note indenture" isprenominal="false" pos="dt jj nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_59..word_78" sentenceid="2" label="np" min_ids="word_59..word_60" type="chunk" lemmata="a result of control data 's recent sale of its disk drive subsidiary , imprimis , to seagate technology inc" isprenominal="false" pos="dt nn in nnp nnp pos jj nn in prp$ nn nn nn , nnp , in nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_62..word_64" sentenceid="2" label="organization" min_ids="word_62..word_63" type="enamex" lemmata="control data 's" isprenominal="false" pos="nnp nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_62..word_78" sentenceid="2" label="np" min_ids="word_62..word_66" type="chunk" lemmata="control data 's recent sale of its disk drive subsidiary , imprimis , to seagate technology inc" isprenominal="false" pos="nnp nnp pos jj nn in prp$ nn nn nn , nnp , in nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_68" sentenceid="2" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_68..word_74" sentenceid="2" label="np" min_ids="word_68..word_71" type="chunk" lemmata="its disk drive subsidiary , imprimis ," isprenominal="false" pos="prp$ nn nn nn , nnp ," speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_73" sentenceid="2" label="organization" min_ids="word_73..word_73" type="enamex" lemmata="imprimis" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_76..word_78" sentenceid="2" label="organization" min_ids="word_76..word_78" type="enamex" lemmata="seagate technology inc" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+</markables>

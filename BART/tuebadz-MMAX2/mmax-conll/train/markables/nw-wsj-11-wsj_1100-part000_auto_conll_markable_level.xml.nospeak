@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_8" span="word_1..word_3" sentenceid="1" label="organization" min_ids="word_1..word_3" type="enamex" lemmata="westinghouse electric corp." isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_5" sentenceid="1" label="np" min_ids="word_5..word_5" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_8..word_11" sentenceid="1" label="organization" min_ids="word_8..word_11" type="enamex" lemmata="shaw - walker co" isprenominal="false" pos="nnp hyph nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_13" sentenceid="2" label="np" min_ids="word_13..word_13" type="chunk" lemmata="terms" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_18..word_27" sentenceid="3" label="organization" min_ids="word_18..word_20" type="enamex" lemmata="shaw - walker , base in muskegon , mich. ," isprenominal="false" pos="nnp hyph nnp , vbn in nnp , nnp ," speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_24..word_26" sentenceid="3" label="location" min_ids="word_24..word_24" type="enamex" lemmata="muskegon , mich." isprenominal="false" pos="nnp , nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_26" sentenceid="3" label="location" min_ids="word_26..word_26" type="enamex" lemmata="mich." isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_29..word_30" sentenceid="3" label="np" min_ids="word_29..word_30" type="chunk" lemmata="metal file" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_29..word_32" sentenceid="3" label="np" min_ids="word_29..word_32" type="chunk" lemmata="metal file and desk" isprenominal="false" pos="nn nns cc nns" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_29..word_39" sentenceid="3" label="np" min_ids="word_29..word_39" type="chunk" lemmata="metal file and desk , and seat and office system furniture" isprenominal="false" pos="nn nns cc nns , cc vbg cc nn nns nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_32" sentenceid="3" label="np" min_ids="word_32..word_32" type="chunk" lemmata="desk" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_35..word_38" sentenceid="3" label="np" min_ids="word_35..word_38" type="chunk" lemmata="seat and office system" isprenominal="false" pos="vbg cc nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_39" sentenceid="3" label="np" min_ids="word_39..word_39" type="chunk" lemmata="furniture" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+</markables>

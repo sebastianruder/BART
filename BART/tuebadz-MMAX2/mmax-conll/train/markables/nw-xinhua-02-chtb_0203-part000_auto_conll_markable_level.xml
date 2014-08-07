@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_11" span="word_1..word_15" sentenceid="1" label="organization" min_ids="word_1..word_6" type="enamex" lemmata="the &quot; steel eighth company &quot; of a certain unit in the beijing military region" isprenominal="false" pos="dt `` nnp nnp nnp '' in dt jj nn in dt nnp jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_8..word_15" sentenceid="1" label="np" min_ids="word_8..word_10" type="chunk" lemmata="a certain unit in the beijing military region" isprenominal="false" pos="dt jj nn in dt nnp jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_12..word_15" sentenceid="1" label="location" min_ids="word_12..word_15" type="enamex" lemmata="the beijing military region" isprenominal="false" pos="dt nnp jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_19..word_20" sentenceid="1" label="np" min_ids="word_19..word_20" type="chunk" lemmata="new soldier" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_23..word_27" sentenceid="1" label="np" min_ids="word_23..word_27" type="chunk" lemmata="colorful cultural and recreational activity" isprenominal="false" pos="jj jj cc jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_30..word_31" sentenceid="1" label="np" min_ids="word_30..word_31" type="chunk" lemmata="the soldier" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_33..word_38" sentenceid="1" label="np" min_ids="word_33..word_34" type="chunk" lemmata="the warmth of the military camp" isprenominal="false" pos="dt nn in dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_36..word_38" sentenceid="1" label="np" min_ids="word_36..word_38" type="chunk" lemmata="the military camp" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_40..word_41" sentenceid="2" label="np" min_ids="word_40..word_41" type="chunk" lemmata="the photo" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_43..word_48" sentenceid="2" label="person" min_ids="word_43..word_44" type="enamex" lemmata="ganglun tan , the company commander" isprenominal="false" pos="nnp nnp , dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_46..word_48" sentenceid="2" label="np" min_ids="word_46..word_48" type="chunk" lemmata="the company commander" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_52..word_57" sentenceid="2" label="np" min_ids="word_52..word_53" type="chunk" lemmata="recreational activity together with new soldier" isprenominal="false" pos="jj nns rb in jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_56..word_57" sentenceid="2" label="np" min_ids="word_56..word_57" type="chunk" lemmata="new soldier" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_61..word_62" sentenceid="3" label="person" min_ids="word_61..word_62" type="enamex" lemmata="weidong liu" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_61..word_65" sentenceid="3" label="person" min_ids="word_61..word_65" type="enamex" lemmata="weidong liu and guozhong hou" isprenominal="false" pos="nnp nnp cc nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_64..word_65" sentenceid="3" label="np" min_ids="word_64..word_65" type="chunk" lemmata="guozhong hou" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+</markables>

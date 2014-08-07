@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1" sentenceid="1" label="np" min_ids="word_1..word_1" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_58" span="word_3..word_5" sentenceid="1" label="time" type="enamex" lemmata="late at night" isprenominal="false" pos="jj in nn" speaker="Acts" mmax_level="markable" />
+<markable id="markable_1" span="word_8..word_9" sentenceid="1" label="np" min_ids="word_8..word_9" type="chunk" lemmata="the jailer" isprenominal="false" pos="dt nn" speaker="Acts" mmax_level="markable" />
+<markable id="markable_59" span="word_11" sentenceid="1" label="person" type="enamex" lemmata="paul" isprenominal="false" pos="nnp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_60" span="word_11..word_13" sentenceid="1" label="person" min_ids="word_11..word_13" type="enamex" lemmata="paul and silas" isprenominal="false" pos="nnp cc nnp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_75" span="word_16" sentenceid="1" label="np" type="chunk" lemmata="their" isprenominal="true" pos="prp$" speaker="Acts" mmax_level="markable" />
+<markable id="markable_2" span="word_16..word_17" sentenceid="1" label="np" min_ids="word_16..word_17" type="chunk" lemmata="their wound" isprenominal="false" pos="prp$ nns" speaker="Acts" mmax_level="markable" />
+<markable id="markable_3" span="word_20..word_21" sentenceid="2" label="np" min_ids="word_20..word_21" type="chunk" lemmata="the jailer" isprenominal="false" pos="dt nn" speaker="Acts" mmax_level="markable" />
+<markable id="markable_4" span="word_20..word_25" sentenceid="2" label="np" min_ids="word_20..word_25" type="chunk" lemmata="the jailer and all his people" isprenominal="false" pos="dt nn cc pdt prp$ nns" speaker="Acts" mmax_level="markable" />
+<markable id="markable_5" span="word_23..word_25" sentenceid="2" label="np" min_ids="word_23..word_25" type="chunk" lemmata="all his people" isprenominal="false" pos="pdt prp$ nns" speaker="Acts" mmax_level="markable" />
+<markable id="markable_76" span="word_24" sentenceid="2" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="Acts" mmax_level="markable" />
+<markable id="markable_6" span="word_31..word_32" sentenceid="3" label="np" min_ids="word_31..word_32" type="chunk" lemmata="the jailer" isprenominal="false" pos="dt nn" speaker="Acts" mmax_level="markable" />
+<markable id="markable_61" span="word_34" sentenceid="3" label="person" type="enamex" lemmata="paul" isprenominal="false" pos="nnp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_62" span="word_34..word_36" sentenceid="3" label="person" min_ids="word_34..word_36" type="enamex" lemmata="paul and silas" isprenominal="false" pos="nnp cc nnp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_7" span="word_40" sentenceid="3" label="np" min_ids="word_40..word_40" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_8" span="word_41..word_42" sentenceid="3" label="np" min_ids="word_41..word_42" type="chunk" lemmata="some food" isprenominal="false" pos="dt nn" speaker="Acts" mmax_level="markable" />
+<markable id="markable_9" span="word_44..word_46" sentenceid="4" label="np" min_ids="word_44..word_46" type="chunk" lemmata="all the people" isprenominal="false" pos="pdt dt nns" speaker="Acts" mmax_level="markable" />
+<markable id="markable_10" span="word_51" sentenceid="4" label="np" min_ids="word_51..word_51" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_11" span="word_55" sentenceid="4" label="np" min_ids="word_55..word_55" type="chunk" lemmata="god" isprenominal="false" pos="nnp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_63" span="word_57..word_69" sentenceid="5" label="time" min_ids="word_57..word_59" type="enamex" lemmata="the next morning the roman official send some soldier to tell the jailer" isprenominal="false" pos="dt jj nn dt nnp nns vbd dt nns to vb dt nn" speaker="Acts" mmax_level="markable" />
+<markable id="markable_12" span="word_60..word_62" sentenceid="5" label="np" min_ids="word_60..word_62" type="chunk" lemmata="the roman official" isprenominal="false" pos="dt nnp nns" speaker="Acts" mmax_level="markable" />
+<markable id="markable_64" span="word_61" sentenceid="5" label="location" type="enamex" lemmata="roman" isprenominal="false" pos="nnp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_13" span="word_64..word_65" sentenceid="5" label="np" min_ids="word_64..word_65" type="chunk" lemmata="some soldier" isprenominal="false" pos="dt nns" speaker="Acts" mmax_level="markable" />
+<markable id="markable_14" span="word_68..word_69" sentenceid="5" label="np" min_ids="word_68..word_69" type="chunk" lemmata="the jailer" isprenominal="false" pos="dt nn" speaker="Acts" mmax_level="markable" />
+<markable id="markable_15" span="word_73..word_74" sentenceid="5" label="np" min_ids="word_73..word_74" type="chunk" lemmata="these man" isprenominal="false" pos="dt nns" speaker="Acts" mmax_level="markable" />
+<markable id="markable_16" span="word_79..word_80" sentenceid="6" label="np" min_ids="word_79..word_80" type="chunk" lemmata="the jailer" isprenominal="false" pos="dt nn" speaker="Acts" mmax_level="markable" />
+<markable id="markable_65" span="word_83" sentenceid="6" label="person" min_ids="word_83..word_83" type="enamex" lemmata="paul" isprenominal="false" pos="nnp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_17" span="word_86..word_87" sentenceid="6" label="np" min_ids="word_86..word_87" type="chunk" lemmata="the official" isprenominal="false" pos="dt nns" speaker="Acts" mmax_level="markable" />
+<markable id="markable_18" span="word_90..word_91" sentenceid="6" label="np" min_ids="word_90..word_91" type="chunk" lemmata="these soldier" isprenominal="false" pos="dt nns" speaker="Acts" mmax_level="markable" />
+<markable id="markable_19" span="word_94" sentenceid="6" label="np" min_ids="word_94..word_94" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_20" span="word_98" sentenceid="7" label="np" min_ids="word_98..word_98" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_21" span="word_105" sentenceid="8" label="np" min_ids="word_105..word_105" type="chunk" lemmata="peace" isprenominal="false" pos="nn" speaker="Acts" mmax_level="markable" />
+<markable id="markable_66" span="word_109" sentenceid="9" label="person" min_ids="word_109..word_109" type="enamex" lemmata="paul" isprenominal="false" pos="nnp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_22" span="word_112..word_113" sentenceid="9" label="np" min_ids="word_112..word_113" type="chunk" lemmata="the soldier" isprenominal="false" pos="dt nns" speaker="Acts" mmax_level="markable" />
+<markable id="markable_23" span="word_116..word_117" sentenceid="9" label="np" min_ids="word_116..word_117" type="chunk" lemmata="those official" isprenominal="false" pos="dt nns" speaker="Acts" mmax_level="markable" />
+<markable id="markable_24" span="word_122" sentenceid="9" label="np" min_ids="word_122..word_122" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_25" span="word_128" sentenceid="9" label="np" min_ids="word_128..word_128" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_26" span="word_130" sentenceid="9" label="np" min_ids="word_130..word_130" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_27" span="word_132" sentenceid="9" label="np" min_ids="word_132..word_132" type="chunk" lemmata="public" isprenominal="false" pos="nn" speaker="Acts" mmax_level="markable" />
+<markable id="markable_28" span="word_135" sentenceid="9" label="np" min_ids="word_135..word_135" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_29" span="word_137" sentenceid="9" label="np" min_ids="word_137..word_137" type="chunk" lemmata="jail" isprenominal="false" pos="nn" speaker="Acts" mmax_level="markable" />
+<markable id="markable_30" span="word_140" sentenceid="10" label="np" min_ids="word_140..word_140" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_67" span="word_142" sentenceid="10" label="location" type="enamex" lemmata="roman" isprenominal="false" pos="nnp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_31" span="word_142..word_143" sentenceid="10" label="np" min_ids="word_142..word_143" type="chunk" lemmata="roman citizen" isprenominal="false" pos="nnp nns" speaker="Acts" mmax_level="markable" />
+<markable id="markable_32" span="word_146" sentenceid="11" label="np" min_ids="word_146..word_146" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_33" span="word_148" sentenceid="11" label="np" min_ids="word_148..word_148" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_34" span="word_156" sentenceid="12" label="np" min_ids="word_156..word_156" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_35" span="word_160" sentenceid="12" label="np" min_ids="word_160..word_160" type="chunk" lemmata="themselves" isprenominal="false" pos="prp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_36" span="word_163" sentenceid="12" label="np" min_ids="word_163..word_163" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_37" span="word_167..word_168" sentenceid="13" label="np" min_ids="word_167..word_168" type="chunk" lemmata="the soldier" isprenominal="false" pos="dt nns" speaker="Acts" mmax_level="markable" />
+<markable id="markable_38" span="word_170..word_171" sentenceid="13" label="np" min_ids="word_170..word_171" type="chunk" lemmata="the official" isprenominal="false" pos="dt nns" speaker="Acts" mmax_level="markable" />
+<markable id="markable_68" span="word_173" sentenceid="13" label="person" min_ids="word_173..word_173" type="enamex" lemmata="paul" isprenominal="false" pos="nnp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_39" span="word_177" sentenceid="14" label="np" min_ids="word_177..word_177" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_69" span="word_180" sentenceid="14" label="person" type="enamex" lemmata="paul" isprenominal="false" pos="nnp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_70" span="word_180..word_182" sentenceid="14" label="person" min_ids="word_180..word_182" type="enamex" lemmata="paul and silas" isprenominal="false" pos="nnp cc nnp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_71" span="word_184" sentenceid="14" label="location" type="enamex" lemmata="roman" isprenominal="false" pos="nnp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_40" span="word_184..word_185" sentenceid="14" label="np" min_ids="word_184..word_185" type="chunk" lemmata="roman citizen" isprenominal="false" pos="nnp nns" speaker="Acts" mmax_level="markable" />
+<markable id="markable_41" span="word_187" sentenceid="14" label="np" min_ids="word_187..word_187" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_42" span="word_192" sentenceid="15" label="np" min_ids="word_192..word_192" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_43" span="word_196" sentenceid="15" label="np" min_ids="word_196..word_196" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_44" span="word_197" sentenceid="15" label="np" min_ids="word_197..word_197" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_45" span="word_201" sentenceid="16" label="np" min_ids="word_201..word_201" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_46" span="word_203" sentenceid="16" label="np" min_ids="word_203..word_203" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_47" span="word_206..word_207" sentenceid="16" label="np" min_ids="word_206..word_207" type="chunk" lemmata="the jail" isprenominal="false" pos="dt nn" speaker="Acts" mmax_level="markable" />
+<markable id="markable_48" span="word_210" sentenceid="16" label="np" min_ids="word_210..word_210" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_49" span="word_213..word_214" sentenceid="16" label="np" min_ids="word_213..word_214" type="chunk" lemmata="the city" isprenominal="false" pos="dt nn" speaker="Acts" mmax_level="markable" />
+<markable id="markable_72" span="word_218" sentenceid="17" label="person" type="enamex" lemmata="paul" isprenominal="false" pos="nnp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_73" span="word_218..word_220" sentenceid="17" label="person" min_ids="word_218..word_220" type="enamex" lemmata="paul and silas" isprenominal="false" pos="nnp cc nnp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_50" span="word_224..word_225" sentenceid="17" label="np" min_ids="word_224..word_225" type="chunk" lemmata="the jail" isprenominal="false" pos="dt nn" speaker="Acts" mmax_level="markable" />
+<markable id="markable_51" span="word_227" sentenceid="17" label="np" min_ids="word_227..word_227" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_74" span="word_230..word_231" sentenceid="17" label="person" min_ids="word_230..word_230" type="enamex" lemmata="lydia 's" isprenominal="false" pos="nnp pos" speaker="Acts" mmax_level="markable" />
+<markable id="markable_52" span="word_230..word_232" sentenceid="17" label="np" min_ids="word_230..word_232" type="chunk" lemmata="lydia 's house" isprenominal="false" pos="nnp pos nn" speaker="Acts" mmax_level="markable" />
+<markable id="markable_53" span="word_234" sentenceid="18" label="np" min_ids="word_234..word_234" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_54" span="word_236..word_239" sentenceid="18" label="np" min_ids="word_236..word_236" type="chunk" lemmata="some of the believer" isprenominal="false" pos="dt in dt nn" speaker="Acts" mmax_level="markable" />
+<markable id="markable_55" span="word_238..word_239" sentenceid="18" label="np" min_ids="word_238..word_239" type="chunk" lemmata="the believer" isprenominal="false" pos="dt nn" speaker="Acts" mmax_level="markable" />
+<markable id="markable_56" span="word_243" sentenceid="18" label="np" min_ids="word_243..word_243" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="Acts" mmax_level="markable" />
+<markable id="markable_57" span="word_246" sentenceid="19" label="np" min_ids="word_246..word_246" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="Acts" mmax_level="markable" />
+</markables>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_4" span="word_1..word_2" sentenceid="1" label="location" min_ids="word_1..word_1" type="enamex" lemmata="japan 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_1..word_4" sentenceid="1" label="np" min_ids="word_1..word_4" type="chunk" lemmata="japan 's wholesale price" isprenominal="false" pos="nnp pos jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_6..word_11" sentenceid="1" label="date" min_ids="word_7..word_11" type="enamex" lemmata="the first 10 day of october" isprenominal="false" pos="dt jj cd nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_11" sentenceid="1" label="np" min_ids="word_11..word_11" type="chunk" lemmata="october" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_13..word_14" sentenceid="1" label="percent" min_ids="word_13..word_14" type="enamex" lemmata="0.3 %" isprenominal="false" pos="cd nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_22..word_23" sentenceid="1" label="percent" min_ids="word_22..word_23" type="enamex" lemmata="3.3 %" isprenominal="false" pos="cd nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_25..word_27" sentenceid="1" label="date" type="enamex" lemmata="a year ago" isprenominal="false" pos="dt nn rb" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_29..word_32" sentenceid="1" label="organization" min_ids="word_30..word_32" type="enamex" lemmata="the bank of japan" isprenominal="false" pos="dt nnp in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_35..word_38" sentenceid="2" label="np" min_ids="word_35..word_38" type="chunk" lemmata="the wholesale price index" isprenominal="false" pos="dt jj nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_41" sentenceid="2" label="money" min_ids="word_41..word_41" type="enamex" lemmata="89.6" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_43" sentenceid="2" label="date" min_ids="word_43..word_43" type="enamex" lemmata="1985" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_45" sentenceid="2" label="np" min_ids="word_45..word_45" type="chunk" lemmata="100" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+</markables>

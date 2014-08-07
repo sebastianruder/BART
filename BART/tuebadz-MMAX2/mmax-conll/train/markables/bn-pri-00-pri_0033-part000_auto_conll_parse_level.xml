@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_16" tag="(S1 (S (NP (DT The) (NNP Navy)) (VP (VBZ has) (VP (VBN changed) (NP (NP (PRP$ its) (NN account)) (PP (IN of) (NP (NP (DT the) (NN attack)) (PP (IN on) (NP (DT the) (NNP USS) (NNP Cole))) (PP (IN in) (NP (NNP Yemen)))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_17..word_31" tag="(S1 (S (NP (NNS Officials)) (ADVP (RB now)) (VP (VBP say) (SBAR (S (NP (DT the) (NN ship)) (VP (VBD was) (VP (VBN hit) (SBAR (NP (QP (RB nearly) (CD two)) (NNS hours)) (IN after) (S (NP (PRP it)) (VP (VBD had) (VP (VBN docked)))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_32..word_49" tag="(S1 (S (ADVP (RB Initially)) (NP (DT the) (NNP Navy)) (VP (VBD said) (SBAR (S (NP (DT the) (NN explosion)) (VP (VBD occurred) (SBAR (IN while) (S (NP (JJ several) (NNS boats)) (VP (VBD were) (VP (VBG helping) (S (NP (DT the) (NN ship)) (VP (TO to) (VP (VB tie) (PRT (RP up))))))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_50..word_67" tag="(S1 (S (NP (DT The) (NN change)) (VP (VBZ raises) (NP (NP (JJ new) (NNS questions)) (PP (IN about) (SBAR (WHADVP (WRB how)) (S (NP (DT the) (NNS attackers)) (VP (VBD were) (ADJP (JJ able) (S (VP (TO to) (VP (VB get) (PP (IN past) (NP (DT the) (NNP Navy) (NN security))))))))))))) (. .)))" mmax_level="parse" />
+</markables>

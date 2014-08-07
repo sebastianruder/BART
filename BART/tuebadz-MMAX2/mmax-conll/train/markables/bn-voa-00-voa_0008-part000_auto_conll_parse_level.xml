@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_27" tag="(S1 (S (NP (NP (NNS Judges)) (PP (IN at) (NP (DT the) (NML (NNP Flight) (CD 103)) (NNP Lockerbie) (NN trial)))) (VP (VBP are) (VP (VBN expected) (S (VP (TO to) (VP (VB rule) (NP (NNP Thursday)) (SBAR (IN if) (S (NP (NP (DT a) (NN diary)) (VP (VBG belonging) (PP (IN to) (NP (NP (CD one)) (PP (IN of) (NP (DT the) (VBN accused))))))) (VP (MD can) (VP (VB be) (VP (VBN used) (PP (IN as) (NP (NN evidence))))))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_28..word_45" tag="(S1 (S (NP (NP (DT The) (NN defendant) (POS 's)) (NN diary)) (VP (VBD was) (VP (VBN discovered) (PP (IN by) (NP (NNP Scottish) (NNS police))) (PP (IN during) (NP (NP (DT an) (NN investigation)) (PP (IN in) (NP (NNP Malta))))) (PP (IN in) (NP (NNP April) (CD 1991))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_46..word_64" tag="(S1 (S (S (NP (DT The) (NN defense)) (VP (VBZ claims) (SBAR (IN that) (S (NP (NN police) (NN search)) (VP (VBD was) (ADJP (JJ illegal))))))) (CC and) (S (ADVP (RB therefore)) (NP (DT the) (NN diary)) (VP (MD can) (RB not) (VP (VB be) (VP (VBN admitted) (PP (IN as) (NP (NN evidence))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_65..word_70" tag="(S1 (FRAG (NP (NNP David) (NNP Coller)) (, ,) (NP (NNP VOA) (NNP News)) (. .)))" mmax_level="parse" />
+</markables>

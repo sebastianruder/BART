@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_7" tag="(S1 (S (NP (NNP President) (NNP Clinton)) (VP (VBZ is) (PP (IN off) (PP (IN to) (NP (NNP Asia))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_8..word_27" tag="(S1 (S (NP (PRP He)) (VP (MD 'll) (VP (VB go) (ADVP (RB first)) (PP (IN to) (NP (NNP Brunei))) (PP (IN for) (NP (NP (DT a) (NN meeting)) (PP (IN of) (NP (NML (NNP Asia) (HYPH -) (NNP Pacific)) (NNS nations))))) (, ,) (PP (RB then) (PP (IN to) (NP (NNP Vietnam) (NNP Thursday)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_28..word_47" tag="(S1 (S (NP (NNP Mr.) (NNP Clinton)) (VP (MD will) (VP (VB be) (NP (DT the) (JJ first) (NNP U.S.) (NNP President)) (S (VP (TO to) (VP (VB visit) (NP (DT the) (NN country))))) (SBAR (IN since) (S (NP (DT the) (NNP Vietnam) (NNP War)) (VP (VBD ended) (PP (IN in) (NP (CD 1975)))))))) (. .)))" mmax_level="parse" />
+</markables>

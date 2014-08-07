@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_7" span="word_1..word_3" sentenceid="1" label="person" min_ids="word_1..word_3" type="enamex" lemmata="jeffrey e. levin" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_6..word_17" sentenceid="1" label="np" min_ids="word_6..word_7" type="chunk" lemmata="vice president and chief economist of this commodity future and option exchange" isprenominal="false" pos="nn nn cc jj nn in dt nn nns cc nns nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_9..word_10" sentenceid="1" label="np" min_ids="word_9..word_10" type="chunk" lemmata="chief economist" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_12..word_17" sentenceid="1" label="np" min_ids="word_12..word_17" type="chunk" lemmata="this commodity future and option exchange" isprenominal="false" pos="dt nn nns cc nns nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_19" sentenceid="2" label="np" min_ids="word_19..word_19" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_22..word_32" sentenceid="2" label="np" min_ids="word_22..word_23" type="chunk" lemmata="associate professor in the department of finance at seton hall university" isprenominal="false" pos="nn nn in dt nn in nn in nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_25..word_28" sentenceid="2" label="np" min_ids="word_25..word_26" type="chunk" lemmata="the department of finance" isprenominal="false" pos="dt nn in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_28" sentenceid="2" label="np" min_ids="word_28..word_28" type="chunk" lemmata="finance" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_30..word_32" sentenceid="2" label="organization" min_ids="word_30..word_32" type="enamex" lemmata="seton hall university" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+</markables>

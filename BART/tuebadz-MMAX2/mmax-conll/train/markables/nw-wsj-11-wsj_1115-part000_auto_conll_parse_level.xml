@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_22" tag="(S1 (S (NP (NNP USX) (NNP Corp.)) (VP (VBD said) (SBAR (S (NP (PRP it)) (VP (VBN delayed) (NP (NP (DT the) (VBN proposed) (JJ initial) (JJ public) (NN offering)) (PP (IN of) (NP (JJ common) (NN stock))) (PP (IN of) (NP (NNP RMI) (NNP Titanium) (NNP Co.)))) (PP (IN because) (IN of) (NP (NN market) (NNS conditions))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_23..word_34" tag="(S1 (S (NP (NNP RMI) (NNP Titanium)) (VP (VBZ is) (VP (VBN owned) (ADVP (RB jointly)) (PP (IN by) (NP (NP (NNP USX)) (CC and) (NP (NNP Quantum) (NNP Chemical) (NNP Corp)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_35..word_55" tag="(S1 (S (NP (NP (NNP USX)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBD had) (RB n't) (VP (VB set) (NP (NP (DT a) (NN date)) (PP (IN for) (NP (DT the) (NN offering)))))))) (, ,)) (VP (VBD did) (RB n't) (VP (VB disclose) (NP (NP (DT any) (NN timetable)) (PP (IN for) (NP (DT the) (NN offering)))))) (. .)))" mmax_level="parse" />
+</markables>

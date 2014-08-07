@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_14" tag="(S1 (S (NP (NP (DT The) (NNP U.S.) (NN Ambassador)) (PP (IN to) (NP (NNP Yemen)))) (VP (VBZ is) (ADJP (JJ safe)) (PP (IN after) (NP (NP (DT a) (NN plane) (NN hijacking)) (PP (IN in) (NP (NNP Yemen)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_15..word_42" tag="(S1 (S (NP (NP (DT A) (NN man)) (VP (VBG claiming) (S (VP (TO to) (VP (VB be) (NP (NP (DT an) (JJ Iraqi) (NN supporter)) (PP (IN of) (NP (NNP President) (NNP Saddam) (NNP Hussein))))))))) (VP (VBD hijacked) (NP (NP (DT the) (NN flight)) (PP (IN with) (NP (NP (CD 91) (NNS passengers)) (PP (IN on) (NP (NN board)))))) (, ,) (S (VP (VBG demanding) (S (VP (TO to) (VP (VB be) (VP (VBN flown) (PP (IN to) (NP (NNP Baghdad)))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_43..word_64" tag="(S1 (S (NP (DT The) (NN pilot)) (VP (VBD managed) (S (VP (TO to) (VP (VB land) (NP (DT the) (NN plane)) (PP (IN in) (NP (NP (NNP Djibouti)) (, ,) (SBAR (WHADVP (WRB where)) (S (NP (NP (JJS most)) (PP (IN of) (NP (DT the) (NNS passengers)))) (VP (VBD got) (PRT (RP off)))))))))) (, ,) (PP (VBG including) (NP (DT the) (NN ambassador)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_65..word_79" tag="(S1 (S (NP (NNS Witnesses)) (VP (VBP say) (SBAR (S (NP (DT the) (NN hijacker)) (VP (VBD was) (ADVP (RB then)) (VP (VP (VBN overpowered) (PP (IN by) (NP (DT the) (NN crew)))) (CC and) (VP (VBN taken) (PP (IN into) (NP (NN custody))))))))) (. .)))" mmax_level="parse" />
+</markables>

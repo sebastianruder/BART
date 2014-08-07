@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_11" tag="(S1 (S (NP (NML (NP (NNP Israel) (POS 's)) (NNP Prime) (NNP Minister)) (NNP Ehud) (NNP Barak)) (VP (MD will) (VP (VB call) (NP (JJ early) (NNS elections)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_12..word_33" tag="(S1 (S (PP (IN In) (NP (NP (DT a) (NN speech)) (PP (IN before) (NP (NNP Parliament))))) (, ,) (NP (NNP Barak)) (VP (VBD said) (SBAR (S (NP (NP (DT the) (NN date)) (PP (IN of) (NP (DT the) (NN ballot)))) (VP (MD will) (VP (VB be) (VP (VBN announced) (PP (IN within) (NP (DT the) (JJ next) (JJ few) (NNS days))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_34..word_46" tag="(S1 (S (NP (NN Parliament)) (VP (VBD had) (VP (VBN been) (VP (VBG debating) (NP (DT an) (NN opposition) (NN motion)) (S (VP (TO to) (VP (VB hold) (NP (DT an) (JJ early) (NN vote)))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_47..word_68" tag="(S1 (S (NP (NP (NNP Barak) (POS 's)) (NN statement)) (VP (VBZ is) (VP (VBN seen) (PP (IN as) (NP (DT an) (NN attempt) (S (VP (TO to) (VP (VB seize) (NP (DT the) (NN initiative)) (SBAR (IN after) (S (NP (PRP it)) (VP (VBD appeared) (S (ADJP (JJ likely) (SBAR (S (NP (PRP he)) (VP (MD would) (VP (VB lose) (NP (DT the) (NN debate)))))))))))))))))) (. .)))" mmax_level="parse" />
+</markables>

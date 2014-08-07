@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_20" tag="(S1 (S (NP (NNP Harsco) (NNP Corp.)) (VP (VBD said) (SBAR (S (NP (PRP it)) (VP (VBD obtained) (NP (NP (DT a) (NML (QP ($ $) (CD 33.1) (CD million))) (NN export) (NN order)) (PP (IN for) (NP (NP (JJ armored) (NN recovery) (NNS vehicles)) (CC and) (NP (JJ related) (NN support) (NN equipment))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_21..word_30" tag="(S1 (S (NP (NNP Harsco)) (VP (VBD declined) (S (VP (TO to) (VP (VB say) (SBAR (WHNP (WP what) (NN country)) (S (VP (VBD placed) (NP (DT the) (NN order))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_31..word_67" tag="(S1 (S (NP (DT The) (NN company)) (VP (VBD said) (SBAR (S (NP (PRP it)) (VP (VBD received) (NP (NP (DT an) (NN order)) (PP (IN for) (NP (NP (NP (CD 23)) (PP (IN of) (NP (NP (DT the) (NNS vehicles)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VB retrieve) (NP (NP (NNS tanks)) (CC and) (NP (JJ other) (ADJP (JJ heavy) (HYPH -) (VBN tracked)) (NNS vehicles))) (SBAR (WHADVP (WRB when)) (S (NP (PRP they)) (VP (VP (VBP break) (PRT (RP down))) (CC or) (VP (VBP are) (VP (VBN damaged)))))))))))) (, ,) (CC and) (NP (NP (DT an) (NN option)) (PP (IN for) (NP (QP (CD 16) (JJR more)))))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_68..word_75" tag="(S1 (S (NP (NN Delivery)) (VP (VBZ is) (S (VP (TO to) (VP (VB begin) (PP (IN in) (NP (JJ early) (CD 1991))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_76..word_88" tag="(S1 (S (NP (NNP Harsco)) (VP (VBZ produces) (NP (NP (NNS products)) (PP (IN for) (NP (UCP (NN defense) (, ,) (JJ industrial) (, ,) (JJ commercial) (CC and) (NN construction)) (NNS markets))))) (. .)))" mmax_level="parse" />
+</markables>

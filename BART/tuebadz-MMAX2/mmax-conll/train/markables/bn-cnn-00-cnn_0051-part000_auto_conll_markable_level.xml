@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_5" sentenceid="1" label="np" min_ids="word_1..word_5" type="chunk" lemmata="the weekly republican radio address" isprenominal="false" pos="dt jj nnp nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_2" sentenceid="1" label="date" type="enamex" lemmata="weekly" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_3" sentenceid="1" label="location" type="enamex" lemmata="republican" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_8" sentenceid="1" label="np" min_ids="word_8..word_8" type="chunk" lemmata="energy" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_8..word_11" sentenceid="1" label="np" min_ids="word_8..word_11" type="chunk" lemmata="energy and the economy" isprenominal="false" pos="nn cc dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_10..word_11" sentenceid="1" label="np" min_ids="word_10..word_11" type="chunk" lemmata="the economy" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_13" sentenceid="2" label="location" type="enamex" lemmata="michigan" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_13..word_16" sentenceid="2" label="person" min_ids="word_13..word_16" type="enamex" lemmata="michigan governor john engler" isprenominal="false" pos="nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_18..word_21" sentenceid="2" label="np" min_ids="word_18..word_18" type="chunk" lemmata="disruption in energy supplies" isprenominal="false" pos="nns in nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_20..word_21" sentenceid="2" label="np" min_ids="word_20..word_21" type="chunk" lemmata="energy supplies" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_24..word_27" sentenceid="2" label="np" min_ids="word_24..word_27" type="chunk" lemmata="the economy three time" isprenominal="false" pos="dt nn cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_26" sentenceid="2" label="percent" type="enamex" lemmata="three" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_29..word_31" sentenceid="2" label="np" min_ids="word_29..word_31" type="chunk" lemmata="the last generation" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_33" sentenceid="3" label="np" min_ids="word_33..word_33" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_35..word_48" sentenceid="3" label="np" min_ids="word_35..word_36" type="chunk" lemmata="the decision to tap into the national strategic petroleum reserve to meet anticipate shortage" isprenominal="false" pos="dt nn to vb in dt jj jj nn nn to vb vbn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_40..word_44" sentenceid="3" label="np" min_ids="word_40..word_44" type="chunk" lemmata="the national strategic petroleum reserve" isprenominal="false" pos="dt jj jj nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_47..word_48" sentenceid="3" label="np" min_ids="word_47..word_48" type="chunk" lemmata="anticipate shortage" isprenominal="false" pos="vbn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_50..word_51" sentenceid="3" label="np" min_ids="word_50..word_51" type="chunk" lemmata="a mistake" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_53..word_55" sentenceid="4" label="np" min_ids="word_53..word_55" type="chunk" lemmata="the petroleum reserve" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_58..word_60" sentenceid="4" label="np" min_ids="word_58..word_60" type="chunk" lemmata="a political reserve" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_62..word_63" sentenceid="5" label="np" min_ids="word_62..word_63" type="chunk" lemmata="a aradiant" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_67..word_68" sentenceid="5" label="np" min_ids="word_67..word_68" type="chunk" lemmata="fuel price" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_70..word_72" sentenceid="5" label="np" min_ids="word_70..word_72" type="chunk" lemmata="the long run" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_75" sentenceid="5" label="np" min_ids="word_75..word_75" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_78" sentenceid="5" label="np" type="chunk" lemmata="our" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_78..word_79" sentenceid="5" label="np" min_ids="word_78..word_79" type="chunk" lemmata="our nation" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_83..word_84" sentenceid="5" label="np" min_ids="word_83..word_84" type="chunk" lemmata="foreign producer" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_86" sentenceid="6" label="person" min_ids="word_86..word_86" type="enamex" lemmata="engler" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_88..word_90" sentenceid="6" label="np" min_ids="word_88..word_90" type="chunk" lemmata="the clinton administration" isprenominal="false" pos="dt nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_89" sentenceid="6" label="person" type="enamex" lemmata="clinton" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_95..word_98" sentenceid="6" label="np" min_ids="word_95..word_98" type="chunk" lemmata="a coherent energy policy" isprenominal="false" pos="dt jj nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_102..word_106" sentenceid="6" label="np" min_ids="word_102..word_103" type="chunk" lemmata="increase dependence on import oil" isprenominal="false" pos="vbn nn in vbn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_105..word_106" sentenceid="6" label="np" min_ids="word_105..word_106" type="chunk" lemmata="import oil" isprenominal="false" pos="vbn nn" speaker="-" mmax_level="markable" />
+</markables>

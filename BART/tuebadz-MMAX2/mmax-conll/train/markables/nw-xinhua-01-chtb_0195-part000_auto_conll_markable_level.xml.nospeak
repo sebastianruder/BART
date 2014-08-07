@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_3..word_8" sentenceid="1" label="np" min_ids="word_3..word_4" type="chunk" lemmata="the guideline of self - dependence" isprenominal="false" pos="dt nns in nn hyph nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_6..word_8" sentenceid="1" label="np" min_ids="word_6..word_8" type="chunk" lemmata="self - dependence" isprenominal="false" pos="nn hyph nn" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_11" sentenceid="1" label="np" type="chunk" lemmata="our" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_11..word_12" sentenceid="1" label="np" min_ids="word_11..word_12" type="chunk" lemmata="our way" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_16" sentenceid="1" label="np" min_ids="word_16..word_16" type="chunk" lemmata="country" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_19" sentenceid="2" label="np" type="chunk" lemmata="our" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_19..word_20" sentenceid="2" label="np" min_ids="word_19..word_20" type="chunk" lemmata="our country" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_22..word_26" sentenceid="2" label="np" min_ids="word_22..word_26" type="chunk" lemmata="a large develop socialist country" isprenominal="false" pos="dt jj vbg jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_28..word_33" sentenceid="2" label="np" min_ids="word_28..word_30" type="chunk" lemmata="the stand point of economic construction" isprenominal="false" pos="dt vbg nn in jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_32..word_33" sentenceid="2" label="np" min_ids="word_32..word_33" type="chunk" lemmata="economic construction" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_38..word_43" sentenceid="2" label="np" min_ids="word_38..word_39" type="chunk" lemmata="the foundation of our own strength" isprenominal="false" pos="dt nn in prp$ jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_41" sentenceid="2" label="np" type="chunk" lemmata="our" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_41..word_43" sentenceid="2" label="np" min_ids="word_41..word_43" type="chunk" lemmata="our own strength" isprenominal="false" pos="prp$ jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_48..word_63" sentenceid="3" label="np" min_ids="word_48..word_49" type="chunk" lemmata="the gazette of the 13th plenary session of the 7th committee of the chinese communist party" isprenominal="false" pos="dt nn in dt jj nnp nnp in dt jj nnp in dt nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_51..word_63" sentenceid="3" label="object" min_ids="word_52..word_54" type="enamex" lemmata="the 13th plenary session of the 7th committee of the chinese communist party" isprenominal="false" pos="dt jj nnp nnp in dt jj nnp in dt nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_52" sentenceid="3" label="percent" type="enamex" lemmata="13th" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_56..word_63" sentenceid="3" label="organization" min_ids="word_57..word_63" type="enamex" lemmata="the 7th committee of the chinese communist party" isprenominal="false" pos="dt jj nnp in dt nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_57" sentenceid="3" label="percent" type="enamex" lemmata="7th" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+</markables>

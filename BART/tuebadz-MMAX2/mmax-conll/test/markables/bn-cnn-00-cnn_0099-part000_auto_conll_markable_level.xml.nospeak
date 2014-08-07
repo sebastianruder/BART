@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_8" sentenceid="1" label="np" min_ids="word_1..word_3" type="chunk" lemmata="an unexpected surge in the unemployment line ." isprenominal="false" pos="dt jj nn in dt nn nns ." speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_5..word_7" sentenceid="1" label="np" min_ids="word_5..word_7" type="chunk" lemmata="the unemployment line" isprenominal="false" pos="dt nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_9" sentenceid="2" label="np" min_ids="word_9..word_9" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_11..word_19" sentenceid="2" label="person" min_ids="word_11..word_12" type="enamex" lemmata="myron kandel at the cnnfn newsdesk in new york" isprenominal="false" pos="nnp nnp in dt nnp nn in nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_14..word_19" sentenceid="2" label="np" min_ids="word_14..word_16" type="chunk" lemmata="the cnnfn newsdesk in new york" isprenominal="false" pos="dt nnp nn in nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_15" sentenceid="2" label="organization" type="enamex" lemmata="cnnfn" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_18..word_19" sentenceid="2" label="location" min_ids="word_18..word_19" type="enamex" lemmata="new york" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_21..word_25" sentenceid="3" label="np" min_ids="word_21..word_22" type="chunk" lemmata="new claim for jobless benefit" isprenominal="false" pos="jj nns in jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_24..word_25" sentenceid="3" label="np" min_ids="word_24..word_25" type="chunk" lemmata="jobless benefit" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_30" sentenceid="4" label="percent" type="enamex" lemmata="first" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_30..word_32" sentenceid="4" label="np" min_ids="word_30..word_32" type="chunk" lemmata="first time claim" isprenominal="false" pos="jj nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_35" sentenceid="4" label="percent" min_ids="word_35..word_35" type="enamex" lemmata="7,000" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_36..word_37" sentenceid="4" label="date" min_ids="word_36..word_37" type="enamex" lemmata="last week" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_39..word_40" sentenceid="4" label="np" min_ids="word_39..word_40" type="chunk" lemmata="surprising analyst" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_39..word_47" sentenceid="4" label="np" min_ids="word_39..word_47" type="chunk" lemmata="surprising analyst , and the four - week average" isprenominal="false" pos="jj nns , cc dt cd hyph nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_43..word_47" sentenceid="4" label="np" min_ids="word_43..word_47" type="chunk" lemmata="the four - week average" isprenominal="false" pos="dt cd hyph nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_44..word_46" sentenceid="4" label="date" type="enamex" lemmata="four - week" isprenominal="false" pos="cd hyph nn" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_49" sentenceid="4" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_49..word_56" sentenceid="4" label="np" min_ids="word_49..word_51" type="chunk" lemmata="its highest level since january of last year" isprenominal="false" pos="prp$ jjs nn in nnp in jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_53" sentenceid="4" label="np" min_ids="word_53..word_53" type="chunk" lemmata="january" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_53..word_56" sentenceid="4" label="date" type="enamex" lemmata="january of last year" isprenominal="false" pos="nnp in jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_55..word_56" sentenceid="4" label="np" min_ids="word_55..word_56" type="chunk" lemmata="last year" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_58..word_59" sentenceid="5" label="np" min_ids="word_58..word_59" type="chunk" lemmata="the report" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_61..word_63" sentenceid="5" label="np" min_ids="word_61..word_62" type="chunk" lemmata="the nation 's" isprenominal="false" pos="dt nn pos" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_61..word_66" sentenceid="5" label="np" min_ids="word_61..word_66" type="chunk" lemmata="the nation 's tight job market" isprenominal="false" pos="dt nn pos jj nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_70..word_71" sentenceid="5" label="np" min_ids="word_70..word_71" type="chunk" lemmata="a bit" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_75" sentenceid="5" label="np" min_ids="word_75..word_75" type="chunk" lemmata="unemployment" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_78..word_82" sentenceid="5" label="np" min_ids="word_78..word_82" type="chunk" lemmata="a 30 - year low" isprenominal="false" pos="dt cd hyph nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_79..word_81" sentenceid="5" label="date" type="enamex" lemmata="30 - year" isprenominal="false" pos="cd hyph nn" speaker="-" mmax_level="markable" />
+</markables>

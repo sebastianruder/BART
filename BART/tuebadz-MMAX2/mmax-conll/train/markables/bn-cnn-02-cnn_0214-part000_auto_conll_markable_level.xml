@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_2" sentenceid="1" label="np" min_ids="word_2..word_2" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_3..word_8" sentenceid="1" label="person" min_ids="word_4..word_8" type="enamex" lemmata="the man with the golden guns" isprenominal="false" pos="dt nn in dt jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_6..word_8" sentenceid="1" label="np" min_ids="word_6..word_8" type="chunk" lemmata="the golden guns" isprenominal="false" pos="dt jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_10..word_12" sentenceid="2" label="person" min_ids="word_10..word_11" type="enamex" lemmata="saddam hussein 's" isprenominal="false" pos="nnp nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_10..word_14" sentenceid="2" label="np" min_ids="word_10..word_13" type="chunk" lemmata="saddam hussein 's son uday" isprenominal="false" pos="nnp nnp pos nn nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_14" sentenceid="2" label="person" min_ids="word_14..word_14" type="enamex" lemmata="uday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_17..word_22" sentenceid="2" label="np" min_ids="word_17..word_18" type="chunk" lemmata="the owner of 74 golden gun" isprenominal="false" pos="dt nn in cd jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_20" sentenceid="2" label="percent" type="enamex" lemmata="74" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_20..word_22" sentenceid="2" label="np" min_ids="word_20..word_22" type="chunk" lemmata="74 golden gun" isprenominal="false" pos="cd jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_24..word_28" sentenceid="3" label="object" min_ids="word_25..word_25" type="enamex" lemmata="the aks in the stash" isprenominal="false" pos="dt nns in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_27..word_28" sentenceid="3" label="np" min_ids="word_27..word_28" type="chunk" lemmata="the stash" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_42" sentenceid="4" label="np" min_ids="word_42..word_42" type="chunk" lemmata="weapon" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_47..word_50" sentenceid="5" label="np" min_ids="word_47..word_48" type="chunk" lemmata="a gift from saddam" isprenominal="false" pos="dt nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_50" sentenceid="5" label="person" min_ids="word_50..word_50" type="enamex" lemmata="saddam" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_52..word_58" sentenceid="5" label="np" min_ids="word_52..word_53" type="chunk" lemmata="an engraving from the former iraqi leader" isprenominal="false" pos="dt nn in dt jj jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_55..word_58" sentenceid="5" label="np" min_ids="word_55..word_58" type="chunk" lemmata="the former iraqi leader" isprenominal="false" pos="dt jj jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_57" sentenceid="5" label="location" type="enamex" lemmata="iraqi" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+</markables>

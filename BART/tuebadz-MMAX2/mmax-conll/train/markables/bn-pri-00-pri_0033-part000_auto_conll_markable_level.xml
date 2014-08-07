@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_12" span="word_1..word_2" sentenceid="1" label="organization" min_ids="word_2..word_2" type="enamex" lemmata="the navy" isprenominal="false" pos="dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_5" sentenceid="1" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_5..word_15" sentenceid="1" label="np" min_ids="word_5..word_6" type="chunk" lemmata="its account of the attack on the uss cole in yemen" isprenominal="false" pos="prp$ nn in dt nn in dt nnp nnp in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_8..word_15" sentenceid="1" label="np" min_ids="word_8..word_9" type="chunk" lemmata="the attack on the uss cole in yemen" isprenominal="false" pos="dt nn in dt nnp nnp in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_11..word_13" sentenceid="1" label="object" min_ids="word_11..word_13" type="enamex" lemmata="the uss cole" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_15" sentenceid="1" label="location" min_ids="word_15..word_15" type="enamex" lemmata="yemen" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_17" sentenceid="2" label="np" min_ids="word_17..word_17" type="chunk" lemmata="officials" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_20..word_21" sentenceid="2" label="np" min_ids="word_20..word_21" type="chunk" lemmata="the ship" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_24..word_26" sentenceid="2" label="time" min_ids="word_24..word_26" type="enamex" lemmata="nearly two hour" isprenominal="false" pos="rb cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_28" sentenceid="2" label="np" min_ids="word_28..word_28" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_33..word_34" sentenceid="3" label="organization" min_ids="word_34..word_34" type="enamex" lemmata="the navy" isprenominal="false" pos="dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_36..word_37" sentenceid="3" label="np" min_ids="word_36..word_37" type="chunk" lemmata="the explosion" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_40..word_41" sentenceid="3" label="np" min_ids="word_40..word_41" type="chunk" lemmata="several boat" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_44..word_45" sentenceid="3" label="np" min_ids="word_44..word_45" type="chunk" lemmata="the ship" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_50..word_51" sentenceid="4" label="np" min_ids="word_50..word_51" type="chunk" lemmata="the change" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_53..word_66" sentenceid="4" label="np" min_ids="word_53..word_54" type="chunk" lemmata="new question about how the attacker be able to get past the navy security" isprenominal="false" pos="jj nns in wrb dt nns vbd jj to vb in dt nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_57..word_58" sentenceid="4" label="np" min_ids="word_57..word_58" type="chunk" lemmata="the attacker" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_64..word_66" sentenceid="4" label="np" min_ids="word_64..word_66" type="chunk" lemmata="the navy security" isprenominal="false" pos="dt nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_65" sentenceid="4" label="organization" type="enamex" lemmata="navy" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+</markables>

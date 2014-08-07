@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_13" span="word_2..word_4" sentenceid="1" label="location" min_ids="word_2..word_4" type="enamex" lemmata="the barent sea" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_6" sentenceid="1" label="np" min_ids="word_6..word_6" type="chunk" lemmata="diver" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_8..word_11" sentenceid="1" label="np" min_ids="word_8..word_9" type="chunk" lemmata="more body , sunday" isprenominal="false" pos="jjr nns , nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_11" sentenceid="1" label="date" min_ids="word_11..word_11" type="enamex" lemmata="sunday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_13..word_20" sentenceid="1" label="np" min_ids="word_13..word_15" type="chunk" lemmata="the undersea wreckage of the russian submarine kursk" isprenominal="false" pos="dt jj nn in dt jj nn nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_17..word_20" sentenceid="1" label="np" min_ids="word_17..word_19" type="chunk" lemmata="the russian submarine kursk" isprenominal="false" pos="dt jj nn nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_18" sentenceid="1" label="location" type="enamex" lemmata="russian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_20" sentenceid="1" label="object" min_ids="word_20..word_20" type="enamex" lemmata="kursk" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_22..word_27" sentenceid="2" label="np" min_ids="word_22..word_24" type="chunk" lemmata="all 118 seaman on the sub" isprenominal="false" pos="dt cd nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_23" sentenceid="2" label="percent" type="enamex" lemmata="118" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_26..word_27" sentenceid="2" label="np" min_ids="word_26..word_27" type="chunk" lemmata="the sub" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_31" sentenceid="2" label="np" min_ids="word_31..word_31" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_35" sentenceid="2" label="percent" type="enamex" lemmata="two" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_35..word_36" sentenceid="2" label="np" min_ids="word_35..word_36" type="chunk" lemmata="two explosion" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_40..word_45" sentenceid="2" label="np" min_ids="word_40..word_42" type="chunk" lemmata="the sea floor , last august" isprenominal="false" pos="dt nn nn , jj nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_44..word_45" sentenceid="2" label="date" min_ids="word_44..word_45" type="enamex" lemmata="last august" isprenominal="false" pos="jj nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_48..word_50" sentenceid="3" label="np" min_ids="word_48..word_50" type="chunk" lemmata="the recovery work" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_53..word_59" sentenceid="3" label="np" min_ids="word_53..word_55" type="chunk" lemmata="a memorial ceremony for the kursk crew" isprenominal="false" pos="dt jj nn in dt nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_57..word_59" sentenceid="3" label="np" min_ids="word_57..word_59" type="chunk" lemmata="the kursk crew" isprenominal="false" pos="dt nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_58" sentenceid="3" label="object" type="enamex" lemmata="kursk" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_62" sentenceid="3" label="date" min_ids="word_62..word_62" type="enamex" lemmata="sunday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_64..word_67" sentenceid="3" label="np" min_ids="word_64..word_67" type="chunk" lemmata="a russian military seaport" isprenominal="false" pos="dt jj jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_65" sentenceid="3" label="location" type="enamex" lemmata="russian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+</markables>

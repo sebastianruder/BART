@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_20" span="word_1" sentenceid="1" label="np" type="chunk" lemmata="your" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_1..word_7" sentenceid="1" label="np" min_ids="word_1..word_4" type="chunk" lemmata="your oct. 2 article on daniel yankelovich" isprenominal="false" pos="prp$ nnp cd nn in nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_2..word_3" sentenceid="1" label="date" type="enamex" lemmata="oct. 2" isprenominal="false" pos="nnp cd" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_6..word_7" sentenceid="1" label="person" min_ids="word_6..word_7" type="enamex" lemmata="daniel yankelovich" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_9..word_10" sentenceid="1" label="np" min_ids="word_9..word_10" type="chunk" lemmata="the quote" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_12..word_14" sentenceid="1" label="np" min_ids="word_12..word_14" type="chunk" lemmata="a good name" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_18..word_19" sentenceid="1" label="np" min_ids="word_18..word_19" type="chunk" lemmata="great riches" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_24..word_28" sentenceid="1" label="person" min_ids="word_24..word_24" type="enamex" lemmata="cervantes ' `` don quixote" isprenominal="false" pos="nnp pos `` nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_27..word_28" sentenceid="1" label="object" type="enamex" lemmata="don quixote" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_33" sentenceid="2" label="person" min_ids="word_33..word_33" type="enamex" lemmata="cervantes" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_35..word_36" sentenceid="2" label="np" min_ids="word_35..word_36" type="chunk" lemmata="that quote" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_38..word_43" sentenceid="2" label="np" min_ids="word_38..word_39" type="chunk" lemmata="a writer of some 25 century" isprenominal="false" pos="dt nn in dt cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_41..word_43" sentenceid="2" label="np" min_ids="word_41..word_43" type="chunk" lemmata="some 25 century" isprenominal="false" pos="dt cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_41..word_44" sentenceid="2" label="date" type="enamex" lemmata="some 25 century earlier" isprenominal="false" pos="dt cd nns rbr" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_46..word_47" sentenceid="2" label="location" min_ids="word_46..word_46" type="enamex" lemmata="israel 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_46..word_49" sentenceid="2" label="person" min_ids="word_46..word_49" type="enamex" lemmata="israel 's king solomon" isprenominal="false" pos="nnp pos nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_51..word_52" sentenceid="2" label="np" min_ids="word_51..word_52" type="chunk" lemmata="those word" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_54..word_60" sentenceid="2" label="object" min_ids="word_55..word_57" type="enamex" lemmata="the book of proverbs -lrb- 22:1 -rrb-" isprenominal="false" pos="dt nnp in nns -lrb- cd -rrb-" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_57..word_60" sentenceid="2" label="np" min_ids="word_57..word_57" type="chunk" lemmata="proverbs -lrb- 22:1 -rrb-" isprenominal="false" pos="nns -lrb- cd -rrb-" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_59" sentenceid="2" label="np" min_ids="word_59..word_59" type="chunk" lemmata="22:1" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_62..word_64" sentenceid="3" label="person" min_ids="word_62..word_64" type="enamex" lemmata="michael e. hill" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+</markables>

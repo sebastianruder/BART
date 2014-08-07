@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1" sentenceid="1" label="np" min_ids="word_1..word_1" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_5..word_17" sentenceid="1" label="location" min_ids="word_5..word_5" type="enamex" lemmata="baghdad , where u.s. troops have find what may be chemical weapon material" isprenominal="false" pos="nnp , wrb nnp nns vbp vbn wdt md vb nn nns nns" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_8" sentenceid="1" label="location" type="enamex" lemmata="u.s." isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_8..word_9" sentenceid="1" label="np" min_ids="word_8..word_9" type="chunk" lemmata="u.s. troops" isprenominal="false" pos="nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_15..word_17" sentenceid="1" label="np" min_ids="word_15..word_17" type="chunk" lemmata="chemical weapon material" isprenominal="false" pos="nn nns nns" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_19..word_26" sentenceid="2" label="np" min_ids="word_19..word_19" type="chunk" lemmata="elements of the army 's 101st airborne division" isprenominal="false" pos="nns in dt nnp pos jj nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_21..word_23" sentenceid="2" label="organization" min_ids="word_22..word_22" type="enamex" lemmata="the army 's" isprenominal="false" pos="dt nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_21..word_26" sentenceid="2" label="organization" min_ids="word_22..word_26" type="enamex" lemmata="the army 's 101st airborne division" isprenominal="false" pos="dt nnp pos jj nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_28..word_32" sentenceid="2" label="np" min_ids="word_28..word_29" type="chunk" lemmata="the chemical bury in barrel" isprenominal="false" pos="dt nns vbn in nns" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_32" sentenceid="2" label="np" min_ids="word_32..word_32" type="chunk" lemmata="barrel" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_34..word_38" sentenceid="2" label="np" min_ids="word_34..word_36" type="chunk" lemmata="an agricultural complex near karbala" isprenominal="false" pos="dt jj nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_38" sentenceid="2" label="location" min_ids="word_38..word_38" type="enamex" lemmata="karbala" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_40" sentenceid="3" label="np" min_ids="word_40..word_40" type="chunk" lemmata="troops" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_43..word_48" sentenceid="3" label="np" min_ids="word_43..word_45" type="chunk" lemmata="a large amount of conventional weapon" isprenominal="false" pos="dt jj nn in jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_47..word_48" sentenceid="3" label="np" min_ids="word_47..word_48" type="chunk" lemmata="conventional weapon" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_50..word_51" sentenceid="3" label="np" min_ids="word_50..word_51" type="chunk" lemmata="the site" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_53..word_57" sentenceid="4" label="np" min_ids="word_53..word_54" type="chunk" lemmata="initial test on the chemical" isprenominal="false" pos="jj nns in dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_56..word_57" sentenceid="4" label="np" min_ids="word_56..word_57" type="chunk" lemmata="the chemical" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_61..word_64" sentenceid="5" label="np" min_ids="word_61..word_64" type="chunk" lemmata="a higher level test" isprenominal="false" pos="dt jjr nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_66..word_72" sentenceid="5" label="np" min_ids="word_66..word_67" type="chunk" lemmata="the presence of nerve and blister agent" isprenominal="false" pos="dt nn in nn cc nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_69..word_72" sentenceid="5" label="np" min_ids="word_69..word_72" type="chunk" lemmata="nerve and blister agent" isprenominal="false" pos="nn cc nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_75..word_76" sentenceid="5" label="np" min_ids="word_75..word_76" type="chunk" lemmata="those test" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_82..word_86" sentenceid="6" label="np" min_ids="word_82..word_83" type="chunk" lemmata="the commander of the 101st" isprenominal="false" pos="dt nn in dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_85..word_86" sentenceid="6" label="percent" min_ids="word_86..word_86" type="enamex" lemmata="the 101st" isprenominal="false" pos="dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_88..word_89" sentenceid="6" label="np" min_ids="word_88..word_89" type="chunk" lemmata="the chemical" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_92" sentenceid="6" label="np" min_ids="word_92..word_92" type="chunk" lemmata="pesticide" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_92..word_100" sentenceid="6" label="np" min_ids="word_92..word_95" type="chunk" lemmata="pesticide or chemical agent that have not be weaponize" isprenominal="false" pos="nns cc jj nns wdt vbp rb vbn vbn" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_94..word_95" sentenceid="6" label="np" min_ids="word_94..word_95" type="chunk" lemmata="chemical agent" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+</markables>

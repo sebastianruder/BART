@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_6" span="word_2" sentenceid="1" label="person" min_ids="word_2..word_2" type="enamex" lemmata="tony" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_4" sentenceid="1" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_4..word_8" sentenceid="1" label="person" min_ids="word_4..word_8" type="enamex" lemmata="israeli prime minister ehud barak" isprenominal="false" pos="jj nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_10" sentenceid="1" label="np" min_ids="word_10..word_10" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_14..word_27" sentenceid="1" label="np" min_ids="word_14..word_16" type="chunk" lemmata="any peace deal that give the palestinians sovereignty over jerusalem 's revere temple mount" isprenominal="false" pos="dt nn nn wdt vbz dt nnps nn in nnp pos vbn nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_19..word_20" sentenceid="1" label="location" min_ids="word_20..word_20" type="enamex" lemmata="the palestinians" isprenominal="false" pos="dt nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_21..word_27" sentenceid="1" label="np" min_ids="word_21..word_21" type="chunk" lemmata="sovereignty over jerusalem 's revere temple mount" isprenominal="false" pos="nn in nnp pos vbn nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_23..word_24" sentenceid="1" label="location" min_ids="word_23..word_23" type="enamex" lemmata="jerusalem 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_23..word_27" sentenceid="1" label="location" min_ids="word_23..word_27" type="enamex" lemmata="jerusalem 's revere temple mount" isprenominal="false" pos="nnp pos vbn nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_29..word_30" sentenceid="2" label="person" min_ids="word_29..word_30" type="enamex" lemmata="mr. barak" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_34" sentenceid="2" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_34..word_35" sentenceid="2" label="np" min_ids="word_34..word_35" type="chunk" lemmata="his government" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_39..word_49" sentenceid="2" label="np" min_ids="word_39..word_40" type="chunk" lemmata="an accord that give palestinians the right to return to israel" isprenominal="false" pos="dt nn wdt vbz nnps dt nn to vb in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_43" sentenceid="2" label="location" min_ids="word_43..word_43" type="enamex" lemmata="palestinians" isprenominal="false" pos="nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_44..word_49" sentenceid="2" label="np" min_ids="word_44..word_45" type="chunk" lemmata="the right to return to israel" isprenominal="false" pos="dt nn to vb in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_49" sentenceid="2" label="location" min_ids="word_49..word_49" type="enamex" lemmata="israel" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+</markables>

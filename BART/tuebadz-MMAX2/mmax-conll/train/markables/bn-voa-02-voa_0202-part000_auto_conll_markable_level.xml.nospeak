@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_9" span="word_1" sentenceid="1" label="location" type="enamex" lemmata="colombian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_1..word_4" sentenceid="1" label="person" min_ids="word_1..word_4" type="enamex" lemmata="colombian president andres pastrana" isprenominal="false" pos="jj nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_6..word_16" sentenceid="1" label="np" min_ids="word_6..word_8" type="chunk" lemmata="the peace process with the country 's largest marxist rebel group" isprenominal="false" pos="dt nn nn in dt nn pos jjs jj jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_10..word_12" sentenceid="1" label="np" min_ids="word_10..word_11" type="chunk" lemmata="the country 's" isprenominal="false" pos="dt nn pos" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_10..word_16" sentenceid="1" label="np" min_ids="word_10..word_16" type="chunk" lemmata="the country 's largest marxist rebel group" isprenominal="false" pos="dt nn pos jjs jj jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_14" sentenceid="1" label="location" type="enamex" lemmata="marxist" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_20" sentenceid="1" label="np" min_ids="word_20..word_20" type="chunk" lemmata="danger" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_22" sentenceid="1" label="np" min_ids="word_22..word_22" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_27..word_28" sentenceid="1" label="date" min_ids="word_27..word_27" type="enamex" lemmata="friday 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_27..word_33" sentenceid="1" label="np" min_ids="word_27..word_29" type="chunk" lemmata="friday 's killing of an opposition lawmaker" isprenominal="false" pos="nnp pos nn in dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_31..word_33" sentenceid="1" label="np" min_ids="word_31..word_33" type="chunk" lemmata="an opposition lawmaker" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_35..word_36" sentenceid="2" label="person" min_ids="word_35..word_36" type="enamex" lemmata="president pestrana" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_38" sentenceid="2" label="date" min_ids="word_38..word_38" type="enamex" lemmata="saturday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_42" sentenceid="2" label="np" min_ids="word_42..word_42" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_44..word_57" sentenceid="2" label="np" min_ids="word_44..word_45" type="chunk" lemmata="serious evidence the revolutionary armed force of colombia shoot and kill congressman diego turbai" isprenominal="false" pos="jj nn dt jj jj nns in nnp vbd cc vbd nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_46..word_51" sentenceid="2" label="organization" min_ids="word_47..word_51" type="enamex" lemmata="the revolutionary armed force of colombia" isprenominal="false" pos="dt jj jj nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_55..word_57" sentenceid="2" label="person" min_ids="word_55..word_57" type="enamex" lemmata="congressman diego turbai" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+</markables>

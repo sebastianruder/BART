@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_8" span="word_1..word_3" sentenceid="1" label="organization" min_ids="word_1..word_3" type="enamex" lemmata="general electric co." isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_6..word_15" sentenceid="1" label="np" min_ids="word_6..word_11" type="chunk" lemmata="an $ 89.6 million navy contract for nuclear propulsion part" isprenominal="false" pos="dt $ cd cd nnp nn in jj nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_7..word_9" sentenceid="1" label="money" type="enamex" lemmata="$ 89.6 million" isprenominal="false" pos="$ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_10" sentenceid="1" label="organization" type="enamex" lemmata="navy" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_13..word_15" sentenceid="1" label="np" min_ids="word_13..word_15" type="chunk" lemmata="nuclear propulsion part" isprenominal="false" pos="jj nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_17..word_19" sentenceid="2" label="organization" min_ids="word_17..word_19" type="enamex" lemmata="westinghouse electric corp." isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_22..word_31" sentenceid="2" label="np" min_ids="word_22..word_27" type="chunk" lemmata="a $ 75.5 million navy contract for nuclear propulsion part" isprenominal="false" pos="dt $ cd cd nnp nn in jj nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_23..word_25" sentenceid="2" label="money" type="enamex" lemmata="$ 75.5 million" isprenominal="false" pos="$ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_26" sentenceid="2" label="organization" type="enamex" lemmata="navy" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_29..word_31" sentenceid="2" label="np" min_ids="word_29..word_31" type="chunk" lemmata="nuclear propulsion part" isprenominal="false" pos="jj nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_33..word_35" sentenceid="3" label="organization" min_ids="word_33..word_35" type="enamex" lemmata="federal data corp." isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_38..word_46" sentenceid="3" label="np" min_ids="word_38..word_43" type="chunk" lemmata="a $ 14.5 million navy contract for computer system" isprenominal="false" pos="dt $ cd cd nnp nn in nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_39..word_41" sentenceid="3" label="money" type="enamex" lemmata="$ 14.5 million" isprenominal="false" pos="$ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_42" sentenceid="3" label="organization" type="enamex" lemmata="navy" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_45..word_46" sentenceid="3" label="np" min_ids="word_45..word_46" type="chunk" lemmata="computer system" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_48..word_52" sentenceid="4" label="organization" min_ids="word_48..word_52" type="enamex" lemmata="american telephone &amp;amp; telegraph co." isprenominal="false" pos="nnp nnp cc nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_55..word_63" sentenceid="4" label="np" min_ids="word_55..word_60" type="chunk" lemmata="an $ 11.5 million navy contract for oceanographic service" isprenominal="false" pos="dt $ cd cd nnp nn in jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_56..word_58" sentenceid="4" label="money" type="enamex" lemmata="$ 11.5 million" isprenominal="false" pos="$ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_59" sentenceid="4" label="organization" type="enamex" lemmata="navy" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_62..word_63" sentenceid="4" label="np" min_ids="word_62..word_63" type="chunk" lemmata="oceanographic service" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+</markables>

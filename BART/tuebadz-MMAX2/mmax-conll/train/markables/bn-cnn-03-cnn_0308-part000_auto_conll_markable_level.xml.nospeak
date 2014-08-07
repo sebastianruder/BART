@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_3" sentenceid="1" label="np" min_ids="word_1..word_3" type="chunk" lemmata="a cruise ship" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_8..word_10" sentenceid="1" label="location" min_ids="word_8..word_10" type="enamex" lemmata="the hawaii coast" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_11..word_12" sentenceid="1" label="date" type="enamex" lemmata="after two" isprenominal="false" pos="in cd" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_12..word_16" sentenceid="1" label="np" min_ids="word_11..word_13" type="chunk" lemmata="two note threaten terrorist attack" isprenominal="false" pos="cd nns vbg jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_15..word_16" sentenceid="1" label="np" min_ids="word_15..word_16" type="chunk" lemmata="terrorist attack" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_20" sentenceid="1" label="np" min_ids="word_20..word_20" type="chunk" lemmata="board" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_22..word_23" sentenceid="2" label="organization" type="enamex" lemmata="royal caribbean" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_22..word_41" sentenceid="2" label="np" min_ids="word_22..word_25" type="chunk" lemmata="royal caribbean cruise ship legend of the sea divert to honolulu when the note be find on board yesterday ." isprenominal="false" pos="nnp nnp nn nn nnp in dt nnp vbn in nnp wrb dt nns vbd vbn in nn nn ." speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_26" sentenceid="2" label="np" min_ids="word_26..word_26" type="chunk" lemmata="legend" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_26..word_29" sentenceid="2" label="object" type="enamex" lemmata="legend of the sea" isprenominal="false" pos="nnp in dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_28..word_40" sentenceid="2" label="np" min_ids="word_28..word_29" type="chunk" lemmata="the sea divert to honolulu when the note be find on board yesterday" isprenominal="false" pos="dt nnp vbn in nnp wrb dt nns vbd vbn in nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_32" sentenceid="2" label="location" min_ids="word_32..word_32" type="enamex" lemmata="honolulu" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_34..word_35" sentenceid="2" label="np" min_ids="word_34..word_35" type="chunk" lemmata="the note" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_39" sentenceid="2" label="np" min_ids="word_39..word_39" type="chunk" lemmata="board" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_40" sentenceid="2" label="date" min_ids="word_40..word_40" type="enamex" lemmata="yesterday" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_42" sentenceid="3" label="np" min_ids="word_42..word_42" type="chunk" lemmata="passengers" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_46..word_48" sentenceid="3" label="np" min_ids="word_46..word_47" type="chunk" lemmata="the ship 's" isprenominal="false" pos="dt nn pos" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_46..word_50" sentenceid="3" label="np" min_ids="word_46..word_50" type="chunk" lemmata="the ship 's dining room" isprenominal="false" pos="dt nn pos nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_52..word_54" sentenceid="3" label="np" min_ids="word_52..word_54" type="chunk" lemmata="bomb sniff dog" isprenominal="false" pos="nn vbg nns" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_57..word_58" sentenceid="3" label="np" min_ids="word_57..word_58" type="chunk" lemmata="the ship" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+</markables>

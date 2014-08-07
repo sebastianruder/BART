@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_11" span="word_1" sentenceid="1" label="location" type="enamex" lemmata="russian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_1..word_4" sentenceid="1" label="np" min_ids="word_1..word_4" type="chunk" lemmata="russian and norwegian diver" isprenominal="false" pos="jj cc jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_3" sentenceid="1" label="location" type="enamex" lemmata="norwegian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_6..word_15" sentenceid="1" label="np" min_ids="word_6..word_8" type="chunk" lemmata="the fourth compartment of the wrecked submarine kursk , sunday" isprenominal="false" pos="dt jj nn in dt jj nn nnp , nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_7" sentenceid="1" label="percent" type="enamex" lemmata="fourth" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_10..word_13" sentenceid="1" label="np" min_ids="word_10..word_12" type="chunk" lemmata="the wrecked submarine kursk" isprenominal="false" pos="dt jj nn nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_13" sentenceid="1" label="object" min_ids="word_13..word_13" type="enamex" lemmata="kursk" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_15" sentenceid="1" label="date" min_ids="word_15..word_15" type="enamex" lemmata="sunday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_18" sentenceid="1" label="np" min_ids="word_18..word_18" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_20..word_30" sentenceid="1" label="np" min_ids="word_20..word_22" type="chunk" lemmata="too much damage to proceed with the task of recover body" isprenominal="false" pos="rb jj nn to vb in dt nn in vbg nns" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_26..word_30" sentenceid="1" label="np" min_ids="word_26..word_27" type="chunk" lemmata="the task of recover body" isprenominal="false" pos="dt nn in vbg nns" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_30" sentenceid="1" label="np" min_ids="word_30..word_30" type="chunk" lemmata="body" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_32..word_38" sentenceid="2" label="np" min_ids="word_32..word_33" type="chunk" lemmata="a spokesman for russia 's northern fleet" isprenominal="false" pos="dt nn in nnp pos nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_35..word_36" sentenceid="2" label="location" min_ids="word_35..word_35" type="enamex" lemmata="russia 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_35..word_38" sentenceid="2" label="organization" min_ids="word_35..word_38" type="enamex" lemmata="russia 's northern fleet" isprenominal="false" pos="nnp pos nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_40..word_41" sentenceid="2" label="np" min_ids="word_40..word_41" type="chunk" lemmata="the diver" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_47..word_49" sentenceid="2" label="percent" min_ids="word_47..word_49" type="enamex" lemmata="about one meter" isprenominal="false" pos="rb cd nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_51..word_52" sentenceid="2" label="np" min_ids="word_51..word_52" type="chunk" lemmata="the compartment" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_55..word_56" sentenceid="2" label="np" min_ids="word_55..word_56" type="chunk" lemmata="poor visibility" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+</markables>

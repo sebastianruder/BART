@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_5" sentenceid="1" label="np" min_ids="word_1..word_3" type="chunk" lemmata="the new president of yugoslavia" isprenominal="false" pos="dt jj nnp in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_5" sentenceid="1" label="location" min_ids="word_5..word_5" type="enamex" lemmata="yugoslavia" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_11..word_13" sentenceid="1" label="np" min_ids="word_11..word_13" type="chunk" lemmata="a new government" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_15..word_16" sentenceid="2" label="person" min_ids="word_15..word_16" type="enamex" lemmata="vojislav kostunica" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_20" sentenceid="2" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_20..word_21" sentenceid="2" label="np" min_ids="word_20..word_21" type="chunk" lemmata="his team" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_22" sentenceid="2" label="date" min_ids="word_22..word_22" type="enamex" lemmata="today" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_24..word_45" sentenceid="2" label="np" min_ids="word_24..word_25" type="chunk" lemmata="the goal of get rid of as many old face as possible while placate those still loyal to oust leader slobodan milosevic" isprenominal="false" pos="dt nn in vbg vbn in rb jj jj nns in jj in vbg dt rb jj in vbn nn nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_30..word_35" sentenceid="2" label="np" min_ids="word_30..word_33" type="chunk" lemmata="as many old face as possible" isprenominal="false" pos="rb jj jj nns in jj" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_38..word_45" sentenceid="2" label="np" min_ids="word_38..word_38" type="chunk" lemmata="those still loyal to oust leader slobodan milosevic" isprenominal="false" pos="dt rb jj in vbn nn nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_42..word_45" sentenceid="2" label="person" min_ids="word_42..word_45" type="enamex" lemmata="oust leader slobodan milosevic" isprenominal="false" pos="vbn nn nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_47" sentenceid="3" label="np" min_ids="word_47..word_47" type="chunk" lemmata="kostunica" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_49" sentenceid="3" label="np" min_ids="word_49..word_49" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_53" sentenceid="3" label="person" min_ids="word_53..word_53" type="enamex" lemmata="milosevic" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_56..word_68" sentenceid="3" label="np" min_ids="word_56..word_57" type="chunk" lemmata="a tribunal in the netherlands where he be indict as a war criminal" isprenominal="false" pos="dt nn in dt nnp wrb prp vbd vbn in dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_59..word_68" sentenceid="3" label="location" min_ids="word_59..word_60" type="enamex" lemmata="the netherlands where he be indict as a war criminal" isprenominal="false" pos="dt nnp wrb prp vbd vbn in dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_62" sentenceid="3" label="np" min_ids="word_62..word_62" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_66..word_68" sentenceid="3" label="np" min_ids="word_66..word_68" type="chunk" lemmata="a war criminal" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+</markables>

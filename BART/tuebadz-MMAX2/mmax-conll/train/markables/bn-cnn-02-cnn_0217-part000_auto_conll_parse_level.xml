@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_15" tag="(S1 (S (NP (NP (DT An) (JJ American) (NN astronaut)) (CC and) (NP (JJ Russian) (NN cosmonaut))) (VP (VBP are) (VP (VBG settling) (PRT (RP in)) (PP (IN at) (NP (DT the) (NNP International) (NNP Space) (NNP Station))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_16..word_32" tag="(S1 (S (NP (DT A) (NNP Russian) (NNP Soyuz) (NNP capsule)) (VP (VBD dropped) (NP (PRP them)) (PP (IN off) (NP (DT this) (NN morning))) (PP (IN after) (NP (NP (NN docking)) (ADVP (RB perfectly) (PP (IN at) (NP (DT the) (VBG orbiting) (NN outpost))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_33..word_52" tag="(S1 (S (NP (PRP It)) (VP (VBD was) (NP (NP (DT the) (JJ first) (VBN manned) (NN flight)) (PP (IN to) (NP (NP (DT the) (NN space) (NN station)) (PP (IN since) (NP (DT the) (NNP February) (JJ first) (NN shuttle) (`` ``) (NNP Columbia) ('' '') (NN disaster))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_53..word_69" tag="(S1 (S (PP (NP (QP (RB About) (CD 90)) (NNS minutes)) (IN after) (NP (DT the) (NN docking))) (, ,) (NP (DT the) (NNS crews)) (VP (VBD opened) (NP (NP (DT the) (NN hatch)) (PP (IN between) (NP (DT the) (CD two) (NN spacecraft))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_70..word_87" tag="(S1 (S (NP (NP (NNP Edward) (NNP Lu)) (CC and) (NP (NP (NNP Yuri) (NNP Malenchenko)) (PP (IN of) (NP (NNP Russia))))) (VP (MD will) (VP (VB spend) (NP (NP (DT the) (JJ next) (CD six) (NNS months)) (PP (IN in) (NP (DT the) (NN space) (NN station)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10006" span="word_88..word_99" tag="(S1 (S (NP (PRP They)) (VP (VBP 're) (VP (VBG replacing) (NP (NP (DT the) (CD two) (NNS astronauts)) (CC and) (NP (CD one) (NN cosmonaut))) (ADVP (RB currently)) (ADVP (RB there)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10007" span="word_100..word_111" tag="(S1 (S (NP (DT The) (NNP Soyuz)) (VP (MD will) (VP (VB carry) (NP (DT that) (NN crew)) (PRT (RP back)) (PP (IN to) (NP (NN earth) (NNP May) (NN 4th))))) (. .)))" mmax_level="parse" />
+</markables>

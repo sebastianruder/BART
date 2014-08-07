@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_3" sentenceid="1" label="np" min_ids="word_1..word_1" type="chunk" lemmata="police in pennsylvania" isprenominal="false" pos="nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_3" sentenceid="1" label="location" min_ids="word_3..word_3" type="enamex" lemmata="pennsylvania" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_5..word_6" sentenceid="1" label="np" min_ids="word_5..word_6" type="chunk" lemmata="a student" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_9..word_10" sentenceid="1" label="np" min_ids="word_9..word_10" type="chunk" lemmata="a principal" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_13" sentenceid="1" label="np" min_ids="word_13..word_13" type="chunk" lemmata="himself" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_14..word_15" sentenceid="1" label="time" min_ids="word_14..word_15" type="enamex" lemmata="this morning" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_17" sentenceid="2" label="np" min_ids="word_17..word_17" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_20..word_28" sentenceid="2" label="np" min_ids="word_20..word_21" type="chunk" lemmata="the cafeteria of red lion area junior high school" isprenominal="false" pos="dt nn in nnp nnp nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_23..word_28" sentenceid="2" label="organization" min_ids="word_23..word_28" type="enamex" lemmata="red lion area junior high school" isprenominal="false" pos="nnp nnp nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_29..word_31" sentenceid="2" label="percent" type="enamex" lemmata="about 30 mile" isprenominal="false" pos="in cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_30..word_34" sentenceid="2" label="np" min_ids="word_30..word_31" type="chunk" lemmata="30 mile southeast of harrisburg" isprenominal="false" pos="cd nns jj in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_34" sentenceid="2" label="location" min_ids="word_34..word_34" type="enamex" lemmata="harrisburg" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_36" sentenceid="3" label="np" min_ids="word_36..word_36" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_39..word_41" sentenceid="3" label="time" type="enamex" lemmata="7:30 this morning" isprenominal="false" pos="cd dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_43" sentenceid="4" label="np" min_ids="word_43..word_43" type="chunk" lemmata="students" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_48..word_49" sentenceid="4" label="np" min_ids="word_48..word_49" type="chunk" lemmata="the street" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_51..word_54" sentenceid="4" label="np" min_ids="word_51..word_54" type="chunk" lemmata="a senior high school" isprenominal="false" pos="dt jj jj nn" speaker="-" mmax_level="markable" />
+</markables>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_12" span="word_1" sentenceid="1" label="location" min_ids="word_1..word_1" type="enamex" lemmata="israel" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_4" sentenceid="1" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_4..word_10" sentenceid="1" label="np" min_ids="word_4..word_7" type="chunk" lemmata="its fifth suicide bombing in three day" isprenominal="false" pos="prp$ jj nn nn in cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_5" sentenceid="1" label="percent" type="enamex" lemmata="fifth" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_12" sentenceid="2" label="np" min_ids="word_12..word_12" type="chunk" lemmata="police" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_14..word_15" sentenceid="2" label="np" min_ids="word_14..word_15" type="chunk" lemmata="a bomber" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_17" sentenceid="2" label="np" min_ids="word_17..word_17" type="chunk" lemmata="herself" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_20..word_32" sentenceid="2" label="np" min_ids="word_20..word_24" type="chunk" lemmata="a northern israel shopping center when she be stop by a security guard" isprenominal="false" pos="dt jj nnp nn nn wrb prp vbd vbn in dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_22" sentenceid="2" label="location" type="enamex" lemmata="israel" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_26" sentenceid="2" label="np" min_ids="word_26..word_26" type="chunk" lemmata="she" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_30..word_32" sentenceid="2" label="np" min_ids="word_30..word_32" type="chunk" lemmata="a security guard" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_34" sentenceid="3" label="percent" type="enamex" lemmata="three" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_34..word_35" sentenceid="3" label="np" min_ids="word_34..word_35" type="chunk" lemmata="three people" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_34..word_38" sentenceid="3" label="np" min_ids="word_34..word_38" type="chunk" lemmata="three people plus the bomber" isprenominal="false" pos="cd nns cc dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_37..word_38" sentenceid="3" label="np" min_ids="word_37..word_38" type="chunk" lemmata="the bomber" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_43..word_45" sentenceid="3" label="percent" type="enamex" lemmata="at least 30" isprenominal="false" pos="rb rbs cd" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_43..word_46" sentenceid="3" label="np" min_ids="word_43..word_46" type="chunk" lemmata="at least 30 other" isprenominal="false" pos="rb rbs cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_50..word_53" sentenceid="4" label="organization" min_ids="word_50..word_53" type="enamex" lemmata="the french press agency" isprenominal="false" pos="dt nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_55..word_61" sentenceid="4" label="organization" min_ids="word_56..word_60" type="enamex" lemmata="the militant group `` islamic jihad ''" isprenominal="false" pos="dt jj nn `` nnp nnp ''" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_64" sentenceid="4" label="np" min_ids="word_64..word_64" type="chunk" lemmata="responsibility" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+</markables>

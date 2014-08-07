@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_22" span="word_2..word_7" sentenceid="1" label="object" min_ids="word_3..word_6" type="enamex" lemmata="the damage `` uss cole ''" isprenominal="false" pos="dt vbn `` nnp nnp ''" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_13..word_15" sentenceid="1" label="np" min_ids="word_13..word_15" type="chunk" lemmata="a salvage ship" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_17" sentenceid="1" label="organization" min_ids="word_17..word_17" type="enamex" lemmata="cnn" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_20..word_21" sentenceid="1" label="np" min_ids="word_20..word_21" type="chunk" lemmata="c explosive" isprenominal="false" pos="nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_26..word_28" sentenceid="1" label="np" min_ids="word_26..word_28" type="chunk" lemmata="the navy destroyer" isprenominal="false" pos="dt nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_27" sentenceid="1" label="organization" type="enamex" lemmata="navy" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_30" sentenceid="2" label="np" min_ids="word_30..word_30" type="chunk" lemmata="c" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_34..word_44" sentenceid="2" label="location" min_ids="word_34..word_36" type="enamex" lemmata="the united states and other country such as austria and iran" isprenominal="false" pos="dt nnp nnp cc jj nns jj in nnp cc nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_38..word_44" sentenceid="2" label="np" min_ids="word_38..word_39" type="chunk" lemmata="other country such as austria and iran" isprenominal="false" pos="jj nns jj in nnp cc nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_42" sentenceid="2" label="location" type="enamex" lemmata="austria" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_42..word_44" sentenceid="2" label="location" min_ids="word_42..word_44" type="enamex" lemmata="austria and iran" isprenominal="false" pos="nnp cc nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_46" sentenceid="3" label="np" min_ids="word_46..word_46" type="chunk" lemmata="sources" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_48..word_51" sentenceid="3" label="np" min_ids="word_48..word_48" type="chunk" lemmata="identification of the explosive" isprenominal="false" pos="nn in dt jj" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_50..word_51" sentenceid="3" label="np" min_ids="word_50..word_51" type="chunk" lemmata="the explosive" isprenominal="false" pos="dt jj" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_54" sentenceid="3" label="np" min_ids="word_54..word_54" type="chunk" lemmata="authority" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_58..word_64" sentenceid="3" label="np" min_ids="word_58..word_59" type="chunk" lemmata="terrorist group that have access to it" isprenominal="false" pos="jj nns wdt vbp nn in prp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_62..word_64" sentenceid="3" label="np" min_ids="word_62..word_62" type="chunk" lemmata="access to it" isprenominal="false" pos="nn in prp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_64" sentenceid="3" label="np" min_ids="word_64..word_64" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_66" sentenceid="4" label="organization" min_ids="word_66..word_66" type="enamex" lemmata="cnn" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_69..word_80" sentenceid="4" label="np" min_ids="word_69..word_69" type="chunk" lemmata="photograph which show the extent of the damage to the `` cole" isprenominal="false" pos="nns wdt vbp dt nn in dt nn in dt `` nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_72..word_80" sentenceid="4" label="np" min_ids="word_72..word_73" type="chunk" lemmata="the extent of the damage to the `` cole" isprenominal="false" pos="dt nn in dt nn in dt `` nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_75..word_80" sentenceid="4" label="np" min_ids="word_75..word_76" type="chunk" lemmata="the damage to the `` cole" isprenominal="false" pos="dt nn in dt `` nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_78..word_80" sentenceid="4" label="object" min_ids="word_80..word_80" type="enamex" lemmata="the `` cole" isprenominal="false" pos="dt `` nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_83..word_84" sentenceid="5" label="organization" min_ids="word_84..word_84" type="enamex" lemmata="the navy" isprenominal="false" pos="dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_87..word_96" sentenceid="5" label="np" min_ids="word_87..word_88" type="chunk" lemmata="the size of the hole in the ship 's hull" isprenominal="false" pos="dt nn in dt nn in dt nn pos nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_90..word_96" sentenceid="5" label="np" min_ids="word_90..word_91" type="chunk" lemmata="the hole in the ship 's hull" isprenominal="false" pos="dt nn in dt nn pos nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_93..word_95" sentenceid="5" label="np" min_ids="word_93..word_94" type="chunk" lemmata="the ship 's" isprenominal="false" pos="dt nn pos" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_93..word_96" sentenceid="5" label="np" min_ids="word_93..word_96" type="chunk" lemmata="the ship 's hull" isprenominal="false" pos="dt nn pos nn" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_98..word_99" sentenceid="5" label="percent" min_ids="word_98..word_99" type="enamex" lemmata="40 foot" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_102..word_103" sentenceid="5" label="percent" type="enamex" lemmata="60 foot" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_108..word_109" sentenceid="6" label="percent" min_ids="word_108..word_109" type="enamex" lemmata="20 foot" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_115" sentenceid="7" label="np" min_ids="word_115..word_115" type="chunk" lemmata="repairs" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_34" span="word_118..word_123" sentenceid="7" label="money" min_ids="word_118..word_123" type="enamex" lemmata="as high as $ 170 million" isprenominal="false" pos="rb jj in $ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_35" span="word_125" sentenceid="8" label="percent" type="enamex" lemmata="17" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_125..word_126" sentenceid="8" label="np" min_ids="word_125..word_126" type="chunk" lemmata="17 sailor" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_129..word_130" sentenceid="8" label="np" min_ids="word_129..word_130" type="chunk" lemmata="the bombing" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+</markables>

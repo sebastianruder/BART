@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_2..word_3" sentenceid="1" label="np" min_ids="word_2..word_3" type="chunk" lemmata="different perspective" isprenominal="false" pos="jj nn" speaker="Rick Sanchez" mmax_level="markable" />
+<markable id="markable_1" span="word_5" sentenceid="2" label="np" min_ids="word_5..word_5" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="Rick Sanchez" mmax_level="markable" />
+<markable id="markable_2" span="word_7" sentenceid="2" label="np" min_ids="word_7..word_7" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="Rick Sanchez" mmax_level="markable" />
+<markable id="markable_3" span="word_8..word_12" sentenceid="2" label="np" min_ids="word_8..word_9" type="chunk" lemmata="the tale of two city" isprenominal="false" pos="dt nn in cd nns" speaker="Rick Sanchez" mmax_level="markable" />
+<markable id="markable_23" span="word_11" sentenceid="2" label="percent" type="enamex" lemmata="two" isprenominal="false" pos="cd" speaker="Rick Sanchez" mmax_level="markable" />
+<markable id="markable_4" span="word_11..word_12" sentenceid="2" label="np" min_ids="word_11..word_12" type="chunk" lemmata="two city" isprenominal="false" pos="cd nns" speaker="Rick Sanchez" mmax_level="markable" />
+<markable id="markable_5" span="word_16" sentenceid="3" label="np" min_ids="word_16..word_16" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="Rick Sanchez" mmax_level="markable" />
+<markable id="markable_6" span="word_18" sentenceid="3" label="np" min_ids="word_18..word_18" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="Rick Sanchez" mmax_level="markable" />
+<markable id="markable_7" span="word_19..word_23" sentenceid="3" label="np" min_ids="word_19..word_20" type="chunk" lemmata="a tale of two family" isprenominal="false" pos="dt nn in cd nns" speaker="Rick Sanchez" mmax_level="markable" />
+<markable id="markable_24" span="word_22" sentenceid="3" label="percent" type="enamex" lemmata="two" isprenominal="false" pos="cd" speaker="Rick Sanchez" mmax_level="markable" />
+<markable id="markable_8" span="word_22..word_23" sentenceid="3" label="np" min_ids="word_22..word_23" type="chunk" lemmata="two family" isprenominal="false" pos="cd nns" speaker="Rick Sanchez" mmax_level="markable" />
+<markable id="markable_9" span="word_26" sentenceid="4" label="np" min_ids="word_26..word_26" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="Kyra Phillips" mmax_level="markable" />
+<markable id="markable_10" span="word_40" sentenceid="5" label="np" min_ids="word_40..word_40" type="chunk" lemmata="people" isprenominal="false" pos="nns" speaker="Kyra Phillips" mmax_level="markable" />
+<markable id="markable_11" span="word_46..word_53" sentenceid="5" label="np" min_ids="word_46..word_46" type="chunk" lemmata="people that uh want to see he die" isprenominal="false" pos="nns wdt uh vbp to vb prp vb" speaker="Kyra Phillips" mmax_level="markable" />
+<markable id="markable_12" span="word_52" sentenceid="5" label="np" min_ids="word_52..word_52" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="Kyra Phillips" mmax_level="markable" />
+<markable id="markable_25" span="word_58" sentenceid="6" label="object" min_ids="word_58..word_58" type="enamex" lemmata="newsnight" isprenominal="false" pos="nnp" speaker="Rick Sanchez" mmax_level="markable" />
+<markable id="markable_13" span="word_59" sentenceid="6" label="np" min_ids="word_59..word_59" type="chunk" lemmata="winter" isprenominal="false" pos="nn" speaker="Rick Sanchez" mmax_level="markable" />
+<markable id="markable_14" span="word_63..word_66" sentenceid="6" label="np" min_ids="word_63..word_64" type="chunk" lemmata="the mountain of pakistan" isprenominal="false" pos="dt nns in nnp" speaker="Rick Sanchez" mmax_level="markable" />
+<markable id="markable_26" span="word_66" sentenceid="6" label="location" min_ids="word_66..word_66" type="enamex" lemmata="pakistan" isprenominal="false" pos="nnp" speaker="Rick Sanchez" mmax_level="markable" />
+<markable id="markable_27" span="word_69..word_78" sentenceid="7" label="percent" min_ids="word_69..word_69" type="enamex" lemmata="million of those who survive last month 's massive earthquake" isprenominal="false" pos="nns in dt wp vbd jj nn pos jj nn" speaker="Rick Sanchez" mmax_level="markable" />
+<markable id="markable_15" span="word_71..word_78" sentenceid="7" label="np" min_ids="word_71..word_71" type="chunk" lemmata="those who survive last month 's massive earthquake" isprenominal="false" pos="dt wp vbd jj nn pos jj nn" speaker="Rick Sanchez" mmax_level="markable" />
+<markable id="markable_28" span="word_74..word_76" sentenceid="7" label="date" min_ids="word_74..word_75" type="enamex" lemmata="last month 's" isprenominal="false" pos="jj nn pos" speaker="Rick Sanchez" mmax_level="markable" />
+<markable id="markable_16" span="word_74..word_78" sentenceid="7" label="np" min_ids="word_74..word_78" type="chunk" lemmata="last month 's massive earthquake" isprenominal="false" pos="jj nn pos jj nn" speaker="Rick Sanchez" mmax_level="markable" />
+<markable id="markable_17" span="word_82..word_85" sentenceid="7" label="np" min_ids="word_82..word_83" type="chunk" lemmata="something else bitter cold" isprenominal="false" pos="nn rb jj jj" speaker="Rick Sanchez" mmax_level="markable" />
+<markable id="markable_18" span="word_89..word_92" sentenceid="9" label="np" min_ids="word_89..word_90" type="chunk" lemmata="the city of light" isprenominal="false" pos="dt nn in nns" speaker="Kyra Phillips" mmax_level="markable" />
+<markable id="markable_19" span="word_92" sentenceid="9" label="np" min_ids="word_92..word_92" type="chunk" lemmata="light" isprenominal="false" pos="nns" speaker="Kyra Phillips" mmax_level="markable" />
+<markable id="markable_20" span="word_96..word_97" sentenceid="9" label="np" min_ids="word_96..word_97" type="chunk" lemmata="torch car" isprenominal="false" pos="vbn nns" speaker="Kyra Phillips" mmax_level="markable" />
+<markable id="markable_21" span="word_99..word_103" sentenceid="10" label="np" min_ids="word_99..word_101" type="chunk" lemmata="a frightening week of violence" isprenominal="false" pos="dt jj nn in nn" speaker="Kyra Phillips" mmax_level="markable" />
+<markable id="markable_22" span="word_103" sentenceid="10" label="np" min_ids="word_103..word_103" type="chunk" lemmata="violence" isprenominal="false" pos="nn" speaker="Kyra Phillips" mmax_level="markable" />
+<markable id="markable_29" span="word_106" sentenceid="10" label="location" min_ids="word_106..word_106" type="enamex" lemmata="paris" isprenominal="false" pos="nnp" speaker="Kyra Phillips" mmax_level="markable" />
+<markable id="markable_30" span="word_108" sentenceid="11" label="object" min_ids="word_108..word_108" type="enamex" lemmata="newsnight" isprenominal="false" pos="nnp" speaker="Kyra Phillips" mmax_level="markable" />
+</markables>

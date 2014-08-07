@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_8" span="word_1..word_2" sentenceid="1" label="location" min_ids="word_1..word_1" type="enamex" lemmata="iraq 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_1..word_7" sentenceid="1" label="person" min_ids="word_1..word_7" type="enamex" lemmata="iraq 's deputy prime minister tariq aziz" isprenominal="false" pos="nnp pos nnp nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_1..word_13" sentenceid="1" label="person" min_ids="word_1..word_13" type="enamex" lemmata="iraq 's deputy prime minister tariq aziz and syria 's foreign minister farookh" isprenominal="false" pos="nnp pos nnp nnp nnp nnp nnp cc nnp pos nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_9..word_10" sentenceid="1" label="location" min_ids="word_9..word_9" type="enamex" lemmata="syria 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_9..word_13" sentenceid="1" label="np" min_ids="word_9..word_13" type="chunk" lemmata="syria 's foreign minister farookh" isprenominal="false" pos="nnp pos nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_15..word_22" sentenceid="1" label="np" min_ids="word_15..word_15" type="chunk" lemmata="talk saturday on way of improve bilateral relation" isprenominal="false" pos="nns nnp in nns in vbg jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_16" sentenceid="1" label="date" min_ids="word_16..word_16" type="enamex" lemmata="saturday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_18..word_22" sentenceid="1" label="np" min_ids="word_18..word_18" type="chunk" lemmata="way of improve bilateral relation" isprenominal="false" pos="nns in vbg jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_21..word_22" sentenceid="1" label="np" min_ids="word_21..word_22" type="chunk" lemmata="bilateral relation" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_24..word_25" sentenceid="2" label="person" min_ids="word_24..word_25" type="enamex" lemmata="mr. aziz" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_28" sentenceid="2" label="location" min_ids="word_28..word_28" type="enamex" lemmata="damascus" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_30..word_36" sentenceid="2" label="np" min_ids="word_30..word_34" type="chunk" lemmata="the first direct iraqi flight to syria" isprenominal="false" pos="dt jj jj jj nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_31" sentenceid="2" label="percent" type="enamex" lemmata="first" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_33" sentenceid="2" label="location" type="enamex" lemmata="iraqi" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_36" sentenceid="2" label="location" min_ids="word_36..word_36" type="enamex" lemmata="syria" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_42..word_43" sentenceid="3" label="np" min_ids="word_42..word_43" type="chunk" lemmata="the flight" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_49..word_69" sentenceid="3" label="percent" min_ids="word_50..word_50" type="enamex" lemmata="the first to carry an iraqi official out of baghdad since the united nations place sanction on iraq 10 year ago" isprenominal="false" pos="dt jj to vb dt jj nn in in nnp in dt nnp nnp vbd nns in nnp cd nns rb" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_53..word_55" sentenceid="3" label="np" min_ids="word_53..word_55" type="chunk" lemmata="an iraqi official" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_54" sentenceid="3" label="location" type="enamex" lemmata="iraqi" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_58" sentenceid="3" label="location" min_ids="word_58..word_58" type="enamex" lemmata="baghdad" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_60..word_62" sentenceid="3" label="organization" min_ids="word_60..word_62" type="enamex" lemmata="the united nations" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_64..word_66" sentenceid="3" label="np" min_ids="word_64..word_64" type="chunk" lemmata="sanction on iraq" isprenominal="false" pos="nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_66" sentenceid="3" label="location" min_ids="word_66..word_66" type="enamex" lemmata="iraq" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_67..word_69" sentenceid="3" label="date" type="enamex" lemmata="10 year ago" isprenominal="false" pos="cd nns rb" speaker="-" mmax_level="markable" />
+</markables>

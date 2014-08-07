@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_12" span="word_1..word_2" sentenceid="1" label="organization" type="enamex" lemmata="russian navy" isprenominal="false" pos="jj nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_1..word_3" sentenceid="1" label="np" min_ids="word_1..word_3" type="chunk" lemmata="russian navy official" isprenominal="false" pos="jj nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_6..word_18" sentenceid="1" label="np" min_ids="word_6..word_6" type="chunk" lemmata="attempt to recover body from the sunken nuclear submarine , the `` kursk" isprenominal="false" pos="nns to vb nns in dt jj jj nn , dt `` nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_9" sentenceid="1" label="np" min_ids="word_9..word_9" type="chunk" lemmata="body" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_11..word_18" sentenceid="1" label="np" min_ids="word_11..word_14" type="chunk" lemmata="the sunken nuclear submarine , the `` kursk" isprenominal="false" pos="dt jj jj nn , dt `` nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_16..word_18" sentenceid="1" label="object" min_ids="word_18..word_18" type="enamex" lemmata="the `` kursk" isprenominal="false" pos="dt `` nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_21" sentenceid="2" label="np" min_ids="word_21..word_21" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_23..word_27" sentenceid="2" label="np" min_ids="word_23..word_24" type="chunk" lemmata="jagged metal at the site" isprenominal="false" pos="jj nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_26..word_27" sentenceid="2" label="np" min_ids="word_26..word_27" type="chunk" lemmata="the site" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_29" sentenceid="2" label="np" min_ids="word_29..word_29" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_33" sentenceid="2" label="np" min_ids="word_33..word_33" type="chunk" lemmata="diver" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_37..word_40" sentenceid="3" label="np" min_ids="word_37..word_40" type="chunk" lemmata="a russian government commission" isprenominal="false" pos="dt jj nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_38" sentenceid="3" label="location" type="enamex" lemmata="russian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_45" sentenceid="3" label="date" min_ids="word_45..word_45" type="enamex" lemmata="tomorrow" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_49..word_52" sentenceid="3" label="np" min_ids="word_49..word_52" type="chunk" lemmata="any further salvage effort" isprenominal="false" pos="dt jj nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_54..word_59" sentenceid="4" label="percent" min_ids="word_54..word_54" type="enamex" lemmata="12 of the es the vessel" isprenominal="false" pos="cd in dt nnp dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_56..word_59" sentenceid="4" label="np" min_ids="word_56..word_59" type="chunk" lemmata="the es the vessel" isprenominal="false" pos="dt nnp dt nn" speaker="-" mmax_level="markable" />
+</markables>

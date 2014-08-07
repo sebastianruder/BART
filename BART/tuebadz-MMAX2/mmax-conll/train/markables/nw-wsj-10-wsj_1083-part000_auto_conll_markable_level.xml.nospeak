@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_15" span="word_1..word_3" sentenceid="1" label="organization" min_ids="word_1..word_3" type="enamex" lemmata="coda energy inc." isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_5" sentenceid="1" label="np" min_ids="word_5..word_5" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_7..word_17" sentenceid="1" label="np" min_ids="word_7..word_8" type="chunk" lemmata="the sale of phenix - transmission co. to bishop pipeline co." isprenominal="false" pos="dt nn in nnp hyph nnp nnp in nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_10" sentenceid="1" label="object" type="enamex" lemmata="phenix" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_10..word_13" sentenceid="1" label="organization" min_ids="word_10..word_13" type="enamex" lemmata="phenix - transmission co." isprenominal="false" pos="nnp hyph nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_15..word_17" sentenceid="1" label="organization" min_ids="word_15..word_17" type="enamex" lemmata="bishop pipeline co." isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_20..word_26" sentenceid="1" label="money" min_ids="word_20..word_22" type="enamex" lemmata="$ 17 million in cash and note" isprenominal="false" pos="$ cd cd in nn cc nns" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_24" sentenceid="1" label="np" min_ids="word_24..word_24" type="chunk" lemmata="cash" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_24..word_26" sentenceid="1" label="np" min_ids="word_24..word_26" type="chunk" lemmata="cash and note" isprenominal="false" pos="nn cc nns" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_26" sentenceid="1" label="np" min_ids="word_26..word_26" type="chunk" lemmata="note" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_28..word_35" sentenceid="2" label="organization" min_ids="word_28..word_28" type="enamex" lemmata="coda , an oil and gas concern ," isprenominal="false" pos="nnp , dt nn cc nn nn ," speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_30..word_34" sentenceid="2" label="np" min_ids="word_30..word_34" type="chunk" lemmata="an oil and gas concern" isprenominal="false" pos="dt nn cc nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_37" sentenceid="2" label="np" min_ids="word_37..word_37" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_37..word_40" sentenceid="2" label="np" min_ids="word_37..word_40" type="chunk" lemmata="it and its partner" isprenominal="false" pos="prp cc prp$ nns" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_39" sentenceid="2" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_39..word_40" sentenceid="2" label="np" min_ids="word_39..word_40" type="chunk" lemmata="its partner" isprenominal="false" pos="prp$ nns" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_42..word_46" sentenceid="2" label="money" min_ids="word_42..word_44" type="enamex" lemmata="$ 7 million in cash" isprenominal="false" pos="$ cd cd in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_46" sentenceid="2" label="np" min_ids="word_46..word_46" type="chunk" lemmata="cash" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_48..word_55" sentenceid="2" label="money" min_ids="word_48..word_50" type="enamex" lemmata="$ 10 million in five - year note" isprenominal="false" pos="$ cd cd in cd hyph nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_52..word_54" sentenceid="2" label="date" type="enamex" lemmata="five - year" isprenominal="false" pos="cd hyph nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_52..word_55" sentenceid="2" label="np" min_ids="word_52..word_55" type="chunk" lemmata="five - year note" isprenominal="false" pos="cd hyph nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_57..word_60" sentenceid="2" label="np" min_ids="word_57..word_60" type="chunk" lemmata="the kansas intrastate pipeline" isprenominal="false" pos="dt nnp nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_58" sentenceid="2" label="location" type="enamex" lemmata="kansas" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_62" sentenceid="3" label="organization" min_ids="word_62..word_62" type="enamex" lemmata="coda" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_64..word_68" sentenceid="3" label="percent" min_ids="word_64..word_65" type="enamex" lemmata="60 % of the pipeline" isprenominal="false" pos="cd nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_67..word_68" sentenceid="3" label="np" min_ids="word_67..word_68" type="chunk" lemmata="the pipeline" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_70..word_71" sentenceid="3" label="np" min_ids="word_70..word_71" type="chunk" lemmata="private entity" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_73..word_74" sentenceid="3" label="np" min_ids="word_73..word_74" type="chunk" lemmata="the rest" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_76" sentenceid="4" label="organization" min_ids="word_76..word_76" type="enamex" lemmata="bishop" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_80..word_82" sentenceid="4" label="location" min_ids="word_80..word_80" type="enamex" lemmata="hutchinson , kansas" isprenominal="false" pos="nnp , nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_82" sentenceid="4" label="location" min_ids="word_82..word_82" type="enamex" lemmata="kansas" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+</markables>

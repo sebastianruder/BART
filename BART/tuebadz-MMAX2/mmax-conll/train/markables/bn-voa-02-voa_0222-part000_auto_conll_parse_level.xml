@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_5" tag="(S1 (FRAG (ADVP (RB First)) (NP (DT the) (NN news) (NN update)) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_6..word_10" tag="(S1 (SINV (ADVP (RB Here)) (VP (VBZ 's)) (NP (NNP David) (NNP Coler)) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_11..word_46" tag="(S1 (S (NP (NNP President) (NNP Clinton)) (VP (VBZ is) (VP (VBG sending) (NP (NML (NNP US) (NN mediator)) (NNP Dennis) (NNP Ross)) (ADVP (RB back) (PP (IN to) (NP (DT the) (NNP Middle) (NNP East)))) (PP (IN in) (NP (NP (QP (RB yet) (DT another)) (NN effort)) (SBAR (S (VP (TO to) (VP (VB make) (NP (NP (NN progress)) (PP (IN toward) (NP (NP (NN peace)) (PP (IN between) (NP (NP (NNP Israel)) (CC and) (NP (DT the) (NNPS Palestinians))))))) (SBAR (IN before) (S (NP (NNP Mr.) (NNP Clinton)) (VP (VBZ leaves) (NP (NN office)) (PP (IN in) (NP (CD two) (NNS weeks)))))))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_47..word_70" tag="(S1 (S (NP (DT A) (JJ senior) (NML (NNP White) (NNP House)) (NN official)) (VP (VBD said) (SBAR (S (NP (NNP Mr.) (NNP Ross)) (VP (VBZ intends) (S (VP (TO to) (VP (VB meet) (ADVP (RB separately)) (PP (IN with) (NP (NP (NML (JJ Israeli) (NNP Prime) (NNP Minister)) (NNP Ehud) (NNP Barak)) (CC and) (NP (NML (JJ Palestinian) (NN leader)) (NNP Yasser) (NNP Arafat))))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_71..word_84" tag="(S1 (S (NP (PRP They)) (VP (MD will) (VP (VB discuss) (NP (NP (DT the) (NNS possibilities)) (VP (VBG remaining) (PP (IN in) (NP (NP (NP (NNP Mr.) (NNP Clinton) (POS 's)) (NN term)) (PP (IN as) (NP (NNP President))))))))) (. .)))" mmax_level="parse" />
+</markables>

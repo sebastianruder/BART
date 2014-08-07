@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_35" tag="(S1 (S (NP (NP (NNP Standard) (CC &amp;) (NNP Poor) (POS 's)) (NNP Corp.)) (VP (VBD said) (SBAR (S (NP (PRP it)) (VP (MD would) (VP (VB add) (NP (NP (NNP John) (NNP H.) (NNP Harland) (NNP Co.)) (, ,) (NP (DT an) (NNP Atlanta) (NN check) (NN printer))) (, ,) (PP (IN to) (NP (PRP$ its) (NML (CD 500) (HYPH -) (NN stock)) (NN index))) (, ,) (ADJP (JJ effective) (PP (IN at) (NP (NP (DT the) (NN close)) (PP (IN of) (NP (NP (NN trading)) (PP (IN on) (NP (NNP Wednesday))))))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_36..word_56" tag="(S1 (S (NP (NP (NNP American) (NNP Medical) (NNP International) (NNP Inc.)) (, ,) (NP (DT a) (NML (NNP New) (NNP York)) (NN hospital) (NN operator)) (, ,)) (VP (MD will) (VP (VB be) (VP (VBN deleted) (PP (IN from) (NP (DT the) (NN index))) (PP (IN at) (NP (DT that) (NN time)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_57..word_62" tag="(S1 (S (NP (NNP American) (NNP Medical)) (VP (VBZ is) (VP (VBG being) (VP (VBN acquired)))) (. .)))" mmax_level="parse" />
+</markables>

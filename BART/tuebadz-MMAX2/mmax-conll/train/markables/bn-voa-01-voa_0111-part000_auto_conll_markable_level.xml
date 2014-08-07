@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_12" span="word_1..word_3" sentenceid="1" label="organization" min_ids="word_1..word_3" type="enamex" lemmata="the united nations" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_7..word_12" sentenceid="1" label="np" min_ids="word_7..word_8" type="chunk" lemmata="a team of un security expert" isprenominal="false" pos="dt nn in nnp nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_10" sentenceid="1" label="organization" type="enamex" lemmata="un" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_10..word_12" sentenceid="1" label="np" min_ids="word_10..word_12" type="chunk" lemmata="un security expert" isprenominal="false" pos="nnp nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_14" sentenceid="1" label="location" type="enamex" lemmata="indonesian" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_14..word_16" sentenceid="1" label="location" min_ids="word_14..word_16" type="enamex" lemmata="indonesian west timor" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_20" sentenceid="1" label="np" min_ids="word_20..word_20" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_24..word_26" sentenceid="1" label="np" min_ids="word_24..word_26" type="chunk" lemmata="international aid worker" isprenominal="false" pos="jj nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_30..word_37" sentenceid="1" label="np" min_ids="word_30..word_31" type="chunk" lemmata="the killing of three un aid worker there" isprenominal="false" pos="dt nn in cd nnp nn nns rb" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_33" sentenceid="1" label="percent" type="enamex" lemmata="three" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_33..word_37" sentenceid="1" label="np" min_ids="word_33..word_36" type="chunk" lemmata="three un aid worker there" isprenominal="false" pos="cd nnp nn nns rb" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_34" sentenceid="1" label="organization" type="enamex" lemmata="un" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_38..word_40" sentenceid="1" label="date" min_ids="word_38..word_40" type="enamex" lemmata="early this year" isprenominal="false" pos="rb dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_42..word_43" sentenceid="2" label="location" min_ids="word_42..word_42" type="enamex" lemmata="namibia 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_42..word_58" sentenceid="2" label="np" min_ids="word_42..word_45" type="chunk" lemmata="namibia 's un ambassador who recently lead a fact - finding mission to east timor and indonesia" isprenominal="false" pos="nnp pos nnp nnp wp rb vbd dt nn hyph nn nn in nnp nnp cc nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_44" sentenceid="2" label="organization" type="enamex" lemmata="un" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_49..word_58" sentenceid="2" label="np" min_ids="word_49..word_53" type="chunk" lemmata="a fact - finding mission to east timor and indonesia" isprenominal="false" pos="dt nn hyph nn nn in nnp nnp cc nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_55..word_56" sentenceid="2" label="location" min_ids="word_55..word_56" type="enamex" lemmata="east timor" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_55..word_58" sentenceid="2" label="location" min_ids="word_55..word_58" type="enamex" lemmata="east timor and indonesia" isprenominal="false" pos="nnp nnp cc nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_58" sentenceid="2" label="np" min_ids="word_58..word_58" type="chunk" lemmata="indonesia" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_61" sentenceid="2" label="np" min_ids="word_61..word_61" type="chunk" lemmata="reporter" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_62" sentenceid="2" label="date" min_ids="word_62..word_62" type="enamex" lemmata="monday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_64..word_66" sentenceid="2" label="organization" min_ids="word_64..word_66" type="enamex" lemmata="the indonesian government" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_69" sentenceid="2" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_69..word_75" sentenceid="2" label="np" min_ids="word_69..word_75" type="chunk" lemmata="its willingness to discuss their propose plan" isprenominal="false" pos="prp$ nn to vb prp$ vbn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_73" sentenceid="2" label="np" type="chunk" lemmata="their" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_73..word_75" sentenceid="2" label="np" min_ids="word_73..word_75" type="chunk" lemmata="their propose plan" isprenominal="false" pos="prp$ vbn nn" speaker="-" mmax_level="markable" />
+</markables>

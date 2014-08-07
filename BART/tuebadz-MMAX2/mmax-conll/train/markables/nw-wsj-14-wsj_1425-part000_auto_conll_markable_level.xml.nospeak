@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_8" span="word_1..word_8" sentenceid="1" label="organization" min_ids="word_1..word_2" type="enamex" lemmata="translant inc. , rancho cucamonga , calif. ," isprenominal="false" pos="nnp nnp , nnp nnp , nnp ," speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_4..word_7" sentenceid="1" label="location" min_ids="word_4..word_5" type="enamex" lemmata="rancho cucamonga , calif." isprenominal="false" pos="nnp nnp , nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_7" sentenceid="1" label="location" min_ids="word_7..word_7" type="enamex" lemmata="calif." isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_10..word_20" sentenceid="1" label="np" min_ids="word_10..word_15" type="chunk" lemmata="an $ 86 million navy contract for missile - launch system" isprenominal="false" pos="dt $ cd cd nnp nn in nn hyph nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_11..word_13" sentenceid="1" label="money" type="enamex" lemmata="$ 86 million" isprenominal="false" pos="$ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_14" sentenceid="1" label="organization" type="enamex" lemmata="navy" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_17..word_20" sentenceid="1" label="np" min_ids="word_17..word_20" type="chunk" lemmata="missile - launch system" isprenominal="false" pos="nn hyph nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_22..word_24" sentenceid="2" label="organization" min_ids="word_22..word_24" type="enamex" lemmata="general electric co." isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_26..word_38" sentenceid="2" label="np" min_ids="word_26..word_32" type="chunk" lemmata="a $ 30.6 million air force contract for mx - missile nose cone" isprenominal="false" pos="dt $ cd cd nnp nnp nn in nnp hyph nn nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_27..word_29" sentenceid="2" label="money" type="enamex" lemmata="$ 30.6 million" isprenominal="false" pos="$ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_30..word_31" sentenceid="2" label="organization" type="enamex" lemmata="air force" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_34..word_35" sentenceid="2" label="object" type="enamex" lemmata="mx -" isprenominal="false" pos="nnp hyph" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_34..word_38" sentenceid="2" label="np" min_ids="word_34..word_38" type="chunk" lemmata="mx - missile nose cone" isprenominal="false" pos="nnp hyph nn nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_40..word_44" sentenceid="3" label="organization" min_ids="word_40..word_44" type="enamex" lemmata="goodyear tire &amp;amp; rubber co." isprenominal="false" pos="nnp nnp cc nn nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_47..word_57" sentenceid="3" label="np" min_ids="word_47..word_52" type="chunk" lemmata="a $ 19.1 million army contract for armored - vehicle part" isprenominal="false" pos="dt $ cd cd nnp nn in jj hyph nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_48..word_50" sentenceid="3" label="money" type="enamex" lemmata="$ 19.1 million" isprenominal="false" pos="$ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_51" sentenceid="3" label="organization" type="enamex" lemmata="army" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_54..word_57" sentenceid="3" label="np" min_ids="word_54..word_57" type="chunk" lemmata="armored - vehicle part" isprenominal="false" pos="jj hyph nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_59..word_61" sentenceid="4" label="organization" min_ids="word_59..word_61" type="enamex" lemmata="analytic sciences corp." isprenominal="false" pos="jj nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_64..word_73" sentenceid="4" label="np" min_ids="word_64..word_70" type="chunk" lemmata="a $ 10.1 million air force contract for technical support" isprenominal="false" pos="dt $ cd cd nnp nnp nn in jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_65..word_67" sentenceid="4" label="money" type="enamex" lemmata="$ 10.1 million" isprenominal="false" pos="$ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_68..word_69" sentenceid="4" label="organization" type="enamex" lemmata="air force" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_72..word_73" sentenceid="4" label="np" min_ids="word_72..word_73" type="chunk" lemmata="technical support" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+</markables>

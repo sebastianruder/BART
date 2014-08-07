@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_8" sentenceid="1" label="np" min_ids="word_1..word_2" type="chunk" lemmata="a seat on the chicago board of trade" isprenominal="false" pos="dt nn in dt nnp nnp in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_4..word_8" sentenceid="1" label="organization" min_ids="word_5..word_8" type="enamex" lemmata="the chicago board of trade" isprenominal="false" pos="dt nnp nnp in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_12..word_13" sentenceid="1" label="money" min_ids="word_12..word_13" type="enamex" lemmata="$ 390,000" isprenominal="false" pos="$ cd" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_17..word_21" sentenceid="1" label="np" min_ids="word_17..word_19" type="chunk" lemmata="the previous sale oct. 13" isprenominal="false" pos="dt jj nn nnp cd" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_20..word_21" sentenceid="1" label="date" min_ids="word_20..word_21" type="enamex" lemmata="oct. 13" isprenominal="false" pos="nnp cd" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_23" sentenceid="2" label="np" min_ids="word_23..word_23" type="chunk" lemmata="seats" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_28..word_34" sentenceid="2" label="money" min_ids="word_28..word_29" type="enamex" lemmata="$ 361,000 bid , $ 395,000 ask" isprenominal="false" pos="$ cd nn , $ cd vbn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_32..word_34" sentenceid="2" label="money" min_ids="word_32..word_33" type="enamex" lemmata="$ 395,000 ask" isprenominal="false" pos="$ cd vbn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_36..word_45" sentenceid="3" label="np" min_ids="word_36..word_38" type="chunk" lemmata="the record price for a full membership on the exchange" isprenominal="false" pos="dt nn nn in dt jj nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_40..word_45" sentenceid="3" label="np" min_ids="word_40..word_42" type="chunk" lemmata="a full membership on the exchange" isprenominal="false" pos="dt jj nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_44..word_45" sentenceid="3" label="np" min_ids="word_44..word_45" type="chunk" lemmata="the exchange" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_47..word_48" sentenceid="3" label="money" min_ids="word_47..word_48" type="enamex" lemmata="$ 550,000" isprenominal="false" pos="$ cd" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_51..word_54" sentenceid="3" label="date" min_ids="word_51..word_54" type="enamex" lemmata="aug. 31 , 1987" isprenominal="false" pos="nnp cd , cd" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_54" sentenceid="3" label="np" min_ids="word_54..word_54" type="chunk" lemmata="1987" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+</markables>

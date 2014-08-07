@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_3" tag="(S1 (INTJ (JJ Good) (NN evening) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_4..word_27" tag="(S1 (S (NP (NP (NN Coalition) (NNS forces)) (PP (IN in) (NP (NNP Baghdad)))) (VP (VBP have) (VP (VBN arrested) (NP (NP (DT the) (JJ Palestinian) (NN terrorist)) (SBAR (WHNP (WP who)) (S (VP (VBD led) (NP (NP (DT the) (NN hijacking)) (PP (IN of) (NP (DT the) (JJ Italian) (NN cruise) (NN ship)))) (S (NP (DT the) (NML (NNP Achille) (NNP Lauro))) (PP (IN in) (NP (CD 1985)))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_28..word_49" tag="(S1 (S (PP (IN During) (NP (DT that) (NN hijacking))) (NP (DT the) (NNS terrorists)) (VP (VBD shot) (CC and) (VBD killed) (NP (DT a) (JJ disabled) (NNP American) (, ,) (NNP Leon) (NNP Klinghoffer) (, ,)) (SBAR (IN as) (S (NP (PRP he)) (VP (VBD sat) (PP (IN in) (NP (PRP$ his) (NN wheelchair))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_50..word_55" tag="(S1 (S (NP (PRP They)) (VP (VBD threw) (NP (PRP$ his) (NN body)) (ADVP (RB overboard))) (. .)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_56..word_66" tag="(S1 (S (NP (NP (NML (JJ National) (NN security)) (NN correspondent)) (NP (NNP David) (NNP Ensor))) (VP (VBZ joins) (NP (PRP us)) (ADVP (RB live) (PP (IN from) (NP (NNP Washington))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10006" span="word_67..word_68" tag="(S1 (NP (NNP David) (. ?)))" mmax_level="parse" />
+</markables>

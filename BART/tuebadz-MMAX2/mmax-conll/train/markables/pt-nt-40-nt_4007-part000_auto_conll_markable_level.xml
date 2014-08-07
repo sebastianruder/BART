@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_75" span="word_8" sentenceid="1" label="person" min_ids="word_8..word_8" type="enamex" lemmata="god" isprenominal="false" pos="nnp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_0" span="word_12" sentenceid="1" label="np" min_ids="word_12..word_12" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_1" span="word_15" sentenceid="2" label="np" min_ids="word_15..word_15" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_2" span="word_19" sentenceid="2" label="np" min_ids="word_19..word_19" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_3" span="word_23..word_28" sentenceid="2" label="np" min_ids="word_23..word_25" type="chunk" lemmata="the same way you judge they" isprenominal="false" pos="dt jj nn prp vbp prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_4" span="word_26" sentenceid="2" label="np" min_ids="word_26..word_26" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_5" span="word_28" sentenceid="2" label="np" min_ids="word_28..word_28" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_76" span="word_30" sentenceid="3" label="person" min_ids="word_30..word_30" type="enamex" lemmata="god" isprenominal="false" pos="nnp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_6" span="word_33" sentenceid="3" label="np" min_ids="word_33..word_33" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_7" span="word_34..word_39" sentenceid="3" label="np" min_ids="word_34..word_36" type="chunk" lemmata="the same way you treat other" isprenominal="false" pos="dt jj nn prp vbp nns" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_8" span="word_37" sentenceid="3" label="np" min_ids="word_37..word_37" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_9" span="word_44" sentenceid="4" label="np" min_ids="word_44..word_44" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_10" span="word_46..word_50" sentenceid="4" label="np" min_ids="word_46..word_48" type="chunk" lemmata="the small piece of dust" isprenominal="false" pos="dt jj nn in nn" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_11" span="word_50" sentenceid="4" label="np" min_ids="word_50..word_50" type="chunk" lemmata="dust" isprenominal="false" pos="nn" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_78" span="word_54" sentenceid="4" label="np" type="chunk" lemmata="your" isprenominal="true" pos="prp$" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_12" span="word_54..word_56" sentenceid="4" label="np" min_ids="word_54..word_55" type="chunk" lemmata="your friend 's" isprenominal="false" pos="prp$ nn pos" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_13" span="word_54..word_57" sentenceid="4" label="np" min_ids="word_54..word_57" type="chunk" lemmata="your friend 's eye" isprenominal="false" pos="prp$ nn pos nn" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_14" span="word_60" sentenceid="4" label="np" min_ids="word_60..word_60" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_15" span="word_64..word_73" sentenceid="4" label="np" min_ids="word_64..word_66" type="chunk" lemmata="the big piece of wood that be in your own" isprenominal="false" pos="dt jj nn in nn wdt vbz in prp$ jj" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_16" span="word_68" sentenceid="4" label="np" min_ids="word_68..word_68" type="chunk" lemmata="wood" isprenominal="false" pos="nn" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_79" span="word_72" sentenceid="4" label="np" type="chunk" lemmata="your" isprenominal="true" pos="prp$" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_17" span="word_72..word_73" sentenceid="4" label="np" min_ids="word_72..word_73" type="chunk" lemmata="your own" isprenominal="false" pos="prp$ jj" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_18" span="word_77" sentenceid="5" label="np" min_ids="word_77..word_77" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_80" span="word_80" sentenceid="5" label="np" type="chunk" lemmata="your" isprenominal="true" pos="prp$" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_19" span="word_80..word_81" sentenceid="5" label="np" min_ids="word_80..word_81" type="chunk" lemmata="your friend" isprenominal="false" pos="prp$ nn" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_20" span="word_85" sentenceid="5" label="np" min_ids="word_85..word_85" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_21" span="word_87..word_90" sentenceid="5" label="np" min_ids="word_87..word_88" type="chunk" lemmata="that piece of dust" isprenominal="false" pos="dt nn in nn" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_22" span="word_90" sentenceid="5" label="np" min_ids="word_90..word_90" type="chunk" lemmata="dust" isprenominal="false" pos="nn" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_81" span="word_93" sentenceid="5" label="np" type="chunk" lemmata="your" isprenominal="true" pos="prp$" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_23" span="word_93..word_94" sentenceid="5" label="np" min_ids="word_93..word_94" type="chunk" lemmata="your eye" isprenominal="false" pos="prp$ nn" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_24" span="word_99" sentenceid="6" label="np" min_ids="word_99..word_99" type="chunk" lemmata="yourself" isprenominal="false" pos="prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_25" span="word_102" sentenceid="7" label="np" min_ids="word_102..word_102" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_26" span="word_105..word_109" sentenceid="7" label="np" min_ids="word_105..word_107" type="chunk" lemmata="that big piece of wood" isprenominal="false" pos="dt jj nn in nn" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_27" span="word_109" sentenceid="7" label="np" min_ids="word_109..word_109" type="chunk" lemmata="wood" isprenominal="false" pos="nn" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_82" span="word_111" sentenceid="7" label="np" type="chunk" lemmata="your" isprenominal="true" pos="prp$" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_28" span="word_111..word_113" sentenceid="7" label="np" min_ids="word_111..word_113" type="chunk" lemmata="your own eye" isprenominal="false" pos="prp$ jj nn" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_29" span="word_115" sentenceid="8" label="np" min_ids="word_115..word_115" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_30" span="word_117..word_118" sentenceid="8" label="np" min_ids="word_117..word_118" type="chunk" lemmata="a hypocrite" isprenominal="false" pos="dt nn" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_31" span="word_123..word_124" sentenceid="9" label="np" min_ids="word_123..word_124" type="chunk" lemmata="the wood" isprenominal="false" pos="dt nn" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_83" span="word_127" sentenceid="9" label="np" type="chunk" lemmata="your" isprenominal="true" pos="prp$" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_32" span="word_127..word_129" sentenceid="9" label="np" min_ids="word_127..word_129" type="chunk" lemmata="your own eye" isprenominal="false" pos="prp$ jj nn" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_33" span="word_132" sentenceid="10" label="np" min_ids="word_132..word_132" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_34" span="word_138..word_139" sentenceid="10" label="np" min_ids="word_138..word_139" type="chunk" lemmata="the dust" isprenominal="false" pos="dt nn" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_84" span="word_142" sentenceid="10" label="np" type="chunk" lemmata="your" isprenominal="true" pos="prp$" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_35" span="word_142..word_144" sentenceid="10" label="np" min_ids="word_142..word_143" type="chunk" lemmata="your friend 's" isprenominal="false" pos="prp$ nn pos" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_36" span="word_142..word_145" sentenceid="10" label="np" min_ids="word_142..word_145" type="chunk" lemmata="your friend 's eye" isprenominal="false" pos="prp$ nn pos nn" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_37" span="word_151..word_156" sentenceid="11" label="np" min_ids="word_151..word_151" type="chunk" lemmata="something that be holy to dog" isprenominal="false" pos="nn wdt vbz jj in nns" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_38" span="word_156" sentenceid="11" label="np" min_ids="word_156..word_156" type="chunk" lemmata="dog" isprenominal="false" pos="nns" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_39" span="word_158" sentenceid="12" label="np" min_ids="word_158..word_158" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_40" span="word_164" sentenceid="12" label="np" min_ids="word_164..word_164" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_85" span="word_170" sentenceid="13" label="np" type="chunk" lemmata="your" isprenominal="true" pos="prp$" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_41" span="word_170..word_171" sentenceid="13" label="np" min_ids="word_170..word_171" type="chunk" lemmata="your pearl" isprenominal="false" pos="prp$ nns" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_42" span="word_173" sentenceid="13" label="np" min_ids="word_173..word_173" type="chunk" lemmata="pig" isprenominal="false" pos="nns" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_43" span="word_175" sentenceid="14" label="np" min_ids="word_175..word_175" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_44" span="word_180" sentenceid="14" label="np" min_ids="word_180..word_180" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_77" span="word_188" sentenceid="15" label="person" min_ids="word_188..word_188" type="enamex" lemmata="god" isprenominal="false" pos="nnp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_45" span="word_192" sentenceid="15" label="np" min_ids="word_192..word_192" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_46" span="word_199" sentenceid="16" label="np" min_ids="word_199..word_199" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_47" span="word_208..word_209" sentenceid="17" label="np" min_ids="word_208..word_209" type="chunk" lemmata="the door" isprenominal="false" pos="dt nn" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_48" span="word_213" sentenceid="17" label="np" min_ids="word_213..word_213" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_49" span="word_238..word_239" sentenceid="20" label="np" min_ids="word_238..word_239" type="chunk" lemmata="the door" isprenominal="false" pos="dt nn" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_50" span="word_242" sentenceid="20" label="np" min_ids="word_242..word_242" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_51" span="word_246..word_248" sentenceid="21" label="np" min_ids="word_246..word_246" type="chunk" lemmata="any of you" isprenominal="false" pos="dt in prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_52" span="word_248" sentenceid="21" label="np" min_ids="word_248..word_248" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_53" span="word_250..word_251" sentenceid="21" label="np" min_ids="word_250..word_251" type="chunk" lemmata="a son" isprenominal="false" pos="dt nn" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_54" span="word_254" sentenceid="22" label="np" min_ids="word_254..word_254" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_55" span="word_257" sentenceid="22" label="np" min_ids="word_257..word_257" type="chunk" lemmata="bread" isprenominal="false" pos="nn" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_56" span="word_260" sentenceid="22" label="np" min_ids="word_260..word_260" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_57" span="word_262" sentenceid="22" label="np" min_ids="word_262..word_262" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_58" span="word_263..word_264" sentenceid="22" label="np" min_ids="word_263..word_264" type="chunk" lemmata="a rock" isprenominal="false" pos="dt nn" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_59" span="word_268" sentenceid="23" label="np" min_ids="word_268..word_268" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_60" span="word_271..word_272" sentenceid="23" label="np" min_ids="word_271..word_272" type="chunk" lemmata="a fish" isprenominal="false" pos="dt nn" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_61" span="word_275" sentenceid="23" label="np" min_ids="word_275..word_275" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_62" span="word_277" sentenceid="23" label="np" min_ids="word_277..word_277" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_63" span="word_278..word_279" sentenceid="23" label="np" min_ids="word_278..word_279" type="chunk" lemmata="a snake" isprenominal="false" pos="dt nn" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_64" span="word_285..word_286" sentenceid="25" label="np" min_ids="word_285..word_286" type="chunk" lemmata="you people" isprenominal="false" pos="prp nns" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_65" span="word_292" sentenceid="25" label="np" min_ids="word_292..word_292" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_66" span="word_298..word_299" sentenceid="25" label="np" min_ids="word_298..word_299" type="chunk" lemmata="good thing" isprenominal="false" pos="jj nns" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_86" span="word_301" sentenceid="25" label="np" type="chunk" lemmata="your" isprenominal="true" pos="prp$" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_67" span="word_301..word_302" sentenceid="25" label="np" min_ids="word_301..word_302" type="chunk" lemmata="your child" isprenominal="false" pos="prp$ nns" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_87" span="word_306" sentenceid="26" label="np" type="chunk" lemmata="your" isprenominal="true" pos="prp$" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_68" span="word_306..word_308" sentenceid="26" label="np" min_ids="word_306..word_308" type="chunk" lemmata="your heavenly father" isprenominal="false" pos="prp$ jj nn" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_69" span="word_311..word_312" sentenceid="26" label="np" min_ids="word_311..word_312" type="chunk" lemmata="good thing" isprenominal="false" pos="jj nns" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_70" span="word_314..word_317" sentenceid="26" label="np" min_ids="word_314..word_314" type="chunk" lemmata="those who ask he" isprenominal="false" pos="dt wp vb prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_71" span="word_317" sentenceid="26" label="np" min_ids="word_317..word_317" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_72" span="word_324" sentenceid="27" label="np" min_ids="word_324..word_324" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_73" span="word_327" sentenceid="27" label="np" min_ids="word_327..word_327" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="Matthew" mmax_level="markable" />
+<markable id="markable_74" span="word_331" sentenceid="27" label="np" min_ids="word_331..word_331" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="Matthew" mmax_level="markable" />
+</markables>

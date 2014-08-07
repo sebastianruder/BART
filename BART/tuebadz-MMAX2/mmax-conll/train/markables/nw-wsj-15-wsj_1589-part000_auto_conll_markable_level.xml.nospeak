@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_15" span="word_1..word_9" sentenceid="1" label="organization" min_ids="word_1..word_4" type="enamex" lemmata="coca - cola co . -lrb- atlanta -rrb- --" isprenominal="false" pos="nnp hyph nnp nnp . -lrb- nnp -rrb- :" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_7" sentenceid="1" label="location" min_ids="word_7..word_7" type="enamex" lemmata="atlanta" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_10..word_11" sentenceid="2" label="person" min_ids="word_10..word_11" type="enamex" lemmata="anton amon" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_10..word_14" sentenceid="2" label="person" min_ids="word_10..word_14" type="enamex" lemmata="anton amon and george gourlay" isprenominal="false" pos="nnp nnp cc nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_13..word_14" sentenceid="2" label="np" min_ids="word_13..word_14" type="chunk" lemmata="george gourlay" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_17..word_24" sentenceid="2" label="np" min_ids="word_17..word_18" type="chunk" lemmata="vice president of this soft - drink company" isprenominal="false" pos="nn nns in dt jj hyph nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_20..word_24" sentenceid="2" label="np" min_ids="word_20..word_24" type="chunk" lemmata="this soft - drink company" isprenominal="false" pos="dt jj hyph nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_26..word_32" sentenceid="3" label="person" min_ids="word_26..word_27" type="enamex" lemmata="mr. amon , 46 year old ," isprenominal="false" pos="nnp nnp , cd nns jj ," speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_29..word_31" sentenceid="3" label="date" type="enamex" lemmata="46 year old" isprenominal="false" pos="cd nns jj" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_34..word_36" sentenceid="3" label="np" min_ids="word_34..word_35" type="chunk" lemmata="the company 's" isprenominal="false" pos="dt nn pos" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_34..word_40" sentenceid="3" label="np" min_ids="word_34..word_37" type="chunk" lemmata="the company 's director of quality assurance" isprenominal="false" pos="dt nn pos nn in nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_39..word_40" sentenceid="3" label="np" min_ids="word_39..word_40" type="chunk" lemmata="quality assurance" isprenominal="false" pos="nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_45" sentenceid="3" label="np" min_ids="word_45..word_45" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_48..word_57" sentenceid="3" label="np" min_ids="word_48..word_49" type="chunk" lemmata="vice president , operation , for coca - cola enterprises" isprenominal="false" pos="nn nn , nns , in nnp hyph nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_51" sentenceid="3" label="np" min_ids="word_51..word_51" type="chunk" lemmata="operation" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_54..word_57" sentenceid="3" label="organization" min_ids="word_54..word_57" type="enamex" lemmata="coca - cola enterprises" isprenominal="false" pos="nnp hyph nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_59..word_63" sentenceid="4" label="person" min_ids="word_59..word_60" type="enamex" lemmata="mr. gourlay , 48 ," isprenominal="false" pos="nnp nnp , cd ," speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_62" sentenceid="4" label="np" min_ids="word_62..word_62" type="chunk" lemmata="48" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_65..word_69" sentenceid="4" label="np" min_ids="word_65..word_65" type="chunk" lemmata="manager for corporate manufacturing operation" isprenominal="false" pos="nn in jj nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_67..word_69" sentenceid="4" label="np" min_ids="word_67..word_69" type="chunk" lemmata="corporate manufacturing operation" isprenominal="false" pos="jj nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_71" sentenceid="4" label="np" min_ids="word_71..word_71" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_73..word_78" sentenceid="4" label="np" min_ids="word_73..word_75" type="chunk" lemmata="assistant vice president at the company" isprenominal="false" pos="nn nn nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_77..word_78" sentenceid="4" label="np" min_ids="word_77..word_78" type="chunk" lemmata="the company" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+</markables>

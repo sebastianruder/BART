@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_13" tag="(S1 (FRAG (NP (NNP Xinhua) (NNP News) (NNP Agency)) (, ,) (NP (NNP Shanghai)) (, ,) (NP (NNP August) (NN 31st)) (, ,) (PP (IN by) (NP (NN reporter) (NNP Jierong) (NNP Zhou)))))" mmax_level="parse" />
+<markable id="markable_10002" span="word_14..word_31" tag="(S1 (S (NP (NML (JJ Malaysian) (JJ vice-prime) (NN minister)) (NNP Anwar)) (VP (VP (VBD ended) (NP (NP (DT a) (NN visit)) (PP (IN to) (NP (NNP China)))) (NP (DT this) (NN afternoon))) (, ,) (CC and) (VP (VBD left) (NP (NNP Shanghai)) (PP (IN for) (NP (NNP Tokyo))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_32..word_40" tag="(S1 (S (NP (NNP Anwar)) (VP (VBD arrived) (PP (IN in) (NP (NNP Shanghai))) (PP (IN from) (NP (NNP Nanjing))) (NP (NN yesterday) (NN afternoon))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_41..word_66" tag="(S1 (S (NP (JJ Last) (NN night)) (, ,) (NP (NP (DT the) (NN vice-mayor)) (PP (IN of) (NP (NNP Shanghai)))) (, ,) (NP (NNP Qizheng) (NNP Zhao)) (VP (VBD represented) (NP (NNP mayor) (NNP Ju) (NNP Huang)) (PP (IN by) (S (VP (VBG meeting) (CC and) (VBG inviting) (NP (NP (NNP Anwar)) (CC and) (NP (PRP$ his) (NN delegation))) (PP (IN to) (NP (DT a) (NN banquet))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_67..word_97" tag="(S1 (S (NP (DT This) (NN morning)) (, ,) (NP (NNP Anwar)) (VP (VP (VBD attended) (NP (NP (DT the) (NN foundation) (VBG laying) (NN ceremony)) (PP (IN of) (NP (DT the) (NML (NML (NNP Minhang) (NNP China)) (HYPH -) (NP (NNP Malaysia))) (NML (JJ joint) (HYPH -) (NN venture)) (NN enterprise))))) (, ,) (CC and) (PP (IN after) (NP (DT that))) (VP (VBD toured) (NP (NP (NNP Pudong) (POS 's)) (NNP Jingqiao) (NML (NN export) (NN processing)) (NN district)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10006" span="word_98..word_100" tag="(S1 (NP (-LRB- -LRB-) (NN End) (-RRB- -RRB-)))" mmax_level="parse" />
+</markables>

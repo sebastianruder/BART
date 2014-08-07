@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_9" span="word_1" sentenceid="1" label="location" type="enamex" lemmata="iraqi" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_1..word_6" sentenceid="1" label="person" min_ids="word_1..word_6" type="enamex" lemmata="iraqi deputy prime minister tariq aziz" isprenominal="false" pos="jj nnp nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_9..word_10" sentenceid="1" label="location" min_ids="word_9..word_9" type="enamex" lemmata="baghdad 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_9..word_19" sentenceid="1" label="np" min_ids="word_9..word_12" type="chunk" lemmata="baghdad 's strong opposition to the resumption of un weapon inspection" isprenominal="false" pos="nnp pos jj nn in dt nn in nnp nns nns" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_14..word_19" sentenceid="1" label="np" min_ids="word_14..word_15" type="chunk" lemmata="the resumption of un weapon inspection" isprenominal="false" pos="dt nn in nnp nns nns" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_17" sentenceid="1" label="organization" type="enamex" lemmata="un" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_17..word_19" sentenceid="1" label="np" min_ids="word_17..word_19" type="chunk" lemmata="un weapon inspection" isprenominal="false" pos="nnp nns nns" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_23..word_27" sentenceid="2" label="np" min_ids="word_23..word_27" type="chunk" lemmata="a two - day visit" isprenominal="false" pos="dt cd hyph nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_24..word_26" sentenceid="2" label="date" type="enamex" lemmata="two - day" isprenominal="false" pos="cd hyph nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_29" sentenceid="2" label="location" min_ids="word_29..word_29" type="enamex" lemmata="moscow" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_31..word_32" sentenceid="2" label="person" min_ids="word_31..word_32" type="enamex" lemmata="mr. aziz" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_35" sentenceid="2" label="location" min_ids="word_35..word_35" type="enamex" lemmata="baghdad" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_39..word_46" sentenceid="2" label="np" min_ids="word_39..word_39" type="chunk" lemmata="talk with the united nations on the issue" isprenominal="false" pos="nns in dt nnp nnp in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_41..word_43" sentenceid="2" label="organization" min_ids="word_41..word_43" type="enamex" lemmata="the united nations" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_45..word_46" sentenceid="2" label="np" min_ids="word_45..word_46" type="chunk" lemmata="the issue" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_48..word_50" sentenceid="3" label="date" min_ids="word_48..word_50" type="enamex" lemmata="earlier this week" isprenominal="false" pos="rbr dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_52" sentenceid="3" label="organization" type="enamex" lemmata="un" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_52..word_56" sentenceid="3" label="np" min_ids="word_52..word_53" type="chunk" lemmata="un official in new york" isprenominal="false" pos="nnp nns in nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_55..word_56" sentenceid="3" label="location" min_ids="word_55..word_56" type="enamex" lemmata="new york" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_58..word_61" sentenceid="3" label="person" min_ids="word_58..word_61" type="enamex" lemmata="secretary general kofi annan" isprenominal="false" pos="nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_66" sentenceid="3" label="location" type="enamex" lemmata="iraqi" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_66..word_70" sentenceid="3" label="np" min_ids="word_66..word_67" type="chunk" lemmata="iraqi official in early january" isprenominal="false" pos="jj nns in jj nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_69..word_70" sentenceid="3" label="date" min_ids="word_69..word_70" type="enamex" lemmata="early january" isprenominal="false" pos="jj nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_72" sentenceid="4" label="np" min_ids="word_72..word_72" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_74..word_78" sentenceid="4" label="person" min_ids="word_74..word_75" type="enamex" lemmata="david coler , voa news" isprenominal="false" pos="nnp nnp , nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_77..word_78" sentenceid="4" label="organization" min_ids="word_77..word_78" type="enamex" lemmata="voa news" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+</markables>

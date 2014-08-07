@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_9" span="word_2..word_3" sentenceid="1" label="object" min_ids="word_2..word_3" type="enamex" lemmata="camp side" isprenominal="false" pos="nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_4" sentenceid="1" label="location" type="enamex" lemmata="holland" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_4..word_5" sentenceid="1" label="np" min_ids="word_4..word_5" type="chunk" lemmata="holland prosecutor" isprenominal="false" pos="nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_7..word_8" sentenceid="1" label="np" min_ids="word_7..word_8" type="chunk" lemmata="the court" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_11" sentenceid="1" label="percent" type="enamex" lemmata="two" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_11..word_12" sentenceid="1" label="location" min_ids="word_11..word_12" type="enamex" lemmata="two libyans" isprenominal="false" pos="cd nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_15" sentenceid="1" label="percent" type="enamex" lemmata="270" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_15..word_16" sentenceid="1" label="np" min_ids="word_15..word_16" type="chunk" lemmata="270 people" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_18..word_26" sentenceid="1" label="np" min_ids="word_18..word_23" type="chunk" lemmata="the pan am flight 103 bombing back in 1988" isprenominal="false" pos="dt nnp nnp nnp cd nn rb in cd" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_19..word_22" sentenceid="1" label="object" type="enamex" lemmata="pan am flight 103" isprenominal="false" pos="nnp nnp nnp cd" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_26" sentenceid="1" label="date" min_ids="word_26..word_26" type="enamex" lemmata="1988" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_28..word_31" sentenceid="2" label="np" min_ids="word_28..word_28" type="chunk" lemmata="lawyers for the defendant" isprenominal="false" pos="nns in dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_30..word_31" sentenceid="2" label="np" min_ids="word_30..word_31" type="chunk" lemmata="the defendant" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_37" sentenceid="2" label="np" type="chunk" lemmata="their" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_37..word_38" sentenceid="2" label="np" min_ids="word_37..word_38" type="chunk" lemmata="their case" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_39" sentenceid="2" label="date" min_ids="word_39..word_39" type="enamex" lemmata="wednesday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_41..word_42" sentenceid="2" label="np" min_ids="word_41..word_42" type="chunk" lemmata="a verdict" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_45..word_49" sentenceid="2" label="date" type="enamex" lemmata="as early as next week" isprenominal="false" pos="rb rb in jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_48..word_49" sentenceid="2" label="np" min_ids="word_48..word_49" type="chunk" lemmata="next week" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+</markables>

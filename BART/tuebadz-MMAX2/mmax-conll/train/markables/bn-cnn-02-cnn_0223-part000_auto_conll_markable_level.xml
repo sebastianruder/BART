@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1" sentenceid="1" label="np" min_ids="word_1..word_1" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_3..word_4" sentenceid="1" label="person" min_ids="word_3..word_4" type="enamex" lemmata="alisha davis" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_9..word_12" sentenceid="2" label="person" min_ids="word_10..word_12" type="enamex" lemmata="the king of pop" isprenominal="false" pos="dt nn in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_12" sentenceid="2" label="np" min_ids="word_12..word_12" type="chunk" lemmata="pop" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_15" sentenceid="3" label="np" min_ids="word_15..word_15" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_18" sentenceid="3" label="np" min_ids="word_18..word_18" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_19..word_22" sentenceid="3" label="np" min_ids="word_19..word_20" type="chunk" lemmata="the king of lawsuit" isprenominal="false" pos="dt nn in nns" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_22" sentenceid="3" label="np" min_ids="word_22..word_22" type="chunk" lemmata="lawsuit" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_24..word_25" sentenceid="4" label="person" min_ids="word_24..word_25" type="enamex" lemmata="michael jackson" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_27" sentenceid="4" label="np" min_ids="word_27..word_27" type="chunk" lemmata="suit" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_29..word_37" sentenceid="4" label="organization" min_ids="word_29..word_30" type="enamex" lemmata="universal music , the parent company of motown records" isprenominal="false" pos="nnp nnp , dt nn nn in nnp nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_32..word_37" sentenceid="4" label="np" min_ids="word_32..word_34" type="chunk" lemmata="the parent company of motown records" isprenominal="false" pos="dt nn nn in nnp nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_36..word_37" sentenceid="4" label="organization" min_ids="word_36..word_37" type="enamex" lemmata="motown records" isprenominal="false" pos="nnp nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_39" sentenceid="4" label="np" min_ids="word_39..word_39" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_41" sentenceid="4" label="np" min_ids="word_41..word_41" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_43..word_53" sentenceid="4" label="np" min_ids="word_43..word_43" type="chunk" lemmata="music he record with the jackson five back in the 1970" isprenominal="false" pos="nn prp vbd in dt nnp nnp nn in dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_44" sentenceid="4" label="np" min_ids="word_44..word_44" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_47..word_50" sentenceid="4" label="np" min_ids="word_47..word_50" type="chunk" lemmata="the jackson five back" isprenominal="false" pos="dt nnp nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_48..word_49" sentenceid="4" label="organization" type="enamex" lemmata="jackson five" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_52..word_53" sentenceid="4" label="date" min_ids="word_52..word_53" type="enamex" lemmata="the 1970" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_55..word_57" sentenceid="5" label="np" min_ids="word_55..word_57" type="chunk" lemmata="the gloved one" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_59..word_60" sentenceid="5" label="np" min_ids="word_59..word_60" type="chunk" lemmata="the label" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_64..word_65" sentenceid="5" label="np" min_ids="word_64..word_65" type="chunk" lemmata="new album" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_64..word_68" sentenceid="5" label="organization" min_ids="word_64..word_68" type="enamex" lemmata="new album and jackson five" isprenominal="false" pos="jj nns cc nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_69" sentenceid="5" label="np" min_ids="word_69..word_69" type="chunk" lemmata="merchandise" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_72" sentenceid="5" label="np" min_ids="word_72..word_72" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_73..word_76" sentenceid="5" label="money" min_ids="word_73..word_76" type="enamex" lemmata="`` a single dollar" isprenominal="false" pos="`` dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_79" sentenceid="6" label="person" min_ids="word_79..word_79" type="enamex" lemmata="jackson" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_86" sentenceid="6" label="np" min_ids="word_86..word_86" type="chunk" lemmata="courtroom" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_93" sentenceid="7" label="np" min_ids="word_93..word_93" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_98..word_102" sentenceid="7" label="np" min_ids="word_98..word_100" type="chunk" lemmata="an auction house for non-payment" isprenominal="false" pos="dt nn nn in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_102" sentenceid="7" label="np" min_ids="word_102..word_102" type="chunk" lemmata="non-payment" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_106..word_116" sentenceid="7" label="np" min_ids="word_106..word_108" type="chunk" lemmata="a concert promoter for allegedly back out of two millennium performance" isprenominal="false" pos="dt nn nn in rb vbg in in cd nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_34" span="word_114" sentenceid="7" label="percent" type="enamex" lemmata="two" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_114..word_116" sentenceid="7" label="np" min_ids="word_114..word_116" type="chunk" lemmata="two millennium performance" isprenominal="false" pos="cd nn nns" speaker="-" mmax_level="markable" />
+</markables>

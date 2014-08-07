@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_5" sentenceid="1" label="np" min_ids="word_1..word_2" type="chunk" lemmata="a runway mix - up" isprenominal="false" pos="dt nn vb hyph rp" speaker="-" mmax_level="markable" />
+<markable id="markable_35" span="word_8..word_9" sentenceid="1" label="date" min_ids="word_8..word_8" type="enamex" lemmata="tuesday 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_8..word_11" sentenceid="1" label="np" min_ids="word_8..word_11" type="chunk" lemmata="tuesday 's plane crash" isprenominal="false" pos="nnp pos nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_36" span="word_13" sentenceid="1" label="location" min_ids="word_13..word_13" type="enamex" lemmata="taiwan" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_15" sentenceid="2" label="np" min_ids="word_15..word_15" type="chunk" lemmata="investigators" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_17..word_20" sentenceid="2" label="np" min_ids="word_17..word_20" type="chunk" lemmata="the singapore airlines jet" isprenominal="false" pos="dt nnp nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_37" span="word_18..word_19" sentenceid="2" label="organization" type="enamex" lemmata="singapore airlines" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_25..word_28" sentenceid="2" label="np" min_ids="word_25..word_28" type="chunk" lemmata="runway five - left" isprenominal="false" pos="nn nnp hyph nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_33" sentenceid="2" label="np" min_ids="word_33..word_33" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_38" span="word_36" sentenceid="2" label="percent" type="enamex" lemmata="five" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_36..word_42" sentenceid="2" label="np" min_ids="word_36..word_38" type="chunk" lemmata="five - right , a parallel runway" isprenominal="false" pos="nnp hyph nnp , dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_40..word_42" sentenceid="2" label="np" min_ids="word_40..word_42" type="chunk" lemmata="a parallel runway" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_44..word_45" sentenceid="3" label="np" min_ids="word_44..word_45" type="chunk" lemmata="the plane" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_47..word_48" sentenceid="3" label="np" min_ids="word_47..word_48" type="chunk" lemmata="construction equipment" isprenominal="false" pos="nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_52..word_54" sentenceid="4" label="np" min_ids="word_52..word_52" type="chunk" lemmata="part of it" isprenominal="false" pos="nn in prp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_54" sentenceid="4" label="np" min_ids="word_54..word_54" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_58" sentenceid="5" label="np" min_ids="word_58..word_58" type="chunk" lemmata="investigators" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_60" sentenceid="5" label="np" min_ids="word_60..word_60" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_65" sentenceid="5" label="np" min_ids="word_65..word_65" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_68..word_70" sentenceid="5" label="np" min_ids="word_68..word_70" type="chunk" lemmata="the wrong runway" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_72" sentenceid="6" label="np" min_ids="word_72..word_72" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_76..word_77" sentenceid="6" label="np" min_ids="word_76..word_77" type="chunk" lemmata="the time" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_79" sentenceid="7" label="np" min_ids="word_79..word_79" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_81..word_83" sentenceid="7" label="np" min_ids="word_81..word_82" type="chunk" lemmata="the plane 's" isprenominal="false" pos="dt nn pos" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_81..word_85" sentenceid="7" label="np" min_ids="word_81..word_85" type="chunk" lemmata="the plane 's flight recorder" isprenominal="false" pos="dt nn pos nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_89..word_90" sentenceid="7" label="np" min_ids="word_89..word_90" type="chunk" lemmata="the mystery" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_92..word_93" sentenceid="8" label="np" min_ids="word_92..word_93" type="chunk" lemmata="the pilot" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_39" span="word_98" sentenceid="8" label="location" min_ids="word_98..word_98" type="enamex" lemmata="taiwan" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_100" sentenceid="8" label="np" min_ids="word_100..word_100" type="chunk" lemmata="questioning" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_40" span="word_102" sentenceid="9" label="percent" type="enamex" lemmata="81" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_102..word_103" sentenceid="9" label="np" min_ids="word_102..word_103" type="chunk" lemmata="81 people" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_107..word_118" sentenceid="9" label="np" min_ids="word_107..word_108" type="chunk" lemmata="the accident , which take place amid poor visibility and drive rain" isprenominal="false" pos="dt nn , wdt vbd nn in jj nn cc vbg nn" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_112" sentenceid="9" label="np" min_ids="word_112..word_112" type="chunk" lemmata="place" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_114..word_115" sentenceid="9" label="np" min_ids="word_114..word_115" type="chunk" lemmata="poor visibility" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_114..word_118" sentenceid="9" label="np" min_ids="word_114..word_118" type="chunk" lemmata="poor visibility and drive rain" isprenominal="false" pos="jj nn cc vbg nn" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_117..word_118" sentenceid="9" label="np" min_ids="word_117..word_118" type="chunk" lemmata="drive rain" isprenominal="false" pos="vbg nn" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_120..word_121" sentenceid="10" label="np" min_ids="word_120..word_121" type="chunk" lemmata="the airport" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_123..word_125" sentenceid="10" label="np" min_ids="word_123..word_125" type="chunk" lemmata="no ground radar" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_128..word_130" sentenceid="10" label="np" min_ids="word_128..word_130" type="chunk" lemmata="air traffic controller" isprenominal="false" pos="nn nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_135..word_136" sentenceid="10" label="np" min_ids="word_135..word_136" type="chunk" lemmata="the pilot" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_34" span="word_138..word_140" sentenceid="10" label="np" min_ids="word_138..word_140" type="chunk" lemmata="a wrong turn" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+</markables>

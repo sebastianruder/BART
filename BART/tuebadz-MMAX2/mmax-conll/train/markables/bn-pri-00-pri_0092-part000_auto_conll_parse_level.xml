@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_11" tag="(S1 (S (PP (IN From) (NP (NP (NNP NPR) (NNP News)) (PP (IN in) (NP (NNP Washington))))) (, ,) (NP (PRP I)) (VP (VBP am) (NP (NNP Corey) (NNP Flintoff))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_12..word_25" tag="(S1 (S (NP (NML (NNP President) (HYPH -) (NNP elect)) (NNP George) (NNP W.) (NNP Bush)) (ADVP (RB formally)) (VP (VBD resigned) (NP (NN today)) (PP (IN as) (NP (NP (NN governor)) (PP (IN of) (NP (NNP Texas)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_26..word_44" tag="(S1 (S (NP (PRP He)) (VP (VBD said) (SBAR (IN that) (S (NP (NP (PRP$ his) (CD six) (NNS years)) (PP (IN in) (NP (NN office)))) (VP (VBP have) (VP (VBN been) (NP (NP (DT a) (NN tribute)) (PP (IN to) (NP (JJ bipartisan) (NNS efforts)))) (PP (IN with) (NP (DT the) (NN legislature)))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_45..word_63" tag="(S1 (S (NP (PRP He)) (VP (VBD said) (SBAR (S (NP (NNP Texas)) (VP (VBZ has) (VP (VBN made) (NP (NP (JJ steady) (NN progress)) (PP (IN in) (S (VP (VBG improving) (NP (NP (NN education)) (, ,) (NP (DT the) (NML (JJ criminal) (NN justice)) (NN system)) (CC and) (NP (NN tax) (NN reform)))))))))))) (. .)))" mmax_level="parse" />
+</markables>

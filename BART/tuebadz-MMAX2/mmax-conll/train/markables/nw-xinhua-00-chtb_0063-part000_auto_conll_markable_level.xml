@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_10" span="word_1..word_3" sentenceid="1" label="organization" min_ids="word_1..word_3" type="enamex" lemmata="xinhua news agency" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_5" sentenceid="1" label="location" min_ids="word_5..word_5" type="enamex" lemmata="beijing" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_7..word_8" sentenceid="1" label="date" min_ids="word_7..word_8" type="enamex" lemmata="december 2nd" isprenominal="false" pos="nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_9..word_18" sentenceid="2" label="np" min_ids="word_9..word_9" type="chunk" lemmata="message from the ministry of foreign economic and trade :" isprenominal="false" pos="nn in dt nnp in nnp nnp cc nnp ." speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_11..word_17" sentenceid="2" label="organization" min_ids="word_12..word_17" type="enamex" lemmata="the ministry of foreign economic and trade" isprenominal="false" pos="dt nnp in nnp nnp cc nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_20..word_25" sentenceid="3" label="np" min_ids="word_20..word_21" type="chunk" lemmata="the agreement of the state council" isprenominal="false" pos="dt nn in dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_23..word_25" sentenceid="3" label="organization" min_ids="word_23..word_25" type="enamex" lemmata="the state council" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_27" sentenceid="3" label="location" min_ids="word_27..word_27" type="enamex" lemmata="china" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_32..word_48" sentenceid="3" label="np" min_ids="word_32..word_35" type="chunk" lemmata="the import taxation policy effective before mar , 31 , 1996 for import equipment and raw material" isprenominal="false" pos="dt nn nn nn jj in nnp , cd , cd in vbg nn cc jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_38..word_42" sentenceid="3" label="date" min_ids="word_38..word_42" type="enamex" lemmata="mar , 31 , 1996" isprenominal="false" pos="nnp , cd , cd" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_44..word_45" sentenceid="3" label="np" min_ids="word_44..word_45" type="chunk" lemmata="import equipment" isprenominal="false" pos="vbg nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_44..word_48" sentenceid="3" label="np" min_ids="word_44..word_48" type="chunk" lemmata="import equipment and raw material" isprenominal="false" pos="vbg nn cc jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_47..word_48" sentenceid="3" label="np" min_ids="word_47..word_48" type="chunk" lemmata="raw material" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_50..word_64" sentenceid="3" label="np" min_ids="word_50..word_53" type="chunk" lemmata="the total investment value of foreign fund enterprise approve before mar , 31 , 1996" isprenominal="false" pos="dt jj nn nn in jj vbn nns vbn in nnp , cd , cd" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_55..word_64" sentenceid="3" label="np" min_ids="word_55..word_57" type="chunk" lemmata="foreign fund enterprise approve before mar , 31 , 1996" isprenominal="false" pos="jj vbn nns vbn in nnp , cd , cd" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_60..word_64" sentenceid="3" label="date" min_ids="word_60..word_64" type="enamex" lemmata="mar , 31 , 1996" isprenominal="false" pos="nnp , cd , cd" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_66..word_67" sentenceid="3" label="np" min_ids="word_66..word_67" type="chunk" lemmata="all import" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_71..word_73" sentenceid="4" label="np" min_ids="word_71..word_73" type="chunk" lemmata="-lrb- end -rrb-" isprenominal="false" pos="-lrb- nn -rrb-" speaker="-" mmax_level="markable" />
+</markables>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_9" span="word_1..word_2" sentenceid="1" label="person" min_ids="word_1..word_2" type="enamex" lemmata="president clinton" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_6..word_17" sentenceid="1" label="np" min_ids="word_6..word_10" type="chunk" lemmata="a $ 12 million plan to give aid to iraqi opposition group" isprenominal="false" pos="dt $ cd cd nn to vb nn in jj nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_7..word_9" sentenceid="1" label="money" type="enamex" lemmata="$ 12 million" isprenominal="false" pos="$ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_13" sentenceid="1" label="np" min_ids="word_13..word_13" type="chunk" lemmata="aid" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_15" sentenceid="1" label="location" type="enamex" lemmata="iraqi" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_15..word_17" sentenceid="1" label="np" min_ids="word_15..word_17" type="chunk" lemmata="iraqi opposition group" isprenominal="false" pos="jj nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_22..word_24" sentenceid="2" label="np" min_ids="word_22..word_24" type="chunk" lemmata="the washington post" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_27..word_28" sentenceid="2" label="np" min_ids="word_27..word_28" type="chunk" lemmata="the money" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_35" sentenceid="2" label="np" min_ids="word_35..word_35" type="chunk" lemmata="food" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_37" sentenceid="2" label="np" min_ids="word_37..word_37" type="chunk" lemmata="medicine" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_37..word_41" sentenceid="2" label="np" min_ids="word_37..word_41" type="chunk" lemmata="medicine and other humanitarian relief" isprenominal="false" pos="nn cc jj jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_39..word_41" sentenceid="2" label="np" min_ids="word_39..word_41" type="chunk" lemmata="other humanitarian relief" isprenominal="false" pos="jj jj nn" speaker="-" mmax_level="markable" />
+</markables>

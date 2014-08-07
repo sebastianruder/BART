@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1" sentenceid="1" label="np" min_ids="word_1..word_1" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_3..word_7" sentenceid="1" label="person" min_ids="word_3..word_4" type="enamex" lemmata="david coler , voa news" isprenominal="false" pos="nnp nnp , nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_6..word_7" sentenceid="1" label="organization" min_ids="word_6..word_7" type="enamex" lemmata="voa news" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_9..word_11" sentenceid="2" label="organization" min_ids="word_9..word_11" type="enamex" lemmata="the white house" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_13..word_14" sentenceid="2" label="date" min_ids="word_14..word_14" type="enamex" lemmata=", sunday" isprenominal="false" pos=", nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_16..word_18" sentenceid="2" label="person" min_ids="word_16..word_18" type="enamex" lemmata="president bill clinton" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_21" sentenceid="2" label="location" type="enamex" lemmata="palestinian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_21..word_32" sentenceid="2" label="person" min_ids="word_21..word_24" type="enamex" lemmata="palestinian leader yasser arafat on thursday and israeli prime minister ehud barak" isprenominal="false" pos="jj nn nnp nnp in nnp cc jj nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_26" sentenceid="2" label="date" min_ids="word_26..word_26" type="enamex" lemmata="thursday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_28" sentenceid="2" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_28..word_32" sentenceid="2" label="person" min_ids="word_28..word_32" type="enamex" lemmata="israeli prime minister ehud barak" isprenominal="false" pos="jj nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_33..word_34" sentenceid="2" label="date" min_ids="word_33..word_34" type="enamex" lemmata="next sunday" isprenominal="false" pos="jj nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_36..word_39" sentenceid="3" label="np" min_ids="word_36..word_39" type="chunk" lemmata="a white house spokesman" isprenominal="false" pos="dt nnp nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_37..word_38" sentenceid="3" label="organization" type="enamex" lemmata="white house" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_41..word_42" sentenceid="3" label="np" min_ids="word_41..word_42" type="chunk" lemmata="the talk" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_48" sentenceid="3" label="np" type="chunk" lemmata="their" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_48..word_49" sentenceid="3" label="np" min_ids="word_48..word_49" type="chunk" lemmata="their goal" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_51..word_58" sentenceid="3" label="np" min_ids="word_51..word_52" type="chunk" lemmata="the ending of violence in the middle east" isprenominal="false" pos="dt nn in nn in dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_54..word_58" sentenceid="3" label="np" min_ids="word_54..word_54" type="chunk" lemmata="violence in the middle east" isprenominal="false" pos="nn in dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_56..word_58" sentenceid="3" label="location" min_ids="word_56..word_58" type="enamex" lemmata="the middle east" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_60..word_61" sentenceid="4" label="np" min_ids="word_60..word_61" type="chunk" lemmata="sporadic clash" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_63" sentenceid="4" label="date" min_ids="word_63..word_63" type="enamex" lemmata="sunday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_65..word_67" sentenceid="4" label="location" min_ids="word_65..word_67" type="enamex" lemmata="the gaza strip" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_69" sentenceid="4" label="percent" type="enamex" lemmata="two" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_69..word_70" sentenceid="4" label="location" min_ids="word_69..word_70" type="enamex" lemmata="two palestinians" isprenominal="false" pos="cd nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_74" sentenceid="4" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_74..word_75" sentenceid="4" label="np" min_ids="word_74..word_75" type="chunk" lemmata="israeli force" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+</markables>

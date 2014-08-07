@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_7" tag="(S1 (S (NP (NN News) (CC and) (NNS events)) (VP (VBP happen) (NP (DT every) (NN day))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_8..word_21" tag="(S1 (S (SBAR (WHNP (WP What)) (S (NP (PRP you)) (VP (VBP are) (ADJP (JJ interested) (PP (IN in)))))) (VP (VBZ is) (SBAR (WHNP (RB exactly) (WP what)) (S (NP (PRP we)) (VP (MD will) (VP (VB be) (VP (VBG focusing) (PP (IN on)))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_22..word_27" tag="(S1 (S (NP (DT This)) (VP (VBZ is) (NP (NNP CCTV) (NNP Focus) (NNP Today))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_28..word_47" tag="(S1 (S (NP (DT A) (JJ British) (NN newspaper)) (VP (VBD revealed) (SBAR (IN that) (S (NP (DT the) (NNP US)) (VP (VBD had) (VP (VBN planned) (S (VP (TO to) (VP (VB bomb) (NP (NP (DT the) (NML (NNP al) (HYPH -) (NNP Jazeera)) (NN TV) (NN station)) (PP (IN in) (NP (NNP Qatar)))))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_48..word_65" tag="(S1 (SQ (SQ (VBD Was) (S (NP (DT this)) (NP (NP (DT a) (NN joke)) (VP (VBN told) (PP (IN by) (NP (NML (NNP US) (NNP President)) (NNP Bush))))))) (CC or) (SQ (VBD was) (NP (PRP it)) (NP (DT a) (ADJP (RB long) (HYPH -) (VBN meditated)) (NN threat))) (. ?)))" mmax_level="parse" />
+<markable id="markable_10006" span="word_66..word_91" tag="(S1 (SQ (SQ (VBD Did) (NP (NML (JJ British) (NNP Prime) (NNP Minister)) (NNP Blair)) (VP (VB know) (NP (NP (NN nothing)) (PP (IN about) (NP (PRP it)))))) (, ,) (CC or) (SQ (VBD did) (NP (PRP he)) (VP (VB succeed) (PP (IN in) (S (VP (VBG persuading) (NP (PRP$ his) (NN ally)) (S (VP (TO to) (VP (VB give) (PRT (RP up)) (NP (NP (DT the) (NN idea)) (PP (IN of) (NP (NNS attacks)))))))))))) (. ?)))" mmax_level="parse" />
+<markable id="markable_10007" span="word_92..word_97" tag="(S1 (SBARQ (WHNP (WP What) (RB exactly)) (SQ (VP (VBZ is) (NP (DT the) (NN truth)))) (. ?)))" mmax_level="parse" />
+<markable id="markable_10008" span="word_98..word_116" tag="(S1 (SBARQ (WHADVP (WRB Why)) (SQ (MD can) (NP (NP (DT a) (NN TV) (NN station)) (PP (IN in) (NP (DT a) (JJ small) (NNP Arab) (NN country)))) (VP (VB have) (NP (NML (NNP US) (NNP President)) (NNP Bush)) (PP (IN on) (NP (NP (NNS pins)) (CC and) (NP (NNS needles)))))) (. ?)))" mmax_level="parse" />
+<markable id="markable_10009" span="word_117..word_125" tag="(S1 (S (NP (NNP Focus) (NNP Today)) (VP (VBZ is) (VP (VBG coming) (PRT (RP up)) (PP (IN in) (NP (DT a) (NN minute))))) (. .)))" mmax_level="parse" />
+</markables>

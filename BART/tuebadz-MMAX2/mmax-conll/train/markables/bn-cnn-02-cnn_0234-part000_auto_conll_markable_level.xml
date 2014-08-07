@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_3" sentenceid="1" label="np" min_ids="word_1..word_3" type="chunk" lemmata="a pizza delivery" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_5" sentenceid="1" label="np" min_ids="word_5..word_5" type="chunk" lemmata="police" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_6" sentenceid="1" label="np" min_ids="word_6..word_6" type="chunk" lemmata="nab" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_7..word_20" sentenceid="1" label="np" min_ids="word_7..word_8" type="chunk" lemmata="the suspect in the kidnapping of a 9 - year - old california girl" isprenominal="false" pos="dt nn in dt nn in dt cd hyph nn hyph jj nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_10..word_20" sentenceid="1" label="np" min_ids="word_10..word_11" type="chunk" lemmata="the kidnapping of a 9 - year - old california girl" isprenominal="false" pos="dt nn in dt cd hyph nn hyph jj nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_13..word_20" sentenceid="1" label="np" min_ids="word_13..word_20" type="chunk" lemmata="a 9 - year - old california girl" isprenominal="false" pos="dt cd hyph nn hyph jj nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_14..word_18" sentenceid="1" label="date" type="enamex" lemmata="9 - year - old" isprenominal="false" pos="cd hyph nn hyph jj" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_19" sentenceid="1" label="location" type="enamex" lemmata="california" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_22..word_26" sentenceid="2" label="date" type="enamex" lemmata="24 - year - old" isprenominal="false" pos="cd hyph nn hyph jj" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_22..word_35" sentenceid="2" label="person" min_ids="word_22..word_28" type="enamex" lemmata="24 - year - old enrique alvarez , also know as david cruz ," isprenominal="false" pos="cd hyph nn hyph jj nnp nnp , rb vbn in nnp nnp ," speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_33..word_34" sentenceid="2" label="person" min_ids="word_33..word_34" type="enamex" lemmata="david cruz" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_38" sentenceid="2" label="date" min_ids="word_38..word_38" type="enamex" lemmata="monday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_40..word_41" sentenceid="2" label="location" min_ids="word_40..word_41" type="enamex" lemmata="san jose" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_43" sentenceid="3" label="np" min_ids="word_43..word_43" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_49" sentenceid="3" label="date" min_ids="word_49..word_49" type="enamex" lemmata="wednesday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_51" sentenceid="4" label="np" min_ids="word_51..word_51" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_55" sentenceid="4" label="np" min_ids="word_55..word_55" type="chunk" lemmata="kidnapping" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_55..word_61" sentenceid="4" label="np" min_ids="word_55..word_61" type="chunk" lemmata="kidnapping , felony assault and sexual assault" isprenominal="false" pos="nn , nn nn cc jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_57..word_58" sentenceid="4" label="np" min_ids="word_57..word_58" type="chunk" lemmata="felony assault" isprenominal="false" pos="nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_60..word_61" sentenceid="4" label="np" min_ids="word_60..word_61" type="chunk" lemmata="sexual assault" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_63..word_64" sentenceid="5" label="np" min_ids="word_63..word_64" type="chunk" lemmata="the girl" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_67..word_68" sentenceid="5" label="time" min_ids="word_67..word_68" type="enamex" lemmata="late sunday" isprenominal="false" pos="jj nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_70..word_76" sentenceid="5" label="np" min_ids="word_70..word_72" type="chunk" lemmata="a convenience store in east palo alto" isprenominal="false" pos="dt nn nn in nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_74..word_76" sentenceid="5" label="location" min_ids="word_74..word_76" type="enamex" lemmata="east palo alto" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_78" sentenceid="6" label="np" min_ids="word_78..word_78" type="chunk" lemmata="police" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_80" sentenceid="6" label="np" min_ids="word_80..word_80" type="chunk" lemmata="she" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_82" sentenceid="6" label="np" min_ids="word_82..word_82" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_83..word_85" sentenceid="6" label="np" min_ids="word_83..word_85" type="chunk" lemmata="a pepperoni pizza" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_90..word_95" sentenceid="6" label="np" min_ids="word_90..word_91" type="chunk" lemmata="the house where she be hold" isprenominal="false" pos="dt nn wrb prp vbd vbn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_93" sentenceid="6" label="np" min_ids="word_93..word_93" type="chunk" lemmata="she" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_97" sentenceid="7" label="np" min_ids="word_97..word_97" type="chunk" lemmata="detectives" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_102..word_103" sentenceid="7" label="np" min_ids="word_102..word_103" type="chunk" lemmata="the order" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_34" span="word_105..word_115" sentenceid="7" label="organization" min_ids="word_106..word_106" type="enamex" lemmata="the house , where they find alvarez hide in the attic" isprenominal="false" pos="dt nnp , wrb prp vbd nnp vbg in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_109" sentenceid="7" label="np" min_ids="word_109..word_109" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_35" span="word_111" sentenceid="7" label="person" min_ids="word_111..word_111" type="enamex" lemmata="alvarez" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_114..word_115" sentenceid="7" label="np" min_ids="word_114..word_115" type="chunk" lemmata="the attic" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+</markables>

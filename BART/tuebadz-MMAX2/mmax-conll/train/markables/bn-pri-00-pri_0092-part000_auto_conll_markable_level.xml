@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_13" span="word_2..word_5" sentenceid="1" label="organization" min_ids="word_2..word_3" type="enamex" lemmata="npr news in washington" isprenominal="false" pos="nnp nnp in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_5" sentenceid="1" label="location" min_ids="word_5..word_5" type="enamex" lemmata="washington" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_7" sentenceid="1" label="np" min_ids="word_7..word_7" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_9..word_10" sentenceid="1" label="person" min_ids="word_9..word_10" type="enamex" lemmata="corey flintoff" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_12..word_17" sentenceid="2" label="person" min_ids="word_12..word_17" type="enamex" lemmata="president - elect george w. bush" isprenominal="false" pos="nnp hyph nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_20" sentenceid="2" label="date" min_ids="word_20..word_20" type="enamex" lemmata="today" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_22..word_24" sentenceid="2" label="np" min_ids="word_22..word_22" type="chunk" lemmata="governor of texas" isprenominal="false" pos="nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_24" sentenceid="2" label="location" min_ids="word_24..word_24" type="enamex" lemmata="texas" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_26" sentenceid="3" label="np" min_ids="word_26..word_26" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_29" sentenceid="3" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_33" sentenceid="3" label="np" min_ids="word_33..word_33" type="chunk" lemmata="office" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_36..word_40" sentenceid="3" label="np" min_ids="word_36..word_37" type="chunk" lemmata="a tribute to bipartisan effort" isprenominal="false" pos="dt nn in jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_39..word_40" sentenceid="3" label="np" min_ids="word_39..word_40" type="chunk" lemmata="bipartisan effort" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_42..word_43" sentenceid="3" label="np" min_ids="word_42..word_43" type="chunk" lemmata="the legislature" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_45" sentenceid="4" label="np" min_ids="word_45..word_45" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_47" sentenceid="4" label="location" min_ids="word_47..word_47" type="enamex" lemmata="texas" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_50..word_62" sentenceid="4" label="np" min_ids="word_50..word_51" type="chunk" lemmata="steady progress in improve education , the criminal justice system and tax reform" isprenominal="false" pos="jj nn in vbg nn , dt jj nn nn cc nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_54" sentenceid="4" label="np" min_ids="word_54..word_54" type="chunk" lemmata="education" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_54..word_62" sentenceid="4" label="np" min_ids="word_54..word_62" type="chunk" lemmata="education , the criminal justice system and tax reform" isprenominal="false" pos="nn , dt jj nn nn cc nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_56..word_59" sentenceid="4" label="np" min_ids="word_56..word_59" type="chunk" lemmata="the criminal justice system" isprenominal="false" pos="dt jj nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_61..word_62" sentenceid="4" label="np" min_ids="word_61..word_62" type="chunk" lemmata="tax reform" isprenominal="false" pos="nn nn" speaker="-" mmax_level="markable" />
+</markables>

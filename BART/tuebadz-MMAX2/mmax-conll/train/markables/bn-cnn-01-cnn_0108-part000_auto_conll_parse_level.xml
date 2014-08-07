@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_13" tag="(S1 (S (NP (NP (DT A) (NML (NNP United) (NNP Nations)) (NN conference)) (PP (IN on) (NP (JJ global) (NN warming)))) (VP (VBZ has) (VP (VBN ended) (PP (IN without) (NP (DT a) (NN deal))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_14..word_34" tag="(S1 (S (NP (NNS Delegates)) (VP (VBD worked) (PP (PP (IN through) (NP (DT the) (NN night))) (CC and) (PP (IN past) (NP (NP (DT a) (NN deadline)) (PP (IN in) (NP (DT the) (NNP Netherlands)))))) (S (VP (TO to) (VP (VB find) (NP (NP (NNS ways)) (SBAR (S (VP (TO to) (VP (VB implement) (NP (DT the) (NNP Kyoto) (NNP Protocol))))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_35..word_55" tag="(S1 (S (NP (NP (DT The) (NNP Protocol) (POS 's)) (NN objective)) (VP (VBZ is) (S (VP (TO to) (VP (VB reduce) (NP (NP (DT the) (NN earth) (POS 's)) (ADJP (NN heat) (HYPH -) (VBG trapping)) (NNS gases)) (PP (IN by) (NP (CD 5) (NN %))) (PP (IN in) (NP (CD 12) (NNS years))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_56..word_67" tag="(S1 (S (NP (NNS Delegates)) (VP (VBP have) (VP (VBN been) (ADJP (JJ unable) (S (VP (TO to) (VP (VB agree) (PP (IN on) (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (VB do) (NP (DT that))))))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_68..word_84" tag="(S1 (S (NP (DT The) (NN sticking) (NN point)) (VP (VBZ is) (SBAR (WHADVP (WRB how)) (S (NP (NNS countries)) (VP (MD can) (VP (VB reduce) (NP (NN gas) (NNS emissions)) (PP (IN without) (S (ADVP (RB actually)) (VP (VBG burning) (NP (JJR less) (NN fossil) (NN fuel)))))))))) (. .)))" mmax_level="parse" />
+</markables>

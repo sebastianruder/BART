@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1" sentenceid="1" label="np" min_ids="word_1..word_1" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_4..word_13" sentenceid="1" label="np" min_ids="word_4..word_8" type="chunk" lemmata="the most - watch vehicle since the o.j. simpson chase" isprenominal="false" pos="dt rbs hyph vbn nn in dt nnp nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_10..word_13" sentenceid="1" label="np" min_ids="word_10..word_13" type="chunk" lemmata="the o.j. simpson chase" isprenominal="false" pos="dt nnp nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_11..word_12" sentenceid="1" label="person" type="enamex" lemmata="o.j. simpson" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_17" sentenceid="1" label="np" min_ids="word_17..word_17" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_20" sentenceid="1" label="np" min_ids="word_20..word_20" type="chunk" lemmata="yours" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_23..word_24" sentenceid="1" label="np" min_ids="word_23..word_24" type="chunk" lemmata="enough money" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_26..word_38" sentenceid="2" label="np" min_ids="word_26..word_29" type="chunk" lemmata="the ryder rental truck which carry palm beach county 's ballot to tallahassee" isprenominal="false" pos="dt nnp nn nn wdt vbd nnp nnp nnp pos nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_27" sentenceid="2" label="organization" type="enamex" lemmata="ryder" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_32..word_35" sentenceid="2" label="location" min_ids="word_32..word_34" type="enamex" lemmata="palm beach county 's" isprenominal="false" pos="nnp nnp nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_32..word_36" sentenceid="2" label="np" min_ids="word_32..word_36" type="chunk" lemmata="palm beach county 's ballot" isprenominal="false" pos="nnp nnp nnp pos nns" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_38" sentenceid="2" label="location" min_ids="word_38..word_38" type="enamex" lemmata="tallahassee" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_42..word_45" sentenceid="2" label="np" min_ids="word_42..word_42" type="chunk" lemmata="auction on the internet" isprenominal="false" pos="nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_44..word_45" sentenceid="2" label="np" min_ids="word_44..word_45" type="chunk" lemmata="the internet" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_47..word_53" sentenceid="3" label="organization" min_ids="word_47..word_48" type="enamex" lemmata="budget group , which own ryder ," isprenominal="false" pos="nnp nnp , wdt vbz nnp ," speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_52" sentenceid="3" label="organization" min_ids="word_52..word_52" type="enamex" lemmata="ryder" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_55" sentenceid="3" label="np" min_ids="word_55..word_55" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_57..word_58" sentenceid="3" label="np" min_ids="word_57..word_58" type="chunk" lemmata="numerous offer" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_64..word_65" sentenceid="3" label="np" min_ids="word_64..word_65" type="chunk" lemmata="the truck" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_69..word_71" sentenceid="3" label="np" min_ids="word_69..word_71" type="chunk" lemmata="the net proceeds" isprenominal="false" pos="dt jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_74..word_77" sentenceid="3" label="organization" min_ids="word_74..word_77" type="enamex" lemmata="the american red cross" isprenominal="false" pos="dt nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_80" sentenceid="4" label="np" min_ids="word_80..word_80" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_82..word_84" sentenceid="4" label="np" min_ids="word_82..word_84" type="chunk" lemmata="a good cause" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_86..word_87" sentenceid="5" label="np" min_ids="word_86..word_87" type="chunk" lemmata="the bidding" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_90..word_93" sentenceid="5" label="money" min_ids="word_90..word_91" type="enamex" lemmata="$ 21,900 this morning" isprenominal="false" pos="$ cd dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_92..word_93" sentenceid="5" label="date" min_ids="word_92..word_93" type="enamex" lemmata="this morning" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_100..word_101" sentenceid="5" label="date" min_ids="word_100..word_101" type="enamex" lemmata="a week" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+</markables>

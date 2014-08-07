@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_8" span="word_1..word_2" sentenceid="1" label="person" min_ids="word_1..word_2" type="enamex" lemmata="president clinton" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_5..word_6" sentenceid="1" label="location" min_ids="word_5..word_6" type="enamex" lemmata="northern ireland" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_9..word_19" sentenceid="1" label="np" min_ids="word_9..word_11" type="chunk" lemmata="a diplomatic mission aim at bolster the 1998 power share accord" isprenominal="false" pos="dt jj nn vbn in vbg dt cd nn vbg nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_15..word_19" sentenceid="1" label="np" min_ids="word_15..word_19" type="chunk" lemmata="the 1998 power share accord" isprenominal="false" pos="dt cd nn vbg nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_16" sentenceid="1" label="date" type="enamex" lemmata="1998" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_21" sentenceid="2" label="np" min_ids="word_21..word_21" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_27..word_29" sentenceid="2" label="location" min_ids="word_27..word_27" type="enamex" lemmata="belfast late tuesday" isprenominal="false" pos="nnp rb nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_28..word_29" sentenceid="2" label="date" min_ids="word_28..word_29" type="enamex" lemmata="late tuesday" isprenominal="false" pos="rb nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_31..word_34" sentenceid="2" label="np" min_ids="word_31..word_32" type="chunk" lemmata="a stopover in dublin" isprenominal="false" pos="dt nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_34" sentenceid="2" label="location" min_ids="word_34..word_34" type="enamex" lemmata="dublin" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_36..word_46" sentenceid="2" label="np" min_ids="word_36..word_36" type="chunk" lemmata="talk with irish president mary mckleese and prime minister bertie ahern" isprenominal="false" pos="nns in nnp nnp nnp nnp cc nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_38" sentenceid="2" label="location" type="enamex" lemmata="irish" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_38..word_41" sentenceid="2" label="person" min_ids="word_38..word_41" type="enamex" lemmata="irish president mary mckleese" isprenominal="false" pos="nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_38..word_46" sentenceid="2" label="person" min_ids="word_38..word_46" type="enamex" lemmata="irish president mary mckleese and prime minister bertie ahern" isprenominal="false" pos="nnp nnp nnp nnp cc nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_43..word_46" sentenceid="2" label="np" min_ids="word_43..word_46" type="chunk" lemmata="prime minister bertie ahern" isprenominal="false" pos="nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_49..word_51" sentenceid="3" label="np" min_ids="word_49..word_49" type="chunk" lemmata="route to belfast" isprenominal="false" pos="nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_51" sentenceid="3" label="location" min_ids="word_51..word_51" type="enamex" lemmata="belfast" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_53..word_54" sentenceid="3" label="person" min_ids="word_53..word_54" type="enamex" lemmata="mr. clinton" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_58..word_63" sentenceid="3" label="np" min_ids="word_58..word_61" type="chunk" lemmata="the irish border town of dundalk" isprenominal="false" pos="dt jj nn nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_59" sentenceid="3" label="location" type="enamex" lemmata="irish" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_63" sentenceid="3" label="location" min_ids="word_63..word_63" type="enamex" lemmata="dundalk" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+</markables>

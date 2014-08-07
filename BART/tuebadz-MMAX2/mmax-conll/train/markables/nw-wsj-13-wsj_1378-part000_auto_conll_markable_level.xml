@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_5" span="word_1..word_5" sentenceid="1" label="organization" min_ids="word_1..word_5" type="enamex" lemmata="american telephone &amp;amp; telegraph co." isprenominal="false" pos="nnp nnp cc nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_7" sentenceid="1" label="np" min_ids="word_7..word_7" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_11..word_13" sentenceid="1" label="percent" type="enamex" lemmata="75 to 85" isprenominal="false" pos="cd to cd" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_11..word_15" sentenceid="1" label="np" min_ids="word_11..word_14" type="chunk" lemmata="75 to 85 technician here" isprenominal="false" pos="cd to cd nns rb" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_18..word_19" sentenceid="1" label="date" min_ids="word_18..word_19" type="enamex" lemmata="nov. 1" isprenominal="false" pos="nnp cd" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_21..word_22" sentenceid="2" label="np" min_ids="word_21..word_22" type="chunk" lemmata="the worker" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_28" sentenceid="2" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_28..word_31" sentenceid="2" label="np" min_ids="word_28..word_31" type="chunk" lemmata="its private branch exchange" isprenominal="false" pos="prp$ jj nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_35..word_38" sentenceid="2" label="np" min_ids="word_35..word_38" type="chunk" lemmata="large intracompany telephone network" isprenominal="false" pos="jj nn nn nns" speaker="-" mmax_level="markable" />
+</markables>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_3" sentenceid="1" label="np" min_ids="word_3..word_3" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_6..word_7" sentenceid="1" label="location" min_ids="word_6..word_7" type="enamex" lemmata="south asia" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_10" sentenceid="1" label="np" min_ids="word_10..word_10" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_12..word_15" sentenceid="1" label="organization" min_ids="word_12..word_15" type="enamex" lemmata="the radio canada international" isprenominal="false" pos="dt nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_17..word_23" sentenceid="1" label="np" min_ids="word_17..word_17" type="chunk" lemmata="transmission to your part of the world" isprenominal="false" pos="nns in prp$ nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_19" sentenceid="1" label="np" type="chunk" lemmata="your" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_19..word_23" sentenceid="1" label="np" min_ids="word_19..word_20" type="chunk" lemmata="your part of the world" isprenominal="false" pos="prp$ nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_22..word_23" sentenceid="1" label="np" min_ids="word_22..word_23" type="chunk" lemmata="the world" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_26..word_34" sentenceid="1" label="date" min_ids="word_27..word_29" type="enamex" lemmata="the 8th , 9th , and 10th of november" isprenominal="false" pos="dt nn , nn , cc nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_29" sentenceid="1" label="np" min_ids="word_29..word_29" type="chunk" lemmata="9th" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_32..word_34" sentenceid="1" label="date" min_ids="word_32..word_34" type="enamex" lemmata="10th of november" isprenominal="false" pos="nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_34" sentenceid="1" label="np" min_ids="word_34..word_34" type="chunk" lemmata="november" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_36" sentenceid="2" label="np" min_ids="word_36..word_36" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_39" sentenceid="2" label="organization" type="enamex" lemmata="radio" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_39..word_40" sentenceid="2" label="location" min_ids="word_39..word_40" type="enamex" lemmata="radio netherlands" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_42..word_53" sentenceid="2" label="organization" min_ids="word_42..word_42" type="enamex" lemmata="flavo , the netherlands 15:00 - 16:00 utc on 15360 and 17820" isprenominal="false" pos="nnp , dt nnp cd hyph cd nn in cd cc cd" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_44..word_53" sentenceid="2" label="organization" min_ids="word_45..word_49" type="enamex" lemmata="the netherlands 15:00 - 16:00 utc on 15360 and 17820" isprenominal="false" pos="dt nnp cd hyph cd nn in cd cc cd" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_46..word_48" sentenceid="2" label="time" type="enamex" lemmata="15:00 - 16:00" isprenominal="false" pos="cd hyph cd" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_51..word_53" sentenceid="2" label="object" min_ids="word_51..word_53" type="enamex" lemmata="15360 and 17820" isprenominal="false" pos="cd cc cd" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_58..word_62" sentenceid="2" label="person" min_ids="word_58..word_59" type="enamex" lemmata="andy senet , via glenhouser" isprenominal="false" pos="nnp nnp , in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_62" sentenceid="2" label="organization" min_ids="word_62..word_62" type="enamex" lemmata="glenhouser" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_64" sentenceid="3" label="organization" min_ids="word_64..word_64" type="enamex" lemmata="rci" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_66" sentenceid="3" label="np" min_ids="word_66..word_66" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_68" sentenceid="3" label="np" min_ids="word_68..word_68" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_74" sentenceid="3" label="np" min_ids="word_74..word_74" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_77..word_82" sentenceid="3" label="np" min_ids="word_77..word_79" type="chunk" lemmata="a permanent service to south asia" isprenominal="false" pos="dt jj nn in nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_81..word_82" sentenceid="3" label="location" min_ids="word_81..word_82" type="enamex" lemmata="south asia" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+</markables>

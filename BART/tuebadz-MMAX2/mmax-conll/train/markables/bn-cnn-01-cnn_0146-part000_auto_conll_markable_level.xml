@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_4" sentenceid="1" label="np" min_ids="word_1..word_1" type="chunk" lemmata="investors on wall street" isprenominal="false" pos="nns in nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_3..word_4" sentenceid="1" label="np" min_ids="word_3..word_4" type="chunk" lemmata="wall street" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_8..word_18" sentenceid="1" label="np" min_ids="word_8..word_9" type="chunk" lemmata="the word from federal reserve chairman alan greenspan on interest rate" isprenominal="false" pos="dt nn in nnp nnp nnp nnp nnp in nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_11..word_12" sentenceid="1" label="organization" type="enamex" lemmata="federal reserve" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_11..word_15" sentenceid="1" label="person" min_ids="word_11..word_15" type="enamex" lemmata="federal reserve chairman alan greenspan" isprenominal="false" pos="nnp nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_17..word_18" sentenceid="1" label="np" min_ids="word_17..word_18" type="chunk" lemmata="interest rate" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_20" sentenceid="2" label="person" min_ids="word_20..word_20" type="enamex" lemmata="greenspan" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_24..word_28" sentenceid="2" label="np" min_ids="word_24..word_28" type="chunk" lemmata="the federal reserve board policymaker" isprenominal="false" pos="dt nnp nnp nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_25..word_27" sentenceid="2" label="organization" type="enamex" lemmata="federal reserve board" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_29" sentenceid="2" label="date" min_ids="word_29..word_29" type="enamex" lemmata="today" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_31..word_35" sentenceid="2" label="np" min_ids="word_31..word_33" type="chunk" lemmata="the last time this year" isprenominal="false" pos="dt jj nn dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_34..word_35" sentenceid="2" label="date" min_ids="word_34..word_35" type="enamex" lemmata="this year" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_41..word_42" sentenceid="3" label="organization" min_ids="word_42..word_42" type="enamex" lemmata="the fed" isprenominal="false" pos="dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_45..word_50" sentenceid="3" label="np" min_ids="word_45..word_45" type="chunk" lemmata="something to stop the economic slowdown" isprenominal="false" pos="nn to vb dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_48..word_50" sentenceid="3" label="np" min_ids="word_48..word_50" type="chunk" lemmata="the economic slowdown" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_55..word_56" sentenceid="4" label="np" min_ids="word_55..word_56" type="chunk" lemmata="a rate" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_59..word_61" sentenceid="5" label="date" min_ids="word_59..word_61" type="enamex" lemmata="earlier this month" isprenominal="false" pos="rbr dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_63" sentenceid="5" label="person" min_ids="word_63..word_63" type="enamex" lemmata="greenspan" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_65" sentenceid="5" label="np" min_ids="word_65..word_65" type="chunk" lemmata="cut" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_69..word_70" sentenceid="5" label="np" min_ids="word_69..word_70" type="chunk" lemmata="the way" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+</markables>

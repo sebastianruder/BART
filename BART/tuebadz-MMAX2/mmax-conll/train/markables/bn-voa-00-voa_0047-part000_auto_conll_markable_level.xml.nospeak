@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_12" span="word_1" sentenceid="1" label="location" type="enamex" lemmata="us" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_1..word_2" sentenceid="1" label="np" min_ids="word_1..word_2" type="chunk" lemmata="us official" isprenominal="false" pos="nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_4..word_9" sentenceid="1" label="np" min_ids="word_4..word_8" type="chunk" lemmata="the crippled us navy destroyer cole" isprenominal="false" pos="dt jj nnp nnp nn nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_6..word_7" sentenceid="1" label="organization" type="enamex" lemmata="us navy" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_9" sentenceid="1" label="object" min_ids="word_9..word_9" type="enamex" lemmata="cole" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_17" sentenceid="1" label="location" min_ids="word_17..word_17" type="enamex" lemmata="aden" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_20" sentenceid="1" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_20..word_25" sentenceid="1" label="np" min_ids="word_20..word_21" type="chunk" lemmata="its homeport of norfolk , virginian" isprenominal="false" pos="prp$ nn in nnp , nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_23..word_25" sentenceid="1" label="location" min_ids="word_23..word_23" type="enamex" lemmata="norfolk , virginian" isprenominal="false" pos="nnp , nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_25" sentenceid="1" label="location" min_ids="word_25..word_25" type="enamex" lemmata="virginian" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_27..word_31" sentenceid="2" label="np" min_ids="word_27..word_31" type="chunk" lemmata="a huge norwegian transport vessel" isprenominal="false" pos="dt jj jj nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_29" sentenceid="2" label="location" type="enamex" lemmata="norwegian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_35..word_36" sentenceid="2" label="object" min_ids="word_36..word_36" type="enamex" lemmata="the cole" isprenominal="false" pos="dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_38..word_40" sentenceid="2" label="location" min_ids="word_38..word_40" type="enamex" lemmata="the atlantic ocean" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_43..word_54" sentenceid="3" label="np" min_ids="word_43..word_46" type="chunk" lemmata="the suspect terrorist attack that kill 17 of the cole 's sailor" isprenominal="false" pos="dt vbn jj nn wdt vbd cd in dt nnp pos nns" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_49..word_54" sentenceid="3" label="percent" min_ids="word_49..word_49" type="enamex" lemmata="17 of the cole 's sailor" isprenominal="false" pos="cd in dt nnp pos nns" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_51..word_53" sentenceid="3" label="object" min_ids="word_52..word_52" type="enamex" lemmata="the cole 's" isprenominal="false" pos="dt nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_51..word_54" sentenceid="3" label="np" min_ids="word_51..word_54" type="chunk" lemmata="the cole 's sailor" isprenominal="false" pos="dt nnp pos nns" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_56" sentenceid="3" label="location" type="enamex" lemmata="us" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_56..word_57" sentenceid="3" label="np" min_ids="word_56..word_57" type="chunk" lemmata="us official" isprenominal="false" pos="nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_59" sentenceid="3" label="np" min_ids="word_59..word_59" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_64..word_74" sentenceid="3" label="np" min_ids="word_64..word_64" type="chunk" lemmata="evidence they hope will lead to the capture of those responsible" isprenominal="false" pos="nn prp vbp md vb in dt nn in dt jj" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_65" sentenceid="3" label="np" min_ids="word_65..word_65" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_70..word_74" sentenceid="3" label="np" min_ids="word_70..word_71" type="chunk" lemmata="the capture of those responsible" isprenominal="false" pos="dt nn in dt jj" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_73..word_74" sentenceid="3" label="np" min_ids="word_73..word_73" type="chunk" lemmata="those responsible" isprenominal="false" pos="dt jj" speaker="-" mmax_level="markable" />
+</markables>

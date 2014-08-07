@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_15" tag="(S1 (S (NP (NP (DT The) (NN countdown)) (PP (IN to) (NP (NP (DT the) (NN destruction)) (PP (IN of) (NP (NP (NNP Russia) (POS 's)) (NNP Mir) (NNP Space) (NNP Station)))))) (VP (VBZ is) (PP (IN under) (NP (NN way)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_16..word_31" tag="(S1 (S (NP (DT A) (JJ Russian) (NN space) (NN transport) (NN craft)) (VP (VBZ has) (VP (VBN docked) (PP (IN with) (NP (DT the) (ADJP (NML (CD 15) (HYPH -) (NN year)) (HYPH -) (JJ old)) (NN orbiter))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_32..word_63" tag="(S1 (S (NP (NP (DT The) (JJ unmanned) (NN vessel)) (, ,) (VP (VBN dubbed) (S (`` ``) (NP (DT the) (NN hearse)) (, ,) ('' '')))) (VP (MD will) (VP (VB use) (NP (NP (PRP$ its) (NN load)) (PP (IN of) (NP (NP (CD two) (NNS tons)) (PP (IN of) (NP (NN fuel)))))) (S (VP (TO to) (VP (VB guide) (NP (NNP Mir)) (PP (IN out) (PP (IN of) (NP (NN orbit)))) (PP (IN at) (NP (NP (DT the) (NN end)) (PP (IN of) (NP (JJ next) (NN month)))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_64..word_75" tag="(S1 (S (NP (NP (JJS Most)) (PP (IN of) (NP (DT the) (NN craft)))) (VP (MD will) (VP (VB disintegrate) (PP (IN in) (NP (NP (DT the) (NNP Earth) (POS 's)) (NN atmosphere))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_76..word_85" tag="(S1 (S (NP (DT Any) (VBG remaining) (NNS fragments)) (VP (MD should) (VP (VB fall) (PP (IN into) (NP (DT the) (NNP Pacific) (NNP Ocean))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10006" span="word_86..word_106" tag="(S1 (S (NP (DT The) (JJ Russian) (NN government)) (VP (VBZ says) (SBAR (S (NP (PRP it)) (VP (MD can) (RB not) (VP (VB afford) (S (VP (TO to) (VP (VP (VB maintain) (NP (NNP Mir))) (CC and) (VP (VB meet) (NP (NP (NNS obligations)) (PP (IN to) (NP (DT the) (JJ new) (NNP International) (NNP Space) (NNP Station))))))))))))) (. .)))" mmax_level="parse" />
+</markables>

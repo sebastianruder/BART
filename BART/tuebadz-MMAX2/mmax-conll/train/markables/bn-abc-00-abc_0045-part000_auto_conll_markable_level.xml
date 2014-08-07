@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_8" span="word_1" sentenceid="1" label="location" type="enamex" lemmata="american" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_1..word_6" sentenceid="1" label="person" min_ids="word_1..word_6" type="enamex" lemmata="american mideast peace envoy dennis ross" isprenominal="false" pos="jj nnp nn nn nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_2" sentenceid="1" label="location" type="enamex" lemmata="mideast" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_9" sentenceid="1" label="location" min_ids="word_9..word_9" type="enamex" lemmata="morocco" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_10..word_11" sentenceid="1" label="date" min_ids="word_10..word_11" type="enamex" lemmata="this week" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_13..word_18" sentenceid="1" label="np" min_ids="word_13..word_13" type="chunk" lemmata="meeting with palestinian president yasser arafat" isprenominal="false" pos="nns in jj nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_15" sentenceid="1" label="location" type="enamex" lemmata="palestinian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_15..word_18" sentenceid="1" label="person" min_ids="word_15..word_18" type="enamex" lemmata="palestinian president yasser arafat" isprenominal="false" pos="jj nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_20..word_23" sentenceid="2" label="np" min_ids="word_20..word_20" type="chunk" lemmata="news of the meeting" isprenominal="false" pos="nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_22..word_23" sentenceid="2" label="np" min_ids="word_22..word_23" type="chunk" lemmata="the meeting" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_25..word_27" sentenceid="2" label="date" min_ids="word_25..word_27" type="enamex" lemmata="the same day" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_28" sentenceid="2" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_28..word_32" sentenceid="2" label="person" min_ids="word_28..word_32" type="enamex" lemmata="israeli prime minister ehud barak" isprenominal="false" pos="jj nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_35..word_36" sentenceid="3" label="person" min_ids="word_35..word_35" type="enamex" lemmata="barak 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_35..word_38" sentenceid="3" label="np" min_ids="word_35..word_38" type="chunk" lemmata="barak 's dramatic move" isprenominal="false" pos="nnp pos jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_41..word_43" sentenceid="3" label="np" min_ids="word_41..word_43" type="chunk" lemmata="a tactical one" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_46..word_51" sentenceid="4" label="np" min_ids="word_46..word_48" type="chunk" lemmata="a special election in two month" isprenominal="false" pos="dt jj nn in cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_53" sentenceid="4" label="np" min_ids="word_53..word_53" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_59" sentenceid="4" label="np" min_ids="word_59..word_59" type="chunk" lemmata="office" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+</markables>

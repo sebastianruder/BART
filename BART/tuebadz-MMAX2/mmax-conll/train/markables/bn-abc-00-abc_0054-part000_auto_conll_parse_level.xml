@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_7" tag="(S1 (NP (NP (DT Some)) (PP (IN of) (NP (NP (DT the) (JJ other) (NN news)) (NP (NN today)))) (: --)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_8..word_24" tag="(S1 (S (PP (IN In) (NP (NNP Washington))) (, ,) (NP (ADJP (JJ Israeli) (CC and) (JJ Palestinian)) (NNS negotiators)) (VP (VP (VBD met) (ADVP (RB again)) (PP (IN with) (NP (NNP President) (NNP Clinton)))) (CC and) (VP (VBD were) (ADJP (RB slightly) (JJ optimistic)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_25..word_40" tag="(S1 (S (NP (DT The) (JJ Palestinian) (NN negotiator)) (VP (VBD said) (SBAR (S (NP (EX there)) (VP (VBD was) (NP (NP (DT some) (NN progress)) (PP (IN on) (NP (NP (JJ Palestinian) (NN sovereignty)) (PP (IN over) (NP (NP (NN part)) (PP (IN of) (NP (NNP Jerusalem)))))))))))) (. .)))" mmax_level="parse" />
+</markables>

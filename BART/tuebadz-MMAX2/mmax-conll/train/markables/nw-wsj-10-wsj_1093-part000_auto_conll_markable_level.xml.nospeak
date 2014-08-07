@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_12" span="word_1" sentenceid="1" label="organization" type="enamex" lemmata="cie" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_1..word_5" sentenceid="1" label="organization" min_ids="word_1..word_5" type="enamex" lemmata="cie . generale des eaux" isprenominal="false" pos="nnp . nnp fw nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_8..word_9" sentenceid="1" label="np" min_ids="word_8..word_9" type="chunk" lemmata="net profit" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_11..word_12" sentenceid="1" label="percent" min_ids="word_11..word_12" type="enamex" lemmata="30 %" isprenominal="false" pos="cd nn" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_14..word_18" sentenceid="1" label="date" min_ids="word_15..word_18" type="enamex" lemmata="the first half of 1989" isprenominal="false" pos="dt jj nn in cd" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_18" sentenceid="1" label="np" min_ids="word_18..word_18" type="chunk" lemmata="1989" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_22" sentenceid="1" label="np" min_ids="word_22..word_22" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_24..word_33" sentenceid="1" label="np" min_ids="word_24..word_25" type="chunk" lemmata="a gain of about 25 % for the full year" isprenominal="false" pos="dt nn in rb cd nn in dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_27..word_33" sentenceid="1" label="percent" min_ids="word_27..word_29" type="enamex" lemmata="about 25 % for the full year" isprenominal="false" pos="rb cd nn in dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_31..word_33" sentenceid="1" label="date" min_ids="word_31..word_33" type="enamex" lemmata="the full year" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_35..word_39" sentenceid="2" label="np" min_ids="word_35..word_39" type="chunk" lemmata="the french water treatment group" isprenominal="false" pos="dt jj nn nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_36" sentenceid="2" label="location" type="enamex" lemmata="french" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_41..word_48" sentenceid="2" label="np" min_ids="word_41..word_43" type="chunk" lemmata="consolidated net profit after payment to minority interest" isprenominal="false" pos="jj jj nn in nns in nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_45..word_48" sentenceid="2" label="np" min_ids="word_45..word_45" type="chunk" lemmata="payment to minority interest" isprenominal="false" pos="nns in nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_47..word_48" sentenceid="2" label="np" min_ids="word_47..word_48" type="chunk" lemmata="minority interest" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_51..word_58" sentenceid="2" label="money" min_ids="word_51..word_53" type="enamex" lemmata="749 million franc -lrb- us$ 119.2 million -rrb-" isprenominal="false" pos="cd cd nns -lrb- $ cd cd -rrb-" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_55..word_57" sentenceid="2" label="money" min_ids="word_55..word_57" type="enamex" lemmata="us$ 119.2 million" isprenominal="false" pos="$ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_60..word_62" sentenceid="2" label="money" min_ids="word_60..word_62" type="enamex" lemmata="575 million franc" isprenominal="false" pos="cd cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_64..word_68" sentenceid="2" label="date" min_ids="word_65..word_68" type="enamex" lemmata="the first half of 1988" isprenominal="false" pos="dt jj nn in cd" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_68" sentenceid="2" label="np" min_ids="word_68..word_68" type="chunk" lemmata="1988" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_70" sentenceid="3" label="np" min_ids="word_70..word_70" type="chunk" lemmata="revenue" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_72..word_73" sentenceid="3" label="percent" min_ids="word_72..word_73" type="enamex" lemmata="13 %" isprenominal="false" pos="cd nn" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_75..word_77" sentenceid="3" label="money" min_ids="word_75..word_77" type="enamex" lemmata="45.4 billion franc" isprenominal="false" pos="cd cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_79..word_80" sentenceid="3" label="money" min_ids="word_79..word_80" type="enamex" lemmata="40.1 billion" isprenominal="false" pos="cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_82..word_84" sentenceid="4" label="organization" min_ids="word_82..word_84" type="enamex" lemmata="generale des eaux" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_86..word_88" sentenceid="4" label="np" min_ids="word_86..word_88" type="chunk" lemmata="the earnings gain" isprenominal="false" pos="dt nns nn" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_92" sentenceid="4" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_92..word_98" sentenceid="4" label="np" min_ids="word_92..word_98" type="chunk" lemmata="its water , energy and building activity" isprenominal="false" pos="prp$ nn , nn cc nn nns" speaker="-" mmax_level="markable" />
+</markables>

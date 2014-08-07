@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_5" span="word_1..word_2" sentenceid="1" label="person" min_ids="word_1..word_2" type="enamex" lemmata="president clinton" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_6" sentenceid="1" label="location" min_ids="word_6..word_6" type="enamex" lemmata="asia" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_8" sentenceid="2" label="np" min_ids="word_8..word_8" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_11" sentenceid="2" label="percent" type="enamex" lemmata="first" isprenominal="false" pos="rb" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_13" sentenceid="2" label="location" min_ids="word_13..word_13" type="enamex" lemmata="brunei" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_15..word_21" sentenceid="2" label="np" min_ids="word_15..word_16" type="chunk" lemmata="a meeting of asia - pacific nation" isprenominal="false" pos="dt nn in nnp hyph nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_18..word_20" sentenceid="2" label="location" type="enamex" lemmata="asia - pacific" isprenominal="false" pos="nnp hyph nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_18..word_21" sentenceid="2" label="np" min_ids="word_18..word_21" type="chunk" lemmata="asia - pacific nation" isprenominal="false" pos="nnp hyph nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_25" sentenceid="2" label="location" type="enamex" lemmata="vietnam" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_25..word_26" sentenceid="2" label="date" min_ids="word_25..word_26" type="enamex" lemmata="vietnam thursday" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_28..word_29" sentenceid="3" label="person" min_ids="word_28..word_29" type="enamex" lemmata="mr. clinton" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_32..word_35" sentenceid="3" label="np" min_ids="word_32..word_35" type="chunk" lemmata="the first u.s. president" isprenominal="false" pos="dt jj nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_33" sentenceid="3" label="percent" type="enamex" lemmata="first" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_34" sentenceid="3" label="location" type="enamex" lemmata="u.s." isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_38..word_39" sentenceid="3" label="np" min_ids="word_38..word_39" type="chunk" lemmata="the country" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_41..word_43" sentenceid="3" label="object" min_ids="word_41..word_43" type="enamex" lemmata="the vietnam war" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_46" sentenceid="3" label="date" min_ids="word_46..word_46" type="enamex" lemmata="1975" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+</markables>

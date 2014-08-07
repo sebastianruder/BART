@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_6" span="word_1..word_3" sentenceid="1" label="organization" min_ids="word_1..word_3" type="enamex" lemmata="concord camera corp." isprenominal="false" pos="nnp nn nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_5..word_19" sentenceid="1" label="np" min_ids="word_5..word_6" type="chunk" lemmata="the acquisition of peter bauser g.m.b . h. , a west german photographic product distributor" isprenominal="false" pos="dt nn in nnp nnp nnp . nnp , dt nnp nnp nn nns nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_8..word_11" sentenceid="1" label="organization" type="enamex" lemmata="peter bauser g.m.b ." isprenominal="false" pos="nnp nnp nnp ." speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_8..word_19" sentenceid="1" label="organization" min_ids="word_8..word_12" type="enamex" lemmata="peter bauser g.m.b . h. , a west german photographic product distributor" isprenominal="false" pos="nnp nnp nnp . nnp , dt nnp nnp nn nns nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_14..word_19" sentenceid="1" label="np" min_ids="word_14..word_19" type="chunk" lemmata="a west german photographic product distributor" isprenominal="false" pos="dt nnp nnp nn nns nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_15..word_16" sentenceid="1" label="location" type="enamex" lemmata="west german" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_21" sentenceid="2" label="np" min_ids="word_21..word_21" type="chunk" lemmata="terms" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_26" sentenceid="3" label="organization" min_ids="word_26..word_26" type="enamex" lemmata="concord" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_28..word_29" sentenceid="3" label="np" min_ids="word_28..word_29" type="chunk" lemmata="a camera" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_28..word_33" sentenceid="3" label="np" min_ids="word_28..word_33" type="chunk" lemmata="a camera and photographic product company" isprenominal="false" pos="dt nn cc jj nns nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_31..word_33" sentenceid="3" label="np" min_ids="word_31..word_33" type="chunk" lemmata="photographic product company" isprenominal="false" pos="jj nns nn" speaker="-" mmax_level="markable" />
+</markables>

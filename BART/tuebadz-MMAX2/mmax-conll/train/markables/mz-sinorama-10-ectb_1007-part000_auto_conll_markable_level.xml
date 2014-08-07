@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_21" span="word_1..word_5" sentenceid="1" label="object" min_ids="word_1..word_5" type="enamex" lemmata="chinese new year 's eve" isprenominal="false" pos="nnps nnp nnp pos nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_2..word_4" sentenceid="1" label="np" min_ids="word_2..word_3" type="chunk" lemmata="new year 's" isprenominal="false" pos="nnp nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_8" sentenceid="1" label="np" min_ids="word_8..word_8" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_9..word_11" sentenceid="1" label="np" min_ids="word_9..word_11" type="chunk" lemmata="the modern way" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_13..word_25" sentenceid="2" label="np" min_ids="word_13..word_13" type="chunk" lemmata="celebration for the long - anticipate start of the year 2000 barely over" isprenominal="false" pos="nns in dt rb hyph vbn nn in dt nn cd rb rb" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_15..word_25" sentenceid="2" label="np" min_ids="word_15..word_19" type="chunk" lemmata="the long - anticipate start of the year 2000 barely over" isprenominal="false" pos="dt rb hyph vbn nn in dt nn cd rb rb" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_21..word_23" sentenceid="2" label="date" min_ids="word_21..word_23" type="enamex" lemmata="the year 2000" isprenominal="false" pos="dt nn cd" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_27" sentenceid="2" label="location" type="enamex" lemmata="chinese" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_27..word_28" sentenceid="2" label="np" min_ids="word_27..word_28" type="chunk" lemmata="chinese people" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_34..word_36" sentenceid="2" label="np" min_ids="word_34..word_36" type="chunk" lemmata="another new year" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_39..word_40" sentenceid="3" label="object" min_ids="word_39..word_40" type="enamex" lemmata="spring festival" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_44" sentenceid="3" label="np" min_ids="word_44..word_44" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_49..word_51" sentenceid="3" label="np" min_ids="word_49..word_51" type="chunk" lemmata="a longer break" isprenominal="false" pos="dt jjr nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_53" sentenceid="3" label="np" min_ids="word_53..word_53" type="chunk" lemmata="work" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_57" sentenceid="3" label="location" type="enamex" lemmata="western" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_57..word_59" sentenceid="3" label="object" min_ids="word_57..word_59" type="enamex" lemmata="western new year" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_63..word_70" sentenceid="3" label="np" min_ids="word_63..word_67" type="chunk" lemmata="an altogether more meaningful occasion for the chinese" isprenominal="false" pos="dt rb rbr jj nn in dt nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_69..word_70" sentenceid="3" label="location" min_ids="word_70..word_70" type="enamex" lemmata="the chinese" isprenominal="false" pos="dt nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_73..word_74" sentenceid="4" label="date" min_ids="word_73..word_73" type="enamex" lemmata="today 's" isprenominal="false" pos="nn pos" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_73..word_78" sentenceid="4" label="np" min_ids="word_73..word_76" type="chunk" lemmata="today 's sweeping tide of modernization" isprenominal="false" pos="nn pos jj nn in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_78" sentenceid="4" label="np" min_ids="word_78..word_78" type="chunk" lemmata="modernization" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_80..word_81" sentenceid="4" label="object" min_ids="word_80..word_81" type="enamex" lemmata="spring festival" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_84..word_95" sentenceid="4" label="np" min_ids="word_84..word_87" type="chunk" lemmata="the only annual occasion leave with a truly &quot; chinese &quot; flavor" isprenominal="false" pos="dt jj jj nn vbn in dt rb `` jj '' nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_90..word_95" sentenceid="4" label="np" min_ids="word_90..word_95" type="chunk" lemmata="a truly &quot; chinese &quot; flavor" isprenominal="false" pos="dt rb `` jj '' nn" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_93" sentenceid="4" label="location" type="enamex" lemmata="chinese" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_100" sentenceid="5" label="np" min_ids="word_100..word_100" type="chunk" lemmata="people" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_102..word_104" sentenceid="5" label="object" min_ids="word_102..word_104" type="enamex" lemmata="chinese new year" isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_108..word_115" sentenceid="6" label="np" min_ids="word_108..word_108" type="chunk" lemmata="much of the ancient form of the festival" isprenominal="false" pos="jj in dt jj nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_110..word_115" sentenceid="6" label="np" min_ids="word_110..word_112" type="chunk" lemmata="the ancient form of the festival" isprenominal="false" pos="dt jj nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_114..word_115" sentenceid="6" label="np" min_ids="word_114..word_115" type="chunk" lemmata="the festival" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_120..word_121" sentenceid="6" label="np" min_ids="word_120..word_121" type="chunk" lemmata="new element" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_126" sentenceid="6" label="np" type="chunk" lemmata="our" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_126..word_127" sentenceid="6" label="np" min_ids="word_126..word_127" type="chunk" lemmata="our time" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+</markables>

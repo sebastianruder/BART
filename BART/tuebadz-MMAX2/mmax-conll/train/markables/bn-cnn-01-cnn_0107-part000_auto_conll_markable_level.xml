@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_13" span="word_1..word_2" sentenceid="1" label="person" min_ids="word_1..word_2" type="enamex" lemmata="slobodan milosevic" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_6..word_8" sentenceid="1" label="np" min_ids="word_6..word_8" type="chunk" lemmata="the public eye" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_10" sentenceid="2" label="date" min_ids="word_10..word_10" type="enamex" lemmata="today" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_12..word_15" sentenceid="2" label="np" min_ids="word_12..word_15" type="chunk" lemmata="the former yugoslav president" isprenominal="false" pos="dt jj jj nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_14" sentenceid="2" label="location" type="enamex" lemmata="yugoslav" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_17" sentenceid="2" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_17..word_20" sentenceid="2" label="np" min_ids="word_17..word_20" type="chunk" lemmata="his first public appearance" isprenominal="false" pos="prp$ jj jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_23" sentenceid="2" label="np" min_ids="word_23..word_23" type="chunk" lemmata="power" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_25" sentenceid="3" label="person" min_ids="word_25..word_25" type="enamex" lemmata="milosevic" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_27..word_35" sentenceid="3" label="np" min_ids="word_27..word_29" type="chunk" lemmata="a special meeting of the socialist party of serbia" isprenominal="false" pos="dt jj nn in dt nnp nnp in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_32..word_35" sentenceid="3" label="organization" type="enamex" lemmata="socialist party of serbia" isprenominal="false" pos="nnp nnp in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_37" sentenceid="3" label="location" min_ids="word_37..word_37" type="enamex" lemmata="belgrade" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_39" sentenceid="4" label="np" min_ids="word_39..word_39" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_41..word_47" sentenceid="4" label="np" min_ids="word_41..word_44" type="chunk" lemmata="the democratic yugoslav government that unseat he" isprenominal="false" pos="dt jj jj nn wdt vbd prp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_43" sentenceid="4" label="location" type="enamex" lemmata="yugoslav" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_47" sentenceid="4" label="np" min_ids="word_47..word_47" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_50..word_51" sentenceid="4" label="np" min_ids="word_50..word_51" type="chunk" lemmata="the election" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_52..word_53" sentenceid="4" label="np" min_ids="word_52..word_53" type="chunk" lemmata="a coup" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_55" sentenceid="5" label="np" min_ids="word_55..word_55" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_58..word_59" sentenceid="5" label="np" min_ids="word_58..word_59" type="chunk" lemmata="the west" isprenominal="false" pos="dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_65..word_66" sentenceid="5" label="np" min_ids="word_65..word_66" type="chunk" lemmata="the country" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+</markables>

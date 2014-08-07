@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_22" span="word_1" sentenceid="1" label="location" type="enamex" lemmata="palestinian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_1..word_4" sentenceid="1" label="np" min_ids="word_1..word_4" type="chunk" lemmata="palestinian and israeli negotiator" isprenominal="false" pos="jj cc jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_3" sentenceid="1" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_8..word_10" sentenceid="1" label="np" min_ids="word_8..word_10" type="chunk" lemmata="the bargaining table" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_12" sentenceid="1" label="location" min_ids="word_12..word_12" type="enamex" lemmata="egypt" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_19..word_28" sentenceid="1" label="np" min_ids="word_19..word_28" type="chunk" lemmata="little confidence a middle east peace deal can be broker" isprenominal="false" pos="jj nn dt nnp nnp nn nn md vb vbn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_21..word_25" sentenceid="1" label="np" min_ids="word_21..word_25" type="chunk" lemmata="a middle east peace deal" isprenominal="false" pos="dt nnp nnp nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_22..word_23" sentenceid="1" label="location" type="enamex" lemmata="middle east" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_30" sentenceid="2" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_30..word_34" sentenceid="2" label="person" min_ids="word_30..word_34" type="enamex" lemmata="israeli prime minister ehud barak" isprenominal="false" pos="jj nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_37..word_42" sentenceid="2" label="np" min_ids="word_37..word_38" type="chunk" lemmata="the chance of achieve an agreement" isprenominal="false" pos="dt nns in vbg dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_41..word_42" sentenceid="2" label="np" min_ids="word_41..word_42" type="chunk" lemmata="an agreement" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_47" sentenceid="3" label="np" min_ids="word_47..word_47" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_49" sentenceid="3" label="location" type="enamex" lemmata="palestinian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_49..word_50" sentenceid="3" label="np" min_ids="word_49..word_50" type="chunk" lemmata="palestinian refugee" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_55..word_58" sentenceid="3" label="np" min_ids="word_55..word_58" type="chunk" lemmata="the right to return" isprenominal="false" pos="dt nn to vb" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_60" sentenceid="4" label="np" min_ids="word_60..word_60" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_66..word_67" sentenceid="4" label="location" min_ids="word_66..word_66" type="enamex" lemmata="jerusalem 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_66..word_71" sentenceid="4" label="np" min_ids="word_66..word_71" type="chunk" lemmata="jerusalem 's most contest holy site" isprenominal="false" pos="nnp pos rbs vbn jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_73" sentenceid="4" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_73..word_74" sentenceid="4" label="np" min_ids="word_73..word_74" type="chunk" lemmata="israeli hand" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_76" sentenceid="5" label="location" type="enamex" lemmata="palestinian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_76..word_77" sentenceid="5" label="np" min_ids="word_76..word_77" type="chunk" lemmata="palestinian negotiator" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_79..word_80" sentenceid="5" label="np" min_ids="word_79..word_80" type="chunk" lemmata="those parameter" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_83..word_84" sentenceid="5" label="np" min_ids="word_83..word_84" type="chunk" lemmata="the talk" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_87" sentenceid="5" label="np" min_ids="word_87..word_87" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_93..word_94" sentenceid="6" label="np" min_ids="word_93..word_94" type="chunk" lemmata="additional violence" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_98..word_99" sentenceid="6" label="np" min_ids="word_98..word_99" type="chunk" lemmata="the pessimism" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_101" sentenceid="7" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_101..word_102" sentenceid="7" label="np" min_ids="word_101..word_102" type="chunk" lemmata="israeli official" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_104..word_106" sentenceid="7" label="np" min_ids="word_104..word_106" type="chunk" lemmata="a main road" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_108..word_110" sentenceid="7" label="location" min_ids="word_108..word_110" type="enamex" lemmata="the gaza strip" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_112..word_114" sentenceid="7" label="np" min_ids="word_112..word_114" type="chunk" lemmata="an israeli soldier" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_34" span="word_113" sentenceid="7" label="location" type="enamex" lemmata="israeli" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_118..word_119" sentenceid="7" label="np" min_ids="word_118..word_119" type="chunk" lemmata="an explosion" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+</markables>

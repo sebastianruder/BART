@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_11" tag="(S1 (S (NP (NNP Israel)) (VP (VBD withdrew) (NP (PRP$ its) (NNS soldiers)) (PP (IN from) (NP (NP (DT a) (JJ holy) (NN site)) (PP (IN in) (NP (NNP Jerusalem)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_12..word_28" tag="(S1 (S (NP (PRP It)) (VP (VBZ 's) (VP (VBN been) (NP (NP (DT the) (NN scene)) (PP (IN of) (NP (NP (JJ fierce) (NNS clashes)) (PP (IN between) (NP (NNPS Israelis) (CC and) (NNPS Palestinians)))))) (PP (IN over) (NP (DT the) (JJ past) (NN week))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_29..word_41" tag="(S1 (S (NP (NP (NN Responsibility)) (PP (IN for) (S (VP (VBG guarding) (NP (DT the) (NN site)))))) (VP (VBZ has) (VP (VBN been) (VP (VBN handed) (PRT (RP over)) (PP (IN to) (NP (JJ Palestinian) (NNS authorities)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_42..word_58" tag="(S1 (S (NP (NNP Israel)) (VP (VBZ says) (SBAR (S (NP (NP (CD one)) (PP (IN of) (NP (PRP$ its) (NN border) (NN policeman)))) (VP (VBD was) (VP (VBN shot) (CC and) (VBN wounded) (PP (IN during) (NP (DT the) (NML (NN night) (NN time)) (NN evacuation)))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_59..word_75" tag="(S1 (S (PP (IN On) (NP (NNP Friday))) (, ,) (NP (ADJP (NN stone) (HYPH -) (VBG throwing)) (NNPS Palestinians)) (VP (VBD confronted) (NP (NP (JJ Israeli) (NNS troops)) (VP (VBG protecting) (NP (NP (DT a) (JJ Jewish) (NN settlement)) (PP (IN in) (NP (NNP Gaza))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10006" span="word_76..word_93" tag="(S1 (S (NP (NNS Reports)) (VP (VBP say) (SBAR (S (NP (CD six) (NNPS Palestinians)) (VP (VBD were) (VP (VBN killed) (NP (NNP Friday)) (PP (IN in) (NP (NP (NNS clashes)) (PP (IN on) (NP (NP (DT the) (NNP West) (NNP Bank)) (CC and) (NP (DT the) (NNP Gaza) (NNP Strip))))))))))) (. .)))" mmax_level="parse" />
+</markables>

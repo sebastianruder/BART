@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_10" span="word_1..word_3" sentenceid="1" label="organization" min_ids="word_1..word_3" type="enamex" lemmata="birmingham steel corp." isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_6" sentenceid="1" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_6..word_11" sentenceid="1" label="np" min_ids="word_6..word_11" type="chunk" lemmata="its emeryville , calif. , minimill" isprenominal="false" pos="prp$ nnp , nnp , nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_7" sentenceid="1" label="location" type="enamex" lemmata="emeryville" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_9" sentenceid="1" label="location" type="enamex" lemmata="calif." isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_13..word_20" sentenceid="1" label="np" min_ids="word_13..word_15" type="chunk" lemmata="only minor damage from last week 's earthquake" isprenominal="false" pos="rb jj nn in jj nn pos nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_17..word_19" sentenceid="1" label="date" min_ids="word_17..word_18" type="enamex" lemmata="last week 's" isprenominal="false" pos="jj nn pos" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_17..word_20" sentenceid="1" label="np" min_ids="word_17..word_20" type="chunk" lemmata="last week 's earthquake" isprenominal="false" pos="jj nn pos nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_22" sentenceid="2" label="np" min_ids="word_22..word_22" type="chunk" lemmata="steelmaking" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_24..word_25" sentenceid="2" label="date" min_ids="word_24..word_25" type="enamex" lemmata="oct. 18" isprenominal="false" pos="nnp cd" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_28..word_29" sentenceid="2" label="np" min_ids="word_28..word_29" type="chunk" lemmata="the company" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_31" sentenceid="2" label="np" min_ids="word_31..word_31" type="chunk" lemmata="production" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_41..word_45" sentenceid="2" label="np" min_ids="word_41..word_42" type="chunk" lemmata="traffic disruption around the plant" isprenominal="false" pos="nn nns in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_44..word_45" sentenceid="2" label="np" min_ids="word_44..word_45" type="chunk" lemmata="the plant" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_49" sentenceid="2" label="np" min_ids="word_49..word_49" type="chunk" lemmata="repair" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_51..word_55" sentenceid="2" label="np" min_ids="word_51..word_55" type="chunk" lemmata="gas and electric power system" isprenominal="false" pos="nn cc jj nn nns" speaker="-" mmax_level="markable" />
+</markables>

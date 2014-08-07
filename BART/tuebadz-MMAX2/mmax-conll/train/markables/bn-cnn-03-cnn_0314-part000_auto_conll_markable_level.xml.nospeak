@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_60" span="word_1..word_5" sentenceid="1" label="object" min_ids="word_1..word_5" type="enamex" lemmata="the `` uss abraham lincoln" isprenominal="false" pos="dt `` nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_8" sentenceid="1" label="np" min_ids="word_8..word_8" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_10..word_13" sentenceid="1" label="np" min_ids="word_10..word_13" type="chunk" lemmata="a guide missile destroyer" isprenominal="false" pos="dt vbn nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_15" sentenceid="2" label="np" min_ids="word_15..word_15" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_61" span="word_18" sentenceid="2" label="percent" type="enamex" lemmata="50" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_18..word_20" sentenceid="2" label="np" min_ids="word_18..word_20" type="chunk" lemmata="50 tomahawk missile" isprenominal="false" pos="cd nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_62" span="word_19" sentenceid="2" label="object" type="enamex" lemmata="tomahawk" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_63" span="word_22..word_25" sentenceid="2" label="object" min_ids="word_22..word_25" type="enamex" lemmata="`` operation iraqi freedom" isprenominal="false" pos="`` nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_28" sentenceid="3" label="np" min_ids="word_28..word_28" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_31..word_35" sentenceid="3" label="np" min_ids="word_31..word_32" type="chunk" lemmata="the capability of this ship" isprenominal="false" pos="dt nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_34..word_35" sentenceid="3" label="np" min_ids="word_34..word_35" type="chunk" lemmata="this ship" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_37..word_44" sentenceid="4" label="np" min_ids="word_37..word_39" type="chunk" lemmata="the other mission that it take part in" isprenominal="false" pos="dt jj nn wdt prp vbd nn in" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_41" sentenceid="4" label="np" min_ids="word_41..word_41" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_43" sentenceid="4" label="np" min_ids="word_43..word_43" type="chunk" lemmata="part" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_46..word_47" sentenceid="4" label="np" min_ids="word_46..word_47" type="chunk" lemmata="the operation" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_49..word_57" sentenceid="4" label="np" min_ids="word_49..word_50" type="chunk" lemmata="the fall of the saddam hussein and his regime" isprenominal="false" pos="dt nn in dt nnp nnp cc prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_64" span="word_52..word_54" sentenceid="4" label="person" min_ids="word_52..word_54" type="enamex" lemmata="the saddam hussein" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_52..word_57" sentenceid="4" label="np" min_ids="word_52..word_57" type="chunk" lemmata="the saddam hussein and his regime" isprenominal="false" pos="dt nnp nnp cc prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_78" span="word_56" sentenceid="4" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_56..word_57" sentenceid="4" label="np" min_ids="word_56..word_57" type="chunk" lemmata="his regime" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_59" sentenceid="5" label="np" min_ids="word_59..word_59" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_65..word_66" sentenceid="5" label="np" min_ids="word_65..word_66" type="chunk" lemmata="illegal smuggler" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_72..word_73" sentenceid="5" label="np" min_ids="word_72..word_73" type="chunk" lemmata="the ship" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_79..word_80" sentenceid="6" label="np" min_ids="word_79..word_80" type="chunk" lemmata="this ship" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_82..word_87" sentenceid="6" label="np" min_ids="word_82..word_84" type="chunk" lemmata="an important part within the war" isprenominal="false" pos="dt jj nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_86..word_87" sentenceid="6" label="np" min_ids="word_86..word_87" type="chunk" lemmata="the war" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_93..word_95" sentenceid="6" label="np" min_ids="word_93..word_95" type="chunk" lemmata="the radar system" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_97" sentenceid="7" label="np" min_ids="word_97..word_97" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_100" sentenceid="7" label="np" min_ids="word_100..word_100" type="chunk" lemmata="object" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_103..word_105" sentenceid="7" label="np" min_ids="word_103..word_105" type="chunk" lemmata="a honey bee" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_112" sentenceid="9" label="np" min_ids="word_112..word_112" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_115..word_118" sentenceid="9" label="np" min_ids="word_115..word_118" type="chunk" lemmata="enemy radar or missile" isprenominal="false" pos="nn nn cc nns" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_121" sentenceid="9" label="np" min_ids="word_121..word_121" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_124" sentenceid="10" label="np" min_ids="word_124..word_124" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_126..word_133" sentenceid="10" label="np" min_ids="word_126..word_128" type="chunk" lemmata="a big part in `` operation iraqi freedom" isprenominal="false" pos="dt jj nn in `` nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_65" span="word_130..word_133" sentenceid="10" label="object" min_ids="word_130..word_133" type="enamex" lemmata="`` operation iraqi freedom" isprenominal="false" pos="`` nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_136" sentenceid="11" label="np" min_ids="word_136..word_136" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_139..word_140" sentenceid="11" label="np" min_ids="word_139..word_140" type="chunk" lemmata="the picture" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_142" sentenceid="12" label="np" min_ids="word_142..word_142" type="chunk" lemmata="everybody" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_144" sentenceid="12" label="np" min_ids="word_144..word_144" type="chunk" lemmata="home" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_146..word_148" sentenceid="13" label="np" min_ids="word_146..word_148" type="chunk" lemmata="friends and family" isprenominal="false" pos="nns cc nn" speaker="-" mmax_level="markable" />
+<markable id="markable_34" span="word_154..word_159" sentenceid="14" label="np" min_ids="word_154..word_155" type="chunk" lemmata="each other in almost 10 month" isprenominal="false" pos="dt jj in rb cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_66" span="word_162" sentenceid="15" label="percent" type="enamex" lemmata="14" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_35" span="word_162..word_163" sentenceid="15" label="np" min_ids="word_162..word_163" type="chunk" lemmata="14 father" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_79" span="word_167" sentenceid="15" label="np" type="chunk" lemmata="their" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_36" span="word_167..word_168" sentenceid="15" label="np" min_ids="word_167..word_168" type="chunk" lemmata="their baby" isprenominal="false" pos="prp$ nns" speaker="-" mmax_level="markable" />
+<markable id="markable_37" span="word_170..word_171" sentenceid="16" label="np" min_ids="word_170..word_170" type="chunk" lemmata="they all" isprenominal="false" pos="prp dt" speaker="-" mmax_level="markable" />
+<markable id="markable_80" span="word_174" sentenceid="16" label="np" type="chunk" lemmata="their" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_38" span="word_174..word_175" sentenceid="16" label="np" min_ids="word_174..word_175" type="chunk" lemmata="their family" isprenominal="false" pos="prp$ nns" speaker="-" mmax_level="markable" />
+<markable id="markable_39" span="word_177" sentenceid="17" label="np" min_ids="word_177..word_177" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_40" span="word_183..word_185" sentenceid="17" label="np" min_ids="word_183..word_185" type="chunk" lemmata="one such family" isprenominal="false" pos="cd jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_41" span="word_187" sentenceid="18" label="np" min_ids="word_187..word_187" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_42" span="word_190" sentenceid="18" label="np" min_ids="word_190..word_190" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_43" span="word_191..word_195" sentenceid="18" label="np" min_ids="word_191..word_191" type="chunk" lemmata="picture of the galetta family" isprenominal="false" pos="nns in dt nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_44" span="word_193..word_195" sentenceid="18" label="np" min_ids="word_193..word_195" type="chunk" lemmata="the galetta family" isprenominal="false" pos="dt nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_67" span="word_194" sentenceid="18" label="person" type="enamex" lemmata="galetta" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_68" span="word_197" sentenceid="19" label="person" min_ids="word_197..word_197" type="enamex" lemmata="katie" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_69" span="word_201..word_202" sentenceid="19" label="date" min_ids="word_201..word_202" type="enamex" lemmata="christmas day" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_70" span="word_204" sentenceid="19" label="person" min_ids="word_204..word_204" type="enamex" lemmata="anderson" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_71" span="word_209" sentenceid="20" label="percent" type="enamex" lemmata="first" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_81" span="word_211" sentenceid="20" label="np" type="chunk" lemmata="she" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_45" span="word_211..word_212" sentenceid="20" label="np" min_ids="word_211..word_212" type="chunk" lemmata="she father" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_46" span="word_216" sentenceid="20" label="np" min_ids="word_216..word_216" type="chunk" lemmata="she" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_82" span="word_220" sentenceid="20" label="np" type="chunk" lemmata="she" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_47" span="word_220..word_221" sentenceid="20" label="np" min_ids="word_220..word_221" type="chunk" lemmata="she eye" isprenominal="false" pos="prp$ nns" speaker="-" mmax_level="markable" />
+<markable id="markable_48" span="word_223" sentenceid="20" label="np" min_ids="word_223..word_223" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_72" span="word_227..word_230" sentenceid="20" label="object" min_ids="word_227..word_230" type="enamex" lemmata="`` operation iraqi freedom" isprenominal="false" pos="`` nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_73" span="word_233" sentenceid="21" label="percent" type="enamex" lemmata="130" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_49" span="word_233..word_234" sentenceid="21" label="np" min_ids="word_233..word_234" type="chunk" lemmata="130 sailor" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_50" span="word_242" sentenceid="21" label="np" min_ids="word_242..word_242" type="chunk" lemmata="land" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_51" span="word_246" sentenceid="21" label="np" min_ids="word_246..word_246" type="chunk" lemmata="sea" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_74" span="word_253..word_256" sentenceid="21" label="object" min_ids="word_253..word_256" type="enamex" lemmata="`` operation iraqi freedom" isprenominal="false" pos="`` nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_52" span="word_259..word_261" sentenceid="22" label="np" min_ids="word_259..word_261" type="chunk" lemmata="some remarkable story" isprenominal="false" pos="dt jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_53" span="word_263" sentenceid="22" label="np" min_ids="word_263..word_263" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_54" span="word_269..word_270" sentenceid="22" label="np" min_ids="word_269..word_270" type="chunk" lemmata="a sailor" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_83" span="word_272" sentenceid="22" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_55" span="word_272..word_273" sentenceid="22" label="np" min_ids="word_272..word_273" type="chunk" lemmata="his baby" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_75" span="word_276" sentenceid="22" label="percent" type="enamex" lemmata="first" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_76" span="word_282..word_283" sentenceid="23" label="person" min_ids="word_282..word_283" type="enamex" lemmata="kyra phillips" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_56" span="word_285" sentenceid="23" label="np" min_ids="word_285..word_285" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_57" span="word_287" sentenceid="23" label="np" min_ids="word_287..word_287" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_58" span="word_289" sentenceid="23" label="np" min_ids="word_289..word_289" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_59" span="word_291" sentenceid="23" label="np" min_ids="word_291..word_291" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_77" span="word_292" sentenceid="23" label="date" min_ids="word_292..word_292" type="enamex" lemmata="today" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+</markables>

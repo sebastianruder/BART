@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_2" sentenceid="1" label="np" min_ids="word_1..word_2" type="chunk" lemmata="late picture" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_4" sentenceid="1" label="np" min_ids="word_4..word_4" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_6..word_8" sentenceid="1" label="np" min_ids="word_6..word_8" type="chunk" lemmata="the commercial break" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_10..word_13" sentenceid="2" label="np" min_ids="word_10..word_11" type="chunk" lemmata="a volcano in mexico" isprenominal="false" pos="dt nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_13" sentenceid="2" label="location" min_ids="word_13..word_13" type="enamex" lemmata="mexico" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_19..word_29" sentenceid="2" label="np" min_ids="word_19..word_20" type="chunk" lemmata="molten rock , know to the local as po - po" isprenominal="false" pos="jj nn , vbn in dt nns in nnp hyph nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_24..word_25" sentenceid="2" label="np" min_ids="word_24..word_25" type="chunk" lemmata="the local" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_27..word_29" sentenceid="2" label="location" min_ids="word_27..word_29" type="enamex" lemmata="po - po" isprenominal="false" pos="nnp hyph nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_32" sentenceid="3" label="np" min_ids="word_32..word_32" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_36..word_37" sentenceid="3" label="location" min_ids="word_36..word_37" type="enamex" lemmata="mexico city" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_39" sentenceid="3" label="np" min_ids="word_39..word_39" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_42" sentenceid="3" label="np" min_ids="word_42..word_42" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_44..word_49" sentenceid="4" label="percent" min_ids="word_44..word_46" type="enamex" lemmata="about 40 mile outside town ." isprenominal="false" pos="rb cd nns in nn ." speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_48" sentenceid="4" label="np" min_ids="word_48..word_48" type="chunk" lemmata="town" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_51" sentenceid="5" label="np" min_ids="word_51..word_51" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_54" sentenceid="5" label="np" min_ids="word_54..word_54" type="chunk" lemmata="ash" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_55..word_58" sentenceid="5" label="date" type="enamex" lemmata="a few day ago" isprenominal="false" pos="dt jj nns rb" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_60..word_61" sentenceid="5" label="np" min_ids="word_60..word_60" type="chunk" lemmata="authority there" isprenominal="false" pos="nns rb" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_64..word_69" sentenceid="5" label="percent" min_ids="word_64..word_66" type="enamex" lemmata="ten of thousand of people nearby" isprenominal="false" pos="nns in nns in nns rb" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_68..word_69" sentenceid="5" label="np" min_ids="word_68..word_68" type="chunk" lemmata="people nearby" isprenominal="false" pos="nns rb" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_76" sentenceid="6" label="np" min_ids="word_76..word_76" type="chunk" lemmata="people" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_81..word_82" sentenceid="7" label="np" min_ids="word_81..word_82" type="chunk" lemmata="the volcano" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_84..word_86" sentenceid="7" label="percent" min_ids="word_84..word_86" type="enamex" lemmata="almost 18,000 foot" isprenominal="false" pos="rb cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_89..word_90" sentenceid="8" label="np" min_ids="word_89..word_90" type="chunk" lemmata="molten rock" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_97" sentenceid="8" label="np" min_ids="word_97..word_97" type="chunk" lemmata="tree" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_101..word_102" sentenceid="8" label="np" min_ids="word_101..word_102" type="chunk" lemmata="the area" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+</markables>

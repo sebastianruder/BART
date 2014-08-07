@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_5" sentenceid="1" label="np" min_ids="word_1..word_2" type="chunk" lemmata="the city of los angeles" isprenominal="false" pos="dt nn in nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_4..word_5" sentenceid="1" label="location" min_ids="word_4..word_5" type="enamex" lemmata="los angeles" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_9" sentenceid="1" label="np" min_ids="word_9..word_9" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_13..word_21" sentenceid="1" label="np" min_ids="word_13..word_15" type="chunk" lemmata="the first city to host the olympics three time" isprenominal="false" pos="dt jj nn to vb dt nnps cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_14" sentenceid="1" label="percent" type="enamex" lemmata="first" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_18..word_19" sentenceid="1" label="object" min_ids="word_19..word_19" type="enamex" lemmata="the olympics" isprenominal="false" pos="dt nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_20..word_21" sentenceid="1" label="np" min_ids="word_20..word_21" type="chunk" lemmata="three time" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_23..word_33" sentenceid="2" label="np" min_ids="word_23..word_24" type="chunk" lemmata="the city that stage the summer game in 1932 and 1984" isprenominal="false" pos="dt nn wdt vbd dt nn nns in cd cc cd" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_27..word_29" sentenceid="2" label="np" min_ids="word_27..word_29" type="chunk" lemmata="the summer game" isprenominal="false" pos="dt nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_31..word_33" sentenceid="2" label="date" min_ids="word_31..word_33" type="enamex" lemmata="1932 and 1984" isprenominal="false" pos="cd cc cd" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_38..word_42" sentenceid="2" label="np" min_ids="word_38..word_40" type="chunk" lemmata="the summer game in 2012" isprenominal="false" pos="dt nn nns in cd" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_42" sentenceid="2" label="date" min_ids="word_42..word_42" type="enamex" lemmata="2012" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_44..word_55" sentenceid="3" label="np" min_ids="word_44..word_46" type="chunk" lemmata="other us city expect to submit bid by the december 15th deadline" isprenominal="false" pos="jj nnp nns vbn to vb nns in dt nnp nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_45" sentenceid="3" label="location" type="enamex" lemmata="us" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_50" sentenceid="3" label="np" min_ids="word_50..word_50" type="chunk" lemmata="bid" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_52..word_55" sentenceid="3" label="np" min_ids="word_52..word_55" type="chunk" lemmata="the december 15th deadline" isprenominal="false" pos="dt nnp nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_53..word_54" sentenceid="3" label="date" type="enamex" lemmata="december 15th" isprenominal="false" pos="nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_57" sentenceid="3" label="location" type="enamex" lemmata="dallas" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_57..word_63" sentenceid="3" label="location" min_ids="word_57..word_63" type="enamex" lemmata="dallas , washington , baltimore , cincinnati" isprenominal="false" pos="nnp , nnp , nnp , nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_57..word_75" sentenceid="3" label="location" min_ids="word_57..word_75" type="enamex" lemmata="dallas , washington , baltimore , cincinnati , houston , new york , san francisco and tampa , florida" isprenominal="false" pos="nnp , nnp , nnp , nnp , nnp , nnp nnp , nnp nnp cc nnp , nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_59" sentenceid="3" label="location" type="enamex" lemmata="washington" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_61" sentenceid="3" label="location" type="enamex" lemmata="baltimore" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_65" sentenceid="3" label="np" min_ids="word_65..word_65" type="chunk" lemmata="houston" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_65..word_68" sentenceid="3" label="location" type="enamex" lemmata="houston , new york" isprenominal="false" pos="nnp , nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_67..word_68" sentenceid="3" label="np" min_ids="word_67..word_68" type="chunk" lemmata="new york" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_70..word_71" sentenceid="3" label="location" min_ids="word_70..word_71" type="enamex" lemmata="san francisco" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_73..word_75" sentenceid="3" label="location" min_ids="word_73..word_73" type="enamex" lemmata="tampa , florida" isprenominal="false" pos="nnp , nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_75" sentenceid="3" label="np" min_ids="word_75..word_75" type="chunk" lemmata="florida" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_77..word_80" sentenceid="4" label="organization" min_ids="word_77..word_80" type="enamex" lemmata="the us olympic committee" isprenominal="false" pos="dt nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_34" span="word_83" sentenceid="4" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_83..word_84" sentenceid="4" label="np" min_ids="word_83..word_84" type="chunk" lemmata="its choice" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_86..word_87" sentenceid="4" label="date" min_ids="word_86..word_87" type="enamex" lemmata="late 2002" isprenominal="false" pos="jj cd" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_89..word_92" sentenceid="4" label="organization" min_ids="word_89..word_92" type="enamex" lemmata="the international olympic committee" isprenominal="false" pos="dt nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_95..word_99" sentenceid="4" label="np" min_ids="word_95..word_97" type="chunk" lemmata="the host city in 2005" isprenominal="false" pos="dt nn nn in cd" speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_99" sentenceid="4" label="date" min_ids="word_99..word_99" type="enamex" lemmata="2005" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+</markables>

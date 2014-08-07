@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_17" span="word_1" sentenceid="1" label="location" type="enamex" lemmata="french" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_1..word_3" sentenceid="1" label="np" min_ids="word_1..word_3" type="chunk" lemmata="french consumer price" isprenominal="false" pos="jj nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_5..word_6" sentenceid="1" label="percent" min_ids="word_5..word_6" type="enamex" lemmata="0.2 %" isprenominal="false" pos="cd nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_8" sentenceid="1" label="date" min_ids="word_8..word_8" type="enamex" lemmata="september" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_9..word_10" sentenceid="1" label="date" type="enamex" lemmata="from august" isprenominal="false" pos="in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_10" sentenceid="1" label="np" min_ids="word_10..word_10" type="chunk" lemmata="august" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_14..word_20" sentenceid="1" label="np" min_ids="word_14..word_15" type="chunk" lemmata="provisional estimate by the national statistics institute" isprenominal="false" pos="jj nns in dt nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_17..word_20" sentenceid="1" label="organization" min_ids="word_17..word_20" type="enamex" lemmata="the national statistics institute" isprenominal="false" pos="dt nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_22..word_23" sentenceid="2" label="np" min_ids="word_22..word_23" type="chunk" lemmata="the agency" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_28..word_33" sentenceid="2" label="np" min_ids="word_28..word_29" type="chunk" lemmata="a strike by finance ministry personnel" isprenominal="false" pos="dt nn in nnp nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_31..word_32" sentenceid="2" label="organization" type="enamex" lemmata="finance ministry" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_31..word_33" sentenceid="2" label="np" min_ids="word_31..word_33" type="chunk" lemmata="finance ministry personnel" isprenominal="false" pos="nnp nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_34..word_36" sentenceid="2" label="np" min_ids="word_34..word_36" type="chunk" lemmata="the provisional estimate" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_42..word_47" sentenceid="2" label="np" min_ids="word_42..word_45" type="chunk" lemmata="the consumer price index usually publish" isprenominal="false" pos="dt nn nn nn rb vbn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_49..word_50" sentenceid="3" label="np" min_ids="word_49..word_50" type="chunk" lemmata="the agency" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_55..word_56" sentenceid="3" label="np" min_ids="word_55..word_56" type="chunk" lemmata="the estimate" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_62..word_63" sentenceid="4" label="np" min_ids="word_62..word_63" type="chunk" lemmata="the institute" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_67" sentenceid="4" label="date" type="enamex" lemmata="annual" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_67..word_71" sentenceid="4" label="np" min_ids="word_67..word_69" type="chunk" lemmata="annual price growth in september" isprenominal="false" pos="jj nn nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_71" sentenceid="4" label="date" min_ids="word_71..word_71" type="enamex" lemmata="september" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_74..word_82" sentenceid="4" label="np" min_ids="word_74..word_77" type="chunk" lemmata="a 0.2 % rise by the consumer price index" isprenominal="false" pos="dt cd nn nn in dt nn nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_75..word_76" sentenceid="4" label="percent" type="enamex" lemmata="0.2 %" isprenominal="false" pos="cd nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_79..word_82" sentenceid="4" label="np" min_ids="word_79..word_82" type="chunk" lemmata="the consumer price index" isprenominal="false" pos="dt nn nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_85" sentenceid="4" label="np" min_ids="word_85..word_85" type="chunk" lemmata="growth" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_87..word_105" sentenceid="4" label="money" min_ids="word_87..word_90" type="enamex" lemmata="either 178.8 or 178.9 , up 3.3 % or 3.4 % from the year - earlier level of 173.1" isprenominal="false" pos="dt cd cc cd , rb cd nn cc cd nn in dt nn hyph jjr nn in cd" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_88" sentenceid="4" label="percent" type="enamex" lemmata="178.8" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_93..word_97" sentenceid="4" label="percent" min_ids="word_93..word_97" type="enamex" lemmata="3.3 % or 3.4 %" isprenominal="false" pos="cd nn cc cd nn" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_99..word_105" sentenceid="4" label="np" min_ids="word_99..word_103" type="chunk" lemmata="the year - earlier level of 173.1" isprenominal="false" pos="dt nn hyph jjr nn in cd" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_100..word_102" sentenceid="4" label="date" type="enamex" lemmata="year - earlier" isprenominal="false" pos="nn hyph jjr" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_105" sentenceid="4" label="money" min_ids="word_105..word_105" type="enamex" lemmata="173.1" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_107..word_108" sentenceid="5" label="np" min_ids="word_107..word_108" type="chunk" lemmata="the index" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_110" sentenceid="5" label="money" min_ids="word_110..word_110" type="enamex" lemmata="178.5" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_112" sentenceid="5" label="date" min_ids="word_112..word_112" type="enamex" lemmata="august" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_117" sentenceid="5" label="date" min_ids="word_117..word_117" type="enamex" lemmata="1980" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_34" span="word_119" sentenceid="5" label="percent" min_ids="word_119..word_119" type="enamex" lemmata="100" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+</markables>

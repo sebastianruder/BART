@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_2" tag="(S1 (NP (NN p.) (CD 18)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_3..word_13" tag="(S1 (S (NP (NP (DT The) (NNS shackles)) (PP (IN of) (NP (NN midlife)))) (VP (VBP make) (S (NP (ADJP (NN middle) (HYPH -) (JJ aged)) (NNS steps)) (ADJP (JJ heavy)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_14..word_38" tag="(S1 (SBARQ (WHADVP (WRB How)) (SQ (MD can) (NP (PRP one)) (VP (VB escape) (PP (IN from) (NP (NP (CD one) (POS 's)) (NNS commitments) (S (VP (TO to) (VP (VP (VB snatch) (NP (NP (PDT half) (DT a) (NN day)) (PP (IN of) (NP (NN freedom))))) (, ,) (CC and) (VP (VB appreciate) (NP (DT the) (NN world)) (PP (IN from) (NP (DT a) (JJ new) (NN perspective))))))))))) (. ?)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_39..word_40" tag="(S1 (NP (NN p.) (CD 20)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_41..word_44" tag="(S1 (NP (-LRB- -LRB-) (VBG facing) (NN page) (-RRB- -RRB-)))" mmax_level="parse" />
+<markable id="markable_10006" span="word_45..word_51" tag="(S1 (S (NP (DT The) (NN middle) (HYPH -) (JJ aged)) (VP (VBP have) (NP (NNS dreams))) (. .)))" mmax_level="parse" />
+<markable id="markable_10007" span="word_52..word_67" tag="(S1 (S (SBAR (IN If) (S (VP (VBN built) (PP (IN on) (NP (DT a) (JJ solid) (NN foundation)))))) (, ,) (NP (PRP they)) (VP (MD can) (VP (VB make) (S (NP (NN life)) (ADJP (RBR more) (JJ enjoyable) (CC and) (VBG fulfilling))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10008" span="word_68..word_69" tag="(S1 (NP (NN p.) (CD 22)))" mmax_level="parse" />
+<markable id="markable_10009" span="word_70..word_75" tag="(S1 (SQ (VBZ Is) (NP (NN life)) (VP (VBG getting) (NP (PRP you)) (ADVP (RB down))) (. ?)))" mmax_level="parse" />
+<markable id="markable_10010" span="word_76..word_97" tag="(S1 (S (S (VP (VP (VB Go) (PP (IN into) (NP (DT the) (NN crowd)))) (, ,) (VP (VB find) (NP (NP (NNS things)) (SBAR (S (VP (TO to) (VP (VB do))))))))) (, ,) (CC and) (S (NP (PRP you)) (VP (MD will) (VP (VB rediscover) (NP (NP (DT a) (NN sense)) (PP (IN of) (NP (NP (DT the) (NN value)) (PP (IN of) (NP (NN life))))))))) (. .)))" mmax_level="parse" />
+</markables>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_20" span="word_1" sentenceid="1" label="location" type="enamex" lemmata="iraqi" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_1..word_2" sentenceid="1" label="np" min_ids="word_1..word_2" type="chunk" lemmata="iraqi force" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_10..word_11" sentenceid="2" label="person" min_ids="word_10..word_11" type="enamex" lemmata="jessica lynch" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_13" sentenceid="2" label="np" min_ids="word_13..word_13" type="chunk" lemmata="she" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_21..word_22" sentenceid="2" label="location" min_ids="word_21..word_22" type="enamex" lemmata="west virginia" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_24..word_30" sentenceid="3" label="np" min_ids="word_24..word_30" type="chunk" lemmata="the 19 - year - old army" isprenominal="false" pos="dt cd hyph nn hyph jj nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_25..word_29" sentenceid="3" label="date" type="enamex" lemmata="19 - year - old" isprenominal="false" pos="cd hyph nn hyph jj" speaker="-" mmax_level="markable" />
+<markable id="markable_34" span="word_34" sentenceid="3" label="np" type="chunk" lemmata="she" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_34..word_35" sentenceid="3" label="np" min_ids="word_34..word_35" type="chunk" lemmata="she parent" isprenominal="false" pos="prp$ nns" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_36" sentenceid="3" label="date" min_ids="word_36..word_36" type="enamex" lemmata="yesterday" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_38..word_43" sentenceid="3" label="np" min_ids="word_38..word_38" type="chunk" lemmata="phone from a hospital in germany" isprenominal="false" pos="nn in dt nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_40..word_43" sentenceid="3" label="np" min_ids="word_40..word_41" type="chunk" lemmata="a hospital in germany" isprenominal="false" pos="dt nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_43" sentenceid="3" label="location" min_ids="word_43..word_43" type="enamex" lemmata="germany" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_45..word_46" sentenceid="4" label="person" min_ids="word_45..word_46" type="enamex" lemmata="greg lynch" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_50" sentenceid="4" label="np" min_ids="word_50..word_50" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_35" span="word_53" sentenceid="4" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_53..word_54" sentenceid="4" label="np" min_ids="word_53..word_54" type="chunk" lemmata="his daughter" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_55" sentenceid="4" label="np" min_ids="word_55..word_55" type="chunk" lemmata="she" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_67..word_69" sentenceid="5" label="organization" min_ids="word_67..word_69" type="enamex" lemmata="the washington post" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_72" sentenceid="5" label="np" min_ids="word_72..word_72" type="chunk" lemmata="she" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_74..word_76" sentenceid="5" label="np" min_ids="word_74..word_76" type="chunk" lemmata="several iraqi soldier" isprenominal="false" pos="jj jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_75" sentenceid="5" label="location" type="enamex" lemmata="iraqi" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_78" sentenceid="5" label="np" min_ids="word_78..word_78" type="chunk" lemmata="she" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_82" sentenceid="5" label="np" min_ids="word_82..word_82" type="chunk" lemmata="she" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_85..word_87" sentenceid="5" label="np" min_ids="word_85..word_85" type="chunk" lemmata="herself , too" isprenominal="false" pos="prp , rb" speaker="-" mmax_level="markable" />
+<markable id="markable_36" span="word_92" sentenceid="6" label="np" type="chunk" lemmata="our" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_92..word_94" sentenceid="6" label="time" min_ids="word_92..word_94" type="enamex" lemmata="our next hour" isprenominal="false" pos="prp$ jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_96" sentenceid="6" label="location" type="enamex" lemmata="u.s." isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_96..word_97" sentenceid="6" label="np" min_ids="word_96..word_97" type="chunk" lemmata="u.s. force" isprenominal="false" pos="nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_100..word_103" sentenceid="6" label="np" min_ids="word_100..word_101" type="chunk" lemmata="the outskirts of baghdad" isprenominal="false" pos="dt nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_103" sentenceid="6" label="location" min_ids="word_103..word_103" type="enamex" lemmata="baghdad" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_105" sentenceid="6" label="np" min_ids="word_105..word_105" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_108" sentenceid="6" label="np" min_ids="word_108..word_108" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_112" sentenceid="6" label="np" min_ids="word_112..word_112" type="chunk" lemmata="resistance" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_113" sentenceid="6" label="np" min_ids="word_113..word_113" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_117..word_119" sentenceid="6" label="person" min_ids="word_117..word_118" type="enamex" lemmata="saddam hussein 's" isprenominal="false" pos="nnp nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_117..word_122" sentenceid="6" label="organization" min_ids="word_117..word_122" type="enamex" lemmata="saddam hussein 's elite republican guard" isprenominal="false" pos="nnp nnp pos jj nnp nnp" speaker="-" mmax_level="markable" />
+</markables>

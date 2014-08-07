@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_15" span="word_1..word_2" sentenceid="1" label="location" min_ids="word_1..word_1" type="enamex" lemmata="yugoslavia 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_1..word_8" sentenceid="1" label="np" min_ids="word_1..word_4" type="chunk" lemmata="yugoslavia 's new president , vojislav kostunica ," isprenominal="false" pos="nnp pos jj nnp , nnp nnp ," speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_6..word_7" sentenceid="1" label="person" min_ids="word_6..word_7" type="enamex" lemmata="vojislav kostunica" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_12..word_15" sentenceid="1" label="np" min_ids="word_12..word_12" type="chunk" lemmata="trouble consolidate his power" isprenominal="false" pos="nn vbg prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_14" sentenceid="1" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_14..word_15" sentenceid="1" label="np" min_ids="word_14..word_15" type="chunk" lemmata="his power" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_17..word_18" sentenceid="2" label="person" min_ids="word_17..word_17" type="enamex" lemmata="kostunica 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_17..word_24" sentenceid="2" label="np" min_ids="word_17..word_21" type="chunk" lemmata="kostunica 's supporter and ally of slobodan milosevic" isprenominal="false" pos="nnp pos nns cc nns in nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_23..word_24" sentenceid="2" label="person" min_ids="word_23..word_24" type="enamex" lemmata="slobodan milosevic" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_28" sentenceid="2" label="date" min_ids="word_28..word_28" type="enamex" lemmata="today" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_30..word_41" sentenceid="2" label="np" min_ids="word_30..word_32" type="chunk" lemmata="a transitional government and a new election in yugoslavia 's main republic" isprenominal="false" pos="dt jj nn cc dt jj nn in nnp pos jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_34..word_41" sentenceid="2" label="np" min_ids="word_34..word_36" type="chunk" lemmata="a new election in yugoslavia 's main republic" isprenominal="false" pos="dt jj nn in nnp pos jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_38..word_39" sentenceid="2" label="location" min_ids="word_38..word_38" type="enamex" lemmata="yugoslavia 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_38..word_41" sentenceid="2" label="np" min_ids="word_38..word_41" type="chunk" lemmata="yugoslavia 's main republic" isprenominal="false" pos="nnp pos jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_43" sentenceid="2" label="location" min_ids="word_43..word_43" type="enamex" lemmata="serbia" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_45" sentenceid="3" label="person" min_ids="word_45..word_45" type="enamex" lemmata="kostunica" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_48..word_49" sentenceid="3" label="np" min_ids="word_48..word_49" type="chunk" lemmata="more success" isprenominal="false" pos="jjr nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_52" sentenceid="4" label="np" min_ids="word_52..word_52" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_54..word_55" sentenceid="4" label="np" min_ids="word_54..word_55" type="chunk" lemmata="some support" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_56" sentenceid="4" label="date" min_ids="word_56..word_56" type="enamex" lemmata="today" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_58" sentenceid="4" label="np" min_ids="word_58..word_58" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_60..word_67" sentenceid="4" label="np" min_ids="word_60..word_61" type="chunk" lemmata="a summit of european union leader in france" isprenominal="false" pos="dt nn in nnp nnp nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_63..word_64" sentenceid="4" label="organization" type="enamex" lemmata="european union" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_63..word_67" sentenceid="4" label="np" min_ids="word_63..word_65" type="chunk" lemmata="european union leader in france" isprenominal="false" pos="nnp nnp nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_67" sentenceid="4" label="location" min_ids="word_67..word_67" type="enamex" lemmata="france" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_69..word_70" sentenceid="5" label="organization" min_ids="word_70..word_70" type="enamex" lemmata="the eu" isprenominal="false" pos="dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_72" sentenceid="5" label="location" min_ids="word_72..word_72" type="enamex" lemmata="yugoslavia" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_73..word_77" sentenceid="5" label="money" min_ids="word_73..word_75" type="enamex" lemmata="$ 175 million in aid" isprenominal="false" pos="$ cd cd in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_77" sentenceid="5" label="np" min_ids="word_77..word_77" type="chunk" lemmata="aid" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_80" sentenceid="5" label="np" min_ids="word_80..word_80" type="chunk" lemmata="condition" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+</markables>

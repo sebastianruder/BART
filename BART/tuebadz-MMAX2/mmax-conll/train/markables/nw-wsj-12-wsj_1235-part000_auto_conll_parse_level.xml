@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_27" tag="(S1 (S (NP (NNP MCI) (NNPS Communications) (NNP Corp.)) (VP (VBD said) (SBAR (S (NP (PRP it)) (VP (VBD received) (NP (DT a) (NML (QP ($ $) (CD 12) (CD million))) (NN contract) (S (VP (TO to) (VP (VB provide) (NP (JJ virtual) (NN network) (NNS services)) (PP (IN to) (NP (NP (NP (NNP Woolworth) (NNP Corp.) (POS 's)) (CD 5,600) (NML (NN corporate) (CC and) (NN retail)) (NNS sites)) (PP (IN in) (NP (DT the)))))))))))))))" mmax_level="parse" />
+<markable id="markable_10002" span="word_28..word_39" tag="(S1 (S (NP (DT The) (NN contract)) (ADVP (RB also)) (VP (VBZ provides) (PP (IN for) (NP (JJ advanced) (NML (NN billing) (CC and) (NN network)) (NN management) (NNS services)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_40..word_63" tag="(S1 (S (NP (NNP Woolworth)) (VP (VBD said) (SBAR (S (NP (PRP it)) (VP (VBZ expects) (S (VP (TO to) (VP (VB expand) (NP (NP (NN usage)) (PP (IN of) (NP (DT the) (NNP MCI) (NNS services)))) (SBAR (IN as) (S (NP (PRP it)) (VP (VBZ adds) (NP (QP (RB about) (CD 6,000)) (NN business) (NNS locations)) (PP (IN over) (NP (DT the) (JJ next) (JJ few) (NNS years))))))))))))) (. .)))" mmax_level="parse" />
+</markables>

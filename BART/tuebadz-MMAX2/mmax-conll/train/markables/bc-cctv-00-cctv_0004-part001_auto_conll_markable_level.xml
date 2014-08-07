@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_3" sentenceid="1" label="np" min_ids="word_1..word_3" type="chunk" lemmata="news and event" isprenominal="false" pos="nn cc nns" speaker="Wang shilin" mmax_level="markable" />
+<markable id="markable_1" span="word_5..word_6" sentenceid="1" label="np" min_ids="word_5..word_6" type="chunk" lemmata="every day" isprenominal="false" pos="dt nn" speaker="Wang shilin" mmax_level="markable" />
+<markable id="markable_2" span="word_9" sentenceid="2" label="np" min_ids="word_9..word_9" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="Wang shilin" mmax_level="markable" />
+<markable id="markable_3" span="word_16" sentenceid="2" label="np" min_ids="word_16..word_16" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="Wang shilin" mmax_level="markable" />
+<markable id="markable_21" span="word_24" sentenceid="3" label="organization" type="enamex" lemmata="cctv" isprenominal="false" pos="nnp" speaker="Wang shilin" mmax_level="markable" />
+<markable id="markable_22" span="word_24..word_26" sentenceid="3" label="organization" min_ids="word_24..word_26" type="enamex" lemmata="cctv focus today" isprenominal="false" pos="nnp nnp nnp" speaker="Wang shilin" mmax_level="markable" />
+<markable id="markable_4" span="word_28..word_30" sentenceid="4" label="np" min_ids="word_28..word_30" type="chunk" lemmata="a british newspaper" isprenominal="false" pos="dt jj nn" speaker="Wang shilin" mmax_level="markable" />
+<markable id="markable_23" span="word_29" sentenceid="4" label="location" type="enamex" lemmata="british" isprenominal="false" pos="jj" speaker="Wang shilin" mmax_level="markable" />
+<markable id="markable_24" span="word_33..word_34" sentenceid="4" label="location" min_ids="word_34..word_34" type="enamex" lemmata="the us" isprenominal="false" pos="dt nnp" speaker="Wang shilin" mmax_level="markable" />
+<markable id="markable_5" span="word_39..word_46" sentenceid="4" label="np" min_ids="word_39..word_44" type="chunk" lemmata="the al - jazeera tv station in qatar" isprenominal="false" pos="dt nnp hyph nnp nn nn in nnp" speaker="Wang shilin" mmax_level="markable" />
+<markable id="markable_25" span="word_40..word_43" sentenceid="4" label="organization" type="enamex" lemmata="al - jazeera tv" isprenominal="false" pos="nnp hyph nnp nn" speaker="Wang shilin" mmax_level="markable" />
+<markable id="markable_26" span="word_46" sentenceid="4" label="location" min_ids="word_46..word_46" type="enamex" lemmata="qatar" isprenominal="false" pos="nnp" speaker="Wang shilin" mmax_level="markable" />
+<markable id="markable_6" span="word_50..word_56" sentenceid="5" label="np" min_ids="word_50..word_51" type="chunk" lemmata="a joke tell by us president bush" isprenominal="false" pos="dt nn vbn in nnp nnp nnp" speaker="Wang shilin" mmax_level="markable" />
+<markable id="markable_27" span="word_54" sentenceid="5" label="location" type="enamex" lemmata="us" isprenominal="false" pos="nnp" speaker="Wang shilin" mmax_level="markable" />
+<markable id="markable_28" span="word_54..word_56" sentenceid="5" label="person" min_ids="word_54..word_56" type="enamex" lemmata="us president bush" isprenominal="false" pos="nnp nnp nnp" speaker="Wang shilin" mmax_level="markable" />
+<markable id="markable_7" span="word_59" sentenceid="5" label="np" min_ids="word_59..word_59" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="Wang shilin" mmax_level="markable" />
+<markable id="markable_8" span="word_60..word_64" sentenceid="5" label="np" min_ids="word_60..word_64" type="chunk" lemmata="a long - meditate threat" isprenominal="false" pos="dt rb hyph vbn nn" speaker="Wang shilin" mmax_level="markable" />
+<markable id="markable_29" span="word_67" sentenceid="6" label="location" type="enamex" lemmata="british" isprenominal="false" pos="jj" speaker="Wang shilin" mmax_level="markable" />
+<markable id="markable_30" span="word_67..word_70" sentenceid="6" label="person" min_ids="word_67..word_70" type="enamex" lemmata="british prime minister blair" isprenominal="false" pos="jj nnp nnp nnp" speaker="Wang shilin" mmax_level="markable" />
+<markable id="markable_9" span="word_74" sentenceid="6" label="np" min_ids="word_74..word_74" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="Wang shilin" mmax_level="markable" />
+<markable id="markable_10" span="word_78" sentenceid="6" label="np" min_ids="word_78..word_78" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="Wang shilin" mmax_level="markable" />
+<markable id="markable_35" span="word_82" sentenceid="6" label="np" type="chunk" lemmata="his" isprenominal="true" pos="prp$" speaker="Wang shilin" mmax_level="markable" />
+<markable id="markable_11" span="word_82..word_83" sentenceid="6" label="np" min_ids="word_82..word_83" type="chunk" lemmata="his ally" isprenominal="false" pos="prp$ nn" speaker="Wang shilin" mmax_level="markable" />
+<markable id="markable_12" span="word_87..word_90" sentenceid="6" label="np" min_ids="word_87..word_88" type="chunk" lemmata="the idea of attack" isprenominal="false" pos="dt nn in nns" speaker="Wang shilin" mmax_level="markable" />
+<markable id="markable_13" span="word_90" sentenceid="6" label="np" min_ids="word_90..word_90" type="chunk" lemmata="attack" isprenominal="false" pos="nns" speaker="Wang shilin" mmax_level="markable" />
+<markable id="markable_14" span="word_95..word_96" sentenceid="7" label="np" min_ids="word_95..word_96" type="chunk" lemmata="the truth" isprenominal="false" pos="dt nn" speaker="Wang shilin" mmax_level="markable" />
+<markable id="markable_15" span="word_100..word_107" sentenceid="8" label="np" min_ids="word_100..word_102" type="chunk" lemmata="a tv station in a small arab country" isprenominal="false" pos="dt nn nn in dt jj nnp nn" speaker="Wang shilin" mmax_level="markable" />
+<markable id="markable_16" span="word_104..word_107" sentenceid="8" label="np" min_ids="word_104..word_107" type="chunk" lemmata="a small arab country" isprenominal="false" pos="dt jj nnp nn" speaker="Wang shilin" mmax_level="markable" />
+<markable id="markable_31" span="word_106" sentenceid="8" label="location" type="enamex" lemmata="arab" isprenominal="false" pos="nnp" speaker="Wang shilin" mmax_level="markable" />
+<markable id="markable_32" span="word_109" sentenceid="8" label="location" type="enamex" lemmata="us" isprenominal="false" pos="nnp" speaker="Wang shilin" mmax_level="markable" />
+<markable id="markable_33" span="word_109..word_111" sentenceid="8" label="person" min_ids="word_109..word_111" type="enamex" lemmata="us president bush" isprenominal="false" pos="nnp nnp nnp" speaker="Wang shilin" mmax_level="markable" />
+<markable id="markable_17" span="word_113" sentenceid="8" label="np" min_ids="word_113..word_113" type="chunk" lemmata="pin" isprenominal="false" pos="nns" speaker="Wang shilin" mmax_level="markable" />
+<markable id="markable_18" span="word_113..word_115" sentenceid="8" label="np" min_ids="word_113..word_115" type="chunk" lemmata="pin and needle" isprenominal="false" pos="nns cc nns" speaker="Wang shilin" mmax_level="markable" />
+<markable id="markable_19" span="word_115" sentenceid="8" label="np" min_ids="word_115..word_115" type="chunk" lemmata="needle" isprenominal="false" pos="nns" speaker="Wang shilin" mmax_level="markable" />
+<markable id="markable_34" span="word_117..word_118" sentenceid="9" label="organization" min_ids="word_117..word_118" type="enamex" lemmata="focus today" isprenominal="false" pos="nnp nnp" speaker="Wang shilin" mmax_level="markable" />
+<markable id="markable_20" span="word_123..word_124" sentenceid="9" label="np" min_ids="word_123..word_124" type="chunk" lemmata="a minute" isprenominal="false" pos="dt nn" speaker="Wang shilin" mmax_level="markable" />
+</markables>

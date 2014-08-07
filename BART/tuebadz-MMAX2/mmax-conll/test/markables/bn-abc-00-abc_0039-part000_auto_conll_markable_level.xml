@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_4" sentenceid="1" label="np" min_ids="word_1..word_4" type="chunk" lemmata="some overseas news ." isprenominal="false" pos="dt jj nn ." speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_5..word_15" sentenceid="2" label="person" min_ids="word_5..word_5" type="enamex" lemmata="barak , who have be force to call national election ," isprenominal="false" pos="nnp , wp vbz vbn vbn to vb jj nns ," speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_13..word_14" sentenceid="2" label="np" min_ids="word_13..word_14" type="chunk" lemmata="national election" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_19..word_21" sentenceid="2" label="np" min_ids="word_19..word_21" type="chunk" lemmata="a palestinian state" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_20" sentenceid="2" label="location" type="enamex" lemmata="palestinian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_25..word_28" sentenceid="3" label="np" min_ids="word_25..word_28" type="chunk" lemmata="one very difficult condition" isprenominal="false" pos="cd rb jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_33..word_44" sentenceid="4" label="np" min_ids="word_33..word_34" type="chunk" lemmata="no discussion for now about who will have what status in jerusalem" isprenominal="false" pos="dt nn in rb in wp md vb wp nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_41..word_44" sentenceid="4" label="np" min_ids="word_41..word_42" type="chunk" lemmata="what status in jerusalem" isprenominal="false" pos="wp nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_44" sentenceid="4" label="location" min_ids="word_44..word_44" type="enamex" lemmata="jerusalem" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_46" sentenceid="5" label="location" min_ids="word_46..word_46" type="enamex" lemmata="palestinians" isprenominal="false" pos="nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_50" sentenceid="5" label="np" min_ids="word_50..word_50" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_53..word_60" sentenceid="6" label="location" min_ids="word_53..word_53" type="enamex" lemmata="bethlehem , where christians believe jesus be bear" isprenominal="false" pos="nnp , wrb nnps vbp nnp vbd vbn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_56" sentenceid="6" label="location" min_ids="word_56..word_56" type="enamex" lemmata="christians" isprenominal="false" pos="nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_58" sentenceid="6" label="person" min_ids="word_58..word_58" type="enamex" lemmata="jesus" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_62" sentenceid="6" label="date" type="enamex" lemmata="christmas" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_62..word_63" sentenceid="6" label="np" min_ids="word_62..word_63" type="chunk" lemmata="christmas plan" isprenominal="false" pos="nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_70..word_71" sentenceid="6" label="np" min_ids="word_70..word_71" type="chunk" lemmata="the violence" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+</markables>

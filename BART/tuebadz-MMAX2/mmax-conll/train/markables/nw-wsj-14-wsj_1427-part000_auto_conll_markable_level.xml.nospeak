@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_5" span="word_1..word_2" sentenceid="1" label="location" min_ids="word_1..word_1" type="enamex" lemmata="canada 's" isprenominal="false" pos="nnp pos" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_1..word_5" sentenceid="1" label="np" min_ids="word_1..word_5" type="chunk" lemmata="canada 's consumer price index" isprenominal="false" pos="nnp pos nn nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_7..word_11" sentenceid="1" label="percent" min_ids="word_8..word_11" type="enamex" lemmata="a seasonally adjust 0.2 %" isprenominal="false" pos="dt rb vbn cd nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_13" sentenceid="1" label="date" min_ids="word_13..word_13" type="enamex" lemmata="september" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_14..word_15" sentenceid="1" label="date" type="enamex" lemmata="from august" isprenominal="false" pos="in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_15" sentenceid="1" label="np" min_ids="word_15..word_15" type="chunk" lemmata="august" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_17..word_23" sentenceid="1" label="organization" min_ids="word_17..word_18" type="enamex" lemmata="statistics canada , a federal agency ," isprenominal="false" pos="nnp nnp , dt jj nn ," speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_20..word_22" sentenceid="1" label="np" min_ids="word_20..word_22" type="chunk" lemmata="a federal agency" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_26..word_27" sentenceid="2" label="np" min_ids="word_26..word_27" type="chunk" lemmata="the rise" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_29..word_44" sentenceid="2" label="np" min_ids="word_29..word_29" type="chunk" lemmata="boost of 0.1 % in august , 0.7 % in july and 0.6 % in june" isprenominal="false" pos="nns in cd nn in nnp , cd nn in nnp cc cd nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_31..word_44" sentenceid="2" label="percent" min_ids="word_31..word_32" type="enamex" lemmata="0.1 % in august , 0.7 % in july and 0.6 % in june" isprenominal="false" pos="cd nn in nnp , cd nn in nnp cc cd nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_34" sentenceid="2" label="date" min_ids="word_34..word_34" type="enamex" lemmata="august" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_36..word_39" sentenceid="2" label="percent" min_ids="word_36..word_37" type="enamex" lemmata="0.7 % in july" isprenominal="false" pos="cd nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_39" sentenceid="2" label="date" min_ids="word_39..word_39" type="enamex" lemmata="july" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_41..word_44" sentenceid="2" label="percent" min_ids="word_41..word_42" type="enamex" lemmata="0.6 % in june" isprenominal="false" pos="cd nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_44" sentenceid="2" label="date" min_ids="word_44..word_44" type="enamex" lemmata="june" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+</markables>

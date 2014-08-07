@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_9" span="word_1..word_12" sentenceid="1" label="organization" min_ids="word_1..word_4" type="enamex" lemmata="general dynamics services co. , a unit of general dynamics corp. ," isprenominal="false" pos="nnp nnp nnps nnp , dt nn in nnp nnp nnp ," speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_6..word_11" sentenceid="1" label="np" min_ids="word_6..word_7" type="chunk" lemmata="a unit of general dynamics corp." isprenominal="false" pos="dt nn in nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_9..word_11" sentenceid="1" label="organization" min_ids="word_9..word_11" type="enamex" lemmata="general dynamics corp." isprenominal="false" pos="nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_14..word_28" sentenceid="1" label="np" min_ids="word_14..word_19" type="chunk" lemmata="a $ 48.2 million army contract to establish maintenance facility for track vehicle in pakistan" isprenominal="false" pos="dt $ cd cd nnp nn to vb nn nns in vbn nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_15..word_17" sentenceid="1" label="money" type="enamex" lemmata="$ 48.2 million" isprenominal="false" pos="$ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_18" sentenceid="1" label="organization" type="enamex" lemmata="army" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_22..word_26" sentenceid="1" label="np" min_ids="word_22..word_23" type="chunk" lemmata="maintenance facility for track vehicle" isprenominal="false" pos="nn nns in vbn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_25..word_26" sentenceid="1" label="np" min_ids="word_25..word_26" type="chunk" lemmata="track vehicle" isprenominal="false" pos="vbn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_28" sentenceid="1" label="location" min_ids="word_28..word_28" type="enamex" lemmata="pakistan" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_30..word_31" sentenceid="2" label="organization" min_ids="word_30..word_31" type="enamex" lemmata="grumman corp." isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_34..word_44" sentenceid="2" label="np" min_ids="word_34..word_39" type="chunk" lemmata="a $ 15 million navy contract for aircraft - electronics improvement" isprenominal="false" pos="dt $ cd cd nnp nn in nn hyph nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_35..word_37" sentenceid="2" label="money" type="enamex" lemmata="$ 15 million" isprenominal="false" pos="$ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_38" sentenceid="2" label="organization" type="enamex" lemmata="navy" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_41..word_44" sentenceid="2" label="np" min_ids="word_41..word_44" type="chunk" lemmata="aircraft - electronics improvement" isprenominal="false" pos="nn hyph nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_46..word_56" sentenceid="3" label="organization" min_ids="word_46..word_48" type="enamex" lemmata="hughes aircraft co. , a unit of general motors corp. ," isprenominal="false" pos="nnp nnp nnp , dt nn in nnp nnps nnp ," speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_50..word_55" sentenceid="3" label="np" min_ids="word_50..word_51" type="chunk" lemmata="a unit of general motors corp." isprenominal="false" pos="dt nn in nnp nnps nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_53..word_55" sentenceid="3" label="organization" min_ids="word_53..word_55" type="enamex" lemmata="general motors corp." isprenominal="false" pos="nnp nnps nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_58..word_69" sentenceid="3" label="np" min_ids="word_58..word_64" type="chunk" lemmata="a $ 10.3 million air force contract for airborne - radar equipment" isprenominal="false" pos="dt $ cd cd nnp nnp nn in jj hyph nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_59..word_61" sentenceid="3" label="money" type="enamex" lemmata="$ 10.3 million" isprenominal="false" pos="$ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_62..word_63" sentenceid="3" label="organization" type="enamex" lemmata="air force" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_66..word_69" sentenceid="3" label="np" min_ids="word_66..word_69" type="chunk" lemmata="airborne - radar equipment" isprenominal="false" pos="jj hyph nn nn" speaker="-" mmax_level="markable" />
+</markables>

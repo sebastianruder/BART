@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_20" span="word_1..word_6" sentenceid="1" label="organization" min_ids="word_1..word_2" type="enamex" lemmata="no soap in the morning ." isprenominal="false" pos="dt nnp in dt nn ." speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_4..word_5" sentenceid="1" label="object" min_ids="word_5..word_5" type="enamex" lemmata="the morning" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_7..word_8" sentenceid="2" label="person" min_ids="word_7..word_8" type="enamex" lemmata="michael zhou" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_9..word_10" sentenceid="3" label="time" min_ids="word_9..word_10" type="enamex" lemmata="every morning" isprenominal="false" pos="dt nn" speaker="Michael Zhou" mmax_level="markable" />
+<markable id="markable_0" span="word_12" sentenceid="3" label="np" min_ids="word_12..word_12" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="Michael Zhou" mmax_level="markable" />
+<markable id="markable_1" span="word_14" sentenceid="3" label="np" min_ids="word_14..word_14" type="chunk" lemmata="face" isprenominal="false" pos="nn" speaker="Michael Zhou" mmax_level="markable" />
+<markable id="markable_24" span="word_16" sentenceid="3" label="organization" min_ids="word_16..word_16" type="enamex" lemmata="yaya" isprenominal="false" pos="nnp" speaker="Michael Zhou" mmax_level="markable" />
+<markable id="markable_2" span="word_20..word_21" sentenceid="3" label="np" min_ids="word_20..word_20" type="chunk" lemmata="kid 's" isprenominal="false" pos="nn pos" speaker="Michael Zhou" mmax_level="markable" />
+<markable id="markable_3" span="word_20..word_22" sentenceid="3" label="np" min_ids="word_20..word_22" type="chunk" lemmata="kid 's mother" isprenominal="false" pos="nn pos nn" speaker="Michael Zhou" mmax_level="markable" />
+<markable id="markable_25" span="word_27" sentenceid="3" label="location" min_ids="word_27..word_27" type="enamex" lemmata="yaya" isprenominal="false" pos="nnp" speaker="Michael Zhou" mmax_level="markable" />
+<markable id="markable_4" span="word_30" sentenceid="3" label="np" min_ids="word_30..word_30" type="chunk" lemmata="we" isprenominal="false" pos="prp" speaker="Michael Zhou" mmax_level="markable" />
+<markable id="markable_5" span="word_34..word_36" sentenceid="3" label="np" min_ids="word_34..word_36" type="chunk" lemmata="any face wash" isprenominal="false" pos="dt nn nn" speaker="Michael Zhou" mmax_level="markable" />
+<markable id="markable_6" span="word_38..word_40" sentenceid="4" label="np" min_ids="word_38..word_40" type="chunk" lemmata="the little one" isprenominal="false" pos="dt jj cd" speaker="Michael Zhou" mmax_level="markable" />
+<markable id="markable_7" span="word_45" sentenceid="4" label="np" min_ids="word_45..word_45" type="chunk" lemmata="i" isprenominal="false" pos="prp" speaker="Michael Zhou" mmax_level="markable" />
+<markable id="markable_8" span="word_49..word_58" sentenceid="4" label="np" min_ids="word_49..word_51" type="chunk" lemmata="a tv program , which document people go to tibet" isprenominal="false" pos="dt nn nn , wdt vbn nns vbg in nnp" speaker="Michael Zhou" mmax_level="markable" />
+<markable id="markable_9" span="word_55" sentenceid="4" label="np" min_ids="word_55..word_55" type="chunk" lemmata="people" isprenominal="false" pos="nns" speaker="Michael Zhou" mmax_level="markable" />
+<markable id="markable_26" span="word_58" sentenceid="4" label="location" min_ids="word_58..word_58" type="enamex" lemmata="tibet" isprenominal="false" pos="nnp" speaker="Michael Zhou" mmax_level="markable" />
+<markable id="markable_10" span="word_60" sentenceid="5" label="np" min_ids="word_60..word_60" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="Michael Zhou" mmax_level="markable" />
+<markable id="markable_28" span="word_64" sentenceid="5" label="np" type="chunk" lemmata="their" isprenominal="true" pos="prp$" speaker="Michael Zhou" mmax_level="markable" />
+<markable id="markable_11" span="word_64..word_65" sentenceid="5" label="np" min_ids="word_64..word_65" type="chunk" lemmata="their face" isprenominal="false" pos="prp$ nns" speaker="Michael Zhou" mmax_level="markable" />
+<markable id="markable_27" span="word_67..word_68" sentenceid="5" label="time" min_ids="word_67..word_68" type="enamex" lemmata="the morning" isprenominal="false" pos="dt nn" speaker="Michael Zhou" mmax_level="markable" />
+<markable id="markable_12" span="word_70..word_83" sentenceid="5" label="np" min_ids="word_70..word_70" type="chunk" lemmata="order to retain the grease that cope with the strong sunlight and ultraviolet radiation" isprenominal="false" pos="nn to vb dt nn wdt vbd in dt jj nn cc nn nn" speaker="Michael Zhou" mmax_level="markable" />
+<markable id="markable_13" span="word_73..word_83" sentenceid="5" label="np" min_ids="word_73..word_74" type="chunk" lemmata="the grease that cope with the strong sunlight and ultraviolet radiation" isprenominal="false" pos="dt nn wdt vbd in dt jj nn cc nn nn" speaker="Michael Zhou" mmax_level="markable" />
+<markable id="markable_14" span="word_78..word_80" sentenceid="5" label="np" min_ids="word_78..word_80" type="chunk" lemmata="the strong sunlight" isprenominal="false" pos="dt jj nn" speaker="Michael Zhou" mmax_level="markable" />
+<markable id="markable_15" span="word_78..word_83" sentenceid="5" label="np" min_ids="word_78..word_83" type="chunk" lemmata="the strong sunlight and ultraviolet radiation" isprenominal="false" pos="dt jj nn cc nn nn" speaker="Michael Zhou" mmax_level="markable" />
+<markable id="markable_16" span="word_82..word_83" sentenceid="5" label="np" min_ids="word_82..word_83" type="chunk" lemmata="ultraviolet radiation" isprenominal="false" pos="nn nn" speaker="Michael Zhou" mmax_level="markable" />
+<markable id="markable_17" span="word_89..word_92" sentenceid="5" label="np" min_ids="word_89..word_90" type="chunk" lemmata="the dust with soap" isprenominal="false" pos="dt nns in nn" speaker="Michael Zhou" mmax_level="markable" />
+<markable id="markable_18" span="word_92" sentenceid="5" label="np" min_ids="word_92..word_92" type="chunk" lemmata="soap" isprenominal="false" pos="nn" speaker="Michael Zhou" mmax_level="markable" />
+<markable id="markable_19" span="word_94" sentenceid="5" label="np" min_ids="word_94..word_94" type="chunk" lemmata="night" isprenominal="false" pos="nn" speaker="Michael Zhou" mmax_level="markable" />
+</markables>

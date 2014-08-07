@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_10" span="word_1" sentenceid="1" label="time" min_ids="word_1..word_1" type="enamex" lemmata="tonight" isprenominal="false" pos="nn" speaker="Larry King" mmax_level="markable" />
+<markable id="markable_11" span="word_2..word_5" sentenceid="1" label="person" min_ids="word_3..word_5" type="enamex" lemmata="the legendary mike wallace" isprenominal="false" pos="dt jj nnp nnp" speaker="Larry King" mmax_level="markable" />
+<markable id="markable_0" span="word_8..word_9" sentenceid="2" label="np" min_ids="word_8..word_9" type="chunk" lemmata="this time" isprenominal="false" pos="dt nn" speaker="Larry King" mmax_level="markable" />
+<markable id="markable_1" span="word_10" sentenceid="2" label="np" min_ids="word_10..word_10" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="Larry King" mmax_level="markable" />
+<markable id="markable_2" span="word_12..word_31" sentenceid="2" label="np" min_ids="word_12..word_13" type="chunk" lemmata="the question on everything from the indictment on the cia leak investigation to the president 's new supreme court nominee" isprenominal="false" pos="dt nns in nn in dt nn in dt nnp nn nn in dt nnp pos jj nnp nnp nn" speaker="Larry King" mmax_level="markable" />
+<markable id="markable_3" span="word_15..word_31" sentenceid="2" label="np" min_ids="word_15..word_15" type="chunk" lemmata="everything from the indictment on the cia leak investigation to the president 's new supreme court nominee" isprenominal="false" pos="nn in dt nn in dt nnp nn nn in dt nnp pos jj nnp nnp nn" speaker="Larry King" mmax_level="markable" />
+<markable id="markable_4" span="word_17..word_31" sentenceid="2" label="np" min_ids="word_17..word_18" type="chunk" lemmata="the indictment on the cia leak investigation to the president 's new supreme court nominee" isprenominal="false" pos="dt nn in dt nnp nn nn in dt nnp pos jj nnp nnp nn" speaker="Larry King" mmax_level="markable" />
+<markable id="markable_5" span="word_20..word_23" sentenceid="2" label="np" min_ids="word_20..word_23" type="chunk" lemmata="the cia leak investigation" isprenominal="false" pos="dt nnp nn nn" speaker="Larry King" mmax_level="markable" />
+<markable id="markable_12" span="word_21" sentenceid="2" label="organization" type="enamex" lemmata="cia" isprenominal="false" pos="nnp" speaker="Larry King" mmax_level="markable" />
+<markable id="markable_6" span="word_25..word_27" sentenceid="2" label="np" min_ids="word_25..word_26" type="chunk" lemmata="the president 's" isprenominal="false" pos="dt nnp pos" speaker="Larry King" mmax_level="markable" />
+<markable id="markable_7" span="word_25..word_31" sentenceid="2" label="np" min_ids="word_25..word_31" type="chunk" lemmata="the president 's new supreme court nominee" isprenominal="false" pos="dt nnp pos jj nnp nnp nn" speaker="Larry King" mmax_level="markable" />
+<markable id="markable_13" span="word_29..word_30" sentenceid="2" label="organization" type="enamex" lemmata="supreme court" isprenominal="false" pos="nnp nnp" speaker="Larry King" mmax_level="markable" />
+<markable id="markable_8" span="word_34" sentenceid="3" label="np" min_ids="word_34..word_34" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="Larry King" mmax_level="markable" />
+<markable id="markable_16" span="word_37" sentenceid="3" label="np" type="chunk" lemmata="your" isprenominal="true" pos="prp$" speaker="Larry King" mmax_level="markable" />
+<markable id="markable_9" span="word_37..word_39" sentenceid="3" label="np" min_ids="word_37..word_39" type="chunk" lemmata="your phone call" isprenominal="false" pos="prp$ nn nns" speaker="Larry King" mmax_level="markable" />
+<markable id="markable_14" span="word_42" sentenceid="4" label="person" min_ids="word_42..word_42" type="enamex" lemmata="mike" isprenominal="false" pos="nnp" speaker="Larry King" mmax_level="markable" />
+<markable id="markable_15" span="word_46..word_48" sentenceid="4" label="object" min_ids="word_46..word_48" type="enamex" lemmata="larry king live" isprenominal="false" pos="nnp nnp rb" speaker="Larry King" mmax_level="markable" />
+</markables>

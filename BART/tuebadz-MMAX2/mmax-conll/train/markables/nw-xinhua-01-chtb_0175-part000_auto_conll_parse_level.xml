@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_8" tag="(S1 (FRAG (NP (NNP Xinhua) (NNP News) (NNP Agency)) (, ,) (NP (NNP Paris)) (, ,) (NP (NNP February) (NN 13th))))" mmax_level="parse" />
+<markable id="markable_10002" span="word_9..word_54" tag="(S1 (S (PP (VBG According) (PP (IN to) (SBAR (WHNP (WP what)) (S (VP (VBZ has) (VP (VBN been) (VP (VBN shown) (PP (IN by) (NP (NP (DT a) (NML (JJ public) (NN opinion)) (NN poll)) (VP (VBN published) (PP (IN in) (NP (NP (NNP France) (POS 's)) (`` '') (NNP Politics) (NNP Weekly) ('' ''))) (NP (NN today)))))))))))) (, ,) (NP (NP (CD 56) (NN %)) (PP (IN of) (NP (JJ French) (NNS people)))) (VP (VBP support) (ADVP (RB immediately)) (VP (VP (VBG stopping) (NP (DT the) (NNP Gulf) (NNP War))) (CC and) (VP (VBG starting) (NP (NNS negotiations) (S (VP (TO to) (VP (VB try) (PP (IN for) (NP (NP (DT the) (JJ peaceful) (NN settlement)) (PP (IN of) (NP (DT the) (NNP Gulf) (NN Crisis)))))))))))) (. .)))" mmax_level="parse" />
+</markables>

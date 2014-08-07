@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_6" sentenceid="1" label="np" min_ids="word_1..word_2" type="chunk" lemmata="the head of official palestinian television" isprenominal="false" pos="dt nn in jj nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_4..word_6" sentenceid="1" label="np" min_ids="word_4..word_6" type="chunk" lemmata="official palestinian television" isprenominal="false" pos="jj nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_5" sentenceid="1" label="location" type="enamex" lemmata="palestinian" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_11..word_12" sentenceid="2" label="np" min_ids="word_11..word_12" type="chunk" lemmata="hooded man" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_15..word_16" sentenceid="2" label="person" min_ids="word_15..word_16" type="enamex" lemmata="hisha mickey" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_18..word_22" sentenceid="2" label="np" min_ids="word_18..word_19" type="chunk" lemmata="a hotel in gaza city" isprenominal="false" pos="dt nn in nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_21..word_22" sentenceid="2" label="location" min_ids="word_21..word_22" type="enamex" lemmata="gaza city" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_24..word_26" sentenceid="3" label="np" min_ids="word_24..word_26" type="chunk" lemmata="the palestinian leadership" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_25" sentenceid="3" label="location" type="enamex" lemmata="palestinian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_28..word_31" sentenceid="3" label="np" min_ids="word_28..word_29" type="chunk" lemmata="the collaborator with israel" isprenominal="false" pos="dt nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_31" sentenceid="3" label="location" min_ids="word_31..word_31" type="enamex" lemmata="israel" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_34..word_35" sentenceid="3" label="person" min_ids="word_34..word_35" type="enamex" lemmata="mr. mickey" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_37" sentenceid="4" label="location" min_ids="word_37..word_37" type="enamex" lemmata="israel" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_39" sentenceid="4" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_39..word_41" sentenceid="4" label="np" min_ids="word_39..word_41" type="chunk" lemmata="its security force" isprenominal="false" pos="prp$ nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_46..word_47" sentenceid="5" label="person" min_ids="word_46..word_47" type="enamex" lemmata="mr. mickey" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_50..word_58" sentenceid="5" label="np" min_ids="word_50..word_50" type="chunk" lemmata="charge of palestinian television and the palestinian satellite channel" isprenominal="false" pos="nn in jj nn cc dt jj nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_52" sentenceid="5" label="location" type="enamex" lemmata="palestinian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_52..word_53" sentenceid="5" label="np" min_ids="word_52..word_53" type="chunk" lemmata="palestinian television" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_52..word_58" sentenceid="5" label="np" min_ids="word_52..word_58" type="chunk" lemmata="palestinian television and the palestinian satellite channel" isprenominal="false" pos="jj nn cc dt jj nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_55..word_58" sentenceid="5" label="np" min_ids="word_55..word_58" type="chunk" lemmata="the palestinian satellite channel" isprenominal="false" pos="dt jj nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_56" sentenceid="5" label="location" type="enamex" lemmata="palestinian" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+</markables>

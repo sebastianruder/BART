@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_5" sentenceid="1" label="np" min_ids="word_1..word_5" type="chunk" lemmata="the philippine merchandise trade deficit" isprenominal="false" pos="dt jj nn nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_2" sentenceid="1" label="location" type="enamex" lemmata="philippine" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_8..word_10" sentenceid="1" label="money" min_ids="word_8..word_10" type="enamex" lemmata="$ 1.71 billion" isprenominal="false" pos="$ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_12..word_17" sentenceid="1" label="date" min_ids="word_13..word_17" type="enamex" lemmata="the first eight month of 1989" isprenominal="false" pos="dt jj cd nns in cd" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_17" sentenceid="1" label="np" min_ids="word_17..word_17" type="chunk" lemmata="1989" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_19..word_21" sentenceid="1" label="money" min_ids="word_19..word_21" type="enamex" lemmata="$ 807 million" isprenominal="false" pos="$ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_22..word_24" sentenceid="1" label="date" type="enamex" lemmata="a year earlier" isprenominal="false" pos="dt nn rbr" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_26" sentenceid="2" label="np" min_ids="word_26..word_26" type="chunk" lemmata="imports" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_30" sentenceid="2" label="location" type="enamex" lemmata="philippine" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_30..word_31" sentenceid="2" label="np" min_ids="word_30..word_31" type="chunk" lemmata="philippine export" isprenominal="false" pos="nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_34..word_37" sentenceid="2" label="np" min_ids="word_34..word_34" type="chunk" lemmata="gain in shipment abroad" isprenominal="false" pos="nns in nns rb" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_36..word_37" sentenceid="2" label="np" min_ids="word_36..word_36" type="chunk" lemmata="shipment abroad" isprenominal="false" pos="nns rb" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_39..word_43" sentenceid="2" label="np" min_ids="word_39..word_40" type="chunk" lemmata="the government national statistics office" isprenominal="false" pos="dt nn nnp nnps nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_41..word_43" sentenceid="2" label="organization" min_ids="word_41..word_43" type="enamex" lemmata="national statistics office" isprenominal="false" pos="nnp nnps nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_46" sentenceid="3" label="np" min_ids="word_46..word_46" type="chunk" lemmata="exports" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_48..word_59" sentenceid="3" label="money" min_ids="word_48..word_50" type="enamex" lemmata="$ 5.12 billion , up from $ 4.52 billion a year earlier" isprenominal="false" pos="$ cd cd , rb in $ cd cd dt nn rbr" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_54..word_56" sentenceid="3" label="money" min_ids="word_54..word_56" type="enamex" lemmata="$ 4.52 billion" isprenominal="false" pos="$ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_57..word_59" sentenceid="3" label="date" type="enamex" lemmata="a year earlier" isprenominal="false" pos="dt nn rbr" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_62" sentenceid="3" label="np" min_ids="word_62..word_62" type="chunk" lemmata="import" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_65..word_67" sentenceid="3" label="money" min_ids="word_65..word_67" type="enamex" lemmata="$ 6.81 billion" isprenominal="false" pos="$ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_69..word_71" sentenceid="3" label="money" min_ids="word_69..word_71" type="enamex" lemmata="$ 5.33 billion" isprenominal="false" pos="$ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_73..word_80" sentenceid="4" label="np" min_ids="word_73..word_75" type="chunk" lemmata="the trade deficit in the first eight month" isprenominal="false" pos="dt nn nn in dt jj cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_85..word_95" sentenceid="4" label="np" min_ids="word_85..word_87" type="chunk" lemmata="the trade gap of $ 1.09 billion for all of 1988" isprenominal="false" pos="dt nn nn in $ cd cd in dt in cd" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_89..word_95" sentenceid="4" label="money" min_ids="word_89..word_91" type="enamex" lemmata="$ 1.09 billion for all of 1988" isprenominal="false" pos="$ cd cd in dt in cd" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_95" sentenceid="4" label="date" min_ids="word_95..word_95" type="enamex" lemmata="1988" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_97" sentenceid="5" label="np" min_ids="word_97..word_97" type="chunk" lemmata="analysts" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_99..word_104" sentenceid="5" label="np" min_ids="word_99..word_101" type="chunk" lemmata="the trade gap for the year" isprenominal="false" pos="dt nn nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_107..word_109" sentenceid="5" label="money" min_ids="word_107..word_109" type="enamex" lemmata="$ 2 billion" isprenominal="false" pos="$ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_111..word_117" sentenceid="5" label="np" min_ids="word_111..word_111" type="chunk" lemmata="demand for capital equipment and raw material" isprenominal="false" pos="nn in nn nn cc jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_113..word_114" sentenceid="5" label="np" min_ids="word_113..word_114" type="chunk" lemmata="capital equipment" isprenominal="false" pos="nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_113..word_117" sentenceid="5" label="np" min_ids="word_113..word_117" type="chunk" lemmata="capital equipment and raw material" isprenominal="false" pos="nn nn cc jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_116..word_117" sentenceid="5" label="np" min_ids="word_116..word_117" type="chunk" lemmata="raw material" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_121" sentenceid="5" label="np" min_ids="word_121..word_121" type="chunk" lemmata="import" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+</markables>

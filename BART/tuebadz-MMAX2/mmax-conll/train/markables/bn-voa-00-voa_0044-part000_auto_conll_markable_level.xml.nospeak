@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_10" span="word_1..word_3" sentenceid="1" label="organization" min_ids="word_1..word_3" type="enamex" lemmata="the us navy" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_6..word_8" sentenceid="1" label="object" min_ids="word_6..word_8" type="enamex" lemmata="the uss cole" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_13..word_14" sentenceid="1" label="np" min_ids="word_13..word_14" type="chunk" lemmata="an explosion" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_17" sentenceid="1" label="np" min_ids="word_17..word_17" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_19" sentenceid="1" label="location" min_ids="word_19..word_19" type="enamex" lemmata="yemen" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_20..word_21" sentenceid="1" label="date" min_ids="word_20..word_21" type="enamex" lemmata="last week" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_24" sentenceid="1" label="percent" min_ids="word_24..word_24" type="enamex" lemmata="17" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_26..word_31" sentenceid="2" label="np" min_ids="word_26..word_28" type="chunk" lemmata="the revise accounting of the incident" isprenominal="false" pos="dt vbn nn in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_30..word_31" sentenceid="2" label="np" min_ids="word_30..word_31" type="chunk" lemmata="the incident" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_35..word_61" sentenceid="2" label="np" min_ids="word_35..word_37" type="chunk" lemmata="a navy statement friday raise new question about how the small boat carry the explosive be able to get near the ship and set off the blast" isprenominal="false" pos="dt nnp nn nnp vbg jj nns in wrb dt jj nn vbg dt nns vbd jj to vb in dt nn cc vb rp dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_36" sentenceid="2" label="organization" type="enamex" lemmata="navy" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_38" sentenceid="2" label="date" min_ids="word_38..word_38" type="enamex" lemmata="friday" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_40..word_61" sentenceid="2" label="np" min_ids="word_40..word_41" type="chunk" lemmata="new question about how the small boat carry the explosive be able to get near the ship and set off the blast" isprenominal="false" pos="jj nns in wrb dt jj nn vbg dt nns vbd jj to vb in dt nn cc vb rp dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_44..word_49" sentenceid="2" label="np" min_ids="word_44..word_46" type="chunk" lemmata="the small boat carry the explosive" isprenominal="false" pos="dt jj nn vbg dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_48..word_49" sentenceid="2" label="np" min_ids="word_48..word_49" type="chunk" lemmata="the explosive" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_55..word_56" sentenceid="2" label="np" min_ids="word_55..word_56" type="chunk" lemmata="the ship" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_60..word_61" sentenceid="2" label="np" min_ids="word_60..word_61" type="chunk" lemmata="the blast" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+</markables>

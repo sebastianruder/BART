@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_16" span="word_1..word_2" sentenceid="1" label="organization" min_ids="word_1..word_2" type="enamex" lemmata="central command" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_6..word_7" sentenceid="1" label="object" min_ids="word_6..word_7" type="enamex" lemmata="baghdad airport" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_11..word_13" sentenceid="1" label="np" min_ids="word_11..word_13" type="chunk" lemmata="normal air operation" isprenominal="false" pos="jj nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_15..word_16" sentenceid="2" label="np" min_ids="word_15..word_16" type="chunk" lemmata="the airport" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_19..word_21" sentenceid="2" label="np" min_ids="word_19..word_21" type="chunk" lemmata="the most part" isprenominal="false" pos="dt jjs nn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_26" sentenceid="2" label="location" type="enamex" lemmata="u.s." isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_26..word_27" sentenceid="2" label="np" min_ids="word_26..word_27" type="chunk" lemmata="u.s. control" isprenominal="false" pos="nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_29..word_30" sentenceid="3" label="np" min_ids="word_29..word_30" type="chunk" lemmata="military official" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_35..word_38" sentenceid="3" label="np" min_ids="word_35..word_35" type="chunk" lemmata="damage to the runway" isprenominal="false" pos="nn in dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_37..word_38" sentenceid="3" label="np" min_ids="word_37..word_38" type="chunk" lemmata="the runway" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_43" sentenceid="3" label="np" min_ids="word_43..word_43" type="chunk" lemmata="operation" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_47" sentenceid="3" label="np" min_ids="word_47..word_47" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_51..word_62" sentenceid="3" label="np" min_ids="word_51..word_52" type="chunk" lemmata="underground bunker there and some other area that may be of use" isprenominal="false" pos="jj nns rb cc dt jj nns wdt md vb in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_55..word_62" sentenceid="3" label="np" min_ids="word_55..word_57" type="chunk" lemmata="some other area that may be of use" isprenominal="false" pos="dt jj nns wdt md vb in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_62" sentenceid="3" label="np" min_ids="word_62..word_62" type="chunk" lemmata="use" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_64" sentenceid="4" label="organization" min_ids="word_64..word_64" type="enamex" lemmata="centcom" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_67" sentenceid="4" label="percent" type="enamex" lemmata="2500" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_67..word_70" sentenceid="4" label="np" min_ids="word_67..word_70" type="chunk" lemmata="2500 republican guard troops" isprenominal="false" pos="cd nnp nnp nns" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_68..word_69" sentenceid="4" label="organization" type="enamex" lemmata="republican guard" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_74..word_79" sentenceid="4" label="location" min_ids="word_74..word_75" type="enamex" lemmata="u.s. marines between kut and baghdad" isprenominal="false" pos="nnp nnps in nnp cc nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_77" sentenceid="4" label="location" type="enamex" lemmata="kut" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_77..word_79" sentenceid="4" label="location" min_ids="word_77..word_79" type="enamex" lemmata="kut and baghdad" isprenominal="false" pos="nnp cc nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_81..word_82" sentenceid="5" label="np" min_ids="word_81..word_82" type="chunk" lemmata="military official" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_84..word_88" sentenceid="5" label="np" min_ids="word_84..word_88" type="chunk" lemmata="the baghdad republican guard division" isprenominal="false" pos="dt nnp nnp nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_85" sentenceid="5" label="location" type="enamex" lemmata="baghdad" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_86..word_87" sentenceid="5" label="organization" type="enamex" lemmata="republican guard" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_92..word_95" sentenceid="5" label="np" min_ids="word_92..word_95" type="chunk" lemmata="an effective fighting force" isprenominal="false" pos="dt jj nn nn" speaker="-" mmax_level="markable" />
+</markables>

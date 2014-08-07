@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_2" tag="(S1 (INTJ (UH Hello) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_3..word_5" tag="(S1 (INTJ (JJ Good) (NN evening) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_6..word_7" tag="(S1 (INTJ (UH Hi) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_8..word_23" tag="(S1 (S (NP (PRP I)) (VP (MD 'd) (VP (VB like) (S (VP (TO to) (VP (VB ask) (NP (NNP Mr.) (NNP Wallace)) (SBAR (IN if) (S (NP (PRP he)) (VP (VBZ 's) (ADVP (RB ever)) (VP (VBN turned) (PRT (RP down)) (NP (DT an) (XX inter-))))))))))) (. -)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_24..word_28" tag="(S1 (SQ (VBD Turned) (RB down) (NP (DT a)) (SBAR (WHNP (WP what))) (. ?)))" mmax_level="parse" />
+<markable id="markable_10006" span="word_29..word_30" tag="(S1 (NP (NN Interview) (. .)))" mmax_level="parse" />
+<markable id="markable_10007" span="word_31..word_35" tag="(S1 (VP (VBN Turned) (PRT (RP down)) (NP (DT an) (NN interview)) (. ?)))" mmax_level="parse" />
+<markable id="markable_10008" span="word_36..word_48" tag="(S1 (SQ (VBD Were) (NP (PRP you)) (ADVP (RB ever)) (VP (VBN asked) (PP (IN by) (NP (NNP CBS))) (S (VP (TO to) (VP (VB say) (S (VP (VP (VB go)) (VP (VB do) (NP (DT this) (NN guy))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10009" span="word_49..word_53" tag="(S1 (S (CC and) (NP (PRP you)) (VP (VBD said) (INTJ (UH no))) (. ?)))" mmax_level="parse" />
+<markable id="markable_10010" span="word_54..word_60" tag="(S1 (SBAR (IN If) (RB so) (S (NP (PRP I)) (VP (VBP do) (RB n't) (VP (VB remember)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10011" span="word_61..word_67" tag="(S1 (S (INTJ (UH No)) (NP (PRP I)) (VP (VBP do) (RB n't) (VP (VB think) (ADVP (RB so)))) (. .)))" mmax_level="parse" />
+</markables>

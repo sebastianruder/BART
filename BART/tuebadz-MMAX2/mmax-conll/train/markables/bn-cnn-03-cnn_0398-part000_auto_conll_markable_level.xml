@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_4" sentenceid="1" label="np" min_ids="word_4..word_4" type="chunk" lemmata="everyone" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_6" sentenceid="2" label="time" min_ids="word_6..word_6" type="enamex" lemmata="tonight" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_8..word_12" sentenceid="2" label="np" min_ids="word_8..word_12" type="chunk" lemmata="the middle east peace process" isprenominal="false" pos="dt nnp nnp nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_9..word_10" sentenceid="2" label="location" type="enamex" lemmata="middle east" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_15..word_21" sentenceid="2" label="np" min_ids="word_15..word_15" type="chunk" lemmata="danger of be sweep away by violence" isprenominal="false" pos="nn in vbg vbn rb in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_21" sentenceid="2" label="np" min_ids="word_21..word_21" type="chunk" lemmata="violence" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_23..word_24" sentenceid="3" label="person" min_ids="word_23..word_24" type="enamex" lemmata="president bush" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_27..word_28" sentenceid="3" label="np" min_ids="word_27..word_28" type="chunk" lemmata="the world" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_31" sentenceid="3" label="np" min_ids="word_31..word_31" type="chunk" lemmata="terrorism" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_33..word_42" sentenceid="3" label="np" min_ids="word_33..word_36" type="chunk" lemmata="a suicide bomb attack on a bus in jerusalem today" isprenominal="false" pos="dt nn nn nn in dt nn in nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_38..word_39" sentenceid="3" label="np" min_ids="word_38..word_39" type="chunk" lemmata="a bus" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_41" sentenceid="3" label="location" min_ids="word_41..word_41" type="enamex" lemmata="jerusalem" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_42" sentenceid="3" label="date" min_ids="word_42..word_42" type="enamex" lemmata="today" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_44" sentenceid="4" label="percent" type="enamex" lemmata="16" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_44..word_45" sentenceid="4" label="np" min_ids="word_44..word_45" type="chunk" lemmata="16 people" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_49..word_51" sentenceid="5" label="percent" min_ids="word_49..word_51" type="enamex" lemmata="at least 70" isprenominal="false" pos="in jjs cd" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_58" sentenceid="6" label="location" min_ids="word_58..word_58" type="enamex" lemmata="israel" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_60" sentenceid="6" label="percent" type="enamex" lemmata="seven" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_60..word_61" sentenceid="6" label="np" min_ids="word_60..word_61" type="chunk" lemmata="seven people" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_63..word_67" sentenceid="6" label="location" min_ids="word_63..word_63" type="enamex" lemmata="gaza , two of they" isprenominal="false" pos="nnp , cd in prp" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_65..word_67" sentenceid="6" label="percent" min_ids="word_65..word_65" type="enamex" lemmata="two of they" isprenominal="false" pos="cd in prp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_67" sentenceid="6" label="np" min_ids="word_67..word_67" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_68..word_70" sentenceid="6" label="np" min_ids="word_68..word_68" type="chunk" lemmata="member of hamas" isprenominal="false" pos="nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_70" sentenceid="6" label="organization" min_ids="word_70..word_70" type="enamex" lemmata="hamas" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_72..word_73" sentenceid="7" label="person" min_ids="word_72..word_73" type="enamex" lemmata="mike hanna" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_75" sentenceid="7" label="location" min_ids="word_75..word_75" type="enamex" lemmata="jerusalem" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_78" sentenceid="7" label="percent" type="enamex" lemmata="first" isprenominal="false" pos="rb" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_82..word_92" sentenceid="7" label="person" min_ids="word_82..word_83" type="enamex" lemmata="kelly wallace in kbasda where there be more helicopter attack tonight" isprenominal="false" pos="nnp nnp in nnp wrb ex vbz jjr nn nns nn" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_85..word_92" sentenceid="7" label="location" min_ids="word_85..word_85" type="enamex" lemmata="kbasda where there be more helicopter attack tonight" isprenominal="false" pos="nnp wrb ex vbz jjr nn nns nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_89..word_92" sentenceid="7" label="np" min_ids="word_89..word_91" type="chunk" lemmata="more helicopter attack tonight" isprenominal="false" pos="jjr nn nns nn" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_92" sentenceid="7" label="time" min_ids="word_92..word_92" type="enamex" lemmata="tonight" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_94..word_95" sentenceid="8" label="person" min_ids="word_94..word_94" type="enamex" lemmata="kelly ?" isprenominal="false" pos="nnp ." speaker="-" mmax_level="markable" />
+</markables>

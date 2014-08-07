@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_15" span="word_1..word_6" sentenceid="1" label="organization" min_ids="word_1..word_3" type="enamex" lemmata="alberta energy co. , calgary ," isprenominal="false" pos="nnp nnp nnp , nnp ," speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_5" sentenceid="1" label="location" min_ids="word_5..word_5" type="enamex" lemmata="calgary" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_8" sentenceid="1" label="np" min_ids="word_8..word_8" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_10..word_12" sentenceid="1" label="np" min_ids="word_10..word_12" type="chunk" lemmata="a preliminary prospectus" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_14..word_18" sentenceid="1" label="np" min_ids="word_14..word_15" type="chunk" lemmata="an offering of common share" isprenominal="false" pos="dt nn in jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_17..word_18" sentenceid="1" label="np" min_ids="word_17..word_18" type="chunk" lemmata="common share" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_20..word_24" sentenceid="2" label="np" min_ids="word_20..word_24" type="chunk" lemmata="the natural resource development concern" isprenominal="false" pos="dt jj nns nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_26" sentenceid="2" label="np" min_ids="word_26..word_26" type="chunk" lemmata="proceeds" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_32..word_53" sentenceid="2" label="np" min_ids="word_32..word_35" type="chunk" lemmata="long - term debt , which stand at 598 million canadian dollar -lrb- us$ 510.6 million -rrb- at the end of 1988" isprenominal="false" pos="jj hyph nn nn , wdt vbd in cd cd jj nns -lrb- $ cd cd -rrb- in dt nn in cd" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_40..word_48" sentenceid="2" label="money" min_ids="word_40..word_43" type="enamex" lemmata="598 million canadian dollar -lrb- us$ 510.6 million -rrb-" isprenominal="false" pos="cd cd jj nns -lrb- $ cd cd -rrb-" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_45..word_47" sentenceid="2" label="money" min_ids="word_45..word_47" type="enamex" lemmata="us$ 510.6 million" isprenominal="false" pos="$ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_50..word_53" sentenceid="2" label="date" min_ids="word_51..word_53" type="enamex" lemmata="the end of 1988" isprenominal="false" pos="dt nn in cd" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_53" sentenceid="2" label="np" min_ids="word_53..word_53" type="chunk" lemmata="1988" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_55..word_56" sentenceid="3" label="np" min_ids="word_55..word_56" type="chunk" lemmata="the company" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_60..word_67" sentenceid="3" label="money" min_ids="word_60..word_67" type="enamex" lemmata="between c$ 75 million and c$ 100 million" isprenominal="false" pos="in $ cd cd cc $ cd cd" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_69..word_70" sentenceid="3" label="np" min_ids="word_69..word_70" type="chunk" lemmata="the offering" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_74..word_84" sentenceid="3" label="np" min_ids="word_74..word_75" type="chunk" lemmata="a spokeswoman at richardson greenshields of canada ltd. , lead underwriter" isprenominal="false" pos="dt nn in nnp nnp in nnp nnp , jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_77..word_84" sentenceid="3" label="organization" min_ids="word_77..word_81" type="enamex" lemmata="richardson greenshields of canada ltd. , lead underwriter" isprenominal="false" pos="nnp nnp in nnp nnp , jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_80..word_84" sentenceid="3" label="np" min_ids="word_80..word_81" type="chunk" lemmata="canada ltd. , lead underwriter" isprenominal="false" pos="nnp nnp , jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_83..word_84" sentenceid="3" label="np" min_ids="word_83..word_84" type="chunk" lemmata="lead underwriter" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_86..word_87" sentenceid="4" label="np" min_ids="word_86..word_87" type="chunk" lemmata="the share" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_92..word_93" sentenceid="4" label="date" min_ids="word_92..word_93" type="enamex" lemmata="early november" isprenominal="false" pos="jj nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_95" sentenceid="4" label="np" min_ids="word_95..word_95" type="chunk" lemmata="she" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+</markables>

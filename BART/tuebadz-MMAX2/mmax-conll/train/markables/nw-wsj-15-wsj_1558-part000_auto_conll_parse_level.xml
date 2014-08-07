@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_16" tag="(S1 (S (NP (NP (NNS Companies)) (VP (VBN listed) (ADVP (RB below)))) (VP (VBD reported) (NP (NP (JJ quarterly) (NN profit)) (ADJP (RB substantially) (JJ different) (PP (IN from) (NP (NP (DT the) (NN average)) (PP (IN of) (NP (NP (NNS analysts) (POS ')) (NNS estimates)))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_17..word_40" tag="(S1 (S (NP (DT The) (NNS companies)) (VP (VP (VBP are) (VP (VBN followed) (PP (IN by) (NP (QP (ADVP (RB at) (RBS least)) (CD three)) (NNS analysts))))) (, ,) (CC and) (VP (VBD had) (NP (NP (DT a) (JJ minimum) (NML (CD five) (HYPH -) (NN cent)) (NN change)) (PP (IN in) (NP (NP (JJ actual) (NNS earnings)) (PP (IN per) (NP (NN share)))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_41..word_49" tag="(S1 (S (NP (NP (ADJP (JJ Estimated) (CC and) (JJ actual)) (NNS results)) (VP (VBG involving) (NP (NNS losses)))) (VP (VBP are) (VP (VBN omitted))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_50..word_73" tag="(S1 (S (NP (DT The) (NN percent) (NN difference)) (VP (VBZ compares) (NP (JJ actual) (NN profit)) (PP (IN with) (NP (NP (DT the) (JJ 30-day) (NN estimate)) (SBAR (WHADVP (WRB where)) (S (NP (QP (ADVP (RB at) (RBS least)) (CD three)) (NNS analysts)) (VP (VBP have) (VP (NNS issues) (NP (NNS forecasts)) (PP (IN in) (NP (DT the) (JJ past) (CD 30) (NNS days)))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_74..word_84" tag="(S1 (S (ADVP (RB Otherwise)) (, ,) (NP (JJ actual) (NN profit)) (VP (VBZ is) (VP (VBN compared) (PP (IN with) (NP (DT the) (CD 300-day) (NN estimate))))) (. .)))" mmax_level="parse" />
+</markables>

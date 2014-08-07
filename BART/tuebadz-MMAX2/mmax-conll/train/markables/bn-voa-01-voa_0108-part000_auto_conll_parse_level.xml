@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_36" tag="(S1 (S (NP (NP (DT The) (NNP Voice)) (PP (IN of) (NP (NNP Russia) (NNP DX) (NNP Club))) (, ,) (PP (IN via) (NP (NNP BBC) (NN monitoring)))) (VP (VBZ reports) (SBAR (IN that) (S (NP (NP (NNP Radio) (NNP Canada) (NNP International)) (, ,) (CC and) (NP (NNP YLE) (NNP Radio) (NNP Finland)) (, ,)) (VP (VBP are) (VP (VBG conducting) (NP (NP (NN test) (NNS re-broadcasts)) (PP (IN in) (NP (NNP St.) (NNP Petersburg)))) (NP (NNP Russia)) (, ,) (PP (IN on) (NP (QP (CD 684) (CD KHz)) (JJ medium) (NN wave)))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_37..word_51" tag="(S1 (S (NP (NNP RCI)) (VP (VBZ is) (PP (IN in) (NP (NP (NNP Russian) (CC and) (NNP YLE)) (PP (IN in) (NP (NN Finish))))) (, ,) (PP (NP (DT each) (CD one) (NN hour)) (IN per) (NP (NN day)))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_52..word_62" tag="(S1 (S (NP (DT The) (NNS programs)) (VP (VBP are) (VP (VBN downlinked) (PP (IN from) (NP (DT a) (NN world) (NN radio) (NN network) (NN transponder))))) (. .)))" mmax_level="parse" />
+</markables>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/enamex">
+<markable id="markable_1" span="word_1..word_2" tag="time" mmax_level="enamex" />
+<markable id="markable_2" span="word_7..word_8" tag="person" mmax_level="enamex" />
+<markable id="markable_3" span="word_16..word_16" tag="percent" mmax_level="enamex" />
+<markable id="markable_4" span="word_17..word_17" tag="location" mmax_level="enamex" />
+<markable id="markable_5" span="word_29..word_29" tag="location" mmax_level="enamex" />
+<markable id="markable_6" span="word_32..word_32" tag="location" mmax_level="enamex" />
+<markable id="markable_7" span="word_42..word_42" tag="location" mmax_level="enamex" />
+<markable id="markable_8" span="word_56..word_56" tag="location" mmax_level="enamex" />
+<markable id="markable_9" span="word_57..word_57" tag="location" mmax_level="enamex" />
+<markable id="markable_10" span="word_60..word_60" tag="percent" mmax_level="enamex" />
+<markable id="markable_11" span="word_72..word_72" tag="object" mmax_level="enamex" />
+<markable id="markable_12" span="word_74..word_74" tag="date" mmax_level="enamex" />
+<markable id="markable_13" span="word_76..word_76" tag="object" mmax_level="enamex" />
+<markable id="markable_14" span="word_78..word_79" tag="person" mmax_level="enamex" />
+<markable id="markable_15" span="word_82..word_82" tag="percent" mmax_level="enamex" />
+<markable id="markable_16" span="word_105..word_105" tag="object" mmax_level="enamex" />
+<markable id="markable_17" span="word_111..word_111" tag="organization" mmax_level="enamex" />
+<markable id="markable_18" span="word_117..word_117" tag="date" mmax_level="enamex" />
+<markable id="markable_19" span="word_150..word_151" tag="person" mmax_level="enamex" />
+<markable id="markable_20" span="word_166..word_167" tag="date" mmax_level="enamex" />
+<markable id="markable_21" span="word_169..word_173" tag="date" mmax_level="enamex" />
+<markable id="markable_22" span="word_191..word_193" tag="location" mmax_level="enamex" />
+<markable id="markable_23" span="word_202..word_203" tag="person" mmax_level="enamex" />
+<markable id="markable_24" span="word_208..word_208" tag="object" mmax_level="enamex" />
+</markables>

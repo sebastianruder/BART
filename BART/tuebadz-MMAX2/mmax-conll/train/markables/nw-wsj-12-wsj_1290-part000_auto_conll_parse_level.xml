@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_21" tag="(S1 (S (NP (NP (NNP Francis) (NNP D.) (NNP John)) (, ,) (NP (ADJP (NML (CD 35) (HYPH -) (NN year)) (HYPH -) (JJ old)) (NN president)) (, ,)) (VP (MD will) (VP (VB assume) (NP (NP (DT the) (JJ additional) (NN job)) (PP (IN of) (NP (JJ chief) (JJ executive) (NN officer)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_22..word_34" tag="(S1 (S (NP (PRP He)) (VP (VBZ succeeds) (NP (NP (NP (NNP Paul) (NNP J.) (NNP Montle)) (, ,) (NP (CD 42))) (, ,) (SBAR (WHNP (WP who)) (S (VP (MD will) (VP (VB remain) (NP (NN chairman)))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_35..word_58" tag="(S1 (S (NP (NNP National) (NNP Environmental)) (ADVP (RB also)) (VP (VBD said) (SBAR (S (NP (PRP it)) (VP (MD will) (VP (VB move) (NP (PRP$ its) (NN headquarters)) (PP (IN from) (NP (NNP Hingham))) (PP (IN to) (NP (NP (NP (NNP Folcroft)) (, ,) (NP (NNP Pa.))) (, ,) (NP (NP (DT the) (NN site)) (PP (IN of) (NP (PRP$ its) (NML (NN sludge) (NN dewatering)) (NN facility))))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_59..word_71" tag="(S1 (S (NP (NP (NNP National) (NNP Environmental)) (, ,) (RRC (ADVP (RB formerly)) (NP (NNP Yankee) (NNP Cos.))) (, ,)) (VP (VBZ is) (NP (DT a) (NML (NN sludge) (NN treatment)) (NN company))) (. .)))" mmax_level="parse" />
+</markables>

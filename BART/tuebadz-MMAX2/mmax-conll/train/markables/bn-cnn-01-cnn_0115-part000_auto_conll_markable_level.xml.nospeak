@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_1..word_4" sentenceid="1" label="np" min_ids="word_1..word_1" type="chunk" lemmata="judges in the netherlands" isprenominal="false" pos="nns in dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_3..word_4" sentenceid="1" label="location" min_ids="word_4..word_4" type="enamex" lemmata="the netherlands" isprenominal="false" pos="dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_9..word_19" sentenceid="1" label="np" min_ids="word_9..word_9" type="chunk" lemmata="charge against one of two defendant in the lockerbie bombing trial" isprenominal="false" pos="nns in cd in cd nns in dt nnp nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_13" sentenceid="1" label="percent" type="enamex" lemmata="two" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_13..word_19" sentenceid="1" label="np" min_ids="word_13..word_14" type="chunk" lemmata="two defendant in the lockerbie bombing trial" isprenominal="false" pos="cd nns in dt nnp nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_16..word_19" sentenceid="1" label="np" min_ids="word_16..word_19" type="chunk" lemmata="the lockerbie bombing trial" isprenominal="false" pos="dt nnp nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_17" sentenceid="1" label="location" type="enamex" lemmata="lockerbie" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_21..word_22" sentenceid="2" label="np" min_ids="word_21..word_22" type="chunk" lemmata="the judge" isprenominal="false" pos="dt nns" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_25..word_43" sentenceid="2" label="np" min_ids="word_25..word_26" type="chunk" lemmata="defense argument that prosecutor fail to link the man to the explosion that bring down pan am flight 103" isprenominal="false" pos="nn nns in nns vbd to vb dt nn in dt nn wdt vbd rp nnp nnp nnp cd" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_28" sentenceid="2" label="np" min_ids="word_28..word_28" type="chunk" lemmata="prosecutor" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_32..word_33" sentenceid="2" label="np" min_ids="word_32..word_33" type="chunk" lemmata="the man" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_35..word_43" sentenceid="2" label="np" min_ids="word_35..word_36" type="chunk" lemmata="the explosion that bring down pan am flight 103" isprenominal="false" pos="dt nn wdt vbd rp nnp nnp nnp cd" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_40..word_43" sentenceid="2" label="object" min_ids="word_40..word_43" type="enamex" lemmata="pan am flight 103" isprenominal="false" pos="nnp nnp nnp cd" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_45..word_46" sentenceid="3" label="np" min_ids="word_45..word_46" type="chunk" lemmata="the suspect" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_50" sentenceid="3" label="percent" type="enamex" lemmata="two" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_50..word_59" sentenceid="3" label="np" min_ids="word_50..word_52" type="chunk" lemmata="two libyan national charge with plant a bomb on board" isprenominal="false" pos="cd jj nns vbn in vbg dt nn in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_51" sentenceid="3" label="location" type="enamex" lemmata="libyan" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_56..word_59" sentenceid="3" label="np" min_ids="word_56..word_57" type="chunk" lemmata="a bomb on board" isprenominal="false" pos="dt nn in nn" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_59" sentenceid="3" label="np" min_ids="word_59..word_59" type="chunk" lemmata="board" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_61" sentenceid="4" label="percent" type="enamex" lemmata="270" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_61..word_62" sentenceid="4" label="np" min_ids="word_61..word_62" type="chunk" lemmata="270 people" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_66..word_67" sentenceid="4" label="np" min_ids="word_66..word_67" type="chunk" lemmata="the plane" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_70..word_72" sentenceid="4" label="location" min_ids="word_70..word_70" type="enamex" lemmata="lockerbie , scotland" isprenominal="false" pos="nnp , nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_72" sentenceid="4" label="location" min_ids="word_72..word_72" type="enamex" lemmata="scotland" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_74..word_76" sentenceid="4" label="date" type="enamex" lemmata="12 year ago" isprenominal="false" pos="cd nns rb" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_78..word_79" sentenceid="5" label="np" min_ids="word_78..word_79" type="chunk" lemmata="the prosecution" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_81" sentenceid="5" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_81..word_82" sentenceid="5" label="np" min_ids="word_81..word_82" type="chunk" lemmata="its case" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_83..word_84" sentenceid="5" label="date" min_ids="word_83..word_84" type="enamex" lemmata="last week" isprenominal="false" pos="jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_89" sentenceid="5" label="np" min_ids="word_89..word_89" type="chunk" lemmata="hearing" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+</markables>

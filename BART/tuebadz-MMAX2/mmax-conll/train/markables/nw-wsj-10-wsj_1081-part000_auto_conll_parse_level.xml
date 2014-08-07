@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_30" tag="(S1 (S (NP (NP (NML (NNP Jacobs) (NNP Engineering)) (NNP Group) (NNP Inc.) (POS 's)) (NML (NNP Jacobs) (NNP International)) (NN unit)) (VP (VBD was) (VP (VBN selected) (S (VP (TO to) (VP (VB design) (CC and) (VB build) (NP (NP (DT a) (NML (NN microcomputer) (HYPH -) (NNS systems)) (NN manufacturing) (NN plant)) (PP (IN in) (NP (NP (NNP County) (NNP Kildare)) (, ,) (NP (NNP Ireland)) (, ,) (CC for) (NP (NNP Intel) (NNP Corp)))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_31..word_39" tag="(S1 (S (NP (NNP Jacobs)) (VP (VBZ is) (NP (DT an) (JJ international) (NML (NN engineering) (CC and) (NN construction)) (NN concern))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_40..word_58" tag="(S1 (S (NP (NP (JJ Total) (NN capital) (NN investment)) (PP (IN at) (NP (DT the) (NN site)))) (VP (MD could) (VP (VB be) (NP (QP (RB as) (JJ much) (IN as) ($ $) (CD 400) (CD million))) (, ,) (PP (VBG according) (PP (IN to) (NP (NNP Intel)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_59..word_77" tag="(S1 (S (NP (DT The) (NML (CD 150,000) (HYPH -) (JJ square) (HYPH -) (NN foot)) (NN plant)) (VP (MD will) (VP (VB be) (VP (VBN constructed) (PP (IN on) (NP (NP (DT a) (NML (CD 55) (HYPH -) (NN acre)) (NN site)) (PP (IN near) (NP (NNP Dublin)))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_78..word_87" tag="(S1 (S (NP (NML (NNP Jacobs) (NNP Engineering)) (NNS officials)) (VP (MD could) (RB n't) (VP (VB be) (VP (VBN reached) (PP (IN for) (NP (NN comment)))))) (. .)))" mmax_level="parse" />
+</markables>

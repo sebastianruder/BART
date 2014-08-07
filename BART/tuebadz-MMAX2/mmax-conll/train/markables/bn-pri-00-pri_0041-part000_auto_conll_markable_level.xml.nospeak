@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_30" span="word_1..word_6" sentenceid="1" label="organization" min_ids="word_1..word_6" type="enamex" lemmata="the united nations world food program" isprenominal="false" pos="dt nnp nnp nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_8" sentenceid="1" label="organization" min_ids="word_8..word_8" type="enamex" lemmata="wfp" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_11..word_14" sentenceid="1" label="percent" type="enamex" lemmata="up to a million" isprenominal="false" pos="rb to dt cd" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_11..word_17" sentenceid="1" label="np" min_ids="word_11..word_15" type="chunk" lemmata="up to a million people in afghanistan" isprenominal="false" pos="rb to dt cd nns in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_17" sentenceid="1" label="location" min_ids="word_17..word_17" type="enamex" lemmata="afghanistan" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_21" sentenceid="1" label="np" min_ids="word_21..word_21" type="chunk" lemmata="starvation" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_23" sentenceid="1" label="np" min_ids="word_23..word_23" type="chunk" lemmata="it" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_25..word_26" sentenceid="1" label="np" min_ids="word_25..word_26" type="chunk" lemmata="more aid" isprenominal="false" pos="jjr nn" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_28" sentenceid="1" label="np" min_ids="word_28..word_28" type="chunk" lemmata="donor" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_30..word_31" sentenceid="2" label="np" min_ids="word_30..word_31" type="chunk" lemmata="the country" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_44" span="word_36" sentenceid="2" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_36..word_41" sentenceid="2" label="np" min_ids="word_36..word_38" type="chunk" lemmata="its worst drought in 30 year" isprenominal="false" pos="prp$ jjs nn in cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_43..word_48" sentenceid="3" label="np" min_ids="word_43..word_44" type="chunk" lemmata="this report from katy clark ." isprenominal="false" pos="dt nn in nnp nnp ." speaker="-" mmax_level="markable" />
+<markable id="markable_34" span="word_46..word_47" sentenceid="3" label="person" min_ids="word_46..word_47" type="enamex" lemmata="katy clark" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_35" span="word_49..word_52" sentenceid="4" label="organization" min_ids="word_49..word_52" type="enamex" lemmata="the world food program" isprenominal="false" pos="dt nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_45" span="word_54" sentenceid="4" label="np" type="chunk" lemmata="its" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_54..word_58" sentenceid="4" label="np" min_ids="word_54..word_55" type="chunk" lemmata="its stock of food aid" isprenominal="false" pos="prp$ nns in nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_57..word_58" sentenceid="4" label="np" min_ids="word_57..word_58" type="chunk" lemmata="food aid" isprenominal="false" pos="nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_65" sentenceid="4" label="np" min_ids="word_65..word_65" type="chunk" lemmata="february" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_67..word_73" sentenceid="4" label="np" min_ids="word_67..word_67" type="chunk" lemmata="month before the next harvest in june" isprenominal="false" pos="nns in dt jj nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_69..word_73" sentenceid="4" label="np" min_ids="word_69..word_71" type="chunk" lemmata="the next harvest in june" isprenominal="false" pos="dt jj nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_36" span="word_73" sentenceid="4" label="date" min_ids="word_73..word_73" type="enamex" lemmata="june" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_75..word_79" sentenceid="5" label="np" min_ids="word_75..word_75" type="chunk" lemmata="donations of wheat for afghanistan" isprenominal="false" pos="nns in nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_77" sentenceid="5" label="np" min_ids="word_77..word_77" type="chunk" lemmata="wheat" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_37" span="word_79" sentenceid="5" label="location" min_ids="word_79..word_79" type="enamex" lemmata="afghanistan" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_84..word_85" sentenceid="5" label="np" min_ids="word_84..word_85" type="chunk" lemmata="western government" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_38" span="word_87" sentenceid="6" label="organization" min_ids="word_87..word_87" type="enamex" lemmata="wfp" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_89..word_91" sentenceid="6" label="np" min_ids="word_89..word_91" type="chunk" lemmata="general donor fatigue" isprenominal="false" pos="jj nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_46" span="word_93" sentenceid="6" label="np" type="chunk" lemmata="their" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_93..word_95" sentenceid="6" label="np" min_ids="word_93..word_95" type="chunk" lemmata="their inadequate response" isprenominal="false" pos="prp$ jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_101" sentenceid="6" label="np" min_ids="word_101..word_101" type="chunk" lemmata="donor" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_104..word_105" sentenceid="6" label="np" min_ids="word_104..word_105" type="chunk" lemmata="more food" isprenominal="false" pos="jjr nn" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_106..word_108" sentenceid="6" label="np" min_ids="word_106..word_106" type="chunk" lemmata="aid for afghanistan" isprenominal="false" pos="nn in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_39" span="word_108" sentenceid="6" label="location" min_ids="word_108..word_108" type="enamex" lemmata="afghanistan" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_111..word_112" sentenceid="6" label="np" min_ids="word_111..word_112" type="chunk" lemmata="a catastrophe" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_114..word_120" sentenceid="7" label="np" min_ids="word_114..word_114" type="chunk" lemmata="conditions in many part of the country" isprenominal="false" pos="nns in jj nns in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_116..word_120" sentenceid="7" label="np" min_ids="word_116..word_117" type="chunk" lemmata="many part of the country" isprenominal="false" pos="jj nns in dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_119..word_120" sentenceid="7" label="np" min_ids="word_119..word_120" type="chunk" lemmata="the country" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_123..word_124" sentenceid="7" label="np" min_ids="word_123..word_124" type="chunk" lemmata="crisis point" isprenominal="false" pos="nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_126..word_127" sentenceid="8" label="np" min_ids="word_126..word_127" type="chunk" lemmata="many family" isprenominal="false" pos="jj nns" speaker="-" mmax_level="markable" />
+<markable id="markable_47" span="word_131" sentenceid="8" label="np" type="chunk" lemmata="their" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_131..word_135" sentenceid="8" label="np" min_ids="word_131..word_135" type="chunk" lemmata="their livestock and household goods" isprenominal="false" pos="prp$ nn cc nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_138" sentenceid="8" label="np" min_ids="word_138..word_138" type="chunk" lemmata="food" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_40" span="word_144" sentenceid="8" label="percent" type="enamex" lemmata="1" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_149..word_150" sentenceid="8" label="np" min_ids="word_149..word_150" type="chunk" lemmata="starvation ration" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_41" span="word_153..word_154" sentenceid="9" label="person" min_ids="word_153..word_154" type="enamex" lemmata="katy clark" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_42" span="word_156..word_157" sentenceid="9" label="organization" min_ids="word_156..word_157" type="enamex" lemmata="bbc news" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_43" span="word_159" sentenceid="9" label="location" min_ids="word_159..word_159" type="enamex" lemmata="islamabad" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+</markables>

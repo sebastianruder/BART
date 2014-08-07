@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_10" span="word_1..word_16" sentenceid="1" label="time" min_ids="word_2..word_4" type="enamex" lemmata="an emotional homecoming tonight for the survive crew member of the `` uss cole . ''" isprenominal="false" pos="dt jj nn nn in dt vbg nn nns in dt `` nnp nnp . ''" speaker="-" mmax_level="markable" />
+<markable id="markable_0" span="word_6..word_14" sentenceid="1" label="np" min_ids="word_6..word_9" type="chunk" lemmata="the survive crew member of the `` uss cole" isprenominal="false" pos="dt vbg nn nns in dt `` nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_11..word_14" sentenceid="1" label="object" min_ids="word_11..word_14" type="enamex" lemmata="the `` uss cole" isprenominal="false" pos="dt `` nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_17..word_22" sentenceid="2" label="percent" min_ids="word_17..word_17" type="enamex" lemmata="hundreds of friend and family member" isprenominal="false" pos="nns in nns cc nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_19" sentenceid="2" label="np" min_ids="word_19..word_19" type="chunk" lemmata="friend" isprenominal="false" pos="nns" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_19..word_22" sentenceid="2" label="np" min_ids="word_19..word_22" type="chunk" lemmata="friend and family member" isprenominal="false" pos="nns cc nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_21..word_22" sentenceid="2" label="np" min_ids="word_21..word_22" type="chunk" lemmata="family member" isprenominal="false" pos="nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_24" sentenceid="2" label="np" min_ids="word_24..word_24" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_25" sentenceid="2" label="date" min_ids="word_25..word_25" type="enamex" lemmata="today" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_27" sentenceid="2" label="np" min_ids="word_27..word_27" type="chunk" lemmata="they" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_30..word_32" sentenceid="2" label="location" min_ids="word_30..word_30" type="enamex" lemmata="norfolk , virginia" isprenominal="false" pos="nnp , nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_32" sentenceid="2" label="location" min_ids="word_32..word_32" type="enamex" lemmata="virginia" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_34" sentenceid="3" label="percent" type="enamex" lemmata="17" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_34..word_35" sentenceid="3" label="np" min_ids="word_34..word_35" type="chunk" lemmata="17 sailor" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_39" sentenceid="3" label="percent" type="enamex" lemmata="39" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_39..word_40" sentenceid="3" label="np" min_ids="word_39..word_40" type="chunk" lemmata="39 other" isprenominal="false" pos="cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_44..word_46" sentenceid="3" label="np" min_ids="word_44..word_46" type="chunk" lemmata="that terror bomb" isprenominal="false" pos="dt nn nn" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_48" sentenceid="3" label="np" type="chunk" lemmata="their" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_48..word_49" sentenceid="3" label="np" min_ids="word_48..word_49" type="chunk" lemmata="their ship" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_51" sentenceid="3" label="location" min_ids="word_51..word_51" type="enamex" lemmata="yemen" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+</markables>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/markable">
+<markable id="markable_0" span="word_2" sentenceid="1" label="np" min_ids="word_2..word_2" type="chunk" lemmata="you" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_38" span="word_6" sentenceid="1" label="np" type="chunk" lemmata="your" isprenominal="true" pos="prp$" speaker="-" mmax_level="markable" />
+<markable id="markable_15" span="word_6..word_7" sentenceid="1" label="date" min_ids="word_6..word_7" type="enamex" lemmata="your week" isprenominal="false" pos="prp$ nn" speaker="-" mmax_level="markable" />
+<markable id="markable_16" span="word_15" sentenceid="2" label="time" min_ids="word_15..word_15" type="enamex" lemmata="7:30" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_17" span="word_19..word_21" sentenceid="2" label="location" min_ids="word_19..word_21" type="enamex" lemmata="the east coast" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_18" span="word_26..word_28" sentenceid="3" label="object" min_ids="word_26..word_28" type="enamex" lemmata="`` american morning" isprenominal="false" pos="`` nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_19" span="word_33..word_34" sentenceid="4" label="person" min_ids="word_33..word_34" type="enamex" lemmata="president bush" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_20" span="word_37" sentenceid="4" label="location" min_ids="word_37..word_37" type="enamex" lemmata="france" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_1" span="word_39..word_42" sentenceid="4" label="np" min_ids="word_39..word_41" type="chunk" lemmata="a few hour 's" isprenominal="false" pos="dt jj nn pos" speaker="-" mmax_level="markable" />
+<markable id="markable_21" span="word_39..word_43" sentenceid="4" label="time" min_ids="word_39..word_43" type="enamex" lemmata="a few hour 's time" isprenominal="false" pos="dt jj nn pos nn" speaker="-" mmax_level="markable" />
+<markable id="markable_2" span="word_45..word_60" sentenceid="4" label="np" min_ids="word_45..word_47" type="chunk" lemmata="a second meeting face - to - face in private with french president jacque chirac today" isprenominal="false" pos="dt jj nn nn hyph to hyph vb in jj in jj nnp nnp nnp nn" speaker="-" mmax_level="markable" />
+<markable id="markable_22" span="word_46" sentenceid="4" label="percent" type="enamex" lemmata="second" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_23" span="word_56" sentenceid="4" label="location" type="enamex" lemmata="french" isprenominal="false" pos="jj" speaker="-" mmax_level="markable" />
+<markable id="markable_24" span="word_56..word_59" sentenceid="4" label="person" min_ids="word_56..word_59" type="enamex" lemmata="french president jacque chirac" isprenominal="false" pos="jj nnp nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_25" span="word_60" sentenceid="4" label="date" min_ids="word_60..word_60" type="enamex" lemmata="today" isprenominal="false" pos="nn" speaker="-" mmax_level="markable" />
+<markable id="markable_3" span="word_62..word_63" sentenceid="5" label="np" min_ids="word_62..word_63" type="chunk" lemmata="the president" isprenominal="false" pos="dt nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_4" span="word_65..word_66" sentenceid="5" label="np" min_ids="word_65..word_66" type="chunk" lemmata="that meeting" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_5" span="word_70..word_79" sentenceid="5" label="np" min_ids="word_70..word_71" type="chunk" lemmata="the disagreement between the united states and france over iraq" isprenominal="false" pos="dt nn in dt nnp nnp cc nnp in nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_26" span="word_73..word_75" sentenceid="5" label="location" min_ids="word_73..word_75" type="enamex" lemmata="the united states" isprenominal="false" pos="dt nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_27" span="word_73..word_77" sentenceid="5" label="location" min_ids="word_74..word_77" type="enamex" lemmata="the united states and france" isprenominal="false" pos="dt nnp nnp cc nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_6" span="word_77" sentenceid="5" label="np" min_ids="word_77..word_77" type="chunk" lemmata="france" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_28" span="word_79" sentenceid="5" label="location" min_ids="word_79..word_79" type="enamex" lemmata="iraq" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_7" span="word_83..word_85" sentenceid="5" label="np" min_ids="word_83..word_85" type="chunk" lemmata="the two country" isprenominal="false" pos="dt cd nns" speaker="-" mmax_level="markable" />
+<markable id="markable_29" span="word_84" sentenceid="5" label="percent" type="enamex" lemmata="two" isprenominal="false" pos="cd" speaker="-" mmax_level="markable" />
+<markable id="markable_30" span="word_91..word_92" sentenceid="6" label="person" min_ids="word_91..word_92" type="enamex" lemmata="mr. bush" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_31" span="word_96" sentenceid="6" label="location" min_ids="word_96..word_96" type="enamex" lemmata="egypt" isprenominal="false" pos="nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_8" span="word_98" sentenceid="6" label="np" min_ids="word_98..word_98" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_32" span="word_101..word_102" sentenceid="6" label="location" type="enamex" lemmata="middle east" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_9" span="word_101..word_104" sentenceid="6" label="np" min_ids="word_101..word_104" type="chunk" lemmata="middle east peace talk" isprenominal="false" pos="nnp nnp nn nns" speaker="-" mmax_level="markable" />
+<markable id="markable_33" span="word_106..word_107" sentenceid="6" label="location" min_ids="word_106..word_107" type="enamex" lemmata="middle east" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+<markable id="markable_10" span="word_109" sentenceid="7" label="np" min_ids="word_109..word_109" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_11" span="word_111" sentenceid="7" label="np" min_ids="word_111..word_111" type="chunk" lemmata="he" isprenominal="false" pos="prp" speaker="-" mmax_level="markable" />
+<markable id="markable_12" span="word_114..word_116" sentenceid="7" label="np" min_ids="word_114..word_116" type="chunk" lemmata="as much time" isprenominal="false" pos="rb jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_13" span="word_121..word_126" sentenceid="7" label="np" min_ids="word_121..word_121" type="chunk" lemmata="peace between the israelis and palestinians" isprenominal="false" pos="nn in dt nnps cc nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_35" span="word_123..word_126" sentenceid="7" label="location" min_ids="word_124..word_126" type="enamex" lemmata="the israelis and palestinians" isprenominal="false" pos="dt nnps cc nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_34" span="word_124" sentenceid="7" label="location" type="enamex" lemmata="israelis" isprenominal="false" pos="nnps" speaker="-" mmax_level="markable" />
+<markable id="markable_14" span="word_128..word_130" sentenceid="8" label="np" min_ids="word_128..word_130" type="chunk" lemmata="a key trip" isprenominal="false" pos="dt jj nn" speaker="-" mmax_level="markable" />
+<markable id="markable_36" span="word_133..word_134" sentenceid="8" label="date" min_ids="word_133..word_134" type="enamex" lemmata="the week" isprenominal="false" pos="dt nn" speaker="-" mmax_level="markable" />
+<markable id="markable_37" span="word_142..word_143" sentenceid="9" label="person" min_ids="word_142..word_143" type="enamex" lemmata="daryn right" isprenominal="false" pos="nnp nnp" speaker="-" mmax_level="markable" />
+</markables>

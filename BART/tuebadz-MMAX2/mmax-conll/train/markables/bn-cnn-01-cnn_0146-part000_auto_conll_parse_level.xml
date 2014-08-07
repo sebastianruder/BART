@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_19" tag="(S1 (S (NP (NP (NNS Investors)) (PP (IN on) (NP (NNP Wall) (NNP Street)))) (VP (VBP are) (VP (VBG waiting) (PP (IN for) (NP (NP (DT the) (NN word)) (PP (IN from) (NP (NML (NML (NNP Federal) (NNP Reserve)) (NNP Chairman)) (NNP Alan) (NNP Greenspan))) (PP (IN on) (NP (NN interest) (NNS rates))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_20..word_36" tag="(S1 (S (NP (NNP Greenspan)) (VP (MD will) (VP (VB meet) (PP (IN with) (NP (DT the) (NML (NML (NNP Federal) (NNP Reserve)) (NNP Board)) (NNS policymakers))) (NP (NN today)) (PP (IN for) (NP (NP (DT the) (JJ last) (NN time)) (NP (DT this) (NN year)))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_37..word_51" tag="(S1 (S (S (NP (EX There)) (VP (VBZ 's) (ADJP (JJ widespread)))) (VP (VBP hope) (SBAR (S (NP (DT the) (NNP Fed)) (VP (MD will) (VP (VB do) (NP (NP (NN something)) (SBAR (S (VP (TO to) (VP (VB stop) (NP (DT the) (JJ economic) (NN slowdown)))))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_52..word_58" tag="(S1 (S (NP (DT That)) (VP (MD could) (VP (VB mean) (S (NP (DT a) (NN rate)) (VP (VB slash))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_59..word_71" tag="(S1 (S (NP (ADVP (RBR Earlier)) (DT this) (NN month)) (, ,) (NP (NNP Greenspan)) (VP (VBZ suggests) (SBAR (S (NP (NNS cuts)) (VP (MD could) (VP (VB be) (PP (IN on) (NP (DT the) (NN way)))))))) (. .)))" mmax_level="parse" />
+</markables>
