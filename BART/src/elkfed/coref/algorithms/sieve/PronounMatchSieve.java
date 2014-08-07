@@ -13,6 +13,9 @@ import elkfed.nlp.util.Gender;
 import elkfed.nlp.util.Number;
 
 /**
+ * This Sieves finds antecedents for Pronouns.
+ * First we find all compatible Mentions that are at most 3 sentences apart from the anapher.
+ * Then we rank them according to their Salience and return the most salient antecedent.
  * 
  * 
  * @author Julian, Xenia
@@ -25,7 +28,11 @@ public class PronounMatchSieve extends Sieve {
 		this.mentions = mentions;
 		this.name = "PronounMatchSieve";
 	}
-
+	/**
+	 * 
+	 * @param m Mention for which we want to find compatible antecedents  
+	 * @return a List of Mentions which are compatible to the pronoun
+	 */
 	private List<Mention> getAntecedents(Mention m) {
 		
 		List<Mention> anteIdx = new ArrayList<>();
@@ -66,7 +73,17 @@ public class PronounMatchSieve extends Sieve {
 		}
 		return anteIdx;
 	}
-
+	/**
+	 * Scores the Salience of the pairInstance:
+	 * 	+100 if the antecedent is a named entity
+	 *  +20 if mention and antecedent are in the same Sentence
+	 *  +170 if the antecedent is the Subject of its clause
+	 *  +70 if the antecedent is the Accusative Object of its clause
+	 *  +50 if the antecedent is the Dative or Genitive Object of its clause
+	 *  +35 if the mention and the Antecedent have the same grammatical function
+	 * @param pair the pair{@link PairInstance} to score
+	 * @return the Salience Score
+	 */
 	private double scorePair(PairInstance pair) {
 		
 		Mention ante = pair.getAntecedent();
