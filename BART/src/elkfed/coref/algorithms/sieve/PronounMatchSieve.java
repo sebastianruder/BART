@@ -6,6 +6,7 @@ import java.util.List;
 import edu.stanford.nlp.trees.Tree;
 import elkfed.coref.features.pairs.FE_SentenceDistance;
 import elkfed.coref.features.pairs.FE_Speech;
+import elkfed.coref.features.pairs.de.FE_Syntax_Binding;
 import elkfed.coref.PairInstance;
 import elkfed.coref.mentions.Mention;
 import elkfed.nlp.util.Gender;
@@ -26,9 +27,9 @@ public class PronounMatchSieve extends Sieve {
 	}
 
 	private List<Mention> getAntecedents(Mention m) {
-		// Kataphern noch berücksichtigen??
+		
 		List<Mention> anteIdx = new ArrayList<>();
-//		for (int idx = mentions.indexOf(m); idx > 0; idx--)  {
+
 		for (int idx = 0;idx < mentions.indexOf(m); idx++) {
 			Mention ante = mentions.get(idx);
 			PairInstance pair = new PairInstance(m, ante);
@@ -38,10 +39,12 @@ public class PronounMatchSieve extends Sieve {
 			if (FE_SentenceDistance.getSentDist(pair) > 3) {
 				continue;
 			}
-			if (m.getReflPronoun() && !isInCooargumentDomain(pair)) {
+			if (m.getReflPronoun() && !FE_Syntax_Binding.getAnaBoundInBindingDomain(pair)) {
 				continue;
 			}
-
+			if (m.getPersPronoun() && !m.getHeadPOS().equalsIgnoreCase("pposat") &&FE_Syntax_Binding.getAnaBoundInBindingDomain(pair)) {
+				continue;
+			}
 			
 			if (!numberAgreement(pair) || !genderAgreement(pair)) {
 				continue;
@@ -65,6 +68,7 @@ public class PronounMatchSieve extends Sieve {
 	}
 
 	private double scorePair(PairInstance pair) {
+		
 		Mention ante = pair.getAntecedent();
 		Mention m = pair.getAnaphor();
 
@@ -74,47 +78,36 @@ public class PronounMatchSieve extends Sieve {
 		if (sentenceDis == 0) {
 			score += 20;
 		}
-		if (mentions.indexOf(ante) > mentions.indexOf(m)) {
-			if (isInCooargumentDomain(pair)) {
-				score -= 80;
-				
-			} else {
-				score -= 175;
-			}
+		
+		if (ante.getHeadPOS().equalsIgnoreCase("ne")) {
+			score += 100;
 		}
 		
 		// Head - Bonus
-		Tree sentenceTree = ante.getSentenceTree();
-		List<Tree> domPath = sentenceTree.dominationPath(ante.getHighestProjection());
-//		for (int i = domPath.size()-2; i >= 0; i--) {
-//			if(domPath.get(i).value().equals("SIMPX")) {
-//				score += 80;				
-//				break;
-//			} 
-//			if(domPath.get(i).value().equals("NX")) {
-//				break;
-//			}
-//			
-//		} 
+//		Tree sentenceTree = ante.getSentenceTree();		
+//		if (!ante.getHighestProjection().parent(sentenceTree).value().equalsIgnoreCase("NX")) {
+//			score += 80;
+//		}
 		//GF Bonus
-		if (langPlugin.getHeadGF(ante).equalsIgnoreCase("subj")) {
+		String headGF = langPlugin.getHeadGF(ante);
+		if (headGF.equalsIgnoreCase("subj")) {
 			score += 170;
 		}
-		if (langPlugin.getHeadGF(ante).equalsIgnoreCase("obja")) {
+		if (headGF.equalsIgnoreCase("obja")) {
 			score += 70;
 		}
-		if (langPlugin.getHeadGF(ante).equalsIgnoreCase("objd")) {
+		if (headGF.equalsIgnoreCase("objd")) {
 			score += 50;
 		}
-		if (langPlugin.getHeadGF(ante).equalsIgnoreCase("gmod")) {
+		if (headGF.equalsIgnoreCase("objg")) {
 			score += 50;
 		}
-		if (langPlugin.getHeadGF(ante).equals(langPlugin.getHeadGF(m))) {
+		if (headGF.equals(langPlugin.getHeadGF(m))) {
 			score += 35;
 		}
 		
-		score = score / Math.pow(2.0, sentenceDis);
-		System.out.println(score);
+		score = score / Math.pow(2.0, sentenceDis);			
+		
 		return score;
 	}
 

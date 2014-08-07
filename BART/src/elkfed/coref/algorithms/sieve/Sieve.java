@@ -27,6 +27,7 @@ import elkfed.coref.features.pairs.FE_Gender;
 import elkfed.coref.features.pairs.FE_Number;
 import elkfed.coref.features.pairs.FE_SentenceDistance;
 import elkfed.coref.features.pairs.FE_Speech;
+import elkfed.coref.features.pairs.de.FE_Syntax_Binding;
 import elkfed.coref.mentions.Mention;
 import elkfed.knowledge.SemanticClass;
 import elkfed.lang.LanguagePlugin;
@@ -708,6 +709,11 @@ public abstract class Sieve {
 	
 
 	public boolean isVorfeldEs(Mention mention) {
+//		if (mention.toString().equalsIgnoreCase("es")) {
+//			return true;
+//		} else {
+//			return false;
+//		}
 		if (!(mention.getMarkable().toString().equals("[es]") || mention
 				.getMarkable().toString().equals("[Es]"))) {
 			return false;
@@ -767,24 +773,7 @@ public abstract class Sieve {
 		return pair.getAntecedent().getMarkable().getDiscourseElements().length >=
 				pair.getAnaphor().getMarkable().getDiscourseElements().length;
 	}
-	public static boolean isInCooargumentDomain(PairInstance pair) {
-		if (FE_SentenceDistance.getSentDist(pair) > 0) {
-			return false;
-		}
-		Mention m = pair.getAnaphor();
-		Mention ante = pair.getAntecedent();
-		
-		Tree sentenceTree = m.getSentenceTree();
-		Tree joinedTree = sentenceTree.joinNode(m.getHighestProjection(), ante.getHighestProjection());
-		List<Tree> domPathMention = joinedTree.dominationPath(m.getHighestProjection());
-		//List<Tree> domPathAnte = joinedTree.dominationPath(ante.getHighestProjection());
-		for(Tree node: domPathMention) {
-			if (node.value().equals("SIMPX") && node != joinedTree) {
-				return false;
-			}
-		}
-		return true;
-	}
+	
 	
 	
 public boolean isSpeakerSpeechLeft(Mention mention){
