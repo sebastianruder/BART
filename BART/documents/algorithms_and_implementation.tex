@@ -64,7 +64,7 @@ Die Merkmale koreferenter \textit{mentions} werden in einer eigenen \texttt{Disc
 \end{itemize}
 \citeasnoun{lee2013} geben für diesen \textit{sieve} eine $B^3$-Präzision von über 90\%, während wir eine Genauigkeit von ca. 81\% erhalten. Da das Relativpronomen-Kriterium in diesem \textit{sieve} überwiegt, liegt diese Differenz vermutlich in der hypotaktischen Struktur des Deutschen (im Vergleich zum Englischen), sowie in der domänspezifischen Häufigkeit extraponierter (und daher schwer zuordenbarer) Relativsätze begründet.
 
-\item \textbf{StrictHeadMatchA} matcht mentions, die denselben Head besitzen und darüber hinaus die folgenden Bedingungen erfüllen:
+\item \textbf{StrictHeadMatchA} matcht zwei Mentions, wenn das Head Lemma der Anapher in den Heads der Antezedens Entity vorhanden ist und die folgenden Bedingungen erfüllt sind:
 
 \begin{compactenum}[(i)]
  \item Die Modifikatoren der mention müssen unter den Modifikatoren des Antezedens sein.
@@ -74,11 +74,11 @@ Die Merkmale koreferenter \textit{mentions} werden in einer eigenen \texttt{Disc
 
 \item \textbf{StrictHeadMatchB} ignoriert Bedingung (i), während \textbf{StrictHeadMatchC} ebenfalls auf Bedingung (ii) verzichtet.
 
-\item \textbf{ProperHeadNounMatch} weist zwei mentions als Koreferenten aus, wenn sie dasselbe \textit{head word} besitzen, sowie Bedingung (iii) erfüllen und (iv) keine unterschiedlichen Orte, Namen, Zahlen oder räumliche Modifikatoren aufweisen.
+\item \textbf{ProperHeadNounMatch} weist zwei mentions als koreferent aus, wenn sie dasselbe \textit{head word} besitzen, sowie Bedingung (iii) erfüllen und (iv) keine unterschiedlichen Orte, Namen, Zahlen oder räumliche Modifikatoren aufweisen.
 
 \item \textbf{RelaxedHeadMatch} matcht zwei mentions, wenn der Kopf der mention mit einem Wort in der Antezedens-Entität übereinstimmt, wobei beide \textit{named entities} desselben Typs sein müssen und Bedingungen (ii) und (iii) genügen müssen.
 
-\item \textbf{PronounMatch} matcht ein Pronomen mit einer Entität, wenn folgende Merkmale übereinstimmen: Numerus, Genus, Person, Belebtheit, NER-Label, Satzentfernung zwischen Pronomen und Antezedens ${\leq}$ 3. \citeasnoun{wunsch2006} verwendet zur pronominalen Koreferenzresolution gewichtete Merkmale, wobei syntaktische signifikanter seien als positionelle.
+\item \textbf{PronounMatch}  ${\leq}$ matcht Pronomen mit ihrem Antezedens, sofern diese morphologisch kompatibel sind und den Binding-Constraints genügen. Das Pronomen ist mit demjenigen Antezedens koreferent, das die höchste Salience hat. \citep{wunsch2006} 
 
 \end{itemize}
 
