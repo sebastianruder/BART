@@ -72,14 +72,32 @@ Die Merkmale koreferenter \textit{mentions} werden in einer eigenen \texttt{Disc
  \item Keine der beiden NPs kann Kind des Konstituenten der anderen NP sein (\textit{i-within-i}).
 \end{compactenum}
 
-\item \textbf{StrictHeadMatchB} ignoriert Bedingung (i), während \textbf{StrictHeadMatchC} ebenfalls auf Bedingung (ii) verzichtet.
+\item \textbf{StrictHeadMatchB} ignoriert Bedingung (i), während \textbf{StrictHeadMatchC}  auf Bedingung (ii) verzichtet.
 
 \item \textbf{ProperHeadNounMatch} weist zwei mentions als koreferent aus, wenn sie dasselbe \textit{head word} besitzen, sowie Bedingung (iii) erfüllen und (iv) keine unterschiedlichen Orte, Namen, Zahlen oder räumliche Modifikatoren aufweisen.
 
 \item \textbf{RelaxedHeadMatch} matcht zwei mentions, wenn der Kopf der mention mit einem Wort in der Antezedens-Entität übereinstimmt, wobei beide \textit{named entities} desselben Typs sein müssen und Bedingungen (ii) und (iii) genügen müssen.
 
-\item \textbf{PronounMatch} matcht Pronomen mit ihrem Antezedens, sofern diese morphologisch kompatibel sind und den Binding-Constraints genügen. Das Pronomen ist mit demjenigen Antezedens koreferent, das die höchste \textit{salience} \cite{wunsch2006} hat.
+\item \textbf{PronounMatch} matcht Pronomen mit ihrem Antezedens, sofern diese morphologisch kompatibel sind ,den Binding-Constraints genügen und nicht mehr als drei Sätze auseinanderliegen. Kataphern werden jedoch nicht berücksichtigt. \\
+Das Pronomen ist mit demjenigen Antezedens koreferent, das die höchste \textit{salience} hat \cite{wunsch2006} . Die \textit{salience} berechnen wir folgendermaßen:
 
+\begin{itemize}[]
+	\item +20 wenn sich  Antezedens und Anapher im selben Satz befinden
+	
+	\item +35 wenn Antezedens und Anapher die selbe grammatische Funktion verwenden
+	
+	\item +170 wenn der Antezedens ein Subjekt ist
+	
+	\item +70 wenn der Antezedens ein Akkusativobjekt ist
+	
+	\item +50 wenn der Antezedens ein Dativ oder Genitivobjekt ist
+	
+	\item +100 wenn der Antezedens ein proper noun ist
+\end{itemize}
+
+Die endgültige \textit{salience} ist noch abhängig von der Satzentfernung $d$: \\
+$S = \frac{s}{2^d}$ \\
+Wir berechnen die \textit{salience} wie \citeasnoun{wunsch2006}, nur berücksichtigen wir keine Kataphern und keine Antezedenten die mehr als 3 Sätze entfernt sind. Außerdem verwenden wir nicht die Head Noun Emphasis, aber führen zusätzlich noch das proper noun Feature ein.  
 \end{itemize}
 
 \section{Vergleich der Datenformate und Korpora}
