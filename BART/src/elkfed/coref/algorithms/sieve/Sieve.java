@@ -371,7 +371,7 @@ public abstract class Sieve {
 	}
 
 	/**
-	 * Check if mention and antecedent have the same gender
+	 * Check if mention and antecedent have the same gender.
 	 * 
 	 * @param pair PairInstance of mention, antecedent
 	 * @return true or false
@@ -379,10 +379,7 @@ public abstract class Sieve {
 	public boolean genderAgreement(PairInstance pair) {
 
 		for (Gender g: pair.getAnaphor().getDiscourseEntity().getGenders()){
-			if (g.equals(Gender.UNKNOWN) || pair.getAntecedent().getGender().equals(g)
-					//the following line doesn't make a difference
-					//&& !pair.getAntecedent().getGender().equals(Gender.UNKNOWN)
-					) {
+			if (g.equals(Gender.UNKNOWN) || pair.getAntecedent().getGender().equals(g)) {
 				return true;
 			}
 		}
@@ -390,7 +387,7 @@ public abstract class Sieve {
 	}
 
 	/**
-	 * Check if mention and antecedent have the same number (plural/ singular)
+	 * Check if mention and antecedent have the same number (plural / singular).
 	 * 
 	 * @param pair PairInstance of mention, antecedent
 	 * @return true or false
@@ -399,10 +396,9 @@ public abstract class Sieve {
 		Number mNumber = pair.getAnaphor().getNumberLabel();
 		Number anteNumber = pair.getAntecedent().getNumberLabel();
 		
-		if (mNumber.equals(Number.UNKNOWN) || anteNumber.equals(Number.UNKNOWN)){
+		if (mNumber.equals(Number.UNKNOWN) || anteNumber.equals(Number.UNKNOWN)) {
 			return true;
 			}
-			
 		if (anteNumber == mNumber) {
 			return true;
 		}
@@ -412,7 +408,7 @@ public abstract class Sieve {
 	
 	/**
 	 * Check if mention and antecedent belong to the same semantic class or
-	 * mention's or antecedent's semantic class equals "unknown"
+	 * mention's or antecedent's semantic class equals "unknown".
 	 * 
 	 * @param pair PairInstance of mention, antecedent
 	 * @return true or false
@@ -430,12 +426,10 @@ public abstract class Sieve {
 	}
 
 	/**
-	 * true if:
+	 * Check whether two mentions are in an i-within-i relation (Chomsky, 1981). 
 	 * 
-	 * Check whether two mentions are in i-within-i relation (Chomsky, 1981) 
-	 * 
-	 * @param pair
-	 * @return true or false
+	 * @param pair PairInstance of mention, antecedent
+	 * @return true if in such a relation; false if not
 	 */
 	boolean IWithinI(PairInstance pair) {
 		
@@ -448,15 +442,14 @@ public abstract class Sieve {
 		}
 		return false;
 	}
-	
-	
+
 	/**
-	 * true if antecendent or mention do not contain a number that the other one does not contain
+	 * Check if antecendent or mention do not contain a number that
+	 * the other one does not contain.
 	 * 
-	 * @param pair
+	 * @param pair PairInstance of mention, antecedent
 	 * @return true or false
 	 */
-
 	public boolean noNumericMismatch(PairInstance pair) {
 		Set<String> mentionWords = new HashSet<String>();
 		Set<String> anteWords = new HashSet<String>();
@@ -474,7 +467,6 @@ public abstract class Sieve {
 					return false;
 				}
 				else {
-
 					for (String anteWord : anteWords) {
 						if (anteWord.toLowerCase().matches(numbers_relex)
 								|| anteWord.toLowerCase().matches(numbers_relex_eng)
@@ -490,33 +482,24 @@ public abstract class Sieve {
 		return true;
 	}
 	
-	
 	/**
-	 * true if modifiers of the pair do not contain different location named entities, 
-	 * other proper nouns or 
-	 * spatial modifiers
+	 * Check if modifiers of the pair do not contain different location named entities, 
+	 * other proper nouns or spatial modifiers.
 	 * 
-	 * @param pair
+	 * @param pair PairInstance of mention, antecedent
 	 * @return true or false
 	 */
-
 	public boolean noLocationMismatch(PairInstance pair) {
 		Set<String> mentionWords = new HashSet<String>();
 		Set<String> anteWords = new HashSet<String>();
-		
 		Mention mention = pair.getAnaphor();
 		Mention ante = pair.getAntecedent();
-
 		mentionWords = pair.getAnaphor().getDiscourseEntity().getWords();
 		anteWords = pair.getAntecedent().getDiscourseEntity().getWords();
-
 		List<String> mentionWordsPOS = new ArrayList<String>();
 		List<String> anteWordsPOS = new ArrayList<String>();
-
-		
 		mentionWordsPOS = mention.getDiscourseElementsByLevel("pos");
 		anteWordsPOS = ante.getDiscourseElementsByLevel("pos");
-		
 		
 		for (String mentionWord: mentionWords){
 			if (mentionWord.matches("(nördlich.*|südlich.*|.*westlich.*|.*östlich.*|obere.*|niedere.*)")
@@ -526,8 +509,6 @@ public abstract class Sieve {
 				}
 			}
 		}
-
-			
 		for (String anteWord: anteWords){	
 			if (anteWord.matches("(nördlich.*|südlich.*|.*westlich.*|.*östlich.*|obere.*|niedere.*)")
 					|| anteWord.matches("(north.*|south.*|.*west.*|.*east.*|upper.*|lower.*)")) {
@@ -536,7 +517,6 @@ public abstract class Sieve {
 				}
 			}
 		}
-		
 		int countMention = 0;
 		
 		for (String mentionWordPOS: mentionWordsPOS){
@@ -544,7 +524,6 @@ public abstract class Sieve {
 				countMention++;
 			}
 		}
-		
 		int countAnte = 0;
 		
 		for (String anteWordPOS: anteWordsPOS){
@@ -552,22 +531,18 @@ public abstract class Sieve {
 				countAnte++;
 			}
 		}
-		
 		if (countAnte != countMention){
 			return false;
-		}
-								
-							
+		}							
 		return true;
 	}
 
-	
-
 	/**
-	 * returns true if the mention head matches any head in the antecedent entity
+	 * Check if the mention head matches any head in the
+	 * antecedent entity.
 	 * 
 	 * @param pair PairInstance of mention, antecedent
-	 * @return true or false
+	 * @return true if head matches; false if not
 	 */
 	public boolean entityHeadMatch(PairInstance pair) {
 		Mention m = pair.getAnaphor();
@@ -589,16 +564,15 @@ public abstract class Sieve {
 				return true;
 			}
 		}
-
 		return false;
 	}
 
 	/**
-	 * returns true if both mention and antecedent are proper names 
-	 * and have the same semantic class
+	 * Check if both mention and antecedent are proper names 
+	 * and have the same semantic class.
 	 * 
 	 * @param pair PairInstance of mention, antecedent
-	 * @return true or false
+	 * @return true if proper names agree; false if not
 	 */
 	public boolean properNameAgreement(PairInstance pair) {
 		Mention m = pair.getAnaphor();
@@ -616,7 +590,7 @@ public abstract class Sieve {
 	}
 
 	/**
-	 * Returns true if the mention head matches any word in the antecedent entity
+	 * Returns true if the mention head matches any word in the antecedent entity.
 	 * 
 	 * @param pair PairInstance of mention, antecedent
 	 * @return true or false
@@ -645,14 +619,11 @@ public abstract class Sieve {
 				return true;
 			}
 		}
-	
-
 		return false;
-
 	}
 
 	/**
-	 * returns true if every word in the mention is contained in the antecedent entity
+	 * Returns true if every word in the mention is contained in the antecedent entity.
 	 * 
 	 * @param pair PairInstance of mention, antecedent
 	 * @return true or false
@@ -660,31 +631,24 @@ public abstract class Sieve {
 	public boolean wordInclusion(PairInstance pair) {
 		Mention m = pair.getAnaphor();
 		Mention ante = pair.getAntecedent();
-
-		
 		Set<String> dmWords = m.getDiscourseEntity().getWords();
-		
 		Set<String> dAnteWords = ante.getDiscourseEntity().getWords();
 		
 		if (dAnteWords.containsAll(dmWords)) {
 			return true;
 		}
-
 		return false;
-
 	}
 
 	/**
-	 * returns true if every noun and adjective modifiers are contained in the antecedent entity
-	 * 
+	 * Returns true if every noun and adjective modifiers are contained in the antecedent entity.
 	 * 
 	 * @param pair PairInstance of mention, antecedent
 	 * @return true or false
 	 */
 	public boolean compatibleModifiers(PairInstance pair) {
 		Mention m = pair.getAnaphor();
-		Mention ante = pair.getAntecedent();	
-		
+		Mention ante = pair.getAntecedent();
 		List<String> anteWords = new ArrayList<String>();
 		List<String> mWords = new ArrayList<String>();
 		
@@ -697,18 +661,14 @@ public abstract class Sieve {
 			anteWords = ante.getDiscourseElementsByLevel("lemma");
 			mWords = m.getDiscourseElementsByLevel("lemma");
 		}
-		
 		if (langPlugin instanceof EnglishLanguagePlugin) {
 			anteWords = ante.getDiscourseElementsByLevel("morph");
 			mWords = m.getDiscourseElementsByLevel("morph");
 		}
-		
 		List<String> mPos	= m.getDiscourseElementsByLevel("pos");
-		
 		Set<String> toTest = new HashSet<>();
 
 		for (int i = 0; i < mWords.size(); i++) {
-			
 			if(mPos.get(i).matches(posTags_regex) && !mWords.get(i).equals(m.getHeadLemma())) {
 				toTest.add(mWords.get(i));
 			}
@@ -717,22 +677,19 @@ public abstract class Sieve {
 		if (!sentenceDistance(pair) && toTest.size() == 0) {
 			return false;
 		}
-		
 		if(anteWords.containsAll(toTest)) {
 			return true;
 		} 
 		return false;
-		}
-
+	}
 	
 	/**
-	 * true if mention is not an instance of Vorfeld- Es or Mittelfeld-Es
-	 * (found out through sentence tree structure)
+	 * Check if mention is not an instance of 'Vorfeld-Es' or 'Mittelfeld-Es'
+	 * (found out through sentence tree structure).
 	 * 
 	 * @param mention
 	 * @return true or false
 	 */
-
 	public boolean isVorfeldEs(Mention mention) {
 //		if (mention.toString().equalsIgnoreCase("es")) {
 //			return true;
@@ -743,7 +700,6 @@ public abstract class Sieve {
 				.getMarkable().toString().equals("[Es]"))) {
 			return false;
 		}
-
 		else {
 			if (mention
 					.getSentenceTree()
@@ -753,13 +709,16 @@ public abstract class Sieve {
 				return true;
 			}
 		}
-		
-		
 		return false;
-
 	}
 	
-	public boolean contains_article(Mention mention) {
+	/**
+	 * Check if the mention contains an article.
+	 * 
+	 * @param mention a mention
+	 * @return true or false
+	 */
+	public boolean containsArticle(Mention mention) {
 		String[] tokens = mention.getMarkable().getDiscourseElements();
 		String def_articles = null;
 		String indef_articles = null;
@@ -778,7 +737,13 @@ public abstract class Sieve {
 		return false;		
 	}
 	
-	public boolean contains_day_month_year(Mention mention) {
+	/**
+	 * Check if the mention contains any weekday, month or year expression.
+	 * 
+	 * @param mention a mention
+	 * @return true or false
+	 */
+	public boolean containsDayMonthYear(Mention mention) {
 		String[] tokens = mention.getMarkable().getDiscourseElements();
 		String days_months_year = null;
 		if (langPlugin instanceof GermanLanguagePlugin) {
@@ -794,12 +759,17 @@ public abstract class Sieve {
 		return false;		
 	}
 	
-	public boolean antecedent_is_more_specific(PairInstance pair) {
+	/**
+	 * Check if the antecedent is more specific than the mention by checking
+	 * if the antecedent contains more words than the mention.
+	 * 
+	 * @param pair PairInstance of mention, antecedent
+	 * @return true if antecedent is more specific; else false
+	 */
+	public boolean antecedentIsMoreSpecific(PairInstance pair) {
 		return pair.getAntecedent().getMarkable().getDiscourseElements().length >=
 				pair.getAnaphor().getMarkable().getDiscourseElements().length;
 	}
-	
-	
 	
 	/**
 	 * true if:
@@ -811,10 +781,7 @@ public abstract class Sieve {
 	 * @param mention
 	 * @return true or false
 	 */
-	
-public boolean isSpeakerSpeechLeft(Mention mention){
-	
-		
+	public boolean isSpeakerSpeechLeft(Mention mention) {
 		if (FE_Speech.isMentionInSpeech(mention)){ // speaker cannot be in speech
 			return false;
 		}
@@ -837,12 +804,8 @@ public boolean isSpeakerSpeechLeft(Mention mention){
 				return true;
 			}
 		}
-
 		return false;
-		
-		
 	}
-	
 	
 	/**
 	 * true if:
@@ -854,7 +817,6 @@ public boolean isSpeakerSpeechLeft(Mention mention){
 	 * @param mention
 	 * @return true or false
 	 */
-
 	public boolean isSpeakerSpeechRight(Mention mention){
 			
 		if (FE_Speech.isMentionInSpeech(mention)){ // speaker cannot be in speech
@@ -879,11 +841,6 @@ public boolean isSpeakerSpeechLeft(Mention mention){
 				return true;
 			}
 		}
-		
 		return false;
-
 	}
-	
-		
-	
 }

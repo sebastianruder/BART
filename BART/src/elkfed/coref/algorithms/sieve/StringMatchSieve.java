@@ -1,15 +1,13 @@
 package elkfed.coref.algorithms.sieve;
 
 import java.util.List;
-
 import elkfed.coref.mentions.Mention;
-import elkfed.knowledge.SemanticClass;
 
 /**
-* This model links two mentions only if they contain exactly the same extent text, including modifiers and determiners
+* This model links two mentions only if their strings match exactly,
+* including pre- and post-modifiers and determiners.
 *
 * @author Xenia, Sebastian
-* 
 */
 
 public class StringMatchSieve extends Sieve {
@@ -21,9 +19,7 @@ public class StringMatchSieve extends Sieve {
 	
 	public int runSieve(Mention mention){
 		int ante_idx = -1;
-		SemanticClass semclass = mention.getSemanticClass();
-		
-		if (contains_day_month_year(mention)) {
+		if (containsDayMonthYear(mention)) {
 			return ante_idx;
 		}
 		int mention_idx = mentions.indexOf(mention);
@@ -32,9 +28,6 @@ public class StringMatchSieve extends Sieve {
 			if (mention.getMarkable().toString().equals(ante.getMarkable().toString())) {
 				if (!(mention.getPronoun())) {
 					ante_idx = idx;
-//					if (contains_article(mention) || SemanticClass.isaPerson(semclass) || SemanticClass.isaObject(semclass)) {
-//						ante_idx = idx;
-//					}
 				}
 			}
 		}
