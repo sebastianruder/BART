@@ -42,6 +42,9 @@ import elkfed.config.ConfigProperties;
 import elkfed.coref.discourse_entities.DiscourseEntity;
 import elkfed.coref.utterances.Utterance;
 import elkfed.knowledge.SemanticClass;
+import elkfed.lang.EnglishLanguagePlugin;
+import elkfed.lang.EnglishLinguisticConstants;
+import elkfed.lang.GermanLanguagePlugin;
 import elkfed.lang.GermanLinguisticConstants;
 import elkfed.lang.LanguagePlugin;
 import elkfed.lang.MentionType;
@@ -968,14 +971,31 @@ public class Mention implements Comparable<Mention> {
 
 	public List<String> getDiscourseElementsByLevel(String markableLevel) {
 		List<String> words = new ArrayList<String>();
-		MarkableLevel level = _document.getMarkableLevelByName(markableLevel);
-		int from = _markable.getLeftmostDiscoursePosition();
-		int to = _markable.getRightmostDiscoursePosition();
+		
+		if (langPlugin instanceof GermanLanguagePlugin) {
+			MarkableLevel level = _document.getMarkableLevelByName(markableLevel);
+			int from = _markable.getLeftmostDiscoursePosition();
+			int to = _markable.getRightmostDiscoursePosition();
 
-		Markable[] markables = level.getMarkablesAtSpan(from, to);
-		for (Markable markable : markables) {
-			words.add(markable.getAttributeValue("tag"));
+			Markable[] markables = level.getMarkablesAtSpan(from, to);
+			for (Markable markable : markables) {
+				words.add(markable.getAttributeValue("tag"));
+			}
+			
+		} else if (langPlugin instanceof EnglishLanguagePlugin) {
+			MarkableLevel level = _document.getMarkableLevelByName(markableLevel);
+			int from = _markable.getLeftmostDiscoursePosition();
+			int to = _markable.getRightmostDiscoursePosition();
 
+			Markable[] markables = level.getMarkablesAtSpan(from, to);
+			for (Markable markable : markables) {
+				if (markableLevel.equals("morph")){
+					words.add(markable.getAttributeValue("lemma"));
+				}
+				else {
+				words.add(markable.getAttributeValue("tag"));
+				}
+			}
 		}
 		return words;
 	}
