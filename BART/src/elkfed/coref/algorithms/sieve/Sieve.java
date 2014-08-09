@@ -49,10 +49,13 @@ public abstract class Sieve {
 	protected String name; // name of sub class
 	// list of antecedents/potential coreferents
 	protected List<Mention> mentions;
-
+	// language plugin is retrieved
+	protected static final LanguagePlugin langPlugin = ConfigProperties
+			.getInstance().getLanguagePlugin();
+	
 	/**
 	 * Abstract method that uses the particular rules of a sieve to look for an
-	 * antecedent for mention in the list of mentions that was provided to the
+	 * antecedent for a mention in the list of mentions that was provided to the
 	 * sieve.
 	 * 
 	 * @param mention the mention whose antecedent is sought
@@ -68,15 +71,10 @@ public abstract class Sieve {
 		return this.name;
 	}
 
-	// language plugin is retrieved
-	protected static final LanguagePlugin langPlugin = ConfigProperties
-			.getInstance().getLanguagePlugin();
-
 	/**
-	 * Checks if a mention and its antecedent are in an appositive construction
+	 * Checks if a mention and its antecedent are in an appositive construction.
 	 * <p>
-	 * Appositive constructions don't appear in TüBa-D/Z; here they form one
-	 * mention.
+	 * Note: Appositive constructions are not annotated in TüBa-D/Z.
 	 * 
 	 * @param pair PairInstance of mention, antecedent
 	 * @return true or false
@@ -91,7 +89,7 @@ public abstract class Sieve {
 
 	/**
 	 * Checks if mention and antecedent are in a copulative subject-object
-	 * relation
+	 * relation. These are almost never annotated.
 	 * 
 	 * @param pair PairInstance of mention, antecedent
 	 * @return true or false
@@ -105,7 +103,9 @@ public abstract class Sieve {
 	}
 
 	/**
-	 * Checks if mention and antecedent are in a role appositive construction
+	 * Checks if mention and antecedent are in a role appositive construction.
+	 * <p>
+	 * Note: Role appositive constructions are not annotated in TüBa-D/Z.
 	 * 
 	 * @param pair PairInstance of mention, antecedent
 	 * @return true or false
@@ -132,18 +132,15 @@ public abstract class Sieve {
 	 * labels (e.g., PERSON and MALE are animate); and (c) lists of animate and
 	 * inanimate unigrams taken from
 	 * https://github.com/castiron/didh/tree/master/lib/vendor/snlp/dcoref;
-	 * German lists have been translated using Google Tranlate
+	 * German lists have been translated using Google Translate.
 	 * 
-	 * @param mention mention
+	 * @param mention the mention whose animacy should be checked
 	 * @return true or false
 	 */
 	boolean isAnimate(Mention mention) {
 		// (a) check with pronoun list
 		// not necessary for isRoleAppositive, maybe for other applications
 		String[] tokens = mention.getMarkable().getDiscourseElements();
-		if (mention.getPronoun()) {
-			return false;
-		}
 		// (b) check with NER and Gender labels
 		if (SemanticClass.isaPerson(mention.getSemanticClass())
 				|| mention.getGender().equals(Gender.MALE)
@@ -156,10 +153,6 @@ public abstract class Sieve {
 		}
 		// (c) check with animate and inanimate lists
 		for (int i = 0; i < tokens.length; i++) {
-			/*
-			 * at the moment, one token suffices to be animate or inanimate to
-			 * arrive at a decision; maybe only consider the head word?
-			 */
 			if (langPlugin.isInAnimateList(tokens[i])) {
 				return true;
 			} else if (langPlugin.isInInanimateList(tokens[i])) {
@@ -174,7 +167,7 @@ public abstract class Sieve {
 	 * <p>
 	 * Uses NER and Gender labels, and male, female, and neutral lists taken
 	 * from https://github.com/castiron/didh/tree/master/lib/vendor/snlp/dcoref;
-	 * German lists have been translated using Google Tranlate
+	 * German lists have been translated using Google Translate.
 	 * 
 	 * @param mention a mention
 	 * @return true or false
@@ -189,7 +182,6 @@ public abstract class Sieve {
 
 		for (int i = 0; i < tokens.length; i++) {
 			String t = tokens[i];
-			// same comment as loop above
 			if (langPlugin.isInNeutralList(t)) {
 				return true;
 			} else if (langPlugin.isInMaleList(t)
@@ -219,7 +211,6 @@ public abstract class Sieve {
 		} else if (langPlugin instanceof EnglishLanguagePlugin) {
 			relative_pronouns = EnglishLinguisticConstants.RELATIVE_PRONOUN;
 		}
-
 		if (tokens.length == 1 && tokens[0].matches(relative_pronouns)) {
 			String rp = tokens[0];
 			DiscourseEntity de = mention.getDiscourseEntity();
@@ -269,11 +260,13 @@ public abstract class Sieve {
 						return false;
 					}
 				}
+				/*
 				System.out.println(String
 								.format("RELATIVE PRONOUN! %s and %s (Distance: %d, Gender: %s)",
 										mention.getMarkable().getID(),
 										antecedent.getMarkable().getID(),
 										word_distance, antecedent.getGender()));
+										*/
 				return true;
 			}
 		}
@@ -299,10 +292,10 @@ public abstract class Sieve {
 	}
 
 	/**
-	 * Checks if one string is an acronym of the other string
+	 * Checks if one string is an acronym of the other string.
 	 * 
 	 * @param acronym the acronym mention
-	 * @param expression the  mention whose initials could form said acronym
+	 * @param expression the mention whose initials could form said acronym
 	 * @return true or false
 	 */
 	boolean checkOneWayAcronym(Mention acronym, Mention expression) {
@@ -318,7 +311,6 @@ public abstract class Sieve {
 			if (!(word.length() == 0)) {
 				initials += word.substring(0, 1).toUpperCase();
 			}
-			
 		}
 		if (acronym.toString().equals(initials)) {
 			return true;
@@ -328,7 +320,7 @@ public abstract class Sieve {
 
 	/**
 	 * Check if one expression is a demonym of the other using a static list of
-	 * countries and their gentilic forms from Wikipedia
+	 * countries and their gentilic forms taken from Wikipedia.
 	 * 
 	 * @param pair PairInstance of mention, antecedent
 	 * @return true or false
@@ -344,7 +336,7 @@ public abstract class Sieve {
 		if ((mention_lookup != null && mention_lookup.equals(antecedent))
 				|| (antecedent_lookup != null && antecedent_lookup
 						.equals(mention))) {
-			System.out.println("DEMONYM");
+			// System.out.println("DEMONYM");
 			return true;
 		}
 		return false;
