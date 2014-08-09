@@ -66,6 +66,12 @@ public class EnglishLanguagePlugin extends AbstractLanguagePlugin {
         readList(neutral_list, "neutral_unigrams_en.txt");
         readList(male_list, "male_unigrams_en.txt");
         readList(female_list, "female_unigrams_en.txt");
+        
+        /*
+         * stop word list from http://www.ranks.nl/stopwords
+         * 
+         */
+        readList(stopword_list, "stopwords_en.txt");
     }
 
      /** Gets whether the markable is a proper name or not
@@ -852,6 +858,9 @@ public class EnglishLanguagePlugin extends AbstractLanguagePlugin {
     public boolean isExpletiveWordForm(String string) {
         return string.equalsIgnoreCase("it");
     }
+    
+    
+    
 
     public boolean isExpletiveRB(Mention m) {
       if (!m.getMarkableString().equalsIgnoreCase("it")) return false;
