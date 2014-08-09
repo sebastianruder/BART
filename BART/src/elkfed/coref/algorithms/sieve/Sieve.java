@@ -449,11 +449,12 @@ public abstract class Sieve {
 	}
 
 	/**
+	 * true if:
 	 * 
+	 * Check whether two mentions are in i-within-i relation (Chomsky, 1981) 
 	 * 
-	 * @param mention
-	 * @param ante
-	 * @return
+	 * @param pair
+	 * @return true or false
 	 */
 	boolean IWithinI(PairInstance pair) {
 		
@@ -479,12 +480,14 @@ public abstract class Sieve {
 		Set<String> mentionWords = new HashSet<String>();
 		Set<String> anteWords = new HashSet<String>();
 		String numbers_relex = ".*(höchstens|mindestens|eins|zwei|drei|vier|fünf|sechs|sieben|acht|neun|zehn|elf|zwölf|hundert|tausend|million|milliarde).*";
-
+		String numbers_relex_eng = ".*(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|teen|million|billio).*";
 		mentionWords = pair.getAnaphor().getDiscourseEntity().getWords();
+		
 		anteWords = pair.getAntecedent().getDiscourseEntity().getWords();
 
 		for (String mentionWord : mentionWords) {
-			if (mentionWord.toLowerCase().matches(numbers_relex)
+			if (mentionWord.toLowerCase().matches(numbers_relex) 
+					|| mentionWord.toLowerCase().matches(numbers_relex_eng)
 					|| mentionWord.matches(".*[0-9]+.*")) {
 				if (!anteWords.contains(mentionWord)) {
 					return false;
@@ -493,6 +496,7 @@ public abstract class Sieve {
 
 					for (String anteWord : anteWords) {
 						if (anteWord.toLowerCase().matches(numbers_relex)
+								|| anteWord.toLowerCase().matches(numbers_relex_eng)
 								|| anteWord.matches(".*[0-9]+.*")) {
 							if (!mentionWords.contains(anteWord)) {
 								return false;
@@ -534,7 +538,8 @@ public abstract class Sieve {
 		
 		
 		for (String mentionWord: mentionWords){
-			if (mentionWord.matches("(nördlich.*|südlich.*|.*westlich.*|.*östlich.*|obere.*|niedere.*)")) {
+			if (mentionWord.matches("(nördlich.*|südlich.*|.*westlich.*|.*östlich.*|obere.*|niedere.*)")
+					|| mentionWord.matches("(north.*|south.*|.*west.*|.*east.*|upper.*|lower.*)")) {
 				if (!anteWords.contains(mentionWord)) {
 					return false;
 				}
@@ -543,7 +548,8 @@ public abstract class Sieve {
 
 			
 		for (String anteWord: anteWords){	
-			if (anteWord.matches("(nördlich.*|südlich.*|.*westlich.*|.*östlich.*|obere.*|niedere.*)")) {
+			if (anteWord.matches("(nördlich.*|südlich.*|.*westlich.*|.*östlich.*|obere.*|niedere.*)")
+					|| anteWord.matches("(north.*|south.*|.*west.*|.*east.*|upper.*|lower.*)")) {
 				if (!mentionWords.contains(anteWord)) {
 					return false;
 				}
@@ -651,6 +657,9 @@ public abstract class Sieve {
 		mheadLemmas.addAll(Arrays.asList(mHead.split(" ")));
 		Set<String> dAnteWords = ante.getDiscourseEntity().getWords();
 		for (String head : dAnteWords) {
+			if (head == null){
+				return false;
+			}
 			if(mheadLemmas.contains(head) || Arrays.asList(head.split(" ")).contains(mHead)) {
 				return true;
 			}
@@ -693,15 +702,25 @@ public abstract class Sieve {
 	 */
 	public boolean compatibleModifiers(PairInstance pair) {
 		Mention m = pair.getAnaphor();
-		Mention ante = pair.getAntecedent();		
+		Mention ante = pair.getAntecedent();	
+		
+		List<String> anteWords = new ArrayList<String>();
+		List<String> mWords = new ArrayList<String>();
 		
 		if (!(noNumericMismatch(pair) && noLocationMismatch(pair))) {
 			return false;
 		}
 		String posTags_regex = "(adja|nn|ne|pidat)";
-		List<String> anteWords = ante.getDiscourseElementsByLevel("lemma");
 		
-		List<String> mWords = m.getDiscourseElementsByLevel("lemma");
+		if (langPlugin instanceof GermanLanguagePlugin) {
+			anteWords = ante.getDiscourseElementsByLevel("lemma");
+			mWords = m.getDiscourseElementsByLevel("lemma");
+		}
+		
+		if (langPlugin instanceof EnglishLanguagePlugin) {
+			anteWords = ante.getDiscourseElementsByLevel("morph");
+			mWords = m.getDiscourseElementsByLevel("morph");
+		}
 		
 		List<String> mPos	= m.getDiscourseElementsByLevel("pos");
 		
