@@ -1,6 +1,7 @@
 package elkfed.coref.algorithms.sieve;
 
 import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -11,8 +12,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import elkfed.config.ConfigProperties;
 import elkfed.coref.discourse_entities.DiscourseEntity;
 import elkfed.coref.mentions.Mention;
+import elkfed.lang.LanguagePlugin;
 import elkfed.mmax.MarkableLevels;
 import elkfed.mmax.minidisc.Markable;
 import elkfed.mmax.minidisc.MarkableLevel;
@@ -21,10 +24,13 @@ import elkfed.mmax.minidisc.MiniDiscourse;
 /**
  * The Evaluation class
  * 
- * @author Julian Baumann, Xenia Kühling, Sebastian Ruder
+ * @author Julian Baumann, Xenia Kï¿½hling, Sebastian Ruder
  * 
  */
 public class Evaluation {
+	
+	protected static final LanguagePlugin langPlugin = ConfigProperties
+			.getInstance().getLanguagePlugin();
 	
 	private PrintWriter writer; // writer writing the log file
 	private List<Mention> mentions; // a list of all mentions
@@ -80,14 +86,15 @@ public class Evaluation {
 			writer.print("MENTION: ");
 		}
 		String string_to_print = String.format(
-				"%s (%s)\nHeadLemma: %s\nHead: %s\nWords: %s\nSetID: %s\nDeID: %s\n",
+				"%s (%s)\nHeadLemma: %s\nHead: %s\nWords: %s\nSetID: %s\nDeID: %s\nHeadGF: %s\n",
 				m.getMarkable().toString(),
 				m.getMarkable().getID(),
 				m.getHeadLemma(),
 				m.getHeadString(),
 				m.getDiscourseEntity().getWordsString(),
 				m.getSetID(),
-				m.getDiscourseEntity().getID());
+				m.getDiscourseEntity().getID(),
+				langPlugin.getHeadGF(m));
 		printAndWrite(string_to_print);
 		//Markable markable = m.getMarkable();
 		//MiniDiscourse doc = markable.getMarkableLevel().getDocument();
@@ -103,7 +110,8 @@ public class Evaluation {
 		// Sebastian file path: "D:/BART/BART/src/elkfed/coref/algorithms/sieve/log/mmax-100.log"
 		// Julian filePath: "/home/julian/git/BART/BART/src/elkfed/coref/algorithms/sieve/log/mmax-100.log"
 		try {
-		    writer = new PrintWriter(new BufferedWriter(new FileWriter("D:/BART/BART/src/elkfed/coref/algorithms/sieve/log/mmax-100.log", true)));
+			File log_dir = new File(ConfigProperties.getInstance().getRoot(), "logs");
+		    writer = new PrintWriter(new BufferedWriter(new FileWriter(new File(log_dir, ConfigProperties.getInstance().getTestDataId() + ".log"), true)));
 		} catch (IOException ex) {
 		  System.err.println("IOException!");
 		}

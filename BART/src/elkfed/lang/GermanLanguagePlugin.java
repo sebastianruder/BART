@@ -98,8 +98,7 @@ public class GermanLanguagePlugin extends AbstractLanguagePlugin {
         readList(female_list, "female_unigrams_de.txt");
         readList(stopword_list, "stopwords_de.txt");
         readList(speechverb_list, "speechverbs_de.txt");
-        readList(singular_list, "singularetantum_de.txt");
-        readList(plural_list, "pluraletantum_de.txt");
+        
         
         
     }

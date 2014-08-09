@@ -209,7 +209,7 @@ public class ConfigProperties {
 
     /** Gets the test data id */
     public String getTestDataId()
-    { return getCorpusProperty(TRAINING_DATA_ID,
+    { return getCorpusProperty(TEST_DATA_ID,
               System.getProperty("elkfed.corpus",DEFAULT_DATA_ID)); }
 
     public Set<String> getGoldLevels() {
