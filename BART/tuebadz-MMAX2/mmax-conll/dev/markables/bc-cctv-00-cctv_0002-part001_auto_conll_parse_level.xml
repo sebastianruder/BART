@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE words SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/parse">
+<markable id="markable_10001" span="word_1..word_7" tag="(S1 (S (NP (NN News) (CC and) (NNS events)) (VP (VBP happen) (NP (DT every) (NN day))) (. .)))" mmax_level="parse" />
+<markable id="markable_10002" span="word_8..word_19" tag="(S1 (S (SBAR (WHNP (WP What)) (S (NP (PRP you)) (VP (VBP are) (ADJP (JJ interested) (PP (IN in)))))) (VP (VBZ is) (SBAR (WHNP (RB exactly) (WP what)) (S (NP (PRP$ our) (NNS focuses)) (VP (VBP are))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10003" span="word_20..word_25" tag="(S1 (S (NP (DT This)) (VP (VBZ is) (NP (NNP CCTV) (NNP Focus) (NNP Today))) (. .)))" mmax_level="parse" />
+<markable id="markable_10004" span="word_26..word_57" tag="(S1 (S (ADVP (RB Prior) (PP (IN to) (NP (DT the) (NNP APEC) (NN meeting)))) (, ,) (NP (NML (JJ Japanese) (NNP Prime) (NNP Minister)) (NNP Junichiro) (NNP Koizumi)) (VP (VP (VBD visited) (NP (NNP Yasukuni) (NNP Shrine)) (PP (IN for) (NP (DT the) (JJ fifth) (NN time)))) (CC and) (VP (VBD was) (ADVP (RB strongly)) (VP (VBN condemned) (PP (IN by) (NP (NP (JJ Asian) (NNS nations)) (PP (JJ such) (IN as) (NP (NP (NNP China)) (CC and) (NP (NNP South) (NNP Korea))))))))) (. .)))" mmax_level="parse" />
+<markable id="markable_10005" span="word_58..word_71" tag="(S1 (SBARQ (WHNP (WHNP (WDT What) (NN kind)) (PP (IN of) (NP (NN situation)))) (SQ (MD will) (NP (NNP Japan)) (VP (VB find) (NP (PRP itself)) (ADVP (RB in)) (PP (IN at) (NP (DT the) (NNP APEC) (NN summit))))) (. ?)))" mmax_level="parse" />
+<markable id="markable_10006" span="word_72..word_86" tag="(S1 (SBARQ (WHNP (WDT What) (JJ heavy) (NNS prices)) (SQ (MD will) (NP (NNP Japan)) (VP (VB pay) (PP (IN for) (S (NP (NNP Koizumi) (POS 's)) (VP (VBG paying) (NP (NP (NN respect)) (PP (IN to) (NP (DT the) (NNS ghosts))))))))) (. ?)))" mmax_level="parse" />
+<markable id="markable_10007" span="word_87..word_95" tag="(S1 (S (NP (NNP Focus) (NNP Today)) (VP (VBZ is) (VP (VBG coming) (PRT (RP up)) (PP (IN in) (NP (DT a) (NN moment))))) (. .)))" mmax_level="parse" />
+</markables>
