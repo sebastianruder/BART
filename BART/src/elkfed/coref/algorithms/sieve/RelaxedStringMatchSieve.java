@@ -29,16 +29,8 @@ public class RelaxedStringMatchSieve extends Sieve {
 	public int runSieve(Mention mention){
 		int mention_idx = mentions.indexOf(mention);
 		int ante_idx = -1;
-		SemanticClass semclass = mention.getSemanticClass();
 		
-		/* Constraints lower recall, slightly improve precision
-		if (contains_day_month_year(mention) || (!(contains_article(mention) ||
-				SemanticClass.isaPerson(semclass) || SemanticClass.isaObject(semclass)))) {
-			return ante_idx;
-		}
-		*/
 		for (int idx = 0; idx < mention_idx; idx++){
-			PairInstance pair = new PairInstance(mention, mentions.get(idx));
 			if (mention.toString().equals(mentions.get(idx).toString())){
 				if (!(mention.getPronoun())) {
 					ante_idx = idx;
