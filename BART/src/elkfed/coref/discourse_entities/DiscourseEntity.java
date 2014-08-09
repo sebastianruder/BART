@@ -24,6 +24,7 @@ package elkfed.coref.discourse_entities;
 import elkfed.coref.mentions.*;
 import edu.stanford.nlp.trees.Tree;
 import elkfed.config.ConfigProperties;
+import elkfed.lang.GermanLanguagePlugin;
 import elkfed.lang.LanguagePlugin;
 import elkfed.lang.NodeCategory;
 
@@ -94,9 +95,19 @@ public class DiscourseEntity {
 	}
 	
 	public void addWords(Mention m) {
-		for (String word: m.getDiscourseElementsByLevel("lemma")) {
-			if (!langPlugin.isInStopwordList(word)) {
-				words.add(word);
+		if (langPlugin instanceof GermanLanguagePlugin) {		
+			for (String word: m.getDiscourseElementsByLevel("lemma")) {
+				if (!langPlugin.isInStopwordList(word)) {
+					words.add(word);
+				}
+			}
+		}
+		
+		else if (langPlugin instanceof EnglishLanguagePlugin) {
+			for (String word: m.getDiscourseElementsByLevel("morph")) {
+				if (!langPlugin.isInStopwordList(word)) {
+					words.add(word);
+				}
 			}
 		}
 	}        
