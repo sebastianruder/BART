@@ -37,7 +37,7 @@ public class FE_Syntax_Binding implements PairFeatureExtractor {
      * @param inst
      * @return true if antecedent c-commands anaphor, false otherwise
      */
-    private boolean getAnaBoundInBindingDomain(PairInstance inst)
+    public static boolean getAnaBoundInBindingDomain(PairInstance inst)
     {
         Tree AnteTree = inst.getAntecedent().getSentenceTree();
         Tree AnaTree = inst.getAnaphor().getSentenceTree();
@@ -64,7 +64,7 @@ public class FE_Syntax_Binding implements PairFeatureExtractor {
         return false;
     }
 
-    public boolean cCommands(Tree t, Tree t1, Tree t2) {
+    public static boolean cCommands(Tree t, Tree t1, Tree t2) {
         List<Tree> sibs = t1.siblings(t);
         if (sibs == null || sibs.size() == 0) {
             if(t1.parent(t)!=null) {
