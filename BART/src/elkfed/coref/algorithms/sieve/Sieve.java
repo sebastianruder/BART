@@ -417,18 +417,7 @@ public abstract class Sieve {
 		return false;
 	 }
 
-	/**
-	 * 
-	 * Person â€“ we assign person attributes only to pronouns. We do not
-	 * enforce this constraint when linking two pronouns, however, if one
-	 * appears within quotes. This is a simple heuristic for speaker detection
-	 * (e.g., I and she point to the same person in â€œ[I] voted my
-	 * conscience,â€� [she] said).
-	 */
-	public void personAgreement(PairInstance pair) {
-		// missing
-	}
-
+	
 	/**
 	 * Check if mention and antecedent belong to the same semantic class or
 	 * mention's or antecedent's semantic class equals "unknown"
