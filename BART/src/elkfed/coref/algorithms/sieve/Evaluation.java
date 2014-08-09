@@ -2,47 +2,35 @@ package elkfed.coref.algorithms.sieve;
 
 import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
-import java.io.Writer;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 import elkfed.config.ConfigProperties;
-import elkfed.coref.discourse_entities.DiscourseEntity;
 import elkfed.coref.mentions.Mention;
 import elkfed.lang.LanguagePlugin;
-import elkfed.mmax.MarkableLevels;
-import elkfed.mmax.minidisc.Markable;
-import elkfed.mmax.minidisc.MarkableLevel;
-import elkfed.mmax.minidisc.MiniDiscourse;
 
 /**
  * The Evaluation class
  * 
- * @author Julian Baumann, Xenia Kï¿½hling, Sebastian Ruder
- * 
+ * @author Julian Baumann, Xenia Kühling, Sebastian Ruder
  */
 public class Evaluation {
 	
 	protected static final LanguagePlugin langPlugin = ConfigProperties
 			.getInstance().getLanguagePlugin();
-	
 	private PrintWriter writer; // writer writing the log file
 	private List<Mention> mentions; // a list of all mentions
 	public Map<Mention, Mention>  antecedents;
 	private Map<Mention, String> sieves;
-	
 	public static Map<String, Integer> correctLinksPerSieve = new HashMap<String, Integer>();
 	public static Map<String, Integer> linksPerSieve = new HashMap<String, Integer>();
 	
-	
 	/**
-	 * The constructor of the Evaluation class
+	 * The constructor of the Evaluation class.
 	 * 
 	 * @param mentions a list of mentions
 	 */

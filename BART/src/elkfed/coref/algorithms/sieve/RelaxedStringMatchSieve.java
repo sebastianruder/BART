@@ -2,12 +2,7 @@ package elkfed.coref.algorithms.sieve;
 
 import java.util.List;
 
-import elkfed.coref.PairInstance;
 import elkfed.coref.mentions.Mention;
-import elkfed.knowledge.SemanticClass;
-import static elkfed.lang.EnglishLinguisticConstants.DEF_ARTICLE;
-import static elkfed.lang.EnglishLinguisticConstants.INDEF_ARTICLE;
-import static elkfed.lang.EnglishLinguisticConstants.DAYS_MONTHS_YEAR;
 
 /**
  * This sieve considers two nominal mentions as coreferent,

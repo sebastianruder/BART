@@ -3,31 +3,27 @@ package elkfed.coref.algorithms.sieve;
 import java.util.ArrayList;
 import java.util.List;
 
-import edu.stanford.nlp.trees.Tree;
 import elkfed.coref.features.pairs.FE_SentenceDistance;
 import elkfed.coref.features.pairs.FE_Speech;
 import elkfed.coref.features.pairs.de.FE_Syntax_Binding;
 import elkfed.coref.PairInstance;
 import elkfed.coref.mentions.Mention;
-import elkfed.nlp.util.Gender;
-import elkfed.nlp.util.Number;
 
 /**
  * This Sieves finds antecedents for Pronouns.
  * First we find all compatible Mentions that are at most 3 sentences apart from the anapher.
- * Then we rank them according to their Salience and return the most salient antecedent.
- * 
+ * Then we rank them according to their salience and return the most salient antecedent.
  * 
  * @author Julian, Xenia
  * 
  */
-
 public class PronounMatchSieve extends Sieve {
 
 	public PronounMatchSieve(List<Mention> mentions) {
 		this.mentions = mentions;
 		this.name = "PronounMatchSieve";
 	}
+	
 	/**
 	 * 
 	 * @param m Mention for which we want to find compatible antecedents  
