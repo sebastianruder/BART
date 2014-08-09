@@ -12,11 +12,24 @@ von Soon et al. (2001) basierenden Resolutionsalgorithmus, der Kandidaten-NPs hi
 paarweise vergleicht. Statt diesem implementierten wir das Resolutionssystem der
 Stanford-NLP-Gruppe um Lee et al. (2013), das sich durch seine Sieb-Architektur
 auszeichnet. Obwohl auf Regeln basiert, konnte es dennoch das beste Ergebnis
-beim CoNLL-2011 _shared task_ erzielen. Im Rahmen der Sieb-Architektur werden nacheinander --
+beim CoNLL-2011 _shared task_ erzielen. 
+
+![Sieve Architecture](stanford.png "Stanford Sieve Architecture")
+
+Im Rahmen der Sieb-Architektur werden nacheinander --
 absteigend nach ihrer Präzision geordnet -- eine Reihe von deterministischen Koreferenzmodellen
 angewendet, wobei jedes Modell auf den Output seines Vorgängers aufbaut. Besonders das
 Entität-zentrische Modell, bei dem Merkmale über alle Vorkommen einer Entität geteilt
 werden, bietet einen deutlichen Wissensgewinn, der von Nutzen für BARTs Performanz ist.
+
+|              | Recall | Precision | F_1   |
+| ------------ | ------ | --------- | ----- |
+| Unser System | 0.639  | 0.692     | 0.664 |
+| BART         | 0.721  | 0.532     | 0.612 |
+
+Vergleich unseres Systems mit BARTs Machine Learning-Konfiguration. Als Testkorpus verwendeten wir
+die ersten 99 Dokumente der TüBa-D/Z _treebank_, wobei wir BARTs ML-Komponente auf den restlichen
+Dokumenten (Nr. 100 - Nr. 3528) trainierten.
 
 ## Inbetriebnahme
 
