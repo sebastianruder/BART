@@ -78,7 +78,7 @@ Die Merkmale koreferenter \textit{mentions} werden in einer eigenen \texttt{Disc
 
 \item \textbf{RelaxedHeadMatch} matcht zwei mentions, wenn der Kopf der mention mit einem Wort in der Antezedens-Entität übereinstimmt, wobei beide \textit{named entities} desselben Typs sein müssen und Bedingungen (ii) und (iii) genügen müssen.
 
-\item \textbf{PronounMatch}  ${\leq}$ matcht Pronomen mit ihrem Antezedens, sofern diese morphologisch kompatibel sind und den Binding-Constraints genügen. Das Pronomen ist mit demjenigen Antezedens koreferent, das die höchste Salience hat. \citep{wunsch2006} 
+\item \textbf{PronounMatch} matcht Pronomen mit ihrem Antezedens, sofern diese morphologisch kompatibel sind und den Binding-Constraints genügen. Das Pronomen ist mit demjenigen Antezedens koreferent, das die höchste \textit{salience} \cite{wunsch2006} hat.
 
 \end{itemize}
 
@@ -87,13 +87,19 @@ Das XML-Format der TüBa-D/Z wird für BART in MMAX2 \cite{muller2006} konvertie
 
 \section{Evaluation}
 Aufgrund der Schwierigkeit, Daten im MMAX2-Format zu analysieren und zu visualisieren, konvertierten wir die Texte in das HTML-Format, wobei wir koreferente mentions farbig markierten. Mithilfe der \texttt{Evaluation}-Klasse ließen wir uns ebenfalls die Details jedes matches und die Sieb-spezifische Performanz ausgeben.
-
-Evaluationstabellen
-
-1. Tabelle: Vergleich mit BART Machine Learning-Konfiguration XMLExperiment auf TüBa-D/Z
-
-2. Tabelle: Vergleich mit Stanford-System mit CoNLL Scorer auf OntoNotes
-
+\begin{table}[h]
+\begin{tabular}{l||ll|l}
+& \multicolumn{3}{c}{\textbf{MUC-Score}} \\ \hline
+               & \textbf{Recall}		 & \textbf{Precision} & \textbf{F\_1}    \\ \hline
+Unser System 	& 0.639      & 0.692              & 0.664  \\
+BART  & 0.721 		 & 0.532     & 0.612
+          
+\end{tabular}
+\caption{Vergleich mit BARTs Machine Learning-Konfiguration}
+\end{table}
+\\
+Als Testkorpus verwendeten wir die ersten 99 Dokumente der TüBa-D/Z, wobei wir BARTs Machine Learning-Komponente auf den restlichen Dokumenten der TüBa-D/Z (Nr. 100 - Nr. 3528) trainierten.\\
+2. Tabelle: Vergleich mit Stanford-System mit CoNLL Scorer auf OntoNotes\\
 3. Tabelle: Verbesserungen der einzelnen Sieves
 
 \clearpage
