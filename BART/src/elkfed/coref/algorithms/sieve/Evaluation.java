@@ -16,7 +16,7 @@ import elkfed.lang.LanguagePlugin;
 /**
  * The Evaluation class
  * 
- * @author Julian Baumann, Xenia Kühling, Sebastian Ruder
+ * @author Julian, Sebastian, Xenia
  */
 public class Evaluation {
 	

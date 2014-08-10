@@ -28,8 +28,7 @@ public class PronounMatchSieve extends Sieve {
 	 * Returns a list of Mentions that are morphologically compatible to the
 	 * Mention and fulfill the binding constraints
 	 * 
-	 * @param Mention
-	 *            for which we want to find compatible antecedents
+	 * @param m Mention for which we want to find compatible antecedents
 	 * @return a List of Mentions which are compatible to the pronoun
 	 */
 	private List<Mention> getAntecedents(Mention m) {
@@ -82,8 +81,7 @@ public class PronounMatchSieve extends Sieve {
 	 * or Genitive Object of its clause +35 if the mention and the Antecedent
 	 * have the same grammatical function
 	 * 
-	 * @param pair
-	 *            the pair{@link PairInstance} to score
+	 * @param pair PairInstance to score
 	 * @return the Salience Score
 	 */
 	private double scorePair(PairInstance pair) {
