@@ -26,8 +26,9 @@ public class Evaluation {
 	private List<Mention> mentions; // a list of all mentions
 	public Map<Mention, Mention>  antecedents;
 	private Map<Mention, String> sieves;
-	public static Map<String, Integer> correctLinksPerSieve = new HashMap<String, Integer>();
-	public static Map<String, Integer> linksPerSieve = new HashMap<String, Integer>();
+	
+	private static Map<String, Integer> correctLinksPerSieve = new HashMap<String, Integer>();
+	private static Map<String, Integer> linksPerSieve = new HashMap<String, Integer>();
 	
 	/**
 	 * The constructor of the Evaluation class.
