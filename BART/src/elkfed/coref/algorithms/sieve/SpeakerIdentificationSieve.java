@@ -41,7 +41,7 @@ public class SpeakerIdentificationSieve extends Sieve {
 			pair = new PairInstance(mention, mentions.get(idx));
 			Mention ante = pair.getAntecedent();
 			
-			if (isVorfeldEs(mention) || isVorfeldEs(ante)){ 
+			if (langPlugin.isExpletiveRB(mention) || langPlugin.isExpletiveRB(ante)){ 
 				return ante_idx; 
 			}
 			if (numberAgreement(pair) && !(FE_SentenceDistance.getSentDist(pair) > 1)) {

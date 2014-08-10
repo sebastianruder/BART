@@ -399,6 +399,31 @@ public class GermanLanguagePlugin extends AbstractLanguagePlugin {
         }
         return markableGF;
     }
+    /**
+	 * Check if mention is not an instance of 'Vorfeld-Es' or 'Mittelfeld-Es'
+	 * (found out through sentence tree structure).
+	 * 
+	 * @param mention
+	 * @return true if instance of (Vor|Mittel)feld-Es, otherwise false
+	 */
+    @Override
+    public boolean isExpletiveRB(Mention mention) {
+    	if (!(mention.getMarkable().toString().equals("[es]") || mention
+				.getMarkable().toString().equals("[Es]"))) {
+			return false;
+		}
+		else {			
+			//check for certain sentence tree structure
+			if (mention
+					.getSentenceTree()
+					.toString()
+					.matches(
+							"\\(Start(.*)\\([VM]F \\(NX \\(PPER [Ee]s\\)(.*)")) {
+				return true;
+			}
+		}
+		return false;
+    }
     @Override
     public boolean isExpletiveWordForm(String string) {
         return string.equalsIgnoreCase("es");

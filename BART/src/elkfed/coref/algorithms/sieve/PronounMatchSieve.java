@@ -54,7 +54,7 @@ public class PronounMatchSieve extends Sieve {
 			}
 			// VorfeldEs Methode könnte man noch verbessern (analog zu
 			// EnglishLanguagePlugin.isExplitiveRB())
-			if (isVorfeldEs(ante) || ante.getReflPronoun()) {
+			if (langPlugin.isExpletiveRB(ante) || ante.getReflPronoun()) {
 				continue;
 			}
 			if ((FE_Speech.isMentionInSpeech(pair.getAntecedent()) && !FE_Speech
@@ -128,7 +128,7 @@ public class PronounMatchSieve extends Sieve {
 		if (!mention.getPronoun()) {
 			return -1;
 		}
-		if (mention.getRelPronoun() || isVorfeldEs(mention)) {
+		if (mention.getRelPronoun() || langPlugin.isExpletiveRB(mention)) {
 			return -1;
 		}
 
