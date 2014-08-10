@@ -22,6 +22,8 @@ angewendet, wobei jedes Modell auf den Output seines Vorgängers aufbaut. Besond
 Entität-zentrische Modell, bei dem Merkmale über alle Vorkommen einer Entität geteilt
 werden, bietet einen deutlichen Wissensgewinn, der von Nutzen für BARTs Performanz ist.
 
+### Deutsch
+
 |              | Recall | Precision | F_1   |
 | ------------ | ------ | --------- | ----- |
 | Unser System | 0.639  | 0.692     | 0.664 |
@@ -30,6 +32,20 @@ werden, bietet einen deutlichen Wissensgewinn, der von Nutzen für BARTs Perform
 Vergleich unseres Systems mit BARTs Machine Learning-Konfiguration. Als Testkorpus verwendeten wir
 die ersten 99 Dokumente der TüBa-D/Z _treebank_, wobei wir BARTs ML-Komponente auf den restlichen
 Dokumenten (Nr. 100 - Nr. 3528) trainierten.
+
+### Englisch
+
+|              | Recall | Precision | F_1   |
+| ------------ | ------ | --------- | ----- |
+| Unser System | 0.x    | 0.x       | 0.x   |
+| BART         | 0.x    | 0.x       | 0.x   |
+| Stanford     |        |           |       |
+
+Für die Evaluation unseres Systems auf englischsprachigen Daten verwendeten wir das Trainings-Set der CoNLL-2012 Shared Task. Dieses basiert auf dem OntoNotes 5.0- Korpus. Die Daten wurde mithilfe mehrerer Skripte von Olga Uryupina in das MMAX2- Format konvertiert und außerdem von der BART-eigenen Preprocessing-Pipeline vorverarbeitet. 
+
+Da wir unser System vorrangig für das Deutsch entwickelt wurde, sind diese Ergebnisse deutlich ausbaufähig. 
+
+Das PronounMatchSieve konnte zudem nicht verwendet werden, da es - anders als PronounMatchSieve des Stanford-Systems - auf grammatischen Funktionen basiert. Eine Ebene, die diese darstellt, war allerdings nicht verfügbar.  
 
 ## Inbetriebnahme
 
@@ -45,6 +61,13 @@ das Verzeichnis angegeben werden, indem sich der zu verwendende MMAX2-Datensatz 
 System befindet, bspw. auf einem Windows-System:
 ```
 testData=D:/BART/BART/tuebadz-MMAX2/mmax-mini
+
+```
+Auf einem Linux-System:
+
+```
+testData=/home/xenia/BART/BART/tuebadz-MMAX2/mmax-mini
+
 ```
 
 Die main-Methode des [SieveAnnotator](src/elkfed/main/SieveAnnotator.java) muss nun gestartet
