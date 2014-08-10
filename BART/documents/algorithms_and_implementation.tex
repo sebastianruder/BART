@@ -18,6 +18,11 @@
 \usepackage{harvard} 
 \renewcommand{\harvardand}{und} 
 
+%entfernt die roten Rechtecke um verlinkte Worte
+\hypersetup{
+    pdfborder = {0 0 0}
+}
+
 %\setkomafont{disposition}{\normalfont\bfseries}
 \author{Julian Baumann, Xenia Kühling, Sebastian Ruder}
 
@@ -51,7 +56,7 @@ Die Merkmale koreferenter \textit{mentions} werden in einer eigenen \texttt{Disc
 
 \item \textbf{SpeakerIdentification} identifiziert den Sprecher und verbindet ihn mit möglichen koreferenten Pronomen in wörtlicher Rede. Da der von \citeasnoun{lee2013} verwendete OntoNotes-Korpus auch Telefon-Gespräche und Talk Shows umfasst, erzielt dieser Sieve bereits einen Recall von 8,7\% und einen F1-Score von 15,5\% (MUC). Da der TüBa-D/Z-Korpus hingegen nur aus Nachrichtenartikeln besteht, ist der Effekt dieses \textit{sieve} signifikant geringer. Handelt es sich bei einem der beiden \textit{mentions} um ein Vorfeld-Es, so wird keine Übereinstimmung gefunden. Numerus-Äquivalenz und eine Satzentfernung ${\leq}$ 1 müssen gegeben sein. Es wird mit BARTs \texttt{FE\_Speech} überprüft, ob sich eine der \textit{mentions} in wörtlicher Rede befindet und auf Grundlage der Position von ':' und '"' sowie Sprechverben ausgemacht, wo sich der Sprecher befindet, woraufhin schließlich sichergestellt wird, dass die sich in der wörtlichen Rede befindende \textit{mention} weder Reflexiv-, noch Relativ-, sondern lediglich Pronomen ist.
 
-\item \textbf{StringMatch} sieht zwei \textit{mentions} als koreferent an, wenn sie exakt übereinstimmen (einschließlich Modifikatoren und Artikel). Wir überprüfen dies, indem wir den String der \textit{markables} der beiden \textit{mentions} vergleichen. Zudem schließen wir \textit{mentions} aus, deren String eine Datumsangabe enthält, da gleiche Daten in TüBa-D/Z nicht als koreferent gelten.\citeasnoun{lee2013} geben hier eine Präzision von über 90\% $B^3$ an, während wir für das Deutsche und den TüBa-D/Z-Korpus eine etwas geringere Genauigkeit von ca. 86\% erreichen.
+\item \textbf{StringMatch} sieht zwei \textit{mentions} als koreferent an, wenn sie exakt übereinstimmen (einschließlich Modifikatoren und Artikel). Wir überprüfen dies, indem wir den String der \textit{markables} der beiden \textit{mentions} vergleichen. Zudem schließen wir indefinite \textit{mentions} aus sowie \textit{mentions}, deren String eine Datumsangabe enthält, da gleiche Daten in TüBa-D/Z nicht als koreferent gelten. \citeasnoun{lee2013} geben hier eine Präzision von über 90\% $B^3$ an, während wir für das Deutsche und den TüBa-D/Z-Korpus eine etwas geringere Genauigkeit von 86\% erreichen.
 
 \item \textbf{RelaxedStringMatch} gibt zwei \textit{mentions} als koreferent an, sofern sie identisch sind, wenn ihre Postmodifikatoren ignoriert werden.
 
@@ -62,60 +67,74 @@ Die Merkmale koreferenter \textit{mentions} werden in einer eigenen \texttt{Disc
 	\item Eine der \textit{mentions} ist ein Akronym der anderen. Hier berücksichtigen wir Eigenheiten des Deutschen, in dem auch Akronyme teilweise mit '-' getrennt werden.
 	\item Eine der \textit{mentions} ist ein Demonym der anderen. Hierfür schlagen wir Demonyme in einer auf Wikipedia basierenden Liste nach, wobei dieses Kriterium im TüBa-D/Z-Korpus nicht von großer Bedeutung ist.
 \end{itemize}
-\citeasnoun{lee2013} geben für diesen \textit{sieve} eine $B^3$-Präzision von über 90\%, während wir eine Genauigkeit von ca. 81\% erhalten. Da das Relativpronomen-Kriterium in diesem \textit{sieve} überwiegt, liegt diese Differenz vermutlich in der hypotaktischen Struktur des Deutschen (im Vergleich zum Englischen), sowie in der domänspezifischen Häufigkeit extraponierter (und daher schwer zuordenbarer) Relativsätze begründet.
+\citeasnoun{lee2013} geben für diesen \textit{sieve} eine $B^3$-Präzision von über 90\%, während wir eine Genauigkeit von 82\% erhalten. Da das Relativpronomen-Kriterium in diesem \textit{sieve} überwiegt, liegt diese Differenz vermutlich in der hypotaktischen Struktur des Deutschen (im Vergleich zum Englischen), sowie in der domänspezifischen Häufigkeit extraponierter (und daher schwer zuordenbarer) Relativsätze begründet.
 
-\item \textbf{StrictHeadMatchA} matcht zwei Mentions, wenn das Head Lemma der Anapher in den Heads der Antezedens Entity vorhanden ist und die folgenden Bedingungen erfüllt sind:
+\item \textbf{StrictHeadMatchA} matcht zwei Mentions, wenn das \textit{head lemma} der Anapher in den \textit{heads} der Antezedens-Entität vorhanden ist und die folgenden Bedingungen erfüllt sind:
 
 \begin{compactenum}[(i)]
- \item Die Modifikatoren der mention müssen unter den Modifikatoren des Antezedens sein.
+ \item Die Modifikatoren der \textit{mention} müssen unter den Modifikatoren des Antezedens sein.
  \item Alle Nicht-Stoppwörter der aktuellen Entität müssen in der Anzedens-Entität vorkommen.
  \item Keine der beiden NPs kann Kind des Konstituenten der anderen NP sein (\textit{i-within-i}).
 \end{compactenum}
 
 \item \textbf{StrictHeadMatchB} ignoriert Bedingung (i), während \textbf{StrictHeadMatchC}  auf Bedingung (ii) verzichtet.
 
-\item \textbf{ProperHeadNounMatch} weist zwei mentions als koreferent aus, wenn sie dasselbe \textit{head word} besitzen, sowie Bedingung (iii) erfüllen und (iv) keine unterschiedlichen Orte, Namen, Zahlen oder räumliche Modifikatoren aufweisen.
+\item \textbf{ProperHeadNounMatch} weist zwei \textit{mentions} als koreferent aus, wenn sie dasselbe \textit{head word} besitzen, sowie Bedingung (iii) erfüllen und (iv) keine unterschiedlichen Orte, Namen, Zahlen oder räumliche Modifikatoren aufweisen.
 
-\item \textbf{RelaxedHeadMatch} matcht zwei mentions, wenn der Kopf der mention mit einem Wort in der Antezedens-Entität übereinstimmt, wobei beide \textit{named entities} desselben Typs sein müssen und Bedingungen (ii) und (iii) genügen müssen.
+\item \textbf{RelaxedHeadMatch} matcht zwei \textit{mentions}, wenn der Kopf der \textit{mention} mit einem Wort in der Antezedens-Entität übereinstimmt, wobei beide \textit{named entities} desselben Typs sein müssen und Bedingungen (ii) und (iii) genügen müssen.
 
-\item \textbf{PronounMatch} matcht Pronomen mit ihrem Antezedens, sofern diese morphologisch kompatibel sind ,den Binding-Constraints genügen und nicht mehr als drei Sätze auseinanderliegen. Kataphern werden jedoch nicht berücksichtigt. \\
-Das Pronomen ist mit demjenigen Antezedens koreferent, das die höchste \textit{salience} hat \cite{wunsch2006} . Die \textit{salience} berechnen wir folgendermaßen:
+\item \textbf{PronounMatch} matcht Pronomen mit ihrem Antezedens, sofern diese morphologisch kompatibel sind, den Binding-Constraints genügen und nicht mehr als drei Sätze auseinanderliegen. Kataphern werden nicht berücksichtigt. \\
+Das Pronomen ist mit demjenigen Antezedens koreferent, das die höchste \textit{salience} hat \cite{wunsch2006}. Die \textit{salience} berechnen wir folgendermaßen:
 
 \begin{itemize}[]
 	\item +20 wenn sich  Antezedens und Anapher im selben Satz befinden
-	
 	\item +35 wenn Antezedens und Anapher die selbe grammatische Funktion verwenden
-	
 	\item +170 wenn der Antezedens ein Subjekt ist
-	
 	\item +70 wenn der Antezedens ein Akkusativobjekt ist
-	
 	\item +50 wenn der Antezedens ein Dativ oder Genitivobjekt ist
-	
 	\item +100 wenn der Antezedens ein proper noun ist
 \end{itemize}
 
-Die endgültige \textit{salience} ist noch abhängig von der Satzentfernung $d$: \\
+Die endgültige \textit{salience} ist abhängig von der Satzentfernung $d$: \\
 $S = \frac{s}{2^d}$ \\
-Wir berechnen die \textit{salience} wie \citeasnoun{wunsch2006}, nur berücksichtigen wir keine Kataphern und keine Antezedenten die mehr als 3 Sätze entfernt sind. Außerdem verwenden wir nicht die Head Noun Emphasis, aber führen zusätzlich noch das proper noun Feature ein.  
+Wir berechnen die \textit{salience} wie \citeasnoun{wunsch2006}, nur berücksichtigen wir keine Kataphern und keine Antezedenten, die mehr als 3 Sätze entfernt sind. Außerdem verwenden wir keine die \textit{head noun emphasis}, führen aber zusätzlich \textit{proper noun} als Feature ein.  
 \end{itemize}
 
 \section{Vergleich der Datenformate und Korpora}
 Das XML-Format der TüBa-D/Z wird für BART in MMAX2 \cite{muller2006} konvertiert, das die Daten in verschiedenen \textit{markable levels} bereitstellt, wobei auf benötigte Diskurselemente, wie z.B. grammatische Funktionen mit \texttt{getDiscourseElementsByLevel} zugegriffen werden kann. Wie bereits eingangs erwähnt unterscheiden sich die Annotationsrichtlinien der verwendeten Korpora und ihre Datenformate hinsichtlich der Konstruktionen, die annotiert werden und ihrer Domäne.
 
 \section{Evaluation}
-Aufgrund der Schwierigkeit, Daten im MMAX2-Format zu analysieren und zu visualisieren, konvertierten wir die Texte in das HTML-Format, wobei wir koreferente mentions farbig markierten. Mithilfe der \texttt{Evaluation}-Klasse ließen wir uns ebenfalls die Details jedes matches und die Sieb-spezifische Performanz ausgeben.
+Aufgrund der Schwierigkeit, Daten im MMAX2-Format zu analysieren und zu visualisieren, konvertieren wir die Texte in das HTML-Format, wobei wir koreferente \textit{mentions} farbig markieren. Mithilfe der \texttt{Evaluation}-Klasse lassen wir uns ebenfalls die Details jedes \textit{match} und die Sieb-spezifische Performanz ausgeben.\\
+Wir evaluierten gegen BART für das Deutsche und gegen das Stanford-System für das Englische. Als Testkorpus für das Deutsche verwendeten wir die ersten 99 Dokumente der TüBa-D/Z, wobei wir BARTs \textit{machine learning}-Komponente auf den restlichen Dokumenten der TüBa-D/Z (Nr. 100 - Nr. 3528) trainierten. In Tabelle \ref{tab:ml_vergleich} ist der Vergleich mit BART zu sehen, während aus Tabelle \ref{tab:links} die Anzahl der verlinkten \textit{mentions} jedes \textit{sieve}  aus Tabelle \ref{tab:sieve_performanz} der individuelle Performanzgewinn hervorgehen.\\
 \begin{table}[h]
 \begin{tabular}{l||ll|l}
 & \multicolumn{3}{c}{\textbf{MUC-Score}} \\ \hline
                & \textbf{Recall}		 & \textbf{Precision} & \textbf{F\_1}    \\ \hline
-Unser System 	& 0.639      & 0.692              & 0.664  \\
+Unser System 	& 0.643      & 0.692              & 0.667  \\
 BART  & 0.721 		 & 0.532     & 0.612
           
 \end{tabular}
-\caption{Vergleich mit BARTs Machine Learning-Konfiguration (XMLExperiment)}
+\caption{Vergleich mit BARTs Machine Learning-Konfiguration (\texttt{XMLExperiment})}
+\label{tab:ml_vergleich}
 \end{table}
-\\
+
+\begin{table}[h]
+\begin{tabular}{l||l|l|l}
+\textbf{Sieve} & \textbf{\# Links} & \textbf{\# korrekte Links} & \textbf{Präzision} \\\hline
+SpeakerIdentificationSieve & 7 & 6 & 0,857 \\
+StringMatchSieve & 324 & 280 & 0,864\\
+RelaxedStringMatchSieve & 387 & 321 & 0,829 \\
+PreciseConstructSieve & 145 & 119 & 0,821 \\
+StrictHeadMatchBSieve & 684 & 522 & 0,763 \\
+StrictHeadMatchASieve & 335 & 283 & 0,845 \\
+StrictHeadMatchCSieve & 346 & 287 & 0,829 \\
+ProperHeadNounMatchSieve & 306 & 276 & 0,902 \\
+RelaxedHeadMatchSieve & 346 & 304 & 0,879 \\
+PronounMatchSieve & 797 & 460 & 0,577
+\end{tabular}
+\caption{Übersicht über die Anzahl der verlinkten \textit{mentions} der \textit{sieves}}
+\label{tab:links}
+\end{table}
 
 \begin{table}[h]
 \begin{tabular}{l||ll|l}
@@ -131,11 +150,11 @@ SpeakerIdentification & 0.004  & 0.637     & 0.008    \\
 +ProperHeadNounMatch  & 0.354  & 0.771     & 0.485    \\ 
 +RelaxedHeadMatch     & 0.379  & 0.771     & 0.508    \\ 
 +PronounMatch         & 0.640  & 0.691     & 0.664    \\ 
-
 \end{tabular}
-\caption{Performanz der einzelnen Siebe}
+\caption{Performanz der einzelnen \textit{sieves}}
+\label{tab:sieve_performanz}
 \end{table}
-Als Testkorpus verwendeten wir die ersten 99 Dokumente der TüBa-D/Z, wobei wir BARTs Machine Learning-Komponente auf den restlichen Dokumenten der TüBa-D/Z (Nr. 100 - Nr. 3528) trainierten.\\
+
 2. Tabelle: Vergleich mit Stanford-System mit CoNLL Scorer auf OntoNotes\\
 
 
