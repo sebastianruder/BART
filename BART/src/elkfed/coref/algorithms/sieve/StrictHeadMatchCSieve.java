@@ -11,6 +11,10 @@ import elkfed.coref.mentions.Mention;
  * Compared to {@link StrictHeadMatchASieve} it drops the word inclusion requirement,
  * but retains the compatible modifiers and I-within-I requirements
  * 
+ * @see #entityHeadMatch(PairInstance)
+ * @see #compatibleModifiers(PairInstance)
+ * @see #IWithinI(PairInstance)
+ * 
  * @author Julian
  *
  */
@@ -28,12 +32,9 @@ public class StrictHeadMatchCSieve extends Sieve {
 		for (int idx = 0; idx < mention_idx; idx++) {
 			Mention ante = mentions.get(idx);
 			PairInstance pair = new PairInstance(mention, ante);
-			if (entityHeadMatch(pair)) {
-				if (compatibleModifiers(pair)) {
-					if (!(IWithinI(pair))) {
-							ante_idx = idx;
-					}
-				}
+			if (entityHeadMatch(pair) && compatibleModifiers(pair)
+					&& !(IWithinI(pair))) {
+				ante_idx = idx;
 			}
 		}
 		return ante_idx;
