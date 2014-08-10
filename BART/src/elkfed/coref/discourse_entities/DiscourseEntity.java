@@ -112,6 +112,9 @@ public class DiscourseEntity {
 	public void merge(Mention ante) {
 
 		DiscourseEntity deAnte = ante.getDiscourseEntity();
+		if (deAnte == this) {
+			return;
+		}
 		for (Mention m : deAnte.getMentions()) {
 			mentions.add(m);
 			m.setDiscourseEntity(this);
