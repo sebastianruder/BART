@@ -7,7 +7,6 @@ import java.util.logging.Logger;
 
 import net.cscott.jutil.DisjointSet;
 import elkfed.coref.CorefResolver;
-import elkfed.coref.discourse_entities.DiscourseEntity;
 import elkfed.coref.eval.LinkScorer;
 import elkfed.coref.eval.SplitLinkScorer;
 import elkfed.coref.mentions.Mention;
