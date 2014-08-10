@@ -377,7 +377,8 @@ public abstract class Sieve {
 	}
 
 	/**
-	 * Check if mention and antecedent have the same number (plural / singular).
+	 * Check if mention and antecedent have the same number (plural / singular) 
+	 * or mention's or antecedent's number equals "unknown".
 	 * 
 	 * @param pair PairInstance of mention, antecedent
 	 * @return true or false
@@ -438,29 +439,35 @@ public abstract class Sieve {
 	 * the other one does not contain.
 	 * 
 	 * @param pair PairInstance of mention, antecedent
-	 * @return true or false
+	 * @return true if no numeric mismatch, otherwise false
 	 */
 	public boolean noNumericMismatch(PairInstance pair) {
+		
+		// retrieves words in mention and antecedent
 		Set<String> mentionWords = new HashSet<String>();
 		Set<String> anteWords = new HashSet<String>();
+		mentionWords = pair.getAnaphor().getDiscourseEntity().getWords();
+		anteWords = pair.getAntecedent().getDiscourseEntity().getWords();
+		
 		String numbers_relex = ".*(höchstens|mindestens|eins|zwei|drei|vier|fünf|sechs|sieben|acht|neun|zehn|elf|zwölf|hundert|tausend|million|milliarde).*";
 		String numbers_relex_eng = ".*(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|teen|million|billio).*";
-		mentionWords = pair.getAnaphor().getDiscourseEntity().getWords();
 		
-		anteWords = pair.getAntecedent().getDiscourseEntity().getWords();
-
+		// checks if any numbers or number regex in mention
 		for (String mentionWord : mentionWords) {
 			if (mentionWord.toLowerCase().matches(numbers_relex) 
 					|| mentionWord.toLowerCase().matches(numbers_relex_eng)
 					|| mentionWord.matches(".*[0-9]+.*")) {
+				// checks if found number occurance is not in antecedent's words
 				if (!anteWords.contains(mentionWord)) {
 					return false;
 				}
 				else {
+					// checks if any numbers or number regex in antecedent
 					for (String anteWord : anteWords) {
 						if (anteWord.toLowerCase().matches(numbers_relex)
 								|| anteWord.toLowerCase().matches(numbers_relex_eng)
 								|| anteWord.matches(".*[0-9]+.*")) {
+							// checks if found number occurance is not in mention's words
 							if (!mentionWords.contains(anteWord)) {
 								return false;
 							}
@@ -477,20 +484,26 @@ public abstract class Sieve {
 	 * other proper nouns or spatial modifiers.
 	 * 
 	 * @param pair PairInstance of mention, antecedent
-	 * @return true or false
+	 * @return true if no location mismatch , otherwise false
 	 */
 	public boolean noLocationMismatch(PairInstance pair) {
-		Set<String> mentionWords = new HashSet<String>();
-		Set<String> anteWords = new HashSet<String>();
 		Mention mention = pair.getAnaphor();
 		Mention ante = pair.getAntecedent();
+		
+		// retrieves words in mention and antecedent
+		Set<String> mentionWords = new HashSet<String>();
+		Set<String> anteWords = new HashSet<String>();
 		mentionWords = pair.getAnaphor().getDiscourseEntity().getWords();
 		anteWords = pair.getAntecedent().getDiscourseEntity().getWords();
+		
+		
+		// retrieves pos tags in mention's and antecedent's words
 		List<String> mentionWordsPOS = new ArrayList<String>();
 		List<String> anteWordsPOS = new ArrayList<String>();
 		mentionWordsPOS = mention.getDiscourseElementsByLevel("pos");
 		anteWordsPOS = ante.getDiscourseElementsByLevel("pos");
 		
+		// checks for spatial modifiers in mention's words
 		for (String mentionWord: mentionWords){
 			if (mentionWord.matches("(nördlich.*|südlich.*|.*westlich.*|.*östlich.*|obere.*|niedere.*)")
 					|| mentionWord.matches("(north.*|south.*|.*west.*|.*east.*|upper.*|lower.*)")) {
@@ -499,6 +512,8 @@ public abstract class Sieve {
 				}
 			}
 		}
+		
+		// checks for spatial modifiers in antecedent's words
 		for (String anteWord: anteWords){	
 			if (anteWord.matches("(nördlich.*|südlich.*|.*westlich.*|.*östlich.*|obere.*|niedere.*)")
 					|| anteWord.matches("(north.*|south.*|.*west.*|.*east.*|upper.*|lower.*)")) {
@@ -507,6 +522,8 @@ public abstract class Sieve {
 				}
 			}
 		}
+		
+		// checks if mention's pos has more proper nouns than antecedent's pos
 		int countMention = 0;
 		
 		for (String mentionWordPOS: mentionWordsPOS){
@@ -651,6 +668,8 @@ public abstract class Sieve {
 			anteWords = ante.getDiscourseElementsByLevel("lemma");
 			mWords = m.getDiscourseElementsByLevel("lemma");
 		}
+		
+		// lemmata are found in the morph_level in conll-corpus
 		if (langPlugin instanceof EnglishLanguagePlugin) {
 			anteWords = ante.getDiscourseElementsByLevel("morph");
 			mWords = m.getDiscourseElementsByLevel("morph");
@@ -678,7 +697,7 @@ public abstract class Sieve {
 	 * (found out through sentence tree structure).
 	 * 
 	 * @param mention
-	 * @return true or false
+	 * @return true if instance of (Vor|Mittel)feld-Es, otherwise false
 	 */
 	public boolean isVorfeldEs(Mention mention) {
 //		if (mention.toString().equalsIgnoreCase("es")) {
@@ -686,11 +705,15 @@ public abstract class Sieve {
 //		} else {
 //			return false;
 //		}
+		
+		// check if mention equals "es" or "Es"
 		if (!(mention.getMarkable().toString().equals("[es]") || mention
 				.getMarkable().toString().equals("[Es]"))) {
 			return false;
 		}
 		else {
+			
+			//check for certain sentence tree structure
 			if (mention
 					.getSentenceTree()
 					.toString()
