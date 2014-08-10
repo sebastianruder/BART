@@ -78,8 +78,9 @@ Um unser System zu verwenden, muss die main-Methode des [SieveAnnotator](src/elk
 gestartet werden.
 
 Um BARTs _machine learning_-Konfiguration in Betrieb zu nehmen, muss die main-Methode des [XMLExperiment](src/elkfed/main/XMLExperiment.java)
-mit dem Dateipfad der Konfigurationsdatei [idc0_german_closed.xml](config/idc0_german_closed.xml) als Programm-Argument.
-Abhängig von der Größe des Trainingskorpus muss die Minimal- und Maximalgröße des _Java heap space_ als
+mit dem Dateipfad der Konfigurationsdatei [idc0_german_closed.xml](config/idc0_german_closed.xml) als Programm-Argument
+gestartet werden.
+Abhängig von der Größe des Trainingskorpus muss die Minimal- und Maximalgröße des Java _heap space_ als
 VM-Argument übergeben werden, z.B. ```-Xms256M -Xmx7168M```. Abhängig vom Betriebssystem und von der Größe
 des _heap space_ ist hierfür Java x64 vonnöten.
 
@@ -120,7 +121,7 @@ Hier befinden sich die folgenden Feature-Extraktoren, die wir verwendeten:
   3. [FE_SentenceDistance](src/elkfed/coref/features/pairs/FE_SentenceDistance.java)
   4. [FE_Speech](src/elkfed/coref/features/pairs/FE_Speech.java)
 * [src/elkfed/coref/features/pairs/de](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/features/pairs/de):
-Hier befinden sich der deutsch-spezifische Feature-Extraktor [FE_Syntax_Binding](src/elkfed/coref/features/pairs/de/FE_Syntax_Binding.java)
+Hier befindet sich der deutsch-spezifische Feature-Extraktor [FE_Syntax_Binding](src/elkfed/coref/features/pairs/de/FE_Syntax_Binding.java)
 * [src/elkfed/coref/mentions](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/features/mentions):
 Hier befindet sich die [Mention-Klasse](src/elkfed/coref/mentions/Mention.java) sowie die [MentionFactory](src/elkfed/coref/mentions/AbstractMentionFactory.java)
 * [src/elkfed/coref/processors](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/features/processors):
