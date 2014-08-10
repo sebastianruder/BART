@@ -19,18 +19,20 @@ public class StringMatchSieve extends Sieve {
 	
 	public int runSieve(Mention mention){
 		int ante_idx = -1;
+		
 		if (containsDayMonthYear(mention)) {
 			return ante_idx;
 		}
-		int mention_idx = mentions.indexOf(mention);
-		for (int idx = 0; idx < mention_idx; idx++){
-			Mention ante = mentions.get(idx);
-			if (mention.getMarkable().toString().equals(ante.getMarkable().toString())) {
-				if (!(mention.getPronoun())) {
-					ante_idx = idx;
+			int mention_idx = mentions.indexOf(mention);
+			for (int idx = 0; idx < mention_idx; idx++){
+				Mention ante = mentions.get(idx);
+				// checks if markable strings are equal
+				if (mention.getMarkable().toString().equals(ante.getMarkable().toString())) {
+					if (!(mention.getPronoun())) {
+						ante_idx = idx;
+					}
 				}
 			}
+			return ante_idx;
 		}
-		return ante_idx;
 	}
-}
