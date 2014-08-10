@@ -176,10 +176,12 @@ public class Evaluation {
 	 * and the amount of correct links
 	 */
 	public static void printSievePerformance() {
-		System.out.println("Sieve\tlinksPerSieve\tcorrectLinksPerSieve");
+		System.out.println("Sieve\tlinksPerSieve\tcorrectLinksPerSieve\tPrecision");
 		for (String sieve: linksPerSieve.keySet()) {
-			System.out.println(String.format("%s\t%d\t%d", sieve, linksPerSieve.get(sieve),
-														correctLinksPerSieve.get(sieve)));
+			System.out.println(String.format("%s\t%d\t%d\t%.3f", sieve, linksPerSieve.get(sieve),
+														correctLinksPerSieve.get(sieve),
+														(double)correctLinksPerSieve.get(sieve)/
+														(double)linksPerSieve.get(sieve)));
 		}
 	}	
 }
