@@ -110,6 +110,9 @@ Hier befinden sich einige Feature-Extraktoren, die wir verwendeten:
   4. [FE_Number](src/elkfed/coref/features/pairs/FE_Number.java)
   5. [FE_SentenceDistance](src/elkfed/coref/features/pairs/FE_SentenceDistance.java)
   6. [FE_Speech](src/elkfed/coref/features/pairs/FE_Speech.java)
+* [src/elkfed/coref/features/pairs/de](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/features/pairs/de):
+Hier befinden sich Feature-Extraktoren spezifisch für das Deutsche, die wir verwendeten:
+  1. [FE_Syntax_Binding](src/elkfed/coref/features/pairs/de/FE_Syntax_Binding.java)
 * [src/elkfed/coref/mentions](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/features/mentions):
 Hier befindet sich die [Mention-Klasse](src/elkfed/coref/mentions/Mention.java) sowie die [MentionFactory](src/elkfed/coref/mentions/AbstractMentionFactory.java)
 * [src/elkfed/coref/processors](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/features/processors):
@@ -119,7 +122,7 @@ Hier sind die verschiedenen LanguagePlugins und LinguisticConstants
 * [src/elkfed/main](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/main):
 Hier befindet sich das Hauptprogramm, [SieveAnnotator](src/elkfed/main/SieveAnnotator.java)
 * [src/elkfed/nlp/util](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/nlp/util):
-Hier befindet sich die [Gender-Klasse](src/elkfed/nlp/util/Gender.java)
+Hier befindet sich die [Gender-Klasse](src/elkfed/nlp/util/Gender.java) sowie die [Number-Klasse](src/elkfed/nlp/util/Number.java)
 * [config](https://github.com/sebastianruder/BART/tree/master/BART/config):
 Hier befindet sich [config.properties](config/config.properties), in der die Dateipfade angegeben werden
 * [doc](https://github.com/sebastianruder/BART/tree/master/BART/doc):
