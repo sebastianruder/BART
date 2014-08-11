@@ -804,7 +804,7 @@ public abstract class Sieve {
 			return false;
 		}
 				
-		// returns true if 5 lemmate right to mention contain ':' and '"'
+		// returns true if 5 lemmata right to mention contain ':' and '"'
 		if (mention.getDiscourseElementsByLevelAndExtendedSpan("lemma", 0, 3).contains(":") && 
 				mention.getDiscourseElementsByLevelAndExtendedSpan("lemma", 0, 3).contains("\"") 
 				){
