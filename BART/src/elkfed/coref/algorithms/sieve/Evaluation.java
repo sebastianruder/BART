@@ -42,10 +42,12 @@ public class Evaluation {
 	}
 	
 	/**
+	 * Saves the link between a mention and an antecedent and the sieve which genereated the link
+	 * for evaluation purposes
 	 * 
-	 * @param m
-	 * @param ante
-	 * @param sieve
+	 * @param m the linked Mention
+	 * @param ante the linked antecedent mention
+	 * @param sieve the sieve that generated the link
 	 */
 	public void setLink(Mention m, Mention ante, String sieve) {
 		antecedents.put(m, ante);
@@ -176,12 +178,13 @@ public class Evaluation {
 	 * and the amount of correct links
 	 */
 	public static void printSievePerformance() {
-		System.out.println("Sieve\tlinksPerSieve\tcorrectLinksPerSieve\tPrecision");
+		System.out.format("%-27s%-15s%-15s%-15s\n","Sieve", "total links", "correct Links", "precision");
+		System.out.println("------------------------------------------------------------------------");
 		for (String sieve: linksPerSieve.keySet()) {
-			System.out.println(String.format("%s\t%d\t%d\t%.3f", sieve, linksPerSieve.get(sieve),
+			System.out.format("%-27s%-15d%-15d%-15.3f\n", sieve, linksPerSieve.get(sieve),
 														correctLinksPerSieve.get(sieve),
 														(double)correctLinksPerSieve.get(sieve)/
-														(double)linksPerSieve.get(sieve)));
+														(double)linksPerSieve.get(sieve));
 		}
 	}	
 }
