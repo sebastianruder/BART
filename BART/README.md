@@ -127,7 +127,7 @@ Hier befindet sich die [Mention-Klasse](src/elkfed/coref/mentions/Mention.java) 
 * [src/elkfed/coref/processors](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/features/processors):
 Hier befindet sich der [AnnotationProcessor](src/elkfed/coref/processors/AnnotationProcessor.java)
 * [src/elkfed/knowledge](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/knowledge):
-Hier befindet sich die [SemanticClass](src/elkfed/coref/processors/SemanticClass.java)
+Hier befindet sich die [SemanticClass](src/elkfed/knowledge/SemanticClass.java)
 * [src/elkfed/lang](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/lang):
 Hier befinden sich die verschiedenen LanguagePlugins und LinguisticConstants
 * [src/elkfed/main](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/main):
