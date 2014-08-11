@@ -29,7 +29,7 @@ sowie mit dem Standford-System für das Englische.
 
 |              | Recall | Precision | F_1   |
 | ------------ | ------ | --------- | ----- |
-| Unser System | 0.643  | 0.692     | 0.667 |
+| Unser System | 0.644  | 0.691     | 0.667 |
 | BART         | 0.721  | 0.532     | 0.612 |
 
 Als Testkorpus verwendeten wir die ersten 99 Dokumente der TüBa-D/Z _treebank_,
