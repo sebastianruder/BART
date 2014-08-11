@@ -27,8 +27,10 @@ public class Evaluation {
 	public Map<Mention, Mention>  antecedents;
 	private Map<Mention, String> sieves;
 	
+	
 	private static Map<String, Integer> correctLinksPerSieve = new HashMap<String, Integer>();
-	private static Map<String, Integer> linksPerSieve = new HashMap<String, Integer>();
+	private static Map<String, Integer> totalLinksPerSieve = new HashMap<String, Integer>();
+	
 	
 	/**
 	 * The constructor of the Evaluation class.
@@ -52,7 +54,7 @@ public class Evaluation {
 	public void setLink(Mention m, Mention ante, String sieve) {
 		antecedents.put(m, ante);
 		sieves.put(m, sieve);
-		linksPerSieve.put(sieve, (linksPerSieve.containsKey(sieve) ? linksPerSieve.get(sieve): 0) + 1);
+		totalLinksPerSieve.put(sieve, (totalLinksPerSieve.containsKey(sieve) ? totalLinksPerSieve.get(sieve): 0) + 1);
 		if (m.isCoreferent(ante)) {
 			correctLinksPerSieve.put(sieve, (correctLinksPerSieve.containsKey(sieve) ? correctLinksPerSieve.get(sieve): 0) + 1);
 		}
@@ -178,13 +180,16 @@ public class Evaluation {
 	 * and the amount of correct links
 	 */
 	public static void printSievePerformance() {
+		System.out.println("Sieve Performance results:\n");
 		System.out.format("%-27s%-15s%-15s%-15s\n","Sieve", "total links", "correct Links", "precision");
 		System.out.println("------------------------------------------------------------------------");
-		for (String sieve: linksPerSieve.keySet()) {
-			System.out.format("%-27s%-15d%-15d%-15.3f\n", sieve, linksPerSieve.get(sieve),
+		for (String sieve: totalLinksPerSieve.keySet()) {
+			System.out.format("%-27s%-15d%-15d%-15.3f\n", sieve, totalLinksPerSieve.get(sieve),
 														correctLinksPerSieve.get(sieve),
 														(double)correctLinksPerSieve.get(sieve)/
-														(double)linksPerSieve.get(sieve));
+														(double)totalLinksPerSieve.get(sieve));			
 		}
+		
+		System.out.println("------------------------------------------------------------------------");
 	}	
 }
