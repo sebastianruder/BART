@@ -37,10 +37,10 @@ wobei wir BARTs ML-Komponente auf den restlichen Dokumenten (Nr. 100 - Nr. 3528)
 
 ### Englisch
 
-|              | Recall | Precision | F_1   |
-| ------------ | ------ | --------- | ----- |
-| Unser System | 0.x    | 0.x       | 0.x   |
-| Stanford     |        |           |       |
+|              | F_1   |
+| ------------ | ----- |
+| Unser System | 0.420 |
+| Stanford     | 0.603 |
 
 Für die Evaluation unseres Systems auf englischsprachigen Daten verwendeten wir das Trainings-Set der
 CoNLL-2012 Shared Task, das auf dem OntoNotes 5.0-Korpus basiert. Die Daten wurde mithilfe mehrerer
