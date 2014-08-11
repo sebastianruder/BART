@@ -47,7 +47,7 @@ CoNLL-2012 Shared Task, das auf dem OntoNotes 5.0-Korpus basiert. Die Daten wurd
 Skripte von Olga Uryupina in das MMAX2-Format konvertiert und außerdem von der BART-eigenen
 Preprocessing-Pipeline vorverarbeitet. 
 
-Da wir unser System vorrangig für das Deutsch entwickelten, sind diese Ergebnisse deutlich ausbaufähig. 
+Da wir unser System vorrangig für das Deutsche entwickelten, sind diese Ergebnisse deutlich ausbaufähig. 
 
 Der PronounMatchSieve konnte zudem nicht verwendet werden, da es -- anders als der PronounMatchSieve
 des Stanford-Systems -- auf grammatischen Funktionen basiert. Eine Ebene, die diese darstellt,
@@ -71,7 +71,7 @@ testData=D:/BART/BART/tuebadz-MMAX2/mmax-100d
 Auf einem Linux-System:
 
 ```
-testData=/home/xenia/BART/BART/tuebadz-MMAX2/mmax-100d
+testData=/home/username/BART/BART/tuebadz-MMAX2/mmax-100d
 ```
 
 Um unser System zu verwenden, muss die main-Methode des [SieveAnnotator](src/elkfed/main/SieveAnnotator.java)
