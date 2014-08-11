@@ -5,9 +5,7 @@ import java.util.List;
 
 import elkfed.config.ConfigProperties;
 import elkfed.coref.CorefResolver;
-import elkfed.coref.PairFeatureExtractor;
 import elkfed.coref.PairInstance;
-import elkfed.coref.algorithms.dummy.SoonDummyDecoder;
 import elkfed.coref.algorithms.sieve.Evaluation;
 import elkfed.coref.algorithms.sieve.SieveDecoder;
 import elkfed.coref.processors.AnnotationProcessor;
