@@ -391,7 +391,6 @@ public abstract class Sieve {
 		return false;
 	 }
 
-	
 	/**
 	 * Check if mention and antecedent belong to the same semantic class or
 	 * mention's or antecedent's semantic class equals "unknown".
@@ -687,7 +686,6 @@ public abstract class Sieve {
 		} 
 		return false;
 	}
-	
 	
 	
 	/**
