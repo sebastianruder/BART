@@ -38,7 +38,7 @@ public class SieveDecoder implements CorefResolver {
 		// counts number of walk_throughs
 		for (int walk_through = 1; walk_through < 11; walk_through++) {
 			// condition to exclude/include specific sieve
-			// if (walk_through == 1) {
+			// if (walk_through == 10) {
 			// continue;
 			// }
 			// the approriate sieve is created by the factory based on the
@@ -59,22 +59,22 @@ public class SieveDecoder implements CorefResolver {
 				if (ante_idx == -1) {
 					_scorer.scoreNonlink(mentions, i);
 				} else {
-					numLinks++;
-					mention_clusters.union(mentions.get(i),
-							mentions.get(ante_idx));
-					antecedents.put(mentions.get(i), mentions.get(ante_idx));
-
-					mentions.get(i).linkToAntecedent(mentions.get(ante_idx));
-					eval.setLink(mentions.get(i), mentions.get(ante_idx),
-							sieveName);
+					Mention m = mentions.get(i);
+					Mention ante = mentions.get(ante_idx);
 					
-					
-					_scorer.scoreLink(mentions, ante_idx, i);
-					if (_logger.isLoggable(Level.FINE)) {
-						Object[] args = { mentions.get(i),
-								mentions.get(ante_idx) };
-						_logger.log(Level.FINE, "joining %s and %s\n", args);
-					}
+					if (!(m.getDiscourseEntity() == ante.getDiscourseEntity())) {
+						numLinks++;
+						eval.setLink(m, ante, sieveName);
+						mention_clusters.union(m, ante);
+						antecedents.put(m, ante);
+						mentions.get(i).linkToAntecedent(mentions.get(ante_idx));
+						_scorer.scoreLink(mentions, ante_idx, i);
+						if (_logger.isLoggable(Level.FINE)) {
+							Object[] args = { mentions.get(i),
+									mentions.get(ante_idx) };
+							_logger.log(Level.FINE, "joining %s and %s\n", args);
+						}
+					}	
 				}
 			}
 		}
