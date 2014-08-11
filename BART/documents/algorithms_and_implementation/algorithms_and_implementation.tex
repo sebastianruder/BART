@@ -69,7 +69,7 @@ Die Merkmale koreferenter \textit{mentions} werden in einer eigenen \texttt{Disc
 \end{itemize}
 \citeasnoun{lee2013} geben für diesen \textit{sieve} eine $B^3$-Präzision von über 90\%, während wir eine Genauigkeit von 82\% erhalten. Da das Relativpronomen-Kriterium in diesem \textit{sieve} überwiegt, liegt diese Differenz vermutlich in der hypotaktischen Struktur des Deutschen (im Vergleich zum Englischen), sowie in der domänspezifischen Häufigkeit extraponierter (und daher schwer zuordenbarer) Relativsätze begründet.
 
-\item \textbf{StrictHeadMatchA} matcht zwei Mentions, wenn das \textit{head lemma} der Anapher in den \textit{heads} der Antezedens-Entität vorhanden ist und die folgenden Bedingungen erfüllt sind:
+\item \textbf{StrictHeadMatchA} matcht zwei \textit{mentions}, wenn das \textit{head lemma} der Anapher in den \textit{heads} der Antezedens-Entität vorhanden ist und die folgenden Bedingungen erfüllt sind:
 
 \begin{compactenum}[(i)]
  \item Die Modifikatoren der \textit{mention} müssen unter den Modifikatoren des Antezedens sein.
@@ -79,7 +79,7 @@ Die Merkmale koreferenter \textit{mentions} werden in einer eigenen \texttt{Disc
 
 \item \textbf{StrictHeadMatchB} ignoriert Bedingung (i), während \textbf{StrictHeadMatchC}  auf Bedingung (ii) verzichtet.
 
-\item \textbf{ProperHeadNounMatch} weist zwei \textit{mentions} als koreferent aus, wenn sie dasselbe \textit{head word} besitzen, sowie Bedingung (iii) erfüllen und (iv) keine unterschiedlichen Orte, Namen, Zahlen oder räumliche Modifikatoren aufweisen.
+\item \textbf{ProperHeadNounMatch} weist zwei \textit{mentions} als koreferent aus, wenn sie dasselbe \textit{head word} besitzen und dieses \textit{head word} ein \textit{proper noun} ist, sowie Bedingung (iii) erfüllen und (iv) keine unterschiedlichen Orte, Namen, Zahlen oder räumliche Modifikatoren aufweisen.
 
 \item \textbf{RelaxedHeadMatch} matcht zwei \textit{mentions}, wenn der Kopf der \textit{mention} mit einem Wort in der Antezedens-Entität übereinstimmt, wobei beide \textit{named entities} desselben Typs sein müssen und Bedingungen (ii) und (iii) genügen müssen.
 
@@ -110,7 +110,7 @@ Wir evaluierten gegen BART für das Deutsche und gegen das Stanford-System für 
 \begin{tabular}{l||ll|l}
 & \multicolumn{3}{c}{\textbf{MUC-Score}} \\ \hline
                & \textbf{Recall}		 & \textbf{Precision} & \textbf{F\_1}    \\ \hline
-Unser System 	& 0.644      & 0.691              & 0.667  \\ 
+Unser System 	& 0.643      & 0.692              & 0.667  \\
 BART  & 0.721 		 & 0.532     & 0.612
           
 \end{tabular}
@@ -143,13 +143,13 @@ PronounMatchSieve & 797 & 460 & 0,577
 SpeakerIdentification & 0.004  & 0.637     & 0.008    \\ 
 +StringMatch          & 0.157  & 0.857     & 0.265    \\ 
 +RelaxedStringMatch   & 0.180  & 0.825     & 0.295    \\ 
-+PreciseConstructs    & 0.241  & 0.822     & 0.372    \\  
-+HeadMatchA           & 0.295  & 0.809     & 0.432    \\ 
-+HeadMatchB           & 0.355  & 0.775     & 0.487    \\ 
-+HeadMatchC           & 0.357  & 0.771     & 0.488    \\ 
-+ProperHeadNounMatch  & 0.358  & 0.771     & 0.489    \\ 
-+RelaxedHeadMatch     & 0.383  & 0.771     & 0.512    \\ 
-+PronounMatch         & 0.644  & 0.691     & 0.667    \\  
++PreciseConstructs    & 0.237  & 0.822     & 0.367    \\ 
++HeadMatchA           & 0.291  & 0.809     & 0.427    \\ 
++HeadMatchB           & 0.351  & 0.775     & 0.483    \\ 
++HeadMatchC           & 0.353  & 0.770     & 0.484    \\ 
++ProperHeadNounMatch  & 0.354  & 0.771     & 0.485    \\ 
++RelaxedHeadMatch     & 0.379  & 0.771     & 0.508    \\ 
++PronounMatch         & 0.640  & 0.691     & 0.664    \\ 
 \end{tabular}
 \caption{Performanz der einzelnen \textit{sieves}}
 \label{tab:sieve_performanz}
@@ -165,7 +165,7 @@ Der PronounMatchSieve konnte zudem nicht verwendet werden, da es - anders als de
 \begin{tabular}{l||ll|l}
 & \multicolumn{3}{c}{\textbf{MUC-Score}} \\ \hline
                & \textbf{Recall}		 & \textbf{Precision} & \textbf{F\_1}    \\ \hline
-Unser System 	& 0.644      & 0.691              & 0.667  \\
+Unser System 	& 0.643      & 0.692              & 0.667  \\
 Stanford  & 0.721 		 & 0.532     & 0.612
           
 \end{tabular}
