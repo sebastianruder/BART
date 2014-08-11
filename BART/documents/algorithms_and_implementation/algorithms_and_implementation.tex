@@ -19,9 +19,9 @@
 \renewcommand{\harvardand}{und} 
 
 %entfernt die roten Rechtecke um verlinkte Worte
-%\hypersetup{
-  %  pdfborder = {0 0 0}
-%}
+\hypersetup{
+    pdfborder = {0 0 0}
+}
 
 %\setkomafont{disposition}{\normalfont\bfseries}
 \author{Julian Baumann, Xenia Kühling, Sebastian Ruder}
@@ -67,7 +67,7 @@ Die Merkmale koreferenter \textit{mentions} werden in einer eigenen \texttt{Disc
 	\item Eine der \textit{mentions} ist ein Akronym der anderen. Hier berücksichtigen wir Eigenheiten des Deutschen, in dem auch Akronyme teilweise mit '-' getrennt werden.
 	\item Eine der \textit{mentions} ist ein Demonym der anderen. Hierfür schlagen wir Demonyme in einer auf Wikipedia basierenden Liste nach, wobei dieses Kriterium im TüBa-D/Z-Korpus nicht von großer Bedeutung ist.
 \end{itemize}
-\citeasnoun{lee2013} geben für diesen \textit{sieve} eine $B^3$-Präzision von über 90\%, während wir eine Genauigkeit von 82\% erhalten. Da das Relativpronomen-Kriterium in diesem \textit{sieve} überwiegt, liegt diese Differenz vermutlich in der hypotaktischen Struktur des Deutschen (im Vergleich zum Englischen), sowie in der domänspezifischen Häufigkeit extraponierter (und daher schwer zuordenbarer) Relativsätze begründet.
+\citeasnoun{lee2013} geben für diesen \textit{sieve} eine $B^3$-Präzision von über 90\%, während wir eine Genauigkeit von 81\% erhalten. Da das Relativpronomen-Kriterium in diesem \textit{sieve} überwiegt, liegt diese Differenz vermutlich in der hypotaktischen Struktur des Deutschen (im Vergleich zum Englischen), sowie in der domänspezifischen Häufigkeit extraponierter (und daher schwer zuordenbarer) Relativsätze begründet.
 
 \item \textbf{StrictHeadMatchA} matcht zwei \textit{mentions}, wenn das \textit{head lemma} der Anapher in den \textit{heads} der Antezedens-Entität vorhanden ist und die folgenden Bedingungen erfüllt sind:
 
@@ -95,9 +95,8 @@ Das Pronomen ist mit demjenigen Antezedens koreferent, das die höchste \textit{
 	\item +100 wenn der Antezedens ein proper noun ist
 \end{itemize}
 
-Die endgültige \textit{salience} ist abhängig von der Satzentfernung $d$: \\
-$S = \frac{s}{2^d}$ \\
-Wir berechnen die \textit{salience} wie \citeasnoun{wunsch2006}, nur berücksichtigen wir keine Kataphern und keine Antezedenten, die mehr als 3 Sätze entfernt sind. Außerdem verwenden wir keine die \textit{head noun emphasis}, führen aber zusätzlich \textit{proper noun} als Feature ein.  
+Die endgültige \textit{salience} ist abhängig von der Satzentfernung $d$: $S = \frac{s}{2^d}$. \\
+Wir berechnen die \textit{salience} wie \citeasnoun{wunsch2006}, berücksichtigen jedoch keine Kataphern und keine Antezedenten, die mehr als 3 Sätze entfernt sind. Außerdem verwenden wir keine die \textit{head noun emphasis}, führen aber zusätzlich \textit{proper noun} als Feature ein.  
 \end{itemize}
 
 \section{Vergleich der Datenformate und Korpora}
@@ -105,14 +104,13 @@ Das XML-Format der TüBa-D/Z wird für BART in MMAX2 \cite{muller2006} konvertie
 
 \section{Evaluation}
 Aufgrund der Schwierigkeit, Daten im MMAX2-Format zu analysieren und zu visualisieren, konvertieren wir die Texte in das HTML-Format, wobei wir koreferente \textit{mentions} farbig markieren. Mithilfe der \texttt{Evaluation}-Klasse lassen wir uns ebenfalls die Details jedes \textit{match} und die Sieb-spezifische Performanz ausgeben.\\
-Wir evaluierten gegen BART für das Deutsche und gegen das Stanford-System für das Englische. Als Testkorpus für das Deutsche verwendeten wir die ersten 99 Dokumente der TüBa-D/Z, wobei wir BARTs \textit{machine learning}-Komponente auf den restlichen Dokumenten der TüBa-D/Z (Nr. 100 - Nr. 3528) trainierten. In Tabelle \ref{tab:ml_vergleich} ist der Vergleich mit BART zu sehen, während aus Tabelle \ref{tab:links} die Anzahl der verlinkten \textit{mentions} jedes \textit{sieve}  aus Tabelle \ref{tab:sieve_performanz} der individuelle Performanzgewinn hervorgehen.\\
+Wir evaluierten gegen BART für das Deutsche und gegen das Stanford-System für das Englische. Als Testkorpus für das Deutsche verwendeten wir die ersten 99 Dokumente der TüBa-D/Z, wobei wir BARTs \textit{machine learning}-Komponente auf den restlichen Dokumenten der TüBa-D/Z (Nr. 100 - Nr. 3528) trainierten. In Tabelle \ref{tab:ml_vergleich} ist der Vergleich mit BART zu sehen, während aus Tabelle \ref{tab:links} die Anzahl der verlinkten \textit{mentions} jedes \textit{sieve}  aus Tabelle \ref{tab:sieve_performanz} der individuelle Performanzgewinn hervorgehen.
 \begin{table}[h]
 \begin{tabular}{l||ll|l}
 & \multicolumn{3}{c}{\textbf{MUC-Score}} \\ \hline
                & \textbf{Recall}		 & \textbf{Precision} & \textbf{F\_1}    \\ \hline
 Unser System 	& 0.644      & 0.691              & 0.667  \\
 BART  & 0.721 		 & 0.532     & 0.612
-          
 \end{tabular}
 \caption{Vergleich mit BARTs Machine Learning-Konfiguration (\texttt{XMLExperiment})}
 \label{tab:ml_vergleich}
@@ -123,7 +121,7 @@ BART  & 0.721 		 & 0.532     & 0.612
 \textbf{Sieve} & \textbf{\# Links} & \textbf{\# korrekte Links} & \textbf{Präzision} \\\hline
 SpeakerIdentificationSieve & 11 & 7 & 0.636 \\
 StringMatchSieve & 324 & 280 & 0.864\\
-RelaxedStringMatchSieve & 324 & 280 & 0.864 \\
+RelaxedStringMatchSieve & 67 & 44 & 0.657 \\
 PreciseConstructSieve & 139 & 113 & 0.813 \\
 StrictHeadMatchASieve & 136 & 104 & 0.765 \\
 StrictHeadMatchBSieve & 182 & 118 & 0.648 \\
@@ -132,7 +130,6 @@ ProperHeadNounMatchSieve & 2 & 2 & 1.000 \\
 RelaxedHeadMatchSieve & 72 & 56 & 0.778 \\
 PronounMatchSieve & 797 & 460 & 0.577
 \end{tabular}
-
 \caption{Übersicht über die Anzahl der verlinkten \textit{mentions} der \textit{sieves}}
 \label{tab:links}
 \end{table}
@@ -156,11 +153,9 @@ SpeakerIdentification & 0.004 & 0.637 & 0.008 \\
 \label{tab:sieve_performanz}
 \end{table}
 
-Für die Evaluation unseres Systems auf englischsprachigen Daten verwendeten wir das Trainings-Set der CoNLL-2012 Shared Task, das auf dem OntoNotes 5.0-Korpus basiert. Die Daten wurde mithilfe mehrerer Skripte von Olga Uryupina in das MMAX2-Format konvertiert und außerdem von der BART-eigenen Preprocessing-Pipeline vorverarbeitet.
-
-Da wir unser System vorrangig für das Deutsche entwickelten, sind diese Ergebnisse deutlich ausbaufähig.
-
-Der PronounMatchSieve konnte zudem nicht verwendet werden, da es - anders als der PronounMatchSieve des Stanford-Systems - auf grammatischen Funktionen basiert. Eine Ebene, die diese darstellt, war allerdings nicht verfügbar. \\
+\clearpage
+Für die Evaluation unseres Systems auf englischsprachigen Daten, die aus Tabelle \ref{tab:ml_vergleich} hervorgeht, verwendeten wir das Trainings-Set des CoNLL-2012 \textit{shared task}, das auf dem OntoNotes 5.0-Korpus basiert. Die Daten wurden mithilfe mehrerer Skripte von Olga Uryupina in das MMAX2-Format konvertiert und außerdem von der BART-eigenen \textit{preprocessing}-Pipeline vorverarbeitet.\\
+Da wir unser System vorrangig für das Deutsche entwickelten, sind diese Ergebnisse deutlich ausbaufähig. Der PronounMatchSieve konnte zudem nicht verwendet werden, da er -- anders als der PronounMatchSieve des Stanford-Systems -- auf grammatischen Funktionen basiert. Eine Ebene, die diese darstellt, war allerdings nicht verfügbar. \\
 
 \begin{table}[h]
 \begin{tabular}{l||ll|l}
@@ -168,9 +163,8 @@ Der PronounMatchSieve konnte zudem nicht verwendet werden, da es - anders als de
           &    \textbf{F\_1}    \\ \hline
 Unser System &	  0.420  \\
 Stanford   &	0.603
-          
 \end{tabular}
-\caption{Vergleich mit dem Stanford-System (CoNLL- 2012 Shared Task Trainings-Set, Englisch)}
+\caption{Vergleich mit dem Stanford-System}
 \label{tab:ml_vergleich}
 \end{table}
 
