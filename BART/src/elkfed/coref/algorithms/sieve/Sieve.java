@@ -71,7 +71,6 @@ public abstract class Sieve {
 	 */
 	boolean isAppositive(PairInstance pair) {
 		if (FE_AppositiveParse.getAppositivePrs(pair)) {
-			System.out.println("APPOSITIVE");
 			return true;
 		}
 		return false;
@@ -86,7 +85,6 @@ public abstract class Sieve {
 	 */
 	boolean isPredicateNominative(PairInstance pair) {
 		if (FE_Copula.getCopula(pair)) {
-			System.out.println("PREDICATE NOMINATIVE");
 			return true;
 		}
 		return false;
@@ -109,7 +107,6 @@ public abstract class Sieve {
 				!isNeutral(antecedent) && // check if neutral
 				mention.embeds(antecedent)) { // check if antecedent is
 												// contained in mention
-			System.out.println("ROLE APPOSITIVE");
 			return true;
 		}
 		return false;
@@ -326,7 +323,6 @@ public abstract class Sieve {
 		if ((mention_lookup != null && mention_lookup.equals(antecedent))
 				|| (antecedent_lookup != null && antecedent_lookup
 						.equals(mention))) {
-			// System.out.println("DEMONYM");
 			return true;
 		}
 		return false;
@@ -334,13 +330,12 @@ public abstract class Sieve {
 
 	/**
 	 * Compute if sentences in which mention and antecedent appear are not more
-	 * than 4 sentences apart.
+	 * than 3 sentences apart.
 	 * 
 	 * @param pair PairInstance of mention, antecedent
 	 * @return true or false
 	 */
 	public boolean sentenceDistance(PairInstance pair) {
-		// FE_SentenceDistance sd = new FE_SentenceDistance();
 		if (FE_SentenceDistance.getSentDist(pair) < 4) {
 			return true;
 		}
@@ -423,12 +418,12 @@ public abstract class Sieve {
 	 * @return true if in such a relation; false if not
 	 */
 	boolean IWithinI(PairInstance pair) {
-		
-		if (!isAppositive(pair) && !isRelativePronoun(pair)
-				&& !isRoleAppositive(pair)) {
-			if (pair.getAnaphor().embeds(pair.getAntecedent())
-					|| pair.getAntecedent().embeds(pair.getAnaphor())) {
-				return true;
+		if (	!isAppositive(pair) && 
+				!isRelativePronoun(pair) && 
+				!isRoleAppositive(pair)) {
+				if (	pair.getAnaphor().embeds(pair.getAntecedent()) || 
+						pair.getAntecedent().embeds(pair.getAnaphor())) {
+					return true;
 			}
 		}
 		return false;
@@ -663,6 +658,7 @@ public abstract class Sieve {
 			return false;
 		}
 		String posTags_regex = "(adja|nn|ne|pidat)";
+		String posTags_regex_eng = "(jj|nn|nnp|nnps)";
 		
 		if (langPlugin instanceof GermanLanguagePlugin) {
 			anteWords = ante.getDiscourseElementsByLevel("lemma");
@@ -678,7 +674,7 @@ public abstract class Sieve {
 		Set<String> toTest = new HashSet<>();
 
 		for (int i = 0; i < mWords.size(); i++) {
-			if(mPos.get(i).matches(posTags_regex) && !mWords.get(i).equals(m.getHeadLemma())) {
+			if((mPos.get(i).matches(posTags_regex)  || mPos.get(i).matches(posTags_regex_eng))&& !mWords.get(i).equals(m.getHeadLemma())) {
 				toTest.add(mWords.get(i));
 			}
 		}	
@@ -709,7 +705,7 @@ public abstract class Sieve {
 			indef_articles = GermanLinguisticConstants.INDEF_ARTICLE;
 		} else if (langPlugin instanceof EnglishLanguagePlugin) {
 			def_articles = EnglishLinguisticConstants.RELATIVE_PRONOUN;
-			indef_articles = GermanLinguisticConstants.INDEF_ARTICLE;
+			indef_articles = EnglishLinguisticConstants.INDEF_ARTICLE;
 		}
 		for (String s : tokens) {
 			if (s.matches(def_articles) || s.matches(indef_articles)) {
