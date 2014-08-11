@@ -77,6 +77,25 @@ testData=/home/username/BART/BART/tuebadz-MMAX2/mmax-100d
 Um unser System zu verwenden, muss die main-Methode des [SieveAnnotator](src/elkfed/main/SieveAnnotator.java)
 gestartet werden.
 
+Um unser System für das Englische auf den CoNLL-Daten zu verwenden, bspw. auf dem Trainings-Set, müssen in [config.properties](config/config.properties) folgende Parameter verändert werden:
+
+Auf einem Windows-System:
+```
+testData=D:/BART/BART/tuebadz-MMAX2/mmax-conll/train
+```
+Auf einem Linux-System:
+```
+testData=/home/username/BART/BART/tuebadz-MMAX2/mmax-conll/train
+```
+
+In beiden Fällen: 
+
+``` language = eng ```
+
+Danach kann wie gehabt die main-Methode des [SieveAnnotator](src/elkfed/main/SieveAnnotator.java)
+gestartet werden.
+
+
 Um BARTs _machine learning_-Konfiguration in Betrieb zu nehmen, muss die main-Methode des [XMLExperiment](src/elkfed/main/XMLExperiment.java)
 mit dem Dateipfad der Konfigurationsdatei [idc0_german_closed.xml](config/idc0_german_closed.xml) als Programm-Argument
 gestartet werden.
@@ -127,7 +146,7 @@ Hier befindet sich die [Mention-Klasse](src/elkfed/coref/mentions/Mention.java) 
 * [src/elkfed/coref/processors](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/coref/features/processors):
 Hier befindet sich der [AnnotationProcessor](src/elkfed/coref/processors/AnnotationProcessor.java)
 * [src/elkfed/knowledge](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/knowledge):
-Hier befindet sich die [SemanticClass](src/elkfed/coref/processors/SemanticClass.java)
+Hier befindet sich die [SemanticClass](src/elkfed/knowledge/SemanticClass.java)
 * [src/elkfed/lang](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/lang):
 Hier befinden sich die verschiedenen LanguagePlugins und LinguisticConstants
 * [src/elkfed/main](https://github.com/sebastianruder/BART/tree/master/BART/src/elkfed/main):
