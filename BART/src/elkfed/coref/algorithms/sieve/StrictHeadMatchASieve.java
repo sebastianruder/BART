@@ -1,15 +1,7 @@
 package elkfed.coref.algorithms.sieve;
 
 import java.util.List;
-
-/**
- * @author julianbaumann
- */
-
 import elkfed.coref.PairInstance;
-/*
- * ToDo:  Proper WordInclusion with removed StopWords, modificator match,  i within i
- */
 import elkfed.coref.mentions.Mention;
 
 /**

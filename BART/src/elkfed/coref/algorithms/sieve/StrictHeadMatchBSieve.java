@@ -1,7 +1,6 @@
 package elkfed.coref.algorithms.sieve;
 
 import java.util.List;
-
 import elkfed.coref.PairInstance;
 import elkfed.coref.mentions.Mention;
 
