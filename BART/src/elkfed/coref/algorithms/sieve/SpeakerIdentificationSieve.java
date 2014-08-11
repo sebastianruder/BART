@@ -8,19 +8,16 @@ import elkfed.coref.features.pairs.FE_Speech;
 import elkfed.coref.mentions.Mention;
 
 /**
- * This sieve matches speakers to compatible pronouns,
- *
- * CONSTRAINTS TO BE IMPLEMENTED:
- * I assigned to the same speaker are coreferent.
- * you with the same speaker are coreferent.
- * The speaker and I in her text are coreferent.
- *
- * The speaker and a mention which is not I in the speaker's utterance cannot be coreferent.
- * Two I (or two you, or two we) assigned to different speakers cannot be coreferent.
- * Two different person pronouns by the same speaker cannot be coreferent.
- * Nominal mentions cannot be coreferent with I, you, or we in the same turn or quotation.
- * In conversations, you can corefer only with the previous speaker.
- * The constraints result in causing [my] and [he] to not be coreferent in the earlier example (due to the third constraint).
+ * This sieve matches speakers to compatible pronouns
+ * 
+ * A speaker can either be to the left or right of a speech part
+ * Speaker and compatible pronoun in speech have to have the same number and cannot be more than one sentence apart
+ * 
+ * A: "..."
+ * A speech_verb (:) "..."
+ * 
+ * "...", so A
+ * "...", speech_verb A
  * 
  * @author Xenia
  */
@@ -40,17 +37,21 @@ public class SpeakerIdentificationSieve extends Sieve {
 		for (int idx = 0; idx < mention_idx; idx++) {			
 			pair = new PairInstance(mention, mentions.get(idx));
 			Mention ante = pair.getAntecedent();
-			
+		
 			if (langPlugin.isExpletiveRB(mention) || langPlugin.isExpletiveRB(ante)){ 
 				return ante_idx; 
 			}
 			if (numberAgreement(pair) && !(FE_SentenceDistance.getSentDist(pair) > 1)) {
+				// mention is in speech, antecedent is speaker
 				if (FE_Speech.isMentionInSpeech(mention) && isSpeakerSpeechRight(ante)){
+					// only pronoun- speaker matching
 					if (mention.getPronoun() && !mention.getReflPronoun() && !mention.getRelPronoun()){
 						ante_idx = idx;
 					}
 				}
+				// antecedent is in speech, mention is speaker
 				else if (FE_Speech.isMentionInSpeech(ante) && isSpeakerSpeechLeft(mention)){
+					// only pronoun- speaker matching
 					if (ante.getPronoun() && !ante.getReflPronoun() && !ante.getRelPronoun()){
 						ante_idx = idx;
 					}
