@@ -40,13 +40,59 @@ blockverticalspace=15mm, colspace=15mm, subcolspace=8mm]{tikzposter}
 \block{The title matter}{The title...}
 \block{Blocks}{Blocks are...} \note[targetoffsetx=-1cm, targetoffsety=-10cm,rotate=5,angle=270,radius=8cm,width=.35\textwidth,innersep=.4cm]{You
 can...}
+\block{Evaluation}
+{
+\begin{table}[h]
+\begin{tabular}{l||ll|l}
+& \multicolumn{3}{c}{\textbf{MUC-Score}} \\ \hline
+               & \textbf{Recall}		 & \textbf{Precision} & \textbf{F\_1}    \\ \hline
+Unser System 	& 0.644      & 0.691              & 0.667  \\
+BART  & 0.721 		 & 0.532     & 0.612
+\end{tabular}
+\caption{Vergleich mit BARTs Machine Learning-Konfiguration (\texttt{XMLExperiment})}
+\label{tab:ml_vergleich}
+\end{table}
+
+\begin{table}[h]
+\begin{tabular}{l||ll|l}
+& \multicolumn{3}{c}{\textbf{MUC-Score}} \\ \hline
+	                 & \textbf{Recall} & \textbf{Precision} & \textbf{F\_1} \\ \hline
+SpeakerIdentification & 0.004 & 0.637 & 0.008 \\
++StringMatch & 0.157 & 0.857 & 0.265 \\
++RelaxedStringMatch & 0.180 & 0.825 & 0.295 \\
++PreciseConstructs & 0.241 & 0.822 & 0.372 \\
++HeadMatchA & 0.295 & 0.809 & 0.432 \\
++HeadMatchB & 0.355 & 0.775 & 0.487 \\
++HeadMatchC & 0.357 & 0.771 & 0.488 \\
++ProperHeadNounMatch & 0.358 & 0.771 & 0.489 \\
++RelaxedHeadMatch & 0.383 & 0.771 & 0.512 \\
++PronounMatch & 0.644 & 0.691 & 0.667 \\ 
+\end{tabular}
+\caption{Performanz der einzelnen \textit{sieves}}
+\label{tab:sieve_performanz}
+\end{table}
+
+\begin{table}[h]
+\begin{tabular}{l||ll|l}
+& \multicolumn{1}{c}{\textbf{MUC-Score}} \\ \hline
+          &    \textbf{F\_1}    \\ \hline
+Unser System &	  0.420  \\
+Stanford   &	0.603
+\end{tabular}
+\caption{Vergleich mit dem Stanford-System}
+\label{tab:ml_vergleich}
+\end{table}
+}
 
 \column{0.45} \block{Columns}{By default,...}
 \begin{subcolumns} \subcolumn{.4} \block{Subcolumns}{If you...} \subcolumn{.5} \block{}{An example...} \end{subcolumns}
 \block[titlewidthscale=.8,bodywidthscale=.9,titleoffsety=7.5mm,bodyoffsety=7mm]{Changing the Poster’s Appearance}{If the default...}
-\block{image}
+\block{Stanford}
 {\includegraphics{stanford}}
+\block{BART}
+{\includegraphics{bart_summary.png}}
 \end{columns}
+
 
 
 \end{document}
