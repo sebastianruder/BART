@@ -36,8 +36,14 @@ blockverticalspace=15mm, colspace=15mm, subcolspace=8mm]{tikzposter}
 
 \begin{document}\maketitle
 \begin{columns} \column{0.5}
-\block{Goal}{Goal...} %\note[targetoffsetx=.15\textwidth,targetoffsety=4.5cm,innersep=.4cm,angle=245]{Optional...}
-\block{Conclusion}{Conclusion...}
+\block{Goal}
+	{	
+Integrate rule-based, entity-centric Stanford sieve architecture in BART machine learning system
+	} %\note[targetoffsetx=.15\textwidth,targetoffsety=4.5cm,innersep=.4cm,angle=245]{Optional...}
+\block{BART}
+	{
+\includegraphics{bart_summary.png}
+	}
 \block{Blocks}{Blocks are...} %\note[targetoffsetx=-1cm, targetoffsety=-10cm,rotate=5,angle=270,radius=8cm,width=.35\textwidth,innersep=.4cm]{Youcan...}
 
 
@@ -81,10 +87,11 @@ Vergleich mit dem Stanford-System
 \block[titlewidthscale=.8,bodywidthscale=.9,titleoffsety=7.5mm,bodyoffsety=7mm]{Changing the Poster’s Appearance}{If the default...}
 \block{Stanford}
 {\includegraphics{stanford.png}}
-\block{BART}
-{\includegraphics{bart_summary.png}}
+
+\block{Conclusion}
+	{
+The rule-based sieve approach exceeds ML performance. Because our system has been designed primarily using linguistic constants specific to German, there still remains a lot of room for improvement for the English language. Due to the nature of the rule-based approach, the system is easy to extend. We leave this along with its adaptation to English, Italian, and other languages as future work.
+	}
 \end{columns}
-
-
 
 \end{document}
