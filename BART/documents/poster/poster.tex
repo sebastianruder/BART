@@ -39,16 +39,19 @@ blockverticalspace=15mm, colspace=15mm, subcolspace=8mm]{tikzposter}
 \block{Goal}
 	{	
 Integrate rule-based, entity-centric Stanford sieve architecture in BART machine learning system
-	} %\note[targetoffsetx=.15\textwidth,targetoffsety=4.5cm,innersep=.4cm,angle=245]{Optional...}
+	} 
 \block{BART}
 	{
 \includegraphics{bart_summary.png}
 	}
-\block{Blocks}{Blocks are...} %\note[targetoffsetx=-1cm, targetoffsety=-10cm,rotate=5,angle=270,radius=8cm,width=.35\textwidth,innersep=.4cm]{Youcan...}
+
 
 
 \block{Evaluation}
 	{
+	
+	
+	
 \begin{tabular}{l||ll|l}
 & \multicolumn{3}{c}{\textbf{MUC-Score}} \\ \hline
                & \textbf{Recall}		 & \textbf{Precision} & \textbf{F\_1}    \\ \hline
@@ -56,6 +59,8 @@ Unser System 	& 0.644      & 0.691              & 0.667  \\
 BART  & 0.721 		 & 0.532     & 0.612
 \end{tabular}
 Vergleich mit BARTs Machine Learning-Konfiguration (\texttt{XMLExperiment})
+
+
 
 \begin{tabular}{l||ll|l}
 & \multicolumn{3}{c}{\textbf{MUC-Score}} \\ \hline
@@ -71,6 +76,7 @@ SpeakerIdentification & 0.004 & 0.637 & 0.008 \\
 +RelaxedHeadMatch & 0.383 & 0.771 & 0.512 \\
 +PronounMatch & 0.644 & 0.691 & 0.667 \\ 
 \end{tabular}
+
 Performanz der einzelnen \textit{sieves}
 
 \begin{tabular}{l||ll|l}
@@ -79,19 +85,35 @@ Performanz der einzelnen \textit{sieves}
 Unser System &	  0.420  \\
 Stanford   &	0.603
 \end{tabular}
+
 Vergleich mit dem Stanford-System
 	}
+	
 
-\column{0.5} \block{Columns}{By default,...}
-\begin{subcolumns} \subcolumn{.4} \block{Subcolumns}{If you...} \subcolumn{.5} \block{}{An example...} \end{subcolumns}
-\block[titlewidthscale=.8,bodywidthscale=.9,titleoffsety=7.5mm,bodyoffsety=7mm]{Changing the Poster’s Appearance}{If the default...}
+\column{0.5} 
 \block{Stanford}
 {\includegraphics{stanford.png}}
+
+\block{Examples}{...} 
 
 \block{Conclusion}
 	{
 The rule-based sieve approach exceeds ML performance. Because our system has been designed primarily using linguistic constants specific to German, there still remains a lot of room for improvement for the English language. Due to the nature of the rule-based approach, the system is easy to extend. We leave this along with its adaptation to English, Italian, and other languages as future work.
 	}
+
+
 \end{columns}
+
+\column{1}
+\block{References}{
+Broscheit, S. et al. (2010), BART: A multilingual anaphora resolution system, in ‘Pro-
+ceedings of the 5th International Workshop on Semantic Evaluation’, SemEval ’10,
+Association for Computational Linguistics, Stroudsburg, PA, USA, pp. 104–107.\\
+Lee, H. et al. (2013), ‘Deterministic coreference resolution based on entity-centric,
+precision-ranked rules’, Comput. Linguist. 39(4), 885–916.\\
+Versley, Y. et al. (2008), BART: A modular toolkit for coreference resolution, in ‘Pro-
+ceedings of the ACL-08: HLT Demo Session’, Association for Computational Lin-
+guistics, Columbus, Ohio, pp. 9–12.\\
+} 
 
 \end{document}
