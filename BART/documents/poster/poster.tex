@@ -35,15 +35,23 @@ blockverticalspace=15mm, colspace=15mm, subcolspace=8mm]{tikzposter}
 \makeatother
 
 \begin{document}\maketitle
-\begin{columns} \column{0.5}
+
+\begin{columns} \column{1.0}
 \block{Goal}
 	{	
-Integrate rule-based, entity-centric Stanford sieve architecture in BART machine learning system
+Integrate rule-based, entity-centric Stanford sieve architecture into existing BART machine learning system
 	} 
-\block{BART}
-	{
+	\end{columns}
+\begin{columns} \column{0.4}
+
+
+\block{BART}{
+\begin{tikzfigure}[Functionality of BART]
+%\begin{tikzpicture}
+%stanford.png
 \includegraphics{bart_summary.png}
-	}
+%\end{tikzpicture}
+\end{tikzfigure}}
 
 
 
@@ -51,17 +59,17 @@ Integrate rule-based, entity-centric Stanford sieve architecture in BART machine
 	{
 	
 	
-	
+\begin{tikzfigure}[Comparison with BART Machine Learning Configuration (\texttt{XMLExperiment})]	
 \begin{tabular}{l||ll|l}
 & \multicolumn{3}{c}{\textbf{MUC-Score}} \\ \hline
                & \textbf{Recall}		 & \textbf{Precision} & \textbf{F\_1}    \\ \hline
-Unser System 	& 0.644      & 0.691              & 0.667  \\
+Our System 	& 0.644      & 0.691              & 0.667  \\
 BART  & 0.721 		 & 0.532     & 0.612
 \end{tabular}
-Vergleich mit BARTs Machine Learning-Konfiguration (\texttt{XMLExperiment})
+\end{tikzfigure}
 
 
-
+\begin{tikzfigure}[Performance of individual sieves]
 \begin{tabular}{l||ll|l}
 & \multicolumn{3}{c}{\textbf{MUC-Score}} \\ \hline
 	                 & \textbf{Recall} & \textbf{Precision} & \textbf{F\_1} \\ \hline
@@ -76,30 +84,53 @@ SpeakerIdentification & 0.004 & 0.637 & 0.008 \\
 +RelaxedHeadMatch & 0.383 & 0.771 & 0.512 \\
 +PronounMatch & 0.644 & 0.691 & 0.667 \\ 
 \end{tabular}
+\end{tikzfigure}
 
-Performanz der einzelnen \textit{sieves}
-
+\begin{tikzfigure}[Comparison with Stanford System (English)]
 \begin{tabular}{l||ll|l}
 & \multicolumn{1}{c}{\textbf{MUC-Score}} \\ \hline
           &    \textbf{F\_1}    \\ \hline
 Unser System &	  0.420  \\
 Stanford   &	0.603
 \end{tabular}
-
-Vergleich mit dem Stanford-System
+\end{tikzfigure}
 	}
 	
 
-\column{0.5} 
-\block{Stanford}
-{\includegraphics{stanford.png}}
+\column{0.6} 
+\block{Stanford}{
+\begin{tikzfigure}[Functionality of Stanford Coreference System]
+%\begin{tikzpicture}
+%stanford.png
+\includegraphics{stanford.png}
+%\end{tikzpicture}
+\end{tikzfigure}}
 
-\block{Examples}{...} 
+\block{Examples}{
+\textbf{[Der koreanische Autokonzern Daewoo]}$^{1}_{1}$ wollte auf [keinen Fall]$^{2}_{2}$ mit [\textbf{[seinem]}$^{1}_{3}$ Autoumschlag]$^{3}_{4}$ in [Bremerhaven]$^{4}_{5}$ bleiben und mit [\textbf{[seiner]}$^{1}_{6}$ Konzern-Zentrale]$^{5}_{7}$ auch nicht nach [Bremerhaven]$^{4}_{8}$ gehen.    
+\begin{quote}\texttt{Antecedent of '[seinem]':'[Der koreanische Autokonzern Daewoo]' with PronounMatchSieve\\
+Antecedent of '[seiner]':'[Der koreanische Autokonzern Daewoo]' with PronounMatchSieve
+}\\
+\end{quote}
 
+Dafür spricht \textbf{[[ihre]$^{1}_{1}$ klassische Ausbildung]}$^{2}_{2}$,  \textbf{[die]}$^{2}_{3}$ nicht mit [Wegwerfkultur]$^{3}_{4}$ und platten Melodien zusammen paßt.
+\begin{quote}\texttt{Antecedent of '[die]':'[ihre klassische Ausbildung]' with PreciseConstructSieve
+}\\
+\end{quote}
+} 
+
+\block{Not yet recognizable entities}{...} 
+
+
+	
+\end{columns}
+	
+	\begin{columns} \column{1.0}
 \block{Conclusion}
 	{
 The rule-based sieve approach exceeds ML performance. Because our system has been designed primarily using linguistic constants specific to German, there still remains a lot of room for improvement for the English language. Due to the nature of the rule-based approach, the system is easy to extend. We leave this along with its adaptation to English, Italian, and other languages as future work.
 	}
+	
 
 
 \end{columns}
