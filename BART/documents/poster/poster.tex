@@ -26,6 +26,7 @@ blockverticalspace=15mm, colspace=15mm, subcolspace=8mm]{tikzposter}
 \tikzstyle{edgelabel}=[rectangle,draw=gray!50,fill=gray!20,font=\sffamily\tiny]
 
 \usecolorstyle[colorTwo=braun,colorThree=sand,colorOne=rot]{Australia}
+\colorlet{notebgcolor}{rot}
 
 \titlegraphic{\includegraphics[height=10cm]{logo-University-of-Heidelberg.jpg}}
 \title{Rule-based Corefence Resolution with BART}
@@ -39,13 +40,14 @@ blockverticalspace=15mm, colspace=15mm, subcolspace=8mm]{tikzposter}
 \begin{columns} \column{1.0}
 \block{Goal}
 	{	
-Integrate rule-based, entity-centric Stanford sieve architecture into existing BART machine learning system
+Improvement of coreference resolution through integration of the rule-based, entity-centric Stanford sieve architecture into the existing BART machine learning system.  
+
 	} 
 	\end{columns}
 \begin{columns} \column{0.4}
 
 
-\block{BART}{
+\block{}{
 \begin{tikzfigure}[Functionality of BART]
 %\begin{tikzpicture}
 %stanford.png
@@ -59,7 +61,7 @@ Integrate rule-based, entity-centric Stanford sieve architecture into existing B
 	{
 	
 	
-\begin{tikzfigure}[Comparison with BART Machine Learning Configuration (\texttt{XMLExperiment})]	
+\begin{tikzfigure}[\textit{GERMAN}: Comparison with BART ML Configuration (\texttt{XMLExperiment}) ]	
 \begin{tabular}{l||ll|l}
 & \multicolumn{3}{c}{\textbf{MUC-Score}} \\ \hline
                & \textbf{Recall}		 & \textbf{Precision} & \textbf{F\_1}    \\ \hline
@@ -69,7 +71,7 @@ BART  & 0.721 		 & 0.532     & 0.612
 \end{tikzfigure}
 
 
-\begin{tikzfigure}[Performance of individual sieves]
+\begin{tikzfigure}[\textit{GERMAN}: Performance of individual sieves  ]
 \begin{tabular}{l||ll|l}
 & \multicolumn{3}{c}{\textbf{MUC-Score}} \\ \hline
 	                 & \textbf{Recall} & \textbf{Precision} & \textbf{F\_1} \\ \hline
@@ -86,11 +88,11 @@ SpeakerIdentification & 0.004 & 0.637 & 0.008 \\
 \end{tabular}
 \end{tikzfigure}
 
-\begin{tikzfigure}[Comparison with Stanford System (English)]
-\begin{tabular}{l||ll|l}
+\begin{tikzfigure}[\textit{ENGLISH}: Comparison with Stanford System ]
+\begin{tabular}{l|ll|l}
 & \multicolumn{1}{c}{\textbf{MUC-Score}} \\ \hline
           &    \textbf{F\_1}    \\ \hline
-Unser System &	  0.420  \\
+Our System &	  0.420  \\
 Stanford   &	0.603
 \end{tabular}
 \end{tikzfigure}
@@ -98,28 +100,73 @@ Stanford   &	0.603
 	
 
 \column{0.6} 
-\block{Stanford}{
+\block{}{
 \begin{tikzfigure}[Functionality of Stanford Coreference System]
 %\begin{tikzpicture}
 %stanford.png
-\includegraphics{stanford.png}
+\includegraphics[scale=0.7]{stanford.png}
 %\end{tikzpicture}
 \end{tikzfigure}}
 
 \block{Examples}{
-\textbf{[Der koreanische Autokonzern Daewoo]}$^{1}_{1}$ wollte auf [keinen Fall]$^{2}_{2}$ mit [\textbf{[seinem]}$^{1}_{3}$ Autoumschlag]$^{3}_{4}$ in [Bremerhaven]$^{4}_{5}$ bleiben und mit [\textbf{[seiner]}$^{1}_{6}$ Konzern-Zentrale]$^{5}_{7}$ auch nicht nach [Bremerhaven]$^{4}_{8}$ gehen.    
-\begin{quote}\texttt{Antecedent of '[seinem]':'[Der koreanische Autokonzern Daewoo]' with PronounMatchSieve\\
-Antecedent of '[seiner]':'[Der koreanische Autokonzern Daewoo]' with PronounMatchSieve
-}\\
-\end{quote}
+%\textbf{[Der koreanische Autokonzern Daewoo]}$^{1}_{1}$ wollte auf [keinen Fall]$^{2}_{2}$ mit [\textbf{[seinem]}$^{1}_{3}$ Autoumschlag]$^{3}_{4}$ in [Bremerhaven]$^{4}_{5}$ bleiben und mit [\textbf{[seiner]}$^{1}_{6}$ Konzern-Zentrale]$^{5}_{7}$ auch nicht nach [Bremerhaven]$^{4}_{8}$ gehen.   
+% 
+%\begin{quote}\texttt{Antecedent of '[seinem]':'[Der koreanische Autokonzern Daewoo]' with PronounMatchSieve\\
+%Antecedent of '[seiner]':'[Der koreanische Autokonzern Daewoo]' with PronounMatchSieve
+%}\\
+%\end{quote}
+%
+%Dafür spricht \textbf{[[ihre]$^{1}_{1}$ klassische Ausbildung]}$^{2}_{2}$,  \textbf{[die]}$^{2}_{3}$ nicht mit [Wegwerfkultur]$^{3}_{4}$ und platten Melodien zusammen paßt.
+%\begin{quote}\texttt{Antecedent of '[die]':'[ihre klassische Ausbildung]' with PreciseConstructSieve
+%}\\
+%\end{quote}
+%
+%"\textbf{[Ich]}$^{1}_{1}$ schließe jetzt ab", sagt \textbf{[der Standesbeamte Rolf Paschen]}$^{1}_{2}$ resolut, "sonst wird das hier nie was."
+%
+%\begin{quote}\texttt{Antecedent of '[der Standesbeamte Rolf Paschen]':'[Ich]' with SpeakerIdentificationSieve
+%}\\
+%\end{quote}
 
-Dafür spricht \textbf{[[ihre]$^{1}_{1}$ klassische Ausbildung]}$^{2}_{2}$,  \textbf{[die]}$^{2}_{3}$ nicht mit [Wegwerfkultur]$^{3}_{4}$ und platten Melodien zusammen paßt.
-\begin{quote}\texttt{Antecedent of '[die]':'[ihre klassische Ausbildung]' with PreciseConstructSieve
-}\\
-\end{quote}
+\innerblock{Precise Constructs Sieve}
+{Dafür spricht \textbf{[[ihre]$^{1}_{1}$ klassische  Ausbildung]}$^{2}_{2}$,  \textbf{[die]}$^{2}_{3}$ nicht mit [Wegwerfkultur]$^{3}_{4}$ und platten Melodien zusammen paßt.
+\begin{quote}
+\texttt{TRUE! Antecedent of '[die]':'[ihre klassische Ausbildung]'}
+\end{quote}}
+
+\innerblock{Pronoun Match Sieve}
+{\textbf{[Der koreanische Autokonzern Daewoo]}$^{1}_{1}$ wollte auf [keinen Fall]$^{2}_{2}$ mit [\textbf{[seinem]}$^{1}_{3}$ Autoumschlag]$^{3}_{4}$ in [Bremerhaven]$^{4}_{5}$ bleiben und mit [\textbf{[seiner]}$^{1}_{6}$ Konzern-Zentrale]$^{5}_{7}$ auch nicht nach [Bremerhaven]$^{4}_{8}$ gehen.
+\begin{quote}
+\texttt{TRUE! Antecedent of '[seinem]':'[Der koreanische Autokonzern Daewoo]' \\
+TRUE! Antecedent of '[seiner]':'[Der koreanische Autokonzern Daewoo]'}
+\end{quote}}
+
+\innerblock[]{Speaker Identification Sieve}{"\textbf{[Ich]}$^{1}_{1}$ schließe jetzt ab", sagt \textbf{[der Standesbeamte Rolf Paschen]}$^{1}_{2}$ resolut, "sonst wird das hier nie was."
+\begin{quote}
+\texttt{TRUE! Antecedent of '[der Standesbeamte Rolf Paschen]':'[Ich]'}
+\end{quote}}
+
+
+\innerblock
+{Entities that require more or commonsense knowledge}
+{\textbf{[Der Saatgutkonzern Pioneer Hi-Bred]}$^{1}_{1}$ hat in [Süddeutschland]$^{2}_{2}$ [nicht zugelassenen Gentech-Mais]$^{3}_{3}$ verkauft.\\\textbf{[Der Weltmarktführer für [Saatgut]$^{4}_{4}$]}$^{1}_{5}$ verstößt damit gegen [das Gentechnikgesetz]$^{5}_{6}$, [...].
+\begin{quote}
+\texttt{FALSE! No Antecedent for '[Der Weltmarktführer für Saatgut]'\\ANTECEDENT: [Der Saatgutkonzern Pioneer]}
+\end{quote}}
 } 
+%\note[targetoffsetx = 9cm, targetoffsety = -15.5 cm]{Rule-based approach not working!}
 
-\block{Not yet recognizable entities}{...} 
+
+%
+%\block{Problems}{
+%\innerblock
+%{Entities that require more or commonsense knowledge}
+%{\textbf{[Der Saatgutkonzern Pioneer Hi-Bred]}$^{1}_{1}$ hat in [Süddeutschland]$^{2}_{2}$ [nicht zugelassenen Gentech-Mais]$^{3}_{3}$ verkauft.\\\textbf{[Der Weltmarktführer für [Saatgut]$^{4}_{4}$]}$^{1}_{5}$ verstößt damit gegen [das Gentechnikgesetz]$^{5}_{6}$, [...].
+%\begin{quote}
+%\texttt{FALSE! No Antecedent for '[Der Weltmarktführer für Saatgut]'\\ANTECEDENT: [Der Saatgutkonzern Pioneer]}
+%\end{quote}}
+%} 
+
+
 
 
 	
@@ -137,6 +184,7 @@ The rule-based sieve approach exceeds ML performance. Because our system has bee
 
 \column{1}
 \block{References}{
+\small{
 Broscheit, S. et al. (2010), BART: A multilingual anaphora resolution system, in ‘Pro-
 ceedings of the 5th International Workshop on Semantic Evaluation’, SemEval ’10,
 Association for Computational Linguistics, Stroudsburg, PA, USA, pp. 104–107.\\
@@ -145,6 +193,6 @@ precision-ranked rules’, Comput. Linguist. 39(4), 885–916.\\
 Versley, Y. et al. (2008), BART: A modular toolkit for coreference resolution, in ‘Pro-
 ceedings of the ACL-08: HLT Demo Session’, Association for Computational Lin-
 guistics, Columbus, Ohio, pp. 9–12.\\
-} 
+}}
 
 \end{document}
