@@ -28,7 +28,7 @@ blockverticalspace=15mm, colspace=15mm, subcolspace=8mm]{tikzposter}
 \usecolorstyle[colorTwo=braun,colorThree=sand,colorOne=rot]{Australia}
 \colorlet{notebgcolor}{rot}
 
-\titlegraphic{\includegraphics[height=10cm]{logo-University-of-Heidelberg.jpg}}
+\titlegraphic{\includegraphics[height=8cm]{logo-University-of-Heidelberg.jpg}}
 \title{Rule-based Corefence Resolution with BART}
 \institute{Institute for Computational Linguistics, Univ. Heidelberg}
 \author{Julian Baumann, Xenia Kühling, Sebastian Ruder}
@@ -47,13 +47,17 @@ Improvement of coreference resolution through integration of the rule-based, ent
 \begin{columns} \column{0.4}
 
 
-\block{}{
+\block{BART}{
 \begin{tikzfigure}[Functionality of BART]
 %\begin{tikzpicture}
 %stanford.png
 \includegraphics{bart_summary.png}
 %\end{tikzpicture}
-\end{tikzfigure}}
+\end{tikzfigure}
+\begin{itemize}
+\item Mentions containing semantic information about a markable (gender, number, etc.) are generated
+\item Machine Learning employs syntactic and semantic features to generate pair instances (anaphor, antecedent) which are assembled in coreference chains
+\end{itemize}}
 
 
 
@@ -100,32 +104,19 @@ Stanford   &	0.603
 	
 
 \column{0.6} 
-\block{}{
+\block{Stanford Coreference System}{
 \begin{tikzfigure}[Functionality of Stanford Coreference System]
 %\begin{tikzpicture}
 %stanford.png
 \includegraphics[scale=0.7]{stanford.png}
 %\end{tikzpicture}
-\end{tikzfigure}}
+\end{tikzfigure}
+\begin{itemize}
+\item Input (mentions) passes ten independent precision-oriented coreference models ("sieves")
+\item Entity-centric approach uses previous sieves' output and information to make decisions
+\end{itemize}}
 
 \block{Examples}{
-%\textbf{[Der koreanische Autokonzern Daewoo]}$^{1}_{1}$ wollte auf [keinen Fall]$^{2}_{2}$ mit [\textbf{[seinem]}$^{1}_{3}$ Autoumschlag]$^{3}_{4}$ in [Bremerhaven]$^{4}_{5}$ bleiben und mit [\textbf{[seiner]}$^{1}_{6}$ Konzern-Zentrale]$^{5}_{7}$ auch nicht nach [Bremerhaven]$^{4}_{8}$ gehen.   
-% 
-%\begin{quote}\texttt{Antecedent of '[seinem]':'[Der koreanische Autokonzern Daewoo]' with PronounMatchSieve\\
-%Antecedent of '[seiner]':'[Der koreanische Autokonzern Daewoo]' with PronounMatchSieve
-%}\\
-%\end{quote}
-%
-%Dafür spricht \textbf{[[ihre]$^{1}_{1}$ klassische Ausbildung]}$^{2}_{2}$,  \textbf{[die]}$^{2}_{3}$ nicht mit [Wegwerfkultur]$^{3}_{4}$ und platten Melodien zusammen paßt.
-%\begin{quote}\texttt{Antecedent of '[die]':'[ihre klassische Ausbildung]' with PreciseConstructSieve
-%}\\
-%\end{quote}
-%
-%"\textbf{[Ich]}$^{1}_{1}$ schließe jetzt ab", sagt \textbf{[der Standesbeamte Rolf Paschen]}$^{1}_{2}$ resolut, "sonst wird das hier nie was."
-%
-%\begin{quote}\texttt{Antecedent of '[der Standesbeamte Rolf Paschen]':'[Ich]' with SpeakerIdentificationSieve
-%}\\
-%\end{quote}
 
 \innerblock{Precise Constructs Sieve}
 {Dafür spricht \textbf{[[ihre]$^{1}_{1}$ klassische  Ausbildung]}$^{2}_{2}$,  \textbf{[die]}$^{2}_{3}$ nicht mit [Wegwerfkultur]$^{3}_{4}$ und platten Melodien zusammen paßt.
