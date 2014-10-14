@@ -28,7 +28,7 @@ blockverticalspace=15mm, colspace=15mm, subcolspace=8mm]{tikzposter}
 \usecolorstyle[colorTwo=braun,colorThree=sand,colorOne=rot]{Australia}
 \colorlet{notebgcolor}{rot}
 
-\titlegraphic{\includegraphics[height=8cm]{logo-University-of-Heidelberg.jpg}}
+\titlegraphic{\includegraphics[height=7cm]{logo-University-of-Heidelberg.jpg}}
 \title{Rule-based Corefence Resolution with BART}
 \institute{Institute for Computational Linguistics, Univ. Heidelberg}
 \author{Julian Baumann, Xenia Kühling, Sebastian Ruder}
@@ -48,13 +48,14 @@ blockverticalspace=15mm, colspace=15mm, subcolspace=8mm]{tikzposter}
 \begin{columns} 
 	
 
-\column{0.6} 
+\column{0.53} 
 \block{Goal}
 	{	
-Improvement of coreference resolution through integration of the rule-based, entity-centric Stanford sieve architecture into the existing BART machine learning system.  
+We improve coreference resolution through integration of the rule-based, entity-centric sieve architecture developed by the Stanford NLP group into the existing BART machine learning system for coreference resolution. 
+
 
 	} 
-\block{Stanford Coreference System}{
+\block{Stanford Deterministic Coreference Resolution System}{
 \begin{tikzfigure}[Functionality of Stanford Coreference System]
 %\begin{tikzpicture}
 %stanford.png
@@ -64,7 +65,20 @@ Improvement of coreference resolution through integration of the rule-based, ent
 \begin{itemize}
 \item Input (mentions) passes ten independent precision-oriented coreference models ("sieves")
 \item Entity-centric approach uses previous sieves' output and information to make decisions
+\item top ranked system at the CoNLL-2011 shared task
 \end{itemize}}
+
+%\block{BART}{
+%\begin{tikzfigure}[Functionality of BART]
+%%\begin{tikzpicture}
+%%stanford.png
+%\includegraphics{bart_summary.png}
+%%\end{tikzpicture}
+%\end{tikzfigure}
+%\begin{itemize}
+%\item Mentions containing semantic information about a markable (gender, number, etc.) are generated
+%\item Machine Learning employs syntactic and semantic features to generate pair instances (anaphor, antecedent) which are assembled in coreference chains
+%\end{itemize}}
 
 \block{Examples}{
 %\textbf{[Der koreanische Autokonzern Daewoo]}$^{1}_{1}$ wollte auf [keinen Fall]$^{2}_{2}$ mit [\textbf{[seinem]}$^{1}_{3}$ Autoumschlag]$^{3}_{4}$ in [Bremerhaven]$^{4}_{5}$ bleiben und mit [\textbf{[seiner]}$^{1}_{6}$ Konzern-Zentrale]$^{5}_{7}$ auch nicht nach [Bremerhaven]$^{4}_{8}$ gehen.   
@@ -85,6 +99,11 @@ Improvement of coreference resolution through integration of the rule-based, ent
 %}\\
 %\end{quote}
 
+\innerblock[]{Speaker Identification Sieve}{"\textbf{[Ich]}$^{1}_{1}$ schließe jetzt ab", sagt \textbf{[der Standesbeamte Rolf Paschen]}$^{1}_{2}$ resolut, "sonst wird das hier nie was."
+\begin{quote}
+\texttt{TRUE! Antecedent of '[der Standesbeamte Rolf Paschen]':'[Ich]'}
+\end{quote}}
+
 \innerblock{Precise Constructs Sieve}
 {Dafür spricht \textbf{[[ihre]$^{1}_{1}$ klassische  Ausbildung]}$^{2}_{2}$,  \textbf{[die]}$^{2}_{3}$ nicht mit [Wegwerfkultur]$^{3}_{4}$ und platten Melodien zusammen paßt.
 \begin{quote}
@@ -98,10 +117,7 @@ Improvement of coreference resolution through integration of the rule-based, ent
 TRUE! Antecedent of '[seiner]':'[Der koreanische Autokonzern Daewoo]'}
 \end{quote}}
 
-\innerblock[]{Speaker Identification Sieve}{"\textbf{[Ich]}$^{1}_{1}$ schließe jetzt ab", sagt \textbf{[der Standesbeamte Rolf Paschen]}$^{1}_{2}$ resolut, "sonst wird das hier nie was."
-\begin{quote}
-\texttt{TRUE! Antecedent of '[der Standesbeamte Rolf Paschen]':'[Ich]'}
-\end{quote}}
+
 
 
 \innerblock
@@ -125,7 +141,7 @@ TRUE! Antecedent of '[seiner]':'[Der koreanische Autokonzern Daewoo]'}
 %} 
 
 
-\column{0.4}
+\column{0.47}
 
 
 \block{BART}{
@@ -140,18 +156,33 @@ TRUE! Antecedent of '[seiner]':'[Der koreanische Autokonzern Daewoo]'}
 \item Machine Learning employs syntactic and semantic features to generate pair instances (anaphor, antecedent) which are assembled in coreference chains
 \end{itemize}}
 
+%\block{Stanford Deterministic Coreference Resolution System}{
+%\begin{tikzfigure}[Functionality of Stanford Coreference System]
+%%\begin{tikzpicture}
+%%stanford.png
+%\includegraphics[scale=0.7]{stanford.png}
+%%\end{tikzpicture}
+%\end{tikzfigure}
+%\begin{itemize}
+%\item Input (mentions) passes ten independent precision-oriented coreference models ("sieves")
+%\item Entity-centric approach uses previous sieves' output and information to make decisions
+%\end{itemize}}
+
 
 
 \block{Evaluation}
 	{
-For German we used the first 100 documents of TüBa-D/Z (2008) to evaluate our system.
-To compare it to the original English based Stanford Sieve System, we also evaluated  it
-on CoNLL-2011 Shared Task training set. 
+%For German we used the first 100 documents of TüBa-D/Z (2008) to evaluate our system.
+%To compare it to the original English based Stanford Sieve System, we also evaluated  it
+%on CoNLL-2011 Shared Task training set. \\
+We used the following data for evaluation. \\
+\textit{GERMAN}: first 100 documens of TüBa-D/Z (2008)\\
+\textit{ENGLISH}: CoNLL-2011 Shared Task training set\\
 \begin{tikzfigure}[\textit{GERMAN}: Comparison with BART ML Configuration (\texttt{XMLExperiment} ) ]	
 \begin{tabular}{l||ll|l}
 & \multicolumn{3}{c}{\textbf{MUC-Score}} \\ \hline
                & \textbf{Recall}		 & \textbf{Precision} & \textbf{F\_1}    \\ \hline
-Our System 	& 0.644      & 0.691              & 0.667  \\
+Our system 	& 0.644      & 0.691              & 0.667  \\
 BART  & 0.721 		 & 0.532     & 0.612
 \end{tabular}
 \end{tikzfigure}
@@ -178,24 +209,31 @@ SpeakerIdentification & 0.004 & 0.637 & 0.008 \\
 \begin{tabular}{l|ll|l}
 & \multicolumn{1}{c}{\textbf{MUC-Score}} \\ \hline
           &    \textbf{F\_1}    \\ \hline
-Our System &	  0.420  \\
+Our system &	  0.420  \\
 Stanford   &	0.603
 \end{tabular}
 \end{tikzfigure}
 	}
-
 	
-\end{columns}
-	
-	\begin{columns} \column{1.0}
-\block{Conclusion}
+	\block{Conclusion}
 	{
-The rule-based sieve approach exceeds ML performance. Because our system has been designed primarily using linguistic constants specific to German, there still remains a lot of room for improvement for the English language. Due to the nature of the rule-based approach, the system is easy to extend. We leave this along with its adaptation to English, Italian, and other languages as future work.
+The rule-based sieve approach exceeds BART's Machine Learning performance. Since our system has been primarily designed using specific German linguistic constants, there is still a lot of room for improvement of the English language version.\\
+Due to the nature of the rule-based approach, the system is easy to extend. We leave this along with its adaptation to English, Italian, and other languages as future work.
 	}
+
 	
-
-
 \end{columns}
+	
+%	\begin{columns} \column{1.0}
+%\block{Conclusion}
+%	{
+%The rule-based sieve approach exceeds BART's Machine Learning performance. Since our system has been primarily designed using specific German linguistic constants, there is still a lot of room for improvement of the English language version.\\
+%Due to the nature of the rule-based approach, the system is easy to extend. We leave this along with its adaptation to English, Italian, and other languages as future work.
+%	}
+%	
+%
+%
+%\end{columns}
 
 \column{1}
 \block{References}{
@@ -207,7 +245,7 @@ Lee, H. et al. (2013), ‘Deterministic coreference resolution based on entity-c
 precision-ranked rules’, Comput. Linguist. 39(4), 885–916.\\
 Versley, Y. et al. (2008), BART: A modular toolkit for coreference resolution, in ‘Pro-
 ceedings of the ACL-08: HLT Demo Session’, Association for Computational Lin-
-guistics, Columbus, Ohio, pp. 9–12.\\
+guistics, Columbus, Ohio, pp. 9–12.
 }}
 
 \end{document}
