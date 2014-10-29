@@ -33,7 +33,7 @@ public class ProperHeadNounMatchSieve extends Sieve {
 			if (	pair.getAnaphor().getHeadPOS().equalsIgnoreCase("ne") &&  // head words must be proper nouns
 					pair.getAntecedent().getHeadPOS().equalsIgnoreCase("ne") && 
 					// mention and antecedent's head word must be the same
-					pair.getAnaphor().getDiscourseEntity().getHeadsString().equals(pair.getAntecedent().getDiscourseEntity().getHeadsString())){
+					pair.getAnaphor().getSieveDiscourseEntity().getHeadsString().equals(pair.getAntecedent().getSieveDiscourseEntity().getHeadsString())){
 				if (	!IWithinI(pair) &&  		// check if i-iwithin-i
 						noNumericMismatch(pair) && 	// check if numeric mismatch
 						noLocationMismatch(pair)){ 	// check if location mismatch

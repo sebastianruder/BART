@@ -40,6 +40,7 @@ import edu.stanford.nlp.trees.international.tuebadz.*;
 import edu.stanford.nlp.trees.Tree;
 import elkfed.config.ConfigProperties;
 import elkfed.coref.discourse_entities.DiscourseEntity;
+import elkfed.coref.discourse_entities.SieveDiscourseEntity;
 import elkfed.coref.utterances.Utterance;
 import elkfed.knowledge.SemanticClass;
 import elkfed.lang.EnglishLanguagePlugin;
@@ -120,6 +121,7 @@ public class Mention implements Comparable<Mention> {
 									// dnew (olga)
 
 	private DiscourseEntity _discourseEntity;
+	private SieveDiscourseEntity _sieveDiscourseEntity;
 
 	/* for parse heads */
 	private Tree _ParseHead;
@@ -581,7 +583,14 @@ public class Mention implements Comparable<Mention> {
 	public DiscourseEntity getDiscourseEntity() {
 		return _discourseEntity;
 	}
-
+	
+	public  SieveDiscourseEntity getSieveDiscourseEntity() {
+		return _sieveDiscourseEntity;
+	}
+	public void createSieveDiscourseEntity() {
+		_sieveDiscourseEntity = new SieveDiscourseEntity(this);
+	}
+	
 	public void createDiscourseEntity() {
 		_discourseEntity = new DiscourseEntity(this);
 	}
@@ -1184,9 +1193,16 @@ public class Mention implements Comparable<Mention> {
 	public void setDiscourseEntity(DiscourseEntity de) {
 		_discourseEntity = de;
 	}
+	
+	public void setSieveDiscourseEntity(SieveDiscourseEntity de) {
+		_sieveDiscourseEntity = de;
+	}
 
-	public void linkToAntecedent(Mention ante) {
+	public void linkToAntecedent(Mention ante) {		
+		
+		ante.getSieveDiscourseEntity().merge(this);
 		ante.getDiscourseEntity().merge(this);
 		_discourseEntity = ante.getDiscourseEntity();
+		_sieveDiscourseEntity = ante.getSieveDiscourseEntity();
 	}
 }

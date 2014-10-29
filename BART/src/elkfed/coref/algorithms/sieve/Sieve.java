@@ -15,6 +15,7 @@ import java.util.Set;
 import elkfed.config.ConfigProperties;
 import elkfed.coref.PairInstance;
 import elkfed.coref.discourse_entities.DiscourseEntity;
+import elkfed.coref.discourse_entities.SieveDiscourseEntity;
 import elkfed.coref.features.pairs.FE_AppositiveParse;
 import elkfed.coref.features.pairs.FE_Copula;
 import elkfed.coref.features.pairs.FE_SentenceDistance;
@@ -200,7 +201,7 @@ public abstract class Sieve {
 		}
 		if (tokens.length == 1 && tokens[0].matches(relative_pronouns)) {
 			String rp = tokens[0];
-			DiscourseEntity de = mention.getDiscourseEntity();
+			SieveDiscourseEntity de = mention.getSieveDiscourseEntity();
 			if (rp.equals("dem") || rp.equals("den") ||rp.equals("welcher")) {
 				de.setGender(Gender.MALE);
 			}
@@ -226,7 +227,7 @@ public abstract class Sieve {
 				de.addGender(Gender.PLURAL);
 			}			
 			else if (rp.equals("das") || rp.equals("welches")) {
-				mention.getDiscourseEntity().setGender(Gender.NEUTRAL);
+				mention.getSieveDiscourseEntity().setGender(Gender.NEUTRAL);
 			}
 			else if (rp.equals("denen")) {
 				de.setGender(Gender.PLURAL);
@@ -363,7 +364,7 @@ public abstract class Sieve {
 	 */
 	public boolean genderAgreement(PairInstance pair) {
 
-		for (Gender g: pair.getAnaphor().getDiscourseEntity().getGenders()){
+		for (Gender g: pair.getAnaphor().getSieveDiscourseEntity().getGenders()){
 			if (g.equals(Gender.UNKNOWN) || pair.getAntecedent().getGender().equals(g)) {
 				return true;
 			}
@@ -440,8 +441,8 @@ public abstract class Sieve {
 		// retrieves words in mention and antecedent
 		Set<String> mentionWords = new HashSet<String>();
 		Set<String> anteWords = new HashSet<String>();
-		mentionWords = pair.getAnaphor().getDiscourseEntity().getWords();
-		anteWords = pair.getAntecedent().getDiscourseEntity().getWords();
+		mentionWords = pair.getAnaphor().getSieveDiscourseEntity().getWords();
+		anteWords = pair.getAntecedent().getSieveDiscourseEntity().getWords();
 		
 		String numbers_relex = ".*(höchstens|mindestens|eins|zwei|drei|vier|fünf|sechs|sieben|acht|neun|zehn|elf|zwölf|hundert|tausend|million|milliarde).*";
 		String numbers_relex_eng = ".*(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|teen|million|billio).*";
@@ -487,8 +488,8 @@ public abstract class Sieve {
 		// retrieves words in mention and antecedent
 		Set<String> mentionWords = new HashSet<String>();
 		Set<String> anteWords = new HashSet<String>();
-		mentionWords = pair.getAnaphor().getDiscourseEntity().getWords();
-		anteWords = pair.getAntecedent().getDiscourseEntity().getWords();
+		mentionWords = pair.getAnaphor().getSieveDiscourseEntity().getWords();
+		anteWords = pair.getAntecedent().getSieveDiscourseEntity().getWords();
 		
 		
 		// retrieves pos tags in mention's and antecedent's words
@@ -559,7 +560,7 @@ public abstract class Sieve {
 		mheadLemmas.add(mHead);
 		//taking split heads into account
 		mheadLemmas.addAll(Arrays.asList(mHead.split(" ")));
-		Set<String> dAnteHeads = ante.getDiscourseEntity().getHeads();
+		Set<String> dAnteHeads = ante.getSieveDiscourseEntity().getHeads();
 		for (String head : dAnteHeads) {
 			if(mheadLemmas.contains(head) || Arrays.asList(head.split(" ")).contains(mHead)) {
 				return true;
@@ -611,7 +612,7 @@ public abstract class Sieve {
 		//taking split heads into account
 		mheadLemmas.add(mHead);
 		mheadLemmas.addAll(Arrays.asList(mHead.split(" ")));
-		Set<String> dAnteWords = ante.getDiscourseEntity().getWords();
+		Set<String> dAnteWords = ante.getSieveDiscourseEntity().getWords();
 		for (String head : dAnteWords) {
 			if (head == null){
 				return false;
@@ -632,8 +633,8 @@ public abstract class Sieve {
 	public boolean wordInclusion(PairInstance pair) {
 		Mention m = pair.getAnaphor();
 		Mention ante = pair.getAntecedent();
-		Set<String> dmWords = m.getDiscourseEntity().getWords();
-		Set<String> dAnteWords = ante.getDiscourseEntity().getWords();
+		Set<String> dmWords = m.getSieveDiscourseEntity().getWords();
+		Set<String> dAnteWords = ante.getSieveDiscourseEntity().getWords();
 		
 		if (dAnteWords.containsAll(dmWords)) {
 			return true;

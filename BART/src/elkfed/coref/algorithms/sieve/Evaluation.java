@@ -84,9 +84,9 @@ public class Evaluation {
 				m.getMarkable().getID(),
 				m.getHeadLemma(),
 				m.getHeadString(),
-				m.getDiscourseEntity().getWordsString(),
+				m.getSieveDiscourseEntity().getWordsString(),
 				m.getSetID(),
-				m.getDiscourseEntity().getID(),
+				m.getSieveDiscourseEntity().getID(),
 				langPlugin.getHeadGF(m));
 		printAndWrite(string_to_print);
 		//Markable markable = m.getMarkable();

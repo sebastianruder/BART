@@ -147,6 +147,7 @@ public abstract class AbstractMentionFactory implements MentionFactory {
                     }
                 }
                 mention.createDiscourseEntity();
+                mention.createSieveDiscourseEntity();
                 // in perfect-boundaries mode, we only create markables that
                 // we can find in the key
                 if (!_perfectBoundaries || m_coref != null) {

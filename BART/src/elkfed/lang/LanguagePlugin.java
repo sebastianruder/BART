@@ -108,7 +108,8 @@ public interface LanguagePlugin {
     static enum TableName {
         DemonymMap,
         RoleMap,
-        SpeechVerbMap
+        SpeechVerbMap,
+        AdjMap
     }
 
     public String lookupAlias(String original, TableName table);
